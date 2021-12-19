@@ -10,7 +10,7 @@ jobs:
         with:
           deno-version: v1.x
       - name: Check formatting
-        run: deno fmt -A 
+        run: deno fmt 
 
       - name: Analyze code
         run: deno lint -A
