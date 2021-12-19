@@ -15,9 +15,8 @@ jobs:
       - name: Check formatting
         run: deno fmt 
 
-      - name: Analyze code
-        run: deno lint 
-      - run: deno run -A src/main.js
+      - name: Run main.js
+        run: deno run -A src/main.js
       - run: |
           git config --global user.email sunclx@gmail.com
           git config --global user.name sunclx
