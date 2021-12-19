@@ -13,7 +13,7 @@ jobs:
         run: deno fmt 
 
       - name: Analyze code
-        run: deno lint -A
+        run: deno lint 
       - run: deno run -A src/main.js
       - run: git commit -a -m "deno fmt and lint"
       - run: git push
