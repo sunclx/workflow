@@ -1,0 +1,19 @@
+name: learn-github-actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Deno
+        uses: denoland/setup-deno@v1.0.0
+        with:
+          deno-version: v1.x
+      - name: Check formatting
+        run: deno fmt -A 
+
+      - name: Analyze code
+        run: deno lint -A
+      - run: deno run -A src/main.js
+      - run: git commit -a -m "deno fmt and lint"
+      - run: git push
