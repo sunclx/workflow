@@ -5,7 +5,7 @@ for (const arg of Deno.args) {
 }
 
 const resp = await fetch(
-  "https://raw.fastgit.org/chfchf0306/jeidian4.18/main/4.18",
+  "https://raw.githubusercontent.com/chfchf0306/jeidian4.18/main/4.18",
 );
 const data = await resp.text();
 const time = new Date();
