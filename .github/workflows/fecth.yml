@@ -15,5 +15,9 @@ jobs:
       - name: Analyze code
         run: deno lint 
       - run: deno run -A src/main.js
-      - run: git commit -a -m "deno fmt and lint"
+      - run: |
+          git config --global user.email sunclx@gmail.com
+          git config --global user.name sunclx
+          git add .
+          git commit -m "update" -a       
       - run: git push
