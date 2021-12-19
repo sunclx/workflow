@@ -1,7 +1,10 @@
-name: learn-github-actions
-on: [push]
+name: deno fmt and lint and fetch
+on: 
+  push:
+  schedule:
+    - cron: '0 8 * * *'
 jobs:
-  check-bats-version:
+  fectch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
