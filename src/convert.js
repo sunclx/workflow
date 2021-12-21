@@ -347,14 +347,14 @@ async function get_functionault_config(path) {
 // 将代理添加到配置文件
 function add_proxies_to_model(data, model) {
   if (model["proxies"]) {
-   model["proxies"] = model["proxies"].concat(data["proxy_list"]);
+    model["proxies"] = model["proxies"].concat(data["proxy_list"]);
   } else {
     model["proxies"] = data["proxy_list"];
   }
 
   for (const group of model["proxy-groups"]) {
     if (group["proxies"]) {
-     group["proxies"] = group["proxies"].concat(data["proxy_names"]);
+      group["proxies"] = group["proxies"].concat(data["proxy_names"]);
     } else {
       group["proxies"] = data["proxy_names"];
     }
