@@ -30,7 +30,8 @@ async function get_proxies(urls) {
   const url_list = urls.split(";");
   const headers = {
     "User-Agent": "Rule2",
-    "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+    "accept":
+      "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
   };
   const proxy_list = {
     "proxy_list": [],
@@ -86,13 +87,12 @@ async function get_proxies(urls) {
     for (const node of nodes_list) {
       if (node.startsWith("vmess://")) {
         const decode_proxy = decode_v2ray_node(node);
-        while (proxy_list["proxy_names"].includes(decode_proxy.name )){
-            decode_proxy.name = decode_proxy.name + "_2";
-            
+        while (proxy_list["proxy_names"].includes(decode_proxy.name)) {
+          decode_proxy.name = decode_proxy.name + "_2";
         }
         //console.log(decode_proxy.name)
         proxy_list["proxy_list"].push(decode_proxy);
-        proxy_list["proxy_names"].push(decode_proxy.name)
+        proxy_list["proxy_names"].push(decode_proxy.name);
       } else if (node.startsWith("ss://")) {
         //const decode_proxy = decode_ss_node([node]);
         //clash_node = ss_to_clash(decode_proxy);
@@ -112,7 +112,7 @@ async function get_proxies(urls) {
   //         }        }
   // log('共发现:{}个节点'.format(len(proxy_list['proxy_names'])))
   //console.log(proxy_list);
-  
+
   return proxy_list;
 }
 
