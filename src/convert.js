@@ -8,7 +8,7 @@ if (import.meta.main) {
   // sub_url = 'https://sub.realnode.co/api/v1/client/subscribe?token=2a8af2bb714193430496542651bf0f01'
   // sub_url='https://dogess.app/link/keRblm3EcRyTsawT?clash=1'
   const sub_url =
-    "https://raw.fastgit.org/chfchf0306/jeidian4.18/main/4.18;https://sub.realnode.co/api/v1/client/subscribe?token=2a8af2bb714193430496542651bf0f01";
+    "https://raw.githubusercontent.com/chfchf0306/jeidian4.18/main/4.18;https://sub.realnode.co/api/v1/client/subscribe?token=2a8af2bb714193430496542651bf0f01";
   // 输出路径
   const output_path = "./output.yaml";
   // 规则策略
