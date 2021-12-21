@@ -17,9 +17,11 @@ jobs:
 
       - name: Run main.js
         run: deno run -A src/main.js
+      - name: Run convert.js
+        run: deno run -A src/convert.js
       - run: |
           git config --global user.email sunclx@gmail.com
           git config --global user.name sunclx
           git add .
-          git commit -m "update" -a       
+          git commit -m "deno fmt auto" -a       
       - run: git push
