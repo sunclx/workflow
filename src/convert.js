@@ -100,13 +100,13 @@ async function get_proxies(urls) {
         proxy_list["proxy_list"].push(decode_proxy);
         proxy_list["proxy_names"].push(decode_proxy.name);
       } else if (node.startsWith("ss://")) {
-        const decode_proxy = decode_ss_node(node);
-        while (proxy_list["proxy_names"].includes(decode_proxy.name)) {
-          decode_proxy.name = decode_proxy.name + "_2";
-        }
-        //console.log(decode_proxy.name)
-        proxy_list["proxy_list"].push(decode_proxy);
-        proxy_list["proxy_names"].push(decode_proxy.name);
+        // const decode_proxy = decode_ss_node(node);
+        // while (proxy_list["proxy_names"].includes(decode_proxy.name)) {
+        //   decode_proxy.name = decode_proxy.name + "_2";
+        // }
+        // //console.log(decode_proxy.name)
+        // proxy_list["proxy_list"].push(decode_proxy);
+        // proxy_list["proxy_names"].push(decode_proxy.name);
       } else if (node.startsWith("ssr://")) {
         //const decode_proxy = decode_ssr_node([node]);
         //clash_node = ssr_to_clash(decode_proxy);
