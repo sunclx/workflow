@@ -969,385 +969,385 @@ proxies:
       Host: v3.ssrsub.com
   - name: 12/22_112
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: scDj68fv6xkMg2np9RgW
     server: 212.199.61.55
     port: 8388
   - name: 12/22_123
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: dsHq7JmRFhSkvxzCuMFy
     server: 46.102.153.106
     port: 8389
   - name: 12/22_125
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: scDj68fv6xkMg2np9RgW
     server: 212.199.61.55
     port: 8389
   - name: 12/22_88
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
     server: 192.46.210.73
     port: 5600
   - name: 12/22_81
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: g5MeD6Ft3CWlJId
     server: 192.46.210.73
     port: 5003
   - name: 12/22_128
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: Zq4srheW4eeqMfGeWMTG
     server: 188.214.125.106
     port: 8389
   - name: 12/22_75
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
     server: 172.105.41.63
     port: 3306
   - name: 12/22_117
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: mTrN2fMYeWJwrkWpTnL2
     server: 185.51.134.210
     port: 8389
   - name: 12/22_127
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: tjwRqQvteAjt3xFmbZTA
     server: 84.17.37.55
     port: 8389
   - name: 12/22_111
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: mTrN2fMYeWJwrkWpTnL2
     server: 185.51.134.210
     port: 8388
   - name: 12/22_73
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: faBAoD54k87UJG7
     server: 192.53.169.116
     port: 2376
   - name: 12/22_66
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: KhS1x8JT7p58RIp7gz
     server: 81.90.189.33
     port: 889
   - name: 12/22_113
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: ckX2YfENbjCtVzVJphFP
     server: 23.226.131.146
     port: 8388
   - name: 🇬🇧+英国Gb
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: 13f91d7fd2461aa8ac178d360d94b2a8
     server: 185.237.98.69
     port: 3212
   - name: 12/22_109
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: cdBIDV42DCwnfIN
     server: 139.99.62.207
     port: 8119
   - name: 12/22_65
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: sF43Xt2gONqcgFX563
     server: 141.95.0.26
     port: 826
   - name: 12/22_124
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: cNbqVVyUfbJFZ6S8EgRH
     server: 188.214.106.98
     port: 8389
   - name: 12/22_105
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: KixLvKzwjekG00rm
     server: 192.53.169.116
     port: 8080
   - name: 12/22_115
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: 7D4GYNDaFy4eebe47tvF
     server: 169.38.107.52
     port: 8388
   - name: 12/22_126
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: 2V7N5kGUghaLxF4aUqTw
     server: 37.120.194.82
     port: 8389
   - name: 12/22_78
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
     server: 46.29.218.6
     port: 5001
   - name: 🇭🇰+香港Hk+3
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: dbbdb5625d0268ef28240da6d67eb4c0
     server: 58.152.85.196
     port: 2808
   - name: 12/22_130
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: w4GUD28Bw9uCMdbc2pqA
     server: 223.25.246.4
     port: 8389
   - name: 12/22_131
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: q4apPAjyY9knqKS4e9xZ
     server: 70.32.0.208
     port: 8389
   - name: 12/22_132
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: ckX2YfENbjCtVzVJphFP
     server: 23.226.131.146
     port: 8389
   - name: 12/22_93
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
     server: 118.107.244.110
     port: 7306
   - name: 12/22_122
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: AsLgDbA45KTMXumtzWhf
     server: 84.247.50.10
     port: 8389
   - name: 12/22_101
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: XKFKl2rULjIp74
     server: 172.99.190.87
     port: 8008
   - name: 12/22_118
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: Mx6DztQqZb7j34FdWjER
     server: 37.19.218.197
     port: 8389
   - name: 12/22_70
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: faBAoD54k87UJG7
     server: 172.99.190.87
     port: 2376
   - name: 12/22_67
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: faBAoD54k87UJG7
     server: 172.99.190.87
     port: 2375
   - name: 12/22_84
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: g5MeD6Ft3CWlJId
     server: 172.99.190.87
     port: 5004
   - name: 12/22_133
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: YDNYJcNdH5xuLrhyr7Fj
     server: 96.47.224.2
     port: 8389
   - name: 12/22_140
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: dongtaiwang.com
     server: 23.19.26.246
     port: 10515
   - name: 12/22_71
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: faBAoD54k87UJG7
     server: 142.202.48.43
     port: 2376
   - name: 12/22_80
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: g5MeD6Ft3CWlJId
     server: 142.202.48.43
     port: 5003
   - name: 12/22_100
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: XKFKl2rULjIp74
     server: 46.29.218.6
     port: 8008
   - name: 12/22_86
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: g5MeD6Ft3CWlJId
     server: 142.202.48.43
     port: 5004
   - name: 12/22_107
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: PCnnH6SQSnfoS27
     server: 145.239.1.137
     port: 8090
   - name: 12/22_68
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: faBAoD54k87UJG7
     server: 142.202.48.43
     port: 2375
   - name: 12/22_103
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: KixLvKzwjekG00rm
     server: 142.202.48.43
     port: 8080
   - name: 12/22_106
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: PCnnH6SQSnfoS27
     server: 142.202.48.43
     port: 8090
   - name: 12/22_98
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
     server: 142.202.48.43
     port: 7307
   - name: 12/22_119
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: NK4wZejCzDfPdWXTK4FW
     server: 66.55.92.101
     port: 8389
   - name: 🇭🇰+香港Hk+2
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: 8e2bb8a49c86c76d7876bb61d44f40d9
     server: 120.232.82.190
     port: 2008
   - name: 🇺🇸+美国Us+2
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: d3bbe88595e1dfaa2c9085aa9bdaf3e4
     server: 169.197.142.250
     port: 2800
   - name: 12/22_74
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
     server: 46.29.218.6
     port: 3306
   - name: 🇺🇸+美国Us
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: 81d7d46b9c66c779e81b83bc594df5eb
     server: 108.165.196.212
     port: 2340
   - name: 12/22_96
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
     server: 46.29.218.6
     port: 7307
   - name: 12/22_95
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
     server: 145.239.1.137
     port: 7307
   - name: 🇺🇸+美国Us+3
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: c9ff20111b73874292da92cc4166421e
     server: 167.160.91.131
     port: 2948
   - name: 🇯🇵+日本Jp
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: d6d495a2aa737bf578e58868a96be20f
     server: 120.232.82.190
     port: 4008
   - name: 🇯🇵+日本Jp+2
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: 43e27d84de893cced5b4d6adfd087cff
     server: 120.232.82.190
     port: 4001
   - name: 12/22_136
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
     server: 139.99.62.207
     port: 8888
   - name: 🇨🇳+台湾Tw
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: 16b33a734063d5bb793634198ca90b73
     server: 120.232.82.190
     port: 3002
   - name: 12/22_62
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: pKEW8JPByTVTLtM
     server: 46.29.218.6
     port: 443
   - name: 12/22_90
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: TEzjfAYq2IjtuoS
     server: 139.162.80.175
     port: 6679
   - name: 12/22_141
     type: ss
-    method: aes-128-gcm
+    cipher: aes-128-gcm
     password: desperadoj.com_free_proxy_d39m
     server: music.desperadoj.com
     port: 30003
   - name: 12/22_63
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: pKEW8JPByTVTLtM
     server: 198.57.27.218
     port: 443
   - name: 12/22_77
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
     server: 139.99.62.207
     port: 5000
   - name: 12/22_85
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: g5MeD6Ft3CWlJId
     server: 46.29.218.6
     port: 5004
   - name: 12/22_142
     type: ss
-    method: aes-128-gcm
+    cipher: aes-128-gcm
     password: desperadoj.com_free_proxy_d39m
     server: 101.132.192.212
     port: 30003
   - name: 12/22_121
     type: ss
-    method: chacha20-ietf-poly1305
+    cipher: chacha20-ietf-poly1305
     password: Xd2xnHT8tYkVt5BDk92b
     server: 37.120.136.234
     port: 8389
   - name: 12/22_94
     type: ss
-    method: aes-256-gcm
+    cipher: aes-256-gcm
     password: FoOiGlkAA9yPEGP
     server: 198.57.27.218
     port: 7306
