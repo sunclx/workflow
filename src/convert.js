@@ -195,7 +195,7 @@ function decode_ss_node(node) {
   const proxy = {
     name: proxy_name,
     type: "ss",
-    method: matcher[1],
+    cipher: matcher[1],
     password: matcher[2],
     server: matcher[3],
     port: Number(matcher[4]),
