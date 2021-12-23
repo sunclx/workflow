@@ -1,5 +1,11 @@
-import { decode } from "https://deno.land/std@0.118.0/encoding/base64.ts";
+import * as base64 from "https://deno.land/std@0.118.0/encoding/base64.ts";
 import yaml from "https://cdn.skypack.dev/yaml?dts";
+
+// 说明 : 本脚本提供解析v2ray/ss/ssr/clashR/clashX订阅链接为Clash配置文件,仅供学习交流使用.
+function log(msg) {
+  const time = new Date();
+  console.log(`[${time.toISOString()}] ${msg}`);
+}
 
 // 程序入口
 const textDecoder = new TextDecoder();
@@ -19,19 +25,16 @@ if (import.meta.main) {
   }
 
   const node_list = await get_proxies(sub_url);
-  //console.log(node_list);
   const functionault_config = await get_functionault_config(config_path);
   const final_config = add_proxies_to_model(node_list, functionault_config);
   await save_config(output_path, final_config);
-  // console.log(`文件已导出至 ${config_path}`);
+  log(`文件已导出至 ${output_path}`);
 }
 // 获取订阅地址数据:
 async function get_proxies(urls) {
   const url_list = urls.split(";");
   const headers = {
     "User-Agent": "Rule2",
-    "accept":
-      "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
   };
   const proxy_list = {
     "proxy_list": [],
@@ -46,7 +49,9 @@ async function get_proxies(urls) {
     // const filename = new Date().toISOString().substring(0, 10) + ".txt";
     //await Deno.writeTextFile(filename, text);
     // const text = await Deno.readTextFile(filename);
-    const raw = decode(text);
+    //log(text);
+    const raw = base64.decode(text);
+    //log(raw);
     const decode_text = textDecoder.decode(raw);
     //console.log(decode_text);
     // 加载clash节点
@@ -83,7 +88,8 @@ async function get_proxies(urls) {
     //     proxy_list['proxy_list'].extend(nodes_list)
     //     proxy_list['proxy_names'].extend(node_names)
     //     continue
-    const nodes_list = decode_text.split("\n");
+    //log(decode_text);
+    const nodes_list = decode_text.split(/\r?\n/);
     for (const node of nodes_list) {
       if (node.startsWith("vmess://")) {
         const decode_proxy = decode_v2ray_node(node);
@@ -94,8 +100,13 @@ async function get_proxies(urls) {
         proxy_list["proxy_list"].push(decode_proxy);
         proxy_list["proxy_names"].push(decode_proxy.name);
       } else if (node.startsWith("ss://")) {
-        //const decode_proxy = decode_ss_node([node]);
-        //clash_node = ss_to_clash(decode_proxy);
+        const decode_proxy = decode_ss_node(node);
+        while (proxy_list["proxy_names"].includes(decode_proxy.name)) {
+          decode_proxy.name = decode_proxy.name + "_2";
+        }
+        //console.log(decode_proxy.name)
+        proxy_list["proxy_list"].push(decode_proxy);
+        proxy_list["proxy_names"].push(decode_proxy.name);
       } else if (node.startsWith("ssr://")) {
         //const decode_proxy = decode_ssr_node([node]);
         //clash_node = ssr_to_clash(decode_proxy);
@@ -116,17 +127,6 @@ async function get_proxies(urls) {
   return proxy_list;
 }
 
-// 说明 : 本脚本提供解析v2ray/ss/ssr/clashR/clashX订阅链接为Clash配置文件,仅供学习交流使用.
-// function log(msg) {
-//   time = datetime.datetime.now();
-//   print("[" + time.strftime("%Y.%m.%d-%H:%M:%S") + "] " + msg);
-// }
-
-// 保存到文件
-// function save_to_file(filename, content) {
-//   await Deno.writeTextFile(filename, content);
-// }
-
 // 针对url的base64解码
 // function safe_decode(s) {
 //   const num = len(s) % 4;
@@ -138,7 +138,7 @@ async function get_proxies(urls) {
 
 // 解析vmess节点
 function decode_v2ray_node(node) {
-  const decode_proxy = decode(node.slice(8));
+  const decode_proxy = base64.decode(node.slice(8));
   const proxy_str = textDecoder.decode(decode_proxy);
   //console.log(proxy_str);
   const proxy = JSON.parse(proxy_str);
@@ -183,57 +183,101 @@ function decode_v2ray_node(node) {
 //     log('可用v2ray节点{}个'.format(len(proxies['proxy_names'])))
 //     return proxies
 
-// 解析ss节点
-// function decode_ss_node(nodes){
-//     proxy_list = []
-//     for (let node of nodes){
-//         decode_proxy = node.decode('utf-8')[5:]
-//         if not decode_proxy or decode_proxy.isspace():
-//             log('ss节点信息为空，跳过该节点')
-//             continue
-//         info = dict()
-//         param = decode_proxy
-//         if param.find('//') > -1:
-//             remark = urllib.parse.unquote(param[param.find('//') + 1:])
-//             info['name'] = remark
-//             param = param[:param.find('//')]
-//         if param.find('/?') > -1:
-//             plugin = urllib.parse.unquote(param[param.find('/?') + 2:])
-//             param = param[:param.find('/?')]
-//             for p in plugin.split(';'):
-//                 key_value = p.split('=')
-//                 info[key_value[0]] = key_value[1]
-//         if param.find('@') > -1:
-//             matcher = re.match(r'(.*?)@(.*):(.*)', param)
-//             if matcher:
-//                 param = matcher.group(1)
-//                 info['server'] = matcher.group(2)
-//                 info['port'] = matcher.group(3)
-//             else:
-//                 continue
-//             matcher = re.match(
-//                 r'(.*?):(.*)', safe_decode(param).decode('utf-8'))
-//             if matcher:
-//                 info['method'] = matcher.group(1)
-//                 info['password'] = matcher.group(2)
-//             else:
-//                 continue
-//         else:
-//             matcher = re.match(r'(.*?):(.*)@(.*):(.*)',
-//                                safe_decode(param).decode('utf-8'))
-//             if matcher:
-//                 info['method'] = matcher.group(1)
-//                 info['password'] = matcher.group(2)
-//                 info['server'] = matcher.group(3)
-//                 info['port'] = matcher.group(4)
-//             else:
-//                 continue
-//         proxy_list.append(info)
-//             }
-//     return proxy_list
+//解析ss节点
+function decode_ss_node(node) {
+  let sp = node.split("#");
+  const proxy_name =decodeURIComponent( sp[1]);
+  const proxy_str = textDecoder.decode(base64.decode(sp[0].slice(5)));
+  log(proxy_str);
+  const re = /(.*?):(.*)@(.*):(.*)/i;
+  const matcher = proxy_str.match(re);
+  //log(matcher);
+  const proxy = {
+    name: proxy_name,
+    type: "ss",
+    method: matcher[1],
+    password: matcher[2],
+    server: matcher[3],
+    port: Number(matcher[4]),
+  };
+  //console.log(proxy);
+  return proxy;
+}
+// param = decode_proxy
+// if param.find('//') > -1:
+//     remark = urllib.parse.unquote(param[param.find('//') + 1:])
+//     info['name'] = remark
+//     param = param[:param.find('//')]
+// if param.find('/?') > -1:
+//     plugin = urllib.parse.unquote(param[param.find('/?') + 2:])
+//     param = param[:param.find('/?')]
+//     for p in plugin.split(';'):
+//         key_value = p.split('=')
+//         info[key_value[0]] = key_value[1]
+// if param.find('@') > -1:
+//     matcher = re.match(r'(.*?)@(.*):(.*)', param)
+//     if matcher:
+//         param = matcher.group(1)
+//         info['server'] = matcher.group(2)
+//         info['port'] = matcher.group(3)
+//     else:
+//         continue
+//     matcher = re.match(
+//         r'(.*?):(.*)', safe_decode(param).decode('utf-8'))
+//     if matcher:
+//         info['method'] = matcher.group(1)
+//         info['password'] = matcher.group(2)
+//     else:
+//         continue
+// else:
+//     matcher = re.match(r'(.*?):(.*)@(.*):(.*)',
+//                        safe_decode(param).decode('utf-8'))
+//     if matcher:
+//         info['method'] = matcher.group(1)
+//         info['password'] = matcher.group(2)
+//         info['server'] = matcher.group(3)
+//         info['port'] = matcher.group(4)
+//     else:
+//         continue
+// proxy_list.append(info)
 
+// return proxy_list
+
+// ss转换成Clash节点
+// function ss_to_clash(arr){
+//   log('ss节点转换中...')
+//   proxies = {
+//       'proxy_list': [],
+//       'proxy_names': []
+//   }
+//   for item in arr:
+//       name = f"{item.get('name') or ''}:{item.get('port')}"
+//       obj = {
+//           'name': name,
+//           'type': 'ss',
+//           'server': item.get('server'),
+//           'port': int(item.get('port')),
+//           'cipher': item.get('method'),
+//           'password': item.get('password'),
+//           'plugin': 'obfs' if item.get('plugin') and item.get('plugin').startswith('obfs') else None,
+//           'plugin-opts': {} if item.get('plugin') else None
+//       }
+//       if item.get('obfs'):
+//           obj['plugin-opts']['mode'] = item.get('obfs')
+//       if item.get('obfs-host'):
+//           obj['plugin-opts']['host'] = item.get('obfs-host')
+//       for key in list(obj.keys()):
+//           if obj.get(key) is None:
+//               del obj[key]
+//       proxies['proxy_list'].append(obj)
+//       proxies['proxy_names'].append(obj['name'])
+//   log('可用ss节点{}个'.format(len(proxies['proxy_names'])))
+//   return proxies
+//     }
 // // 解析ssr节点
-// function decode_ssr_node(nodes):
+// function decode_ssr_node(nodes){
+//   const decode_proxy = base64.decode(node.slice(6));
+//   const proxy_str = toText(decode_proxy);
 //     proxy_list = []
 //     for node in nodes:
 //         decode_proxy = node.decode('utf-8')[6:]
@@ -260,37 +304,7 @@ function decode_v2ray_node(node) {
 //             info[key_value[0]] = safe_decode(key_value[1]).decode('utf-8')
 //         proxy_list.append(info)
 //     return proxy_list
-
-// // ss转换成Clash节点
-// function ss_to_clash(arr):
-//     log('ss节点转换中...')
-//     proxies = {
-//         'proxy_list': [],
-//         'proxy_names': []
-//     }
-//     for item in arr:
-//         name = f"{item.get('name') or ''}:{item.get('port')}"
-//         obj = {
-//             'name': name,
-//             'type': 'ss',
-//             'server': item.get('server'),
-//             'port': int(item.get('port')),
-//             'cipher': item.get('method'),
-//             'password': item.get('password'),
-//             'plugin': 'obfs' if item.get('plugin') and item.get('plugin').startswith('obfs') else None,
-//             'plugin-opts': {} if item.get('plugin') else None
-//         }
-//         if item.get('obfs'):
-//             obj['plugin-opts']['mode'] = item.get('obfs')
-//         if item.get('obfs-host'):
-//             obj['plugin-opts']['host'] = item.get('obfs-host')
-//         for key in list(obj.keys()):
-//             if obj.get(key) is None:
-//                 del obj[key]
-//         proxies['proxy_list'].append(obj)
-//         proxies['proxy_names'].append(obj['name'])
-//     log('可用ss节点{}个'.format(len(proxies['proxy_names'])))
-//     return proxies
+//       }
 
 // // ssr转换成Clash节点
 // function ssr_to_clash(arr):
