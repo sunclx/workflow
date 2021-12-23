@@ -186,7 +186,7 @@ function decode_v2ray_node(node) {
 //解析ss节点
 function decode_ss_node(node) {
   let sp = node.split("#");
-  const proxy_name =decodeURIComponent( sp[1]);
+  const proxy_name = decodeURIComponent(sp[1]);
   const proxy_str = textDecoder.decode(base64.decode(sp[0].slice(5)));
   log(proxy_str);
   const re = /(.*?):(.*)@(.*):(.*)/i;
