@@ -5,123 +5,96 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: ⌈80⌋ 华中 01:80
+  - name: 🇺🇸 基础|美国04|脸书主力:18124
     type: vmess
-    server: cs.seerfs.com
-    port: 80
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
+    server: v11.88host.buzz
+    port: 18124
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v11.88host.buzz
+  - name: 🇺🇸 标准|美国03|解锁流媒体:18139
+    type: vmess
+    server: v23.88host.buzz
+    port: 18139
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v23.88host.buzz
+  - name: 🇯🇵 标准|日本02|解锁流媒体:18022
+    type: vmess
+    server: v22.88host.buzz
+    port: 18022
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v22.88host.buzz
+  - name: 翻墙党fanqiangdang.com:41002
+    type: vmess
+    server: 194.156.120.52
+    port: 41002
+    uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: shoutingtoutiao3.10010.com
-  - name: 🇨🇳 中国台湾03解锁流媒体:65018
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇦 标准|加拿大01|解锁流媒体:18072
     type: vmess
-    server: 00.cn1.rocketdns.xyz
-    port: 65018
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    server: v27.88host.buzz
+    port: 18072
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /rocket
+    ws-path: /mojing
     ws-headers:
-      Host: 00.cn1.rocketdns.xyz
-  - name: 🇨🇳 中国台湾01解锁流媒体:65013
+      Host: v27.88host.buzz
+  - name: 🇺🇸 标准|美国02|解锁流媒体:18138
     type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65013
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    server: v22.88host.buzz
+    port: 18138
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /rocket
+    ws-path: /mojing
     ws-headers:
-      Host: 00.cn2.rocketdns.xyz
-  - name: 12/22_16:443
+      Host: v22.88host.buzz
+  - name: 🇺🇸 标准|美国01|解锁流媒体:18137
     type: vmess
-    server: usa-washington.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-washington.lvuft.com
-  - name: 🇫🇮 芬兰01解锁流媒体:65020
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65020
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    server: v22.88host.buzz
+    port: 18137
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /rocket
+    ws-path: /mojing
     ws-headers:
-      Host: 00.cn3.rocketdns.xyz
-  - name: 🇯🇵 日本03解锁流媒体:65006
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65006
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn3.rocketdns.xyz
-  - name: 🇬🇧 英国01解锁流媒体:65009
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65009
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn3.rocketdns.xyz
-  - name: 🇺🇸 美国 US x1.0 01中转 本土:14264
-    type: vmess
-    server: jpaz4.biteb-ssx.xyz
-    port: 14264
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: jpaz4.biteb-ssx.xyz
-  - name: 🇯🇵 日本01解锁流媒体:65004
-    type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65004
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn2.rocketdns.xyz
+      Host: v22.88host.buzz
   - name: 12/22_12:80
     type: vmess
     server: mf-do-ua-05.xncloud.xyz
@@ -135,89 +108,11 @@ proxies:
     ws-path: /niaoyun
     ws-headers:
       Host: mf-do-ua-05.xncloud.xyz
-  - name: 12/22_56:27182
+  - name: 🇺🇸 标准|美国04|解锁流媒体:18140
     type: vmess
-    server: 195.133.53.192
-    port: 27182
-    uuid: a22df2ec-6200-11ec-9070-fecccc2333dc
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /AmrTCtbk/
-    ws-headers:
-      Host: 195.133.53.192
-  - name: 🇺🇸 美国 US x1.0 03中转:14464
-    type: vmess
-    server: jpaz3.biteb-ssx.xyz
-    port: 14464
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: jpaz3.biteb-ssx.xyz
-  - name: 🇸🇬 新加坡02解锁流媒体:65016
-    type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65016
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn2.rocketdns.xyz
-  - name: 🇺🇸 美国 US x1.0 06中转:14466
-    type: vmess
-    server: usin6.biteb-ssx.xyz
-    port: 14466
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: usin6.biteb-ssx.xyz
-  - name: 🇸🇬 新加坡03解锁流媒体:65017
-    type: vmess
-    server: 00.cn1.rocketdns.xyz
-    port: 65017
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn1.rocketdns.xyz
-  - name: 🇺🇸 美国 US x1.0 04中转:14360
-    type: vmess
-    server: usin4.biteb-ssx.xyz
-    port: 14360
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: usin4.biteb-ssx.xyz
-  - name: 12/22_32:18007
-    type: vmess
-    server: v13.88host.buzz
-    port: 18007
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    server: v24.88host.buzz
+    port: 18140
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
     alterId: "2"
     cipher: auto
     udp: true
@@ -225,11 +120,11 @@ proxies:
     tls: null
     ws-path: /mojing
     ws-headers:
-      Host: v13.88host.buzz
-  - name: 🇮🇳 印度01解锁流媒体:65007
+      Host: v24.88host.buzz
+  - name: 🇬🇧 英国01解锁流媒体:65009
     type: vmess
     server: 00.cn3.rocketdns.xyz
-    port: 65007
+    port: 65009
     uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
     alterId: "2"
     cipher: auto
@@ -239,10 +134,36 @@ proxies:
     ws-path: /rocket
     ws-headers:
       Host: 00.cn3.rocketdns.xyz
-  - name: 🇯🇵 日本02解锁流媒体:65005
+  - name: 12/22_19:443
+    type: vmess
+    server: 209.58.139.41
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-sanfrancisco.lvuft.com
+  - name: 🇨🇦 标准|加拿大02|解锁流媒体:18073
+    type: vmess
+    server: v28.88host.buzz
+    port: 18073
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v28.88host.buzz
+  - name: 🇫🇮 芬兰01解锁流媒体:65020
     type: vmess
     server: 00.cn3.rocketdns.xyz
-    port: 65005
+    port: 65020
     uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
     alterId: "2"
     cipher: auto
@@ -252,37 +173,63 @@ proxies:
     ws-path: /rocket
     ws-headers:
       Host: 00.cn3.rocketdns.xyz
-  - name: 12/22_42:18119
+  - name: 🇩🇪 德国01解锁流媒体:65008
     type: vmess
-    server: v13.88host.buzz
-    port: 18119
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: v13.88host.buzz
-  - name: 🇨🇳 ⌈80⌋ 台湾 01:80
-    type: vmess
-    server: tw1.ftnodes1.xyz
-    port: 80
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
-    alterId: "0"
+    server: 00.cn3.rocketdns.xyz
+    port: 65008
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /
+    ws-path: /rocket
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
-  - name: 12/22_6:80
+      Host: 00.cn3.rocketdns.xyz
+  - name: 🇮🇳 标准|印度01|解锁流媒体:18074
     type: vmess
-    server: 8.210.55.79
-    port: 80
-    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+    server: v27.88host.buzz
+    port: 18074
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v27.88host.buzz
+  - name: 🇮🇳 标准|印度02|解锁流媒体:18075
+    type: vmess
+    server: v28.88host.buzz
+    port: 18075
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v28.88host.buzz
+  - name: 🇯🇵 标准|日本01|解锁流媒体:18021
+    type: vmess
+    server: v21.88host.buzz
+    port: 18021
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v21.88host.buzz
+  - name: 12/22_50:20004
+    type: vmess
+    server: 120.197.88.216
+    port: 20004
+    uuid: 9130cf82-3615-4582-a2d0-d7e2a74134d3
     alterId: "1"
     cipher: auto
     udp: true
@@ -290,189 +237,7 @@ proxies:
     tls: null
     ws-path: /
     ws-headers:
-      Host: 8.210.55.79
-  - name: 🇰🇷 韩国 KR x1.0 01直连:14393
-    type: vmess
-    server: kraws1.biteb-ssx.xyz
-    port: 14393
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: kraws1.biteb-ssx.xyz
-  - name: 🇭🇰 香港01解锁流媒体:65000
-    type: vmess
-    server: 00.cn1.rocketdns.xyz
-    port: 65000
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn1.rocketdns.xyz
-  - name: 🇭🇰 香港 HK x1.0 A13直连:12493
-    type: vmess
-    server: hkaz13.biteb-ssx.xyz
-    port: 12493
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: hkaz13.biteb-ssx.xyz
-  - name: 🇨🇳 中国台湾02解锁流媒体:65014
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65014
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn3.rocketdns.xyz
-  - name: 🇰🇷 韩国 KR x1.0 02直连:6552
-    type: vmess
-    server: kraws2.biteb-ssx.xyz
-    port: 6552
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: kraws2.biteb-ssx.xyz
-  - name: 🇭🇰 ⌈443⌋ 香港 02:443
-    type: vmess
-    server: cs1.seerfs.com
-    port: 443
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: shoutingtoutiao3.10010.com
-  - name: 🇭🇰 ⌈80⌋ 香港 02:80
-    type: vmess
-    server: cs1.seerfs.com
-    port: 80
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: shoutingtoutiao3.10010.com
-  - name: 🇭🇰 ⌈绿通⌋ 香港 02:46794
-    type: vmess
-    server: cs1.seerfs.com
-    port: 46794
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: a.189.cn
-  - name: 🇸🇬 新加坡01解锁流媒体:65015
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65015
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn3.rocketdns.xyz
-  - name: 🇭🇰 香港03解锁流媒体:65002
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65002
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn3.rocketdns.xyz
-  - name: 🇭🇰 ⌈广停⌋ 香港 01:1082
-    type: vmess
-    server: sz.seerfs.com
-    port: 1082
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /TS/recharge/tzUrl.html
-    ws-headers:
-      Host: gd.189.cn
-  - name: 🇭🇰 ⌈广停⌋ 香港 02:1082
-    type: vmess
-    server: cs1.seerfs.com
-    port: 1082
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /TS/recharge/tzUrl.html
-    ws-headers:
-      Host: gd.189.cn
-  - name: 🇸🇬 新加坡 SG x1.0 01直连:10267
-    type: vmess
-    server: sgaws1.biteb-ssx.xyz
-    port: 10267
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: sgaws1.biteb-ssx.xyz
-  - name: 🇭🇰 香港 HK x1.0 A11直连:12493
-    type: vmess
-    server: hkaz11.biteb-ssx.xyz
-    port: 12493
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: hkaz11.biteb-ssx.xyz
+      Host: YouTube-aweikeji
   - name: 🇷🇺 俄罗斯01解锁流媒体:65019
     type: vmess
     server: 00.cn2.rocketdns.xyz
@@ -486,9 +251,412 @@ proxies:
     ws-path: /rocket
     ws-headers:
       Host: 00.cn2.rocketdns.xyz
-  - name: 🇭🇰 香港 HK x1.0 A10直连:12493
+  - name: 🇺🇸 美国 US x1.0 05中转:14350
     type: vmess
-    server: hkaz10.biteb-ssx.xyz
+    server: usin5.biteb-ssx.xyz
+    port: 14350
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: usin5.biteb-ssx.xyz
+  - name: 12/22_18:443
+    type: vmess
+    server: 45.35.84.162
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-dallas.lvuft.com
+  - name: 专线|亚洲04|混合主力:18056
+    type: vmess
+    server: v34.88host.buzz
+    port: 18056
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v34.88host.buzz
+  - name: 🇭🇰 香港 HK x1.0 D1 本土:12632
+    type: vmess
+    server: bit-hgc2.giize.com
+    port: 12632
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: bit-hgc2.giize.com
+  - name: 12/22_33:18007
+    type: vmess
+    server: 120.241.72.97
+    port: 18007
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v13.88host.buzz
+  - name: 🇺🇸 专线|美国03|原生NTT:18044
+    type: vmess
+    server: v33.88host.buzz
+    port: 18044
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v33.88host.buzz
+  - name: 🇷🇺 专线|俄罗斯03|原生IP:10088
+    type: vmess
+    server: ru03.ddns.99iplc.xyz
+    port: 10088
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: ru03.ddns.99iplc.xyz
+  - name: 🇺🇸 专线|美国01|原生NTT:18042
+    type: vmess
+    server: v31.88host.buzz
+    port: 18042
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v31.88host.buzz
+  - name: 🇺🇸 专线|西雅图02|原生NTT:18085
+    type: vmess
+    server: v32.88host.buzz
+    port: 18085
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v32.88host.buzz
+  - name: 🇺🇸 专线|美国02|原生NTT:18043
+    type: vmess
+    server: v32.88host.buzz
+    port: 18043
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v32.88host.buzz
+  - name: 🇺🇸 专线|西雅图01|原生NTT:18084
+    type: vmess
+    server: v31.88host.buzz
+    port: 18084
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v31.88host.buzz
+  - name: 🇺🇸 专线|美国04|原生NTT:18045
+    type: vmess
+    server: v34.88host.buzz
+    port: 18045
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v34.88host.buzz
+  - name: 🇷🇺 基础|俄罗斯03|限速100M:10086
+    type: vmess
+    server: ru03.ddns.99iplc.xyz
+    port: 10086
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: ru03.ddns.99iplc.xyz
+  - name: 🇷🇺 基础|俄罗斯02|限速100M:10086
+    type: vmess
+    server: ru02.ddns.99iplc.xyz
+    port: 10086
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: ru02.ddns.99iplc.xyz
+  - name: 🇮🇳 印度01解锁流媒体:65007
+    type: vmess
+    server: 00.cn3.rocketdns.xyz
+    port: 65007
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn3.rocketdns.xyz
+  - name: 🇷🇺 专线|俄罗斯02|原生IP:10088
+    type: vmess
+    server: ru02.ddns.99iplc.xyz
+    port: 10088
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: ru02.ddns.99iplc.xyz
+  - name: 专线|亚洲05|混合主力:18057
+    type: vmess
+    server: v35.88host.buzz
+    port: 18057
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v35.88host.buzz
+  - name: 🇯🇵 标准|日本03|解锁流媒体:18023
+    type: vmess
+    server: v23.88host.buzz
+    port: 18023
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v23.88host.buzz
+  - name: 专线|亚洲06|混合主力:18058
+    type: vmess
+    server: v36.88host.buzz
+    port: 18058
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v36.88host.buzz
+  - name: 🇯🇵 日本 JP x1.0 G1 80端口:11760
+    type: vmess
+    server: ae127b4e30282e1d7.awsglobalaccelerator.com
+    port: 11760
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: ae127b4e30282e1d7.awsglobalaccelerator.com
+  - name: 🇸🇬 标准|新加坡03|解锁流媒体:18035
+    type: vmess
+    server: v23.88host.buzz
+    port: 18035
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v23.88host.buzz
+  - name: 12/22_22:10003
+    type: vmess
+    server: 112.33.32.136
+    port: 10003
+    uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: 112.33.32.136
+  - name: 12/22_29:18005
+    type: vmess
+    server: 120.241.72.84
+    port: 18005
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: 🇸🇬 标准|新加坡01|解锁流媒体:18033
+    type: vmess
+    server: v21.88host.buzz
+    port: 18033
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v21.88host.buzz
+  - name: 12/22_31:18006
+    type: vmess
+    server: 120.241.72.84
+    port: 18006
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v12.88host.buzz
+  - name: 12/22_35:18008
+    type: vmess
+    server: 120.241.72.84
+    port: 18008
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v11.88host.buzz
+  - name: 🇭🇰 基础|香港01|万能主力:18005
+    type: vmess
+    server: v11.88host.buzz
+    port: 18005
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v11.88host.buzz
+  - name: 🇸🇬 新加坡02解锁流媒体:65016
+    type: vmess
+    server: 00.cn2.rocketdns.xyz
+    port: 65016
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn2.rocketdns.xyz
+  - name: 专线|亚洲01|混合主力:18053
+    type: vmess
+    server: v31.88host.buzz
+    port: 18053
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v31.88host.buzz
+  - name: 🇯🇵 日本02解锁流媒体:65005
+    type: vmess
+    server: 00.cn3.rocketdns.xyz
+    port: 65005
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn3.rocketdns.xyz
+  - name: 🇭🇰 香港 HK x1.0 A1直连:14369
+    type: vmess
+    server: hkaz1.biteb-ssx.xyz
+    port: 14369
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: hkaz1.biteb-ssx.xyz
+  - name: 🇭🇰 香港 HK x1.0 A11直连:12493
+    type: vmess
+    server: hkaz11.biteb-ssx.xyz
     port: 12493
     uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
     alterId: "2"
@@ -498,10 +666,205 @@ proxies:
     tls: null
     ws-path: index
     ws-headers:
-      Host: hkaz10.biteb-ssx.xyz
-  - name: 🇭🇰 香港 HK x1.0 A14直连:12493
+      Host: hkaz11.biteb-ssx.xyz
+  - name: 🇭🇰 基础|香港03|油管主力:18007
     type: vmess
-    server: hkaz14.biteb-ssx.xyz
+    server: v13.88host.buzz
+    port: 18007
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v13.88host.buzz
+  - name: 🇸🇬 新加坡01解锁流媒体:65015
+    type: vmess
+    server: 00.cn3.rocketdns.xyz
+    port: 65015
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn3.rocketdns.xyz
+  - name: 🇨🇳 中国台湾03解锁流媒体:65018
+    type: vmess
+    server: 00.cn1.rocketdns.xyz
+    port: 65018
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn1.rocketdns.xyz
+  - name: 12/22_34:18008
+    type: vmess
+    server: v11.88host.buzz
+    port: 18008
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v11.88host.buzz
+  - name: 🇭🇰 香港 HK x1.0 A4直连:14276
+    type: vmess
+    server: hkaz4.biteb-ssx.xyz
+    port: 14276
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: hkaz4.biteb-ssx.xyz
+  - name: 12/22_45:18122
+    type: vmess
+    server: 120.241.72.84
+    port: 18122
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: 🇯🇵 日本 JP x1.0 03中转 本土:14278
+    type: vmess
+    server: jpaz2.biteb-ssx.xyz
+    port: 14278
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: jpaz2.biteb-ssx.xyz
+  - name: 12/22_23:10003
+    type: vmess
+    server: 112.33.32.136
+    port: 10003
+    uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: 112.33.32.136
+  - name: 🇨🇳 中国台湾02解锁流媒体:65014
+    type: vmess
+    server: 00.cn3.rocketdns.xyz
+    port: 65014
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn3.rocketdns.xyz
+  - name: 🇸🇬 标准|新加坡02|解锁流媒体:18034
+    type: vmess
+    server: v22.88host.buzz
+    port: 18034
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v22.88host.buzz
+  - name: 🇸🇬 标准|新加坡04|解锁流媒体:18036
+    type: vmess
+    server: v24.88host.buzz
+    port: 18036
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v24.88host.buzz
+  - name: 12/22_40:18118
+    type: vmess
+    server: 120.241.72.84
+    port: 18118
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: 120.241.72.84
+  - name: 12/22_56:27182
+    type: vmess
+    server: 195.133.53.192
+    port: 27182
+    uuid: a22df2ec-6200-11ec-9070-fecccc2333dc
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /AmrTCtbk/
+    ws-headers:
+      Host: 195.133.53.192
+  - name: 12/22_32:18007
+    type: vmess
+    server: v13.88host.buzz
+    port: 18007
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v13.88host.buzz
+  - name: 🇸🇬 新加坡03解锁流媒体:65017
+    type: vmess
+    server: 00.cn1.rocketdns.xyz
+    port: 65017
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn1.rocketdns.xyz
+  - name: 🇭🇰 香港 HK x1.0 A9直连:12493
+    type: vmess
+    server: hkaz9.biteb-ssx.xyz
     port: 12493
     uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
     alterId: "2"
@@ -511,7 +874,215 @@ proxies:
     tls: null
     ws-path: index
     ws-headers:
-      Host: hkaz14.biteb-ssx.xyz
+      Host: hkaz9.biteb-ssx.xyz
+  - name: 🇯🇵 日本 JP x1.0 A5直连:11742
+    type: vmess
+    server: jpaz5.biteb-ssx.xyz
+    port: 11742
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: jpaz5.biteb-ssx.xyz
+  - name: 🇭🇰 香港 HK x1.0 A8直连:14467
+    type: vmess
+    server: hkaz8.biteb-ssx.xyz
+    port: 14467
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: hkaz8.biteb-ssx.xyz
+  - name: 🇭🇰 标准|香港03|解锁流媒体:18027
+    type: vmess
+    server: v23.88host.buzz
+    port: 18027
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v23.88host.buzz
+  - name: 🇯🇵 日本 JP x1.0 A1直连:12534
+    type: vmess
+    server: jpaz1.biteb-ssx.xyz
+    port: 12534
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: jpaz1.biteb-ssx.xyz
+  - name: 专线|亚洲03|混合主力:18055
+    type: vmess
+    server: v33.88host.buzz
+    port: 18055
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v33.88host.buzz
+  - name: 🇸🇬 新加坡 SG x1.0 01直连:10267
+    type: vmess
+    server: sgaws1.biteb-ssx.xyz
+    port: 10267
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: sgaws1.biteb-ssx.xyz
+  - name: 🇯🇵 日本03解锁流媒体:65006
+    type: vmess
+    server: 00.cn3.rocketdns.xyz
+    port: 65006
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn3.rocketdns.xyz
+  - name: 专线|亚洲02|混合主力:18054
+    type: vmess
+    server: v32.88host.buzz
+    port: 18054
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v32.88host.buzz
+  - name: 🇨🇳 专线|台湾04|原生HINET:18081
+    type: vmess
+    server: v33.88host.buzz
+    port: 18081
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v33.88host.buzz
+  - name: 🇨🇳 中国台湾01解锁流媒体:65013
+    type: vmess
+    server: 00.cn2.rocketdns.xyz
+    port: 65013
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn2.rocketdns.xyz
+  - name: 🇭🇰 香港 HK x1.0 A12直连:12493
+    type: vmess
+    server: hkaz12.biteb-ssx.xyz
+    port: 12493
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: hkaz12.biteb-ssx.xyz
+  - name: 🇭🇰 基础|香港06|社交主力:18010
+    type: vmess
+    server: v13.88host.buzz
+    port: 18010
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v13.88host.buzz
+  - name: 🇨🇳 基础|台湾04|视频主力:18120
+    type: vmess
+    server: v11.88host.buzz
+    port: 18120
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v11.88host.buzz
+  - name: 🇭🇰 专线|香港07|原生HKBN:18082
+    type: vmess
+    server: v31.88host.buzz
+    port: 18082
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v31.88host.buzz
+  - name: 🇭🇰 基础|香港05|社交主力:18009
+    type: vmess
+    server: v12.88host.buzz
+    port: 18009
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v12.88host.buzz
+  - name: 12/22_38:18117
+    type: vmess
+    server: 120.241.72.84
+    port: 18117
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: 120.241.72.84
   - name: 🇭🇰 香港 HK x1.0 A2直连:14445
     type: vmess
     server: hkaz2.biteb-ssx.xyz
@@ -525,58 +1096,71 @@ proxies:
     ws-path: index
     ws-headers:
       Host: hkaz2.biteb-ssx.xyz
-  - name: 🇭🇰 香港04解锁流媒体:65003
+  - name: 12/22_30:18006
     type: vmess
-    server: 00.cn1.rocketdns.xyz
-    port: 65003
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    server: 120.241.72.84
+    port: 18006
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /rocket
+    ws-path: /mojing
     ws-headers:
-      Host: 00.cn1.rocketdns.xyz
-  - name: 🇭🇰 ⌈443⌋ 香港 01:443
+      Host: t.me/vpnhat
+  - name: 🇭🇰 基础|香港02|万能主力:18006
     type: vmess
-    server: sz.seerfs.com
-    port: 443
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
-    alterId: "0"
+    server: v12.88host.buzz
+    port: 18006
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /
+    ws-path: /mojing
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
-  - name: 🇭🇰 ⌈80⌋ 香港 01:80
+      Host: v12.88host.buzz
+  - name: 🇨🇳 基础|台湾03|视频主力:18119
     type: vmess
-    server: sz.seerfs.com
-    port: 80
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
+    server: v13.88host.buzz
+    port: 18119
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
-    ws-path: /
+    ws-path: ""
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
-  - name: ⌈443⌋ 华中 01:443
+      Host: v13.88host.buzz
+  - name: 🇭🇰 专线|香港02|原生HGCBBS:18065
     type: vmess
-    server: cs.seerfs.com
-    port: 443
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
+    server: v32.88host.buzz
+    port: 18065
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
-    ws-path: /
+    ws-path: ""
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
+      Host: v32.88host.buzz
+  - name: 🇨🇳 基础|台湾02|视频主力:18118
+    type: vmess
+    server: v12.88host.buzz
+    port: 18118
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v12.88host.buzz
   - name: 12/22_57:27962
     type: vmess
     server: 198.200.51.18
@@ -603,6 +1187,45 @@ proxies:
     ws-path: index
     ws-headers:
       Host: jpaws1.biteb-ssx.xyz
+  - name: 🇨🇳 基础|台湾01|视频主力:18117
+    type: vmess
+    server: v12.88host.buzz
+    port: 18117
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v12.88host.buzz
+  - name: 🇨🇳 专线|台湾01|原生HINET:18078
+    type: vmess
+    server: v36.88host.buzz
+    port: 18078
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v36.88host.buzz
+  - name: 🇭🇰 基础|香港04|油管主力:18008
+    type: vmess
+    server: v11.88host.buzz
+    port: 18008
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v11.88host.buzz
   - name: 🇺🇸 美国01解锁流媒体:65010
     type: vmess
     server: 00.cn2.rocketdns.xyz
@@ -616,136 +1239,6 @@ proxies:
     ws-path: /rocket
     ws-headers:
       Host: 00.cn2.rocketdns.xyz
-  - name: 🇸🇬 新加坡 SG x1.0 03直连:14375
-    type: vmess
-    server: sgaws3.biteb-ssx.xyz
-    port: 14375
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: sgaws3.biteb-ssx.xyz
-  - name: 🇸🇬 新加坡 SG x1.0 02直连:14374
-    type: vmess
-    server: sgaws2.biteb-ssx.xyz
-    port: 14374
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: sgaws2.biteb-ssx.xyz
-  - name: 🇯🇵 日本 JP x1.0 A1直连:12534
-    type: vmess
-    server: jpaz1.biteb-ssx.xyz
-    port: 12534
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: jpaz1.biteb-ssx.xyz
-  - name: 🇺🇸 美国03解锁流媒体:65012
-    type: vmess
-    server: 00.cn1.rocketdns.xyz
-    port: 65012
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn1.rocketdns.xyz
-  - name: 12/22_19:443
-    type: vmess
-    server: 209.58.139.41
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-sanfrancisco.lvuft.com
-  - name: 🇭🇰 ⌈绿通⌋ 香港 01:46794
-    type: vmess
-    server: sz.seerfs.com
-    port: 46794
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: a.189.cn
-  - name: 🇯🇵 日本 JP x1.0 06直连:14459
-    type: vmess
-    server: jpaws6.biteb-ssx.xyz
-    port: 14459
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: jpaws6.biteb-ssx.xyz
-  - name: 12/22_5:80
-    type: vmess
-    server: 1116yn.fans8.xyz
-    port: 80
-    uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: 🇯🇵 日本 JP x1.0 A4直连:11742
-    type: vmess
-    server: jpaz4.biteb-ssx.xyz
-    port: 11742
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: jpaz4.biteb-ssx.xyz
-  - name: 12/22_8:80
-    type: vmess
-    server: 1116yn.fans8.xyz
-    port: 80
-    uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
   - name: 12/22_11:80
     type: vmess
     server: 165.154.229.22
@@ -759,6 +1252,32 @@ proxies:
     ws-path: /v2ray
     ws-headers:
       Host: t.me/vpnhat
+  - name: 12/22_43:18120
+    type: vmess
+    server: 120.241.72.84
+    port: 18120
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: 120.241.72.84
+  - name: 🇺🇸 基础|美国03|脸书主力:18123
+    type: vmess
+    server: v13.88host.buzz
+    port: 18123
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v13.88host.buzz
   - name: 12/22_2:80
     type: vmess
     server: 165.154.229.22
@@ -772,136 +1291,188 @@ proxies:
     ws-path: /v2ray
     ws-headers:
       Host: 165.154.229.22
-  - name: 🇯🇵 日本 JP x1.0 02直连:12641
+  - name: 12/22_8:80
     type: vmess
-    server: jpaws2.biteb-ssx.xyz
-    port: 12641
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: jpaws2.biteb-ssx.xyz
-  - name: 🇺🇸 美国02解锁流媒体:65011
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65011
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn3.rocketdns.xyz
-  - name: 12/22_15:443
-    type: vmess
-    server: 192.96.204.250
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-washington.lvuft.com
-  - name: 🇩🇪 德国01解锁流媒体:65008
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65008
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn3.rocketdns.xyz
-  - name: 🇯🇵 日本 JP x1.0 05直连:14463
-    type: vmess
-    server: jpaws5.biteb-ssx.xyz
-    port: 14463
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: jpaws5.biteb-ssx.xyz
-  - name: 🇨🇳 台湾 TW x1.0 D1 本土:14439
-    type: vmess
-    server: tw1.biteb-ssx.xyz
-    port: 14439
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: tw1.biteb-ssx.xyz
-  - name: 12/22_17:443
-    type: vmess
-    server: 208.98.48.2
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: iesei1ei.com
-  - name: 12/22_18:443
-    type: vmess
-    server: 45.35.84.162
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-dallas.lvuft.com
-  - name: 🇯🇵 ⌈80⌋ 日本 01:80
-    type: vmess
-    server: jp1.ftnodes1.xyz
+    server: 1116yn.fans8.xyz
     port: 80
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
-    alterId: "0"
+    uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /
+    ws-path: /v2ray
     ws-headers:
-      Host: shoutingtoutiao3.10010.com
-  - name: ⌈广停⌋ 华中 01:13302
+      Host: t.me/vpnhat
+  - name: 🇭🇰 专线|香港01|原生HGCBBS:18064
     type: vmess
-    server: cs.seerfs.com
-    port: 13302
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
+    server: v31.88host.buzz
+    port: 18064
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
     alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v31.88host.buzz
+  - name: 12/22_5:80
+    type: vmess
+    server: 1116yn.fans8.xyz
+    port: 80
+    uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /TS/recharge/tzUrl.html
+    ws-path: /v2ray
     ws-headers:
-      Host: gd.189.cn
+      Host: youtube-aweikeji
+  - name: 🇭🇰 专线|香港08|原生HKBN:18083
+    type: vmess
+    server: v32.88host.buzz
+    port: 18083
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v32.88host.buzz
+  - name: 🇭🇰 专线|香港03|原生CMI:18066
+    type: vmess
+    server: v33.88host.buzz
+    port: 18066
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v33.88host.buzz
+  - name: 🇭🇰 专线|香港06|原生CMI:18069
+    type: vmess
+    server: v36.88host.buzz
+    port: 18069
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v36.88host.buzz
+  - name: 🇭🇰 香港04解锁流媒体:65003
+    type: vmess
+    server: 00.cn1.rocketdns.xyz
+    port: 65003
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn1.rocketdns.xyz
+  - name: 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+    type: vmess
+    server: hkaz1.biteb-ssx.xyz
+    port: 14454
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: hkaz1.biteb-ssx.xyz
+  - name: 🇨🇳 专线|台湾03|原生HINET:18080
+    type: vmess
+    server: v34.88host.buzz
+    port: 18080
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v34.88host.buzz
+  - name: 🇭🇰 专线|香港04|原生HGCBBS:18067
+    type: vmess
+    server: v34.88host.buzz
+    port: 18067
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v34.88host.buzz
+  - name: 🇨🇳 专线|台湾02|原生HINET:18079
+    type: vmess
+    server: v35.88host.buzz
+    port: 18079
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v35.88host.buzz
+  - name: 🇭🇰 标准|香港05|解锁流媒体:18029
+    type: vmess
+    server: v25.88host.buzz
+    port: 18029
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v25.88host.buzz
+  - name: 🇭🇰 香港01解锁流媒体:65000
+    type: vmess
+    server: 00.cn1.rocketdns.xyz
+    port: 65000
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn1.rocketdns.xyz
+  - name: 🇭🇰 标准|香港04|解锁流媒体:18028
+    type: vmess
+    server: v24.88host.buzz
+    port: 18028
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v24.88host.buzz
   - name: 🇭🇰 香港02解锁流媒体:65001
     type: vmess
     server: 00.cn2.rocketdns.xyz
@@ -915,6 +1486,136 @@ proxies:
     ws-path: /rocket
     ws-headers:
       Host: 00.cn2.rocketdns.xyz
+  - name: 🇭🇰 标准|香港02|解锁流媒体:18026
+    type: vmess
+    server: v22.88host.buzz
+    port: 18026
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v22.88host.buzz
+  - name: 🇭🇰 香港03解锁流媒体:65002
+    type: vmess
+    server: 00.cn3.rocketdns.xyz
+    port: 65002
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn3.rocketdns.xyz
+  - name: 🇭🇰 标准|香港01|解锁流媒体:18025
+    type: vmess
+    server: v21.88host.buzz
+    port: 18025
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v21.88host.buzz
+  - name: 🇺🇸 美国02解锁流媒体:65011
+    type: vmess
+    server: 00.cn3.rocketdns.xyz
+    port: 65011
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn3.rocketdns.xyz
+  - name: 🇭🇰 专线|香港05|原生HGCBBS:18068
+    type: vmess
+    server: v35.88host.buzz
+    port: 18068
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v35.88host.buzz
+  - name: 🇯🇵 日本01解锁流媒体:65004
+    type: vmess
+    server: 00.cn2.rocketdns.xyz
+    port: 65004
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn2.rocketdns.xyz
+  - name: 12/22_44:18121
+    type: vmess
+    server: 120.241.72.84
+    port: 18121
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: 🇭🇰 香港 HK x1.0 D2 本土:10871
+    type: vmess
+    server: hkhkt1.biteb-ssx.xyz
+    port: 10871
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: hkhkt1.biteb-ssx.xyz
+  - name: 12/22_41:18119
+    type: vmess
+    server: 120.241.72.97
+    port: 18119
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: 120.241.72.97
+  - name: 🇭🇰 香港 HK x1.0 05中转 本土:11390
+    type: vmess
+    server: hkaz5.biteb-ssx.xyz
+    port: 11390
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: index
+    ws-headers:
+      Host: hkaz5.biteb-ssx.xyz
   - name: 🇷🇺 俄罗斯02解锁流媒体:65021
     type: vmess
     server: 00.cn3.rocketdns.xyz
@@ -928,57 +1629,172 @@ proxies:
     ws-path: /rocket
     ws-headers:
       Host: 00.cn3.rocketdns.xyz
-  - name: 12/22_20:443
+  - name: 12/22_6:80
     type: vmess
-    server: v3.ssrsub.com
-    port: 443
-    uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ssrsub
-    ws-headers:
-      Host: v3.ssrsub.com
-  - name: ⌈绿通⌋ 华中 01:46794
-    type: vmess
-    server: cs.seerfs.com
-    port: 46794
-    uuid: 25f9d4a5-3236-384b-881b-13a0f716ca45
-    alterId: "0"
+    server: 8.210.55.79
+    port: 80
+    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+    alterId: "1"
     cipher: auto
     udp: true
     network: ws
     tls: null
     ws-path: /
     ws-headers:
-      Host: a.189.cn
-  - name: 12/22_21:443
+      Host: 8.210.55.79
+  - name: 12/22_42:18119
     type: vmess
-    server: v3.ssrsub.com
-    port: 443
-    uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
+    server: v13.88host.buzz
+    port: 18119
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
     alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: v13.88host.buzz
+  - name: 12/22_46:18123
+    type: vmess
+    server: 120.241.72.97
+    port: 18123
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: 🇺🇸 基础|美国01|脸书主力:18121
+    type: vmess
+    server: v11.88host.buzz
+    port: 18121
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v11.88host.buzz
+  - name: 12/22_47:18124
+    type: vmess
+    server: 120.241.72.84
+    port: 18124
+    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: 🇺🇸 基础|美国02|脸书主力:18122
+    type: vmess
+    server: v12.88host.buzz
+    port: 18122
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v12.88host.buzz
+  - name: 12/22_17:443
+    type: vmess
+    server: 208.98.48.2
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /ssrsub
+    ws-path: /ws
     ws-headers:
-      Host: v3.ssrsub.com
-  - name: 12/22_112
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: scDj68fv6xkMg2np9RgW
-    server: 212.199.61.55
-    port: 8388
+      Host: iesei1ei.com
+  - name: 🇺🇸 美国03解锁流媒体:65012
+    type: vmess
+    server: 00.cn1.rocketdns.xyz
+    port: 65012
+    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: 00.cn1.rocketdns.xyz
+  - name: 🇬🇧 标准|英国01|解锁流媒体:18076
+    type: vmess
+    server: v25.88host.buzz
+    port: 18076
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v25.88host.buzz
+  - name: 🇬🇧 标准|英国02|解锁流媒体:18077
+    type: vmess
+    server: v26.88host.buzz
+    port: 18077
+    uuid: a52e8f88-a2a1-33d9-96c8-84115b56686c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mojing
+    ws-headers:
+      Host: v26.88host.buzz
   - name: 12/22_123
     type: ss
     cipher: chacha20-ietf-poly1305
     password: dsHq7JmRFhSkvxzCuMFy
     server: 46.102.153.106
     port: 8389
+  - name: 12/22_112
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: scDj68fv6xkMg2np9RgW
+    server: 212.199.61.55
+    port: 8388
+  - name: 12/22_95
+    type: ss
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+    server: 145.239.1.137
+    port: 7307
+  - name: 🇺🇸+美国Us
+    type: ss
+    cipher: aes-256-gcm
+    password: 81d7d46b9c66c779e81b83bc594df5eb
+    server: 108.165.196.212
+    port: 2340
+  - name: 12/22_75
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+    server: 172.105.41.63
+    port: 3306
+  - name: 12/22_81
+    type: ss
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+    server: 192.46.210.73
+    port: 5003
   - name: 12/22_125
     type: ss
     cipher: chacha20-ietf-poly1305
@@ -991,35 +1807,29 @@ proxies:
     password: Y6R9pAtvxxzmGC
     server: 192.46.210.73
     port: 5600
-  - name: 12/22_81
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    server: 192.46.210.73
-    port: 5003
-  - name: 12/22_128
+  - name: 12/22_127
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: Zq4srheW4eeqMfGeWMTG
-    server: 188.214.125.106
+    password: tjwRqQvteAjt3xFmbZTA
+    server: 84.17.37.55
     port: 8389
-  - name: 12/22_75
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    server: 172.105.41.63
-    port: 3306
   - name: 12/22_117
     type: ss
     cipher: chacha20-ietf-poly1305
     password: mTrN2fMYeWJwrkWpTnL2
     server: 185.51.134.210
     port: 8389
-  - name: 12/22_127
+  - name: 12/22_128
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: tjwRqQvteAjt3xFmbZTA
-    server: 84.17.37.55
+    password: Zq4srheW4eeqMfGeWMTG
+    server: 188.214.125.106
+    port: 8389
+  - name: 12/22_124
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: cNbqVVyUfbJFZ6S8EgRH
+    server: 188.214.106.98
     port: 8389
   - name: 12/22_111
     type: ss
@@ -1027,89 +1837,95 @@ proxies:
     password: mTrN2fMYeWJwrkWpTnL2
     server: 185.51.134.210
     port: 8388
-  - name: 12/22_73
+  - name: 12/22_77
     type: ss
     cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-    server: 192.53.169.116
-    port: 2376
-  - name: 12/22_66
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: KhS1x8JT7p58RIp7gz
-    server: 81.90.189.33
-    port: 889
-  - name: 12/22_113
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: ckX2YfENbjCtVzVJphFP
-    server: 23.226.131.146
-    port: 8388
-  - name: 🇬🇧+英国Gb
-    type: ss
-    cipher: aes-256-gcm
-    password: 13f91d7fd2461aa8ac178d360d94b2a8
-    server: 185.237.98.69
-    port: 3212
-  - name: 12/22_109
-    type: ss
-    cipher: aes-256-gcm
-    password: cdBIDV42DCwnfIN
+    password: Y6R9pAtvxxzmGC
     server: 139.99.62.207
-    port: 8119
-  - name: 12/22_65
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: sF43Xt2gONqcgFX563
-    server: 141.95.0.26
-    port: 826
-  - name: 12/22_124
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: cNbqVVyUfbJFZ6S8EgRH
-    server: 188.214.106.98
-    port: 8389
+    port: 5000
   - name: 12/22_105
     type: ss
     cipher: aes-256-gcm
     password: KixLvKzwjekG00rm
     server: 192.53.169.116
     port: 8080
-  - name: 12/22_115
+  - name: 12/22_109
+    type: ss
+    cipher: aes-256-gcm
+    password: cdBIDV42DCwnfIN
+    server: 139.99.62.207
+    port: 8119
+  - name: 12/22_73
+    type: ss
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+    server: 192.53.169.116
+    port: 2376
+  - name: 🇭🇰+香港Hk
+    type: ss
+    cipher: aes-256-gcm
+    password: fb3ff83bac9e4aed4a6a7d4a1f321f1a
+    server: 120.232.82.190
+    port: 2010
+  - name: 12/22_84
+    type: ss
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+    server: 172.99.190.87
+    port: 5004
+  - name: 12/22_120
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: 7D4GYNDaFy4eebe47tvF
-    server: 169.38.107.52
-    port: 8388
-  - name: 12/22_126
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: 2V7N5kGUghaLxF4aUqTw
-    server: 37.120.194.82
+    password: EGTHtnGhcnggx5yBYSqS
+    server: 217.138.200.242
     port: 8389
+  - name: 12/22_96
+    type: ss
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+    server: 46.29.218.6
+    port: 7307
+  - name: 12/22_65
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: sF43Xt2gONqcgFX563
+    server: 141.95.0.26
+    port: 826
   - name: 12/22_78
     type: ss
     cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
     server: 46.29.218.6
     port: 5001
-  - name: 🇭🇰+香港Hk+3
+  - name: 12/22_91
     type: ss
     cipher: aes-256-gcm
-    password: dbbdb5625d0268ef28240da6d67eb4c0
-    server: 58.152.85.196
-    port: 2808
-  - name: 12/22_130
+    password: TEzjfAYq2IjtuoS
+    server: 46.29.218.146
+    port: 6679
+  - name: 12/22_82
+    type: ss
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+    server: 46.29.218.146
+    port: 5003
+  - name: 12/22_74
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+    server: 46.29.218.6
+    port: 3306
+  - name: 12/22_126
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: w4GUD28Bw9uCMdbc2pqA
-    server: 223.25.246.4
+    password: 2V7N5kGUghaLxF4aUqTw
+    server: 37.120.194.82
     port: 8389
-  - name: 12/22_131
+  - name: 12/22_129
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: q4apPAjyY9knqKS4e9xZ
-    server: 70.32.0.208
+    password: QhtEqbEtn74KsTUM4MUg
+    server: 188.214.122.138
     port: 8389
   - name: 12/22_132
     type: ss
@@ -1117,233 +1933,89 @@ proxies:
     password: ckX2YfENbjCtVzVJphFP
     server: 23.226.131.146
     port: 8389
-  - name: 12/22_93
+  - name: 12/22_115
     type: ss
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-    server: 118.107.244.110
-    port: 7306
+    cipher: chacha20-ietf-poly1305
+    password: 7D4GYNDaFy4eebe47tvF
+    server: 169.38.107.52
+    port: 8388
   - name: 12/22_122
     type: ss
     cipher: chacha20-ietf-poly1305
     password: AsLgDbA45KTMXumtzWhf
     server: 84.247.50.10
     port: 8389
-  - name: 12/22_101
-    type: ss
-    cipher: aes-256-gcm
-    password: XKFKl2rULjIp74
-    server: 172.99.190.87
-    port: 8008
-  - name: 12/22_118
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: Mx6DztQqZb7j34FdWjER
-    server: 37.19.218.197
-    port: 8389
-  - name: 12/22_70
-    type: ss
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-    server: 172.99.190.87
-    port: 2376
-  - name: 12/22_67
-    type: ss
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-    server: 172.99.190.87
-    port: 2375
-  - name: 12/22_84
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    server: 172.99.190.87
-    port: 5004
-  - name: 12/22_133
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: YDNYJcNdH5xuLrhyr7Fj
-    server: 96.47.224.2
-    port: 8389
-  - name: 12/22_140
-    type: ss
-    cipher: aes-256-gcm
-    password: dongtaiwang.com
-    server: 23.19.26.246
-    port: 10515
-  - name: 12/22_71
-    type: ss
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-    server: 142.202.48.43
-    port: 2376
-  - name: 12/22_80
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    server: 142.202.48.43
-    port: 5003
-  - name: 12/22_100
-    type: ss
-    cipher: aes-256-gcm
-    password: XKFKl2rULjIp74
-    server: 46.29.218.6
-    port: 8008
-  - name: 12/22_86
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    server: 142.202.48.43
-    port: 5004
-  - name: 12/22_107
-    type: ss
-    cipher: aes-256-gcm
-    password: PCnnH6SQSnfoS27
-    server: 145.239.1.137
-    port: 8090
-  - name: 12/22_68
-    type: ss
-    cipher: aes-256-gcm
-    password: faBAoD54k87UJG7
-    server: 142.202.48.43
-    port: 2375
-  - name: 12/22_103
-    type: ss
-    cipher: aes-256-gcm
-    password: KixLvKzwjekG00rm
-    server: 142.202.48.43
-    port: 8080
-  - name: 12/22_106
-    type: ss
-    cipher: aes-256-gcm
-    password: PCnnH6SQSnfoS27
-    server: 142.202.48.43
-    port: 8090
-  - name: 12/22_98
-    type: ss
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-    server: 142.202.48.43
-    port: 7307
-  - name: 12/22_119
-    type: ss
-    cipher: chacha20-ietf-poly1305
-    password: NK4wZejCzDfPdWXTK4FW
-    server: 66.55.92.101
-    port: 8389
-  - name: 🇭🇰+香港Hk+2
-    type: ss
-    cipher: aes-256-gcm
-    password: 8e2bb8a49c86c76d7876bb61d44f40d9
-    server: 120.232.82.190
-    port: 2008
-  - name: 🇺🇸+美国Us+2
-    type: ss
-    cipher: aes-256-gcm
-    password: d3bbe88595e1dfaa2c9085aa9bdaf3e4
-    server: 169.197.142.250
-    port: 2800
-  - name: 12/22_74
+  - name: 12/22_137
     type: ss
     cipher: aes-256-gcm
     password: Y6R9pAtvxxzmGC
-    server: 46.29.218.6
-    port: 3306
-  - name: 🇺🇸+美国Us
-    type: ss
-    cipher: aes-256-gcm
-    password: 81d7d46b9c66c779e81b83bc594df5eb
-    server: 108.165.196.212
-    port: 2340
-  - name: 12/22_96
-    type: ss
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-    server: 46.29.218.6
-    port: 7307
-  - name: 12/22_95
-    type: ss
-    cipher: aes-256-gcm
-    password: FoOiGlkAA9yPEGP
-    server: 145.239.1.137
-    port: 7307
-  - name: 🇺🇸+美国Us+3
-    type: ss
-    cipher: aes-256-gcm
-    password: c9ff20111b73874292da92cc4166421e
-    server: 167.160.91.131
-    port: 2948
-  - name: 🇯🇵+日本Jp
-    type: ss
-    cipher: aes-256-gcm
-    password: d6d495a2aa737bf578e58868a96be20f
-    server: 120.232.82.190
-    port: 4008
-  - name: 🇯🇵+日本Jp+2
-    type: ss
-    cipher: aes-256-gcm
-    password: 43e27d84de893cced5b4d6adfd087cff
-    server: 120.232.82.190
-    port: 4001
-  - name: 12/22_136
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    server: 139.99.62.207
+    server: 46.29.218.146
     port: 8888
-  - name: 🇨🇳+台湾Tw
-    type: ss
-    cipher: aes-256-gcm
-    password: 16b33a734063d5bb793634198ca90b73
-    server: 120.232.82.190
-    port: 3002
   - name: 12/22_62
     type: ss
     cipher: aes-256-gcm
     password: pKEW8JPByTVTLtM
     server: 46.29.218.6
     port: 443
-  - name: 12/22_90
+  - name: 12/22_70
     type: ss
     cipher: aes-256-gcm
-    password: TEzjfAYq2IjtuoS
-    server: 139.162.80.175
-    port: 6679
-  - name: 12/22_141
-    type: ss
-    cipher: aes-128-gcm
-    password: desperadoj.com_free_proxy_d39m
-    server: music.desperadoj.com
-    port: 30003
-  - name: 12/22_63
-    type: ss
-    cipher: aes-256-gcm
-    password: pKEW8JPByTVTLtM
-    server: 198.57.27.218
-    port: 443
-  - name: 12/22_77
-    type: ss
-    cipher: aes-256-gcm
-    password: Y6R9pAtvxxzmGC
-    server: 139.99.62.207
-    port: 5000
-  - name: 12/22_85
-    type: ss
-    cipher: aes-256-gcm
-    password: g5MeD6Ft3CWlJId
-    server: 46.29.218.6
-    port: 5004
-  - name: 12/22_142
-    type: ss
-    cipher: aes-128-gcm
-    password: desperadoj.com_free_proxy_d39m
-    server: 101.132.192.212
-    port: 30003
-  - name: 12/22_121
+    password: faBAoD54k87UJG7
+    server: 172.99.190.87
+    port: 2376
+  - name: 12/22_113
     type: ss
     cipher: chacha20-ietf-poly1305
-    password: Xd2xnHT8tYkVt5BDk92b
-    server: 37.120.136.234
+    password: ckX2YfENbjCtVzVJphFP
+    server: 23.226.131.146
+    port: 8388
+  - name: 12/22_133
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: YDNYJcNdH5xuLrhyr7Fj
+    server: 96.47.224.2
+    port: 8389
+  - name: 12/22_67
+    type: ss
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+    server: 172.99.190.87
+    port: 2375
+  - name: 12/22_131
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: q4apPAjyY9knqKS4e9xZ
+    server: 70.32.0.208
+    port: 8389
+  - name: 12/22_118
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: Mx6DztQqZb7j34FdWjER
+    server: 37.19.218.197
+    port: 8389
+  - name: 12/22_68
+    type: ss
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+    server: 142.202.48.43
+    port: 2375
+  - name: 12/22_102
+    type: ss
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+    server: 46.29.218.146
+    port: 8008
+  - name: 12/22_71
+    type: ss
+    cipher: aes-256-gcm
+    password: faBAoD54k87UJG7
+    server: 142.202.48.43
+    port: 2376
+  - name: 12/22_130
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: w4GUD28Bw9uCMdbc2pqA
+    server: 223.25.246.4
     port: 8389
   - name: 12/22_94
     type: ss
@@ -1351,6 +2023,144 @@ proxies:
     password: FoOiGlkAA9yPEGP
     server: 198.57.27.218
     port: 7306
+  - name: 12/22_121
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: Xd2xnHT8tYkVt5BDk92b
+    server: 37.120.136.234
+    port: 8389
+  - name: 12/22_86
+    type: ss
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+    server: 142.202.48.43
+    port: 5004
+  - name: 12/22_103
+    type: ss
+    cipher: aes-256-gcm
+    password: KixLvKzwjekG00rm
+    server: 142.202.48.43
+    port: 8080
+  - name: 12/22_136
+    type: ss
+    cipher: aes-256-gcm
+    password: Y6R9pAtvxxzmGC
+    server: 139.99.62.207
+    port: 8888
+  - name: 12/22_106
+    type: ss
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+    server: 142.202.48.43
+    port: 8090
+  - name: 12/22_80
+    type: ss
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+    server: 142.202.48.43
+    port: 5003
+  - name: 12/22_98
+    type: ss
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+    server: 142.202.48.43
+    port: 7307
+  - name: 12/22_140
+    type: ss
+    cipher: aes-256-gcm
+    password: dongtaiwang.com
+    server: 23.19.26.246
+    port: 10515
+  - name: 12/22_119
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: NK4wZejCzDfPdWXTK4FW
+    server: 66.55.92.101
+    port: 8389
+  - name: 🇭🇰+香港Hk+3
+    type: ss
+    cipher: aes-256-gcm
+    password: dbbdb5625d0268ef28240da6d67eb4c0
+    server: 58.152.85.196
+    port: 2808
+  - name: 🇺🇸+美国Us+2
+    type: ss
+    cipher: aes-256-gcm
+    password: d3bbe88595e1dfaa2c9085aa9bdaf3e4
+    server: 169.197.142.250
+    port: 2800
+  - name: 🇭🇰+香港Hk+2
+    type: ss
+    cipher: aes-256-gcm
+    password: 8e2bb8a49c86c76d7876bb61d44f40d9
+    server: 120.232.82.190
+    port: 2008
+  - name: 🇺🇸+美国Us+3
+    type: ss
+    cipher: aes-256-gcm
+    password: c9ff20111b73874292da92cc4166421e
+    server: 167.160.91.131
+    port: 2948
+  - name: 12/22_63
+    type: ss
+    cipher: aes-256-gcm
+    password: pKEW8JPByTVTLtM
+    server: 198.57.27.218
+    port: 443
+  - name: 12/22_85
+    type: ss
+    cipher: aes-256-gcm
+    password: g5MeD6Ft3CWlJId
+    server: 46.29.218.6
+    port: 5004
+  - name: 12/22_93
+    type: ss
+    cipher: aes-256-gcm
+    password: FoOiGlkAA9yPEGP
+    server: 118.107.244.110
+    port: 7306
+  - name: 12/22_90
+    type: ss
+    cipher: aes-256-gcm
+    password: TEzjfAYq2IjtuoS
+    server: 139.162.80.175
+    port: 6679
+  - name: 🇨🇳+台湾Tw
+    type: ss
+    cipher: aes-256-gcm
+    password: 16b33a734063d5bb793634198ca90b73
+    server: 120.232.82.190
+    port: 3002
+  - name: 12/22_141
+    type: ss
+    cipher: aes-128-gcm
+    password: desperadoj.com_free_proxy_d39m
+    server: music.desperadoj.com
+    port: 30003
+  - name: 12/22_107
+    type: ss
+    cipher: aes-256-gcm
+    password: PCnnH6SQSnfoS27
+    server: 145.239.1.137
+    port: 8090
+  - name: 12/22_142
+    type: ss
+    cipher: aes-128-gcm
+    password: desperadoj.com_free_proxy_d39m
+    server: 101.132.192.212
+    port: 30003
+  - name: 12/22_101
+    type: ss
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+    server: 172.99.190.87
+    port: 8008
+  - name: 12/22_100
+    type: ss
+    cipher: aes-256-gcm
+    password: XKFKl2rULjIp74
+    server: 46.29.218.6
+    port: 8008
   - name: 电报交流群：https://t.me/realnode:443
     type: vmess
     server: user.realnode.co
@@ -1662,144 +2472,208 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ⌈80⌋ 华中 01:80
-      - 🇨🇳 中国台湾03解锁流媒体:65018
-      - 🇨🇳 中国台湾01解锁流媒体:65013
-      - 12/22_16:443
-      - 🇫🇮 芬兰01解锁流媒体:65020
-      - 🇯🇵 日本03解锁流媒体:65006
-      - 🇬🇧 英国01解锁流媒体:65009
-      - 🇺🇸 美国 US x1.0 01中转 本土:14264
-      - 🇯🇵 日本01解锁流媒体:65004
+      - 🇺🇸 基础|美国04|脸书主力:18124
+      - 🇺🇸 标准|美国03|解锁流媒体:18139
+      - 🇯🇵 标准|日本02|解锁流媒体:18022
+      - 翻墙党fanqiangdang.com:41002
+      - 🇨🇦 标准|加拿大01|解锁流媒体:18072
+      - 🇺🇸 标准|美国02|解锁流媒体:18138
+      - 🇺🇸 标准|美国01|解锁流媒体:18137
       - 12/22_12:80
-      - 12/22_56:27182
-      - 🇺🇸 美国 US x1.0 03中转:14464
-      - 🇸🇬 新加坡02解锁流媒体:65016
-      - 🇺🇸 美国 US x1.0 06中转:14466
-      - 🇸🇬 新加坡03解锁流媒体:65017
-      - 🇺🇸 美国 US x1.0 04中转:14360
-      - 12/22_32:18007
-      - 🇮🇳 印度01解锁流媒体:65007
-      - 🇯🇵 日本02解锁流媒体:65005
-      - 12/22_42:18119
-      - 🇨🇳 ⌈80⌋ 台湾 01:80
-      - 12/22_6:80
-      - 🇰🇷 韩国 KR x1.0 01直连:14393
-      - 🇭🇰 香港01解锁流媒体:65000
-      - 🇭🇰 香港 HK x1.0 A13直连:12493
-      - 🇨🇳 中国台湾02解锁流媒体:65014
-      - 🇰🇷 韩国 KR x1.0 02直连:6552
-      - 🇭🇰 ⌈443⌋ 香港 02:443
-      - 🇭🇰 ⌈80⌋ 香港 02:80
-      - 🇭🇰 ⌈绿通⌋ 香港 02:46794
-      - 🇸🇬 新加坡01解锁流媒体:65015
-      - 🇭🇰 香港03解锁流媒体:65002
-      - 🇭🇰 ⌈广停⌋ 香港 01:1082
-      - 🇭🇰 ⌈广停⌋ 香港 02:1082
-      - 🇸🇬 新加坡 SG x1.0 01直连:10267
-      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇺🇸 标准|美国04|解锁流媒体:18140
+      - 🇬🇧 英国01解锁流媒体:65009
+      - 12/22_19:443
+      - 🇨🇦 标准|加拿大02|解锁流媒体:18073
+      - 🇫🇮 芬兰01解锁流媒体:65020
+      - 🇩🇪 德国01解锁流媒体:65008
+      - 🇮🇳 标准|印度01|解锁流媒体:18074
+      - 🇮🇳 标准|印度02|解锁流媒体:18075
+      - 🇯🇵 标准|日本01|解锁流媒体:18021
+      - 12/22_50:20004
       - 🇷🇺 俄罗斯01解锁流媒体:65019
-      - 🇭🇰 香港 HK x1.0 A10直连:12493
-      - 🇭🇰 香港 HK x1.0 A14直连:12493
+      - 🇺🇸 美国 US x1.0 05中转:14350
+      - 12/22_18:443
+      - 专线|亚洲04|混合主力:18056
+      - 🇭🇰 香港 HK x1.0 D1 本土:12632
+      - 12/22_33:18007
+      - 🇺🇸 专线|美国03|原生NTT:18044
+      - 🇷🇺 专线|俄罗斯03|原生IP:10088
+      - 🇺🇸 专线|美国01|原生NTT:18042
+      - 🇺🇸 专线|西雅图02|原生NTT:18085
+      - 🇺🇸 专线|美国02|原生NTT:18043
+      - 🇺🇸 专线|西雅图01|原生NTT:18084
+      - 🇺🇸 专线|美国04|原生NTT:18045
+      - 🇷🇺 基础|俄罗斯03|限速100M:10086
+      - 🇷🇺 基础|俄罗斯02|限速100M:10086
+      - 🇮🇳 印度01解锁流媒体:65007
+      - 🇷🇺 专线|俄罗斯02|原生IP:10088
+      - 专线|亚洲05|混合主力:18057
+      - 🇯🇵 标准|日本03|解锁流媒体:18023
+      - 专线|亚洲06|混合主力:18058
+      - 🇯🇵 日本 JP x1.0 G1 80端口:11760
+      - 🇸🇬 标准|新加坡03|解锁流媒体:18035
+      - 12/22_22:10003
+      - 12/22_29:18005
+      - 🇸🇬 标准|新加坡01|解锁流媒体:18033
+      - 12/22_31:18006
+      - 12/22_35:18008
+      - 🇭🇰 基础|香港01|万能主力:18005
+      - 🇸🇬 新加坡02解锁流媒体:65016
+      - 专线|亚洲01|混合主力:18053
+      - 🇯🇵 日本02解锁流媒体:65005
+      - 🇭🇰 香港 HK x1.0 A1直连:14369
+      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇭🇰 基础|香港03|油管主力:18007
+      - 🇸🇬 新加坡01解锁流媒体:65015
+      - 🇨🇳 中国台湾03解锁流媒体:65018
+      - 12/22_34:18008
+      - 🇭🇰 香港 HK x1.0 A4直连:14276
+      - 12/22_45:18122
+      - 🇯🇵 日本 JP x1.0 03中转 本土:14278
+      - 12/22_23:10003
+      - 🇨🇳 中国台湾02解锁流媒体:65014
+      - 🇸🇬 标准|新加坡02|解锁流媒体:18034
+      - 🇸🇬 标准|新加坡04|解锁流媒体:18036
+      - 12/22_40:18118
+      - 12/22_56:27182
+      - 12/22_32:18007
+      - 🇸🇬 新加坡03解锁流媒体:65017
+      - 🇭🇰 香港 HK x1.0 A9直连:12493
+      - 🇯🇵 日本 JP x1.0 A5直连:11742
+      - 🇭🇰 香港 HK x1.0 A8直连:14467
+      - 🇭🇰 标准|香港03|解锁流媒体:18027
+      - 🇯🇵 日本 JP x1.0 A1直连:12534
+      - 专线|亚洲03|混合主力:18055
+      - 🇸🇬 新加坡 SG x1.0 01直连:10267
+      - 🇯🇵 日本03解锁流媒体:65006
+      - 专线|亚洲02|混合主力:18054
+      - 🇨🇳 专线|台湾04|原生HINET:18081
+      - 🇨🇳 中国台湾01解锁流媒体:65013
+      - 🇭🇰 香港 HK x1.0 A12直连:12493
+      - 🇭🇰 基础|香港06|社交主力:18010
+      - 🇨🇳 基础|台湾04|视频主力:18120
+      - 🇭🇰 专线|香港07|原生HKBN:18082
+      - 🇭🇰 基础|香港05|社交主力:18009
+      - 12/22_38:18117
       - 🇭🇰 香港 HK x1.0 A2直连:14445
-      - 🇭🇰 香港04解锁流媒体:65003
-      - 🇭🇰 ⌈443⌋ 香港 01:443
-      - 🇭🇰 ⌈80⌋ 香港 01:80
-      - ⌈443⌋ 华中 01:443
+      - 12/22_30:18006
+      - 🇭🇰 基础|香港02|万能主力:18006
+      - 🇨🇳 基础|台湾03|视频主力:18119
+      - 🇭🇰 专线|香港02|原生HGCBBS:18065
+      - 🇨🇳 基础|台湾02|视频主力:18118
       - 12/22_57:27962
       - 🇯🇵 日本 JP x1.0 01直连:14359
+      - 🇨🇳 基础|台湾01|视频主力:18117
+      - 🇨🇳 专线|台湾01|原生HINET:18078
+      - 🇭🇰 基础|香港04|油管主力:18008
       - 🇺🇸 美国01解锁流媒体:65010
-      - 🇸🇬 新加坡 SG x1.0 03直连:14375
-      - 🇸🇬 新加坡 SG x1.0 02直连:14374
-      - 🇯🇵 日本 JP x1.0 A1直连:12534
-      - 🇺🇸 美国03解锁流媒体:65012
-      - 12/22_19:443
-      - 🇭🇰 ⌈绿通⌋ 香港 01:46794
-      - 🇯🇵 日本 JP x1.0 06直连:14459
-      - 12/22_5:80
-      - 🇯🇵 日本 JP x1.0 A4直连:11742
-      - 12/22_8:80
       - 12/22_11:80
+      - 12/22_43:18120
+      - 🇺🇸 基础|美国03|脸书主力:18123
       - 12/22_2:80
-      - 🇯🇵 日本 JP x1.0 02直连:12641
-      - 🇺🇸 美国02解锁流媒体:65011
-      - 12/22_15:443
-      - 🇩🇪 德国01解锁流媒体:65008
-      - 🇯🇵 日本 JP x1.0 05直连:14463
-      - 🇨🇳 台湾 TW x1.0 D1 本土:14439
-      - 12/22_17:443
-      - 12/22_18:443
-      - 🇯🇵 ⌈80⌋ 日本 01:80
-      - ⌈广停⌋ 华中 01:13302
+      - 12/22_8:80
+      - 🇭🇰 专线|香港01|原生HGCBBS:18064
+      - 12/22_5:80
+      - 🇭🇰 专线|香港08|原生HKBN:18083
+      - 🇭🇰 专线|香港03|原生CMI:18066
+      - 🇭🇰 专线|香港06|原生CMI:18069
+      - 🇭🇰 香港04解锁流媒体:65003
+      - 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+      - 🇨🇳 专线|台湾03|原生HINET:18080
+      - 🇭🇰 专线|香港04|原生HGCBBS:18067
+      - 🇨🇳 专线|台湾02|原生HINET:18079
+      - 🇭🇰 标准|香港05|解锁流媒体:18029
+      - 🇭🇰 香港01解锁流媒体:65000
+      - 🇭🇰 标准|香港04|解锁流媒体:18028
       - 🇭🇰 香港02解锁流媒体:65001
+      - 🇭🇰 标准|香港02|解锁流媒体:18026
+      - 🇭🇰 香港03解锁流媒体:65002
+      - 🇭🇰 标准|香港01|解锁流媒体:18025
+      - 🇺🇸 美国02解锁流媒体:65011
+      - 🇭🇰 专线|香港05|原生HGCBBS:18068
+      - 🇯🇵 日本01解锁流媒体:65004
+      - 12/22_44:18121
+      - 🇭🇰 香港 HK x1.0 D2 本土:10871
+      - 12/22_41:18119
+      - 🇭🇰 香港 HK x1.0 05中转 本土:11390
       - 🇷🇺 俄罗斯02解锁流媒体:65021
-      - 12/22_20:443
-      - ⌈绿通⌋ 华中 01:46794
-      - 12/22_21:443
-      - 12/22_112
+      - 12/22_6:80
+      - 12/22_42:18119
+      - 12/22_46:18123
+      - 🇺🇸 基础|美国01|脸书主力:18121
+      - 12/22_47:18124
+      - 🇺🇸 基础|美国02|脸书主力:18122
+      - 12/22_17:443
+      - 🇺🇸 美国03解锁流媒体:65012
+      - 🇬🇧 标准|英国01|解锁流媒体:18076
+      - 🇬🇧 标准|英国02|解锁流媒体:18077
       - 12/22_123
+      - 12/22_112
+      - 12/22_95
+      - 🇺🇸+美国Us
+      - 12/22_75
+      - 12/22_81
       - 12/22_125
       - 12/22_88
-      - 12/22_81
-      - 12/22_128
-      - 12/22_75
-      - 12/22_117
       - 12/22_127
-      - 12/22_111
-      - 12/22_73
-      - 12/22_66
-      - 12/22_113
-      - 🇬🇧+英国Gb
-      - 12/22_109
-      - 12/22_65
+      - 12/22_117
+      - 12/22_128
       - 12/22_124
-      - 12/22_105
-      - 12/22_115
-      - 12/22_126
-      - 12/22_78
-      - 🇭🇰+香港Hk+3
-      - 12/22_130
-      - 12/22_131
-      - 12/22_132
-      - 12/22_93
-      - 12/22_122
-      - 12/22_101
-      - 12/22_118
-      - 12/22_70
-      - 12/22_67
-      - 12/22_84
-      - 12/22_133
-      - 12/22_140
-      - 12/22_71
-      - 12/22_80
-      - 12/22_100
-      - 12/22_86
-      - 12/22_107
-      - 12/22_68
-      - 12/22_103
-      - 12/22_106
-      - 12/22_98
-      - 12/22_119
-      - 🇭🇰+香港Hk+2
-      - 🇺🇸+美国Us+2
-      - 12/22_74
-      - 🇺🇸+美国Us
-      - 12/22_96
-      - 12/22_95
-      - 🇺🇸+美国Us+3
-      - 🇯🇵+日本Jp
-      - 🇯🇵+日本Jp+2
-      - 12/22_136
-      - 🇨🇳+台湾Tw
-      - 12/22_62
-      - 12/22_90
-      - 12/22_141
-      - 12/22_63
+      - 12/22_111
       - 12/22_77
-      - 12/22_85
-      - 12/22_142
-      - 12/22_121
+      - 12/22_105
+      - 12/22_109
+      - 12/22_73
+      - 🇭🇰+香港Hk
+      - 12/22_84
+      - 12/22_120
+      - 12/22_96
+      - 12/22_65
+      - 12/22_78
+      - 12/22_91
+      - 12/22_82
+      - 12/22_74
+      - 12/22_126
+      - 12/22_129
+      - 12/22_132
+      - 12/22_115
+      - 12/22_122
+      - 12/22_137
+      - 12/22_62
+      - 12/22_70
+      - 12/22_113
+      - 12/22_133
+      - 12/22_67
+      - 12/22_131
+      - 12/22_118
+      - 12/22_68
+      - 12/22_102
+      - 12/22_71
+      - 12/22_130
       - 12/22_94
+      - 12/22_121
+      - 12/22_86
+      - 12/22_103
+      - 12/22_136
+      - 12/22_106
+      - 12/22_80
+      - 12/22_98
+      - 12/22_140
+      - 12/22_119
+      - 🇭🇰+香港Hk+3
+      - 🇺🇸+美国Us+2
+      - 🇭🇰+香港Hk+2
+      - 🇺🇸+美国Us+3
+      - 12/22_63
+      - 12/22_85
+      - 12/22_93
+      - 12/22_90
+      - 🇨🇳+台湾Tw
+      - 12/22_141
+      - 12/22_107
+      - 12/22_142
+      - 12/22_101
+      - 12/22_100
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -1830,144 +2704,208 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ⌈80⌋ 华中 01:80
-      - 🇨🇳 中国台湾03解锁流媒体:65018
-      - 🇨🇳 中国台湾01解锁流媒体:65013
-      - 12/22_16:443
-      - 🇫🇮 芬兰01解锁流媒体:65020
-      - 🇯🇵 日本03解锁流媒体:65006
-      - 🇬🇧 英国01解锁流媒体:65009
-      - 🇺🇸 美国 US x1.0 01中转 本土:14264
-      - 🇯🇵 日本01解锁流媒体:65004
+      - 🇺🇸 基础|美国04|脸书主力:18124
+      - 🇺🇸 标准|美国03|解锁流媒体:18139
+      - 🇯🇵 标准|日本02|解锁流媒体:18022
+      - 翻墙党fanqiangdang.com:41002
+      - 🇨🇦 标准|加拿大01|解锁流媒体:18072
+      - 🇺🇸 标准|美国02|解锁流媒体:18138
+      - 🇺🇸 标准|美国01|解锁流媒体:18137
       - 12/22_12:80
-      - 12/22_56:27182
-      - 🇺🇸 美国 US x1.0 03中转:14464
-      - 🇸🇬 新加坡02解锁流媒体:65016
-      - 🇺🇸 美国 US x1.0 06中转:14466
-      - 🇸🇬 新加坡03解锁流媒体:65017
-      - 🇺🇸 美国 US x1.0 04中转:14360
-      - 12/22_32:18007
-      - 🇮🇳 印度01解锁流媒体:65007
-      - 🇯🇵 日本02解锁流媒体:65005
-      - 12/22_42:18119
-      - 🇨🇳 ⌈80⌋ 台湾 01:80
-      - 12/22_6:80
-      - 🇰🇷 韩国 KR x1.0 01直连:14393
-      - 🇭🇰 香港01解锁流媒体:65000
-      - 🇭🇰 香港 HK x1.0 A13直连:12493
-      - 🇨🇳 中国台湾02解锁流媒体:65014
-      - 🇰🇷 韩国 KR x1.0 02直连:6552
-      - 🇭🇰 ⌈443⌋ 香港 02:443
-      - 🇭🇰 ⌈80⌋ 香港 02:80
-      - 🇭🇰 ⌈绿通⌋ 香港 02:46794
-      - 🇸🇬 新加坡01解锁流媒体:65015
-      - 🇭🇰 香港03解锁流媒体:65002
-      - 🇭🇰 ⌈广停⌋ 香港 01:1082
-      - 🇭🇰 ⌈广停⌋ 香港 02:1082
-      - 🇸🇬 新加坡 SG x1.0 01直连:10267
-      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇺🇸 标准|美国04|解锁流媒体:18140
+      - 🇬🇧 英国01解锁流媒体:65009
+      - 12/22_19:443
+      - 🇨🇦 标准|加拿大02|解锁流媒体:18073
+      - 🇫🇮 芬兰01解锁流媒体:65020
+      - 🇩🇪 德国01解锁流媒体:65008
+      - 🇮🇳 标准|印度01|解锁流媒体:18074
+      - 🇮🇳 标准|印度02|解锁流媒体:18075
+      - 🇯🇵 标准|日本01|解锁流媒体:18021
+      - 12/22_50:20004
       - 🇷🇺 俄罗斯01解锁流媒体:65019
-      - 🇭🇰 香港 HK x1.0 A10直连:12493
-      - 🇭🇰 香港 HK x1.0 A14直连:12493
+      - 🇺🇸 美国 US x1.0 05中转:14350
+      - 12/22_18:443
+      - 专线|亚洲04|混合主力:18056
+      - 🇭🇰 香港 HK x1.0 D1 本土:12632
+      - 12/22_33:18007
+      - 🇺🇸 专线|美国03|原生NTT:18044
+      - 🇷🇺 专线|俄罗斯03|原生IP:10088
+      - 🇺🇸 专线|美国01|原生NTT:18042
+      - 🇺🇸 专线|西雅图02|原生NTT:18085
+      - 🇺🇸 专线|美国02|原生NTT:18043
+      - 🇺🇸 专线|西雅图01|原生NTT:18084
+      - 🇺🇸 专线|美国04|原生NTT:18045
+      - 🇷🇺 基础|俄罗斯03|限速100M:10086
+      - 🇷🇺 基础|俄罗斯02|限速100M:10086
+      - 🇮🇳 印度01解锁流媒体:65007
+      - 🇷🇺 专线|俄罗斯02|原生IP:10088
+      - 专线|亚洲05|混合主力:18057
+      - 🇯🇵 标准|日本03|解锁流媒体:18023
+      - 专线|亚洲06|混合主力:18058
+      - 🇯🇵 日本 JP x1.0 G1 80端口:11760
+      - 🇸🇬 标准|新加坡03|解锁流媒体:18035
+      - 12/22_22:10003
+      - 12/22_29:18005
+      - 🇸🇬 标准|新加坡01|解锁流媒体:18033
+      - 12/22_31:18006
+      - 12/22_35:18008
+      - 🇭🇰 基础|香港01|万能主力:18005
+      - 🇸🇬 新加坡02解锁流媒体:65016
+      - 专线|亚洲01|混合主力:18053
+      - 🇯🇵 日本02解锁流媒体:65005
+      - 🇭🇰 香港 HK x1.0 A1直连:14369
+      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇭🇰 基础|香港03|油管主力:18007
+      - 🇸🇬 新加坡01解锁流媒体:65015
+      - 🇨🇳 中国台湾03解锁流媒体:65018
+      - 12/22_34:18008
+      - 🇭🇰 香港 HK x1.0 A4直连:14276
+      - 12/22_45:18122
+      - 🇯🇵 日本 JP x1.0 03中转 本土:14278
+      - 12/22_23:10003
+      - 🇨🇳 中国台湾02解锁流媒体:65014
+      - 🇸🇬 标准|新加坡02|解锁流媒体:18034
+      - 🇸🇬 标准|新加坡04|解锁流媒体:18036
+      - 12/22_40:18118
+      - 12/22_56:27182
+      - 12/22_32:18007
+      - 🇸🇬 新加坡03解锁流媒体:65017
+      - 🇭🇰 香港 HK x1.0 A9直连:12493
+      - 🇯🇵 日本 JP x1.0 A5直连:11742
+      - 🇭🇰 香港 HK x1.0 A8直连:14467
+      - 🇭🇰 标准|香港03|解锁流媒体:18027
+      - 🇯🇵 日本 JP x1.0 A1直连:12534
+      - 专线|亚洲03|混合主力:18055
+      - 🇸🇬 新加坡 SG x1.0 01直连:10267
+      - 🇯🇵 日本03解锁流媒体:65006
+      - 专线|亚洲02|混合主力:18054
+      - 🇨🇳 专线|台湾04|原生HINET:18081
+      - 🇨🇳 中国台湾01解锁流媒体:65013
+      - 🇭🇰 香港 HK x1.0 A12直连:12493
+      - 🇭🇰 基础|香港06|社交主力:18010
+      - 🇨🇳 基础|台湾04|视频主力:18120
+      - 🇭🇰 专线|香港07|原生HKBN:18082
+      - 🇭🇰 基础|香港05|社交主力:18009
+      - 12/22_38:18117
       - 🇭🇰 香港 HK x1.0 A2直连:14445
-      - 🇭🇰 香港04解锁流媒体:65003
-      - 🇭🇰 ⌈443⌋ 香港 01:443
-      - 🇭🇰 ⌈80⌋ 香港 01:80
-      - ⌈443⌋ 华中 01:443
+      - 12/22_30:18006
+      - 🇭🇰 基础|香港02|万能主力:18006
+      - 🇨🇳 基础|台湾03|视频主力:18119
+      - 🇭🇰 专线|香港02|原生HGCBBS:18065
+      - 🇨🇳 基础|台湾02|视频主力:18118
       - 12/22_57:27962
       - 🇯🇵 日本 JP x1.0 01直连:14359
+      - 🇨🇳 基础|台湾01|视频主力:18117
+      - 🇨🇳 专线|台湾01|原生HINET:18078
+      - 🇭🇰 基础|香港04|油管主力:18008
       - 🇺🇸 美国01解锁流媒体:65010
-      - 🇸🇬 新加坡 SG x1.0 03直连:14375
-      - 🇸🇬 新加坡 SG x1.0 02直连:14374
-      - 🇯🇵 日本 JP x1.0 A1直连:12534
-      - 🇺🇸 美国03解锁流媒体:65012
-      - 12/22_19:443
-      - 🇭🇰 ⌈绿通⌋ 香港 01:46794
-      - 🇯🇵 日本 JP x1.0 06直连:14459
-      - 12/22_5:80
-      - 🇯🇵 日本 JP x1.0 A4直连:11742
-      - 12/22_8:80
       - 12/22_11:80
+      - 12/22_43:18120
+      - 🇺🇸 基础|美国03|脸书主力:18123
       - 12/22_2:80
-      - 🇯🇵 日本 JP x1.0 02直连:12641
-      - 🇺🇸 美国02解锁流媒体:65011
-      - 12/22_15:443
-      - 🇩🇪 德国01解锁流媒体:65008
-      - 🇯🇵 日本 JP x1.0 05直连:14463
-      - 🇨🇳 台湾 TW x1.0 D1 本土:14439
-      - 12/22_17:443
-      - 12/22_18:443
-      - 🇯🇵 ⌈80⌋ 日本 01:80
-      - ⌈广停⌋ 华中 01:13302
+      - 12/22_8:80
+      - 🇭🇰 专线|香港01|原生HGCBBS:18064
+      - 12/22_5:80
+      - 🇭🇰 专线|香港08|原生HKBN:18083
+      - 🇭🇰 专线|香港03|原生CMI:18066
+      - 🇭🇰 专线|香港06|原生CMI:18069
+      - 🇭🇰 香港04解锁流媒体:65003
+      - 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+      - 🇨🇳 专线|台湾03|原生HINET:18080
+      - 🇭🇰 专线|香港04|原生HGCBBS:18067
+      - 🇨🇳 专线|台湾02|原生HINET:18079
+      - 🇭🇰 标准|香港05|解锁流媒体:18029
+      - 🇭🇰 香港01解锁流媒体:65000
+      - 🇭🇰 标准|香港04|解锁流媒体:18028
       - 🇭🇰 香港02解锁流媒体:65001
+      - 🇭🇰 标准|香港02|解锁流媒体:18026
+      - 🇭🇰 香港03解锁流媒体:65002
+      - 🇭🇰 标准|香港01|解锁流媒体:18025
+      - 🇺🇸 美国02解锁流媒体:65011
+      - 🇭🇰 专线|香港05|原生HGCBBS:18068
+      - 🇯🇵 日本01解锁流媒体:65004
+      - 12/22_44:18121
+      - 🇭🇰 香港 HK x1.0 D2 本土:10871
+      - 12/22_41:18119
+      - 🇭🇰 香港 HK x1.0 05中转 本土:11390
       - 🇷🇺 俄罗斯02解锁流媒体:65021
-      - 12/22_20:443
-      - ⌈绿通⌋ 华中 01:46794
-      - 12/22_21:443
-      - 12/22_112
+      - 12/22_6:80
+      - 12/22_42:18119
+      - 12/22_46:18123
+      - 🇺🇸 基础|美国01|脸书主力:18121
+      - 12/22_47:18124
+      - 🇺🇸 基础|美国02|脸书主力:18122
+      - 12/22_17:443
+      - 🇺🇸 美国03解锁流媒体:65012
+      - 🇬🇧 标准|英国01|解锁流媒体:18076
+      - 🇬🇧 标准|英国02|解锁流媒体:18077
       - 12/22_123
+      - 12/22_112
+      - 12/22_95
+      - 🇺🇸+美国Us
+      - 12/22_75
+      - 12/22_81
       - 12/22_125
       - 12/22_88
-      - 12/22_81
-      - 12/22_128
-      - 12/22_75
-      - 12/22_117
       - 12/22_127
-      - 12/22_111
-      - 12/22_73
-      - 12/22_66
-      - 12/22_113
-      - 🇬🇧+英国Gb
-      - 12/22_109
-      - 12/22_65
+      - 12/22_117
+      - 12/22_128
       - 12/22_124
-      - 12/22_105
-      - 12/22_115
-      - 12/22_126
-      - 12/22_78
-      - 🇭🇰+香港Hk+3
-      - 12/22_130
-      - 12/22_131
-      - 12/22_132
-      - 12/22_93
-      - 12/22_122
-      - 12/22_101
-      - 12/22_118
-      - 12/22_70
-      - 12/22_67
-      - 12/22_84
-      - 12/22_133
-      - 12/22_140
-      - 12/22_71
-      - 12/22_80
-      - 12/22_100
-      - 12/22_86
-      - 12/22_107
-      - 12/22_68
-      - 12/22_103
-      - 12/22_106
-      - 12/22_98
-      - 12/22_119
-      - 🇭🇰+香港Hk+2
-      - 🇺🇸+美国Us+2
-      - 12/22_74
-      - 🇺🇸+美国Us
-      - 12/22_96
-      - 12/22_95
-      - 🇺🇸+美国Us+3
-      - 🇯🇵+日本Jp
-      - 🇯🇵+日本Jp+2
-      - 12/22_136
-      - 🇨🇳+台湾Tw
-      - 12/22_62
-      - 12/22_90
-      - 12/22_141
-      - 12/22_63
+      - 12/22_111
       - 12/22_77
-      - 12/22_85
-      - 12/22_142
-      - 12/22_121
+      - 12/22_105
+      - 12/22_109
+      - 12/22_73
+      - 🇭🇰+香港Hk
+      - 12/22_84
+      - 12/22_120
+      - 12/22_96
+      - 12/22_65
+      - 12/22_78
+      - 12/22_91
+      - 12/22_82
+      - 12/22_74
+      - 12/22_126
+      - 12/22_129
+      - 12/22_132
+      - 12/22_115
+      - 12/22_122
+      - 12/22_137
+      - 12/22_62
+      - 12/22_70
+      - 12/22_113
+      - 12/22_133
+      - 12/22_67
+      - 12/22_131
+      - 12/22_118
+      - 12/22_68
+      - 12/22_102
+      - 12/22_71
+      - 12/22_130
       - 12/22_94
+      - 12/22_121
+      - 12/22_86
+      - 12/22_103
+      - 12/22_136
+      - 12/22_106
+      - 12/22_80
+      - 12/22_98
+      - 12/22_140
+      - 12/22_119
+      - 🇭🇰+香港Hk+3
+      - 🇺🇸+美国Us+2
+      - 🇭🇰+香港Hk+2
+      - 🇺🇸+美国Us+3
+      - 12/22_63
+      - 12/22_85
+      - 12/22_93
+      - 12/22_90
+      - 🇨🇳+台湾Tw
+      - 12/22_141
+      - 12/22_107
+      - 12/22_142
+      - 12/22_101
+      - 12/22_100
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -1999,144 +2937,208 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ⌈80⌋ 华中 01:80
-      - 🇨🇳 中国台湾03解锁流媒体:65018
-      - 🇨🇳 中国台湾01解锁流媒体:65013
-      - 12/22_16:443
-      - 🇫🇮 芬兰01解锁流媒体:65020
-      - 🇯🇵 日本03解锁流媒体:65006
-      - 🇬🇧 英国01解锁流媒体:65009
-      - 🇺🇸 美国 US x1.0 01中转 本土:14264
-      - 🇯🇵 日本01解锁流媒体:65004
+      - 🇺🇸 基础|美国04|脸书主力:18124
+      - 🇺🇸 标准|美国03|解锁流媒体:18139
+      - 🇯🇵 标准|日本02|解锁流媒体:18022
+      - 翻墙党fanqiangdang.com:41002
+      - 🇨🇦 标准|加拿大01|解锁流媒体:18072
+      - 🇺🇸 标准|美国02|解锁流媒体:18138
+      - 🇺🇸 标准|美国01|解锁流媒体:18137
       - 12/22_12:80
-      - 12/22_56:27182
-      - 🇺🇸 美国 US x1.0 03中转:14464
-      - 🇸🇬 新加坡02解锁流媒体:65016
-      - 🇺🇸 美国 US x1.0 06中转:14466
-      - 🇸🇬 新加坡03解锁流媒体:65017
-      - 🇺🇸 美国 US x1.0 04中转:14360
-      - 12/22_32:18007
-      - 🇮🇳 印度01解锁流媒体:65007
-      - 🇯🇵 日本02解锁流媒体:65005
-      - 12/22_42:18119
-      - 🇨🇳 ⌈80⌋ 台湾 01:80
-      - 12/22_6:80
-      - 🇰🇷 韩国 KR x1.0 01直连:14393
-      - 🇭🇰 香港01解锁流媒体:65000
-      - 🇭🇰 香港 HK x1.0 A13直连:12493
-      - 🇨🇳 中国台湾02解锁流媒体:65014
-      - 🇰🇷 韩国 KR x1.0 02直连:6552
-      - 🇭🇰 ⌈443⌋ 香港 02:443
-      - 🇭🇰 ⌈80⌋ 香港 02:80
-      - 🇭🇰 ⌈绿通⌋ 香港 02:46794
-      - 🇸🇬 新加坡01解锁流媒体:65015
-      - 🇭🇰 香港03解锁流媒体:65002
-      - 🇭🇰 ⌈广停⌋ 香港 01:1082
-      - 🇭🇰 ⌈广停⌋ 香港 02:1082
-      - 🇸🇬 新加坡 SG x1.0 01直连:10267
-      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇺🇸 标准|美国04|解锁流媒体:18140
+      - 🇬🇧 英国01解锁流媒体:65009
+      - 12/22_19:443
+      - 🇨🇦 标准|加拿大02|解锁流媒体:18073
+      - 🇫🇮 芬兰01解锁流媒体:65020
+      - 🇩🇪 德国01解锁流媒体:65008
+      - 🇮🇳 标准|印度01|解锁流媒体:18074
+      - 🇮🇳 标准|印度02|解锁流媒体:18075
+      - 🇯🇵 标准|日本01|解锁流媒体:18021
+      - 12/22_50:20004
       - 🇷🇺 俄罗斯01解锁流媒体:65019
-      - 🇭🇰 香港 HK x1.0 A10直连:12493
-      - 🇭🇰 香港 HK x1.0 A14直连:12493
+      - 🇺🇸 美国 US x1.0 05中转:14350
+      - 12/22_18:443
+      - 专线|亚洲04|混合主力:18056
+      - 🇭🇰 香港 HK x1.0 D1 本土:12632
+      - 12/22_33:18007
+      - 🇺🇸 专线|美国03|原生NTT:18044
+      - 🇷🇺 专线|俄罗斯03|原生IP:10088
+      - 🇺🇸 专线|美国01|原生NTT:18042
+      - 🇺🇸 专线|西雅图02|原生NTT:18085
+      - 🇺🇸 专线|美国02|原生NTT:18043
+      - 🇺🇸 专线|西雅图01|原生NTT:18084
+      - 🇺🇸 专线|美国04|原生NTT:18045
+      - 🇷🇺 基础|俄罗斯03|限速100M:10086
+      - 🇷🇺 基础|俄罗斯02|限速100M:10086
+      - 🇮🇳 印度01解锁流媒体:65007
+      - 🇷🇺 专线|俄罗斯02|原生IP:10088
+      - 专线|亚洲05|混合主力:18057
+      - 🇯🇵 标准|日本03|解锁流媒体:18023
+      - 专线|亚洲06|混合主力:18058
+      - 🇯🇵 日本 JP x1.0 G1 80端口:11760
+      - 🇸🇬 标准|新加坡03|解锁流媒体:18035
+      - 12/22_22:10003
+      - 12/22_29:18005
+      - 🇸🇬 标准|新加坡01|解锁流媒体:18033
+      - 12/22_31:18006
+      - 12/22_35:18008
+      - 🇭🇰 基础|香港01|万能主力:18005
+      - 🇸🇬 新加坡02解锁流媒体:65016
+      - 专线|亚洲01|混合主力:18053
+      - 🇯🇵 日本02解锁流媒体:65005
+      - 🇭🇰 香港 HK x1.0 A1直连:14369
+      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇭🇰 基础|香港03|油管主力:18007
+      - 🇸🇬 新加坡01解锁流媒体:65015
+      - 🇨🇳 中国台湾03解锁流媒体:65018
+      - 12/22_34:18008
+      - 🇭🇰 香港 HK x1.0 A4直连:14276
+      - 12/22_45:18122
+      - 🇯🇵 日本 JP x1.0 03中转 本土:14278
+      - 12/22_23:10003
+      - 🇨🇳 中国台湾02解锁流媒体:65014
+      - 🇸🇬 标准|新加坡02|解锁流媒体:18034
+      - 🇸🇬 标准|新加坡04|解锁流媒体:18036
+      - 12/22_40:18118
+      - 12/22_56:27182
+      - 12/22_32:18007
+      - 🇸🇬 新加坡03解锁流媒体:65017
+      - 🇭🇰 香港 HK x1.0 A9直连:12493
+      - 🇯🇵 日本 JP x1.0 A5直连:11742
+      - 🇭🇰 香港 HK x1.0 A8直连:14467
+      - 🇭🇰 标准|香港03|解锁流媒体:18027
+      - 🇯🇵 日本 JP x1.0 A1直连:12534
+      - 专线|亚洲03|混合主力:18055
+      - 🇸🇬 新加坡 SG x1.0 01直连:10267
+      - 🇯🇵 日本03解锁流媒体:65006
+      - 专线|亚洲02|混合主力:18054
+      - 🇨🇳 专线|台湾04|原生HINET:18081
+      - 🇨🇳 中国台湾01解锁流媒体:65013
+      - 🇭🇰 香港 HK x1.0 A12直连:12493
+      - 🇭🇰 基础|香港06|社交主力:18010
+      - 🇨🇳 基础|台湾04|视频主力:18120
+      - 🇭🇰 专线|香港07|原生HKBN:18082
+      - 🇭🇰 基础|香港05|社交主力:18009
+      - 12/22_38:18117
       - 🇭🇰 香港 HK x1.0 A2直连:14445
-      - 🇭🇰 香港04解锁流媒体:65003
-      - 🇭🇰 ⌈443⌋ 香港 01:443
-      - 🇭🇰 ⌈80⌋ 香港 01:80
-      - ⌈443⌋ 华中 01:443
+      - 12/22_30:18006
+      - 🇭🇰 基础|香港02|万能主力:18006
+      - 🇨🇳 基础|台湾03|视频主力:18119
+      - 🇭🇰 专线|香港02|原生HGCBBS:18065
+      - 🇨🇳 基础|台湾02|视频主力:18118
       - 12/22_57:27962
       - 🇯🇵 日本 JP x1.0 01直连:14359
+      - 🇨🇳 基础|台湾01|视频主力:18117
+      - 🇨🇳 专线|台湾01|原生HINET:18078
+      - 🇭🇰 基础|香港04|油管主力:18008
       - 🇺🇸 美国01解锁流媒体:65010
-      - 🇸🇬 新加坡 SG x1.0 03直连:14375
-      - 🇸🇬 新加坡 SG x1.0 02直连:14374
-      - 🇯🇵 日本 JP x1.0 A1直连:12534
-      - 🇺🇸 美国03解锁流媒体:65012
-      - 12/22_19:443
-      - 🇭🇰 ⌈绿通⌋ 香港 01:46794
-      - 🇯🇵 日本 JP x1.0 06直连:14459
-      - 12/22_5:80
-      - 🇯🇵 日本 JP x1.0 A4直连:11742
-      - 12/22_8:80
       - 12/22_11:80
+      - 12/22_43:18120
+      - 🇺🇸 基础|美国03|脸书主力:18123
       - 12/22_2:80
-      - 🇯🇵 日本 JP x1.0 02直连:12641
-      - 🇺🇸 美国02解锁流媒体:65011
-      - 12/22_15:443
-      - 🇩🇪 德国01解锁流媒体:65008
-      - 🇯🇵 日本 JP x1.0 05直连:14463
-      - 🇨🇳 台湾 TW x1.0 D1 本土:14439
-      - 12/22_17:443
-      - 12/22_18:443
-      - 🇯🇵 ⌈80⌋ 日本 01:80
-      - ⌈广停⌋ 华中 01:13302
+      - 12/22_8:80
+      - 🇭🇰 专线|香港01|原生HGCBBS:18064
+      - 12/22_5:80
+      - 🇭🇰 专线|香港08|原生HKBN:18083
+      - 🇭🇰 专线|香港03|原生CMI:18066
+      - 🇭🇰 专线|香港06|原生CMI:18069
+      - 🇭🇰 香港04解锁流媒体:65003
+      - 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+      - 🇨🇳 专线|台湾03|原生HINET:18080
+      - 🇭🇰 专线|香港04|原生HGCBBS:18067
+      - 🇨🇳 专线|台湾02|原生HINET:18079
+      - 🇭🇰 标准|香港05|解锁流媒体:18029
+      - 🇭🇰 香港01解锁流媒体:65000
+      - 🇭🇰 标准|香港04|解锁流媒体:18028
       - 🇭🇰 香港02解锁流媒体:65001
+      - 🇭🇰 标准|香港02|解锁流媒体:18026
+      - 🇭🇰 香港03解锁流媒体:65002
+      - 🇭🇰 标准|香港01|解锁流媒体:18025
+      - 🇺🇸 美国02解锁流媒体:65011
+      - 🇭🇰 专线|香港05|原生HGCBBS:18068
+      - 🇯🇵 日本01解锁流媒体:65004
+      - 12/22_44:18121
+      - 🇭🇰 香港 HK x1.0 D2 本土:10871
+      - 12/22_41:18119
+      - 🇭🇰 香港 HK x1.0 05中转 本土:11390
       - 🇷🇺 俄罗斯02解锁流媒体:65021
-      - 12/22_20:443
-      - ⌈绿通⌋ 华中 01:46794
-      - 12/22_21:443
-      - 12/22_112
+      - 12/22_6:80
+      - 12/22_42:18119
+      - 12/22_46:18123
+      - 🇺🇸 基础|美国01|脸书主力:18121
+      - 12/22_47:18124
+      - 🇺🇸 基础|美国02|脸书主力:18122
+      - 12/22_17:443
+      - 🇺🇸 美国03解锁流媒体:65012
+      - 🇬🇧 标准|英国01|解锁流媒体:18076
+      - 🇬🇧 标准|英国02|解锁流媒体:18077
       - 12/22_123
+      - 12/22_112
+      - 12/22_95
+      - 🇺🇸+美国Us
+      - 12/22_75
+      - 12/22_81
       - 12/22_125
       - 12/22_88
-      - 12/22_81
-      - 12/22_128
-      - 12/22_75
-      - 12/22_117
       - 12/22_127
-      - 12/22_111
-      - 12/22_73
-      - 12/22_66
-      - 12/22_113
-      - 🇬🇧+英国Gb
-      - 12/22_109
-      - 12/22_65
+      - 12/22_117
+      - 12/22_128
       - 12/22_124
-      - 12/22_105
-      - 12/22_115
-      - 12/22_126
-      - 12/22_78
-      - 🇭🇰+香港Hk+3
-      - 12/22_130
-      - 12/22_131
-      - 12/22_132
-      - 12/22_93
-      - 12/22_122
-      - 12/22_101
-      - 12/22_118
-      - 12/22_70
-      - 12/22_67
-      - 12/22_84
-      - 12/22_133
-      - 12/22_140
-      - 12/22_71
-      - 12/22_80
-      - 12/22_100
-      - 12/22_86
-      - 12/22_107
-      - 12/22_68
-      - 12/22_103
-      - 12/22_106
-      - 12/22_98
-      - 12/22_119
-      - 🇭🇰+香港Hk+2
-      - 🇺🇸+美国Us+2
-      - 12/22_74
-      - 🇺🇸+美国Us
-      - 12/22_96
-      - 12/22_95
-      - 🇺🇸+美国Us+3
-      - 🇯🇵+日本Jp
-      - 🇯🇵+日本Jp+2
-      - 12/22_136
-      - 🇨🇳+台湾Tw
-      - 12/22_62
-      - 12/22_90
-      - 12/22_141
-      - 12/22_63
+      - 12/22_111
       - 12/22_77
-      - 12/22_85
-      - 12/22_142
-      - 12/22_121
+      - 12/22_105
+      - 12/22_109
+      - 12/22_73
+      - 🇭🇰+香港Hk
+      - 12/22_84
+      - 12/22_120
+      - 12/22_96
+      - 12/22_65
+      - 12/22_78
+      - 12/22_91
+      - 12/22_82
+      - 12/22_74
+      - 12/22_126
+      - 12/22_129
+      - 12/22_132
+      - 12/22_115
+      - 12/22_122
+      - 12/22_137
+      - 12/22_62
+      - 12/22_70
+      - 12/22_113
+      - 12/22_133
+      - 12/22_67
+      - 12/22_131
+      - 12/22_118
+      - 12/22_68
+      - 12/22_102
+      - 12/22_71
+      - 12/22_130
       - 12/22_94
+      - 12/22_121
+      - 12/22_86
+      - 12/22_103
+      - 12/22_136
+      - 12/22_106
+      - 12/22_80
+      - 12/22_98
+      - 12/22_140
+      - 12/22_119
+      - 🇭🇰+香港Hk+3
+      - 🇺🇸+美国Us+2
+      - 🇭🇰+香港Hk+2
+      - 🇺🇸+美国Us+3
+      - 12/22_63
+      - 12/22_85
+      - 12/22_93
+      - 12/22_90
+      - 🇨🇳+台湾Tw
+      - 12/22_141
+      - 12/22_107
+      - 12/22_142
+      - 12/22_101
+      - 12/22_100
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -2167,144 +3169,208 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ⌈80⌋ 华中 01:80
-      - 🇨🇳 中国台湾03解锁流媒体:65018
-      - 🇨🇳 中国台湾01解锁流媒体:65013
-      - 12/22_16:443
-      - 🇫🇮 芬兰01解锁流媒体:65020
-      - 🇯🇵 日本03解锁流媒体:65006
-      - 🇬🇧 英国01解锁流媒体:65009
-      - 🇺🇸 美国 US x1.0 01中转 本土:14264
-      - 🇯🇵 日本01解锁流媒体:65004
+      - 🇺🇸 基础|美国04|脸书主力:18124
+      - 🇺🇸 标准|美国03|解锁流媒体:18139
+      - 🇯🇵 标准|日本02|解锁流媒体:18022
+      - 翻墙党fanqiangdang.com:41002
+      - 🇨🇦 标准|加拿大01|解锁流媒体:18072
+      - 🇺🇸 标准|美国02|解锁流媒体:18138
+      - 🇺🇸 标准|美国01|解锁流媒体:18137
       - 12/22_12:80
-      - 12/22_56:27182
-      - 🇺🇸 美国 US x1.0 03中转:14464
-      - 🇸🇬 新加坡02解锁流媒体:65016
-      - 🇺🇸 美国 US x1.0 06中转:14466
-      - 🇸🇬 新加坡03解锁流媒体:65017
-      - 🇺🇸 美国 US x1.0 04中转:14360
-      - 12/22_32:18007
-      - 🇮🇳 印度01解锁流媒体:65007
-      - 🇯🇵 日本02解锁流媒体:65005
-      - 12/22_42:18119
-      - 🇨🇳 ⌈80⌋ 台湾 01:80
-      - 12/22_6:80
-      - 🇰🇷 韩国 KR x1.0 01直连:14393
-      - 🇭🇰 香港01解锁流媒体:65000
-      - 🇭🇰 香港 HK x1.0 A13直连:12493
-      - 🇨🇳 中国台湾02解锁流媒体:65014
-      - 🇰🇷 韩国 KR x1.0 02直连:6552
-      - 🇭🇰 ⌈443⌋ 香港 02:443
-      - 🇭🇰 ⌈80⌋ 香港 02:80
-      - 🇭🇰 ⌈绿通⌋ 香港 02:46794
-      - 🇸🇬 新加坡01解锁流媒体:65015
-      - 🇭🇰 香港03解锁流媒体:65002
-      - 🇭🇰 ⌈广停⌋ 香港 01:1082
-      - 🇭🇰 ⌈广停⌋ 香港 02:1082
-      - 🇸🇬 新加坡 SG x1.0 01直连:10267
-      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇺🇸 标准|美国04|解锁流媒体:18140
+      - 🇬🇧 英国01解锁流媒体:65009
+      - 12/22_19:443
+      - 🇨🇦 标准|加拿大02|解锁流媒体:18073
+      - 🇫🇮 芬兰01解锁流媒体:65020
+      - 🇩🇪 德国01解锁流媒体:65008
+      - 🇮🇳 标准|印度01|解锁流媒体:18074
+      - 🇮🇳 标准|印度02|解锁流媒体:18075
+      - 🇯🇵 标准|日本01|解锁流媒体:18021
+      - 12/22_50:20004
       - 🇷🇺 俄罗斯01解锁流媒体:65019
-      - 🇭🇰 香港 HK x1.0 A10直连:12493
-      - 🇭🇰 香港 HK x1.0 A14直连:12493
+      - 🇺🇸 美国 US x1.0 05中转:14350
+      - 12/22_18:443
+      - 专线|亚洲04|混合主力:18056
+      - 🇭🇰 香港 HK x1.0 D1 本土:12632
+      - 12/22_33:18007
+      - 🇺🇸 专线|美国03|原生NTT:18044
+      - 🇷🇺 专线|俄罗斯03|原生IP:10088
+      - 🇺🇸 专线|美国01|原生NTT:18042
+      - 🇺🇸 专线|西雅图02|原生NTT:18085
+      - 🇺🇸 专线|美国02|原生NTT:18043
+      - 🇺🇸 专线|西雅图01|原生NTT:18084
+      - 🇺🇸 专线|美国04|原生NTT:18045
+      - 🇷🇺 基础|俄罗斯03|限速100M:10086
+      - 🇷🇺 基础|俄罗斯02|限速100M:10086
+      - 🇮🇳 印度01解锁流媒体:65007
+      - 🇷🇺 专线|俄罗斯02|原生IP:10088
+      - 专线|亚洲05|混合主力:18057
+      - 🇯🇵 标准|日本03|解锁流媒体:18023
+      - 专线|亚洲06|混合主力:18058
+      - 🇯🇵 日本 JP x1.0 G1 80端口:11760
+      - 🇸🇬 标准|新加坡03|解锁流媒体:18035
+      - 12/22_22:10003
+      - 12/22_29:18005
+      - 🇸🇬 标准|新加坡01|解锁流媒体:18033
+      - 12/22_31:18006
+      - 12/22_35:18008
+      - 🇭🇰 基础|香港01|万能主力:18005
+      - 🇸🇬 新加坡02解锁流媒体:65016
+      - 专线|亚洲01|混合主力:18053
+      - 🇯🇵 日本02解锁流媒体:65005
+      - 🇭🇰 香港 HK x1.0 A1直连:14369
+      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇭🇰 基础|香港03|油管主力:18007
+      - 🇸🇬 新加坡01解锁流媒体:65015
+      - 🇨🇳 中国台湾03解锁流媒体:65018
+      - 12/22_34:18008
+      - 🇭🇰 香港 HK x1.0 A4直连:14276
+      - 12/22_45:18122
+      - 🇯🇵 日本 JP x1.0 03中转 本土:14278
+      - 12/22_23:10003
+      - 🇨🇳 中国台湾02解锁流媒体:65014
+      - 🇸🇬 标准|新加坡02|解锁流媒体:18034
+      - 🇸🇬 标准|新加坡04|解锁流媒体:18036
+      - 12/22_40:18118
+      - 12/22_56:27182
+      - 12/22_32:18007
+      - 🇸🇬 新加坡03解锁流媒体:65017
+      - 🇭🇰 香港 HK x1.0 A9直连:12493
+      - 🇯🇵 日本 JP x1.0 A5直连:11742
+      - 🇭🇰 香港 HK x1.0 A8直连:14467
+      - 🇭🇰 标准|香港03|解锁流媒体:18027
+      - 🇯🇵 日本 JP x1.0 A1直连:12534
+      - 专线|亚洲03|混合主力:18055
+      - 🇸🇬 新加坡 SG x1.0 01直连:10267
+      - 🇯🇵 日本03解锁流媒体:65006
+      - 专线|亚洲02|混合主力:18054
+      - 🇨🇳 专线|台湾04|原生HINET:18081
+      - 🇨🇳 中国台湾01解锁流媒体:65013
+      - 🇭🇰 香港 HK x1.0 A12直连:12493
+      - 🇭🇰 基础|香港06|社交主力:18010
+      - 🇨🇳 基础|台湾04|视频主力:18120
+      - 🇭🇰 专线|香港07|原生HKBN:18082
+      - 🇭🇰 基础|香港05|社交主力:18009
+      - 12/22_38:18117
       - 🇭🇰 香港 HK x1.0 A2直连:14445
-      - 🇭🇰 香港04解锁流媒体:65003
-      - 🇭🇰 ⌈443⌋ 香港 01:443
-      - 🇭🇰 ⌈80⌋ 香港 01:80
-      - ⌈443⌋ 华中 01:443
+      - 12/22_30:18006
+      - 🇭🇰 基础|香港02|万能主力:18006
+      - 🇨🇳 基础|台湾03|视频主力:18119
+      - 🇭🇰 专线|香港02|原生HGCBBS:18065
+      - 🇨🇳 基础|台湾02|视频主力:18118
       - 12/22_57:27962
       - 🇯🇵 日本 JP x1.0 01直连:14359
+      - 🇨🇳 基础|台湾01|视频主力:18117
+      - 🇨🇳 专线|台湾01|原生HINET:18078
+      - 🇭🇰 基础|香港04|油管主力:18008
       - 🇺🇸 美国01解锁流媒体:65010
-      - 🇸🇬 新加坡 SG x1.0 03直连:14375
-      - 🇸🇬 新加坡 SG x1.0 02直连:14374
-      - 🇯🇵 日本 JP x1.0 A1直连:12534
-      - 🇺🇸 美国03解锁流媒体:65012
-      - 12/22_19:443
-      - 🇭🇰 ⌈绿通⌋ 香港 01:46794
-      - 🇯🇵 日本 JP x1.0 06直连:14459
-      - 12/22_5:80
-      - 🇯🇵 日本 JP x1.0 A4直连:11742
-      - 12/22_8:80
       - 12/22_11:80
+      - 12/22_43:18120
+      - 🇺🇸 基础|美国03|脸书主力:18123
       - 12/22_2:80
-      - 🇯🇵 日本 JP x1.0 02直连:12641
-      - 🇺🇸 美国02解锁流媒体:65011
-      - 12/22_15:443
-      - 🇩🇪 德国01解锁流媒体:65008
-      - 🇯🇵 日本 JP x1.0 05直连:14463
-      - 🇨🇳 台湾 TW x1.0 D1 本土:14439
-      - 12/22_17:443
-      - 12/22_18:443
-      - 🇯🇵 ⌈80⌋ 日本 01:80
-      - ⌈广停⌋ 华中 01:13302
+      - 12/22_8:80
+      - 🇭🇰 专线|香港01|原生HGCBBS:18064
+      - 12/22_5:80
+      - 🇭🇰 专线|香港08|原生HKBN:18083
+      - 🇭🇰 专线|香港03|原生CMI:18066
+      - 🇭🇰 专线|香港06|原生CMI:18069
+      - 🇭🇰 香港04解锁流媒体:65003
+      - 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+      - 🇨🇳 专线|台湾03|原生HINET:18080
+      - 🇭🇰 专线|香港04|原生HGCBBS:18067
+      - 🇨🇳 专线|台湾02|原生HINET:18079
+      - 🇭🇰 标准|香港05|解锁流媒体:18029
+      - 🇭🇰 香港01解锁流媒体:65000
+      - 🇭🇰 标准|香港04|解锁流媒体:18028
       - 🇭🇰 香港02解锁流媒体:65001
+      - 🇭🇰 标准|香港02|解锁流媒体:18026
+      - 🇭🇰 香港03解锁流媒体:65002
+      - 🇭🇰 标准|香港01|解锁流媒体:18025
+      - 🇺🇸 美国02解锁流媒体:65011
+      - 🇭🇰 专线|香港05|原生HGCBBS:18068
+      - 🇯🇵 日本01解锁流媒体:65004
+      - 12/22_44:18121
+      - 🇭🇰 香港 HK x1.0 D2 本土:10871
+      - 12/22_41:18119
+      - 🇭🇰 香港 HK x1.0 05中转 本土:11390
       - 🇷🇺 俄罗斯02解锁流媒体:65021
-      - 12/22_20:443
-      - ⌈绿通⌋ 华中 01:46794
-      - 12/22_21:443
-      - 12/22_112
+      - 12/22_6:80
+      - 12/22_42:18119
+      - 12/22_46:18123
+      - 🇺🇸 基础|美国01|脸书主力:18121
+      - 12/22_47:18124
+      - 🇺🇸 基础|美国02|脸书主力:18122
+      - 12/22_17:443
+      - 🇺🇸 美国03解锁流媒体:65012
+      - 🇬🇧 标准|英国01|解锁流媒体:18076
+      - 🇬🇧 标准|英国02|解锁流媒体:18077
       - 12/22_123
+      - 12/22_112
+      - 12/22_95
+      - 🇺🇸+美国Us
+      - 12/22_75
+      - 12/22_81
       - 12/22_125
       - 12/22_88
-      - 12/22_81
-      - 12/22_128
-      - 12/22_75
-      - 12/22_117
       - 12/22_127
-      - 12/22_111
-      - 12/22_73
-      - 12/22_66
-      - 12/22_113
-      - 🇬🇧+英国Gb
-      - 12/22_109
-      - 12/22_65
+      - 12/22_117
+      - 12/22_128
       - 12/22_124
-      - 12/22_105
-      - 12/22_115
-      - 12/22_126
-      - 12/22_78
-      - 🇭🇰+香港Hk+3
-      - 12/22_130
-      - 12/22_131
-      - 12/22_132
-      - 12/22_93
-      - 12/22_122
-      - 12/22_101
-      - 12/22_118
-      - 12/22_70
-      - 12/22_67
-      - 12/22_84
-      - 12/22_133
-      - 12/22_140
-      - 12/22_71
-      - 12/22_80
-      - 12/22_100
-      - 12/22_86
-      - 12/22_107
-      - 12/22_68
-      - 12/22_103
-      - 12/22_106
-      - 12/22_98
-      - 12/22_119
-      - 🇭🇰+香港Hk+2
-      - 🇺🇸+美国Us+2
-      - 12/22_74
-      - 🇺🇸+美国Us
-      - 12/22_96
-      - 12/22_95
-      - 🇺🇸+美国Us+3
-      - 🇯🇵+日本Jp
-      - 🇯🇵+日本Jp+2
-      - 12/22_136
-      - 🇨🇳+台湾Tw
-      - 12/22_62
-      - 12/22_90
-      - 12/22_141
-      - 12/22_63
+      - 12/22_111
       - 12/22_77
-      - 12/22_85
-      - 12/22_142
-      - 12/22_121
+      - 12/22_105
+      - 12/22_109
+      - 12/22_73
+      - 🇭🇰+香港Hk
+      - 12/22_84
+      - 12/22_120
+      - 12/22_96
+      - 12/22_65
+      - 12/22_78
+      - 12/22_91
+      - 12/22_82
+      - 12/22_74
+      - 12/22_126
+      - 12/22_129
+      - 12/22_132
+      - 12/22_115
+      - 12/22_122
+      - 12/22_137
+      - 12/22_62
+      - 12/22_70
+      - 12/22_113
+      - 12/22_133
+      - 12/22_67
+      - 12/22_131
+      - 12/22_118
+      - 12/22_68
+      - 12/22_102
+      - 12/22_71
+      - 12/22_130
       - 12/22_94
+      - 12/22_121
+      - 12/22_86
+      - 12/22_103
+      - 12/22_136
+      - 12/22_106
+      - 12/22_80
+      - 12/22_98
+      - 12/22_140
+      - 12/22_119
+      - 🇭🇰+香港Hk+3
+      - 🇺🇸+美国Us+2
+      - 🇭🇰+香港Hk+2
+      - 🇺🇸+美国Us+3
+      - 12/22_63
+      - 12/22_85
+      - 12/22_93
+      - 12/22_90
+      - 🇨🇳+台湾Tw
+      - 12/22_141
+      - 12/22_107
+      - 12/22_142
+      - 12/22_101
+      - 12/22_100
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -2335,144 +3401,208 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ⌈80⌋ 华中 01:80
-      - 🇨🇳 中国台湾03解锁流媒体:65018
-      - 🇨🇳 中国台湾01解锁流媒体:65013
-      - 12/22_16:443
-      - 🇫🇮 芬兰01解锁流媒体:65020
-      - 🇯🇵 日本03解锁流媒体:65006
-      - 🇬🇧 英国01解锁流媒体:65009
-      - 🇺🇸 美国 US x1.0 01中转 本土:14264
-      - 🇯🇵 日本01解锁流媒体:65004
+      - 🇺🇸 基础|美国04|脸书主力:18124
+      - 🇺🇸 标准|美国03|解锁流媒体:18139
+      - 🇯🇵 标准|日本02|解锁流媒体:18022
+      - 翻墙党fanqiangdang.com:41002
+      - 🇨🇦 标准|加拿大01|解锁流媒体:18072
+      - 🇺🇸 标准|美国02|解锁流媒体:18138
+      - 🇺🇸 标准|美国01|解锁流媒体:18137
       - 12/22_12:80
-      - 12/22_56:27182
-      - 🇺🇸 美国 US x1.0 03中转:14464
-      - 🇸🇬 新加坡02解锁流媒体:65016
-      - 🇺🇸 美国 US x1.0 06中转:14466
-      - 🇸🇬 新加坡03解锁流媒体:65017
-      - 🇺🇸 美国 US x1.0 04中转:14360
-      - 12/22_32:18007
-      - 🇮🇳 印度01解锁流媒体:65007
-      - 🇯🇵 日本02解锁流媒体:65005
-      - 12/22_42:18119
-      - 🇨🇳 ⌈80⌋ 台湾 01:80
-      - 12/22_6:80
-      - 🇰🇷 韩国 KR x1.0 01直连:14393
-      - 🇭🇰 香港01解锁流媒体:65000
-      - 🇭🇰 香港 HK x1.0 A13直连:12493
-      - 🇨🇳 中国台湾02解锁流媒体:65014
-      - 🇰🇷 韩国 KR x1.0 02直连:6552
-      - 🇭🇰 ⌈443⌋ 香港 02:443
-      - 🇭🇰 ⌈80⌋ 香港 02:80
-      - 🇭🇰 ⌈绿通⌋ 香港 02:46794
-      - 🇸🇬 新加坡01解锁流媒体:65015
-      - 🇭🇰 香港03解锁流媒体:65002
-      - 🇭🇰 ⌈广停⌋ 香港 01:1082
-      - 🇭🇰 ⌈广停⌋ 香港 02:1082
-      - 🇸🇬 新加坡 SG x1.0 01直连:10267
-      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇺🇸 标准|美国04|解锁流媒体:18140
+      - 🇬🇧 英国01解锁流媒体:65009
+      - 12/22_19:443
+      - 🇨🇦 标准|加拿大02|解锁流媒体:18073
+      - 🇫🇮 芬兰01解锁流媒体:65020
+      - 🇩🇪 德国01解锁流媒体:65008
+      - 🇮🇳 标准|印度01|解锁流媒体:18074
+      - 🇮🇳 标准|印度02|解锁流媒体:18075
+      - 🇯🇵 标准|日本01|解锁流媒体:18021
+      - 12/22_50:20004
       - 🇷🇺 俄罗斯01解锁流媒体:65019
-      - 🇭🇰 香港 HK x1.0 A10直连:12493
-      - 🇭🇰 香港 HK x1.0 A14直连:12493
+      - 🇺🇸 美国 US x1.0 05中转:14350
+      - 12/22_18:443
+      - 专线|亚洲04|混合主力:18056
+      - 🇭🇰 香港 HK x1.0 D1 本土:12632
+      - 12/22_33:18007
+      - 🇺🇸 专线|美国03|原生NTT:18044
+      - 🇷🇺 专线|俄罗斯03|原生IP:10088
+      - 🇺🇸 专线|美国01|原生NTT:18042
+      - 🇺🇸 专线|西雅图02|原生NTT:18085
+      - 🇺🇸 专线|美国02|原生NTT:18043
+      - 🇺🇸 专线|西雅图01|原生NTT:18084
+      - 🇺🇸 专线|美国04|原生NTT:18045
+      - 🇷🇺 基础|俄罗斯03|限速100M:10086
+      - 🇷🇺 基础|俄罗斯02|限速100M:10086
+      - 🇮🇳 印度01解锁流媒体:65007
+      - 🇷🇺 专线|俄罗斯02|原生IP:10088
+      - 专线|亚洲05|混合主力:18057
+      - 🇯🇵 标准|日本03|解锁流媒体:18023
+      - 专线|亚洲06|混合主力:18058
+      - 🇯🇵 日本 JP x1.0 G1 80端口:11760
+      - 🇸🇬 标准|新加坡03|解锁流媒体:18035
+      - 12/22_22:10003
+      - 12/22_29:18005
+      - 🇸🇬 标准|新加坡01|解锁流媒体:18033
+      - 12/22_31:18006
+      - 12/22_35:18008
+      - 🇭🇰 基础|香港01|万能主力:18005
+      - 🇸🇬 新加坡02解锁流媒体:65016
+      - 专线|亚洲01|混合主力:18053
+      - 🇯🇵 日本02解锁流媒体:65005
+      - 🇭🇰 香港 HK x1.0 A1直连:14369
+      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇭🇰 基础|香港03|油管主力:18007
+      - 🇸🇬 新加坡01解锁流媒体:65015
+      - 🇨🇳 中国台湾03解锁流媒体:65018
+      - 12/22_34:18008
+      - 🇭🇰 香港 HK x1.0 A4直连:14276
+      - 12/22_45:18122
+      - 🇯🇵 日本 JP x1.0 03中转 本土:14278
+      - 12/22_23:10003
+      - 🇨🇳 中国台湾02解锁流媒体:65014
+      - 🇸🇬 标准|新加坡02|解锁流媒体:18034
+      - 🇸🇬 标准|新加坡04|解锁流媒体:18036
+      - 12/22_40:18118
+      - 12/22_56:27182
+      - 12/22_32:18007
+      - 🇸🇬 新加坡03解锁流媒体:65017
+      - 🇭🇰 香港 HK x1.0 A9直连:12493
+      - 🇯🇵 日本 JP x1.0 A5直连:11742
+      - 🇭🇰 香港 HK x1.0 A8直连:14467
+      - 🇭🇰 标准|香港03|解锁流媒体:18027
+      - 🇯🇵 日本 JP x1.0 A1直连:12534
+      - 专线|亚洲03|混合主力:18055
+      - 🇸🇬 新加坡 SG x1.0 01直连:10267
+      - 🇯🇵 日本03解锁流媒体:65006
+      - 专线|亚洲02|混合主力:18054
+      - 🇨🇳 专线|台湾04|原生HINET:18081
+      - 🇨🇳 中国台湾01解锁流媒体:65013
+      - 🇭🇰 香港 HK x1.0 A12直连:12493
+      - 🇭🇰 基础|香港06|社交主力:18010
+      - 🇨🇳 基础|台湾04|视频主力:18120
+      - 🇭🇰 专线|香港07|原生HKBN:18082
+      - 🇭🇰 基础|香港05|社交主力:18009
+      - 12/22_38:18117
       - 🇭🇰 香港 HK x1.0 A2直连:14445
-      - 🇭🇰 香港04解锁流媒体:65003
-      - 🇭🇰 ⌈443⌋ 香港 01:443
-      - 🇭🇰 ⌈80⌋ 香港 01:80
-      - ⌈443⌋ 华中 01:443
+      - 12/22_30:18006
+      - 🇭🇰 基础|香港02|万能主力:18006
+      - 🇨🇳 基础|台湾03|视频主力:18119
+      - 🇭🇰 专线|香港02|原生HGCBBS:18065
+      - 🇨🇳 基础|台湾02|视频主力:18118
       - 12/22_57:27962
       - 🇯🇵 日本 JP x1.0 01直连:14359
+      - 🇨🇳 基础|台湾01|视频主力:18117
+      - 🇨🇳 专线|台湾01|原生HINET:18078
+      - 🇭🇰 基础|香港04|油管主力:18008
       - 🇺🇸 美国01解锁流媒体:65010
-      - 🇸🇬 新加坡 SG x1.0 03直连:14375
-      - 🇸🇬 新加坡 SG x1.0 02直连:14374
-      - 🇯🇵 日本 JP x1.0 A1直连:12534
-      - 🇺🇸 美国03解锁流媒体:65012
-      - 12/22_19:443
-      - 🇭🇰 ⌈绿通⌋ 香港 01:46794
-      - 🇯🇵 日本 JP x1.0 06直连:14459
-      - 12/22_5:80
-      - 🇯🇵 日本 JP x1.0 A4直连:11742
-      - 12/22_8:80
       - 12/22_11:80
+      - 12/22_43:18120
+      - 🇺🇸 基础|美国03|脸书主力:18123
       - 12/22_2:80
-      - 🇯🇵 日本 JP x1.0 02直连:12641
-      - 🇺🇸 美国02解锁流媒体:65011
-      - 12/22_15:443
-      - 🇩🇪 德国01解锁流媒体:65008
-      - 🇯🇵 日本 JP x1.0 05直连:14463
-      - 🇨🇳 台湾 TW x1.0 D1 本土:14439
-      - 12/22_17:443
-      - 12/22_18:443
-      - 🇯🇵 ⌈80⌋ 日本 01:80
-      - ⌈广停⌋ 华中 01:13302
+      - 12/22_8:80
+      - 🇭🇰 专线|香港01|原生HGCBBS:18064
+      - 12/22_5:80
+      - 🇭🇰 专线|香港08|原生HKBN:18083
+      - 🇭🇰 专线|香港03|原生CMI:18066
+      - 🇭🇰 专线|香港06|原生CMI:18069
+      - 🇭🇰 香港04解锁流媒体:65003
+      - 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+      - 🇨🇳 专线|台湾03|原生HINET:18080
+      - 🇭🇰 专线|香港04|原生HGCBBS:18067
+      - 🇨🇳 专线|台湾02|原生HINET:18079
+      - 🇭🇰 标准|香港05|解锁流媒体:18029
+      - 🇭🇰 香港01解锁流媒体:65000
+      - 🇭🇰 标准|香港04|解锁流媒体:18028
       - 🇭🇰 香港02解锁流媒体:65001
+      - 🇭🇰 标准|香港02|解锁流媒体:18026
+      - 🇭🇰 香港03解锁流媒体:65002
+      - 🇭🇰 标准|香港01|解锁流媒体:18025
+      - 🇺🇸 美国02解锁流媒体:65011
+      - 🇭🇰 专线|香港05|原生HGCBBS:18068
+      - 🇯🇵 日本01解锁流媒体:65004
+      - 12/22_44:18121
+      - 🇭🇰 香港 HK x1.0 D2 本土:10871
+      - 12/22_41:18119
+      - 🇭🇰 香港 HK x1.0 05中转 本土:11390
       - 🇷🇺 俄罗斯02解锁流媒体:65021
-      - 12/22_20:443
-      - ⌈绿通⌋ 华中 01:46794
-      - 12/22_21:443
-      - 12/22_112
+      - 12/22_6:80
+      - 12/22_42:18119
+      - 12/22_46:18123
+      - 🇺🇸 基础|美国01|脸书主力:18121
+      - 12/22_47:18124
+      - 🇺🇸 基础|美国02|脸书主力:18122
+      - 12/22_17:443
+      - 🇺🇸 美国03解锁流媒体:65012
+      - 🇬🇧 标准|英国01|解锁流媒体:18076
+      - 🇬🇧 标准|英国02|解锁流媒体:18077
       - 12/22_123
+      - 12/22_112
+      - 12/22_95
+      - 🇺🇸+美国Us
+      - 12/22_75
+      - 12/22_81
       - 12/22_125
       - 12/22_88
-      - 12/22_81
-      - 12/22_128
-      - 12/22_75
-      - 12/22_117
       - 12/22_127
-      - 12/22_111
-      - 12/22_73
-      - 12/22_66
-      - 12/22_113
-      - 🇬🇧+英国Gb
-      - 12/22_109
-      - 12/22_65
+      - 12/22_117
+      - 12/22_128
       - 12/22_124
-      - 12/22_105
-      - 12/22_115
-      - 12/22_126
-      - 12/22_78
-      - 🇭🇰+香港Hk+3
-      - 12/22_130
-      - 12/22_131
-      - 12/22_132
-      - 12/22_93
-      - 12/22_122
-      - 12/22_101
-      - 12/22_118
-      - 12/22_70
-      - 12/22_67
-      - 12/22_84
-      - 12/22_133
-      - 12/22_140
-      - 12/22_71
-      - 12/22_80
-      - 12/22_100
-      - 12/22_86
-      - 12/22_107
-      - 12/22_68
-      - 12/22_103
-      - 12/22_106
-      - 12/22_98
-      - 12/22_119
-      - 🇭🇰+香港Hk+2
-      - 🇺🇸+美国Us+2
-      - 12/22_74
-      - 🇺🇸+美国Us
-      - 12/22_96
-      - 12/22_95
-      - 🇺🇸+美国Us+3
-      - 🇯🇵+日本Jp
-      - 🇯🇵+日本Jp+2
-      - 12/22_136
-      - 🇨🇳+台湾Tw
-      - 12/22_62
-      - 12/22_90
-      - 12/22_141
-      - 12/22_63
+      - 12/22_111
       - 12/22_77
-      - 12/22_85
-      - 12/22_142
-      - 12/22_121
+      - 12/22_105
+      - 12/22_109
+      - 12/22_73
+      - 🇭🇰+香港Hk
+      - 12/22_84
+      - 12/22_120
+      - 12/22_96
+      - 12/22_65
+      - 12/22_78
+      - 12/22_91
+      - 12/22_82
+      - 12/22_74
+      - 12/22_126
+      - 12/22_129
+      - 12/22_132
+      - 12/22_115
+      - 12/22_122
+      - 12/22_137
+      - 12/22_62
+      - 12/22_70
+      - 12/22_113
+      - 12/22_133
+      - 12/22_67
+      - 12/22_131
+      - 12/22_118
+      - 12/22_68
+      - 12/22_102
+      - 12/22_71
+      - 12/22_130
       - 12/22_94
+      - 12/22_121
+      - 12/22_86
+      - 12/22_103
+      - 12/22_136
+      - 12/22_106
+      - 12/22_80
+      - 12/22_98
+      - 12/22_140
+      - 12/22_119
+      - 🇭🇰+香港Hk+3
+      - 🇺🇸+美国Us+2
+      - 🇭🇰+香港Hk+2
+      - 🇺🇸+美国Us+3
+      - 12/22_63
+      - 12/22_85
+      - 12/22_93
+      - 12/22_90
+      - 🇨🇳+台湾Tw
+      - 12/22_141
+      - 12/22_107
+      - 12/22_142
+      - 12/22_101
+      - 12/22_100
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -2503,144 +3633,208 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ⌈80⌋ 华中 01:80
-      - 🇨🇳 中国台湾03解锁流媒体:65018
-      - 🇨🇳 中国台湾01解锁流媒体:65013
-      - 12/22_16:443
-      - 🇫🇮 芬兰01解锁流媒体:65020
-      - 🇯🇵 日本03解锁流媒体:65006
-      - 🇬🇧 英国01解锁流媒体:65009
-      - 🇺🇸 美国 US x1.0 01中转 本土:14264
-      - 🇯🇵 日本01解锁流媒体:65004
+      - 🇺🇸 基础|美国04|脸书主力:18124
+      - 🇺🇸 标准|美国03|解锁流媒体:18139
+      - 🇯🇵 标准|日本02|解锁流媒体:18022
+      - 翻墙党fanqiangdang.com:41002
+      - 🇨🇦 标准|加拿大01|解锁流媒体:18072
+      - 🇺🇸 标准|美国02|解锁流媒体:18138
+      - 🇺🇸 标准|美国01|解锁流媒体:18137
       - 12/22_12:80
-      - 12/22_56:27182
-      - 🇺🇸 美国 US x1.0 03中转:14464
-      - 🇸🇬 新加坡02解锁流媒体:65016
-      - 🇺🇸 美国 US x1.0 06中转:14466
-      - 🇸🇬 新加坡03解锁流媒体:65017
-      - 🇺🇸 美国 US x1.0 04中转:14360
-      - 12/22_32:18007
-      - 🇮🇳 印度01解锁流媒体:65007
-      - 🇯🇵 日本02解锁流媒体:65005
-      - 12/22_42:18119
-      - 🇨🇳 ⌈80⌋ 台湾 01:80
-      - 12/22_6:80
-      - 🇰🇷 韩国 KR x1.0 01直连:14393
-      - 🇭🇰 香港01解锁流媒体:65000
-      - 🇭🇰 香港 HK x1.0 A13直连:12493
-      - 🇨🇳 中国台湾02解锁流媒体:65014
-      - 🇰🇷 韩国 KR x1.0 02直连:6552
-      - 🇭🇰 ⌈443⌋ 香港 02:443
-      - 🇭🇰 ⌈80⌋ 香港 02:80
-      - 🇭🇰 ⌈绿通⌋ 香港 02:46794
-      - 🇸🇬 新加坡01解锁流媒体:65015
-      - 🇭🇰 香港03解锁流媒体:65002
-      - 🇭🇰 ⌈广停⌋ 香港 01:1082
-      - 🇭🇰 ⌈广停⌋ 香港 02:1082
-      - 🇸🇬 新加坡 SG x1.0 01直连:10267
-      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇺🇸 标准|美国04|解锁流媒体:18140
+      - 🇬🇧 英国01解锁流媒体:65009
+      - 12/22_19:443
+      - 🇨🇦 标准|加拿大02|解锁流媒体:18073
+      - 🇫🇮 芬兰01解锁流媒体:65020
+      - 🇩🇪 德国01解锁流媒体:65008
+      - 🇮🇳 标准|印度01|解锁流媒体:18074
+      - 🇮🇳 标准|印度02|解锁流媒体:18075
+      - 🇯🇵 标准|日本01|解锁流媒体:18021
+      - 12/22_50:20004
       - 🇷🇺 俄罗斯01解锁流媒体:65019
-      - 🇭🇰 香港 HK x1.0 A10直连:12493
-      - 🇭🇰 香港 HK x1.0 A14直连:12493
+      - 🇺🇸 美国 US x1.0 05中转:14350
+      - 12/22_18:443
+      - 专线|亚洲04|混合主力:18056
+      - 🇭🇰 香港 HK x1.0 D1 本土:12632
+      - 12/22_33:18007
+      - 🇺🇸 专线|美国03|原生NTT:18044
+      - 🇷🇺 专线|俄罗斯03|原生IP:10088
+      - 🇺🇸 专线|美国01|原生NTT:18042
+      - 🇺🇸 专线|西雅图02|原生NTT:18085
+      - 🇺🇸 专线|美国02|原生NTT:18043
+      - 🇺🇸 专线|西雅图01|原生NTT:18084
+      - 🇺🇸 专线|美国04|原生NTT:18045
+      - 🇷🇺 基础|俄罗斯03|限速100M:10086
+      - 🇷🇺 基础|俄罗斯02|限速100M:10086
+      - 🇮🇳 印度01解锁流媒体:65007
+      - 🇷🇺 专线|俄罗斯02|原生IP:10088
+      - 专线|亚洲05|混合主力:18057
+      - 🇯🇵 标准|日本03|解锁流媒体:18023
+      - 专线|亚洲06|混合主力:18058
+      - 🇯🇵 日本 JP x1.0 G1 80端口:11760
+      - 🇸🇬 标准|新加坡03|解锁流媒体:18035
+      - 12/22_22:10003
+      - 12/22_29:18005
+      - 🇸🇬 标准|新加坡01|解锁流媒体:18033
+      - 12/22_31:18006
+      - 12/22_35:18008
+      - 🇭🇰 基础|香港01|万能主力:18005
+      - 🇸🇬 新加坡02解锁流媒体:65016
+      - 专线|亚洲01|混合主力:18053
+      - 🇯🇵 日本02解锁流媒体:65005
+      - 🇭🇰 香港 HK x1.0 A1直连:14369
+      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇭🇰 基础|香港03|油管主力:18007
+      - 🇸🇬 新加坡01解锁流媒体:65015
+      - 🇨🇳 中国台湾03解锁流媒体:65018
+      - 12/22_34:18008
+      - 🇭🇰 香港 HK x1.0 A4直连:14276
+      - 12/22_45:18122
+      - 🇯🇵 日本 JP x1.0 03中转 本土:14278
+      - 12/22_23:10003
+      - 🇨🇳 中国台湾02解锁流媒体:65014
+      - 🇸🇬 标准|新加坡02|解锁流媒体:18034
+      - 🇸🇬 标准|新加坡04|解锁流媒体:18036
+      - 12/22_40:18118
+      - 12/22_56:27182
+      - 12/22_32:18007
+      - 🇸🇬 新加坡03解锁流媒体:65017
+      - 🇭🇰 香港 HK x1.0 A9直连:12493
+      - 🇯🇵 日本 JP x1.0 A5直连:11742
+      - 🇭🇰 香港 HK x1.0 A8直连:14467
+      - 🇭🇰 标准|香港03|解锁流媒体:18027
+      - 🇯🇵 日本 JP x1.0 A1直连:12534
+      - 专线|亚洲03|混合主力:18055
+      - 🇸🇬 新加坡 SG x1.0 01直连:10267
+      - 🇯🇵 日本03解锁流媒体:65006
+      - 专线|亚洲02|混合主力:18054
+      - 🇨🇳 专线|台湾04|原生HINET:18081
+      - 🇨🇳 中国台湾01解锁流媒体:65013
+      - 🇭🇰 香港 HK x1.0 A12直连:12493
+      - 🇭🇰 基础|香港06|社交主力:18010
+      - 🇨🇳 基础|台湾04|视频主力:18120
+      - 🇭🇰 专线|香港07|原生HKBN:18082
+      - 🇭🇰 基础|香港05|社交主力:18009
+      - 12/22_38:18117
       - 🇭🇰 香港 HK x1.0 A2直连:14445
-      - 🇭🇰 香港04解锁流媒体:65003
-      - 🇭🇰 ⌈443⌋ 香港 01:443
-      - 🇭🇰 ⌈80⌋ 香港 01:80
-      - ⌈443⌋ 华中 01:443
+      - 12/22_30:18006
+      - 🇭🇰 基础|香港02|万能主力:18006
+      - 🇨🇳 基础|台湾03|视频主力:18119
+      - 🇭🇰 专线|香港02|原生HGCBBS:18065
+      - 🇨🇳 基础|台湾02|视频主力:18118
       - 12/22_57:27962
       - 🇯🇵 日本 JP x1.0 01直连:14359
+      - 🇨🇳 基础|台湾01|视频主力:18117
+      - 🇨🇳 专线|台湾01|原生HINET:18078
+      - 🇭🇰 基础|香港04|油管主力:18008
       - 🇺🇸 美国01解锁流媒体:65010
-      - 🇸🇬 新加坡 SG x1.0 03直连:14375
-      - 🇸🇬 新加坡 SG x1.0 02直连:14374
-      - 🇯🇵 日本 JP x1.0 A1直连:12534
-      - 🇺🇸 美国03解锁流媒体:65012
-      - 12/22_19:443
-      - 🇭🇰 ⌈绿通⌋ 香港 01:46794
-      - 🇯🇵 日本 JP x1.0 06直连:14459
-      - 12/22_5:80
-      - 🇯🇵 日本 JP x1.0 A4直连:11742
-      - 12/22_8:80
       - 12/22_11:80
+      - 12/22_43:18120
+      - 🇺🇸 基础|美国03|脸书主力:18123
       - 12/22_2:80
-      - 🇯🇵 日本 JP x1.0 02直连:12641
-      - 🇺🇸 美国02解锁流媒体:65011
-      - 12/22_15:443
-      - 🇩🇪 德国01解锁流媒体:65008
-      - 🇯🇵 日本 JP x1.0 05直连:14463
-      - 🇨🇳 台湾 TW x1.0 D1 本土:14439
-      - 12/22_17:443
-      - 12/22_18:443
-      - 🇯🇵 ⌈80⌋ 日本 01:80
-      - ⌈广停⌋ 华中 01:13302
+      - 12/22_8:80
+      - 🇭🇰 专线|香港01|原生HGCBBS:18064
+      - 12/22_5:80
+      - 🇭🇰 专线|香港08|原生HKBN:18083
+      - 🇭🇰 专线|香港03|原生CMI:18066
+      - 🇭🇰 专线|香港06|原生CMI:18069
+      - 🇭🇰 香港04解锁流媒体:65003
+      - 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+      - 🇨🇳 专线|台湾03|原生HINET:18080
+      - 🇭🇰 专线|香港04|原生HGCBBS:18067
+      - 🇨🇳 专线|台湾02|原生HINET:18079
+      - 🇭🇰 标准|香港05|解锁流媒体:18029
+      - 🇭🇰 香港01解锁流媒体:65000
+      - 🇭🇰 标准|香港04|解锁流媒体:18028
       - 🇭🇰 香港02解锁流媒体:65001
+      - 🇭🇰 标准|香港02|解锁流媒体:18026
+      - 🇭🇰 香港03解锁流媒体:65002
+      - 🇭🇰 标准|香港01|解锁流媒体:18025
+      - 🇺🇸 美国02解锁流媒体:65011
+      - 🇭🇰 专线|香港05|原生HGCBBS:18068
+      - 🇯🇵 日本01解锁流媒体:65004
+      - 12/22_44:18121
+      - 🇭🇰 香港 HK x1.0 D2 本土:10871
+      - 12/22_41:18119
+      - 🇭🇰 香港 HK x1.0 05中转 本土:11390
       - 🇷🇺 俄罗斯02解锁流媒体:65021
-      - 12/22_20:443
-      - ⌈绿通⌋ 华中 01:46794
-      - 12/22_21:443
-      - 12/22_112
+      - 12/22_6:80
+      - 12/22_42:18119
+      - 12/22_46:18123
+      - 🇺🇸 基础|美国01|脸书主力:18121
+      - 12/22_47:18124
+      - 🇺🇸 基础|美国02|脸书主力:18122
+      - 12/22_17:443
+      - 🇺🇸 美国03解锁流媒体:65012
+      - 🇬🇧 标准|英国01|解锁流媒体:18076
+      - 🇬🇧 标准|英国02|解锁流媒体:18077
       - 12/22_123
+      - 12/22_112
+      - 12/22_95
+      - 🇺🇸+美国Us
+      - 12/22_75
+      - 12/22_81
       - 12/22_125
       - 12/22_88
-      - 12/22_81
-      - 12/22_128
-      - 12/22_75
-      - 12/22_117
       - 12/22_127
-      - 12/22_111
-      - 12/22_73
-      - 12/22_66
-      - 12/22_113
-      - 🇬🇧+英国Gb
-      - 12/22_109
-      - 12/22_65
+      - 12/22_117
+      - 12/22_128
       - 12/22_124
-      - 12/22_105
-      - 12/22_115
-      - 12/22_126
-      - 12/22_78
-      - 🇭🇰+香港Hk+3
-      - 12/22_130
-      - 12/22_131
-      - 12/22_132
-      - 12/22_93
-      - 12/22_122
-      - 12/22_101
-      - 12/22_118
-      - 12/22_70
-      - 12/22_67
-      - 12/22_84
-      - 12/22_133
-      - 12/22_140
-      - 12/22_71
-      - 12/22_80
-      - 12/22_100
-      - 12/22_86
-      - 12/22_107
-      - 12/22_68
-      - 12/22_103
-      - 12/22_106
-      - 12/22_98
-      - 12/22_119
-      - 🇭🇰+香港Hk+2
-      - 🇺🇸+美国Us+2
-      - 12/22_74
-      - 🇺🇸+美国Us
-      - 12/22_96
-      - 12/22_95
-      - 🇺🇸+美国Us+3
-      - 🇯🇵+日本Jp
-      - 🇯🇵+日本Jp+2
-      - 12/22_136
-      - 🇨🇳+台湾Tw
-      - 12/22_62
-      - 12/22_90
-      - 12/22_141
-      - 12/22_63
+      - 12/22_111
       - 12/22_77
-      - 12/22_85
-      - 12/22_142
-      - 12/22_121
+      - 12/22_105
+      - 12/22_109
+      - 12/22_73
+      - 🇭🇰+香港Hk
+      - 12/22_84
+      - 12/22_120
+      - 12/22_96
+      - 12/22_65
+      - 12/22_78
+      - 12/22_91
+      - 12/22_82
+      - 12/22_74
+      - 12/22_126
+      - 12/22_129
+      - 12/22_132
+      - 12/22_115
+      - 12/22_122
+      - 12/22_137
+      - 12/22_62
+      - 12/22_70
+      - 12/22_113
+      - 12/22_133
+      - 12/22_67
+      - 12/22_131
+      - 12/22_118
+      - 12/22_68
+      - 12/22_102
+      - 12/22_71
+      - 12/22_130
       - 12/22_94
+      - 12/22_121
+      - 12/22_86
+      - 12/22_103
+      - 12/22_136
+      - 12/22_106
+      - 12/22_80
+      - 12/22_98
+      - 12/22_140
+      - 12/22_119
+      - 🇭🇰+香港Hk+3
+      - 🇺🇸+美国Us+2
+      - 🇭🇰+香港Hk+2
+      - 🇺🇸+美国Us+3
+      - 12/22_63
+      - 12/22_85
+      - 12/22_93
+      - 12/22_90
+      - 🇨🇳+台湾Tw
+      - 12/22_141
+      - 12/22_107
+      - 12/22_142
+      - 12/22_101
+      - 12/22_100
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -2672,144 +3866,208 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - ⌈80⌋ 华中 01:80
-      - 🇨🇳 中国台湾03解锁流媒体:65018
-      - 🇨🇳 中国台湾01解锁流媒体:65013
-      - 12/22_16:443
-      - 🇫🇮 芬兰01解锁流媒体:65020
-      - 🇯🇵 日本03解锁流媒体:65006
-      - 🇬🇧 英国01解锁流媒体:65009
-      - 🇺🇸 美国 US x1.0 01中转 本土:14264
-      - 🇯🇵 日本01解锁流媒体:65004
+      - 🇺🇸 基础|美国04|脸书主力:18124
+      - 🇺🇸 标准|美国03|解锁流媒体:18139
+      - 🇯🇵 标准|日本02|解锁流媒体:18022
+      - 翻墙党fanqiangdang.com:41002
+      - 🇨🇦 标准|加拿大01|解锁流媒体:18072
+      - 🇺🇸 标准|美国02|解锁流媒体:18138
+      - 🇺🇸 标准|美国01|解锁流媒体:18137
       - 12/22_12:80
-      - 12/22_56:27182
-      - 🇺🇸 美国 US x1.0 03中转:14464
-      - 🇸🇬 新加坡02解锁流媒体:65016
-      - 🇺🇸 美国 US x1.0 06中转:14466
-      - 🇸🇬 新加坡03解锁流媒体:65017
-      - 🇺🇸 美国 US x1.0 04中转:14360
-      - 12/22_32:18007
-      - 🇮🇳 印度01解锁流媒体:65007
-      - 🇯🇵 日本02解锁流媒体:65005
-      - 12/22_42:18119
-      - 🇨🇳 ⌈80⌋ 台湾 01:80
-      - 12/22_6:80
-      - 🇰🇷 韩国 KR x1.0 01直连:14393
-      - 🇭🇰 香港01解锁流媒体:65000
-      - 🇭🇰 香港 HK x1.0 A13直连:12493
-      - 🇨🇳 中国台湾02解锁流媒体:65014
-      - 🇰🇷 韩国 KR x1.0 02直连:6552
-      - 🇭🇰 ⌈443⌋ 香港 02:443
-      - 🇭🇰 ⌈80⌋ 香港 02:80
-      - 🇭🇰 ⌈绿通⌋ 香港 02:46794
-      - 🇸🇬 新加坡01解锁流媒体:65015
-      - 🇭🇰 香港03解锁流媒体:65002
-      - 🇭🇰 ⌈广停⌋ 香港 01:1082
-      - 🇭🇰 ⌈广停⌋ 香港 02:1082
-      - 🇸🇬 新加坡 SG x1.0 01直连:10267
-      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇺🇸 标准|美国04|解锁流媒体:18140
+      - 🇬🇧 英国01解锁流媒体:65009
+      - 12/22_19:443
+      - 🇨🇦 标准|加拿大02|解锁流媒体:18073
+      - 🇫🇮 芬兰01解锁流媒体:65020
+      - 🇩🇪 德国01解锁流媒体:65008
+      - 🇮🇳 标准|印度01|解锁流媒体:18074
+      - 🇮🇳 标准|印度02|解锁流媒体:18075
+      - 🇯🇵 标准|日本01|解锁流媒体:18021
+      - 12/22_50:20004
       - 🇷🇺 俄罗斯01解锁流媒体:65019
-      - 🇭🇰 香港 HK x1.0 A10直连:12493
-      - 🇭🇰 香港 HK x1.0 A14直连:12493
+      - 🇺🇸 美国 US x1.0 05中转:14350
+      - 12/22_18:443
+      - 专线|亚洲04|混合主力:18056
+      - 🇭🇰 香港 HK x1.0 D1 本土:12632
+      - 12/22_33:18007
+      - 🇺🇸 专线|美国03|原生NTT:18044
+      - 🇷🇺 专线|俄罗斯03|原生IP:10088
+      - 🇺🇸 专线|美国01|原生NTT:18042
+      - 🇺🇸 专线|西雅图02|原生NTT:18085
+      - 🇺🇸 专线|美国02|原生NTT:18043
+      - 🇺🇸 专线|西雅图01|原生NTT:18084
+      - 🇺🇸 专线|美国04|原生NTT:18045
+      - 🇷🇺 基础|俄罗斯03|限速100M:10086
+      - 🇷🇺 基础|俄罗斯02|限速100M:10086
+      - 🇮🇳 印度01解锁流媒体:65007
+      - 🇷🇺 专线|俄罗斯02|原生IP:10088
+      - 专线|亚洲05|混合主力:18057
+      - 🇯🇵 标准|日本03|解锁流媒体:18023
+      - 专线|亚洲06|混合主力:18058
+      - 🇯🇵 日本 JP x1.0 G1 80端口:11760
+      - 🇸🇬 标准|新加坡03|解锁流媒体:18035
+      - 12/22_22:10003
+      - 12/22_29:18005
+      - 🇸🇬 标准|新加坡01|解锁流媒体:18033
+      - 12/22_31:18006
+      - 12/22_35:18008
+      - 🇭🇰 基础|香港01|万能主力:18005
+      - 🇸🇬 新加坡02解锁流媒体:65016
+      - 专线|亚洲01|混合主力:18053
+      - 🇯🇵 日本02解锁流媒体:65005
+      - 🇭🇰 香港 HK x1.0 A1直连:14369
+      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇭🇰 基础|香港03|油管主力:18007
+      - 🇸🇬 新加坡01解锁流媒体:65015
+      - 🇨🇳 中国台湾03解锁流媒体:65018
+      - 12/22_34:18008
+      - 🇭🇰 香港 HK x1.0 A4直连:14276
+      - 12/22_45:18122
+      - 🇯🇵 日本 JP x1.0 03中转 本土:14278
+      - 12/22_23:10003
+      - 🇨🇳 中国台湾02解锁流媒体:65014
+      - 🇸🇬 标准|新加坡02|解锁流媒体:18034
+      - 🇸🇬 标准|新加坡04|解锁流媒体:18036
+      - 12/22_40:18118
+      - 12/22_56:27182
+      - 12/22_32:18007
+      - 🇸🇬 新加坡03解锁流媒体:65017
+      - 🇭🇰 香港 HK x1.0 A9直连:12493
+      - 🇯🇵 日本 JP x1.0 A5直连:11742
+      - 🇭🇰 香港 HK x1.0 A8直连:14467
+      - 🇭🇰 标准|香港03|解锁流媒体:18027
+      - 🇯🇵 日本 JP x1.0 A1直连:12534
+      - 专线|亚洲03|混合主力:18055
+      - 🇸🇬 新加坡 SG x1.0 01直连:10267
+      - 🇯🇵 日本03解锁流媒体:65006
+      - 专线|亚洲02|混合主力:18054
+      - 🇨🇳 专线|台湾04|原生HINET:18081
+      - 🇨🇳 中国台湾01解锁流媒体:65013
+      - 🇭🇰 香港 HK x1.0 A12直连:12493
+      - 🇭🇰 基础|香港06|社交主力:18010
+      - 🇨🇳 基础|台湾04|视频主力:18120
+      - 🇭🇰 专线|香港07|原生HKBN:18082
+      - 🇭🇰 基础|香港05|社交主力:18009
+      - 12/22_38:18117
       - 🇭🇰 香港 HK x1.0 A2直连:14445
-      - 🇭🇰 香港04解锁流媒体:65003
-      - 🇭🇰 ⌈443⌋ 香港 01:443
-      - 🇭🇰 ⌈80⌋ 香港 01:80
-      - ⌈443⌋ 华中 01:443
+      - 12/22_30:18006
+      - 🇭🇰 基础|香港02|万能主力:18006
+      - 🇨🇳 基础|台湾03|视频主力:18119
+      - 🇭🇰 专线|香港02|原生HGCBBS:18065
+      - 🇨🇳 基础|台湾02|视频主力:18118
       - 12/22_57:27962
       - 🇯🇵 日本 JP x1.0 01直连:14359
+      - 🇨🇳 基础|台湾01|视频主力:18117
+      - 🇨🇳 专线|台湾01|原生HINET:18078
+      - 🇭🇰 基础|香港04|油管主力:18008
       - 🇺🇸 美国01解锁流媒体:65010
-      - 🇸🇬 新加坡 SG x1.0 03直连:14375
-      - 🇸🇬 新加坡 SG x1.0 02直连:14374
-      - 🇯🇵 日本 JP x1.0 A1直连:12534
-      - 🇺🇸 美国03解锁流媒体:65012
-      - 12/22_19:443
-      - 🇭🇰 ⌈绿通⌋ 香港 01:46794
-      - 🇯🇵 日本 JP x1.0 06直连:14459
-      - 12/22_5:80
-      - 🇯🇵 日本 JP x1.0 A4直连:11742
-      - 12/22_8:80
       - 12/22_11:80
+      - 12/22_43:18120
+      - 🇺🇸 基础|美国03|脸书主力:18123
       - 12/22_2:80
-      - 🇯🇵 日本 JP x1.0 02直连:12641
-      - 🇺🇸 美国02解锁流媒体:65011
-      - 12/22_15:443
-      - 🇩🇪 德国01解锁流媒体:65008
-      - 🇯🇵 日本 JP x1.0 05直连:14463
-      - 🇨🇳 台湾 TW x1.0 D1 本土:14439
-      - 12/22_17:443
-      - 12/22_18:443
-      - 🇯🇵 ⌈80⌋ 日本 01:80
-      - ⌈广停⌋ 华中 01:13302
+      - 12/22_8:80
+      - 🇭🇰 专线|香港01|原生HGCBBS:18064
+      - 12/22_5:80
+      - 🇭🇰 专线|香港08|原生HKBN:18083
+      - 🇭🇰 专线|香港03|原生CMI:18066
+      - 🇭🇰 专线|香港06|原生CMI:18069
+      - 🇭🇰 香港04解锁流媒体:65003
+      - 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+      - 🇨🇳 专线|台湾03|原生HINET:18080
+      - 🇭🇰 专线|香港04|原生HGCBBS:18067
+      - 🇨🇳 专线|台湾02|原生HINET:18079
+      - 🇭🇰 标准|香港05|解锁流媒体:18029
+      - 🇭🇰 香港01解锁流媒体:65000
+      - 🇭🇰 标准|香港04|解锁流媒体:18028
       - 🇭🇰 香港02解锁流媒体:65001
+      - 🇭🇰 标准|香港02|解锁流媒体:18026
+      - 🇭🇰 香港03解锁流媒体:65002
+      - 🇭🇰 标准|香港01|解锁流媒体:18025
+      - 🇺🇸 美国02解锁流媒体:65011
+      - 🇭🇰 专线|香港05|原生HGCBBS:18068
+      - 🇯🇵 日本01解锁流媒体:65004
+      - 12/22_44:18121
+      - 🇭🇰 香港 HK x1.0 D2 本土:10871
+      - 12/22_41:18119
+      - 🇭🇰 香港 HK x1.0 05中转 本土:11390
       - 🇷🇺 俄罗斯02解锁流媒体:65021
-      - 12/22_20:443
-      - ⌈绿通⌋ 华中 01:46794
-      - 12/22_21:443
-      - 12/22_112
+      - 12/22_6:80
+      - 12/22_42:18119
+      - 12/22_46:18123
+      - 🇺🇸 基础|美国01|脸书主力:18121
+      - 12/22_47:18124
+      - 🇺🇸 基础|美国02|脸书主力:18122
+      - 12/22_17:443
+      - 🇺🇸 美国03解锁流媒体:65012
+      - 🇬🇧 标准|英国01|解锁流媒体:18076
+      - 🇬🇧 标准|英国02|解锁流媒体:18077
       - 12/22_123
+      - 12/22_112
+      - 12/22_95
+      - 🇺🇸+美国Us
+      - 12/22_75
+      - 12/22_81
       - 12/22_125
       - 12/22_88
-      - 12/22_81
-      - 12/22_128
-      - 12/22_75
-      - 12/22_117
       - 12/22_127
-      - 12/22_111
-      - 12/22_73
-      - 12/22_66
-      - 12/22_113
-      - 🇬🇧+英国Gb
-      - 12/22_109
-      - 12/22_65
+      - 12/22_117
+      - 12/22_128
       - 12/22_124
-      - 12/22_105
-      - 12/22_115
-      - 12/22_126
-      - 12/22_78
-      - 🇭🇰+香港Hk+3
-      - 12/22_130
-      - 12/22_131
-      - 12/22_132
-      - 12/22_93
-      - 12/22_122
-      - 12/22_101
-      - 12/22_118
-      - 12/22_70
-      - 12/22_67
-      - 12/22_84
-      - 12/22_133
-      - 12/22_140
-      - 12/22_71
-      - 12/22_80
-      - 12/22_100
-      - 12/22_86
-      - 12/22_107
-      - 12/22_68
-      - 12/22_103
-      - 12/22_106
-      - 12/22_98
-      - 12/22_119
-      - 🇭🇰+香港Hk+2
-      - 🇺🇸+美国Us+2
-      - 12/22_74
-      - 🇺🇸+美国Us
-      - 12/22_96
-      - 12/22_95
-      - 🇺🇸+美国Us+3
-      - 🇯🇵+日本Jp
-      - 🇯🇵+日本Jp+2
-      - 12/22_136
-      - 🇨🇳+台湾Tw
-      - 12/22_62
-      - 12/22_90
-      - 12/22_141
-      - 12/22_63
+      - 12/22_111
       - 12/22_77
-      - 12/22_85
-      - 12/22_142
-      - 12/22_121
+      - 12/22_105
+      - 12/22_109
+      - 12/22_73
+      - 🇭🇰+香港Hk
+      - 12/22_84
+      - 12/22_120
+      - 12/22_96
+      - 12/22_65
+      - 12/22_78
+      - 12/22_91
+      - 12/22_82
+      - 12/22_74
+      - 12/22_126
+      - 12/22_129
+      - 12/22_132
+      - 12/22_115
+      - 12/22_122
+      - 12/22_137
+      - 12/22_62
+      - 12/22_70
+      - 12/22_113
+      - 12/22_133
+      - 12/22_67
+      - 12/22_131
+      - 12/22_118
+      - 12/22_68
+      - 12/22_102
+      - 12/22_71
+      - 12/22_130
       - 12/22_94
+      - 12/22_121
+      - 12/22_86
+      - 12/22_103
+      - 12/22_136
+      - 12/22_106
+      - 12/22_80
+      - 12/22_98
+      - 12/22_140
+      - 12/22_119
+      - 🇭🇰+香港Hk+3
+      - 🇺🇸+美国Us+2
+      - 🇭🇰+香港Hk+2
+      - 🇺🇸+美国Us+3
+      - 12/22_63
+      - 12/22_85
+      - 12/22_93
+      - 12/22_90
+      - 🇨🇳+台湾Tw
+      - 12/22_141
+      - 12/22_107
+      - 12/22_142
+      - 12/22_101
+      - 12/22_100
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -2839,144 +4097,208 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - ⌈80⌋ 华中 01:80
-      - 🇨🇳 中国台湾03解锁流媒体:65018
-      - 🇨🇳 中国台湾01解锁流媒体:65013
-      - 12/22_16:443
-      - 🇫🇮 芬兰01解锁流媒体:65020
-      - 🇯🇵 日本03解锁流媒体:65006
-      - 🇬🇧 英国01解锁流媒体:65009
-      - 🇺🇸 美国 US x1.0 01中转 本土:14264
-      - 🇯🇵 日本01解锁流媒体:65004
+      - 🇺🇸 基础|美国04|脸书主力:18124
+      - 🇺🇸 标准|美国03|解锁流媒体:18139
+      - 🇯🇵 标准|日本02|解锁流媒体:18022
+      - 翻墙党fanqiangdang.com:41002
+      - 🇨🇦 标准|加拿大01|解锁流媒体:18072
+      - 🇺🇸 标准|美国02|解锁流媒体:18138
+      - 🇺🇸 标准|美国01|解锁流媒体:18137
       - 12/22_12:80
-      - 12/22_56:27182
-      - 🇺🇸 美国 US x1.0 03中转:14464
-      - 🇸🇬 新加坡02解锁流媒体:65016
-      - 🇺🇸 美国 US x1.0 06中转:14466
-      - 🇸🇬 新加坡03解锁流媒体:65017
-      - 🇺🇸 美国 US x1.0 04中转:14360
-      - 12/22_32:18007
-      - 🇮🇳 印度01解锁流媒体:65007
-      - 🇯🇵 日本02解锁流媒体:65005
-      - 12/22_42:18119
-      - 🇨🇳 ⌈80⌋ 台湾 01:80
-      - 12/22_6:80
-      - 🇰🇷 韩国 KR x1.0 01直连:14393
-      - 🇭🇰 香港01解锁流媒体:65000
-      - 🇭🇰 香港 HK x1.0 A13直连:12493
-      - 🇨🇳 中国台湾02解锁流媒体:65014
-      - 🇰🇷 韩国 KR x1.0 02直连:6552
-      - 🇭🇰 ⌈443⌋ 香港 02:443
-      - 🇭🇰 ⌈80⌋ 香港 02:80
-      - 🇭🇰 ⌈绿通⌋ 香港 02:46794
-      - 🇸🇬 新加坡01解锁流媒体:65015
-      - 🇭🇰 香港03解锁流媒体:65002
-      - 🇭🇰 ⌈广停⌋ 香港 01:1082
-      - 🇭🇰 ⌈广停⌋ 香港 02:1082
-      - 🇸🇬 新加坡 SG x1.0 01直连:10267
-      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇺🇸 标准|美国04|解锁流媒体:18140
+      - 🇬🇧 英国01解锁流媒体:65009
+      - 12/22_19:443
+      - 🇨🇦 标准|加拿大02|解锁流媒体:18073
+      - 🇫🇮 芬兰01解锁流媒体:65020
+      - 🇩🇪 德国01解锁流媒体:65008
+      - 🇮🇳 标准|印度01|解锁流媒体:18074
+      - 🇮🇳 标准|印度02|解锁流媒体:18075
+      - 🇯🇵 标准|日本01|解锁流媒体:18021
+      - 12/22_50:20004
       - 🇷🇺 俄罗斯01解锁流媒体:65019
-      - 🇭🇰 香港 HK x1.0 A10直连:12493
-      - 🇭🇰 香港 HK x1.0 A14直连:12493
+      - 🇺🇸 美国 US x1.0 05中转:14350
+      - 12/22_18:443
+      - 专线|亚洲04|混合主力:18056
+      - 🇭🇰 香港 HK x1.0 D1 本土:12632
+      - 12/22_33:18007
+      - 🇺🇸 专线|美国03|原生NTT:18044
+      - 🇷🇺 专线|俄罗斯03|原生IP:10088
+      - 🇺🇸 专线|美国01|原生NTT:18042
+      - 🇺🇸 专线|西雅图02|原生NTT:18085
+      - 🇺🇸 专线|美国02|原生NTT:18043
+      - 🇺🇸 专线|西雅图01|原生NTT:18084
+      - 🇺🇸 专线|美国04|原生NTT:18045
+      - 🇷🇺 基础|俄罗斯03|限速100M:10086
+      - 🇷🇺 基础|俄罗斯02|限速100M:10086
+      - 🇮🇳 印度01解锁流媒体:65007
+      - 🇷🇺 专线|俄罗斯02|原生IP:10088
+      - 专线|亚洲05|混合主力:18057
+      - 🇯🇵 标准|日本03|解锁流媒体:18023
+      - 专线|亚洲06|混合主力:18058
+      - 🇯🇵 日本 JP x1.0 G1 80端口:11760
+      - 🇸🇬 标准|新加坡03|解锁流媒体:18035
+      - 12/22_22:10003
+      - 12/22_29:18005
+      - 🇸🇬 标准|新加坡01|解锁流媒体:18033
+      - 12/22_31:18006
+      - 12/22_35:18008
+      - 🇭🇰 基础|香港01|万能主力:18005
+      - 🇸🇬 新加坡02解锁流媒体:65016
+      - 专线|亚洲01|混合主力:18053
+      - 🇯🇵 日本02解锁流媒体:65005
+      - 🇭🇰 香港 HK x1.0 A1直连:14369
+      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇭🇰 基础|香港03|油管主力:18007
+      - 🇸🇬 新加坡01解锁流媒体:65015
+      - 🇨🇳 中国台湾03解锁流媒体:65018
+      - 12/22_34:18008
+      - 🇭🇰 香港 HK x1.0 A4直连:14276
+      - 12/22_45:18122
+      - 🇯🇵 日本 JP x1.0 03中转 本土:14278
+      - 12/22_23:10003
+      - 🇨🇳 中国台湾02解锁流媒体:65014
+      - 🇸🇬 标准|新加坡02|解锁流媒体:18034
+      - 🇸🇬 标准|新加坡04|解锁流媒体:18036
+      - 12/22_40:18118
+      - 12/22_56:27182
+      - 12/22_32:18007
+      - 🇸🇬 新加坡03解锁流媒体:65017
+      - 🇭🇰 香港 HK x1.0 A9直连:12493
+      - 🇯🇵 日本 JP x1.0 A5直连:11742
+      - 🇭🇰 香港 HK x1.0 A8直连:14467
+      - 🇭🇰 标准|香港03|解锁流媒体:18027
+      - 🇯🇵 日本 JP x1.0 A1直连:12534
+      - 专线|亚洲03|混合主力:18055
+      - 🇸🇬 新加坡 SG x1.0 01直连:10267
+      - 🇯🇵 日本03解锁流媒体:65006
+      - 专线|亚洲02|混合主力:18054
+      - 🇨🇳 专线|台湾04|原生HINET:18081
+      - 🇨🇳 中国台湾01解锁流媒体:65013
+      - 🇭🇰 香港 HK x1.0 A12直连:12493
+      - 🇭🇰 基础|香港06|社交主力:18010
+      - 🇨🇳 基础|台湾04|视频主力:18120
+      - 🇭🇰 专线|香港07|原生HKBN:18082
+      - 🇭🇰 基础|香港05|社交主力:18009
+      - 12/22_38:18117
       - 🇭🇰 香港 HK x1.0 A2直连:14445
-      - 🇭🇰 香港04解锁流媒体:65003
-      - 🇭🇰 ⌈443⌋ 香港 01:443
-      - 🇭🇰 ⌈80⌋ 香港 01:80
-      - ⌈443⌋ 华中 01:443
+      - 12/22_30:18006
+      - 🇭🇰 基础|香港02|万能主力:18006
+      - 🇨🇳 基础|台湾03|视频主力:18119
+      - 🇭🇰 专线|香港02|原生HGCBBS:18065
+      - 🇨🇳 基础|台湾02|视频主力:18118
       - 12/22_57:27962
       - 🇯🇵 日本 JP x1.0 01直连:14359
+      - 🇨🇳 基础|台湾01|视频主力:18117
+      - 🇨🇳 专线|台湾01|原生HINET:18078
+      - 🇭🇰 基础|香港04|油管主力:18008
       - 🇺🇸 美国01解锁流媒体:65010
-      - 🇸🇬 新加坡 SG x1.0 03直连:14375
-      - 🇸🇬 新加坡 SG x1.0 02直连:14374
-      - 🇯🇵 日本 JP x1.0 A1直连:12534
-      - 🇺🇸 美国03解锁流媒体:65012
-      - 12/22_19:443
-      - 🇭🇰 ⌈绿通⌋ 香港 01:46794
-      - 🇯🇵 日本 JP x1.0 06直连:14459
-      - 12/22_5:80
-      - 🇯🇵 日本 JP x1.0 A4直连:11742
-      - 12/22_8:80
       - 12/22_11:80
+      - 12/22_43:18120
+      - 🇺🇸 基础|美国03|脸书主力:18123
       - 12/22_2:80
-      - 🇯🇵 日本 JP x1.0 02直连:12641
-      - 🇺🇸 美国02解锁流媒体:65011
-      - 12/22_15:443
-      - 🇩🇪 德国01解锁流媒体:65008
-      - 🇯🇵 日本 JP x1.0 05直连:14463
-      - 🇨🇳 台湾 TW x1.0 D1 本土:14439
-      - 12/22_17:443
-      - 12/22_18:443
-      - 🇯🇵 ⌈80⌋ 日本 01:80
-      - ⌈广停⌋ 华中 01:13302
+      - 12/22_8:80
+      - 🇭🇰 专线|香港01|原生HGCBBS:18064
+      - 12/22_5:80
+      - 🇭🇰 专线|香港08|原生HKBN:18083
+      - 🇭🇰 专线|香港03|原生CMI:18066
+      - 🇭🇰 专线|香港06|原生CMI:18069
+      - 🇭🇰 香港04解锁流媒体:65003
+      - 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+      - 🇨🇳 专线|台湾03|原生HINET:18080
+      - 🇭🇰 专线|香港04|原生HGCBBS:18067
+      - 🇨🇳 专线|台湾02|原生HINET:18079
+      - 🇭🇰 标准|香港05|解锁流媒体:18029
+      - 🇭🇰 香港01解锁流媒体:65000
+      - 🇭🇰 标准|香港04|解锁流媒体:18028
       - 🇭🇰 香港02解锁流媒体:65001
+      - 🇭🇰 标准|香港02|解锁流媒体:18026
+      - 🇭🇰 香港03解锁流媒体:65002
+      - 🇭🇰 标准|香港01|解锁流媒体:18025
+      - 🇺🇸 美国02解锁流媒体:65011
+      - 🇭🇰 专线|香港05|原生HGCBBS:18068
+      - 🇯🇵 日本01解锁流媒体:65004
+      - 12/22_44:18121
+      - 🇭🇰 香港 HK x1.0 D2 本土:10871
+      - 12/22_41:18119
+      - 🇭🇰 香港 HK x1.0 05中转 本土:11390
       - 🇷🇺 俄罗斯02解锁流媒体:65021
-      - 12/22_20:443
-      - ⌈绿通⌋ 华中 01:46794
-      - 12/22_21:443
-      - 12/22_112
+      - 12/22_6:80
+      - 12/22_42:18119
+      - 12/22_46:18123
+      - 🇺🇸 基础|美国01|脸书主力:18121
+      - 12/22_47:18124
+      - 🇺🇸 基础|美国02|脸书主力:18122
+      - 12/22_17:443
+      - 🇺🇸 美国03解锁流媒体:65012
+      - 🇬🇧 标准|英国01|解锁流媒体:18076
+      - 🇬🇧 标准|英国02|解锁流媒体:18077
       - 12/22_123
+      - 12/22_112
+      - 12/22_95
+      - 🇺🇸+美国Us
+      - 12/22_75
+      - 12/22_81
       - 12/22_125
       - 12/22_88
-      - 12/22_81
-      - 12/22_128
-      - 12/22_75
-      - 12/22_117
       - 12/22_127
-      - 12/22_111
-      - 12/22_73
-      - 12/22_66
-      - 12/22_113
-      - 🇬🇧+英国Gb
-      - 12/22_109
-      - 12/22_65
+      - 12/22_117
+      - 12/22_128
       - 12/22_124
-      - 12/22_105
-      - 12/22_115
-      - 12/22_126
-      - 12/22_78
-      - 🇭🇰+香港Hk+3
-      - 12/22_130
-      - 12/22_131
-      - 12/22_132
-      - 12/22_93
-      - 12/22_122
-      - 12/22_101
-      - 12/22_118
-      - 12/22_70
-      - 12/22_67
-      - 12/22_84
-      - 12/22_133
-      - 12/22_140
-      - 12/22_71
-      - 12/22_80
-      - 12/22_100
-      - 12/22_86
-      - 12/22_107
-      - 12/22_68
-      - 12/22_103
-      - 12/22_106
-      - 12/22_98
-      - 12/22_119
-      - 🇭🇰+香港Hk+2
-      - 🇺🇸+美国Us+2
-      - 12/22_74
-      - 🇺🇸+美国Us
-      - 12/22_96
-      - 12/22_95
-      - 🇺🇸+美国Us+3
-      - 🇯🇵+日本Jp
-      - 🇯🇵+日本Jp+2
-      - 12/22_136
-      - 🇨🇳+台湾Tw
-      - 12/22_62
-      - 12/22_90
-      - 12/22_141
-      - 12/22_63
+      - 12/22_111
       - 12/22_77
-      - 12/22_85
-      - 12/22_142
-      - 12/22_121
+      - 12/22_105
+      - 12/22_109
+      - 12/22_73
+      - 🇭🇰+香港Hk
+      - 12/22_84
+      - 12/22_120
+      - 12/22_96
+      - 12/22_65
+      - 12/22_78
+      - 12/22_91
+      - 12/22_82
+      - 12/22_74
+      - 12/22_126
+      - 12/22_129
+      - 12/22_132
+      - 12/22_115
+      - 12/22_122
+      - 12/22_137
+      - 12/22_62
+      - 12/22_70
+      - 12/22_113
+      - 12/22_133
+      - 12/22_67
+      - 12/22_131
+      - 12/22_118
+      - 12/22_68
+      - 12/22_102
+      - 12/22_71
+      - 12/22_130
       - 12/22_94
+      - 12/22_121
+      - 12/22_86
+      - 12/22_103
+      - 12/22_136
+      - 12/22_106
+      - 12/22_80
+      - 12/22_98
+      - 12/22_140
+      - 12/22_119
+      - 🇭🇰+香港Hk+3
+      - 🇺🇸+美国Us+2
+      - 🇭🇰+香港Hk+2
+      - 🇺🇸+美国Us+3
+      - 12/22_63
+      - 12/22_85
+      - 12/22_93
+      - 12/22_90
+      - 🇨🇳+台湾Tw
+      - 12/22_141
+      - 12/22_107
+      - 12/22_142
+      - 12/22_101
+      - 12/22_100
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -3007,144 +4329,208 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-      - ⌈80⌋ 华中 01:80
-      - 🇨🇳 中国台湾03解锁流媒体:65018
-      - 🇨🇳 中国台湾01解锁流媒体:65013
-      - 12/22_16:443
-      - 🇫🇮 芬兰01解锁流媒体:65020
-      - 🇯🇵 日本03解锁流媒体:65006
-      - 🇬🇧 英国01解锁流媒体:65009
-      - 🇺🇸 美国 US x1.0 01中转 本土:14264
-      - 🇯🇵 日本01解锁流媒体:65004
+      - 🇺🇸 基础|美国04|脸书主力:18124
+      - 🇺🇸 标准|美国03|解锁流媒体:18139
+      - 🇯🇵 标准|日本02|解锁流媒体:18022
+      - 翻墙党fanqiangdang.com:41002
+      - 🇨🇦 标准|加拿大01|解锁流媒体:18072
+      - 🇺🇸 标准|美国02|解锁流媒体:18138
+      - 🇺🇸 标准|美国01|解锁流媒体:18137
       - 12/22_12:80
-      - 12/22_56:27182
-      - 🇺🇸 美国 US x1.0 03中转:14464
-      - 🇸🇬 新加坡02解锁流媒体:65016
-      - 🇺🇸 美国 US x1.0 06中转:14466
-      - 🇸🇬 新加坡03解锁流媒体:65017
-      - 🇺🇸 美国 US x1.0 04中转:14360
-      - 12/22_32:18007
-      - 🇮🇳 印度01解锁流媒体:65007
-      - 🇯🇵 日本02解锁流媒体:65005
-      - 12/22_42:18119
-      - 🇨🇳 ⌈80⌋ 台湾 01:80
-      - 12/22_6:80
-      - 🇰🇷 韩国 KR x1.0 01直连:14393
-      - 🇭🇰 香港01解锁流媒体:65000
-      - 🇭🇰 香港 HK x1.0 A13直连:12493
-      - 🇨🇳 中国台湾02解锁流媒体:65014
-      - 🇰🇷 韩国 KR x1.0 02直连:6552
-      - 🇭🇰 ⌈443⌋ 香港 02:443
-      - 🇭🇰 ⌈80⌋ 香港 02:80
-      - 🇭🇰 ⌈绿通⌋ 香港 02:46794
-      - 🇸🇬 新加坡01解锁流媒体:65015
-      - 🇭🇰 香港03解锁流媒体:65002
-      - 🇭🇰 ⌈广停⌋ 香港 01:1082
-      - 🇭🇰 ⌈广停⌋ 香港 02:1082
-      - 🇸🇬 新加坡 SG x1.0 01直连:10267
-      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇺🇸 标准|美国04|解锁流媒体:18140
+      - 🇬🇧 英国01解锁流媒体:65009
+      - 12/22_19:443
+      - 🇨🇦 标准|加拿大02|解锁流媒体:18073
+      - 🇫🇮 芬兰01解锁流媒体:65020
+      - 🇩🇪 德国01解锁流媒体:65008
+      - 🇮🇳 标准|印度01|解锁流媒体:18074
+      - 🇮🇳 标准|印度02|解锁流媒体:18075
+      - 🇯🇵 标准|日本01|解锁流媒体:18021
+      - 12/22_50:20004
       - 🇷🇺 俄罗斯01解锁流媒体:65019
-      - 🇭🇰 香港 HK x1.0 A10直连:12493
-      - 🇭🇰 香港 HK x1.0 A14直连:12493
+      - 🇺🇸 美国 US x1.0 05中转:14350
+      - 12/22_18:443
+      - 专线|亚洲04|混合主力:18056
+      - 🇭🇰 香港 HK x1.0 D1 本土:12632
+      - 12/22_33:18007
+      - 🇺🇸 专线|美国03|原生NTT:18044
+      - 🇷🇺 专线|俄罗斯03|原生IP:10088
+      - 🇺🇸 专线|美国01|原生NTT:18042
+      - 🇺🇸 专线|西雅图02|原生NTT:18085
+      - 🇺🇸 专线|美国02|原生NTT:18043
+      - 🇺🇸 专线|西雅图01|原生NTT:18084
+      - 🇺🇸 专线|美国04|原生NTT:18045
+      - 🇷🇺 基础|俄罗斯03|限速100M:10086
+      - 🇷🇺 基础|俄罗斯02|限速100M:10086
+      - 🇮🇳 印度01解锁流媒体:65007
+      - 🇷🇺 专线|俄罗斯02|原生IP:10088
+      - 专线|亚洲05|混合主力:18057
+      - 🇯🇵 标准|日本03|解锁流媒体:18023
+      - 专线|亚洲06|混合主力:18058
+      - 🇯🇵 日本 JP x1.0 G1 80端口:11760
+      - 🇸🇬 标准|新加坡03|解锁流媒体:18035
+      - 12/22_22:10003
+      - 12/22_29:18005
+      - 🇸🇬 标准|新加坡01|解锁流媒体:18033
+      - 12/22_31:18006
+      - 12/22_35:18008
+      - 🇭🇰 基础|香港01|万能主力:18005
+      - 🇸🇬 新加坡02解锁流媒体:65016
+      - 专线|亚洲01|混合主力:18053
+      - 🇯🇵 日本02解锁流媒体:65005
+      - 🇭🇰 香港 HK x1.0 A1直连:14369
+      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇭🇰 基础|香港03|油管主力:18007
+      - 🇸🇬 新加坡01解锁流媒体:65015
+      - 🇨🇳 中国台湾03解锁流媒体:65018
+      - 12/22_34:18008
+      - 🇭🇰 香港 HK x1.0 A4直连:14276
+      - 12/22_45:18122
+      - 🇯🇵 日本 JP x1.0 03中转 本土:14278
+      - 12/22_23:10003
+      - 🇨🇳 中国台湾02解锁流媒体:65014
+      - 🇸🇬 标准|新加坡02|解锁流媒体:18034
+      - 🇸🇬 标准|新加坡04|解锁流媒体:18036
+      - 12/22_40:18118
+      - 12/22_56:27182
+      - 12/22_32:18007
+      - 🇸🇬 新加坡03解锁流媒体:65017
+      - 🇭🇰 香港 HK x1.0 A9直连:12493
+      - 🇯🇵 日本 JP x1.0 A5直连:11742
+      - 🇭🇰 香港 HK x1.0 A8直连:14467
+      - 🇭🇰 标准|香港03|解锁流媒体:18027
+      - 🇯🇵 日本 JP x1.0 A1直连:12534
+      - 专线|亚洲03|混合主力:18055
+      - 🇸🇬 新加坡 SG x1.0 01直连:10267
+      - 🇯🇵 日本03解锁流媒体:65006
+      - 专线|亚洲02|混合主力:18054
+      - 🇨🇳 专线|台湾04|原生HINET:18081
+      - 🇨🇳 中国台湾01解锁流媒体:65013
+      - 🇭🇰 香港 HK x1.0 A12直连:12493
+      - 🇭🇰 基础|香港06|社交主力:18010
+      - 🇨🇳 基础|台湾04|视频主力:18120
+      - 🇭🇰 专线|香港07|原生HKBN:18082
+      - 🇭🇰 基础|香港05|社交主力:18009
+      - 12/22_38:18117
       - 🇭🇰 香港 HK x1.0 A2直连:14445
-      - 🇭🇰 香港04解锁流媒体:65003
-      - 🇭🇰 ⌈443⌋ 香港 01:443
-      - 🇭🇰 ⌈80⌋ 香港 01:80
-      - ⌈443⌋ 华中 01:443
+      - 12/22_30:18006
+      - 🇭🇰 基础|香港02|万能主力:18006
+      - 🇨🇳 基础|台湾03|视频主力:18119
+      - 🇭🇰 专线|香港02|原生HGCBBS:18065
+      - 🇨🇳 基础|台湾02|视频主力:18118
       - 12/22_57:27962
       - 🇯🇵 日本 JP x1.0 01直连:14359
+      - 🇨🇳 基础|台湾01|视频主力:18117
+      - 🇨🇳 专线|台湾01|原生HINET:18078
+      - 🇭🇰 基础|香港04|油管主力:18008
       - 🇺🇸 美国01解锁流媒体:65010
-      - 🇸🇬 新加坡 SG x1.0 03直连:14375
-      - 🇸🇬 新加坡 SG x1.0 02直连:14374
-      - 🇯🇵 日本 JP x1.0 A1直连:12534
-      - 🇺🇸 美国03解锁流媒体:65012
-      - 12/22_19:443
-      - 🇭🇰 ⌈绿通⌋ 香港 01:46794
-      - 🇯🇵 日本 JP x1.0 06直连:14459
-      - 12/22_5:80
-      - 🇯🇵 日本 JP x1.0 A4直连:11742
-      - 12/22_8:80
       - 12/22_11:80
+      - 12/22_43:18120
+      - 🇺🇸 基础|美国03|脸书主力:18123
       - 12/22_2:80
-      - 🇯🇵 日本 JP x1.0 02直连:12641
-      - 🇺🇸 美国02解锁流媒体:65011
-      - 12/22_15:443
-      - 🇩🇪 德国01解锁流媒体:65008
-      - 🇯🇵 日本 JP x1.0 05直连:14463
-      - 🇨🇳 台湾 TW x1.0 D1 本土:14439
-      - 12/22_17:443
-      - 12/22_18:443
-      - 🇯🇵 ⌈80⌋ 日本 01:80
-      - ⌈广停⌋ 华中 01:13302
+      - 12/22_8:80
+      - 🇭🇰 专线|香港01|原生HGCBBS:18064
+      - 12/22_5:80
+      - 🇭🇰 专线|香港08|原生HKBN:18083
+      - 🇭🇰 专线|香港03|原生CMI:18066
+      - 🇭🇰 专线|香港06|原生CMI:18069
+      - 🇭🇰 香港04解锁流媒体:65003
+      - 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+      - 🇨🇳 专线|台湾03|原生HINET:18080
+      - 🇭🇰 专线|香港04|原生HGCBBS:18067
+      - 🇨🇳 专线|台湾02|原生HINET:18079
+      - 🇭🇰 标准|香港05|解锁流媒体:18029
+      - 🇭🇰 香港01解锁流媒体:65000
+      - 🇭🇰 标准|香港04|解锁流媒体:18028
       - 🇭🇰 香港02解锁流媒体:65001
+      - 🇭🇰 标准|香港02|解锁流媒体:18026
+      - 🇭🇰 香港03解锁流媒体:65002
+      - 🇭🇰 标准|香港01|解锁流媒体:18025
+      - 🇺🇸 美国02解锁流媒体:65011
+      - 🇭🇰 专线|香港05|原生HGCBBS:18068
+      - 🇯🇵 日本01解锁流媒体:65004
+      - 12/22_44:18121
+      - 🇭🇰 香港 HK x1.0 D2 本土:10871
+      - 12/22_41:18119
+      - 🇭🇰 香港 HK x1.0 05中转 本土:11390
       - 🇷🇺 俄罗斯02解锁流媒体:65021
-      - 12/22_20:443
-      - ⌈绿通⌋ 华中 01:46794
-      - 12/22_21:443
-      - 12/22_112
+      - 12/22_6:80
+      - 12/22_42:18119
+      - 12/22_46:18123
+      - 🇺🇸 基础|美国01|脸书主力:18121
+      - 12/22_47:18124
+      - 🇺🇸 基础|美国02|脸书主力:18122
+      - 12/22_17:443
+      - 🇺🇸 美国03解锁流媒体:65012
+      - 🇬🇧 标准|英国01|解锁流媒体:18076
+      - 🇬🇧 标准|英国02|解锁流媒体:18077
       - 12/22_123
+      - 12/22_112
+      - 12/22_95
+      - 🇺🇸+美国Us
+      - 12/22_75
+      - 12/22_81
       - 12/22_125
       - 12/22_88
-      - 12/22_81
-      - 12/22_128
-      - 12/22_75
-      - 12/22_117
       - 12/22_127
-      - 12/22_111
-      - 12/22_73
-      - 12/22_66
-      - 12/22_113
-      - 🇬🇧+英国Gb
-      - 12/22_109
-      - 12/22_65
+      - 12/22_117
+      - 12/22_128
       - 12/22_124
-      - 12/22_105
-      - 12/22_115
-      - 12/22_126
-      - 12/22_78
-      - 🇭🇰+香港Hk+3
-      - 12/22_130
-      - 12/22_131
-      - 12/22_132
-      - 12/22_93
-      - 12/22_122
-      - 12/22_101
-      - 12/22_118
-      - 12/22_70
-      - 12/22_67
-      - 12/22_84
-      - 12/22_133
-      - 12/22_140
-      - 12/22_71
-      - 12/22_80
-      - 12/22_100
-      - 12/22_86
-      - 12/22_107
-      - 12/22_68
-      - 12/22_103
-      - 12/22_106
-      - 12/22_98
-      - 12/22_119
-      - 🇭🇰+香港Hk+2
-      - 🇺🇸+美国Us+2
-      - 12/22_74
-      - 🇺🇸+美国Us
-      - 12/22_96
-      - 12/22_95
-      - 🇺🇸+美国Us+3
-      - 🇯🇵+日本Jp
-      - 🇯🇵+日本Jp+2
-      - 12/22_136
-      - 🇨🇳+台湾Tw
-      - 12/22_62
-      - 12/22_90
-      - 12/22_141
-      - 12/22_63
+      - 12/22_111
       - 12/22_77
-      - 12/22_85
-      - 12/22_142
-      - 12/22_121
+      - 12/22_105
+      - 12/22_109
+      - 12/22_73
+      - 🇭🇰+香港Hk
+      - 12/22_84
+      - 12/22_120
+      - 12/22_96
+      - 12/22_65
+      - 12/22_78
+      - 12/22_91
+      - 12/22_82
+      - 12/22_74
+      - 12/22_126
+      - 12/22_129
+      - 12/22_132
+      - 12/22_115
+      - 12/22_122
+      - 12/22_137
+      - 12/22_62
+      - 12/22_70
+      - 12/22_113
+      - 12/22_133
+      - 12/22_67
+      - 12/22_131
+      - 12/22_118
+      - 12/22_68
+      - 12/22_102
+      - 12/22_71
+      - 12/22_130
       - 12/22_94
+      - 12/22_121
+      - 12/22_86
+      - 12/22_103
+      - 12/22_136
+      - 12/22_106
+      - 12/22_80
+      - 12/22_98
+      - 12/22_140
+      - 12/22_119
+      - 🇭🇰+香港Hk+3
+      - 🇺🇸+美国Us+2
+      - 🇭🇰+香港Hk+2
+      - 🇺🇸+美国Us+3
+      - 12/22_63
+      - 12/22_85
+      - 12/22_93
+      - 12/22_90
+      - 🇨🇳+台湾Tw
+      - 12/22_141
+      - 12/22_107
+      - 12/22_142
+      - 12/22_101
+      - 12/22_100
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -3176,144 +4562,208 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ⌈80⌋ 华中 01:80
-      - 🇨🇳 中国台湾03解锁流媒体:65018
-      - 🇨🇳 中国台湾01解锁流媒体:65013
-      - 12/22_16:443
-      - 🇫🇮 芬兰01解锁流媒体:65020
-      - 🇯🇵 日本03解锁流媒体:65006
-      - 🇬🇧 英国01解锁流媒体:65009
-      - 🇺🇸 美国 US x1.0 01中转 本土:14264
-      - 🇯🇵 日本01解锁流媒体:65004
+      - 🇺🇸 基础|美国04|脸书主力:18124
+      - 🇺🇸 标准|美国03|解锁流媒体:18139
+      - 🇯🇵 标准|日本02|解锁流媒体:18022
+      - 翻墙党fanqiangdang.com:41002
+      - 🇨🇦 标准|加拿大01|解锁流媒体:18072
+      - 🇺🇸 标准|美国02|解锁流媒体:18138
+      - 🇺🇸 标准|美国01|解锁流媒体:18137
       - 12/22_12:80
-      - 12/22_56:27182
-      - 🇺🇸 美国 US x1.0 03中转:14464
-      - 🇸🇬 新加坡02解锁流媒体:65016
-      - 🇺🇸 美国 US x1.0 06中转:14466
-      - 🇸🇬 新加坡03解锁流媒体:65017
-      - 🇺🇸 美国 US x1.0 04中转:14360
-      - 12/22_32:18007
-      - 🇮🇳 印度01解锁流媒体:65007
-      - 🇯🇵 日本02解锁流媒体:65005
-      - 12/22_42:18119
-      - 🇨🇳 ⌈80⌋ 台湾 01:80
-      - 12/22_6:80
-      - 🇰🇷 韩国 KR x1.0 01直连:14393
-      - 🇭🇰 香港01解锁流媒体:65000
-      - 🇭🇰 香港 HK x1.0 A13直连:12493
-      - 🇨🇳 中国台湾02解锁流媒体:65014
-      - 🇰🇷 韩国 KR x1.0 02直连:6552
-      - 🇭🇰 ⌈443⌋ 香港 02:443
-      - 🇭🇰 ⌈80⌋ 香港 02:80
-      - 🇭🇰 ⌈绿通⌋ 香港 02:46794
-      - 🇸🇬 新加坡01解锁流媒体:65015
-      - 🇭🇰 香港03解锁流媒体:65002
-      - 🇭🇰 ⌈广停⌋ 香港 01:1082
-      - 🇭🇰 ⌈广停⌋ 香港 02:1082
-      - 🇸🇬 新加坡 SG x1.0 01直连:10267
-      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇺🇸 标准|美国04|解锁流媒体:18140
+      - 🇬🇧 英国01解锁流媒体:65009
+      - 12/22_19:443
+      - 🇨🇦 标准|加拿大02|解锁流媒体:18073
+      - 🇫🇮 芬兰01解锁流媒体:65020
+      - 🇩🇪 德国01解锁流媒体:65008
+      - 🇮🇳 标准|印度01|解锁流媒体:18074
+      - 🇮🇳 标准|印度02|解锁流媒体:18075
+      - 🇯🇵 标准|日本01|解锁流媒体:18021
+      - 12/22_50:20004
       - 🇷🇺 俄罗斯01解锁流媒体:65019
-      - 🇭🇰 香港 HK x1.0 A10直连:12493
-      - 🇭🇰 香港 HK x1.0 A14直连:12493
+      - 🇺🇸 美国 US x1.0 05中转:14350
+      - 12/22_18:443
+      - 专线|亚洲04|混合主力:18056
+      - 🇭🇰 香港 HK x1.0 D1 本土:12632
+      - 12/22_33:18007
+      - 🇺🇸 专线|美国03|原生NTT:18044
+      - 🇷🇺 专线|俄罗斯03|原生IP:10088
+      - 🇺🇸 专线|美国01|原生NTT:18042
+      - 🇺🇸 专线|西雅图02|原生NTT:18085
+      - 🇺🇸 专线|美国02|原生NTT:18043
+      - 🇺🇸 专线|西雅图01|原生NTT:18084
+      - 🇺🇸 专线|美国04|原生NTT:18045
+      - 🇷🇺 基础|俄罗斯03|限速100M:10086
+      - 🇷🇺 基础|俄罗斯02|限速100M:10086
+      - 🇮🇳 印度01解锁流媒体:65007
+      - 🇷🇺 专线|俄罗斯02|原生IP:10088
+      - 专线|亚洲05|混合主力:18057
+      - 🇯🇵 标准|日本03|解锁流媒体:18023
+      - 专线|亚洲06|混合主力:18058
+      - 🇯🇵 日本 JP x1.0 G1 80端口:11760
+      - 🇸🇬 标准|新加坡03|解锁流媒体:18035
+      - 12/22_22:10003
+      - 12/22_29:18005
+      - 🇸🇬 标准|新加坡01|解锁流媒体:18033
+      - 12/22_31:18006
+      - 12/22_35:18008
+      - 🇭🇰 基础|香港01|万能主力:18005
+      - 🇸🇬 新加坡02解锁流媒体:65016
+      - 专线|亚洲01|混合主力:18053
+      - 🇯🇵 日本02解锁流媒体:65005
+      - 🇭🇰 香港 HK x1.0 A1直连:14369
+      - 🇭🇰 香港 HK x1.0 A11直连:12493
+      - 🇭🇰 基础|香港03|油管主力:18007
+      - 🇸🇬 新加坡01解锁流媒体:65015
+      - 🇨🇳 中国台湾03解锁流媒体:65018
+      - 12/22_34:18008
+      - 🇭🇰 香港 HK x1.0 A4直连:14276
+      - 12/22_45:18122
+      - 🇯🇵 日本 JP x1.0 03中转 本土:14278
+      - 12/22_23:10003
+      - 🇨🇳 中国台湾02解锁流媒体:65014
+      - 🇸🇬 标准|新加坡02|解锁流媒体:18034
+      - 🇸🇬 标准|新加坡04|解锁流媒体:18036
+      - 12/22_40:18118
+      - 12/22_56:27182
+      - 12/22_32:18007
+      - 🇸🇬 新加坡03解锁流媒体:65017
+      - 🇭🇰 香港 HK x1.0 A9直连:12493
+      - 🇯🇵 日本 JP x1.0 A5直连:11742
+      - 🇭🇰 香港 HK x1.0 A8直连:14467
+      - 🇭🇰 标准|香港03|解锁流媒体:18027
+      - 🇯🇵 日本 JP x1.0 A1直连:12534
+      - 专线|亚洲03|混合主力:18055
+      - 🇸🇬 新加坡 SG x1.0 01直连:10267
+      - 🇯🇵 日本03解锁流媒体:65006
+      - 专线|亚洲02|混合主力:18054
+      - 🇨🇳 专线|台湾04|原生HINET:18081
+      - 🇨🇳 中国台湾01解锁流媒体:65013
+      - 🇭🇰 香港 HK x1.0 A12直连:12493
+      - 🇭🇰 基础|香港06|社交主力:18010
+      - 🇨🇳 基础|台湾04|视频主力:18120
+      - 🇭🇰 专线|香港07|原生HKBN:18082
+      - 🇭🇰 基础|香港05|社交主力:18009
+      - 12/22_38:18117
       - 🇭🇰 香港 HK x1.0 A2直连:14445
-      - 🇭🇰 香港04解锁流媒体:65003
-      - 🇭🇰 ⌈443⌋ 香港 01:443
-      - 🇭🇰 ⌈80⌋ 香港 01:80
-      - ⌈443⌋ 华中 01:443
+      - 12/22_30:18006
+      - 🇭🇰 基础|香港02|万能主力:18006
+      - 🇨🇳 基础|台湾03|视频主力:18119
+      - 🇭🇰 专线|香港02|原生HGCBBS:18065
+      - 🇨🇳 基础|台湾02|视频主力:18118
       - 12/22_57:27962
       - 🇯🇵 日本 JP x1.0 01直连:14359
+      - 🇨🇳 基础|台湾01|视频主力:18117
+      - 🇨🇳 专线|台湾01|原生HINET:18078
+      - 🇭🇰 基础|香港04|油管主力:18008
       - 🇺🇸 美国01解锁流媒体:65010
-      - 🇸🇬 新加坡 SG x1.0 03直连:14375
-      - 🇸🇬 新加坡 SG x1.0 02直连:14374
-      - 🇯🇵 日本 JP x1.0 A1直连:12534
-      - 🇺🇸 美国03解锁流媒体:65012
-      - 12/22_19:443
-      - 🇭🇰 ⌈绿通⌋ 香港 01:46794
-      - 🇯🇵 日本 JP x1.0 06直连:14459
-      - 12/22_5:80
-      - 🇯🇵 日本 JP x1.0 A4直连:11742
-      - 12/22_8:80
       - 12/22_11:80
+      - 12/22_43:18120
+      - 🇺🇸 基础|美国03|脸书主力:18123
       - 12/22_2:80
-      - 🇯🇵 日本 JP x1.0 02直连:12641
-      - 🇺🇸 美国02解锁流媒体:65011
-      - 12/22_15:443
-      - 🇩🇪 德国01解锁流媒体:65008
-      - 🇯🇵 日本 JP x1.0 05直连:14463
-      - 🇨🇳 台湾 TW x1.0 D1 本土:14439
-      - 12/22_17:443
-      - 12/22_18:443
-      - 🇯🇵 ⌈80⌋ 日本 01:80
-      - ⌈广停⌋ 华中 01:13302
+      - 12/22_8:80
+      - 🇭🇰 专线|香港01|原生HGCBBS:18064
+      - 12/22_5:80
+      - 🇭🇰 专线|香港08|原生HKBN:18083
+      - 🇭🇰 专线|香港03|原生CMI:18066
+      - 🇭🇰 专线|香港06|原生CMI:18069
+      - 🇭🇰 香港04解锁流媒体:65003
+      - 🇨🇳 台湾 TW x1.0 01中转 本土:14454
+      - 🇨🇳 专线|台湾03|原生HINET:18080
+      - 🇭🇰 专线|香港04|原生HGCBBS:18067
+      - 🇨🇳 专线|台湾02|原生HINET:18079
+      - 🇭🇰 标准|香港05|解锁流媒体:18029
+      - 🇭🇰 香港01解锁流媒体:65000
+      - 🇭🇰 标准|香港04|解锁流媒体:18028
       - 🇭🇰 香港02解锁流媒体:65001
+      - 🇭🇰 标准|香港02|解锁流媒体:18026
+      - 🇭🇰 香港03解锁流媒体:65002
+      - 🇭🇰 标准|香港01|解锁流媒体:18025
+      - 🇺🇸 美国02解锁流媒体:65011
+      - 🇭🇰 专线|香港05|原生HGCBBS:18068
+      - 🇯🇵 日本01解锁流媒体:65004
+      - 12/22_44:18121
+      - 🇭🇰 香港 HK x1.0 D2 本土:10871
+      - 12/22_41:18119
+      - 🇭🇰 香港 HK x1.0 05中转 本土:11390
       - 🇷🇺 俄罗斯02解锁流媒体:65021
-      - 12/22_20:443
-      - ⌈绿通⌋ 华中 01:46794
-      - 12/22_21:443
-      - 12/22_112
+      - 12/22_6:80
+      - 12/22_42:18119
+      - 12/22_46:18123
+      - 🇺🇸 基础|美国01|脸书主力:18121
+      - 12/22_47:18124
+      - 🇺🇸 基础|美国02|脸书主力:18122
+      - 12/22_17:443
+      - 🇺🇸 美国03解锁流媒体:65012
+      - 🇬🇧 标准|英国01|解锁流媒体:18076
+      - 🇬🇧 标准|英国02|解锁流媒体:18077
       - 12/22_123
+      - 12/22_112
+      - 12/22_95
+      - 🇺🇸+美国Us
+      - 12/22_75
+      - 12/22_81
       - 12/22_125
       - 12/22_88
-      - 12/22_81
-      - 12/22_128
-      - 12/22_75
-      - 12/22_117
       - 12/22_127
-      - 12/22_111
-      - 12/22_73
-      - 12/22_66
-      - 12/22_113
-      - 🇬🇧+英国Gb
-      - 12/22_109
-      - 12/22_65
+      - 12/22_117
+      - 12/22_128
       - 12/22_124
-      - 12/22_105
-      - 12/22_115
-      - 12/22_126
-      - 12/22_78
-      - 🇭🇰+香港Hk+3
-      - 12/22_130
-      - 12/22_131
-      - 12/22_132
-      - 12/22_93
-      - 12/22_122
-      - 12/22_101
-      - 12/22_118
-      - 12/22_70
-      - 12/22_67
-      - 12/22_84
-      - 12/22_133
-      - 12/22_140
-      - 12/22_71
-      - 12/22_80
-      - 12/22_100
-      - 12/22_86
-      - 12/22_107
-      - 12/22_68
-      - 12/22_103
-      - 12/22_106
-      - 12/22_98
-      - 12/22_119
-      - 🇭🇰+香港Hk+2
-      - 🇺🇸+美国Us+2
-      - 12/22_74
-      - 🇺🇸+美国Us
-      - 12/22_96
-      - 12/22_95
-      - 🇺🇸+美国Us+3
-      - 🇯🇵+日本Jp
-      - 🇯🇵+日本Jp+2
-      - 12/22_136
-      - 🇨🇳+台湾Tw
-      - 12/22_62
-      - 12/22_90
-      - 12/22_141
-      - 12/22_63
+      - 12/22_111
       - 12/22_77
-      - 12/22_85
-      - 12/22_142
-      - 12/22_121
+      - 12/22_105
+      - 12/22_109
+      - 12/22_73
+      - 🇭🇰+香港Hk
+      - 12/22_84
+      - 12/22_120
+      - 12/22_96
+      - 12/22_65
+      - 12/22_78
+      - 12/22_91
+      - 12/22_82
+      - 12/22_74
+      - 12/22_126
+      - 12/22_129
+      - 12/22_132
+      - 12/22_115
+      - 12/22_122
+      - 12/22_137
+      - 12/22_62
+      - 12/22_70
+      - 12/22_113
+      - 12/22_133
+      - 12/22_67
+      - 12/22_131
+      - 12/22_118
+      - 12/22_68
+      - 12/22_102
+      - 12/22_71
+      - 12/22_130
       - 12/22_94
+      - 12/22_121
+      - 12/22_86
+      - 12/22_103
+      - 12/22_136
+      - 12/22_106
+      - 12/22_80
+      - 12/22_98
+      - 12/22_140
+      - 12/22_119
+      - 🇭🇰+香港Hk+3
+      - 🇺🇸+美国Us+2
+      - 🇭🇰+香港Hk+2
+      - 🇺🇸+美国Us+3
+      - 12/22_63
+      - 12/22_85
+      - 12/22_93
+      - 12/22_90
+      - 🇨🇳+台湾Tw
+      - 12/22_141
+      - 12/22_107
+      - 12/22_142
+      - 12/22_101
+      - 12/22_100
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
