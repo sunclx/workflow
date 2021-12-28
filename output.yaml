@@ -18,124 +18,22 @@ proxies:
     ws-path: /
     ws-headers:
       Host: 8.210.55.79
-  - name: TG YouTube:8度科技_中国:65012
+  - name: TG YouTube:8度科技_美国:27962
     type: vmess
-    server: 00.cn1.rocketdns.xyz
-    port: 65012
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn1.rocketdns.xyz
-  - name: TG YouTube:8度科技_中国:3083
-    type: vmess
-    server: iplc01.2333dns.com
-    port: 3083
-    uuid: 4e556978-4dc3-3f52-bfe6-9decf8bb16b9
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18124
-    type: vmess
-    server: 120.241.72.84
-    port: 18124
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65016
-    type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65016
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65016_2
-    type: vmess
-    server: 116.163.10.145
-    port: 65016
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_新加坡:80
-    type: vmess
-    server: v9.emovpn.xyz
-    port: 80
-    uuid: 91bc299b-20b3-4a0e-83d3-93127df19092
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:18122
-    type: vmess
-    server: 120.241.72.84
-    port: 18122
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:9233
-    type: vmess
-    server: 183.232.13.115
-    port: 9233
-    uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9
+    server: 198.200.51.18
+    port: 27962
+    uuid: b660c4a6-50df-11ec-9676-00163caf481c
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /
+    ws-path: /jZyaImnU/
     ws-headers:
-      Host: "%7B%22Host%22:%22183.232.13.115%22%7D"
-  - name: TG YouTube:8度科技_中国:65009
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65009
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
+      Host: 198.200.51.18
   - name: TG YouTube:8度科技_美国:443
     type: vmess
-    server: 208.98.48.2
+    server: 45.35.84.162
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
     alterId: "4"
@@ -145,74 +43,10 @@ proxies:
     tls: true
     ws-path: /ws
     ws-headers:
-      Host: iesei1ei.com
-  - name: TG YouTube:8度科技_香港:33743
-    type: vmess
-    server: 40.83.103.196
-    port: 33743
-    uuid: 000db26a-a1bf-4b4c-d1cb-aadca62945cb
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: youuutbe-aweikeji
-  - name: TG YouTube:8度科技_中国:20047
-    type: vmess
-    server: cm-jm.okvpn.xyz
-    port: 20047
-    uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_芬兰:8443
-    type: vmess
-    server: oz.mooncloud.bike
-    port: 8443
-    uuid: 79fedd93-e758-4655-83ed-574f4afe2a04
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:17012
-    type: vmess
-    server: 120.197.85.39
-    port: 17012
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:724
-    type: vmess
-    server: 120.197.85.39
-    port: 724
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
+      Host: usa-dallas.lvuft.com
   - name: TG YouTube:8度科技_美国:443_2
     type: vmess
-    server: usa-miami.lvuft.com
+    server: 23.82.136.151
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
     alterId: "4"
@@ -223,19 +57,58 @@ proxies:
     ws-path: /ws
     ws-headers:
       Host: usa-miami.lvuft.com
-  - name: TG YouTube:8度科技_中国:17015
+  - name: TG YouTube:8度科技_捷克:27182
     type: vmess
-    server: 120.197.85.39
-    port: 17015
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
+    server: 195.133.53.192
+    port: 27182
+    uuid: a22df2ec-6200-11ec-9070-fecccc2333dc
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /v2ray
+    ws-path: /AmrTCtbk/
     ws-headers:
-      Host: t.me/vpnhat
+      Host: 195.133.53.192
+  - name: TG YouTube:8度科技_美国:443_2_2
+    type: vmess
+    server: usa-dallas.lvuft.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-dallas.lvuft.com
+  - name: TG YouTube:8度科技_中国:20005
+    type: vmess
+    server: cm-jm.okvpn.xyz
+    port: 20005
+    uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: youtube-aweikeji
+  - name: TG YouTube:8度科技_德国:21888
+    type: vmess
+    server: 18.192.212.68
+    port: 21888
+    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: youtube-aweikeji
   - name: TG YouTube:8度科技_中国:10003
     type: vmess
     server: 112.33.32.136
@@ -248,340 +121,30 @@ proxies:
     tls: null
     ws-path: /
     ws-headers: null
-  - name: TG YouTube:8度科技_香港:19116
+  - name: TG YouTube:8度科技_香港:12632
     type: vmess
-    server: 16.paopaoyun.xyz
-    port: 19116
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_香港:19107
-    type: vmess
-    server: 7.paopaoyun.xyz
-    port: 19107
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_台湾:9233
-    type: vmess
-    server: 211.23.181.18
-    port: 9233
-    uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:65002
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65002
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+    server: bit-hgc2.giize.com
+    port: 12632
+    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:65021
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65021
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
+    ws-path: index
     ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:19115
-    type: vmess
-    server: 15.paopaoyun.xyz
-    port: 19115
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_日本:10066
-    type: vmess
-    server: 15.152.149.104
-    port: 10066
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:19105
-    type: vmess
-    server: 5.paopaoyun.xyz
-    port: 19105
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18080
-    type: vmess
-    server: v34.88host.buzz
-    port: 18080
-    uuid: 0e634ac9-82bb-366b-86a6-99e02968e497
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_香港:19120
-    type: vmess
-    server: 20.paopaoyun.xyz
-    port: 19120
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:3123
-    type: vmess
-    server: iplc01.2333dns.com
-    port: 3123
-    uuid: 4e556978-4dc3-3f52-bfe6-9decf8bb16b9
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18083
-    type: vmess
-    server: v32.88host.buzz
-    port: 18083
-    uuid: 0e634ac9-82bb-366b-86a6-99e02968e497
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:65000
-    type: vmess
-    server: 00.cn1.rocketdns.xyz
-    port: 65000
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:10003_2
-    type: vmess
-    server: 112.33.32.136
-    port: 10003
-    uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: 112.33.32.136
-  - name: TG YouTube:8度科技_中国:20001
+      Host: bit-hgc2.giize.com
+  - name: TG YouTube:8度科技_中国:20015
     type: vmess
     server: cm-jm.okvpn.xyz
-    port: 20001
-    uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8
+    port: 20015
+    uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785
     alterId: "1"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:65001
-    type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65001
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_香港:19111
-    type: vmess
-    server: 11.paopaoyun.xyz
-    port: 19111
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
     ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_香港:19123
-    type: vmess
-    server: 23.paopaoyun.xyz
-    port: 19123
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18065
-    type: vmess
-    server: v32.88host.buzz
-    port: 18065
-    uuid: 0e634ac9-82bb-366b-86a6-99e02968e497
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_香港:19109
-    type: vmess
-    server: 9.paopaoyun.xyz
-    port: 19109
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_香港:19108
-    type: vmess
-    server: 8.paopaoyun.xyz
-    port: 19108
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:65003
-    type: vmess
-    server: 00.cn4.rocketdns.xyz
-    port: 65003
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_香港:19118
-    type: vmess
-    server: 18.paopaoyun.xyz
-    port: 19118
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:17011
-    type: vmess
-    server: 120.197.85.39
-    port: 17011
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:18064
-    type: vmess
-    server: v31.88host.buzz
-    port: 18064
-    uuid: 0e634ac9-82bb-366b-86a6-99e02968e497
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_阿联酋:2157
-    type: vmess
-    server: 193.123.71.78
-    port: 2157
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17011_2
-    type: vmess
-    server: cn.zzv11.infonode.xyz
-    port: 17011
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
     ws-headers:
       Host: youtube-aweikeji
   - name: TG YouTube:8度科技_香港:443
@@ -597,70 +160,7 @@ proxies:
     ws-path: /ws
     ws-headers:
       Host: aicoo6du.com
-  - name: TG YouTube:8度科技_中国:18007
-    type: vmess
-    server: 120.241.72.97
-    port: 18007
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: v13.88host.buzz
   - name: TG YouTube:8度科技_越南:80
-    type: vmess
-    server: 165.154.229.22
-    port: 80
-    uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: 165.154.229.22
-  - name: TG YouTube:8度科技_香港:19112
-    type: vmess
-    server: 12.paopaoyun.xyz
-    port: 19112
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18066
-    type: vmess
-    server: v33.88host.buzz
-    port: 18066
-    uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:65001_2
-    type: vmess
-    server: 116.163.10.145
-    port: 65001
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_越南:80_2
     type: vmess
     server: 1116yn.fans8.xyz
     port: 80
@@ -673,269 +173,19 @@ proxies:
     ws-path: /v2ray
     ws-headers:
       Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:19121
+  - name: TG YouTube:8度科技_越南:80_2
     type: vmess
-    server: 21.paopaoyun.xyz
-    port: 19121
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18118
-    type: vmess
-    server: v12.88host.buzz
-    port: 18118
-    uuid: 0e634ac9-82bb-366b-86a6-99e02968e497
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_香港:19122
-    type: vmess
-    server: 22.paopaoyun.xyz
-    port: 19122
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18007_2
-    type: vmess
-    server: v13.88host.buzz
-    port: 18007
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    server: 165.154.229.22
+    port: 80
+    uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /mojing
+    ws-path: /v2ray
     ws-headers:
-      Host: v13.88host.buzz
-  - name: TG YouTube:8度科技_中国:18081
-    type: vmess
-    server: v33.88host.buzz
-    port: 18081
-    uuid: 0e634ac9-82bb-366b-86a6-99e02968e497
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18117
-    type: vmess
-    server: v12.88host.buzz
-    port: 18117
-    uuid: 0e634ac9-82bb-366b-86a6-99e02968e497
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18066_2
-    type: vmess
-    server: v33.88host.buzz
-    port: 18066
-    uuid: 0e634ac9-82bb-366b-86a6-99e02968e497
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:65013
-    type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65013
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:65013_2
-    type: vmess
-    server: 00.cn4.rocketdns.xyz
-    port: 65013
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn4.rocketdns.xyz
-  - name: TG YouTube:8度科技_中国:18006
-    type: vmess
-    server: 120.241.72.84
-    port: 18006
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65014
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65014
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_香港:15336
-    type: vmess
-    server: azhk1.yeem.cc
-    port: 15336
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65005
-    type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65005
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:65000_2
-    type: vmess
-    server: 116.163.14.146
-    port: 65000
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 阿伟科技-油管
-  - name: TG YouTube:8度科技_中国:18005
-    type: vmess
-    server: 120.241.72.84
-    port: 18005
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65015
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65015
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18083_2
-    type: vmess
-    server: v32.88host.buzz
-    port: 18083
-    uuid: c1ff7ecc-7b0d-3c4e-af21-4afa507f44e6
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:10005
-    type: vmess
-    server: 112.33.32.136
-    port: 10005
-    uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:20015
-    type: vmess
-    server: cm-jm.okvpn.xyz
-    port: 20015
-    uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:18054
-    type: vmess
-    server: v32.88host.buzz
-    port: 18054
-    uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:65004
-    type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65004
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: t.me/vpnhat
+      Host: 165.154.229.22
   - name: TG YouTube:8度科技:8443
     type: vmess
     server: v4.ssrsub.com
@@ -948,1148 +198,6 @@ proxies:
     tls: true
     ws-path: /ssrsub
     ws-headers: null
-  - name: TG YouTube:8度科技_香港:19119
-    type: vmess
-    server: 19.paopaoyun.xyz
-    port: 19119
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_香港:19104
-    type: vmess
-    server: 4.paopaoyun.xyz
-    port: 19104
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_香港:19114
-    type: vmess
-    server: 14.paopaoyun.xyz
-    port: 19114
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_香港:19103
-    type: vmess
-    server: 3.paopaoyun.xyz
-    port: 19103
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_韩国:19586
-    type: vmess
-    server: 3.35.194.171
-    port: 19586
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:20015_2
-    type: vmess
-    server: cm-jm.okvpn.xyz
-    port: 20015
-    uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: cm-jm.okvpn.xyz
-  - name: TG YouTube:8度科技_中国:17013
-    type: vmess
-    server: 120.197.85.39
-    port: 17013
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:19117
-    type: vmess
-    server: 17.paopaoyun.xyz
-    port: 19117
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:65005_2
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65005
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_美国:23671
-    type: vmess
-    server: 172.86.127.98
-    port: 23671
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:35476
-    type: vmess
-    server: 18.162.113.209
-    port: 35476
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:19110
-    type: vmess
-    server: 10.paopaoyun.xyz
-    port: 19110
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:17013_2
-    type: vmess
-    server: 103.56.62.87
-    port: 17013
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17013_2_2
-    type: vmess
-    server: 222.186.10.33
-    port: 17013
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:19106
-    type: vmess
-    server: 6.paopaoyun.xyz
-    port: 19106
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:17011_2_2
-    type: vmess
-    server: 222.186.10.33
-    port: 17011
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65017
-    type: vmess
-    server: 00.cn1.rocketdns.xyz
-    port: 65017
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn1.rocketdns.xyz
-  - name: TG YouTube:8度科技_中国:18008
-    type: vmess
-    server: v11.88host.buzz
-    port: 18008
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: v11.88host.buzz
-  - name: TG YouTube:8度科技_中国:17011_2_2_2
-    type: vmess
-    server: 122.192.189.40
-    port: 17011
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17016
-    type: vmess
-    server: 222.186.10.33
-    port: 17016
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_美国:6666
-    type: vmess
-    server: 155.94.128.121
-    port: 6666
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17016_2
-    type: vmess
-    server: 103.56.62.87
-    port: 17016
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:18120
-    type: vmess
-    server: 120.241.72.84
-    port: 18120
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: 120.241.72.84
-  - name: TG YouTube:8度科技_中国:18117_2
-    type: vmess
-    server: 120.241.72.84
-    port: 18117
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: 120.241.72.84
-  - name: TG YouTube:8度科技_中国:17013_2_2_2
-    type: vmess
-    server: 120.232.173.21
-    port: 17013
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65003_2
-    type: vmess
-    server: 00.cn1.rocketdns.xyz
-    port: 65003
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:3113
-    type: vmess
-    server: iplc01.2333dns.com
-    port: 3113
-    uuid: 4e556978-4dc3-3f52-bfe6-9decf8bb16b9
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:65009_2
-    type: vmess
-    server: 00.cn4.rocketdns.xyz
-    port: 65009
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:18140
-    type: vmess
-    server: v24.88host.buzz
-    port: 18140
-    uuid: 8e101712-8380-3376-bbeb-ef6ef1eaafb9
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_美国:24176
-    type: vmess
-    server: 23.94.208.54
-    port: 24176
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17012_2
-    type: vmess
-    server: 103.56.62.87
-    port: 17012
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17013_2_2_2_2
-    type: vmess
-    server: 120.232.43.161
-    port: 17013
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17015_2
-    type: vmess
-    server: 222.186.10.33
-    port: 17015
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17016_2_2
-    type: vmess
-    server: 122.192.189.40
-    port: 17016
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17016_2_2_2
-    type: vmess
-    server: 120.232.173.21
-    port: 17016
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:18008_2
-    type: vmess
-    server: 120.241.72.84
-    port: 18008
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: v11.88host.buzz
-  - name: TG YouTube:8度科技_中国:17016_2_2_2_2
-    type: vmess
-    server: 120.232.43.161
-    port: 17016
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17012_2_2
-    type: vmess
-    server: 222.186.10.33
-    port: 17012
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17013_2_2_2_2_2
-    type: vmess
-    server: 111.2.178.144
-    port: 17013
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17015_2_2
-    type: vmess
-    server: 103.56.62.87
-    port: 17015
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17012_2_2_2
-    type: vmess
-    server: 122.192.189.40
-    port: 17012
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17016_2_2_2_2_2
-    type: vmess
-    server: 120.197.85.39
-    port: 17016
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17012_2_2_2_2
-    type: vmess
-    server: 120.232.173.21
-    port: 17012
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-    type: vmess
-    server: 111.2.178.144
-    port: 17016
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17012_2_2_2_2_2
-    type: vmess
-    server: 120.232.43.161
-    port: 17012
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:19113
-    type: vmess
-    server: 13.paopaoyun.xyz
-    port: 19113
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_美国:46269
-    type: vmess
-    server: 45.32.74.74
-    port: 46269
-    uuid: 7ec73cc8-6539-11ec-b5cf-560003c186bd
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mz2pKaiY/
-    ws-headers:
-      Host: youtube-awikeji
-  - name: TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-    type: vmess
-    server: 111.2.178.144
-    port: 17012
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17015_2_2_2
-    type: vmess
-    server: 120.232.173.21
-    port: 17015
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17015_2_2_2_2
-    type: vmess
-    server: 120.232.43.161
-    port: 17015
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17015_2_2_2_2_2
-    type: vmess
-    server: 122.192.189.40
-    port: 17015
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65018
-    type: vmess
-    server: 00.cn1.rocketdns.xyz
-    port: 65018
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:17014
-    type: vmess
-    server: 120.197.85.39
-    port: 17014
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_俄罗斯联邦:23566
-    type: vmess
-    server: 193.42.114.93
-    port: 23566
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:19124
-    type: vmess
-    server: 24.paopaoyun.xyz
-    port: 19124
-    uuid: 7c0acbdb-83ce-3125-ab9b-b5859b90087c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-    type: vmess
-    server: 111.2.178.144
-    port: 17015
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:20000
-    type: vmess
-    server: cm-jm.okvpn.xyz
-    port: 20000
-    uuid: b029c5b8-023c-4549-8ed6-cca45aaab9b8
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:17014_2
-    type: vmess
-    server: 120.232.173.21
-    port: 17014
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17014_2_2
-    type: vmess
-    server: 222.186.10.33
-    port: 17014
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-    type: vmess
-    server: 122.192.189.40
-    port: 17013
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17014_2_2_2
-    type: vmess
-    server: 103.56.62.87
-    port: 17014
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:27451
-    type: vmess
-    server: azhk.node.qchwnd.moe
-    port: 27451
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_德国:21888
-    type: vmess
-    server: 18.192.212.68
-    port: 21888
-    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_美国:6666_2
-    type: vmess
-    server: 159.223.44.209
-    port: 6666
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17014_2_2_2_2
-    type: vmess
-    server: 122.192.189.40
-    port: 17014
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17011_2_2_2_2
-    type: vmess
-    server: 120.232.43.161
-    port: 17011
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17014_2_2_2_2_2
-    type: vmess
-    server: 111.2.178.144
-    port: 17014
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65008
-    type: vmess
-    server: 00.cn4.rocketdns.xyz
-    port: 65008
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:65008_2
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65008
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn3.rocketdns.xyz
-  - name: TG YouTube:8度科技_阿联酋:17866
-    type: vmess
-    server: 139.185.46.252
-    port: 17866
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:18118_2
-    type: vmess
-    server: 120.241.72.84
-    port: 18118
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: 120.241.72.84
-  - name: TG YouTube:8度科技_阿联酋:35221
-    type: vmess
-    server: 139.185.43.1
-    port: 35221
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_美国:443_2_2
-    type: vmess
-    server: 45.35.84.162
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-dallas.lvuft.com
-  - name: TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-    type: vmess
-    server: 120.232.43.161
-    port: 17014
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_阿联酋:35221_2
-    type: vmess
-    server: 193.123.81.102
-    port: 35221
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:20005
-    type: vmess
-    server: cm-jm.okvpn.xyz
-    port: 20005
-    uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:65019
-    type: vmess
-    server: 116.163.10.145
-    port: 65019
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: youtube-aweikeji
-  - name: TG YouTube:8度科技_中国:65020
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65020
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65019_2
-    type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65019
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_美国:443_2_2_2
-    type: vmess
-    server: usa-dallas.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-dallas.lvuft.com
-  - name: TG YouTube:8度科技_中国:65010
-    type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65010
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers:
-      Host: 00.cn2.rocketdns.xyz
-  - name: TG YouTube:8度科技_中国:18119
-    type: vmess
-    server: 120.241.72.97
-    port: 18119
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: 120.241.72.97
-  - name: TG YouTube:8度科技_美国:27962
-    type: vmess
-    server: 198.200.51.18
-    port: 27962
-    uuid: b660c4a6-50df-11ec-9676-00163caf481c
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jZyaImnU/
-    ws-headers:
-      Host: 198.200.51.18
-  - name: TG YouTube:8度科技_中国:65011
-    type: vmess
-    server: 00.cn2.rocketdns.xyz
-    port: 65011
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18123
-    type: vmess
-    server: 120.241.72.97
-    port: 18123
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_美国:443_2_2_2_2
-    type: vmess
-    server: 23.82.136.151
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-miami.lvuft.com
-  - name: TG YouTube:8度科技_中国:65011_2
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65011
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:18121
-    type: vmess
-    server: 120.241.72.84
-    port: 18121
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mojing
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_美国:443_2_2_2_2_2
-    type: vmess
-    server: 192.186.129.66
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-buffalo.lvuft.com
   - name: TG YouTube:8度科技_俄罗斯联邦:41002
     type: vmess
     server: 194.156.120.52
@@ -2102,7 +210,7 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: TG YouTube:8度科技_美国:443_2_2_2_2_2_2
+  - name: TG YouTube:8度科技_美国:443_2_2_2
     type: vmess
     server: usa-buffalo.lvuft.com
     port: 443
@@ -2115,11 +223,49 @@ proxies:
     ws-path: /ws
     ws-headers:
       Host: usa-buffalo.lvuft.com
-  - name: TG YouTube:8度科技_中国:18119_2
+  - name: TG YouTube:8度科技_芬兰:8443
     type: vmess
-    server: v13.88host.buzz
-    port: 18119
-    uuid: e842b316-864c-38ed-b26e-31f07add8ddb
+    server: oz.mooncloud.bike
+    port: 8443
+    uuid: 79fedd93-e758-4655-83ed-574f4afe2a04
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: TG YouTube:8度科技_中国:20047
+    type: vmess
+    server: cm-jm.okvpn.xyz
+    port: 20047
+    uuid: fa2c02cf-bbc1-4da0-b051-3731d87ec785
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: youtube-aweikeji
+  - name: TG YouTube:8度科技_美国:443_2_2_2_2
+    type: vmess
+    server: 192.186.129.66
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-buffalo.lvuft.com
+  - name: TG YouTube:8度科技_中国:10003_2
+    type: vmess
+    server: 112.33.32.136
+    port: 10003
+    uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
     alterId: "0"
     cipher: auto
     udp: true
@@ -2127,135 +273,33 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers:
-      Host: v13.88host.buzz
-  - name: TG YouTube:8度科技_美国:24156
+      Host: 112.33.32.136
+  - name: TG YouTube:8度科技_美国:443_2_2_2_2_2
     type: vmess
-    server: 159.223.34.116
-    port: 24156
-    uuid: 134b7349-539f-369e-b7ec-f339dd09a24a
-    alterId: "0"
+    server: 208.98.48.2
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
     cipher: auto
     udp: true
-    network: tcp
-    tls: null
-    ws-path: t.me/vpnpool
+    network: ws
+    tls: true
+    ws-path: /ws
     ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_捷克:27182
+      Host: iesei1ei.com
+  - name: TG YouTube:8度科技_美国:443_2_2_2_2_2_2
     type: vmess
-    server: 195.133.53.192
-    port: 27182
-    uuid: a22df2ec-6200-11ec-9070-fecccc2333dc
-    alterId: "0"
+    server: usa-miami.lvuft.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /AmrTCtbk/
+    tls: true
+    ws-path: /ws
     ws-headers:
-      Host: 195.133.53.192
-  - name: TG YouTube:8度科技_中国:17011_2_2_2_2_2
-    type: vmess
-    server: 111.2.178.144
-    port: 17011
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
-    type: vmess
-    server: 120.232.173.21
-    port: 17011
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_香港:12632
-    type: vmess
-    server: bit-hgc2.giize.com
-    port: 12632
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: bit-hgc2.giize.com
-  - name: TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-    type: vmess
-    server: 103.56.62.87
-    port: 17011
-    uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: TG YouTube:8度科技_中国:65006
-    type: vmess
-    server: 00.cn3.rocketdns.xyz
-    port: 65006
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_中国:65006_2
-    type: vmess
-    server: 00.cn4.rocketdns.xyz
-    port: 65006
-    uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /rocket
-    ws-headers: null
-  - name: TG YouTube:8度科技_日本:14359
-    type: vmess
-    server: jpaws1.biteb-ssx.xyz
-    port: 14359
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: jpaws1.biteb-ssx.xyz
-  - name: TG YouTube:8度科技_香港:14454
-    type: vmess
-    server: hkaz1.biteb-ssx.xyz
-    port: 14454
-    uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: index
-    ws-headers:
-      Host: hkaz1.biteb-ssx.xyz
+      Host: usa-miami.lvuft.com
   - name: 电报交流群：https://t.me/realnode:443
     type: vmess
     server: user.realnode.co
@@ -2591,182 +635,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - TG YouTube:8度科技_香港:80
-      - TG YouTube:8度科技_中国:65012
-      - TG YouTube:8度科技_中国:3083
-      - TG YouTube:8度科技_中国:18124
-      - TG YouTube:8度科技_中国:65016
-      - TG YouTube:8度科技_中国:65016_2
-      - TG YouTube:8度科技_新加坡:80
-      - TG YouTube:8度科技_中国:18122
-      - TG YouTube:8度科技_中国:9233
-      - TG YouTube:8度科技_中国:65009
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:33743
-      - TG YouTube:8度科技_中国:20047
-      - TG YouTube:8度科技_芬兰:8443
-      - TG YouTube:8度科技_中国:17012
-      - TG YouTube:8度科技_中国:724
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_中国:17015
-      - TG YouTube:8度科技_中国:10003
-      - TG YouTube:8度科技_香港:19116
-      - TG YouTube:8度科技_香港:19107
-      - TG YouTube:8度科技_台湾:9233
-      - TG YouTube:8度科技_中国:65002
-      - TG YouTube:8度科技_中国:65021
-      - TG YouTube:8度科技_香港:19115
-      - TG YouTube:8度科技_日本:10066
-      - TG YouTube:8度科技_香港:19105
-      - TG YouTube:8度科技_中国:18080
-      - TG YouTube:8度科技_香港:19120
-      - TG YouTube:8度科技_中国:3123
-      - TG YouTube:8度科技_中国:18083
-      - TG YouTube:8度科技_中国:65000
-      - TG YouTube:8度科技_中国:10003_2
-      - TG YouTube:8度科技_中国:20001
-      - TG YouTube:8度科技_中国:65001
-      - TG YouTube:8度科技_香港:19111
-      - TG YouTube:8度科技_香港:19123
-      - TG YouTube:8度科技_中国:18065
-      - TG YouTube:8度科技_香港:19109
-      - TG YouTube:8度科技_香港:19108
-      - TG YouTube:8度科技_中国:65003
-      - TG YouTube:8度科技_香港:19118
-      - TG YouTube:8度科技_中国:17011
-      - TG YouTube:8度科技_中国:18064
-      - TG YouTube:8度科技_阿联酋:2157
-      - TG YouTube:8度科技_中国:17011_2
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技_中国:18007
-      - TG YouTube:8度科技_越南:80
-      - TG YouTube:8度科技_香港:19112
-      - TG YouTube:8度科技_中国:18066
-      - TG YouTube:8度科技_中国:65001_2
-      - TG YouTube:8度科技_越南:80_2
-      - TG YouTube:8度科技_香港:19121
-      - TG YouTube:8度科技_中国:18118
-      - TG YouTube:8度科技_香港:19122
-      - TG YouTube:8度科技_中国:18007_2
-      - TG YouTube:8度科技_中国:18081
-      - TG YouTube:8度科技_中国:18117
-      - TG YouTube:8度科技_中国:18066_2
-      - TG YouTube:8度科技_中国:65013
-      - TG YouTube:8度科技_中国:65013_2
-      - TG YouTube:8度科技_中国:18006
-      - TG YouTube:8度科技_中国:65014
-      - TG YouTube:8度科技_香港:15336
-      - TG YouTube:8度科技_中国:65005
-      - TG YouTube:8度科技_中国:65000_2
-      - TG YouTube:8度科技_中国:18005
-      - TG YouTube:8度科技_中国:65015
-      - TG YouTube:8度科技_中国:18083_2
-      - TG YouTube:8度科技_中国:10005
-      - TG YouTube:8度科技_中国:20015
-      - TG YouTube:8度科技_中国:18054
-      - TG YouTube:8度科技_中国:65004
-      - TG YouTube:8度科技:8443
-      - TG YouTube:8度科技_香港:19119
-      - TG YouTube:8度科技_香港:19104
-      - TG YouTube:8度科技_香港:19114
-      - TG YouTube:8度科技_香港:19103
-      - TG YouTube:8度科技_韩国:19586
-      - TG YouTube:8度科技_中国:20015_2
-      - TG YouTube:8度科技_中国:17013
-      - TG YouTube:8度科技_香港:19117
-      - TG YouTube:8度科技_中国:65005_2
-      - TG YouTube:8度科技_美国:23671
-      - TG YouTube:8度科技_香港:35476
-      - TG YouTube:8度科技_香港:19110
-      - TG YouTube:8度科技_中国:17013_2
-      - TG YouTube:8度科技_中国:17013_2_2
-      - TG YouTube:8度科技_香港:19106
-      - TG YouTube:8度科技_中国:17011_2_2
-      - TG YouTube:8度科技_中国:65017
-      - TG YouTube:8度科技_中国:18008
-      - TG YouTube:8度科技_中国:17011_2_2_2
-      - TG YouTube:8度科技_中国:17016
-      - TG YouTube:8度科技_美国:6666
-      - TG YouTube:8度科技_中国:17016_2
-      - TG YouTube:8度科技_中国:18120
-      - TG YouTube:8度科技_中国:18117_2
-      - TG YouTube:8度科技_中国:17013_2_2_2
-      - TG YouTube:8度科技_中国:65003_2
-      - TG YouTube:8度科技_中国:3113
-      - TG YouTube:8度科技_中国:65009_2
-      - TG YouTube:8度科技_中国:18140
-      - TG YouTube:8度科技_美国:24176
-      - TG YouTube:8度科技_中国:17012_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2
-      - TG YouTube:8度科技_中国:17016_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2
-      - TG YouTube:8度科技_中国:18008_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2
-      - TG YouTube:8度科技_香港:19113
-      - TG YouTube:8度科技_美国:46269
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65018
-      - TG YouTube:8度科技_中国:17014
-      - TG YouTube:8度科技_俄罗斯联邦:23566
-      - TG YouTube:8度科技_香港:19124
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:20000
-      - TG YouTube:8度科技_中国:17014_2
-      - TG YouTube:8度科技_中国:17014_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2
-      - TG YouTube:8度科技_香港:27451
-      - TG YouTube:8度科技_德国:21888
-      - TG YouTube:8度科技_美国:6666_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65008
-      - TG YouTube:8度科技_中国:65008_2
-      - TG YouTube:8度科技_阿联酋:17866
-      - TG YouTube:8度科技_中国:18118_2
-      - TG YouTube:8度科技_阿联酋:35221
-      - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-      - TG YouTube:8度科技_阿联酋:35221_2
-      - TG YouTube:8度科技_中国:20005
-      - TG YouTube:8度科技_中国:65019
-      - TG YouTube:8度科技_中国:65020
-      - TG YouTube:8度科技_中国:65019_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_中国:65010
-      - TG YouTube:8度科技_中国:18119
       - TG YouTube:8度科技_美国:27962
-      - TG YouTube:8度科技_中国:65011
-      - TG YouTube:8度科技_中国:18123
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_中国:65011_2
-      - TG YouTube:8度科技_中国:18121
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - TG YouTube:8度科技_俄罗斯联邦:41002
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:18119_2
-      - TG YouTube:8度科技_美国:24156
+      - TG YouTube:8度科技_美国:443
+      - TG YouTube:8度科技_美国:443_2
       - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2
+      - TG YouTube:8度科技_中国:20005
+      - TG YouTube:8度科技_德国:21888
+      - TG YouTube:8度科技_中国:10003
       - TG YouTube:8度科技_香港:12632
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65006
-      - TG YouTube:8度科技_中国:65006_2
-      - TG YouTube:8度科技_日本:14359
-      - TG YouTube:8度科技_香港:14454
+      - TG YouTube:8度科技_中国:20015
+      - TG YouTube:8度科技_香港:443
+      - TG YouTube:8度科技_越南:80
+      - TG YouTube:8度科技_越南:80_2
+      - TG YouTube:8度科技:8443
+      - TG YouTube:8度科技_俄罗斯联邦:41002
+      - TG YouTube:8度科技_美国:443_2_2_2
+      - TG YouTube:8度科技_芬兰:8443
+      - TG YouTube:8度科技_中国:20047
+      - TG YouTube:8度科技_美国:443_2_2_2_2
+      - TG YouTube:8度科技_中国:10003_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -2800,182 +690,28 @@ proxy-groups:
     interval: 300
     proxies:
       - TG YouTube:8度科技_香港:80
-      - TG YouTube:8度科技_中国:65012
-      - TG YouTube:8度科技_中国:3083
-      - TG YouTube:8度科技_中国:18124
-      - TG YouTube:8度科技_中国:65016
-      - TG YouTube:8度科技_中国:65016_2
-      - TG YouTube:8度科技_新加坡:80
-      - TG YouTube:8度科技_中国:18122
-      - TG YouTube:8度科技_中国:9233
-      - TG YouTube:8度科技_中国:65009
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:33743
-      - TG YouTube:8度科技_中国:20047
-      - TG YouTube:8度科技_芬兰:8443
-      - TG YouTube:8度科技_中国:17012
-      - TG YouTube:8度科技_中国:724
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_中国:17015
-      - TG YouTube:8度科技_中国:10003
-      - TG YouTube:8度科技_香港:19116
-      - TG YouTube:8度科技_香港:19107
-      - TG YouTube:8度科技_台湾:9233
-      - TG YouTube:8度科技_中国:65002
-      - TG YouTube:8度科技_中国:65021
-      - TG YouTube:8度科技_香港:19115
-      - TG YouTube:8度科技_日本:10066
-      - TG YouTube:8度科技_香港:19105
-      - TG YouTube:8度科技_中国:18080
-      - TG YouTube:8度科技_香港:19120
-      - TG YouTube:8度科技_中国:3123
-      - TG YouTube:8度科技_中国:18083
-      - TG YouTube:8度科技_中国:65000
-      - TG YouTube:8度科技_中国:10003_2
-      - TG YouTube:8度科技_中国:20001
-      - TG YouTube:8度科技_中国:65001
-      - TG YouTube:8度科技_香港:19111
-      - TG YouTube:8度科技_香港:19123
-      - TG YouTube:8度科技_中国:18065
-      - TG YouTube:8度科技_香港:19109
-      - TG YouTube:8度科技_香港:19108
-      - TG YouTube:8度科技_中国:65003
-      - TG YouTube:8度科技_香港:19118
-      - TG YouTube:8度科技_中国:17011
-      - TG YouTube:8度科技_中国:18064
-      - TG YouTube:8度科技_阿联酋:2157
-      - TG YouTube:8度科技_中国:17011_2
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技_中国:18007
-      - TG YouTube:8度科技_越南:80
-      - TG YouTube:8度科技_香港:19112
-      - TG YouTube:8度科技_中国:18066
-      - TG YouTube:8度科技_中国:65001_2
-      - TG YouTube:8度科技_越南:80_2
-      - TG YouTube:8度科技_香港:19121
-      - TG YouTube:8度科技_中国:18118
-      - TG YouTube:8度科技_香港:19122
-      - TG YouTube:8度科技_中国:18007_2
-      - TG YouTube:8度科技_中国:18081
-      - TG YouTube:8度科技_中国:18117
-      - TG YouTube:8度科技_中国:18066_2
-      - TG YouTube:8度科技_中国:65013
-      - TG YouTube:8度科技_中国:65013_2
-      - TG YouTube:8度科技_中国:18006
-      - TG YouTube:8度科技_中国:65014
-      - TG YouTube:8度科技_香港:15336
-      - TG YouTube:8度科技_中国:65005
-      - TG YouTube:8度科技_中国:65000_2
-      - TG YouTube:8度科技_中国:18005
-      - TG YouTube:8度科技_中国:65015
-      - TG YouTube:8度科技_中国:18083_2
-      - TG YouTube:8度科技_中国:10005
-      - TG YouTube:8度科技_中国:20015
-      - TG YouTube:8度科技_中国:18054
-      - TG YouTube:8度科技_中国:65004
-      - TG YouTube:8度科技:8443
-      - TG YouTube:8度科技_香港:19119
-      - TG YouTube:8度科技_香港:19104
-      - TG YouTube:8度科技_香港:19114
-      - TG YouTube:8度科技_香港:19103
-      - TG YouTube:8度科技_韩国:19586
-      - TG YouTube:8度科技_中国:20015_2
-      - TG YouTube:8度科技_中国:17013
-      - TG YouTube:8度科技_香港:19117
-      - TG YouTube:8度科技_中国:65005_2
-      - TG YouTube:8度科技_美国:23671
-      - TG YouTube:8度科技_香港:35476
-      - TG YouTube:8度科技_香港:19110
-      - TG YouTube:8度科技_中国:17013_2
-      - TG YouTube:8度科技_中国:17013_2_2
-      - TG YouTube:8度科技_香港:19106
-      - TG YouTube:8度科技_中国:17011_2_2
-      - TG YouTube:8度科技_中国:65017
-      - TG YouTube:8度科技_中国:18008
-      - TG YouTube:8度科技_中国:17011_2_2_2
-      - TG YouTube:8度科技_中国:17016
-      - TG YouTube:8度科技_美国:6666
-      - TG YouTube:8度科技_中国:17016_2
-      - TG YouTube:8度科技_中国:18120
-      - TG YouTube:8度科技_中国:18117_2
-      - TG YouTube:8度科技_中国:17013_2_2_2
-      - TG YouTube:8度科技_中国:65003_2
-      - TG YouTube:8度科技_中国:3113
-      - TG YouTube:8度科技_中国:65009_2
-      - TG YouTube:8度科技_中国:18140
-      - TG YouTube:8度科技_美国:24176
-      - TG YouTube:8度科技_中国:17012_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2
-      - TG YouTube:8度科技_中国:17016_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2
-      - TG YouTube:8度科技_中国:18008_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2
-      - TG YouTube:8度科技_香港:19113
-      - TG YouTube:8度科技_美国:46269
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65018
-      - TG YouTube:8度科技_中国:17014
-      - TG YouTube:8度科技_俄罗斯联邦:23566
-      - TG YouTube:8度科技_香港:19124
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:20000
-      - TG YouTube:8度科技_中国:17014_2
-      - TG YouTube:8度科技_中国:17014_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2
-      - TG YouTube:8度科技_香港:27451
-      - TG YouTube:8度科技_德国:21888
-      - TG YouTube:8度科技_美国:6666_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65008
-      - TG YouTube:8度科技_中国:65008_2
-      - TG YouTube:8度科技_阿联酋:17866
-      - TG YouTube:8度科技_中国:18118_2
-      - TG YouTube:8度科技_阿联酋:35221
-      - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-      - TG YouTube:8度科技_阿联酋:35221_2
-      - TG YouTube:8度科技_中国:20005
-      - TG YouTube:8度科技_中国:65019
-      - TG YouTube:8度科技_中国:65020
-      - TG YouTube:8度科技_中国:65019_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_中国:65010
-      - TG YouTube:8度科技_中国:18119
       - TG YouTube:8度科技_美国:27962
-      - TG YouTube:8度科技_中国:65011
-      - TG YouTube:8度科技_中国:18123
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_中国:65011_2
-      - TG YouTube:8度科技_中国:18121
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - TG YouTube:8度科技_俄罗斯联邦:41002
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:18119_2
-      - TG YouTube:8度科技_美国:24156
+      - TG YouTube:8度科技_美国:443
+      - TG YouTube:8度科技_美国:443_2
       - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2
+      - TG YouTube:8度科技_中国:20005
+      - TG YouTube:8度科技_德国:21888
+      - TG YouTube:8度科技_中国:10003
       - TG YouTube:8度科技_香港:12632
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65006
-      - TG YouTube:8度科技_中国:65006_2
-      - TG YouTube:8度科技_日本:14359
-      - TG YouTube:8度科技_香港:14454
+      - TG YouTube:8度科技_中国:20015
+      - TG YouTube:8度科技_香港:443
+      - TG YouTube:8度科技_越南:80
+      - TG YouTube:8度科技_越南:80_2
+      - TG YouTube:8度科技:8443
+      - TG YouTube:8度科技_俄罗斯联邦:41002
+      - TG YouTube:8度科技_美国:443_2_2_2
+      - TG YouTube:8度科技_芬兰:8443
+      - TG YouTube:8度科技_中国:20047
+      - TG YouTube:8度科技_美国:443_2_2_2_2
+      - TG YouTube:8度科技_中国:10003_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -3010,182 +746,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - TG YouTube:8度科技_香港:80
-      - TG YouTube:8度科技_中国:65012
-      - TG YouTube:8度科技_中国:3083
-      - TG YouTube:8度科技_中国:18124
-      - TG YouTube:8度科技_中国:65016
-      - TG YouTube:8度科技_中国:65016_2
-      - TG YouTube:8度科技_新加坡:80
-      - TG YouTube:8度科技_中国:18122
-      - TG YouTube:8度科技_中国:9233
-      - TG YouTube:8度科技_中国:65009
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:33743
-      - TG YouTube:8度科技_中国:20047
-      - TG YouTube:8度科技_芬兰:8443
-      - TG YouTube:8度科技_中国:17012
-      - TG YouTube:8度科技_中国:724
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_中国:17015
-      - TG YouTube:8度科技_中国:10003
-      - TG YouTube:8度科技_香港:19116
-      - TG YouTube:8度科技_香港:19107
-      - TG YouTube:8度科技_台湾:9233
-      - TG YouTube:8度科技_中国:65002
-      - TG YouTube:8度科技_中国:65021
-      - TG YouTube:8度科技_香港:19115
-      - TG YouTube:8度科技_日本:10066
-      - TG YouTube:8度科技_香港:19105
-      - TG YouTube:8度科技_中国:18080
-      - TG YouTube:8度科技_香港:19120
-      - TG YouTube:8度科技_中国:3123
-      - TG YouTube:8度科技_中国:18083
-      - TG YouTube:8度科技_中国:65000
-      - TG YouTube:8度科技_中国:10003_2
-      - TG YouTube:8度科技_中国:20001
-      - TG YouTube:8度科技_中国:65001
-      - TG YouTube:8度科技_香港:19111
-      - TG YouTube:8度科技_香港:19123
-      - TG YouTube:8度科技_中国:18065
-      - TG YouTube:8度科技_香港:19109
-      - TG YouTube:8度科技_香港:19108
-      - TG YouTube:8度科技_中国:65003
-      - TG YouTube:8度科技_香港:19118
-      - TG YouTube:8度科技_中国:17011
-      - TG YouTube:8度科技_中国:18064
-      - TG YouTube:8度科技_阿联酋:2157
-      - TG YouTube:8度科技_中国:17011_2
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技_中国:18007
-      - TG YouTube:8度科技_越南:80
-      - TG YouTube:8度科技_香港:19112
-      - TG YouTube:8度科技_中国:18066
-      - TG YouTube:8度科技_中国:65001_2
-      - TG YouTube:8度科技_越南:80_2
-      - TG YouTube:8度科技_香港:19121
-      - TG YouTube:8度科技_中国:18118
-      - TG YouTube:8度科技_香港:19122
-      - TG YouTube:8度科技_中国:18007_2
-      - TG YouTube:8度科技_中国:18081
-      - TG YouTube:8度科技_中国:18117
-      - TG YouTube:8度科技_中国:18066_2
-      - TG YouTube:8度科技_中国:65013
-      - TG YouTube:8度科技_中国:65013_2
-      - TG YouTube:8度科技_中国:18006
-      - TG YouTube:8度科技_中国:65014
-      - TG YouTube:8度科技_香港:15336
-      - TG YouTube:8度科技_中国:65005
-      - TG YouTube:8度科技_中国:65000_2
-      - TG YouTube:8度科技_中国:18005
-      - TG YouTube:8度科技_中国:65015
-      - TG YouTube:8度科技_中国:18083_2
-      - TG YouTube:8度科技_中国:10005
-      - TG YouTube:8度科技_中国:20015
-      - TG YouTube:8度科技_中国:18054
-      - TG YouTube:8度科技_中国:65004
-      - TG YouTube:8度科技:8443
-      - TG YouTube:8度科技_香港:19119
-      - TG YouTube:8度科技_香港:19104
-      - TG YouTube:8度科技_香港:19114
-      - TG YouTube:8度科技_香港:19103
-      - TG YouTube:8度科技_韩国:19586
-      - TG YouTube:8度科技_中国:20015_2
-      - TG YouTube:8度科技_中国:17013
-      - TG YouTube:8度科技_香港:19117
-      - TG YouTube:8度科技_中国:65005_2
-      - TG YouTube:8度科技_美国:23671
-      - TG YouTube:8度科技_香港:35476
-      - TG YouTube:8度科技_香港:19110
-      - TG YouTube:8度科技_中国:17013_2
-      - TG YouTube:8度科技_中国:17013_2_2
-      - TG YouTube:8度科技_香港:19106
-      - TG YouTube:8度科技_中国:17011_2_2
-      - TG YouTube:8度科技_中国:65017
-      - TG YouTube:8度科技_中国:18008
-      - TG YouTube:8度科技_中国:17011_2_2_2
-      - TG YouTube:8度科技_中国:17016
-      - TG YouTube:8度科技_美国:6666
-      - TG YouTube:8度科技_中国:17016_2
-      - TG YouTube:8度科技_中国:18120
-      - TG YouTube:8度科技_中国:18117_2
-      - TG YouTube:8度科技_中国:17013_2_2_2
-      - TG YouTube:8度科技_中国:65003_2
-      - TG YouTube:8度科技_中国:3113
-      - TG YouTube:8度科技_中国:65009_2
-      - TG YouTube:8度科技_中国:18140
-      - TG YouTube:8度科技_美国:24176
-      - TG YouTube:8度科技_中国:17012_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2
-      - TG YouTube:8度科技_中国:17016_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2
-      - TG YouTube:8度科技_中国:18008_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2
-      - TG YouTube:8度科技_香港:19113
-      - TG YouTube:8度科技_美国:46269
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65018
-      - TG YouTube:8度科技_中国:17014
-      - TG YouTube:8度科技_俄罗斯联邦:23566
-      - TG YouTube:8度科技_香港:19124
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:20000
-      - TG YouTube:8度科技_中国:17014_2
-      - TG YouTube:8度科技_中国:17014_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2
-      - TG YouTube:8度科技_香港:27451
-      - TG YouTube:8度科技_德国:21888
-      - TG YouTube:8度科技_美国:6666_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65008
-      - TG YouTube:8度科技_中国:65008_2
-      - TG YouTube:8度科技_阿联酋:17866
-      - TG YouTube:8度科技_中国:18118_2
-      - TG YouTube:8度科技_阿联酋:35221
-      - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-      - TG YouTube:8度科技_阿联酋:35221_2
-      - TG YouTube:8度科技_中国:20005
-      - TG YouTube:8度科技_中国:65019
-      - TG YouTube:8度科技_中国:65020
-      - TG YouTube:8度科技_中国:65019_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_中国:65010
-      - TG YouTube:8度科技_中国:18119
       - TG YouTube:8度科技_美国:27962
-      - TG YouTube:8度科技_中国:65011
-      - TG YouTube:8度科技_中国:18123
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_中国:65011_2
-      - TG YouTube:8度科技_中国:18121
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - TG YouTube:8度科技_俄罗斯联邦:41002
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:18119_2
-      - TG YouTube:8度科技_美国:24156
+      - TG YouTube:8度科技_美国:443
+      - TG YouTube:8度科技_美国:443_2
       - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2
+      - TG YouTube:8度科技_中国:20005
+      - TG YouTube:8度科技_德国:21888
+      - TG YouTube:8度科技_中国:10003
       - TG YouTube:8度科技_香港:12632
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65006
-      - TG YouTube:8度科技_中国:65006_2
-      - TG YouTube:8度科技_日本:14359
-      - TG YouTube:8度科技_香港:14454
+      - TG YouTube:8度科技_中国:20015
+      - TG YouTube:8度科技_香港:443
+      - TG YouTube:8度科技_越南:80
+      - TG YouTube:8度科技_越南:80_2
+      - TG YouTube:8度科技:8443
+      - TG YouTube:8度科技_俄罗斯联邦:41002
+      - TG YouTube:8度科技_美国:443_2_2_2
+      - TG YouTube:8度科技_芬兰:8443
+      - TG YouTube:8度科技_中国:20047
+      - TG YouTube:8度科技_美国:443_2_2_2_2
+      - TG YouTube:8度科技_中国:10003_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -3219,182 +801,28 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - TG YouTube:8度科技_香港:80
-      - TG YouTube:8度科技_中国:65012
-      - TG YouTube:8度科技_中国:3083
-      - TG YouTube:8度科技_中国:18124
-      - TG YouTube:8度科技_中国:65016
-      - TG YouTube:8度科技_中国:65016_2
-      - TG YouTube:8度科技_新加坡:80
-      - TG YouTube:8度科技_中国:18122
-      - TG YouTube:8度科技_中国:9233
-      - TG YouTube:8度科技_中国:65009
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:33743
-      - TG YouTube:8度科技_中国:20047
-      - TG YouTube:8度科技_芬兰:8443
-      - TG YouTube:8度科技_中国:17012
-      - TG YouTube:8度科技_中国:724
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_中国:17015
-      - TG YouTube:8度科技_中国:10003
-      - TG YouTube:8度科技_香港:19116
-      - TG YouTube:8度科技_香港:19107
-      - TG YouTube:8度科技_台湾:9233
-      - TG YouTube:8度科技_中国:65002
-      - TG YouTube:8度科技_中国:65021
-      - TG YouTube:8度科技_香港:19115
-      - TG YouTube:8度科技_日本:10066
-      - TG YouTube:8度科技_香港:19105
-      - TG YouTube:8度科技_中国:18080
-      - TG YouTube:8度科技_香港:19120
-      - TG YouTube:8度科技_中国:3123
-      - TG YouTube:8度科技_中国:18083
-      - TG YouTube:8度科技_中国:65000
-      - TG YouTube:8度科技_中国:10003_2
-      - TG YouTube:8度科技_中国:20001
-      - TG YouTube:8度科技_中国:65001
-      - TG YouTube:8度科技_香港:19111
-      - TG YouTube:8度科技_香港:19123
-      - TG YouTube:8度科技_中国:18065
-      - TG YouTube:8度科技_香港:19109
-      - TG YouTube:8度科技_香港:19108
-      - TG YouTube:8度科技_中国:65003
-      - TG YouTube:8度科技_香港:19118
-      - TG YouTube:8度科技_中国:17011
-      - TG YouTube:8度科技_中国:18064
-      - TG YouTube:8度科技_阿联酋:2157
-      - TG YouTube:8度科技_中国:17011_2
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技_中国:18007
-      - TG YouTube:8度科技_越南:80
-      - TG YouTube:8度科技_香港:19112
-      - TG YouTube:8度科技_中国:18066
-      - TG YouTube:8度科技_中国:65001_2
-      - TG YouTube:8度科技_越南:80_2
-      - TG YouTube:8度科技_香港:19121
-      - TG YouTube:8度科技_中国:18118
-      - TG YouTube:8度科技_香港:19122
-      - TG YouTube:8度科技_中国:18007_2
-      - TG YouTube:8度科技_中国:18081
-      - TG YouTube:8度科技_中国:18117
-      - TG YouTube:8度科技_中国:18066_2
-      - TG YouTube:8度科技_中国:65013
-      - TG YouTube:8度科技_中国:65013_2
-      - TG YouTube:8度科技_中国:18006
-      - TG YouTube:8度科技_中国:65014
-      - TG YouTube:8度科技_香港:15336
-      - TG YouTube:8度科技_中国:65005
-      - TG YouTube:8度科技_中国:65000_2
-      - TG YouTube:8度科技_中国:18005
-      - TG YouTube:8度科技_中国:65015
-      - TG YouTube:8度科技_中国:18083_2
-      - TG YouTube:8度科技_中国:10005
-      - TG YouTube:8度科技_中国:20015
-      - TG YouTube:8度科技_中国:18054
-      - TG YouTube:8度科技_中国:65004
-      - TG YouTube:8度科技:8443
-      - TG YouTube:8度科技_香港:19119
-      - TG YouTube:8度科技_香港:19104
-      - TG YouTube:8度科技_香港:19114
-      - TG YouTube:8度科技_香港:19103
-      - TG YouTube:8度科技_韩国:19586
-      - TG YouTube:8度科技_中国:20015_2
-      - TG YouTube:8度科技_中国:17013
-      - TG YouTube:8度科技_香港:19117
-      - TG YouTube:8度科技_中国:65005_2
-      - TG YouTube:8度科技_美国:23671
-      - TG YouTube:8度科技_香港:35476
-      - TG YouTube:8度科技_香港:19110
-      - TG YouTube:8度科技_中国:17013_2
-      - TG YouTube:8度科技_中国:17013_2_2
-      - TG YouTube:8度科技_香港:19106
-      - TG YouTube:8度科技_中国:17011_2_2
-      - TG YouTube:8度科技_中国:65017
-      - TG YouTube:8度科技_中国:18008
-      - TG YouTube:8度科技_中国:17011_2_2_2
-      - TG YouTube:8度科技_中国:17016
-      - TG YouTube:8度科技_美国:6666
-      - TG YouTube:8度科技_中国:17016_2
-      - TG YouTube:8度科技_中国:18120
-      - TG YouTube:8度科技_中国:18117_2
-      - TG YouTube:8度科技_中国:17013_2_2_2
-      - TG YouTube:8度科技_中国:65003_2
-      - TG YouTube:8度科技_中国:3113
-      - TG YouTube:8度科技_中国:65009_2
-      - TG YouTube:8度科技_中国:18140
-      - TG YouTube:8度科技_美国:24176
-      - TG YouTube:8度科技_中国:17012_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2
-      - TG YouTube:8度科技_中国:17016_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2
-      - TG YouTube:8度科技_中国:18008_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2
-      - TG YouTube:8度科技_香港:19113
-      - TG YouTube:8度科技_美国:46269
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65018
-      - TG YouTube:8度科技_中国:17014
-      - TG YouTube:8度科技_俄罗斯联邦:23566
-      - TG YouTube:8度科技_香港:19124
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:20000
-      - TG YouTube:8度科技_中国:17014_2
-      - TG YouTube:8度科技_中国:17014_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2
-      - TG YouTube:8度科技_香港:27451
-      - TG YouTube:8度科技_德国:21888
-      - TG YouTube:8度科技_美国:6666_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65008
-      - TG YouTube:8度科技_中国:65008_2
-      - TG YouTube:8度科技_阿联酋:17866
-      - TG YouTube:8度科技_中国:18118_2
-      - TG YouTube:8度科技_阿联酋:35221
-      - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-      - TG YouTube:8度科技_阿联酋:35221_2
-      - TG YouTube:8度科技_中国:20005
-      - TG YouTube:8度科技_中国:65019
-      - TG YouTube:8度科技_中国:65020
-      - TG YouTube:8度科技_中国:65019_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_中国:65010
-      - TG YouTube:8度科技_中国:18119
       - TG YouTube:8度科技_美国:27962
-      - TG YouTube:8度科技_中国:65011
-      - TG YouTube:8度科技_中国:18123
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_中国:65011_2
-      - TG YouTube:8度科技_中国:18121
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - TG YouTube:8度科技_俄罗斯联邦:41002
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:18119_2
-      - TG YouTube:8度科技_美国:24156
+      - TG YouTube:8度科技_美国:443
+      - TG YouTube:8度科技_美国:443_2
       - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2
+      - TG YouTube:8度科技_中国:20005
+      - TG YouTube:8度科技_德国:21888
+      - TG YouTube:8度科技_中国:10003
       - TG YouTube:8度科技_香港:12632
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65006
-      - TG YouTube:8度科技_中国:65006_2
-      - TG YouTube:8度科技_日本:14359
-      - TG YouTube:8度科技_香港:14454
+      - TG YouTube:8度科技_中国:20015
+      - TG YouTube:8度科技_香港:443
+      - TG YouTube:8度科技_越南:80
+      - TG YouTube:8度科技_越南:80_2
+      - TG YouTube:8度科技:8443
+      - TG YouTube:8度科技_俄罗斯联邦:41002
+      - TG YouTube:8度科技_美国:443_2_2_2
+      - TG YouTube:8度科技_芬兰:8443
+      - TG YouTube:8度科技_中国:20047
+      - TG YouTube:8度科技_美国:443_2_2_2_2
+      - TG YouTube:8度科技_中国:10003_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -3428,182 +856,28 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - TG YouTube:8度科技_香港:80
-      - TG YouTube:8度科技_中国:65012
-      - TG YouTube:8度科技_中国:3083
-      - TG YouTube:8度科技_中国:18124
-      - TG YouTube:8度科技_中国:65016
-      - TG YouTube:8度科技_中国:65016_2
-      - TG YouTube:8度科技_新加坡:80
-      - TG YouTube:8度科技_中国:18122
-      - TG YouTube:8度科技_中国:9233
-      - TG YouTube:8度科技_中国:65009
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:33743
-      - TG YouTube:8度科技_中国:20047
-      - TG YouTube:8度科技_芬兰:8443
-      - TG YouTube:8度科技_中国:17012
-      - TG YouTube:8度科技_中国:724
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_中国:17015
-      - TG YouTube:8度科技_中国:10003
-      - TG YouTube:8度科技_香港:19116
-      - TG YouTube:8度科技_香港:19107
-      - TG YouTube:8度科技_台湾:9233
-      - TG YouTube:8度科技_中国:65002
-      - TG YouTube:8度科技_中国:65021
-      - TG YouTube:8度科技_香港:19115
-      - TG YouTube:8度科技_日本:10066
-      - TG YouTube:8度科技_香港:19105
-      - TG YouTube:8度科技_中国:18080
-      - TG YouTube:8度科技_香港:19120
-      - TG YouTube:8度科技_中国:3123
-      - TG YouTube:8度科技_中国:18083
-      - TG YouTube:8度科技_中国:65000
-      - TG YouTube:8度科技_中国:10003_2
-      - TG YouTube:8度科技_中国:20001
-      - TG YouTube:8度科技_中国:65001
-      - TG YouTube:8度科技_香港:19111
-      - TG YouTube:8度科技_香港:19123
-      - TG YouTube:8度科技_中国:18065
-      - TG YouTube:8度科技_香港:19109
-      - TG YouTube:8度科技_香港:19108
-      - TG YouTube:8度科技_中国:65003
-      - TG YouTube:8度科技_香港:19118
-      - TG YouTube:8度科技_中国:17011
-      - TG YouTube:8度科技_中国:18064
-      - TG YouTube:8度科技_阿联酋:2157
-      - TG YouTube:8度科技_中国:17011_2
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技_中国:18007
-      - TG YouTube:8度科技_越南:80
-      - TG YouTube:8度科技_香港:19112
-      - TG YouTube:8度科技_中国:18066
-      - TG YouTube:8度科技_中国:65001_2
-      - TG YouTube:8度科技_越南:80_2
-      - TG YouTube:8度科技_香港:19121
-      - TG YouTube:8度科技_中国:18118
-      - TG YouTube:8度科技_香港:19122
-      - TG YouTube:8度科技_中国:18007_2
-      - TG YouTube:8度科技_中国:18081
-      - TG YouTube:8度科技_中国:18117
-      - TG YouTube:8度科技_中国:18066_2
-      - TG YouTube:8度科技_中国:65013
-      - TG YouTube:8度科技_中国:65013_2
-      - TG YouTube:8度科技_中国:18006
-      - TG YouTube:8度科技_中国:65014
-      - TG YouTube:8度科技_香港:15336
-      - TG YouTube:8度科技_中国:65005
-      - TG YouTube:8度科技_中国:65000_2
-      - TG YouTube:8度科技_中国:18005
-      - TG YouTube:8度科技_中国:65015
-      - TG YouTube:8度科技_中国:18083_2
-      - TG YouTube:8度科技_中国:10005
-      - TG YouTube:8度科技_中国:20015
-      - TG YouTube:8度科技_中国:18054
-      - TG YouTube:8度科技_中国:65004
-      - TG YouTube:8度科技:8443
-      - TG YouTube:8度科技_香港:19119
-      - TG YouTube:8度科技_香港:19104
-      - TG YouTube:8度科技_香港:19114
-      - TG YouTube:8度科技_香港:19103
-      - TG YouTube:8度科技_韩国:19586
-      - TG YouTube:8度科技_中国:20015_2
-      - TG YouTube:8度科技_中国:17013
-      - TG YouTube:8度科技_香港:19117
-      - TG YouTube:8度科技_中国:65005_2
-      - TG YouTube:8度科技_美国:23671
-      - TG YouTube:8度科技_香港:35476
-      - TG YouTube:8度科技_香港:19110
-      - TG YouTube:8度科技_中国:17013_2
-      - TG YouTube:8度科技_中国:17013_2_2
-      - TG YouTube:8度科技_香港:19106
-      - TG YouTube:8度科技_中国:17011_2_2
-      - TG YouTube:8度科技_中国:65017
-      - TG YouTube:8度科技_中国:18008
-      - TG YouTube:8度科技_中国:17011_2_2_2
-      - TG YouTube:8度科技_中国:17016
-      - TG YouTube:8度科技_美国:6666
-      - TG YouTube:8度科技_中国:17016_2
-      - TG YouTube:8度科技_中国:18120
-      - TG YouTube:8度科技_中国:18117_2
-      - TG YouTube:8度科技_中国:17013_2_2_2
-      - TG YouTube:8度科技_中国:65003_2
-      - TG YouTube:8度科技_中国:3113
-      - TG YouTube:8度科技_中国:65009_2
-      - TG YouTube:8度科技_中国:18140
-      - TG YouTube:8度科技_美国:24176
-      - TG YouTube:8度科技_中国:17012_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2
-      - TG YouTube:8度科技_中国:17016_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2
-      - TG YouTube:8度科技_中国:18008_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2
-      - TG YouTube:8度科技_香港:19113
-      - TG YouTube:8度科技_美国:46269
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65018
-      - TG YouTube:8度科技_中国:17014
-      - TG YouTube:8度科技_俄罗斯联邦:23566
-      - TG YouTube:8度科技_香港:19124
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:20000
-      - TG YouTube:8度科技_中国:17014_2
-      - TG YouTube:8度科技_中国:17014_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2
-      - TG YouTube:8度科技_香港:27451
-      - TG YouTube:8度科技_德国:21888
-      - TG YouTube:8度科技_美国:6666_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65008
-      - TG YouTube:8度科技_中国:65008_2
-      - TG YouTube:8度科技_阿联酋:17866
-      - TG YouTube:8度科技_中国:18118_2
-      - TG YouTube:8度科技_阿联酋:35221
-      - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-      - TG YouTube:8度科技_阿联酋:35221_2
-      - TG YouTube:8度科技_中国:20005
-      - TG YouTube:8度科技_中国:65019
-      - TG YouTube:8度科技_中国:65020
-      - TG YouTube:8度科技_中国:65019_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_中国:65010
-      - TG YouTube:8度科技_中国:18119
       - TG YouTube:8度科技_美国:27962
-      - TG YouTube:8度科技_中国:65011
-      - TG YouTube:8度科技_中国:18123
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_中国:65011_2
-      - TG YouTube:8度科技_中国:18121
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - TG YouTube:8度科技_俄罗斯联邦:41002
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:18119_2
-      - TG YouTube:8度科技_美国:24156
+      - TG YouTube:8度科技_美国:443
+      - TG YouTube:8度科技_美国:443_2
       - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2
+      - TG YouTube:8度科技_中国:20005
+      - TG YouTube:8度科技_德国:21888
+      - TG YouTube:8度科技_中国:10003
       - TG YouTube:8度科技_香港:12632
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65006
-      - TG YouTube:8度科技_中国:65006_2
-      - TG YouTube:8度科技_日本:14359
-      - TG YouTube:8度科技_香港:14454
+      - TG YouTube:8度科技_中国:20015
+      - TG YouTube:8度科技_香港:443
+      - TG YouTube:8度科技_越南:80
+      - TG YouTube:8度科技_越南:80_2
+      - TG YouTube:8度科技:8443
+      - TG YouTube:8度科技_俄罗斯联邦:41002
+      - TG YouTube:8度科技_美国:443_2_2_2
+      - TG YouTube:8度科技_芬兰:8443
+      - TG YouTube:8度科技_中国:20047
+      - TG YouTube:8度科技_美国:443_2_2_2_2
+      - TG YouTube:8度科技_中国:10003_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -3637,182 +911,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - TG YouTube:8度科技_香港:80
-      - TG YouTube:8度科技_中国:65012
-      - TG YouTube:8度科技_中国:3083
-      - TG YouTube:8度科技_中国:18124
-      - TG YouTube:8度科技_中国:65016
-      - TG YouTube:8度科技_中国:65016_2
-      - TG YouTube:8度科技_新加坡:80
-      - TG YouTube:8度科技_中国:18122
-      - TG YouTube:8度科技_中国:9233
-      - TG YouTube:8度科技_中国:65009
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:33743
-      - TG YouTube:8度科技_中国:20047
-      - TG YouTube:8度科技_芬兰:8443
-      - TG YouTube:8度科技_中国:17012
-      - TG YouTube:8度科技_中国:724
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_中国:17015
-      - TG YouTube:8度科技_中国:10003
-      - TG YouTube:8度科技_香港:19116
-      - TG YouTube:8度科技_香港:19107
-      - TG YouTube:8度科技_台湾:9233
-      - TG YouTube:8度科技_中国:65002
-      - TG YouTube:8度科技_中国:65021
-      - TG YouTube:8度科技_香港:19115
-      - TG YouTube:8度科技_日本:10066
-      - TG YouTube:8度科技_香港:19105
-      - TG YouTube:8度科技_中国:18080
-      - TG YouTube:8度科技_香港:19120
-      - TG YouTube:8度科技_中国:3123
-      - TG YouTube:8度科技_中国:18083
-      - TG YouTube:8度科技_中国:65000
-      - TG YouTube:8度科技_中国:10003_2
-      - TG YouTube:8度科技_中国:20001
-      - TG YouTube:8度科技_中国:65001
-      - TG YouTube:8度科技_香港:19111
-      - TG YouTube:8度科技_香港:19123
-      - TG YouTube:8度科技_中国:18065
-      - TG YouTube:8度科技_香港:19109
-      - TG YouTube:8度科技_香港:19108
-      - TG YouTube:8度科技_中国:65003
-      - TG YouTube:8度科技_香港:19118
-      - TG YouTube:8度科技_中国:17011
-      - TG YouTube:8度科技_中国:18064
-      - TG YouTube:8度科技_阿联酋:2157
-      - TG YouTube:8度科技_中国:17011_2
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技_中国:18007
-      - TG YouTube:8度科技_越南:80
-      - TG YouTube:8度科技_香港:19112
-      - TG YouTube:8度科技_中国:18066
-      - TG YouTube:8度科技_中国:65001_2
-      - TG YouTube:8度科技_越南:80_2
-      - TG YouTube:8度科技_香港:19121
-      - TG YouTube:8度科技_中国:18118
-      - TG YouTube:8度科技_香港:19122
-      - TG YouTube:8度科技_中国:18007_2
-      - TG YouTube:8度科技_中国:18081
-      - TG YouTube:8度科技_中国:18117
-      - TG YouTube:8度科技_中国:18066_2
-      - TG YouTube:8度科技_中国:65013
-      - TG YouTube:8度科技_中国:65013_2
-      - TG YouTube:8度科技_中国:18006
-      - TG YouTube:8度科技_中国:65014
-      - TG YouTube:8度科技_香港:15336
-      - TG YouTube:8度科技_中国:65005
-      - TG YouTube:8度科技_中国:65000_2
-      - TG YouTube:8度科技_中国:18005
-      - TG YouTube:8度科技_中国:65015
-      - TG YouTube:8度科技_中国:18083_2
-      - TG YouTube:8度科技_中国:10005
-      - TG YouTube:8度科技_中国:20015
-      - TG YouTube:8度科技_中国:18054
-      - TG YouTube:8度科技_中国:65004
-      - TG YouTube:8度科技:8443
-      - TG YouTube:8度科技_香港:19119
-      - TG YouTube:8度科技_香港:19104
-      - TG YouTube:8度科技_香港:19114
-      - TG YouTube:8度科技_香港:19103
-      - TG YouTube:8度科技_韩国:19586
-      - TG YouTube:8度科技_中国:20015_2
-      - TG YouTube:8度科技_中国:17013
-      - TG YouTube:8度科技_香港:19117
-      - TG YouTube:8度科技_中国:65005_2
-      - TG YouTube:8度科技_美国:23671
-      - TG YouTube:8度科技_香港:35476
-      - TG YouTube:8度科技_香港:19110
-      - TG YouTube:8度科技_中国:17013_2
-      - TG YouTube:8度科技_中国:17013_2_2
-      - TG YouTube:8度科技_香港:19106
-      - TG YouTube:8度科技_中国:17011_2_2
-      - TG YouTube:8度科技_中国:65017
-      - TG YouTube:8度科技_中国:18008
-      - TG YouTube:8度科技_中国:17011_2_2_2
-      - TG YouTube:8度科技_中国:17016
-      - TG YouTube:8度科技_美国:6666
-      - TG YouTube:8度科技_中国:17016_2
-      - TG YouTube:8度科技_中国:18120
-      - TG YouTube:8度科技_中国:18117_2
-      - TG YouTube:8度科技_中国:17013_2_2_2
-      - TG YouTube:8度科技_中国:65003_2
-      - TG YouTube:8度科技_中国:3113
-      - TG YouTube:8度科技_中国:65009_2
-      - TG YouTube:8度科技_中国:18140
-      - TG YouTube:8度科技_美国:24176
-      - TG YouTube:8度科技_中国:17012_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2
-      - TG YouTube:8度科技_中国:17016_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2
-      - TG YouTube:8度科技_中国:18008_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2
-      - TG YouTube:8度科技_香港:19113
-      - TG YouTube:8度科技_美国:46269
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65018
-      - TG YouTube:8度科技_中国:17014
-      - TG YouTube:8度科技_俄罗斯联邦:23566
-      - TG YouTube:8度科技_香港:19124
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:20000
-      - TG YouTube:8度科技_中国:17014_2
-      - TG YouTube:8度科技_中国:17014_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2
-      - TG YouTube:8度科技_香港:27451
-      - TG YouTube:8度科技_德国:21888
-      - TG YouTube:8度科技_美国:6666_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65008
-      - TG YouTube:8度科技_中国:65008_2
-      - TG YouTube:8度科技_阿联酋:17866
-      - TG YouTube:8度科技_中国:18118_2
-      - TG YouTube:8度科技_阿联酋:35221
-      - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-      - TG YouTube:8度科技_阿联酋:35221_2
-      - TG YouTube:8度科技_中国:20005
-      - TG YouTube:8度科技_中国:65019
-      - TG YouTube:8度科技_中国:65020
-      - TG YouTube:8度科技_中国:65019_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_中国:65010
-      - TG YouTube:8度科技_中国:18119
       - TG YouTube:8度科技_美国:27962
-      - TG YouTube:8度科技_中国:65011
-      - TG YouTube:8度科技_中国:18123
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_中国:65011_2
-      - TG YouTube:8度科技_中国:18121
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - TG YouTube:8度科技_俄罗斯联邦:41002
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:18119_2
-      - TG YouTube:8度科技_美国:24156
+      - TG YouTube:8度科技_美国:443
+      - TG YouTube:8度科技_美国:443_2
       - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2
+      - TG YouTube:8度科技_中国:20005
+      - TG YouTube:8度科技_德国:21888
+      - TG YouTube:8度科技_中国:10003
       - TG YouTube:8度科技_香港:12632
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65006
-      - TG YouTube:8度科技_中国:65006_2
-      - TG YouTube:8度科技_日本:14359
-      - TG YouTube:8度科技_香港:14454
+      - TG YouTube:8度科技_中国:20015
+      - TG YouTube:8度科技_香港:443
+      - TG YouTube:8度科技_越南:80
+      - TG YouTube:8度科技_越南:80_2
+      - TG YouTube:8度科技:8443
+      - TG YouTube:8度科技_俄罗斯联邦:41002
+      - TG YouTube:8度科技_美国:443_2_2_2
+      - TG YouTube:8度科技_芬兰:8443
+      - TG YouTube:8度科技_中国:20047
+      - TG YouTube:8度科技_美国:443_2_2_2_2
+      - TG YouTube:8度科技_中国:10003_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -3847,182 +967,28 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - TG YouTube:8度科技_香港:80
-      - TG YouTube:8度科技_中国:65012
-      - TG YouTube:8度科技_中国:3083
-      - TG YouTube:8度科技_中国:18124
-      - TG YouTube:8度科技_中国:65016
-      - TG YouTube:8度科技_中国:65016_2
-      - TG YouTube:8度科技_新加坡:80
-      - TG YouTube:8度科技_中国:18122
-      - TG YouTube:8度科技_中国:9233
-      - TG YouTube:8度科技_中国:65009
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:33743
-      - TG YouTube:8度科技_中国:20047
-      - TG YouTube:8度科技_芬兰:8443
-      - TG YouTube:8度科技_中国:17012
-      - TG YouTube:8度科技_中国:724
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_中国:17015
-      - TG YouTube:8度科技_中国:10003
-      - TG YouTube:8度科技_香港:19116
-      - TG YouTube:8度科技_香港:19107
-      - TG YouTube:8度科技_台湾:9233
-      - TG YouTube:8度科技_中国:65002
-      - TG YouTube:8度科技_中国:65021
-      - TG YouTube:8度科技_香港:19115
-      - TG YouTube:8度科技_日本:10066
-      - TG YouTube:8度科技_香港:19105
-      - TG YouTube:8度科技_中国:18080
-      - TG YouTube:8度科技_香港:19120
-      - TG YouTube:8度科技_中国:3123
-      - TG YouTube:8度科技_中国:18083
-      - TG YouTube:8度科技_中国:65000
-      - TG YouTube:8度科技_中国:10003_2
-      - TG YouTube:8度科技_中国:20001
-      - TG YouTube:8度科技_中国:65001
-      - TG YouTube:8度科技_香港:19111
-      - TG YouTube:8度科技_香港:19123
-      - TG YouTube:8度科技_中国:18065
-      - TG YouTube:8度科技_香港:19109
-      - TG YouTube:8度科技_香港:19108
-      - TG YouTube:8度科技_中国:65003
-      - TG YouTube:8度科技_香港:19118
-      - TG YouTube:8度科技_中国:17011
-      - TG YouTube:8度科技_中国:18064
-      - TG YouTube:8度科技_阿联酋:2157
-      - TG YouTube:8度科技_中国:17011_2
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技_中国:18007
-      - TG YouTube:8度科技_越南:80
-      - TG YouTube:8度科技_香港:19112
-      - TG YouTube:8度科技_中国:18066
-      - TG YouTube:8度科技_中国:65001_2
-      - TG YouTube:8度科技_越南:80_2
-      - TG YouTube:8度科技_香港:19121
-      - TG YouTube:8度科技_中国:18118
-      - TG YouTube:8度科技_香港:19122
-      - TG YouTube:8度科技_中国:18007_2
-      - TG YouTube:8度科技_中国:18081
-      - TG YouTube:8度科技_中国:18117
-      - TG YouTube:8度科技_中国:18066_2
-      - TG YouTube:8度科技_中国:65013
-      - TG YouTube:8度科技_中国:65013_2
-      - TG YouTube:8度科技_中国:18006
-      - TG YouTube:8度科技_中国:65014
-      - TG YouTube:8度科技_香港:15336
-      - TG YouTube:8度科技_中国:65005
-      - TG YouTube:8度科技_中国:65000_2
-      - TG YouTube:8度科技_中国:18005
-      - TG YouTube:8度科技_中国:65015
-      - TG YouTube:8度科技_中国:18083_2
-      - TG YouTube:8度科技_中国:10005
-      - TG YouTube:8度科技_中国:20015
-      - TG YouTube:8度科技_中国:18054
-      - TG YouTube:8度科技_中国:65004
-      - TG YouTube:8度科技:8443
-      - TG YouTube:8度科技_香港:19119
-      - TG YouTube:8度科技_香港:19104
-      - TG YouTube:8度科技_香港:19114
-      - TG YouTube:8度科技_香港:19103
-      - TG YouTube:8度科技_韩国:19586
-      - TG YouTube:8度科技_中国:20015_2
-      - TG YouTube:8度科技_中国:17013
-      - TG YouTube:8度科技_香港:19117
-      - TG YouTube:8度科技_中国:65005_2
-      - TG YouTube:8度科技_美国:23671
-      - TG YouTube:8度科技_香港:35476
-      - TG YouTube:8度科技_香港:19110
-      - TG YouTube:8度科技_中国:17013_2
-      - TG YouTube:8度科技_中国:17013_2_2
-      - TG YouTube:8度科技_香港:19106
-      - TG YouTube:8度科技_中国:17011_2_2
-      - TG YouTube:8度科技_中国:65017
-      - TG YouTube:8度科技_中国:18008
-      - TG YouTube:8度科技_中国:17011_2_2_2
-      - TG YouTube:8度科技_中国:17016
-      - TG YouTube:8度科技_美国:6666
-      - TG YouTube:8度科技_中国:17016_2
-      - TG YouTube:8度科技_中国:18120
-      - TG YouTube:8度科技_中国:18117_2
-      - TG YouTube:8度科技_中国:17013_2_2_2
-      - TG YouTube:8度科技_中国:65003_2
-      - TG YouTube:8度科技_中国:3113
-      - TG YouTube:8度科技_中国:65009_2
-      - TG YouTube:8度科技_中国:18140
-      - TG YouTube:8度科技_美国:24176
-      - TG YouTube:8度科技_中国:17012_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2
-      - TG YouTube:8度科技_中国:17016_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2
-      - TG YouTube:8度科技_中国:18008_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2
-      - TG YouTube:8度科技_香港:19113
-      - TG YouTube:8度科技_美国:46269
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65018
-      - TG YouTube:8度科技_中国:17014
-      - TG YouTube:8度科技_俄罗斯联邦:23566
-      - TG YouTube:8度科技_香港:19124
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:20000
-      - TG YouTube:8度科技_中国:17014_2
-      - TG YouTube:8度科技_中国:17014_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2
-      - TG YouTube:8度科技_香港:27451
-      - TG YouTube:8度科技_德国:21888
-      - TG YouTube:8度科技_美国:6666_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65008
-      - TG YouTube:8度科技_中国:65008_2
-      - TG YouTube:8度科技_阿联酋:17866
-      - TG YouTube:8度科技_中国:18118_2
-      - TG YouTube:8度科技_阿联酋:35221
-      - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-      - TG YouTube:8度科技_阿联酋:35221_2
-      - TG YouTube:8度科技_中国:20005
-      - TG YouTube:8度科技_中国:65019
-      - TG YouTube:8度科技_中国:65020
-      - TG YouTube:8度科技_中国:65019_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_中国:65010
-      - TG YouTube:8度科技_中国:18119
       - TG YouTube:8度科技_美国:27962
-      - TG YouTube:8度科技_中国:65011
-      - TG YouTube:8度科技_中国:18123
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_中国:65011_2
-      - TG YouTube:8度科技_中国:18121
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - TG YouTube:8度科技_俄罗斯联邦:41002
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:18119_2
-      - TG YouTube:8度科技_美国:24156
+      - TG YouTube:8度科技_美国:443
+      - TG YouTube:8度科技_美国:443_2
       - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2
+      - TG YouTube:8度科技_中国:20005
+      - TG YouTube:8度科技_德国:21888
+      - TG YouTube:8度科技_中国:10003
       - TG YouTube:8度科技_香港:12632
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65006
-      - TG YouTube:8度科技_中国:65006_2
-      - TG YouTube:8度科技_日本:14359
-      - TG YouTube:8度科技_香港:14454
+      - TG YouTube:8度科技_中国:20015
+      - TG YouTube:8度科技_香港:443
+      - TG YouTube:8度科技_越南:80
+      - TG YouTube:8度科技_越南:80_2
+      - TG YouTube:8度科技:8443
+      - TG YouTube:8度科技_俄罗斯联邦:41002
+      - TG YouTube:8度科技_美国:443_2_2_2
+      - TG YouTube:8度科技_芬兰:8443
+      - TG YouTube:8度科技_中国:20047
+      - TG YouTube:8度科技_美国:443_2_2_2_2
+      - TG YouTube:8度科技_中国:10003_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -4055,182 +1021,28 @@ proxy-groups:
     proxies:
       - DIRECT
       - TG YouTube:8度科技_香港:80
-      - TG YouTube:8度科技_中国:65012
-      - TG YouTube:8度科技_中国:3083
-      - TG YouTube:8度科技_中国:18124
-      - TG YouTube:8度科技_中国:65016
-      - TG YouTube:8度科技_中国:65016_2
-      - TG YouTube:8度科技_新加坡:80
-      - TG YouTube:8度科技_中国:18122
-      - TG YouTube:8度科技_中国:9233
-      - TG YouTube:8度科技_中国:65009
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:33743
-      - TG YouTube:8度科技_中国:20047
-      - TG YouTube:8度科技_芬兰:8443
-      - TG YouTube:8度科技_中国:17012
-      - TG YouTube:8度科技_中国:724
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_中国:17015
-      - TG YouTube:8度科技_中国:10003
-      - TG YouTube:8度科技_香港:19116
-      - TG YouTube:8度科技_香港:19107
-      - TG YouTube:8度科技_台湾:9233
-      - TG YouTube:8度科技_中国:65002
-      - TG YouTube:8度科技_中国:65021
-      - TG YouTube:8度科技_香港:19115
-      - TG YouTube:8度科技_日本:10066
-      - TG YouTube:8度科技_香港:19105
-      - TG YouTube:8度科技_中国:18080
-      - TG YouTube:8度科技_香港:19120
-      - TG YouTube:8度科技_中国:3123
-      - TG YouTube:8度科技_中国:18083
-      - TG YouTube:8度科技_中国:65000
-      - TG YouTube:8度科技_中国:10003_2
-      - TG YouTube:8度科技_中国:20001
-      - TG YouTube:8度科技_中国:65001
-      - TG YouTube:8度科技_香港:19111
-      - TG YouTube:8度科技_香港:19123
-      - TG YouTube:8度科技_中国:18065
-      - TG YouTube:8度科技_香港:19109
-      - TG YouTube:8度科技_香港:19108
-      - TG YouTube:8度科技_中国:65003
-      - TG YouTube:8度科技_香港:19118
-      - TG YouTube:8度科技_中国:17011
-      - TG YouTube:8度科技_中国:18064
-      - TG YouTube:8度科技_阿联酋:2157
-      - TG YouTube:8度科技_中国:17011_2
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技_中国:18007
-      - TG YouTube:8度科技_越南:80
-      - TG YouTube:8度科技_香港:19112
-      - TG YouTube:8度科技_中国:18066
-      - TG YouTube:8度科技_中国:65001_2
-      - TG YouTube:8度科技_越南:80_2
-      - TG YouTube:8度科技_香港:19121
-      - TG YouTube:8度科技_中国:18118
-      - TG YouTube:8度科技_香港:19122
-      - TG YouTube:8度科技_中国:18007_2
-      - TG YouTube:8度科技_中国:18081
-      - TG YouTube:8度科技_中国:18117
-      - TG YouTube:8度科技_中国:18066_2
-      - TG YouTube:8度科技_中国:65013
-      - TG YouTube:8度科技_中国:65013_2
-      - TG YouTube:8度科技_中国:18006
-      - TG YouTube:8度科技_中国:65014
-      - TG YouTube:8度科技_香港:15336
-      - TG YouTube:8度科技_中国:65005
-      - TG YouTube:8度科技_中国:65000_2
-      - TG YouTube:8度科技_中国:18005
-      - TG YouTube:8度科技_中国:65015
-      - TG YouTube:8度科技_中国:18083_2
-      - TG YouTube:8度科技_中国:10005
-      - TG YouTube:8度科技_中国:20015
-      - TG YouTube:8度科技_中国:18054
-      - TG YouTube:8度科技_中国:65004
-      - TG YouTube:8度科技:8443
-      - TG YouTube:8度科技_香港:19119
-      - TG YouTube:8度科技_香港:19104
-      - TG YouTube:8度科技_香港:19114
-      - TG YouTube:8度科技_香港:19103
-      - TG YouTube:8度科技_韩国:19586
-      - TG YouTube:8度科技_中国:20015_2
-      - TG YouTube:8度科技_中国:17013
-      - TG YouTube:8度科技_香港:19117
-      - TG YouTube:8度科技_中国:65005_2
-      - TG YouTube:8度科技_美国:23671
-      - TG YouTube:8度科技_香港:35476
-      - TG YouTube:8度科技_香港:19110
-      - TG YouTube:8度科技_中国:17013_2
-      - TG YouTube:8度科技_中国:17013_2_2
-      - TG YouTube:8度科技_香港:19106
-      - TG YouTube:8度科技_中国:17011_2_2
-      - TG YouTube:8度科技_中国:65017
-      - TG YouTube:8度科技_中国:18008
-      - TG YouTube:8度科技_中国:17011_2_2_2
-      - TG YouTube:8度科技_中国:17016
-      - TG YouTube:8度科技_美国:6666
-      - TG YouTube:8度科技_中国:17016_2
-      - TG YouTube:8度科技_中国:18120
-      - TG YouTube:8度科技_中国:18117_2
-      - TG YouTube:8度科技_中国:17013_2_2_2
-      - TG YouTube:8度科技_中国:65003_2
-      - TG YouTube:8度科技_中国:3113
-      - TG YouTube:8度科技_中国:65009_2
-      - TG YouTube:8度科技_中国:18140
-      - TG YouTube:8度科技_美国:24176
-      - TG YouTube:8度科技_中国:17012_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2
-      - TG YouTube:8度科技_中国:17016_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2
-      - TG YouTube:8度科技_中国:18008_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2
-      - TG YouTube:8度科技_香港:19113
-      - TG YouTube:8度科技_美国:46269
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65018
-      - TG YouTube:8度科技_中国:17014
-      - TG YouTube:8度科技_俄罗斯联邦:23566
-      - TG YouTube:8度科技_香港:19124
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:20000
-      - TG YouTube:8度科技_中国:17014_2
-      - TG YouTube:8度科技_中国:17014_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2
-      - TG YouTube:8度科技_香港:27451
-      - TG YouTube:8度科技_德国:21888
-      - TG YouTube:8度科技_美国:6666_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65008
-      - TG YouTube:8度科技_中国:65008_2
-      - TG YouTube:8度科技_阿联酋:17866
-      - TG YouTube:8度科技_中国:18118_2
-      - TG YouTube:8度科技_阿联酋:35221
-      - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-      - TG YouTube:8度科技_阿联酋:35221_2
-      - TG YouTube:8度科技_中国:20005
-      - TG YouTube:8度科技_中国:65019
-      - TG YouTube:8度科技_中国:65020
-      - TG YouTube:8度科技_中国:65019_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_中国:65010
-      - TG YouTube:8度科技_中国:18119
       - TG YouTube:8度科技_美国:27962
-      - TG YouTube:8度科技_中国:65011
-      - TG YouTube:8度科技_中国:18123
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_中国:65011_2
-      - TG YouTube:8度科技_中国:18121
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - TG YouTube:8度科技_俄罗斯联邦:41002
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:18119_2
-      - TG YouTube:8度科技_美国:24156
+      - TG YouTube:8度科技_美国:443
+      - TG YouTube:8度科技_美国:443_2
       - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2
+      - TG YouTube:8度科技_中国:20005
+      - TG YouTube:8度科技_德国:21888
+      - TG YouTube:8度科技_中国:10003
       - TG YouTube:8度科技_香港:12632
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65006
-      - TG YouTube:8度科技_中国:65006_2
-      - TG YouTube:8度科技_日本:14359
-      - TG YouTube:8度科技_香港:14454
+      - TG YouTube:8度科技_中国:20015
+      - TG YouTube:8度科技_香港:443
+      - TG YouTube:8度科技_越南:80
+      - TG YouTube:8度科技_越南:80_2
+      - TG YouTube:8度科技:8443
+      - TG YouTube:8度科技_俄罗斯联邦:41002
+      - TG YouTube:8度科技_美国:443_2_2_2
+      - TG YouTube:8度科技_芬兰:8443
+      - TG YouTube:8度科技_中国:20047
+      - TG YouTube:8度科技_美国:443_2_2_2_2
+      - TG YouTube:8度科技_中国:10003_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -4264,182 +1076,28 @@ proxy-groups:
       - REJECT
       - DIRECT
       - TG YouTube:8度科技_香港:80
-      - TG YouTube:8度科技_中国:65012
-      - TG YouTube:8度科技_中国:3083
-      - TG YouTube:8度科技_中国:18124
-      - TG YouTube:8度科技_中国:65016
-      - TG YouTube:8度科技_中国:65016_2
-      - TG YouTube:8度科技_新加坡:80
-      - TG YouTube:8度科技_中国:18122
-      - TG YouTube:8度科技_中国:9233
-      - TG YouTube:8度科技_中国:65009
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:33743
-      - TG YouTube:8度科技_中国:20047
-      - TG YouTube:8度科技_芬兰:8443
-      - TG YouTube:8度科技_中国:17012
-      - TG YouTube:8度科技_中国:724
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_中国:17015
-      - TG YouTube:8度科技_中国:10003
-      - TG YouTube:8度科技_香港:19116
-      - TG YouTube:8度科技_香港:19107
-      - TG YouTube:8度科技_台湾:9233
-      - TG YouTube:8度科技_中国:65002
-      - TG YouTube:8度科技_中国:65021
-      - TG YouTube:8度科技_香港:19115
-      - TG YouTube:8度科技_日本:10066
-      - TG YouTube:8度科技_香港:19105
-      - TG YouTube:8度科技_中国:18080
-      - TG YouTube:8度科技_香港:19120
-      - TG YouTube:8度科技_中国:3123
-      - TG YouTube:8度科技_中国:18083
-      - TG YouTube:8度科技_中国:65000
-      - TG YouTube:8度科技_中国:10003_2
-      - TG YouTube:8度科技_中国:20001
-      - TG YouTube:8度科技_中国:65001
-      - TG YouTube:8度科技_香港:19111
-      - TG YouTube:8度科技_香港:19123
-      - TG YouTube:8度科技_中国:18065
-      - TG YouTube:8度科技_香港:19109
-      - TG YouTube:8度科技_香港:19108
-      - TG YouTube:8度科技_中国:65003
-      - TG YouTube:8度科技_香港:19118
-      - TG YouTube:8度科技_中国:17011
-      - TG YouTube:8度科技_中国:18064
-      - TG YouTube:8度科技_阿联酋:2157
-      - TG YouTube:8度科技_中国:17011_2
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技_中国:18007
-      - TG YouTube:8度科技_越南:80
-      - TG YouTube:8度科技_香港:19112
-      - TG YouTube:8度科技_中国:18066
-      - TG YouTube:8度科技_中国:65001_2
-      - TG YouTube:8度科技_越南:80_2
-      - TG YouTube:8度科技_香港:19121
-      - TG YouTube:8度科技_中国:18118
-      - TG YouTube:8度科技_香港:19122
-      - TG YouTube:8度科技_中国:18007_2
-      - TG YouTube:8度科技_中国:18081
-      - TG YouTube:8度科技_中国:18117
-      - TG YouTube:8度科技_中国:18066_2
-      - TG YouTube:8度科技_中国:65013
-      - TG YouTube:8度科技_中国:65013_2
-      - TG YouTube:8度科技_中国:18006
-      - TG YouTube:8度科技_中国:65014
-      - TG YouTube:8度科技_香港:15336
-      - TG YouTube:8度科技_中国:65005
-      - TG YouTube:8度科技_中国:65000_2
-      - TG YouTube:8度科技_中国:18005
-      - TG YouTube:8度科技_中国:65015
-      - TG YouTube:8度科技_中国:18083_2
-      - TG YouTube:8度科技_中国:10005
-      - TG YouTube:8度科技_中国:20015
-      - TG YouTube:8度科技_中国:18054
-      - TG YouTube:8度科技_中国:65004
-      - TG YouTube:8度科技:8443
-      - TG YouTube:8度科技_香港:19119
-      - TG YouTube:8度科技_香港:19104
-      - TG YouTube:8度科技_香港:19114
-      - TG YouTube:8度科技_香港:19103
-      - TG YouTube:8度科技_韩国:19586
-      - TG YouTube:8度科技_中国:20015_2
-      - TG YouTube:8度科技_中国:17013
-      - TG YouTube:8度科技_香港:19117
-      - TG YouTube:8度科技_中国:65005_2
-      - TG YouTube:8度科技_美国:23671
-      - TG YouTube:8度科技_香港:35476
-      - TG YouTube:8度科技_香港:19110
-      - TG YouTube:8度科技_中国:17013_2
-      - TG YouTube:8度科技_中国:17013_2_2
-      - TG YouTube:8度科技_香港:19106
-      - TG YouTube:8度科技_中国:17011_2_2
-      - TG YouTube:8度科技_中国:65017
-      - TG YouTube:8度科技_中国:18008
-      - TG YouTube:8度科技_中国:17011_2_2_2
-      - TG YouTube:8度科技_中国:17016
-      - TG YouTube:8度科技_美国:6666
-      - TG YouTube:8度科技_中国:17016_2
-      - TG YouTube:8度科技_中国:18120
-      - TG YouTube:8度科技_中国:18117_2
-      - TG YouTube:8度科技_中国:17013_2_2_2
-      - TG YouTube:8度科技_中国:65003_2
-      - TG YouTube:8度科技_中国:3113
-      - TG YouTube:8度科技_中国:65009_2
-      - TG YouTube:8度科技_中国:18140
-      - TG YouTube:8度科技_美国:24176
-      - TG YouTube:8度科技_中国:17012_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2
-      - TG YouTube:8度科技_中国:17016_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2
-      - TG YouTube:8度科技_中国:18008_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2
-      - TG YouTube:8度科技_香港:19113
-      - TG YouTube:8度科技_美国:46269
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65018
-      - TG YouTube:8度科技_中国:17014
-      - TG YouTube:8度科技_俄罗斯联邦:23566
-      - TG YouTube:8度科技_香港:19124
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:20000
-      - TG YouTube:8度科技_中国:17014_2
-      - TG YouTube:8度科技_中国:17014_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2
-      - TG YouTube:8度科技_香港:27451
-      - TG YouTube:8度科技_德国:21888
-      - TG YouTube:8度科技_美国:6666_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65008
-      - TG YouTube:8度科技_中国:65008_2
-      - TG YouTube:8度科技_阿联酋:17866
-      - TG YouTube:8度科技_中国:18118_2
-      - TG YouTube:8度科技_阿联酋:35221
-      - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-      - TG YouTube:8度科技_阿联酋:35221_2
-      - TG YouTube:8度科技_中国:20005
-      - TG YouTube:8度科技_中国:65019
-      - TG YouTube:8度科技_中国:65020
-      - TG YouTube:8度科技_中国:65019_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_中国:65010
-      - TG YouTube:8度科技_中国:18119
       - TG YouTube:8度科技_美国:27962
-      - TG YouTube:8度科技_中国:65011
-      - TG YouTube:8度科技_中国:18123
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_中国:65011_2
-      - TG YouTube:8度科技_中国:18121
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - TG YouTube:8度科技_俄罗斯联邦:41002
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:18119_2
-      - TG YouTube:8度科技_美国:24156
+      - TG YouTube:8度科技_美国:443
+      - TG YouTube:8度科技_美国:443_2
       - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2
+      - TG YouTube:8度科技_中国:20005
+      - TG YouTube:8度科技_德国:21888
+      - TG YouTube:8度科技_中国:10003
       - TG YouTube:8度科技_香港:12632
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65006
-      - TG YouTube:8度科技_中国:65006_2
-      - TG YouTube:8度科技_日本:14359
-      - TG YouTube:8度科技_香港:14454
+      - TG YouTube:8度科技_中国:20015
+      - TG YouTube:8度科技_香港:443
+      - TG YouTube:8度科技_越南:80
+      - TG YouTube:8度科技_越南:80_2
+      - TG YouTube:8度科技:8443
+      - TG YouTube:8度科技_俄罗斯联邦:41002
+      - TG YouTube:8度科技_美国:443_2_2_2
+      - TG YouTube:8度科技_芬兰:8443
+      - TG YouTube:8度科技_中国:20047
+      - TG YouTube:8度科技_美国:443_2_2_2_2
+      - TG YouTube:8度科技_中国:10003_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
@@ -4474,182 +1132,28 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - TG YouTube:8度科技_香港:80
-      - TG YouTube:8度科技_中国:65012
-      - TG YouTube:8度科技_中国:3083
-      - TG YouTube:8度科技_中国:18124
-      - TG YouTube:8度科技_中国:65016
-      - TG YouTube:8度科技_中国:65016_2
-      - TG YouTube:8度科技_新加坡:80
-      - TG YouTube:8度科技_中国:18122
-      - TG YouTube:8度科技_中国:9233
-      - TG YouTube:8度科技_中国:65009
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:33743
-      - TG YouTube:8度科技_中国:20047
-      - TG YouTube:8度科技_芬兰:8443
-      - TG YouTube:8度科技_中国:17012
-      - TG YouTube:8度科技_中国:724
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_中国:17015
-      - TG YouTube:8度科技_中国:10003
-      - TG YouTube:8度科技_香港:19116
-      - TG YouTube:8度科技_香港:19107
-      - TG YouTube:8度科技_台湾:9233
-      - TG YouTube:8度科技_中国:65002
-      - TG YouTube:8度科技_中国:65021
-      - TG YouTube:8度科技_香港:19115
-      - TG YouTube:8度科技_日本:10066
-      - TG YouTube:8度科技_香港:19105
-      - TG YouTube:8度科技_中国:18080
-      - TG YouTube:8度科技_香港:19120
-      - TG YouTube:8度科技_中国:3123
-      - TG YouTube:8度科技_中国:18083
-      - TG YouTube:8度科技_中国:65000
-      - TG YouTube:8度科技_中国:10003_2
-      - TG YouTube:8度科技_中国:20001
-      - TG YouTube:8度科技_中国:65001
-      - TG YouTube:8度科技_香港:19111
-      - TG YouTube:8度科技_香港:19123
-      - TG YouTube:8度科技_中国:18065
-      - TG YouTube:8度科技_香港:19109
-      - TG YouTube:8度科技_香港:19108
-      - TG YouTube:8度科技_中国:65003
-      - TG YouTube:8度科技_香港:19118
-      - TG YouTube:8度科技_中国:17011
-      - TG YouTube:8度科技_中国:18064
-      - TG YouTube:8度科技_阿联酋:2157
-      - TG YouTube:8度科技_中国:17011_2
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技_中国:18007
-      - TG YouTube:8度科技_越南:80
-      - TG YouTube:8度科技_香港:19112
-      - TG YouTube:8度科技_中国:18066
-      - TG YouTube:8度科技_中国:65001_2
-      - TG YouTube:8度科技_越南:80_2
-      - TG YouTube:8度科技_香港:19121
-      - TG YouTube:8度科技_中国:18118
-      - TG YouTube:8度科技_香港:19122
-      - TG YouTube:8度科技_中国:18007_2
-      - TG YouTube:8度科技_中国:18081
-      - TG YouTube:8度科技_中国:18117
-      - TG YouTube:8度科技_中国:18066_2
-      - TG YouTube:8度科技_中国:65013
-      - TG YouTube:8度科技_中国:65013_2
-      - TG YouTube:8度科技_中国:18006
-      - TG YouTube:8度科技_中国:65014
-      - TG YouTube:8度科技_香港:15336
-      - TG YouTube:8度科技_中国:65005
-      - TG YouTube:8度科技_中国:65000_2
-      - TG YouTube:8度科技_中国:18005
-      - TG YouTube:8度科技_中国:65015
-      - TG YouTube:8度科技_中国:18083_2
-      - TG YouTube:8度科技_中国:10005
-      - TG YouTube:8度科技_中国:20015
-      - TG YouTube:8度科技_中国:18054
-      - TG YouTube:8度科技_中国:65004
-      - TG YouTube:8度科技:8443
-      - TG YouTube:8度科技_香港:19119
-      - TG YouTube:8度科技_香港:19104
-      - TG YouTube:8度科技_香港:19114
-      - TG YouTube:8度科技_香港:19103
-      - TG YouTube:8度科技_韩国:19586
-      - TG YouTube:8度科技_中国:20015_2
-      - TG YouTube:8度科技_中国:17013
-      - TG YouTube:8度科技_香港:19117
-      - TG YouTube:8度科技_中国:65005_2
-      - TG YouTube:8度科技_美国:23671
-      - TG YouTube:8度科技_香港:35476
-      - TG YouTube:8度科技_香港:19110
-      - TG YouTube:8度科技_中国:17013_2
-      - TG YouTube:8度科技_中国:17013_2_2
-      - TG YouTube:8度科技_香港:19106
-      - TG YouTube:8度科技_中国:17011_2_2
-      - TG YouTube:8度科技_中国:65017
-      - TG YouTube:8度科技_中国:18008
-      - TG YouTube:8度科技_中国:17011_2_2_2
-      - TG YouTube:8度科技_中国:17016
-      - TG YouTube:8度科技_美国:6666
-      - TG YouTube:8度科技_中国:17016_2
-      - TG YouTube:8度科技_中国:18120
-      - TG YouTube:8度科技_中国:18117_2
-      - TG YouTube:8度科技_中国:17013_2_2_2
-      - TG YouTube:8度科技_中国:65003_2
-      - TG YouTube:8度科技_中国:3113
-      - TG YouTube:8度科技_中国:65009_2
-      - TG YouTube:8度科技_中国:18140
-      - TG YouTube:8度科技_美国:24176
-      - TG YouTube:8度科技_中国:17012_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2
-      - TG YouTube:8度科技_中国:17016_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2
-      - TG YouTube:8度科技_中国:18008_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2
-      - TG YouTube:8度科技_中国:17016_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2
-      - TG YouTube:8度科技_香港:19113
-      - TG YouTube:8度科技_美国:46269
-      - TG YouTube:8度科技_中国:17012_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65018
-      - TG YouTube:8度科技_中国:17014
-      - TG YouTube:8度科技_俄罗斯联邦:23566
-      - TG YouTube:8度科技_香港:19124
-      - TG YouTube:8度科技_中国:17015_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:20000
-      - TG YouTube:8度科技_中国:17014_2
-      - TG YouTube:8度科技_中国:17014_2_2
-      - TG YouTube:8度科技_中国:17013_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2
-      - TG YouTube:8度科技_香港:27451
-      - TG YouTube:8度科技_德国:21888
-      - TG YouTube:8度科技_美国:6666_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65008
-      - TG YouTube:8度科技_中国:65008_2
-      - TG YouTube:8度科技_阿联酋:17866
-      - TG YouTube:8度科技_中国:18118_2
-      - TG YouTube:8度科技_阿联酋:35221
-      - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_中国:17014_2_2_2_2_2_2
-      - TG YouTube:8度科技_阿联酋:35221_2
-      - TG YouTube:8度科技_中国:20005
-      - TG YouTube:8度科技_中国:65019
-      - TG YouTube:8度科技_中国:65020
-      - TG YouTube:8度科技_中国:65019_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_中国:65010
-      - TG YouTube:8度科技_中国:18119
       - TG YouTube:8度科技_美国:27962
-      - TG YouTube:8度科技_中国:65011
-      - TG YouTube:8度科技_中国:18123
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_中国:65011_2
-      - TG YouTube:8度科技_中国:18121
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - TG YouTube:8度科技_俄罗斯联邦:41002
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:18119_2
-      - TG YouTube:8度科技_美国:24156
+      - TG YouTube:8度科技_美国:443
+      - TG YouTube:8度科技_美国:443_2
       - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2
+      - TG YouTube:8度科技_中国:20005
+      - TG YouTube:8度科技_德国:21888
+      - TG YouTube:8度科技_中国:10003
       - TG YouTube:8度科技_香港:12632
-      - TG YouTube:8度科技_中国:17011_2_2_2_2_2_2_2
-      - TG YouTube:8度科技_中国:65006
-      - TG YouTube:8度科技_中国:65006_2
-      - TG YouTube:8度科技_日本:14359
-      - TG YouTube:8度科技_香港:14454
+      - TG YouTube:8度科技_中国:20015
+      - TG YouTube:8度科技_香港:443
+      - TG YouTube:8度科技_越南:80
+      - TG YouTube:8度科技_越南:80_2
+      - TG YouTube:8度科技:8443
+      - TG YouTube:8度科技_俄罗斯联邦:41002
+      - TG YouTube:8度科技_美国:443_2_2_2
+      - TG YouTube:8度科技_芬兰:8443
+      - TG YouTube:8度科技_中国:20047
+      - TG YouTube:8度科技_美国:443_2_2_2_2
+      - TG YouTube:8度科技_中国:10003_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2
+      - TG YouTube:8度科技_美国:443_2_2_2_2_2_2
       - 电报交流群：https://t.me/realnode:443
       - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
       - 🇭🇰①香港广港专线｜HK x5🔓:10056
