@@ -7,207 +7,6 @@ external-controller: 127.0.0.1:9090
 proxies:
   - name: TG YouTube:8度科技_美国:443
     type: vmess
-    server: usa-miami.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-miami.lvuft.com
-  - name: TG YouTube:8度科技_香港:80
-    type: vmess
-    server: 8.210.55.79
-    port: 80
-    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: 8.210.55.79
-  - name: 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-    type: vmess
-    server: xe3rayu3.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: xe3rayu3.com
-  - name: Relay_🇺🇸US-🇺🇸US_1674:8443
-    type: vmess
-    server: v1.ssrsub.com
-    port: 8443
-    uuid: 8cf83f44-79ff-4e50-be1a-585c82338912
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ssrsub
-    ws-headers: null
-  - name: 🇺🇸_US_美国:8443
-    type: vmess
-    server: v1.ssrsub.com
-    port: 8443
-    uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ssrsub
-    ws-headers: null
-  - name: TG YouTube:8度科技_俄罗斯联邦:41002
-    type: vmess
-    server: 194.156.120.52
-    port: 41002
-    uuid: ebb93e84-5bb7-11ec-8bc6-6a5c6e054e4d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: TG YouTube:8度科技_美国:443_2
-    type: vmess
-    server: 45.35.84.162
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-dallas.lvuft.com
-  - name: 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-    type: vmess
-    server: 156.234.95.72
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: xe3rayu3.com
-  - name: TG YouTube:8度科技_捷克:27182
-    type: vmess
-    server: 195.133.53.192
-    port: 27182
-    uuid: a22df2ec-6200-11ec-9070-fecccc2333dc
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /AmrTCtbk/
-    ws-headers:
-      Host: 195.133.53.192
-  - name: TG YouTube:8度科技_香港:443
-    type: vmess
-    server: 129.227.201.234
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: aicoo6du.com
-  - name: TG YouTube:8度科技:8443
-    type: vmess
-    server: v4.ssrsub.com
-    port: 8443
-    uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ssrsub
-    ws-headers: null
-  - name: 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-    type: vmess
-    server: aicoo6du.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: aicoo6du.com
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-    type: vmess
-    server: v6.ssrsub.com
-    port: 8443
-    uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ssrsub
-    ws-headers: null
-  - name: default_name:8443
-    type: vmess
-    server: v9.ssrsub.com
-    port: 8443
-    uuid: 1de99090-4bd5-4670-9cec-05f55b4c6917
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ssrsub
-    ws-headers: null
-  - name: 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-    type: vmess
-    server: v9.ssrsub.com
-    port: 8443
-    uuid: 8cf83f44-79ff-4e50-be1a-585c82338912
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ssrsub
-    ws-headers: null
-  - name: TG YouTube:8度科技_美国:443_2_2
-    type: vmess
-    server: usa-dallas.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-dallas.lvuft.com
-  - name: TG YouTube:8度科技_美国:443_2_2_2
-    type: vmess
     server: usa-buffalo.lvuft.com
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -219,7 +18,7 @@ proxies:
     ws-path: /ws
     ws-headers:
       Host: usa-buffalo.lvuft.com
-  - name: TG YouTube:8度科技_美国:443_2_2_2_2
+  - name: TG YouTube:8度科技_美国:443_2
     type: vmess
     server: 208.98.48.2
     port: 443
@@ -232,9 +31,9 @@ proxies:
     ws-path: /ws
     ws-headers:
       Host: iesei1ei.com
-  - name: TG YouTube:8度科技_美国:443_2_2_2_2_2
+  - name: TG YouTube:8度科技_美国:443_2_2
     type: vmess
-    server: 192.186.129.66
+    server: 23.82.136.151
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
     alterId: "4"
@@ -244,334 +43,58 @@ proxies:
     tls: true
     ws-path: /ws
     ws-headers:
-      Host: usa-buffalo.lvuft.com
-  - name: "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
+      Host: usa-miami.lvuft.com
+  - name: 🇺🇸_US_美国:8443
     type: vmess
-    server: user.realnode.co
+    server: v1.ssrsub.com
+    port: 8443
+    uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers: null
+  - name: 🇺🇸_US_美国:443
+    type: vmess
+    server: ff6.uuv2.co.uk
     port: 443
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-    type: vmess
-    server: gy3.anoob.top
-    port: 10071
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰①香港广港专线｜HK x5🔓:10056
-    type: vmess
-    server: gy3.anoob.top
-    port: 10056
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-    type: vmess
-    server: gy3.anoob.top
-    port: 10040
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰②香港广港专线｜HK x5:10041
-    type: vmess
-    server: gy3.anoob.top
-    port: 10041
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-    type: vmess
-    server: gy3.anoob.top
-    port: 10060
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰③香港广港专线｜HK x5🔓:10061
-    type: vmess
-    server: gy3.anoob.top
-    port: 10061
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-    type: vmess
-    server: gy3.anoob.top
-    port: 10063
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰④香港深港专线｜HK x15🔓:10064
-    type: vmess
-    server: gy3.anoob.top
-    port: 10064
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-    type: vmess
-    server: gy3.anoob.top
-    port: 10042
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰⑤香港深港专线｜HK x5:10043
-    type: vmess
-    server: gy3.anoob.top
-    port: 10043
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-    type: vmess
-    server: cn2-2.anoob.top
-    port: 10017
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸①美国广美专线｜US x5🔓:10052
-    type: vmess
-    server: gy3.anoob.top
-    port: 10052
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸②美国AGA-BGP｜US x1.0:11020
-    type: vmess
-    server: cn2-2.anoob.top
-    port: 11020
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸②美国广美专线｜US x5:10053
-    type: vmess
-    server: gy3.anoob.top
-    port: 10053
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-    type: vmess
-    server: gy3.anoob.top
-    port: 10015
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇸🇬①新加坡广新专线｜SG x5:10050
-    type: vmess
-    server: gy3.anoob.top
-    port: 10050
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-    type: vmess
-    server: gy3.anoob.top
-    port: 10023
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
+    uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+    alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /images
+    tls: true
+    ws-path: /bb2b34a1
     ws-headers:
-      Host: v.qq.com
-  - name: 🇸🇬②新加坡广新专线｜SG x5:10044
+      Host: www.ltzs.buzz
+  - name: 🇺🇸_US_美国:443_2
     type: vmess
-    server: gy3.anoob.top
-    port: 10044
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-    type: vmess
-    server: cn2-2.anoob.top
-    port: 10018
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇯🇵①日本沪日专线｜JP x5:10051
-    type: vmess
-    server: 9929.anoob.top
-    port: 10051
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-    type: vmess
-    server: cn2-2.anoob.top
-    port: 11024
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇯🇵②日本沪日专线｜JP x5:10034
-    type: vmess
-    server: 9929.anoob.top
-    port: 10034
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-    type: vmess
-    server: cs.anoob.top
-    port: 11025
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇰🇷韩国沪韩专线｜KR x5:10054
-    type: vmess
-    server: 9929.anoob.top
-    port: 10054
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-    type: vmess
-    server: gy3.anoob.top
-    port: 10026
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
+    server: usa-miami.lvuft.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /images
+    tls: true
+    ws-path: /ws
     ws-headers:
-      Host: v.qq.com
-  - name: 🇹🇼台湾广台专线｜TW x5🔓:10049
+      Host: usa-miami.lvuft.com
+  - name: 🇺🇸_US_美国:443_2_2
     type: vmess
-    server: gy3.anoob.top
-    port: 10049
-    uuid: 892bba86-8721-4a8c-97a1-47029b3f3cad
-    alterId: "1"
+    server: www.ltzs.buzz
+    port: 443
+    uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+    alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /images
+    tls: true
+    ws-path: /bb2b34a1
     ws-headers:
-      Host: v.qq.com
+      Host: www.ltzs.buzz
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -579,102 +102,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:80
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-      - Relay_🇺🇸US-🇺🇸US_1674:8443
-      - 🇺🇸_US_美国:8443
-      - TG YouTube:8度科技_俄罗斯联邦:41002
       - TG YouTube:8度科技_美国:443_2
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-      - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技:8443
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-      - default_name:8443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
       - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
-      - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-      - 🇭🇰①香港广港专线｜HK x5🔓:10056
-      - 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-      - 🇭🇰②香港广港专线｜HK x5:10041
-      - 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-      - 🇭🇰③香港广港专线｜HK x5🔓:10061
-      - 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-      - 🇭🇰④香港深港专线｜HK x15🔓:10064
-      - 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-      - 🇭🇰⑤香港深港专线｜HK x5:10043
-      - 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-      - 🇺🇸①美国广美专线｜US x5🔓:10052
-      - 🇺🇸②美国AGA-BGP｜US x1.0:11020
-      - 🇺🇸②美国广美专线｜US x5:10053
-      - 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-      - 🇸🇬①新加坡广新专线｜SG x5:10050
-      - 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-      - 🇸🇬②新加坡广新专线｜SG x5:10044
-      - 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-      - 🇯🇵①日本沪日专线｜JP x5:10051
-      - 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-      - 🇯🇵②日本沪日专线｜JP x5:10034
-      - 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-      - 🇰🇷韩国沪韩专线｜KR x5:10054
-      - 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-      - 🇹🇼台湾广台专线｜TW x5🔓:10049
+      - 🇺🇸_US_美国:8443
+      - 🇺🇸_US_美国:443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:80
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-      - Relay_🇺🇸US-🇺🇸US_1674:8443
-      - 🇺🇸_US_美国:8443
-      - TG YouTube:8度科技_俄罗斯联邦:41002
       - TG YouTube:8度科技_美国:443_2
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-      - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技:8443
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-      - default_name:8443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
       - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
-      - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-      - 🇭🇰①香港广港专线｜HK x5🔓:10056
-      - 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-      - 🇭🇰②香港广港专线｜HK x5:10041
-      - 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-      - 🇭🇰③香港广港专线｜HK x5🔓:10061
-      - 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-      - 🇭🇰④香港深港专线｜HK x15🔓:10064
-      - 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-      - 🇭🇰⑤香港深港专线｜HK x5:10043
-      - 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-      - 🇺🇸①美国广美专线｜US x5🔓:10052
-      - 🇺🇸②美国AGA-BGP｜US x1.0:11020
-      - 🇺🇸②美国广美专线｜US x5:10053
-      - 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-      - 🇸🇬①新加坡广新专线｜SG x5:10050
-      - 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-      - 🇸🇬②新加坡广新专线｜SG x5:10044
-      - 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-      - 🇯🇵①日本沪日专线｜JP x5:10051
-      - 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-      - 🇯🇵②日本沪日专线｜JP x5:10034
-      - 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-      - 🇰🇷韩国沪韩专线｜KR x5:10054
-      - 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-      - 🇹🇼台湾广台专线｜TW x5🔓:10049
+      - 🇺🇸_US_美国:8443
+      - 🇺🇸_US_美国:443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -682,204 +127,48 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:80
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-      - Relay_🇺🇸US-🇺🇸US_1674:8443
-      - 🇺🇸_US_美国:8443
-      - TG YouTube:8度科技_俄罗斯联邦:41002
       - TG YouTube:8度科技_美国:443_2
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-      - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技:8443
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-      - default_name:8443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
       - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
-      - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-      - 🇭🇰①香港广港专线｜HK x5🔓:10056
-      - 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-      - 🇭🇰②香港广港专线｜HK x5:10041
-      - 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-      - 🇭🇰③香港广港专线｜HK x5🔓:10061
-      - 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-      - 🇭🇰④香港深港专线｜HK x15🔓:10064
-      - 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-      - 🇭🇰⑤香港深港专线｜HK x5:10043
-      - 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-      - 🇺🇸①美国广美专线｜US x5🔓:10052
-      - 🇺🇸②美国AGA-BGP｜US x1.0:11020
-      - 🇺🇸②美国广美专线｜US x5:10053
-      - 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-      - 🇸🇬①新加坡广新专线｜SG x5:10050
-      - 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-      - 🇸🇬②新加坡广新专线｜SG x5:10044
-      - 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-      - 🇯🇵①日本沪日专线｜JP x5:10051
-      - 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-      - 🇯🇵②日本沪日专线｜JP x5:10034
-      - 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-      - 🇰🇷韩国沪韩专线｜KR x5:10054
-      - 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-      - 🇹🇼台湾广台专线｜TW x5🔓:10049
+      - 🇺🇸_US_美国:8443
+      - 🇺🇸_US_美国:443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:80
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-      - Relay_🇺🇸US-🇺🇸US_1674:8443
-      - 🇺🇸_US_美国:8443
-      - TG YouTube:8度科技_俄罗斯联邦:41002
       - TG YouTube:8度科技_美国:443_2
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-      - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技:8443
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-      - default_name:8443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
       - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
-      - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-      - 🇭🇰①香港广港专线｜HK x5🔓:10056
-      - 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-      - 🇭🇰②香港广港专线｜HK x5:10041
-      - 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-      - 🇭🇰③香港广港专线｜HK x5🔓:10061
-      - 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-      - 🇭🇰④香港深港专线｜HK x15🔓:10064
-      - 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-      - 🇭🇰⑤香港深港专线｜HK x5:10043
-      - 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-      - 🇺🇸①美国广美专线｜US x5🔓:10052
-      - 🇺🇸②美国AGA-BGP｜US x1.0:11020
-      - 🇺🇸②美国广美专线｜US x5:10053
-      - 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-      - 🇸🇬①新加坡广新专线｜SG x5:10050
-      - 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-      - 🇸🇬②新加坡广新专线｜SG x5:10044
-      - 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-      - 🇯🇵①日本沪日专线｜JP x5:10051
-      - 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-      - 🇯🇵②日本沪日专线｜JP x5:10034
-      - 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-      - 🇰🇷韩国沪韩专线｜KR x5:10054
-      - 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-      - 🇹🇼台湾广台专线｜TW x5🔓:10049
+      - 🇺🇸_US_美国:8443
+      - 🇺🇸_US_美国:443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:80
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-      - Relay_🇺🇸US-🇺🇸US_1674:8443
-      - 🇺🇸_US_美国:8443
-      - TG YouTube:8度科技_俄罗斯联邦:41002
       - TG YouTube:8度科技_美国:443_2
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-      - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技:8443
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-      - default_name:8443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
       - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
-      - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-      - 🇭🇰①香港广港专线｜HK x5🔓:10056
-      - 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-      - 🇭🇰②香港广港专线｜HK x5:10041
-      - 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-      - 🇭🇰③香港广港专线｜HK x5🔓:10061
-      - 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-      - 🇭🇰④香港深港专线｜HK x15🔓:10064
-      - 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-      - 🇭🇰⑤香港深港专线｜HK x5:10043
-      - 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-      - 🇺🇸①美国广美专线｜US x5🔓:10052
-      - 🇺🇸②美国AGA-BGP｜US x1.0:11020
-      - 🇺🇸②美国广美专线｜US x5:10053
-      - 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-      - 🇸🇬①新加坡广新专线｜SG x5:10050
-      - 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-      - 🇸🇬②新加坡广新专线｜SG x5:10044
-      - 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-      - 🇯🇵①日本沪日专线｜JP x5:10051
-      - 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-      - 🇯🇵②日本沪日专线｜JP x5:10034
-      - 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-      - 🇰🇷韩国沪韩专线｜KR x5:10054
-      - 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-      - 🇹🇼台湾广台专线｜TW x5🔓:10049
+      - 🇺🇸_US_美国:8443
+      - 🇺🇸_US_美国:443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:80
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-      - Relay_🇺🇸US-🇺🇸US_1674:8443
-      - 🇺🇸_US_美国:8443
-      - TG YouTube:8度科技_俄罗斯联邦:41002
       - TG YouTube:8度科技_美国:443_2
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-      - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技:8443
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-      - default_name:8443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
       - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
-      - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-      - 🇭🇰①香港广港专线｜HK x5🔓:10056
-      - 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-      - 🇭🇰②香港广港专线｜HK x5:10041
-      - 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-      - 🇭🇰③香港广港专线｜HK x5🔓:10061
-      - 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-      - 🇭🇰④香港深港专线｜HK x15🔓:10064
-      - 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-      - 🇭🇰⑤香港深港专线｜HK x5:10043
-      - 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-      - 🇺🇸①美国广美专线｜US x5🔓:10052
-      - 🇺🇸②美国AGA-BGP｜US x1.0:11020
-      - 🇺🇸②美国广美专线｜US x5:10053
-      - 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-      - 🇸🇬①新加坡广新专线｜SG x5:10050
-      - 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-      - 🇸🇬②新加坡广新专线｜SG x5:10044
-      - 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-      - 🇯🇵①日本沪日专线｜JP x5:10051
-      - 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-      - 🇯🇵②日本沪日专线｜JP x5:10034
-      - 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-      - 🇰🇷韩国沪韩专线｜KR x5:10054
-      - 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-      - 🇹🇼台湾广台专线｜TW x5🔓:10049
+      - 🇺🇸_US_美国:8443
+      - 🇺🇸_US_美国:443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -887,152 +176,35 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:80
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-      - Relay_🇺🇸US-🇺🇸US_1674:8443
-      - 🇺🇸_US_美国:8443
-      - TG YouTube:8度科技_俄罗斯联邦:41002
       - TG YouTube:8度科技_美国:443_2
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-      - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技:8443
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-      - default_name:8443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
       - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
-      - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-      - 🇭🇰①香港广港专线｜HK x5🔓:10056
-      - 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-      - 🇭🇰②香港广港专线｜HK x5:10041
-      - 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-      - 🇭🇰③香港广港专线｜HK x5🔓:10061
-      - 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-      - 🇭🇰④香港深港专线｜HK x15🔓:10064
-      - 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-      - 🇭🇰⑤香港深港专线｜HK x5:10043
-      - 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-      - 🇺🇸①美国广美专线｜US x5🔓:10052
-      - 🇺🇸②美国AGA-BGP｜US x1.0:11020
-      - 🇺🇸②美国广美专线｜US x5:10053
-      - 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-      - 🇸🇬①新加坡广新专线｜SG x5:10050
-      - 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-      - 🇸🇬②新加坡广新专线｜SG x5:10044
-      - 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-      - 🇯🇵①日本沪日专线｜JP x5:10051
-      - 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-      - 🇯🇵②日本沪日专线｜JP x5:10034
-      - 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-      - 🇰🇷韩国沪韩专线｜KR x5:10054
-      - 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-      - 🇹🇼台湾广台专线｜TW x5🔓:10049
+      - 🇺🇸_US_美国:8443
+      - 🇺🇸_US_美国:443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:80
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-      - Relay_🇺🇸US-🇺🇸US_1674:8443
-      - 🇺🇸_US_美国:8443
-      - TG YouTube:8度科技_俄罗斯联邦:41002
       - TG YouTube:8度科技_美国:443_2
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-      - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技:8443
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-      - default_name:8443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
       - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
-      - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-      - 🇭🇰①香港广港专线｜HK x5🔓:10056
-      - 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-      - 🇭🇰②香港广港专线｜HK x5:10041
-      - 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-      - 🇭🇰③香港广港专线｜HK x5🔓:10061
-      - 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-      - 🇭🇰④香港深港专线｜HK x15🔓:10064
-      - 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-      - 🇭🇰⑤香港深港专线｜HK x5:10043
-      - 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-      - 🇺🇸①美国广美专线｜US x5🔓:10052
-      - 🇺🇸②美国AGA-BGP｜US x1.0:11020
-      - 🇺🇸②美国广美专线｜US x5:10053
-      - 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-      - 🇸🇬①新加坡广新专线｜SG x5:10050
-      - 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-      - 🇸🇬②新加坡广新专线｜SG x5:10044
-      - 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-      - 🇯🇵①日本沪日专线｜JP x5:10051
-      - 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-      - 🇯🇵②日本沪日专线｜JP x5:10034
-      - 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-      - 🇰🇷韩国沪韩专线｜KR x5:10054
-      - 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-      - 🇹🇼台湾广台专线｜TW x5🔓:10049
+      - 🇺🇸_US_美国:8443
+      - 🇺🇸_US_美国:443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
       - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:80
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-      - Relay_🇺🇸US-🇺🇸US_1674:8443
-      - 🇺🇸_US_美国:8443
-      - TG YouTube:8度科技_俄罗斯联邦:41002
       - TG YouTube:8度科技_美国:443_2
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-      - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技:8443
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-      - default_name:8443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
       - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
-      - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-      - 🇭🇰①香港广港专线｜HK x5🔓:10056
-      - 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-      - 🇭🇰②香港广港专线｜HK x5:10041
-      - 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-      - 🇭🇰③香港广港专线｜HK x5🔓:10061
-      - 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-      - 🇭🇰④香港深港专线｜HK x15🔓:10064
-      - 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-      - 🇭🇰⑤香港深港专线｜HK x5:10043
-      - 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-      - 🇺🇸①美国广美专线｜US x5🔓:10052
-      - 🇺🇸②美国AGA-BGP｜US x1.0:11020
-      - 🇺🇸②美国广美专线｜US x5:10053
-      - 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-      - 🇸🇬①新加坡广新专线｜SG x5:10050
-      - 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-      - 🇸🇬②新加坡广新专线｜SG x5:10044
-      - 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-      - 🇯🇵①日本沪日专线｜JP x5:10051
-      - 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-      - 🇯🇵②日本沪日专线｜JP x5:10034
-      - 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-      - 🇰🇷韩国沪韩专线｜KR x5:10054
-      - 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-      - 🇹🇼台湾广台专线｜TW x5🔓:10049
+      - 🇺🇸_US_美国:8443
+      - 🇺🇸_US_美国:443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -1040,51 +212,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_香港:80
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443
-      - Relay_🇺🇸US-🇺🇸US_1674:8443
-      - 🇺🇸_US_美国:8443
-      - TG YouTube:8度科技_俄罗斯联邦:41002
       - TG YouTube:8度科技_美国:443_2
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:443_2
-      - TG YouTube:8度科技_捷克:27182
-      - TG YouTube:8度科技_香港:443
-      - TG YouTube:8度科技:8443
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
-      - default_name:8443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
       - TG YouTube:8度科技_美国:443_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2
-      - TG YouTube:8度科技_美国:443_2_2_2_2_2
-      - "GROUP: https://t.me/+bqtNiydkokc4ZDk5:443"
-      - 🇭🇰①香港AGA-BGP｜HK x1.0🔓:10071
-      - 🇭🇰①香港广港专线｜HK x5🔓:10056
-      - 🇭🇰②香港AGA-BGP｜HK x1.0:10040
-      - 🇭🇰②香港广港专线｜HK x5:10041
-      - 🇭🇰③香港AGA-BGP｜HK x1.0🔓:10060
-      - 🇭🇰③香港广港专线｜HK x5🔓:10061
-      - 🇭🇰④香港AGA-BGP｜HK x1.0🔓:10063
-      - 🇭🇰④香港深港专线｜HK x15🔓:10064
-      - 🇭🇰⑤香港AGA-BGP｜HK x1.0:10042
-      - 🇭🇰⑤香港深港专线｜HK x5:10043
-      - 🇺🇸①美国AGA-BGP｜US x1.0🔓:10017
-      - 🇺🇸①美国广美专线｜US x5🔓:10052
-      - 🇺🇸②美国AGA-BGP｜US x1.0:11020
-      - 🇺🇸②美国广美专线｜US x5:10053
-      - 🇸🇬①新加坡AGA-BGP｜SG x1.0:10015
-      - 🇸🇬①新加坡广新专线｜SG x5:10050
-      - 🇸🇬②新加坡AGA-BGP｜SG x1.0:10023
-      - 🇸🇬②新加坡广新专线｜SG x5:10044
-      - 🇯🇵①日本AGA-BGP｜JP x1.0:10018
-      - 🇯🇵①日本沪日专线｜JP x5:10051
-      - 🇯🇵②日本AGA-BGP｜JP x1.0:11024
-      - 🇯🇵②日本沪日专线｜JP x5:10034
-      - 🇰🇷韩国AGA-BGP｜KR x1.0:11025
-      - 🇰🇷韩国沪韩专线｜KR x5:10054
-      - 🇹🇼台湾AGA-BGP｜TW x1.0🔓:10026
-      - 🇹🇼台湾广台专线｜TW x5🔓:10049
+      - 🇺🇸_US_美国:8443
+      - 🇺🇸_US_美国:443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
