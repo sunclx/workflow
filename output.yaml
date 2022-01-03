@@ -5,84 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: TG YouTube:8度科技_美国:443
-    type: vmess
-    server: usa-buffalo.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-buffalo.lvuft.com
-  - name: TG YouTube:8度科技_美国:443_2
-    type: vmess
-    server: 208.98.48.2
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: iesei1ei.com
-  - name: TG YouTube:8度科技_美国:443_2_2
-    type: vmess
-    server: 23.82.136.151
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-miami.lvuft.com
-  - name: 🇺🇸_US_美国:8443
-    type: vmess
-    server: v1.ssrsub.com
-    port: 8443
-    uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ssrsub
-    ws-headers: null
-  - name: 🇺🇸_US_美国:443
-    type: vmess
-    server: ff6.uuv2.co.uk
-    port: 443
-    uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /bb2b34a1
-    ws-headers:
-      Host: www.ltzs.buzz
-  - name: 🇺🇸_US_美国:443_2
-    type: vmess
-    server: usa-miami.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-miami.lvuft.com
-  - name: 🇺🇸_US_美国:443_2_2
+  - name: _US_美国 92:443
     type: vmess
     server: www.ltzs.buzz
     port: 443
@@ -95,129 +18,115 @@ proxies:
     ws-path: /bb2b34a1
     ws-headers:
       Host: www.ltzs.buzz
+  - name: 🇺🇸_US_美国:443
+    type: vmess
+    server: usa-miami.lvuft.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-miami.lvuft.com
+  - name: _US_美国 17:8443
+    type: vmess
+    server: v1.ssrsub.com
+    port: 8443
+    uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers:
+      Host: v1.ssrsub.com
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_美国:443_2_2
-      - 🇺🇸_US_美国:8443
+      - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国:443_2_2
+      - _US_美国 17:8443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_美国:443_2_2
-      - 🇺🇸_US_美国:8443
+      - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国:443_2_2
+      - _US_美国 17:8443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_美国:443_2_2
-      - 🇺🇸_US_美国:8443
+      - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国:443_2_2
+      - _US_美国 17:8443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_美国:443_2_2
-      - 🇺🇸_US_美国:8443
+      - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国:443_2_2
+      - _US_美国 17:8443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_美国:443_2_2
-      - 🇺🇸_US_美国:8443
+      - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国:443_2_2
+      - _US_美国 17:8443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_美国:443_2_2
-      - 🇺🇸_US_美国:8443
+      - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国:443_2_2
+      - _US_美国 17:8443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_美国:443_2_2
-      - 🇺🇸_US_美国:8443
+      - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国:443_2_2
+      - _US_美国 17:8443
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_美国:443_2_2
-      - 🇺🇸_US_美国:8443
+      - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国:443_2_2
+      - _US_美国 17:8443
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_美国:443_2_2
-      - 🇺🇸_US_美国:8443
+      - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国:443_2_2
+      - _US_美国 17:8443
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG YouTube:8度科技_美国:443
-      - TG YouTube:8度科技_美国:443_2
-      - TG YouTube:8度科技_美国:443_2_2
-      - 🇺🇸_US_美国:8443
+      - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国:443_2_2
+      - _US_美国 17:8443
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
