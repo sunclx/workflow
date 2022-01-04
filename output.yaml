@@ -20,6 +20,31 @@ proxies:
       Host: www.ltzs.buzz
   - name: 🇺🇸_US_美国:443
     type: vmess
+    server: ff8.uuv2.co.uk
+    port: 443
+    uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /bb2b34a1
+    ws-headers:
+      Host: www.ltzs.buzz
+  - name: 🇺🇸_US_美国:443_2
+    type: vmess
+    server: usa-sanfrancisco.lvuft.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers: null
+  - name: 🇺🇸_US_美国:443_2_2
+    type: vmess
     server: usa-miami.lvuft.com
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -31,19 +56,70 @@ proxies:
     ws-path: /ws
     ws-headers:
       Host: usa-miami.lvuft.com
-  - name: _US_美国 17:8443
+  - name: 🇺🇸_US_美国:443_2_2_2
     type: vmess
-    server: v1.ssrsub.com
+    server: usa-buffalo.lvuft.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-buffalo.lvuft.com
+  - name: 🇺🇸_US_美国:443_2_2_2_2
+    type: vmess
+    server: 208.98.48.2
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: iesei1ei.com
+  - name: 🇺🇸_US_美国:443_2_2_2_2_2
+    type: vmess
+    server: 192.96.204.250
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-washington.lvuft.com
+  - name: default_name:8443
+    type: vmess
+    server: v5.ssrsub.com
     port: 8443
-    uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968
+    uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
     ws-path: /ssrsub
+    ws-headers: null
+  - name: 🇺🇸_US_美国:443_2_2_2_2_2_2
+    type: vmess
+    server: 23.82.136.151
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
     ws-headers:
-      Host: v1.ssrsub.com
+      Host: usa-miami.lvuft.com
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -52,7 +128,13 @@ proxy-groups:
       - 🎯 全球直连
       - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - _US_美国 17:8443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国:443_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2_2
+      - default_name:8443
+      - 🇺🇸_US_美国:443_2_2_2_2_2_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -60,7 +142,13 @@ proxy-groups:
     proxies:
       - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - _US_美国 17:8443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国:443_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2_2
+      - default_name:8443
+      - 🇺🇸_US_美国:443_2_2_2_2_2_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -69,7 +157,13 @@ proxy-groups:
       - 🎯 全球直连
       - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - _US_美国 17:8443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国:443_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2_2
+      - default_name:8443
+      - 🇺🇸_US_美国:443_2_2_2_2_2_2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -77,7 +171,13 @@ proxy-groups:
       - 🔰 节点选择
       - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - _US_美国 17:8443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国:443_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2_2
+      - default_name:8443
+      - 🇺🇸_US_美国:443_2_2_2_2_2_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -85,7 +185,13 @@ proxy-groups:
       - 🔰 节点选择
       - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - _US_美国 17:8443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国:443_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2_2
+      - default_name:8443
+      - 🇺🇸_US_美国:443_2_2_2_2_2_2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -93,7 +199,13 @@ proxy-groups:
       - 🎯 全球直连
       - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - _US_美国 17:8443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国:443_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2_2
+      - default_name:8443
+      - 🇺🇸_US_美国:443_2_2_2_2_2_2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -102,14 +214,26 @@ proxy-groups:
       - ♻️ 自动选择
       - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - _US_美国 17:8443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国:443_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2_2
+      - default_name:8443
+      - 🇺🇸_US_美国:443_2_2_2_2_2_2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - _US_美国 17:8443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国:443_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2_2
+      - default_name:8443
+      - 🇺🇸_US_美国:443_2_2_2_2_2_2
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -117,7 +241,13 @@ proxy-groups:
       - DIRECT
       - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - _US_美国 17:8443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国:443_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2_2
+      - default_name:8443
+      - 🇺🇸_US_美国:443_2_2_2_2_2_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -126,7 +256,13 @@ proxy-groups:
       - ♻️ 自动选择
       - _US_美国 92:443
       - 🇺🇸_US_美国:443
-      - _US_美国 17:8443
+      - 🇺🇸_US_美国:443_2
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国:443_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2
+      - 🇺🇸_US_美国:443_2_2_2_2_2
+      - default_name:8443
+      - 🇺🇸_US_美国:443_2_2_2_2_2_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
