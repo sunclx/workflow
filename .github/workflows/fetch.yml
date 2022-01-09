@@ -16,9 +16,9 @@ jobs:
         run: deno fmt 
 
       - name: Run main.js
-        run: deno run -A src/main.js
+        run: deno run -A src/deno/main.js
       - name: Run convert.js
-        run: deno run -A src/convert.js
+        run: deno run -A src/deno/convert.js
       - run: |
           git config --global user.email sunclx@gmail.com
           git config --global user.name sunclx
