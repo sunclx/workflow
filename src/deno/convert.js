@@ -18,7 +18,7 @@ if (import.meta.main) {
   // 输出路径
   const output_path = "./output.yaml";
   // 规则策略
-  const config_path = "src/clash.yaml";
+  const config_path = "src/deno/clash.yaml";
 
   if (sub_url === "") {
     Deno.exit();
