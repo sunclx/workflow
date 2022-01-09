@@ -27,6 +27,7 @@ jobs:
         
     - name: Checkin
       run: |
+        cd src/python/189checkin
         user='${{ secrets.USER_189 }}'
         pwd='${{ secrets.PWD_189 }}'
         python3 checkin.py --username ${user} --password ${pwd}
