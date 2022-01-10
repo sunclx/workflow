@@ -5,20 +5,994 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: Aubervilliers-Choopa@vpnpool:6616
+    type: vmess
+    server: 95.179.215.128
+    port: 6616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
   - name: default_name:443
     type: vmess
-    server: 198.41.212.234
+    server: 104.16.160.114
     port: 443
-    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+    uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /sakura/
+    ws-path: /The-Great-Awakening_vws
     ws-headers:
-      Host: 2022-world-1.a-yu.xyz
+      Host: vincent-jackson2021.ga
+  - name: Dusseldorf-Contabo@vpnpool:6616
+    type: vmess
+    server: 75.119.131.177
+    port: 6616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: Istanbul-Hostigger@vpnphat:6616
+    type: vmess
+    server: 185.219.133.108
+    port: 6616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: London-Choopa@vpnphat:6616
+    type: vmess
+    server: 95.179.201.0
+    port: 6616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: Seattle-Contabo-nf@EXTM3U:6616
+    type: vmess
+    server: 66.94.125.131
+    port: 6616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: SG-Linode@EXTM3U:6616
+    type: vmess
+    server: 139.177.184.36
+    port: 6616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Aubervilliers-Choopa:23383
+    type: vmess
+    server: 116.163.31.55
+    port: 23383
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Aubervilliers-Choopa:23383_2
+    type: vmess
+    server: 101.67.8.203
+    port: 23383
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Aubervilliers-Choopa:23383_2_2
+    type: vmess
+    server: 120.197.85.52
+    port: 23383
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Aubervilliers-Choopa:23383_2_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 23383
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+    type: vmess
+    server: 183.232.170.118
+    port: 23383
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Dusseldorf-Contabo:23309
+    type: vmess
+    server: 101.67.8.203
+    port: 23309
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Dusseldorf-Contabo:23309_2
+    type: vmess
+    server: 116.192.167.213
+    port: 23309
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Dusseldorf-Contabo:23309_2_2
+    type: vmess
+    server: 183.232.170.118
+    port: 23309
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Dusseldorf-Contabo:23309_2_2_2
+    type: vmess
+    server: 120.197.85.52
+    port: 23309
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Istanbul-Hostigger:16630
+    type: vmess
+    server: 183.232.170.118
+    port: 16630
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Istanbul-Hostigger:16630_2
+    type: vmess
+    server: 101.67.8.203
+    port: 16630
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-London-Choopa:23315
+    type: vmess
+    server: 183.232.170.118
+    port: 23315
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-London-Choopa:23315_2
+    type: vmess
+    server: 120.197.85.52
+    port: 23315
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-London-Choopa:23315_2_2
+    type: vmess
+    server: 101.67.8.203
+    port: 23315
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-London-Choopa:23315_2_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 23315
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Mumbai-Linode:16626
+    type: vmess
+    server: 116.163.31.55
+    port: 16626
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Mumbai-Linode:16626_2
+    type: vmess
+    server: 120.197.85.52
+    port: 16626
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Mumbai-Linode:16626_2_2
+    type: vmess
+    server: 101.67.8.203
+    port: 16626
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Mumbai-Linode:16626_2_2_2
+    type: vmess
+    server: 183.232.170.118
+    port: 16626
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Mumbai-Linode:16626_2_2_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16626
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Penang-Tmnet:26623
+    type: vmess
+    server: 116.192.167.213
+    port: 26623
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Penang-Tmnet:26623_2
+    type: vmess
+    server: 183.232.170.118
+    port: 26623
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-RU:16625
+    type: vmess
+    server: 183.232.170.118
+    port: 16625
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Seattle-Contabo:16632
+    type: vmess
+    server: 101.67.8.203
+    port: 16632
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Seattle-Contabo:16632_2
+    type: vmess
+    server: 120.197.85.52
+    port: 16632
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Seattle-Contabo:16632_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16632
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Seoul-Azure:16619
+    type: vmess
+    server: 120.197.85.52
+    port: 16619
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Seoul-Azure:16619_2
+    type: vmess
+    server: 116.163.31.55
+    port: 16619
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Seoul-Azure:16619_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16619
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Seoul-Azure:16619_2_2_2
+    type: vmess
+    server: 183.232.170.118
+    port: 16619
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-SG-Contabo:16618
+    type: vmess
+    server: 120.197.85.52
+    port: 16618
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-SG-Contabo:16618_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16618
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-SG-Contabo:16618_2_2
+    type: vmess
+    server: 183.232.170.118
+    port: 16618
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-台北Hinet:16616
+    type: vmess
+    server: 183.232.170.118
+    port: 16616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-台北Hinet:16616_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-台北Hinet:16616_2_2
+    type: vmess
+    server: 120.197.85.52
+    port: 16616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-台北Hinet:16616_2_2_2
+    type: vmess
+    server: 101.67.8.203
+    port: 16616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港FDCservers:26633
+    type: vmess
+    server: 120.197.85.52
+    port: 26633
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港FDCservers:26633_2
+    type: vmess
+    server: 183.232.170.118
+    port: 26633
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港FDCservers:26633_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 26633
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HGC:16621
+    type: vmess
+    server: 116.163.31.55
+    port: 16621
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HGC:16621_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16621
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HGC:16621_2_2
+    type: vmess
+    server: 101.67.8.203
+    port: 16621
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HGC:16621_2_2_2
+    type: vmess
+    server: 120.197.85.52
+    port: 16621
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HGC:16621_2_2_2_2
+    type: vmess
+    server: 183.232.170.118
+    port: 16621
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HKBN:16622
+    type: vmess
+    server: 120.197.85.52
+    port: 16622
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HKBN:16622_2
+    type: vmess
+    server: 183.232.170.118
+    port: 16622
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HKBN:16622_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16622
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HKT:16631
+    type: vmess
+    server: 183.232.170.118
+    port: 16631
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HKT:16620
+    type: vmess
+    server: 101.67.8.203
+    port: 16620
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HKT:16620_2
+    type: vmess
+    server: 183.232.170.118
+    port: 16620
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港HKT:16620_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16620
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港NTT:16633
+    type: vmess
+    server: 183.232.170.118
+    port: 16633
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港NTT:16633_2
+    type: vmess
+    server: 120.197.85.52
+    port: 16633
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港NTT:16624
+    type: vmess
+    server: 116.163.31.55
+    port: 16624
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港NTT:16624_2
+    type: vmess
+    server: 183.232.170.118
+    port: 16624
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港NTT:16633_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16633
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港NTT:16633_2_2_2
+    type: vmess
+    server: 116.163.31.55
+    port: 16633
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港NTT:16633_2_2_2_2
+    type: vmess
+    server: 101.67.8.203
+    port: 16633
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港NTT:16624_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16624
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港NTT:16624_2_2_2
+    type: vmess
+    server: 120.197.85.52
+    port: 16624
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港有线:16634
+    type: vmess
+    server: 120.197.85.52
+    port: 16634
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mjp
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港有线:16634_2
+    type: vmess
+    server: 183.232.170.118
+    port: 16634
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mjp
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港有线:16634_2_2
+    type: vmess
+    server: 116.192.167.213
+    port: 16634
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mjp
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港有线:16634_2_2_2
+    type: vmess
+    server: 116.163.31.55
+    port: 16634
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mjp
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-香港有线:16634_2_2_2_2
+    type: vmess
+    server: 101.67.8.203
+    port: 16634
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mjp
+    ws-headers:
+      Host: t.me/vpnhat
   - name: 🇺🇸_US_美国:443
+    type: vmess
+    server: usa-sanfrancisco.lvuft.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers: null
+  - name: 🇺🇸_US_美国:443_2
+    type: vmess
+    server: 70.39.67.130
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: amu1ahfi.com
+  - name: 🇺🇸_US_美国:443_2_2
+    type: vmess
+    server: 23.82.136.151
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-miami.lvuft.com
+  - name: 🇺🇸_US_美国:443_2_2_2
     type: vmess
     server: usa-miami.lvuft.com
     port: 443
@@ -31,9 +1005,9 @@ proxies:
     ws-path: /ws
     ws-headers:
       Host: usa-miami.lvuft.com
-  - name: 🇺🇸_US_美国:443_2
+  - name: 🇺🇸_US_美国:443_2_2_2_2
     type: vmess
-    server: ua1.uuv2.co.uk
+    server: amu1ahfi.com
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
     alterId: "4"
@@ -43,8 +1017,8 @@ proxies:
     tls: true
     ws-path: /ws
     ws-headers:
-      Host: usa-dallas.lvuft.com
-  - name: 🇺🇸_US_美国:443_2_2
+      Host: amu1ahfi.com
+  - name: 🇺🇸_US_美国:443_2_2_2_2_2
     type: vmess
     server: usa-washington.lvuft.com
     port: 443
@@ -57,21 +1031,9 @@ proxies:
     ws-path: /ws
     ws-headers:
       Host: usa-washington.lvuft.com
-  - name: 🇺🇸_US_美国:443_2_2_2
+  - name: 🇺🇸_US_美国:443_2_2_2_2_2_2
     type: vmess
-    server: api.ssfree.ru
-    port: 443
-    uuid: 09664528-709c-11ec-b7a3-000017022008
-    alterId: "64"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /getweather
-    ws-headers: null
-  - name: 🇺🇸_US_美国:443_2_2_2_2
-    type: vmess
-    server: 45.58.150.130
+    server: 192.96.204.250
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
     alterId: "4"
@@ -81,7 +1043,7 @@ proxies:
     tls: true
     ws-path: /ws
     ws-headers:
-      Host: dax6ujai.com
+      Host: usa-washington.lvuft.com
   - name: 🇺🇸_US_美国->🇫🇷_FR_法国:443
     type: vmess
     server: 172.67.68.58
@@ -95,289 +1057,938 @@ proxies:
     ws-path: /shuier
     ws-headers:
       Host: xc1.v2rie.pp.ua
-  - name: 🇺🇸_US_美国:443_2_2_2_2_2
+  - name: 香港HKT@vpnpool:6622
     type: vmess
-    server: www.ltzs.buzz
-    port: 443
-    uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+    server: 203.218.244.75
+    port: 6622
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: 香港HKT@vpnpool:6622_2
+    type: vmess
+    server: 203.218.244.193
+    port: 6622
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: 香港有线@vpnpool:6616
+    type: vmess
+    server: 218.252.25.221
+    port: 6616
+    uuid: 45eb4910-49ae-4636-bc95-a9d09a2d1f7f
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /bb2b34a1
+    tls: null
+    ws-path: /mjp
     ws-headers:
-      Host: www.ltzs.buzz
-  - name: 🇺🇸_US_美国:443_2_2_2_2_2_2
-    type: vmess
-    server: 208.98.48.2
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: iesei1ei.com
-  - name: 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-    type: vmess
-    server: 172.67.197.254
-    port: 443
-    uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /bb2b34a1
-    ws-headers:
-      Host: www.ltzs.buzz
-  - name: 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-    type: vmess
-    server: usa-buffalo.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-buffalo.lvuft.com
-  - name: 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-    type: vmess
-    server: 129.227.201.234
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: aicoo6du.com
-  - name: 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-    type: vmess
-    server: usa-sanfrancisco.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers: null
-  - name: 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
-    type: vmess
-    server: 192.96.204.250
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-washington.lvuft.com
+      Host: t.me/vpnhat
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Aubervilliers-Choopa@vpnpool:6616
       - default_name:443
+      - Dusseldorf-Contabo@vpnpool:6616
+      - Istanbul-Hostigger@vpnphat:6616
+      - London-Choopa@vpnphat:6616
+      - Seattle-Contabo-nf@EXTM3U:6616
+      - SG-Linode@EXTM3U:6616
+      - vpnpool-Aubervilliers-Choopa:23383
+      - vpnpool-Aubervilliers-Choopa:23383_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+      - vpnpool-Dusseldorf-Contabo:23309
+      - vpnpool-Dusseldorf-Contabo:23309_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2_2
+      - vpnpool-Istanbul-Hostigger:16630
+      - vpnpool-Istanbul-Hostigger:16630_2
+      - vpnpool-London-Choopa:23315
+      - vpnpool-London-Choopa:23315_2
+      - vpnpool-London-Choopa:23315_2_2
+      - vpnpool-London-Choopa:23315_2_2_2
+      - vpnpool-Mumbai-Linode:16626
+      - vpnpool-Mumbai-Linode:16626_2
+      - vpnpool-Mumbai-Linode:16626_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2_2
+      - vpnpool-Penang-Tmnet:26623
+      - vpnpool-Penang-Tmnet:26623_2
+      - vpnpool-RU:16625
+      - vpnpool-Seattle-Contabo:16632
+      - vpnpool-Seattle-Contabo:16632_2
+      - vpnpool-Seattle-Contabo:16632_2_2
+      - vpnpool-Seoul-Azure:16619
+      - vpnpool-Seoul-Azure:16619_2
+      - vpnpool-Seoul-Azure:16619_2_2
+      - vpnpool-Seoul-Azure:16619_2_2_2
+      - vpnpool-SG-Contabo:16618
+      - vpnpool-SG-Contabo:16618_2
+      - vpnpool-SG-Contabo:16618_2_2
+      - vpnpool-台北Hinet:16616
+      - vpnpool-台北Hinet:16616_2
+      - vpnpool-台北Hinet:16616_2_2
+      - vpnpool-台北Hinet:16616_2_2_2
+      - vpnpool-香港FDCservers:26633
+      - vpnpool-香港FDCservers:26633_2
+      - vpnpool-香港FDCservers:26633_2_2
+      - vpnpool-香港HGC:16621
+      - vpnpool-香港HGC:16621_2
+      - vpnpool-香港HGC:16621_2_2
+      - vpnpool-香港HGC:16621_2_2_2
+      - vpnpool-香港HGC:16621_2_2_2_2
+      - vpnpool-香港HKBN:16622
+      - vpnpool-香港HKBN:16622_2
+      - vpnpool-香港HKBN:16622_2_2
+      - vpnpool-香港HKT:16631
+      - vpnpool-香港HKT:16620
+      - vpnpool-香港HKT:16620_2
+      - vpnpool-香港HKT:16620_2_2
+      - vpnpool-香港NTT:16633
+      - vpnpool-香港NTT:16633_2
+      - vpnpool-香港NTT:16624
+      - vpnpool-香港NTT:16624_2
+      - vpnpool-香港NTT:16633_2_2
+      - vpnpool-香港NTT:16633_2_2_2
+      - vpnpool-香港NTT:16633_2_2_2_2
+      - vpnpool-香港NTT:16624_2_2
+      - vpnpool-香港NTT:16624_2_2_2
+      - vpnpool-香港有线:16634
+      - vpnpool-香港有线:16634_2
+      - vpnpool-香港有线:16634_2_2
+      - vpnpool-香港有线:16634_2_2_2
+      - vpnpool-香港有线:16634_2_2_2_2
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 香港HKT@vpnpool:6622
+      - 香港HKT@vpnpool:6622_2
+      - 香港有线@vpnpool:6616
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Aubervilliers-Choopa@vpnpool:6616
       - default_name:443
+      - Dusseldorf-Contabo@vpnpool:6616
+      - Istanbul-Hostigger@vpnphat:6616
+      - London-Choopa@vpnphat:6616
+      - Seattle-Contabo-nf@EXTM3U:6616
+      - SG-Linode@EXTM3U:6616
+      - vpnpool-Aubervilliers-Choopa:23383
+      - vpnpool-Aubervilliers-Choopa:23383_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+      - vpnpool-Dusseldorf-Contabo:23309
+      - vpnpool-Dusseldorf-Contabo:23309_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2_2
+      - vpnpool-Istanbul-Hostigger:16630
+      - vpnpool-Istanbul-Hostigger:16630_2
+      - vpnpool-London-Choopa:23315
+      - vpnpool-London-Choopa:23315_2
+      - vpnpool-London-Choopa:23315_2_2
+      - vpnpool-London-Choopa:23315_2_2_2
+      - vpnpool-Mumbai-Linode:16626
+      - vpnpool-Mumbai-Linode:16626_2
+      - vpnpool-Mumbai-Linode:16626_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2_2
+      - vpnpool-Penang-Tmnet:26623
+      - vpnpool-Penang-Tmnet:26623_2
+      - vpnpool-RU:16625
+      - vpnpool-Seattle-Contabo:16632
+      - vpnpool-Seattle-Contabo:16632_2
+      - vpnpool-Seattle-Contabo:16632_2_2
+      - vpnpool-Seoul-Azure:16619
+      - vpnpool-Seoul-Azure:16619_2
+      - vpnpool-Seoul-Azure:16619_2_2
+      - vpnpool-Seoul-Azure:16619_2_2_2
+      - vpnpool-SG-Contabo:16618
+      - vpnpool-SG-Contabo:16618_2
+      - vpnpool-SG-Contabo:16618_2_2
+      - vpnpool-台北Hinet:16616
+      - vpnpool-台北Hinet:16616_2
+      - vpnpool-台北Hinet:16616_2_2
+      - vpnpool-台北Hinet:16616_2_2_2
+      - vpnpool-香港FDCservers:26633
+      - vpnpool-香港FDCservers:26633_2
+      - vpnpool-香港FDCservers:26633_2_2
+      - vpnpool-香港HGC:16621
+      - vpnpool-香港HGC:16621_2
+      - vpnpool-香港HGC:16621_2_2
+      - vpnpool-香港HGC:16621_2_2_2
+      - vpnpool-香港HGC:16621_2_2_2_2
+      - vpnpool-香港HKBN:16622
+      - vpnpool-香港HKBN:16622_2
+      - vpnpool-香港HKBN:16622_2_2
+      - vpnpool-香港HKT:16631
+      - vpnpool-香港HKT:16620
+      - vpnpool-香港HKT:16620_2
+      - vpnpool-香港HKT:16620_2_2
+      - vpnpool-香港NTT:16633
+      - vpnpool-香港NTT:16633_2
+      - vpnpool-香港NTT:16624
+      - vpnpool-香港NTT:16624_2
+      - vpnpool-香港NTT:16633_2_2
+      - vpnpool-香港NTT:16633_2_2_2
+      - vpnpool-香港NTT:16633_2_2_2_2
+      - vpnpool-香港NTT:16624_2_2
+      - vpnpool-香港NTT:16624_2_2_2
+      - vpnpool-香港有线:16634
+      - vpnpool-香港有线:16634_2
+      - vpnpool-香港有线:16634_2_2
+      - vpnpool-香港有线:16634_2_2_2
+      - vpnpool-香港有线:16634_2_2_2_2
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 香港HKT@vpnpool:6622
+      - 香港HKT@vpnpool:6622_2
+      - 香港有线@vpnpool:6616
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Aubervilliers-Choopa@vpnpool:6616
       - default_name:443
+      - Dusseldorf-Contabo@vpnpool:6616
+      - Istanbul-Hostigger@vpnphat:6616
+      - London-Choopa@vpnphat:6616
+      - Seattle-Contabo-nf@EXTM3U:6616
+      - SG-Linode@EXTM3U:6616
+      - vpnpool-Aubervilliers-Choopa:23383
+      - vpnpool-Aubervilliers-Choopa:23383_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+      - vpnpool-Dusseldorf-Contabo:23309
+      - vpnpool-Dusseldorf-Contabo:23309_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2_2
+      - vpnpool-Istanbul-Hostigger:16630
+      - vpnpool-Istanbul-Hostigger:16630_2
+      - vpnpool-London-Choopa:23315
+      - vpnpool-London-Choopa:23315_2
+      - vpnpool-London-Choopa:23315_2_2
+      - vpnpool-London-Choopa:23315_2_2_2
+      - vpnpool-Mumbai-Linode:16626
+      - vpnpool-Mumbai-Linode:16626_2
+      - vpnpool-Mumbai-Linode:16626_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2_2
+      - vpnpool-Penang-Tmnet:26623
+      - vpnpool-Penang-Tmnet:26623_2
+      - vpnpool-RU:16625
+      - vpnpool-Seattle-Contabo:16632
+      - vpnpool-Seattle-Contabo:16632_2
+      - vpnpool-Seattle-Contabo:16632_2_2
+      - vpnpool-Seoul-Azure:16619
+      - vpnpool-Seoul-Azure:16619_2
+      - vpnpool-Seoul-Azure:16619_2_2
+      - vpnpool-Seoul-Azure:16619_2_2_2
+      - vpnpool-SG-Contabo:16618
+      - vpnpool-SG-Contabo:16618_2
+      - vpnpool-SG-Contabo:16618_2_2
+      - vpnpool-台北Hinet:16616
+      - vpnpool-台北Hinet:16616_2
+      - vpnpool-台北Hinet:16616_2_2
+      - vpnpool-台北Hinet:16616_2_2_2
+      - vpnpool-香港FDCservers:26633
+      - vpnpool-香港FDCservers:26633_2
+      - vpnpool-香港FDCservers:26633_2_2
+      - vpnpool-香港HGC:16621
+      - vpnpool-香港HGC:16621_2
+      - vpnpool-香港HGC:16621_2_2
+      - vpnpool-香港HGC:16621_2_2_2
+      - vpnpool-香港HGC:16621_2_2_2_2
+      - vpnpool-香港HKBN:16622
+      - vpnpool-香港HKBN:16622_2
+      - vpnpool-香港HKBN:16622_2_2
+      - vpnpool-香港HKT:16631
+      - vpnpool-香港HKT:16620
+      - vpnpool-香港HKT:16620_2
+      - vpnpool-香港HKT:16620_2_2
+      - vpnpool-香港NTT:16633
+      - vpnpool-香港NTT:16633_2
+      - vpnpool-香港NTT:16624
+      - vpnpool-香港NTT:16624_2
+      - vpnpool-香港NTT:16633_2_2
+      - vpnpool-香港NTT:16633_2_2_2
+      - vpnpool-香港NTT:16633_2_2_2_2
+      - vpnpool-香港NTT:16624_2_2
+      - vpnpool-香港NTT:16624_2_2_2
+      - vpnpool-香港有线:16634
+      - vpnpool-香港有线:16634_2
+      - vpnpool-香港有线:16634_2_2
+      - vpnpool-香港有线:16634_2_2_2
+      - vpnpool-香港有线:16634_2_2_2_2
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 香港HKT@vpnpool:6622
+      - 香港HKT@vpnpool:6622_2
+      - 香港有线@vpnpool:6616
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Aubervilliers-Choopa@vpnpool:6616
       - default_name:443
+      - Dusseldorf-Contabo@vpnpool:6616
+      - Istanbul-Hostigger@vpnphat:6616
+      - London-Choopa@vpnphat:6616
+      - Seattle-Contabo-nf@EXTM3U:6616
+      - SG-Linode@EXTM3U:6616
+      - vpnpool-Aubervilliers-Choopa:23383
+      - vpnpool-Aubervilliers-Choopa:23383_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+      - vpnpool-Dusseldorf-Contabo:23309
+      - vpnpool-Dusseldorf-Contabo:23309_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2_2
+      - vpnpool-Istanbul-Hostigger:16630
+      - vpnpool-Istanbul-Hostigger:16630_2
+      - vpnpool-London-Choopa:23315
+      - vpnpool-London-Choopa:23315_2
+      - vpnpool-London-Choopa:23315_2_2
+      - vpnpool-London-Choopa:23315_2_2_2
+      - vpnpool-Mumbai-Linode:16626
+      - vpnpool-Mumbai-Linode:16626_2
+      - vpnpool-Mumbai-Linode:16626_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2_2
+      - vpnpool-Penang-Tmnet:26623
+      - vpnpool-Penang-Tmnet:26623_2
+      - vpnpool-RU:16625
+      - vpnpool-Seattle-Contabo:16632
+      - vpnpool-Seattle-Contabo:16632_2
+      - vpnpool-Seattle-Contabo:16632_2_2
+      - vpnpool-Seoul-Azure:16619
+      - vpnpool-Seoul-Azure:16619_2
+      - vpnpool-Seoul-Azure:16619_2_2
+      - vpnpool-Seoul-Azure:16619_2_2_2
+      - vpnpool-SG-Contabo:16618
+      - vpnpool-SG-Contabo:16618_2
+      - vpnpool-SG-Contabo:16618_2_2
+      - vpnpool-台北Hinet:16616
+      - vpnpool-台北Hinet:16616_2
+      - vpnpool-台北Hinet:16616_2_2
+      - vpnpool-台北Hinet:16616_2_2_2
+      - vpnpool-香港FDCservers:26633
+      - vpnpool-香港FDCservers:26633_2
+      - vpnpool-香港FDCservers:26633_2_2
+      - vpnpool-香港HGC:16621
+      - vpnpool-香港HGC:16621_2
+      - vpnpool-香港HGC:16621_2_2
+      - vpnpool-香港HGC:16621_2_2_2
+      - vpnpool-香港HGC:16621_2_2_2_2
+      - vpnpool-香港HKBN:16622
+      - vpnpool-香港HKBN:16622_2
+      - vpnpool-香港HKBN:16622_2_2
+      - vpnpool-香港HKT:16631
+      - vpnpool-香港HKT:16620
+      - vpnpool-香港HKT:16620_2
+      - vpnpool-香港HKT:16620_2_2
+      - vpnpool-香港NTT:16633
+      - vpnpool-香港NTT:16633_2
+      - vpnpool-香港NTT:16624
+      - vpnpool-香港NTT:16624_2
+      - vpnpool-香港NTT:16633_2_2
+      - vpnpool-香港NTT:16633_2_2_2
+      - vpnpool-香港NTT:16633_2_2_2_2
+      - vpnpool-香港NTT:16624_2_2
+      - vpnpool-香港NTT:16624_2_2_2
+      - vpnpool-香港有线:16634
+      - vpnpool-香港有线:16634_2
+      - vpnpool-香港有线:16634_2_2
+      - vpnpool-香港有线:16634_2_2_2
+      - vpnpool-香港有线:16634_2_2_2_2
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 香港HKT@vpnpool:6622
+      - 香港HKT@vpnpool:6622_2
+      - 香港有线@vpnpool:6616
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Aubervilliers-Choopa@vpnpool:6616
       - default_name:443
+      - Dusseldorf-Contabo@vpnpool:6616
+      - Istanbul-Hostigger@vpnphat:6616
+      - London-Choopa@vpnphat:6616
+      - Seattle-Contabo-nf@EXTM3U:6616
+      - SG-Linode@EXTM3U:6616
+      - vpnpool-Aubervilliers-Choopa:23383
+      - vpnpool-Aubervilliers-Choopa:23383_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+      - vpnpool-Dusseldorf-Contabo:23309
+      - vpnpool-Dusseldorf-Contabo:23309_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2_2
+      - vpnpool-Istanbul-Hostigger:16630
+      - vpnpool-Istanbul-Hostigger:16630_2
+      - vpnpool-London-Choopa:23315
+      - vpnpool-London-Choopa:23315_2
+      - vpnpool-London-Choopa:23315_2_2
+      - vpnpool-London-Choopa:23315_2_2_2
+      - vpnpool-Mumbai-Linode:16626
+      - vpnpool-Mumbai-Linode:16626_2
+      - vpnpool-Mumbai-Linode:16626_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2_2
+      - vpnpool-Penang-Tmnet:26623
+      - vpnpool-Penang-Tmnet:26623_2
+      - vpnpool-RU:16625
+      - vpnpool-Seattle-Contabo:16632
+      - vpnpool-Seattle-Contabo:16632_2
+      - vpnpool-Seattle-Contabo:16632_2_2
+      - vpnpool-Seoul-Azure:16619
+      - vpnpool-Seoul-Azure:16619_2
+      - vpnpool-Seoul-Azure:16619_2_2
+      - vpnpool-Seoul-Azure:16619_2_2_2
+      - vpnpool-SG-Contabo:16618
+      - vpnpool-SG-Contabo:16618_2
+      - vpnpool-SG-Contabo:16618_2_2
+      - vpnpool-台北Hinet:16616
+      - vpnpool-台北Hinet:16616_2
+      - vpnpool-台北Hinet:16616_2_2
+      - vpnpool-台北Hinet:16616_2_2_2
+      - vpnpool-香港FDCservers:26633
+      - vpnpool-香港FDCservers:26633_2
+      - vpnpool-香港FDCservers:26633_2_2
+      - vpnpool-香港HGC:16621
+      - vpnpool-香港HGC:16621_2
+      - vpnpool-香港HGC:16621_2_2
+      - vpnpool-香港HGC:16621_2_2_2
+      - vpnpool-香港HGC:16621_2_2_2_2
+      - vpnpool-香港HKBN:16622
+      - vpnpool-香港HKBN:16622_2
+      - vpnpool-香港HKBN:16622_2_2
+      - vpnpool-香港HKT:16631
+      - vpnpool-香港HKT:16620
+      - vpnpool-香港HKT:16620_2
+      - vpnpool-香港HKT:16620_2_2
+      - vpnpool-香港NTT:16633
+      - vpnpool-香港NTT:16633_2
+      - vpnpool-香港NTT:16624
+      - vpnpool-香港NTT:16624_2
+      - vpnpool-香港NTT:16633_2_2
+      - vpnpool-香港NTT:16633_2_2_2
+      - vpnpool-香港NTT:16633_2_2_2_2
+      - vpnpool-香港NTT:16624_2_2
+      - vpnpool-香港NTT:16624_2_2_2
+      - vpnpool-香港有线:16634
+      - vpnpool-香港有线:16634_2
+      - vpnpool-香港有线:16634_2_2
+      - vpnpool-香港有线:16634_2_2_2
+      - vpnpool-香港有线:16634_2_2_2_2
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 香港HKT@vpnpool:6622
+      - 香港HKT@vpnpool:6622_2
+      - 香港有线@vpnpool:6616
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Aubervilliers-Choopa@vpnpool:6616
       - default_name:443
+      - Dusseldorf-Contabo@vpnpool:6616
+      - Istanbul-Hostigger@vpnphat:6616
+      - London-Choopa@vpnphat:6616
+      - Seattle-Contabo-nf@EXTM3U:6616
+      - SG-Linode@EXTM3U:6616
+      - vpnpool-Aubervilliers-Choopa:23383
+      - vpnpool-Aubervilliers-Choopa:23383_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+      - vpnpool-Dusseldorf-Contabo:23309
+      - vpnpool-Dusseldorf-Contabo:23309_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2_2
+      - vpnpool-Istanbul-Hostigger:16630
+      - vpnpool-Istanbul-Hostigger:16630_2
+      - vpnpool-London-Choopa:23315
+      - vpnpool-London-Choopa:23315_2
+      - vpnpool-London-Choopa:23315_2_2
+      - vpnpool-London-Choopa:23315_2_2_2
+      - vpnpool-Mumbai-Linode:16626
+      - vpnpool-Mumbai-Linode:16626_2
+      - vpnpool-Mumbai-Linode:16626_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2_2
+      - vpnpool-Penang-Tmnet:26623
+      - vpnpool-Penang-Tmnet:26623_2
+      - vpnpool-RU:16625
+      - vpnpool-Seattle-Contabo:16632
+      - vpnpool-Seattle-Contabo:16632_2
+      - vpnpool-Seattle-Contabo:16632_2_2
+      - vpnpool-Seoul-Azure:16619
+      - vpnpool-Seoul-Azure:16619_2
+      - vpnpool-Seoul-Azure:16619_2_2
+      - vpnpool-Seoul-Azure:16619_2_2_2
+      - vpnpool-SG-Contabo:16618
+      - vpnpool-SG-Contabo:16618_2
+      - vpnpool-SG-Contabo:16618_2_2
+      - vpnpool-台北Hinet:16616
+      - vpnpool-台北Hinet:16616_2
+      - vpnpool-台北Hinet:16616_2_2
+      - vpnpool-台北Hinet:16616_2_2_2
+      - vpnpool-香港FDCservers:26633
+      - vpnpool-香港FDCservers:26633_2
+      - vpnpool-香港FDCservers:26633_2_2
+      - vpnpool-香港HGC:16621
+      - vpnpool-香港HGC:16621_2
+      - vpnpool-香港HGC:16621_2_2
+      - vpnpool-香港HGC:16621_2_2_2
+      - vpnpool-香港HGC:16621_2_2_2_2
+      - vpnpool-香港HKBN:16622
+      - vpnpool-香港HKBN:16622_2
+      - vpnpool-香港HKBN:16622_2_2
+      - vpnpool-香港HKT:16631
+      - vpnpool-香港HKT:16620
+      - vpnpool-香港HKT:16620_2
+      - vpnpool-香港HKT:16620_2_2
+      - vpnpool-香港NTT:16633
+      - vpnpool-香港NTT:16633_2
+      - vpnpool-香港NTT:16624
+      - vpnpool-香港NTT:16624_2
+      - vpnpool-香港NTT:16633_2_2
+      - vpnpool-香港NTT:16633_2_2_2
+      - vpnpool-香港NTT:16633_2_2_2_2
+      - vpnpool-香港NTT:16624_2_2
+      - vpnpool-香港NTT:16624_2_2_2
+      - vpnpool-香港有线:16634
+      - vpnpool-香港有线:16634_2
+      - vpnpool-香港有线:16634_2_2
+      - vpnpool-香港有线:16634_2_2_2
+      - vpnpool-香港有线:16634_2_2_2_2
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 香港HKT@vpnpool:6622
+      - 香港HKT@vpnpool:6622_2
+      - 香港有线@vpnpool:6616
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
+      - Aubervilliers-Choopa@vpnpool:6616
       - default_name:443
+      - Dusseldorf-Contabo@vpnpool:6616
+      - Istanbul-Hostigger@vpnphat:6616
+      - London-Choopa@vpnphat:6616
+      - Seattle-Contabo-nf@EXTM3U:6616
+      - SG-Linode@EXTM3U:6616
+      - vpnpool-Aubervilliers-Choopa:23383
+      - vpnpool-Aubervilliers-Choopa:23383_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+      - vpnpool-Dusseldorf-Contabo:23309
+      - vpnpool-Dusseldorf-Contabo:23309_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2_2
+      - vpnpool-Istanbul-Hostigger:16630
+      - vpnpool-Istanbul-Hostigger:16630_2
+      - vpnpool-London-Choopa:23315
+      - vpnpool-London-Choopa:23315_2
+      - vpnpool-London-Choopa:23315_2_2
+      - vpnpool-London-Choopa:23315_2_2_2
+      - vpnpool-Mumbai-Linode:16626
+      - vpnpool-Mumbai-Linode:16626_2
+      - vpnpool-Mumbai-Linode:16626_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2_2
+      - vpnpool-Penang-Tmnet:26623
+      - vpnpool-Penang-Tmnet:26623_2
+      - vpnpool-RU:16625
+      - vpnpool-Seattle-Contabo:16632
+      - vpnpool-Seattle-Contabo:16632_2
+      - vpnpool-Seattle-Contabo:16632_2_2
+      - vpnpool-Seoul-Azure:16619
+      - vpnpool-Seoul-Azure:16619_2
+      - vpnpool-Seoul-Azure:16619_2_2
+      - vpnpool-Seoul-Azure:16619_2_2_2
+      - vpnpool-SG-Contabo:16618
+      - vpnpool-SG-Contabo:16618_2
+      - vpnpool-SG-Contabo:16618_2_2
+      - vpnpool-台北Hinet:16616
+      - vpnpool-台北Hinet:16616_2
+      - vpnpool-台北Hinet:16616_2_2
+      - vpnpool-台北Hinet:16616_2_2_2
+      - vpnpool-香港FDCservers:26633
+      - vpnpool-香港FDCservers:26633_2
+      - vpnpool-香港FDCservers:26633_2_2
+      - vpnpool-香港HGC:16621
+      - vpnpool-香港HGC:16621_2
+      - vpnpool-香港HGC:16621_2_2
+      - vpnpool-香港HGC:16621_2_2_2
+      - vpnpool-香港HGC:16621_2_2_2_2
+      - vpnpool-香港HKBN:16622
+      - vpnpool-香港HKBN:16622_2
+      - vpnpool-香港HKBN:16622_2_2
+      - vpnpool-香港HKT:16631
+      - vpnpool-香港HKT:16620
+      - vpnpool-香港HKT:16620_2
+      - vpnpool-香港HKT:16620_2_2
+      - vpnpool-香港NTT:16633
+      - vpnpool-香港NTT:16633_2
+      - vpnpool-香港NTT:16624
+      - vpnpool-香港NTT:16624_2
+      - vpnpool-香港NTT:16633_2_2
+      - vpnpool-香港NTT:16633_2_2_2
+      - vpnpool-香港NTT:16633_2_2_2_2
+      - vpnpool-香港NTT:16624_2_2
+      - vpnpool-香港NTT:16624_2_2_2
+      - vpnpool-香港有线:16634
+      - vpnpool-香港有线:16634_2
+      - vpnpool-香港有线:16634_2_2
+      - vpnpool-香港有线:16634_2_2_2
+      - vpnpool-香港有线:16634_2_2_2_2
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 香港HKT@vpnpool:6622
+      - 香港HKT@vpnpool:6622_2
+      - 香港有线@vpnpool:6616
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
+      - Aubervilliers-Choopa@vpnpool:6616
       - default_name:443
+      - Dusseldorf-Contabo@vpnpool:6616
+      - Istanbul-Hostigger@vpnphat:6616
+      - London-Choopa@vpnphat:6616
+      - Seattle-Contabo-nf@EXTM3U:6616
+      - SG-Linode@EXTM3U:6616
+      - vpnpool-Aubervilliers-Choopa:23383
+      - vpnpool-Aubervilliers-Choopa:23383_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+      - vpnpool-Dusseldorf-Contabo:23309
+      - vpnpool-Dusseldorf-Contabo:23309_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2_2
+      - vpnpool-Istanbul-Hostigger:16630
+      - vpnpool-Istanbul-Hostigger:16630_2
+      - vpnpool-London-Choopa:23315
+      - vpnpool-London-Choopa:23315_2
+      - vpnpool-London-Choopa:23315_2_2
+      - vpnpool-London-Choopa:23315_2_2_2
+      - vpnpool-Mumbai-Linode:16626
+      - vpnpool-Mumbai-Linode:16626_2
+      - vpnpool-Mumbai-Linode:16626_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2_2
+      - vpnpool-Penang-Tmnet:26623
+      - vpnpool-Penang-Tmnet:26623_2
+      - vpnpool-RU:16625
+      - vpnpool-Seattle-Contabo:16632
+      - vpnpool-Seattle-Contabo:16632_2
+      - vpnpool-Seattle-Contabo:16632_2_2
+      - vpnpool-Seoul-Azure:16619
+      - vpnpool-Seoul-Azure:16619_2
+      - vpnpool-Seoul-Azure:16619_2_2
+      - vpnpool-Seoul-Azure:16619_2_2_2
+      - vpnpool-SG-Contabo:16618
+      - vpnpool-SG-Contabo:16618_2
+      - vpnpool-SG-Contabo:16618_2_2
+      - vpnpool-台北Hinet:16616
+      - vpnpool-台北Hinet:16616_2
+      - vpnpool-台北Hinet:16616_2_2
+      - vpnpool-台北Hinet:16616_2_2_2
+      - vpnpool-香港FDCservers:26633
+      - vpnpool-香港FDCservers:26633_2
+      - vpnpool-香港FDCservers:26633_2_2
+      - vpnpool-香港HGC:16621
+      - vpnpool-香港HGC:16621_2
+      - vpnpool-香港HGC:16621_2_2
+      - vpnpool-香港HGC:16621_2_2_2
+      - vpnpool-香港HGC:16621_2_2_2_2
+      - vpnpool-香港HKBN:16622
+      - vpnpool-香港HKBN:16622_2
+      - vpnpool-香港HKBN:16622_2_2
+      - vpnpool-香港HKT:16631
+      - vpnpool-香港HKT:16620
+      - vpnpool-香港HKT:16620_2
+      - vpnpool-香港HKT:16620_2_2
+      - vpnpool-香港NTT:16633
+      - vpnpool-香港NTT:16633_2
+      - vpnpool-香港NTT:16624
+      - vpnpool-香港NTT:16624_2
+      - vpnpool-香港NTT:16633_2_2
+      - vpnpool-香港NTT:16633_2_2_2
+      - vpnpool-香港NTT:16633_2_2_2_2
+      - vpnpool-香港NTT:16624_2_2
+      - vpnpool-香港NTT:16624_2_2_2
+      - vpnpool-香港有线:16634
+      - vpnpool-香港有线:16634_2
+      - vpnpool-香港有线:16634_2_2
+      - vpnpool-香港有线:16634_2_2_2
+      - vpnpool-香港有线:16634_2_2_2_2
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 香港HKT@vpnpool:6622
+      - 香港HKT@vpnpool:6622_2
+      - 香港有线@vpnpool:6616
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
+      - Aubervilliers-Choopa@vpnpool:6616
       - default_name:443
+      - Dusseldorf-Contabo@vpnpool:6616
+      - Istanbul-Hostigger@vpnphat:6616
+      - London-Choopa@vpnphat:6616
+      - Seattle-Contabo-nf@EXTM3U:6616
+      - SG-Linode@EXTM3U:6616
+      - vpnpool-Aubervilliers-Choopa:23383
+      - vpnpool-Aubervilliers-Choopa:23383_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+      - vpnpool-Dusseldorf-Contabo:23309
+      - vpnpool-Dusseldorf-Contabo:23309_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2_2
+      - vpnpool-Istanbul-Hostigger:16630
+      - vpnpool-Istanbul-Hostigger:16630_2
+      - vpnpool-London-Choopa:23315
+      - vpnpool-London-Choopa:23315_2
+      - vpnpool-London-Choopa:23315_2_2
+      - vpnpool-London-Choopa:23315_2_2_2
+      - vpnpool-Mumbai-Linode:16626
+      - vpnpool-Mumbai-Linode:16626_2
+      - vpnpool-Mumbai-Linode:16626_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2_2
+      - vpnpool-Penang-Tmnet:26623
+      - vpnpool-Penang-Tmnet:26623_2
+      - vpnpool-RU:16625
+      - vpnpool-Seattle-Contabo:16632
+      - vpnpool-Seattle-Contabo:16632_2
+      - vpnpool-Seattle-Contabo:16632_2_2
+      - vpnpool-Seoul-Azure:16619
+      - vpnpool-Seoul-Azure:16619_2
+      - vpnpool-Seoul-Azure:16619_2_2
+      - vpnpool-Seoul-Azure:16619_2_2_2
+      - vpnpool-SG-Contabo:16618
+      - vpnpool-SG-Contabo:16618_2
+      - vpnpool-SG-Contabo:16618_2_2
+      - vpnpool-台北Hinet:16616
+      - vpnpool-台北Hinet:16616_2
+      - vpnpool-台北Hinet:16616_2_2
+      - vpnpool-台北Hinet:16616_2_2_2
+      - vpnpool-香港FDCservers:26633
+      - vpnpool-香港FDCservers:26633_2
+      - vpnpool-香港FDCservers:26633_2_2
+      - vpnpool-香港HGC:16621
+      - vpnpool-香港HGC:16621_2
+      - vpnpool-香港HGC:16621_2_2
+      - vpnpool-香港HGC:16621_2_2_2
+      - vpnpool-香港HGC:16621_2_2_2_2
+      - vpnpool-香港HKBN:16622
+      - vpnpool-香港HKBN:16622_2
+      - vpnpool-香港HKBN:16622_2_2
+      - vpnpool-香港HKT:16631
+      - vpnpool-香港HKT:16620
+      - vpnpool-香港HKT:16620_2
+      - vpnpool-香港HKT:16620_2_2
+      - vpnpool-香港NTT:16633
+      - vpnpool-香港NTT:16633_2
+      - vpnpool-香港NTT:16624
+      - vpnpool-香港NTT:16624_2
+      - vpnpool-香港NTT:16633_2_2
+      - vpnpool-香港NTT:16633_2_2_2
+      - vpnpool-香港NTT:16633_2_2_2_2
+      - vpnpool-香港NTT:16624_2_2
+      - vpnpool-香港NTT:16624_2_2_2
+      - vpnpool-香港有线:16634
+      - vpnpool-香港有线:16634_2
+      - vpnpool-香港有线:16634_2_2
+      - vpnpool-香港有线:16634_2_2_2
+      - vpnpool-香港有线:16634_2_2_2_2
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 香港HKT@vpnpool:6622
+      - 香港HKT@vpnpool:6622_2
+      - 香港有线@vpnpool:6616
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Aubervilliers-Choopa@vpnpool:6616
       - default_name:443
+      - Dusseldorf-Contabo@vpnpool:6616
+      - Istanbul-Hostigger@vpnphat:6616
+      - London-Choopa@vpnphat:6616
+      - Seattle-Contabo-nf@EXTM3U:6616
+      - SG-Linode@EXTM3U:6616
+      - vpnpool-Aubervilliers-Choopa:23383
+      - vpnpool-Aubervilliers-Choopa:23383_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2
+      - vpnpool-Aubervilliers-Choopa:23383_2_2_2_2
+      - vpnpool-Dusseldorf-Contabo:23309
+      - vpnpool-Dusseldorf-Contabo:23309_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2
+      - vpnpool-Dusseldorf-Contabo:23309_2_2_2
+      - vpnpool-Istanbul-Hostigger:16630
+      - vpnpool-Istanbul-Hostigger:16630_2
+      - vpnpool-London-Choopa:23315
+      - vpnpool-London-Choopa:23315_2
+      - vpnpool-London-Choopa:23315_2_2
+      - vpnpool-London-Choopa:23315_2_2_2
+      - vpnpool-Mumbai-Linode:16626
+      - vpnpool-Mumbai-Linode:16626_2
+      - vpnpool-Mumbai-Linode:16626_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2
+      - vpnpool-Mumbai-Linode:16626_2_2_2_2
+      - vpnpool-Penang-Tmnet:26623
+      - vpnpool-Penang-Tmnet:26623_2
+      - vpnpool-RU:16625
+      - vpnpool-Seattle-Contabo:16632
+      - vpnpool-Seattle-Contabo:16632_2
+      - vpnpool-Seattle-Contabo:16632_2_2
+      - vpnpool-Seoul-Azure:16619
+      - vpnpool-Seoul-Azure:16619_2
+      - vpnpool-Seoul-Azure:16619_2_2
+      - vpnpool-Seoul-Azure:16619_2_2_2
+      - vpnpool-SG-Contabo:16618
+      - vpnpool-SG-Contabo:16618_2
+      - vpnpool-SG-Contabo:16618_2_2
+      - vpnpool-台北Hinet:16616
+      - vpnpool-台北Hinet:16616_2
+      - vpnpool-台北Hinet:16616_2_2
+      - vpnpool-台北Hinet:16616_2_2_2
+      - vpnpool-香港FDCservers:26633
+      - vpnpool-香港FDCservers:26633_2
+      - vpnpool-香港FDCservers:26633_2_2
+      - vpnpool-香港HGC:16621
+      - vpnpool-香港HGC:16621_2
+      - vpnpool-香港HGC:16621_2_2
+      - vpnpool-香港HGC:16621_2_2_2
+      - vpnpool-香港HGC:16621_2_2_2_2
+      - vpnpool-香港HKBN:16622
+      - vpnpool-香港HKBN:16622_2
+      - vpnpool-香港HKBN:16622_2_2
+      - vpnpool-香港HKT:16631
+      - vpnpool-香港HKT:16620
+      - vpnpool-香港HKT:16620_2
+      - vpnpool-香港HKT:16620_2_2
+      - vpnpool-香港NTT:16633
+      - vpnpool-香港NTT:16633_2
+      - vpnpool-香港NTT:16624
+      - vpnpool-香港NTT:16624_2
+      - vpnpool-香港NTT:16633_2_2
+      - vpnpool-香港NTT:16633_2_2_2
+      - vpnpool-香港NTT:16633_2_2_2_2
+      - vpnpool-香港NTT:16624_2_2
+      - vpnpool-香港NTT:16624_2_2_2
+      - vpnpool-香港有线:16634
+      - vpnpool-香港有线:16634_2
+      - vpnpool-香港有线:16634_2_2
+      - vpnpool-香港有线:16634_2_2_2
+      - vpnpool-香港有线:16634_2_2_2_2
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2
-      - 🇭🇰_HK_香港->🇮🇳_IN_印度:443
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2_2_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 香港HKT@vpnpool:6622
+      - 香港HKT@vpnpool:6622_2
+      - 香港有线@vpnpool:6616
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
