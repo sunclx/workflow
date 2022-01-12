@@ -5,9 +5,22 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: Osaka-IT7:52593
+    type: vmess
+    server: 192.243.120.45
+    port: 52593
+    uuid: e8947ce2-21f5-4daa-80ef-6ba42b0f7ed6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: t.me/vpnpool
+    ws-headers:
+      Host: t.me/vpnhat
   - name: 🇺🇸_US_美国:443
     type: vmess
-    server: usa-sanfrancisco.lvuft.com
+    server: 209.58.139.41
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
     alterId: "4"
@@ -16,10 +29,11 @@ proxies:
     network: ws
     tls: true
     ws-path: /ws
-    ws-headers: null
+    ws-headers:
+      Host: usa-sanfrancisco.lvuft.com
   - name: 🇺🇸_US_美国:443_2
     type: vmess
-    server: ua1.uuv2.co.uk
+    server: 45.35.84.162
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
     alterId: "4"
@@ -30,6 +44,19 @@ proxies:
     ws-path: /ws
     ws-headers:
       Host: usa-dallas.lvuft.com
+  - name: LAX-IT7:52593
+    type: vmess
+    server: 216.24.178.62
+    port: 52593
+    uuid: e8947ce2-21f5-4daa-80ef-6ba42b0f7ed6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: t.me/vpnpool
+    ws-headers:
+      Host: t.me/vpnhat
   - name: 🇺🇸_US_美国:443_2_2
     type: vmess
     server: 208.98.48.2
@@ -45,7 +72,7 @@ proxies:
       Host: iesei1ei.com
   - name: 🇺🇸_US_美国:443_2_2_2
     type: vmess
-    server: 45.58.150.130
+    server: 23.82.136.151
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
     alterId: "4"
@@ -55,7 +82,20 @@ proxies:
     tls: true
     ws-path: /ws
     ws-headers:
-      Host: dax6ujai.com
+      Host: usa-miami.lvuft.com
+  - name: Amsterdam-Fiber:52593
+    type: vmess
+    server: 104.245.96.88
+    port: 52593
+    uuid: e8947ce2-21f5-4daa-80ef-6ba42b0f7ed6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: t.me/vpnpool
+    ws-headers:
+      Host: t.me/vpnhat
   - name: 🇺🇸_US_美国->🇫🇷_FR_法国:443
     type: vmess
     server: 172.67.68.58
@@ -71,32 +111,6 @@ proxies:
       Host: xc1.v2rie.pp.ua
   - name: 🇺🇸_US_美国:443_2_2_2_2
     type: vmess
-    server: usa-buffalo.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-buffalo.lvuft.com
-  - name: 🇺🇸_US_美国:443_2_2_2_2_2
-    type: vmess
-    server: www.ltzs.buzz
-    port: 443
-    uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /bb2b34a1
-    ws-headers:
-      Host: www.ltzs.buzz
-  - name: 🇺🇸_US_美国:443_2_2_2_2_2_2
-    type: vmess
     server: 192.96.204.250
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -108,162 +122,172 @@ proxies:
     ws-path: /ws
     ws-headers:
       Host: usa-washington.lvuft.com
-  - name: 🇺🇸_US_美国:443_2_2_2_2_2_2_2
+  - name: 🇺🇸_US_美国:443_2_2_2_2_2
     type: vmess
-    server: 172.67.197.254
+    server: usa-washington.lvuft.com
     port: 443
-    uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
-    alterId: "0"
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /bb2b34a1
+    ws-path: /ws
     ws-headers:
-      Host: www.ltzs.buzz
+      Host: usa-washington.lvuft.com
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Osaka-IT7:52593
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
+      - LAX-IT7:52593
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
+      - Amsterdam-Fiber:52593
       - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Osaka-IT7:52593
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
+      - LAX-IT7:52593
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
+      - Amsterdam-Fiber:52593
       - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Osaka-IT7:52593
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
+      - LAX-IT7:52593
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
+      - Amsterdam-Fiber:52593
       - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Osaka-IT7:52593
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
+      - LAX-IT7:52593
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
+      - Amsterdam-Fiber:52593
       - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Osaka-IT7:52593
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
+      - LAX-IT7:52593
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
+      - Amsterdam-Fiber:52593
       - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Osaka-IT7:52593
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
+      - LAX-IT7:52593
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
+      - Amsterdam-Fiber:52593
       - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
+      - Osaka-IT7:52593
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
+      - LAX-IT7:52593
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
+      - Amsterdam-Fiber:52593
       - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
+      - Osaka-IT7:52593
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
+      - LAX-IT7:52593
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
+      - Amsterdam-Fiber:52593
       - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
+      - Osaka-IT7:52593
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
+      - LAX-IT7:52593
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
+      - Amsterdam-Fiber:52593
       - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Osaka-IT7:52593
       - 🇺🇸_US_美国:443
       - 🇺🇸_US_美国:443_2
+      - LAX-IT7:52593
       - 🇺🇸_US_美国:443_2_2
       - 🇺🇸_US_美国:443_2_2_2
+      - Amsterdam-Fiber:52593
       - 🇺🇸_US_美国->🇫🇷_FR_法国:443
       - 🇺🇸_US_美国:443_2_2_2_2
       - 🇺🇸_US_美国:443_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2_2_2_2_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
