@@ -5,6 +5,212 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - name: V2-台湾06 大带宽 中继D 2x_100:64075
+    type: vmess
+    server: 183.232.56.187
+    port: 64075
+    uuid: 55c2178c-bc0c-3d84-9295-8bac798b76b7
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 183.232.56.187
+  - name: V1-俄罗斯01 中继D 1.2x_8:64071
+    type: vmess
+    server: 40.72.176.2
+    port: 64071
+    uuid: 55c2178c-bc0c-3d84-9295-8bac798b76b7
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 40.72.176.2
+  - name: default_name:443
+    type: vmess
+    server: 198.41.212.18
+    port: 443
+    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /sakura/
+    ws-headers:
+      Host: zero1.a-yu.xyz
+  - name: V1-俄罗斯01 中继A 1.2x_5:64071
+    type: vmess
+    server: 120.232.41.242
+    port: 64071
+    uuid: 55c2178c-bc0c-3d84-9295-8bac798b76b7
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 120.232.41.242
+  - name: default_name:443_2
+    type: vmess
+    server: 198.41.212.8
+    port: 443
+    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /sakura/
+    ws-headers:
+      Host: zero1.a-yu.xyz
+  - name: default_name:443_2_2
+    type: vmess
+    server: 198.41.212.9
+    port: 443
+    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /sakura/
+    ws-headers:
+      Host: zero1.a-yu.xyz
+  - name: V2-台湾06 大带宽 中继C 2x_38:64075
+    type: vmess
+    server: 183.232.56.189
+    port: 64075
+    uuid: 55c2178c-bc0c-3d84-9295-8bac798b76b7
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 183.232.56.189
+  - name: default_name:443_2_2_2
+    type: vmess
+    server: 198.41.221.169
+    port: 443
+    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /sakura/
+    ws-headers:
+      Host: zero1.a-yu.xyz
+  - name: 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+    type: vmess
+    server: rb1.moonfree.top
+    port: 8443
+    uuid: f1533fd1-4562-4935-a1e6-832685d4a919
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: rb.moonfree.top
+  - name: V2-台湾06 大带宽 中继B 2x_37:64075
+    type: vmess
+    server: 183.232.56.202
+    port: 64075
+    uuid: 55c2178c-bc0c-3d84-9295-8bac798b76b7
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 183.232.56.202
+  - name: V2-台湾06 大带宽 中继E 2x_40:64075
+    type: vmess
+    server: 139.226.112.116
+    port: 64075
+    uuid: 55c2178c-bc0c-3d84-9295-8bac798b76b7
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 139.226.112.116
+  - name: 🇺🇸_US_美国:443
+    type: vmess
+    server: usa-washington.lvuft.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-washington.lvuft.com
+  - name: V2-台湾06 大带宽 中继D 2x_39:64075
+    type: vmess
+    server: 40.72.176.2
+    port: 64075
+    uuid: 55c2178c-bc0c-3d84-9295-8bac798b76b7
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 40.72.176.2
+  - name: 🇺🇸_US_美国:443_2
+    type: vmess
+    server: v8.ssrsub.com
+    port: 443
+    uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers: null
+  - name: 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+    type: vmess
+    server: v9.ssrsub.com
+    port: 8443
+    uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers: null
+  - name: 🇺🇸_US_美国:443_2_2
+    type: vmess
+    server: usa-dallas.lvuft.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-dallas.lvuft.com
   - name: 🇺🇸_US_美国->🇫🇷_FR_法国:443
     type: vmess
     server: 172.67.68.58
@@ -18,33 +224,48 @@ proxies:
     ws-path: /shuier
     ws-headers:
       Host: xc1.v2rie.pp.ua
-  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+  - name: V1-俄罗斯01 中继E 1.2x_9:64071
     type: vmess
-    server: v5.ssrsub.com
-    port: 8443
-    uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+    server: 139.226.112.116
+    port: 64071
+    uuid: 55c2178c-bc0c-3d84-9295-8bac798b76b7
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /ssrsub
-    ws-headers: null
-  - name: 🇺🇸_US_美国:443
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 139.226.112.116
+  - name: V1-俄罗斯01 中继B 1.2x_6:64071
     type: vmess
-    server: usa-sanfrancisco.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
+    server: 183.232.56.202
+    port: 64071
+    uuid: 55c2178c-bc0c-3d84-9295-8bac798b76b7
+    alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers: null
-  - name: 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 183.232.56.202
+  - name: V1-俄罗斯01 中继C 1.2x_7:64071
     type: vmess
-    server: v9.ssrsub.com
+    server: 183.232.56.189
+    port: 64071
+    uuid: 55c2178c-bc0c-3d84-9295-8bac798b76b7
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 183.232.56.189
+  - name: default_name:8443
+    type: vmess
+    server: v1.ssrsub.com
     port: 8443
     uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
     alterId: "0"
@@ -60,93 +281,263 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - V2-台湾06 大带宽 中继D 2x_100:64075
+      - V1-俄罗斯01 中继D 1.2x_8:64071
+      - default_name:443
+      - V1-俄罗斯01 中继A 1.2x_5:64071
+      - default_name:443_2
+      - default_name:443_2_2
+      - V2-台湾06 大带宽 中继C 2x_38:64075
+      - default_name:443_2_2_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+      - V2-台湾06 大带宽 中继B 2x_37:64075
+      - V2-台湾06 大带宽 中继E 2x_40:64075
       - 🇺🇸_US_美国:443
+      - V2-台湾06 大带宽 中继D 2x_39:64075
+      - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - V1-俄罗斯01 中继E 1.2x_9:64071
+      - V1-俄罗斯01 中继B 1.2x_6:64071
+      - V1-俄罗斯01 中继C 1.2x_7:64071
+      - default_name:8443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - V2-台湾06 大带宽 中继D 2x_100:64075
+      - V1-俄罗斯01 中继D 1.2x_8:64071
+      - default_name:443
+      - V1-俄罗斯01 中继A 1.2x_5:64071
+      - default_name:443_2
+      - default_name:443_2_2
+      - V2-台湾06 大带宽 中继C 2x_38:64075
+      - default_name:443_2_2_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+      - V2-台湾06 大带宽 中继B 2x_37:64075
+      - V2-台湾06 大带宽 中继E 2x_40:64075
       - 🇺🇸_US_美国:443
+      - V2-台湾06 大带宽 中继D 2x_39:64075
+      - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - V1-俄罗斯01 中继E 1.2x_9:64071
+      - V1-俄罗斯01 中继B 1.2x_6:64071
+      - V1-俄罗斯01 中继C 1.2x_7:64071
+      - default_name:8443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - V2-台湾06 大带宽 中继D 2x_100:64075
+      - V1-俄罗斯01 中继D 1.2x_8:64071
+      - default_name:443
+      - V1-俄罗斯01 中继A 1.2x_5:64071
+      - default_name:443_2
+      - default_name:443_2_2
+      - V2-台湾06 大带宽 中继C 2x_38:64075
+      - default_name:443_2_2_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+      - V2-台湾06 大带宽 中继B 2x_37:64075
+      - V2-台湾06 大带宽 中继E 2x_40:64075
       - 🇺🇸_US_美国:443
+      - V2-台湾06 大带宽 中继D 2x_39:64075
+      - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - V1-俄罗斯01 中继E 1.2x_9:64071
+      - V1-俄罗斯01 中继B 1.2x_6:64071
+      - V1-俄罗斯01 中继C 1.2x_7:64071
+      - default_name:8443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - V2-台湾06 大带宽 中继D 2x_100:64075
+      - V1-俄罗斯01 中继D 1.2x_8:64071
+      - default_name:443
+      - V1-俄罗斯01 中继A 1.2x_5:64071
+      - default_name:443_2
+      - default_name:443_2_2
+      - V2-台湾06 大带宽 中继C 2x_38:64075
+      - default_name:443_2_2_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+      - V2-台湾06 大带宽 中继B 2x_37:64075
+      - V2-台湾06 大带宽 中继E 2x_40:64075
       - 🇺🇸_US_美国:443
+      - V2-台湾06 大带宽 中继D 2x_39:64075
+      - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - V1-俄罗斯01 中继E 1.2x_9:64071
+      - V1-俄罗斯01 中继B 1.2x_6:64071
+      - V1-俄罗斯01 中继C 1.2x_7:64071
+      - default_name:8443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - V2-台湾06 大带宽 中继D 2x_100:64075
+      - V1-俄罗斯01 中继D 1.2x_8:64071
+      - default_name:443
+      - V1-俄罗斯01 中继A 1.2x_5:64071
+      - default_name:443_2
+      - default_name:443_2_2
+      - V2-台湾06 大带宽 中继C 2x_38:64075
+      - default_name:443_2_2_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+      - V2-台湾06 大带宽 中继B 2x_37:64075
+      - V2-台湾06 大带宽 中继E 2x_40:64075
       - 🇺🇸_US_美国:443
+      - V2-台湾06 大带宽 中继D 2x_39:64075
+      - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - V1-俄罗斯01 中继E 1.2x_9:64071
+      - V1-俄罗斯01 中继B 1.2x_6:64071
+      - V1-俄罗斯01 中继C 1.2x_7:64071
+      - default_name:8443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - V2-台湾06 大带宽 中继D 2x_100:64075
+      - V1-俄罗斯01 中继D 1.2x_8:64071
+      - default_name:443
+      - V1-俄罗斯01 中继A 1.2x_5:64071
+      - default_name:443_2
+      - default_name:443_2_2
+      - V2-台湾06 大带宽 中继C 2x_38:64075
+      - default_name:443_2_2_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+      - V2-台湾06 大带宽 中继B 2x_37:64075
+      - V2-台湾06 大带宽 中继E 2x_40:64075
       - 🇺🇸_US_美国:443
+      - V2-台湾06 大带宽 中继D 2x_39:64075
+      - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - V1-俄罗斯01 中继E 1.2x_9:64071
+      - V1-俄罗斯01 中继B 1.2x_6:64071
+      - V1-俄罗斯01 中继C 1.2x_7:64071
+      - default_name:8443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - V2-台湾06 大带宽 中继D 2x_100:64075
+      - V1-俄罗斯01 中继D 1.2x_8:64071
+      - default_name:443
+      - V1-俄罗斯01 中继A 1.2x_5:64071
+      - default_name:443_2
+      - default_name:443_2_2
+      - V2-台湾06 大带宽 中继C 2x_38:64075
+      - default_name:443_2_2_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+      - V2-台湾06 大带宽 中继B 2x_37:64075
+      - V2-台湾06 大带宽 中继E 2x_40:64075
       - 🇺🇸_US_美国:443
+      - V2-台湾06 大带宽 中继D 2x_39:64075
+      - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - V1-俄罗斯01 中继E 1.2x_9:64071
+      - V1-俄罗斯01 中继B 1.2x_6:64071
+      - V1-俄罗斯01 中继C 1.2x_7:64071
+      - default_name:8443
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - V2-台湾06 大带宽 中继D 2x_100:64075
+      - V1-俄罗斯01 中继D 1.2x_8:64071
+      - default_name:443
+      - V1-俄罗斯01 中继A 1.2x_5:64071
+      - default_name:443_2
+      - default_name:443_2_2
+      - V2-台湾06 大带宽 中继C 2x_38:64075
+      - default_name:443_2_2_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+      - V2-台湾06 大带宽 中继B 2x_37:64075
+      - V2-台湾06 大带宽 中继E 2x_40:64075
       - 🇺🇸_US_美国:443
+      - V2-台湾06 大带宽 中继D 2x_39:64075
+      - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - V1-俄罗斯01 中继E 1.2x_9:64071
+      - V1-俄罗斯01 中继B 1.2x_6:64071
+      - V1-俄罗斯01 中继C 1.2x_7:64071
+      - default_name:8443
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - V2-台湾06 大带宽 中继D 2x_100:64075
+      - V1-俄罗斯01 中继D 1.2x_8:64071
+      - default_name:443
+      - V1-俄罗斯01 中继A 1.2x_5:64071
+      - default_name:443_2
+      - default_name:443_2_2
+      - V2-台湾06 大带宽 中继C 2x_38:64075
+      - default_name:443_2_2_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+      - V2-台湾06 大带宽 中继B 2x_37:64075
+      - V2-台湾06 大带宽 中继E 2x_40:64075
       - 🇺🇸_US_美国:443
+      - V2-台湾06 大带宽 中继D 2x_39:64075
+      - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - V1-俄罗斯01 中继E 1.2x_9:64071
+      - V1-俄罗斯01 中继B 1.2x_6:64071
+      - V1-俄罗斯01 中继C 1.2x_7:64071
+      - default_name:8443
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - V2-台湾06 大带宽 中继D 2x_100:64075
+      - V1-俄罗斯01 中继D 1.2x_8:64071
+      - default_name:443
+      - V1-俄罗斯01 中继A 1.2x_5:64071
+      - default_name:443_2
+      - default_name:443_2_2
+      - V2-台湾06 大带宽 中继C 2x_38:64075
+      - default_name:443_2_2_2
+      - 🇺🇸_US_美国->🇯🇵_JP_日本:8443
+      - V2-台湾06 大带宽 中继B 2x_37:64075
+      - V2-台湾06 大带宽 中继E 2x_40:64075
       - 🇺🇸_US_美国:443
+      - V2-台湾06 大带宽 中继D 2x_39:64075
+      - 🇺🇸_US_美国:443_2
       - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+      - 🇺🇸_US_美国:443_2_2
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - V1-俄罗斯01 中继E 1.2x_9:64071
+      - V1-俄罗斯01 中继B 1.2x_6:64071
+      - V1-俄罗斯01 中继C 1.2x_7:64071
+      - default_name:8443
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
