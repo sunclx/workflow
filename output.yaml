@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: default_name:443
+  - name: youtube:8度科技:443
     type: vmess
     server: 198.41.212.5
     port: 443
@@ -18,7 +18,19 @@ proxies:
     ws-path: /sakura/
     ws-headers:
       Host: zero1.a-yu.xyz
-  - name: default_name:443_2
+  - name: youtube:8度科技_美国:443
+    type: vmess
+    server: v8.ssrsub.com
+    port: 443
+    uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers: null
+  - name: youtube:8度科技:443_2
     type: vmess
     server: 198.41.212.18
     port: 443
@@ -31,21 +43,34 @@ proxies:
     ws-path: /sakura/
     ws-headers:
       Host: zero1.a-yu.xyz
-  - name: 🇺🇸_US_美国:443
+  - name: youtube:8度科技:443_2_2
     type: vmess
-    server: api.ssfree.ru
+    server: 198.41.212.9
     port: 443
-    uuid: 06c80014-7a0a-11ec-b4da-000017022008
-    alterId: "64"
+    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+    alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /getweather
-    ws-headers: null
-  - name: 🇺🇸_US_美国:443_2
+    ws-path: /sakura/
+    ws-headers:
+      Host: zero1.a-yu.xyz
+  - name: youtube:8度科技:8443
     type: vmess
-    server: usa-miami.lvuft.com
+    server: v1.ssrsub.com
+    port: 8443
+    uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers: null
+  - name: youtube:8度科技_美国:443_2
+    type: vmess
+    server: fa1.uuv2.co.uk
     port: 443
     uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
     alterId: "4"
@@ -55,8 +80,8 @@ proxies:
     tls: true
     ws-path: /ws
     ws-headers:
-      Host: usa-miami.lvuft.com
-  - name: default_name:443_2_2
+      Host: usa-washington.lvuft.com
+  - name: youtube:8度科技:443_2_2_2
     type: vmess
     server: 198.41.221.169
     port: 443
@@ -69,19 +94,20 @@ proxies:
     ws-path: /sakura/
     ws-headers:
       Host: zero1.a-yu.xyz
-  - name: 🇺🇸_US_美国:443_2_2
+  - name: youtube:8度科技_美国:443_2_2
     type: vmess
-    server: v8.ssrsub.com
+    server: 172.67.68.58
     port: 443
-    uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
+    uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /ssrsub
-    ws-headers: null
-  - name: default_name:443_2_2_2
+    ws-path: /shuier
+    ws-headers:
+      Host: xc1.v2rie.pp.ua
+  - name: youtube:8度科技:443_2_2_2_2
     type: vmess
     server: 198.41.212.2
     port: 443
@@ -94,7 +120,45 @@ proxies:
     ws-path: /sakura/
     ws-headers:
       Host: zero1.a-yu.xyz
-  - name: default_name:443_2_2_2_2
+  - name: youtube:8度科技_香港:4848
+    type: vmess
+    server: hk1.4kxray.xyz
+    port: 4848
+    uuid: efef2a3a-ce10-328b-b65c-eeae36eb9345
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: hk1.4kxray.xyz
+  - name: youtube:8度科技:8443_2
+    type: vmess
+    server: v5.ssrsub.com
+    port: 8443
+    uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers: null
+  - name: youtube:8度科技_美国:443_2_2_2
+    type: vmess
+    server: 45.35.84.162
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-dallas.lvuft.com
+  - name: youtube:8度科技:443_2_2_2_2_2
     type: vmess
     server: 198.41.212.8
     port: 443
@@ -107,46 +171,19 @@ proxies:
     ws-path: /sakura/
     ws-headers:
       Host: zero1.a-yu.xyz
-  - name: default_name:443_2_2_2_2_2
+  - name: youtube:8度科技_捷克:8443
     type: vmess
-    server: 104.16.169.85
-    port: 443
-    uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02
+    server: v9.ssrsub.com
+    port: 8443
+    uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /
-    ws-headers:
-      Host: cdn-dc02.testred.xyz
-  - name: default_name:443_2_2_2_2_2_2
-    type: vmess
-    server: 104.19.23.215
-    port: 443
-    uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: cdn-dc02.testred.xyz
-  - name: 🇺🇸_US_美国:443_2_2_2
-    type: vmess
-    server: 23.82.136.151
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-miami.lvuft.com
-  - name: 🇭🇺_HU_匈牙利:443
+    ws-path: /ssrsub
+    ws-headers: null
+  - name: youtube:8度科技_匈牙利:443
     type: vmess
     server: 185.252.223.204
     port: 443
@@ -159,11 +196,11 @@ proxies:
     ws-path: /path/243535322906
     ws-headers:
       Host: www.16675463.xyz
-  - name: 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
+  - name: youtube:8度科技_美国:8443
     type: vmess
-    server: v9.ssrsub.com
+    server: v2.ssrsub.com
     port: 8443
-    uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+    uuid: 974aeac3-c27c-4e20-86e4-03f526faaccd
     alterId: "0"
     cipher: auto
     udp: true
@@ -171,235 +208,219 @@ proxies:
     tls: true
     ws-path: /ssrsub
     ws-headers: null
-  - name: 🇺🇸_US_美国:443_2_2_2_2
-    type: vmess
-    server: usa-washington.lvuft.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-washington.lvuft.com
-  - name: 🇸🇬_SG_新加坡:443
-    type: vmess
-    server: ycgyg.com
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: ycgyg.com
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_name:443
-      - default_name:443_2
-      - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - default_name:443_2_2
-      - 🇺🇸_US_美国:443_2_2
-      - default_name:443_2_2_2
-      - default_name:443_2_2_2_2
-      - default_name:443_2_2_2_2_2
-      - default_name:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2
-      - 🇭🇺_HU_匈牙利:443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-      - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇸🇬_SG_新加坡:443
+      - youtube:8度科技:443
+      - youtube:8度科技_美国:443
+      - youtube:8度科技:443_2
+      - youtube:8度科技:443_2_2
+      - youtube:8度科技:8443
+      - youtube:8度科技_美国:443_2
+      - youtube:8度科技:443_2_2_2
+      - youtube:8度科技_美国:443_2_2
+      - youtube:8度科技:443_2_2_2_2
+      - youtube:8度科技_香港:4848
+      - youtube:8度科技:8443_2
+      - youtube:8度科技_美国:443_2_2_2
+      - youtube:8度科技:443_2_2_2_2_2
+      - youtube:8度科技_捷克:8443
+      - youtube:8度科技_匈牙利:443
+      - youtube:8度科技_美国:8443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - default_name:443
-      - default_name:443_2
-      - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - default_name:443_2_2
-      - 🇺🇸_US_美国:443_2_2
-      - default_name:443_2_2_2
-      - default_name:443_2_2_2_2
-      - default_name:443_2_2_2_2_2
-      - default_name:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2
-      - 🇭🇺_HU_匈牙利:443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-      - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇸🇬_SG_新加坡:443
+      - youtube:8度科技:443
+      - youtube:8度科技_美国:443
+      - youtube:8度科技:443_2
+      - youtube:8度科技:443_2_2
+      - youtube:8度科技:8443
+      - youtube:8度科技_美国:443_2
+      - youtube:8度科技:443_2_2_2
+      - youtube:8度科技_美国:443_2_2
+      - youtube:8度科技:443_2_2_2_2
+      - youtube:8度科技_香港:4848
+      - youtube:8度科技:8443_2
+      - youtube:8度科技_美国:443_2_2_2
+      - youtube:8度科技:443_2_2_2_2_2
+      - youtube:8度科技_捷克:8443
+      - youtube:8度科技_匈牙利:443
+      - youtube:8度科技_美国:8443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - default_name:443
-      - default_name:443_2
-      - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - default_name:443_2_2
-      - 🇺🇸_US_美国:443_2_2
-      - default_name:443_2_2_2
-      - default_name:443_2_2_2_2
-      - default_name:443_2_2_2_2_2
-      - default_name:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2
-      - 🇭🇺_HU_匈牙利:443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-      - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇸🇬_SG_新加坡:443
+      - youtube:8度科技:443
+      - youtube:8度科技_美国:443
+      - youtube:8度科技:443_2
+      - youtube:8度科技:443_2_2
+      - youtube:8度科技:8443
+      - youtube:8度科技_美国:443_2
+      - youtube:8度科技:443_2_2_2
+      - youtube:8度科技_美国:443_2_2
+      - youtube:8度科技:443_2_2_2_2
+      - youtube:8度科技_香港:4848
+      - youtube:8度科技:8443_2
+      - youtube:8度科技_美国:443_2_2_2
+      - youtube:8度科技:443_2_2_2_2_2
+      - youtube:8度科技_捷克:8443
+      - youtube:8度科技_匈牙利:443
+      - youtube:8度科技_美国:8443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - default_name:443
-      - default_name:443_2
-      - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - default_name:443_2_2
-      - 🇺🇸_US_美国:443_2_2
-      - default_name:443_2_2_2
-      - default_name:443_2_2_2_2
-      - default_name:443_2_2_2_2_2
-      - default_name:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2
-      - 🇭🇺_HU_匈牙利:443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-      - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇸🇬_SG_新加坡:443
+      - youtube:8度科技:443
+      - youtube:8度科技_美国:443
+      - youtube:8度科技:443_2
+      - youtube:8度科技:443_2_2
+      - youtube:8度科技:8443
+      - youtube:8度科技_美国:443_2
+      - youtube:8度科技:443_2_2_2
+      - youtube:8度科技_美国:443_2_2
+      - youtube:8度科技:443_2_2_2_2
+      - youtube:8度科技_香港:4848
+      - youtube:8度科技:8443_2
+      - youtube:8度科技_美国:443_2_2_2
+      - youtube:8度科技:443_2_2_2_2_2
+      - youtube:8度科技_捷克:8443
+      - youtube:8度科技_匈牙利:443
+      - youtube:8度科技_美国:8443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - default_name:443
-      - default_name:443_2
-      - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - default_name:443_2_2
-      - 🇺🇸_US_美国:443_2_2
-      - default_name:443_2_2_2
-      - default_name:443_2_2_2_2
-      - default_name:443_2_2_2_2_2
-      - default_name:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2
-      - 🇭🇺_HU_匈牙利:443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-      - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇸🇬_SG_新加坡:443
+      - youtube:8度科技:443
+      - youtube:8度科技_美国:443
+      - youtube:8度科技:443_2
+      - youtube:8度科技:443_2_2
+      - youtube:8度科技:8443
+      - youtube:8度科技_美国:443_2
+      - youtube:8度科技:443_2_2_2
+      - youtube:8度科技_美国:443_2_2
+      - youtube:8度科技:443_2_2_2_2
+      - youtube:8度科技_香港:4848
+      - youtube:8度科技:8443_2
+      - youtube:8度科技_美国:443_2_2_2
+      - youtube:8度科技:443_2_2_2_2_2
+      - youtube:8度科技_捷克:8443
+      - youtube:8度科技_匈牙利:443
+      - youtube:8度科技_美国:8443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - default_name:443
-      - default_name:443_2
-      - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - default_name:443_2_2
-      - 🇺🇸_US_美国:443_2_2
-      - default_name:443_2_2_2
-      - default_name:443_2_2_2_2
-      - default_name:443_2_2_2_2_2
-      - default_name:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2
-      - 🇭🇺_HU_匈牙利:443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-      - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇸🇬_SG_新加坡:443
+      - youtube:8度科技:443
+      - youtube:8度科技_美国:443
+      - youtube:8度科技:443_2
+      - youtube:8度科技:443_2_2
+      - youtube:8度科技:8443
+      - youtube:8度科技_美国:443_2
+      - youtube:8度科技:443_2_2_2
+      - youtube:8度科技_美国:443_2_2
+      - youtube:8度科技:443_2_2_2_2
+      - youtube:8度科技_香港:4848
+      - youtube:8度科技:8443_2
+      - youtube:8度科技_美国:443_2_2_2
+      - youtube:8度科技:443_2_2_2_2_2
+      - youtube:8度科技_捷克:8443
+      - youtube:8度科技_匈牙利:443
+      - youtube:8度科技_美国:8443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - default_name:443
-      - default_name:443_2
-      - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - default_name:443_2_2
-      - 🇺🇸_US_美国:443_2_2
-      - default_name:443_2_2_2
-      - default_name:443_2_2_2_2
-      - default_name:443_2_2_2_2_2
-      - default_name:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2
-      - 🇭🇺_HU_匈牙利:443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-      - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇸🇬_SG_新加坡:443
+      - youtube:8度科技:443
+      - youtube:8度科技_美国:443
+      - youtube:8度科技:443_2
+      - youtube:8度科技:443_2_2
+      - youtube:8度科技:8443
+      - youtube:8度科技_美国:443_2
+      - youtube:8度科技:443_2_2_2
+      - youtube:8度科技_美国:443_2_2
+      - youtube:8度科技:443_2_2_2_2
+      - youtube:8度科技_香港:4848
+      - youtube:8度科技:8443_2
+      - youtube:8度科技_美国:443_2_2_2
+      - youtube:8度科技:443_2_2_2_2_2
+      - youtube:8度科技_捷克:8443
+      - youtube:8度科技_匈牙利:443
+      - youtube:8度科技_美国:8443
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - default_name:443
-      - default_name:443_2
-      - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - default_name:443_2_2
-      - 🇺🇸_US_美国:443_2_2
-      - default_name:443_2_2_2
-      - default_name:443_2_2_2_2
-      - default_name:443_2_2_2_2_2
-      - default_name:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2
-      - 🇭🇺_HU_匈牙利:443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-      - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇸🇬_SG_新加坡:443
+      - youtube:8度科技:443
+      - youtube:8度科技_美国:443
+      - youtube:8度科技:443_2
+      - youtube:8度科技:443_2_2
+      - youtube:8度科技:8443
+      - youtube:8度科技_美国:443_2
+      - youtube:8度科技:443_2_2_2
+      - youtube:8度科技_美国:443_2_2
+      - youtube:8度科技:443_2_2_2_2
+      - youtube:8度科技_香港:4848
+      - youtube:8度科技:8443_2
+      - youtube:8度科技_美国:443_2_2_2
+      - youtube:8度科技:443_2_2_2_2_2
+      - youtube:8度科技_捷克:8443
+      - youtube:8度科技_匈牙利:443
+      - youtube:8度科技_美国:8443
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - default_name:443
-      - default_name:443_2
-      - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - default_name:443_2_2
-      - 🇺🇸_US_美国:443_2_2
-      - default_name:443_2_2_2
-      - default_name:443_2_2_2_2
-      - default_name:443_2_2_2_2_2
-      - default_name:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2
-      - 🇭🇺_HU_匈牙利:443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-      - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇸🇬_SG_新加坡:443
+      - youtube:8度科技:443
+      - youtube:8度科技_美国:443
+      - youtube:8度科技:443_2
+      - youtube:8度科技:443_2_2
+      - youtube:8度科技:8443
+      - youtube:8度科技_美国:443_2
+      - youtube:8度科技:443_2_2_2
+      - youtube:8度科技_美国:443_2_2
+      - youtube:8度科技:443_2_2_2_2
+      - youtube:8度科技_香港:4848
+      - youtube:8度科技:8443_2
+      - youtube:8度科技_美国:443_2_2_2
+      - youtube:8度科技:443_2_2_2_2_2
+      - youtube:8度科技_捷克:8443
+      - youtube:8度科技_匈牙利:443
+      - youtube:8度科技_美国:8443
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - default_name:443
-      - default_name:443_2
-      - 🇺🇸_US_美国:443
-      - 🇺🇸_US_美国:443_2
-      - default_name:443_2_2
-      - 🇺🇸_US_美国:443_2_2
-      - default_name:443_2_2_2
-      - default_name:443_2_2_2_2
-      - default_name:443_2_2_2_2_2
-      - default_name:443_2_2_2_2_2_2
-      - 🇺🇸_US_美国:443_2_2_2
-      - 🇭🇺_HU_匈牙利:443
-      - 🇺🇸_US_美国->🇨🇿_CZ_捷克:8443
-      - 🇺🇸_US_美国:443_2_2_2_2
-      - 🇸🇬_SG_新加坡:443
+      - youtube:8度科技:443
+      - youtube:8度科技_美国:443
+      - youtube:8度科技:443_2
+      - youtube:8度科技:443_2_2
+      - youtube:8度科技:8443
+      - youtube:8度科技_美国:443_2
+      - youtube:8度科技:443_2_2_2
+      - youtube:8度科技_美国:443_2_2
+      - youtube:8度科技:443_2_2_2_2
+      - youtube:8度科技_香港:4848
+      - youtube:8度科技:8443_2
+      - youtube:8度科技_美国:443_2_2_2
+      - youtube:8度科技:443_2_2_2_2_2
+      - youtube:8度科技_捷克:8443
+      - youtube:8度科技_匈牙利:443
+      - youtube:8度科技_美国:8443
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
