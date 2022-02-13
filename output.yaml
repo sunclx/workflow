@@ -5,30 +5,29 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 中国_YouTube：8度科技:504
+  - name: 中国_YouTube：8度科技:2164
     type: vmess
-    server: tunnel-tw-a-01.xncloud.xyz
-    port: 504
-    uuid: bf6305b0-ce74-37e1-af88-c05637d8d94c
-    alterId: "1"
+    server: sxqxj.cn
+    port: 2164
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /niaoyun
-    ws-headers:
-      Host: mf-hinet-tw-04.xncloud.xyz
-  - name: 美国_YouTube：8度科技:443
+    tls: true
+    ws-path: /ws
+    ws-headers: null
+  - name: 🇺🇸_US_美国:443
     type: vmess
-    server: 666.lyzghim.com
+    server: v8.ssrsub.com
     port: 443
-    uuid: 435a71b8-197d-4af8-ea17-7b2f7bb9eeda
+    uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /qwe
+    ws-path: /ssrsub
     ws-headers: null
   - name: 中国_YouTube：8度科技:52205
     type: vmess
@@ -42,32 +41,6 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 美国_YouTube：8度科技:443_2
-    type: vmess
-    server: 198.148.92.246
-    port: 443
-    uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: govacaxixo.watchdoctor.xyz
-  - name: 美国_YouTube：8度科技:443_2_2
-    type: vmess
-    server: 45.32.94.150
-    port: 443
-    uuid: 5974cc5f-7869-4c54-835d-6726fc552e34
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: govacaxixo.watchdoctor.xyz
   - name: 美国_YouTube：8度科技:21888
     type: vmess
     server: us.lv.buyvm.tgproxy.wtf
@@ -81,88 +54,11 @@ proxies:
     ws-path: /theuploadapi
     ws-headers:
       Host: us.lv.buyvm.tgproxy.wtf
-  - name: 中国_YouTube：8度科技:110
+  - name: 🇺🇸_US_美国:443_2
     type: vmess
-    server: tunnel-sg-a-01.xncloud.xyz
-    port: 110
-    uuid: bf6305b0-ce74-37e1-af88-c05637d8d94c
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /niaoyun
-    ws-headers:
-      Host: mf-aws-sg-10.xncloud.xyz
-  - name: 中国_YouTube：8度科技:205
-    type: vmess
-    server: tunnel-jp-a-01.xncloud.xyz
-    port: 205
-    uuid: bf6305b0-ce74-37e1-af88-c05637d8d94c
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /niaoyun
-    ws-headers:
-      Host: mf-aws-jp-05.xncloud.xyz
-  - name: 中国_YouTube：8度科技:203
-    type: vmess
-    server: tunnel-jp-a-01.xncloud.xyz
-    port: 203
-    uuid: bf6305b0-ce74-37e1-af88-c05637d8d94c
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /niaoyun
-    ws-headers:
-      Host: mf-aws-jp-03.xncloud.xyz
-  - name: 中国_YouTube：8度科技:204
-    type: vmess
-    server: tunnel-jp-a-01.xncloud.xyz
-    port: 204
-    uuid: bf6305b0-ce74-37e1-af88-c05637d8d94c
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /niaoyun
-    ws-headers:
-      Host: mf-aws-jp-04.xncloud.xyz
-  - name: 中国_YouTube：8度科技:2164
-    type: vmess
-    server: sxqxj.cn
-    port: 2164
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers: null
-  - name: YouTube：8度科技:8443
-    type: vmess
-    server: oz1.mooncloud.bike
-    port: 8443
-    uuid: 2c42a34e-5f88-492b-8a59-3531090578f8
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: oz1.mooncloud.bike
-  - name: 澳大利亚_YouTube：8度科技:443
-    type: vmess
-    server: 45.76.127.189
+    server: 107.155.83.152
     port: 443
-    uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a
+    uuid: 8f469f1b-1fd3-433b-9fd9-b4e041b9df16
     alterId: "0"
     cipher: auto
     udp: true
@@ -171,96 +67,6 @@ proxies:
     ws-path: /ray
     ws-headers:
       Host: govacaxixo.watchdoctor.xyz
-  - name: 比利时_YouTube：8度科技:443
-    type: vmess
-    server: 194.71.227.16
-    port: 443
-    uuid: 0c601ad4-9fe1-4b02-b026-a37f6f45147d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: govacaxixo.watchdoctor.xyz
-  - name: YouTube：8度科技:8443_2
-    type: vmess
-    server: oz1.mooncloud.bike
-    port: 8443
-    uuid: 641cb3e8-feb9-4dd9-a1db-983441deff05
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: oz.mooncloud.bike
-  - name: 美国_YouTube：8度科技:443_2_2_2
-    type: vmess
-    server: test.0dc.cn
-    port: 443
-    uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers: null
-  - name: YouTube：8度科技:8443_2_2
-    type: vmess
-    server: oz1.mooncloud.bike
-    port: 8443
-    uuid: f1533fd1-4562-4935-a1e6-832685d4a919
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: oz.mooncloud.bike
-  - name: YouTube：8度科技:8443_2_2_2
-    type: vmess
-    server: oz1.mooncloud.bike
-    port: 8443
-    uuid: 2c42a34e-5f88-492b-8a59-3531090578f8
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: oz.mooncloud.bike
-  - name: 西班牙_YouTube：8度科技:443
-    type: vmess
-    server: 151.236.23.120
-    port: 443
-    uuid: 75bd7620-60a7-4930-af13-46b58ad4f137
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: govacaxixo.watchdoctor.xyz
-  - name: 卢森堡_YouTube：8度科技:2052
-    type: vmess
-    server: buyvm.lu.tgproxy.wtf
-    port: 2052
-    uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /theuploadapi
-    ws-headers:
-      Host: buyvm.lu.tgproxy.wtf
   - name: 英国_YouTube：8度科技:443
     type: vmess
     server: 37.120.134.207
@@ -287,325 +93,221 @@ proxies:
     ws-path: /ray
     ws-headers:
       Host: govacaxixo.watchdoctor.xyz
-  - name: 美国_YouTube：8度科技:443_2_2_2_2
+  - name: 🇺🇸_US_美国:443_2_2
     type: vmess
-    server: 666.lyzghim.com
+    server: ahdaeph8.com
     port: 443
-    uuid: 435a71b8-197d-4af8-ea17-7b2f7bb9eeda
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: ahdaeph8.com
+  - name: 比利时_YouTube：8度科技:443
+    type: vmess
+    server: 194.71.227.16
+    port: 443
+    uuid: 0c601ad4-9fe1-4b02-b026-a37f6f45147d
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /qwe
+    ws-path: /ray
     ws-headers:
-      Host: 666.lyzghim.com
-  - name: 中国_YouTube：8度科技:206
+      Host: govacaxixo.watchdoctor.xyz
+  - name: 澳大利亚_YouTube：8度科技:443
     type: vmess
-    server: tunnel-jp-a-01.xncloud.xyz
-    port: 206
-    uuid: bf6305b0-ce74-37e1-af88-c05637d8d94c
-    alterId: "1"
+    server: 45.76.127.189
+    port: 443
+    uuid: 7fc6764a-6cba-4599-95d7-ac7617b7db0a
+    alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /niaoyun
+    tls: true
+    ws-path: /ray
     ws-headers:
-      Host: mf-aws-jp-06.xncloud.xyz
+      Host: govacaxixo.watchdoctor.xyz
+  - name: 美国_YouTube：8度科技:443
+    type: vmess
+    server: 198.148.92.246
+    port: 443
+    uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ray
+    ws-headers:
+      Host: govacaxixo.watchdoctor.xyz
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_YouTube：8度科技:504
-      - 美国_YouTube：8度科技:443
-      - 中国_YouTube：8度科技:52205
-      - 美国_YouTube：8度科技:443_2
-      - 美国_YouTube：8度科技:443_2_2
-      - 美国_YouTube：8度科技:21888
-      - 中国_YouTube：8度科技:110
-      - 中国_YouTube：8度科技:205
-      - 中国_YouTube：8度科技:203
-      - 中国_YouTube：8度科技:204
       - 中国_YouTube：8度科技:2164
-      - YouTube：8度科技:8443
-      - 澳大利亚_YouTube：8度科技:443
-      - 比利时_YouTube：8度科技:443
-      - YouTube：8度科技:8443_2
-      - 美国_YouTube：8度科技:443_2_2_2
-      - YouTube：8度科技:8443_2_2
-      - YouTube：8度科技:8443_2_2_2
-      - 西班牙_YouTube：8度科技:443
-      - 卢森堡_YouTube：8度科技:2052
+      - 🇺🇸_US_美国:443
+      - 中国_YouTube：8度科技:52205
+      - 美国_YouTube：8度科技:21888
+      - 🇺🇸_US_美国:443_2
       - 英国_YouTube：8度科技:443
       - 俄罗斯联邦_YouTube：8度科技:443
-      - 美国_YouTube：8度科技:443_2_2_2_2
-      - 中国_YouTube：8度科技:206
+      - 🇺🇸_US_美国:443_2_2
+      - 比利时_YouTube：8度科技:443
+      - 澳大利亚_YouTube：8度科技:443
+      - 美国_YouTube：8度科技:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中国_YouTube：8度科技:504
-      - 美国_YouTube：8度科技:443
-      - 中国_YouTube：8度科技:52205
-      - 美国_YouTube：8度科技:443_2
-      - 美国_YouTube：8度科技:443_2_2
-      - 美国_YouTube：8度科技:21888
-      - 中国_YouTube：8度科技:110
-      - 中国_YouTube：8度科技:205
-      - 中国_YouTube：8度科技:203
-      - 中国_YouTube：8度科技:204
       - 中国_YouTube：8度科技:2164
-      - YouTube：8度科技:8443
-      - 澳大利亚_YouTube：8度科技:443
-      - 比利时_YouTube：8度科技:443
-      - YouTube：8度科技:8443_2
-      - 美国_YouTube：8度科技:443_2_2_2
-      - YouTube：8度科技:8443_2_2
-      - YouTube：8度科技:8443_2_2_2
-      - 西班牙_YouTube：8度科技:443
-      - 卢森堡_YouTube：8度科技:2052
+      - 🇺🇸_US_美国:443
+      - 中国_YouTube：8度科技:52205
+      - 美国_YouTube：8度科技:21888
+      - 🇺🇸_US_美国:443_2
       - 英国_YouTube：8度科技:443
       - 俄罗斯联邦_YouTube：8度科技:443
-      - 美国_YouTube：8度科技:443_2_2_2_2
-      - 中国_YouTube：8度科技:206
+      - 🇺🇸_US_美国:443_2_2
+      - 比利时_YouTube：8度科技:443
+      - 澳大利亚_YouTube：8度科技:443
+      - 美国_YouTube：8度科技:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国_YouTube：8度科技:504
-      - 美国_YouTube：8度科技:443
-      - 中国_YouTube：8度科技:52205
-      - 美国_YouTube：8度科技:443_2
-      - 美国_YouTube：8度科技:443_2_2
-      - 美国_YouTube：8度科技:21888
-      - 中国_YouTube：8度科技:110
-      - 中国_YouTube：8度科技:205
-      - 中国_YouTube：8度科技:203
-      - 中国_YouTube：8度科技:204
       - 中国_YouTube：8度科技:2164
-      - YouTube：8度科技:8443
-      - 澳大利亚_YouTube：8度科技:443
-      - 比利时_YouTube：8度科技:443
-      - YouTube：8度科技:8443_2
-      - 美国_YouTube：8度科技:443_2_2_2
-      - YouTube：8度科技:8443_2_2
-      - YouTube：8度科技:8443_2_2_2
-      - 西班牙_YouTube：8度科技:443
-      - 卢森堡_YouTube：8度科技:2052
+      - 🇺🇸_US_美国:443
+      - 中国_YouTube：8度科技:52205
+      - 美国_YouTube：8度科技:21888
+      - 🇺🇸_US_美国:443_2
       - 英国_YouTube：8度科技:443
       - 俄罗斯联邦_YouTube：8度科技:443
-      - 美国_YouTube：8度科技:443_2_2_2_2
-      - 中国_YouTube：8度科技:206
+      - 🇺🇸_US_美国:443_2_2
+      - 比利时_YouTube：8度科技:443
+      - 澳大利亚_YouTube：8度科技:443
+      - 美国_YouTube：8度科技:443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中国_YouTube：8度科技:504
-      - 美国_YouTube：8度科技:443
-      - 中国_YouTube：8度科技:52205
-      - 美国_YouTube：8度科技:443_2
-      - 美国_YouTube：8度科技:443_2_2
-      - 美国_YouTube：8度科技:21888
-      - 中国_YouTube：8度科技:110
-      - 中国_YouTube：8度科技:205
-      - 中国_YouTube：8度科技:203
-      - 中国_YouTube：8度科技:204
       - 中国_YouTube：8度科技:2164
-      - YouTube：8度科技:8443
-      - 澳大利亚_YouTube：8度科技:443
-      - 比利时_YouTube：8度科技:443
-      - YouTube：8度科技:8443_2
-      - 美国_YouTube：8度科技:443_2_2_2
-      - YouTube：8度科技:8443_2_2
-      - YouTube：8度科技:8443_2_2_2
-      - 西班牙_YouTube：8度科技:443
-      - 卢森堡_YouTube：8度科技:2052
+      - 🇺🇸_US_美国:443
+      - 中国_YouTube：8度科技:52205
+      - 美国_YouTube：8度科技:21888
+      - 🇺🇸_US_美国:443_2
       - 英国_YouTube：8度科技:443
       - 俄罗斯联邦_YouTube：8度科技:443
-      - 美国_YouTube：8度科技:443_2_2_2_2
-      - 中国_YouTube：8度科技:206
+      - 🇺🇸_US_美国:443_2_2
+      - 比利时_YouTube：8度科技:443
+      - 澳大利亚_YouTube：8度科技:443
+      - 美国_YouTube：8度科技:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中国_YouTube：8度科技:504
-      - 美国_YouTube：8度科技:443
-      - 中国_YouTube：8度科技:52205
-      - 美国_YouTube：8度科技:443_2
-      - 美国_YouTube：8度科技:443_2_2
-      - 美国_YouTube：8度科技:21888
-      - 中国_YouTube：8度科技:110
-      - 中国_YouTube：8度科技:205
-      - 中国_YouTube：8度科技:203
-      - 中国_YouTube：8度科技:204
       - 中国_YouTube：8度科技:2164
-      - YouTube：8度科技:8443
-      - 澳大利亚_YouTube：8度科技:443
-      - 比利时_YouTube：8度科技:443
-      - YouTube：8度科技:8443_2
-      - 美国_YouTube：8度科技:443_2_2_2
-      - YouTube：8度科技:8443_2_2
-      - YouTube：8度科技:8443_2_2_2
-      - 西班牙_YouTube：8度科技:443
-      - 卢森堡_YouTube：8度科技:2052
+      - 🇺🇸_US_美国:443
+      - 中国_YouTube：8度科技:52205
+      - 美国_YouTube：8度科技:21888
+      - 🇺🇸_US_美国:443_2
       - 英国_YouTube：8度科技:443
       - 俄罗斯联邦_YouTube：8度科技:443
-      - 美国_YouTube：8度科技:443_2_2_2_2
-      - 中国_YouTube：8度科技:206
+      - 🇺🇸_US_美国:443_2_2
+      - 比利时_YouTube：8度科技:443
+      - 澳大利亚_YouTube：8度科技:443
+      - 美国_YouTube：8度科技:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中国_YouTube：8度科技:504
-      - 美国_YouTube：8度科技:443
-      - 中国_YouTube：8度科技:52205
-      - 美国_YouTube：8度科技:443_2
-      - 美国_YouTube：8度科技:443_2_2
-      - 美国_YouTube：8度科技:21888
-      - 中国_YouTube：8度科技:110
-      - 中国_YouTube：8度科技:205
-      - 中国_YouTube：8度科技:203
-      - 中国_YouTube：8度科技:204
       - 中国_YouTube：8度科技:2164
-      - YouTube：8度科技:8443
-      - 澳大利亚_YouTube：8度科技:443
-      - 比利时_YouTube：8度科技:443
-      - YouTube：8度科技:8443_2
-      - 美国_YouTube：8度科技:443_2_2_2
-      - YouTube：8度科技:8443_2_2
-      - YouTube：8度科技:8443_2_2_2
-      - 西班牙_YouTube：8度科技:443
-      - 卢森堡_YouTube：8度科技:2052
+      - 🇺🇸_US_美国:443
+      - 中国_YouTube：8度科技:52205
+      - 美国_YouTube：8度科技:21888
+      - 🇺🇸_US_美国:443_2
       - 英国_YouTube：8度科技:443
       - 俄罗斯联邦_YouTube：8度科技:443
-      - 美国_YouTube：8度科技:443_2_2_2_2
-      - 中国_YouTube：8度科技:206
+      - 🇺🇸_US_美国:443_2_2
+      - 比利时_YouTube：8度科技:443
+      - 澳大利亚_YouTube：8度科技:443
+      - 美国_YouTube：8度科技:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 中国_YouTube：8度科技:504
-      - 美国_YouTube：8度科技:443
-      - 中国_YouTube：8度科技:52205
-      - 美国_YouTube：8度科技:443_2
-      - 美国_YouTube：8度科技:443_2_2
-      - 美国_YouTube：8度科技:21888
-      - 中国_YouTube：8度科技:110
-      - 中国_YouTube：8度科技:205
-      - 中国_YouTube：8度科技:203
-      - 中国_YouTube：8度科技:204
       - 中国_YouTube：8度科技:2164
-      - YouTube：8度科技:8443
-      - 澳大利亚_YouTube：8度科技:443
-      - 比利时_YouTube：8度科技:443
-      - YouTube：8度科技:8443_2
-      - 美国_YouTube：8度科技:443_2_2_2
-      - YouTube：8度科技:8443_2_2
-      - YouTube：8度科技:8443_2_2_2
-      - 西班牙_YouTube：8度科技:443
-      - 卢森堡_YouTube：8度科技:2052
+      - 🇺🇸_US_美国:443
+      - 中国_YouTube：8度科技:52205
+      - 美国_YouTube：8度科技:21888
+      - 🇺🇸_US_美国:443_2
       - 英国_YouTube：8度科技:443
       - 俄罗斯联邦_YouTube：8度科技:443
-      - 美国_YouTube：8度科技:443_2_2_2_2
-      - 中国_YouTube：8度科技:206
+      - 🇺🇸_US_美国:443_2_2
+      - 比利时_YouTube：8度科技:443
+      - 澳大利亚_YouTube：8度科技:443
+      - 美国_YouTube：8度科技:443
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 中国_YouTube：8度科技:504
-      - 美国_YouTube：8度科技:443
-      - 中国_YouTube：8度科技:52205
-      - 美国_YouTube：8度科技:443_2
-      - 美国_YouTube：8度科技:443_2_2
-      - 美国_YouTube：8度科技:21888
-      - 中国_YouTube：8度科技:110
-      - 中国_YouTube：8度科技:205
-      - 中国_YouTube：8度科技:203
-      - 中国_YouTube：8度科技:204
       - 中国_YouTube：8度科技:2164
-      - YouTube：8度科技:8443
-      - 澳大利亚_YouTube：8度科技:443
-      - 比利时_YouTube：8度科技:443
-      - YouTube：8度科技:8443_2
-      - 美国_YouTube：8度科技:443_2_2_2
-      - YouTube：8度科技:8443_2_2
-      - YouTube：8度科技:8443_2_2_2
-      - 西班牙_YouTube：8度科技:443
-      - 卢森堡_YouTube：8度科技:2052
+      - 🇺🇸_US_美国:443
+      - 中国_YouTube：8度科技:52205
+      - 美国_YouTube：8度科技:21888
+      - 🇺🇸_US_美国:443_2
       - 英国_YouTube：8度科技:443
       - 俄罗斯联邦_YouTube：8度科技:443
-      - 美国_YouTube：8度科技:443_2_2_2_2
-      - 中国_YouTube：8度科技:206
+      - 🇺🇸_US_美国:443_2_2
+      - 比利时_YouTube：8度科技:443
+      - 澳大利亚_YouTube：8度科技:443
+      - 美国_YouTube：8度科技:443
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 中国_YouTube：8度科技:504
-      - 美国_YouTube：8度科技:443
-      - 中国_YouTube：8度科技:52205
-      - 美国_YouTube：8度科技:443_2
-      - 美国_YouTube：8度科技:443_2_2
-      - 美国_YouTube：8度科技:21888
-      - 中国_YouTube：8度科技:110
-      - 中国_YouTube：8度科技:205
-      - 中国_YouTube：8度科技:203
-      - 中国_YouTube：8度科技:204
       - 中国_YouTube：8度科技:2164
-      - YouTube：8度科技:8443
-      - 澳大利亚_YouTube：8度科技:443
-      - 比利时_YouTube：8度科技:443
-      - YouTube：8度科技:8443_2
-      - 美国_YouTube：8度科技:443_2_2_2
-      - YouTube：8度科技:8443_2_2
-      - YouTube：8度科技:8443_2_2_2
-      - 西班牙_YouTube：8度科技:443
-      - 卢森堡_YouTube：8度科技:2052
+      - 🇺🇸_US_美国:443
+      - 中国_YouTube：8度科技:52205
+      - 美国_YouTube：8度科技:21888
+      - 🇺🇸_US_美国:443_2
       - 英国_YouTube：8度科技:443
       - 俄罗斯联邦_YouTube：8度科技:443
-      - 美国_YouTube：8度科技:443_2_2_2_2
-      - 中国_YouTube：8度科技:206
+      - 🇺🇸_US_美国:443_2_2
+      - 比利时_YouTube：8度科技:443
+      - 澳大利亚_YouTube：8度科技:443
+      - 美国_YouTube：8度科技:443
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国_YouTube：8度科技:504
-      - 美国_YouTube：8度科技:443
-      - 中国_YouTube：8度科技:52205
-      - 美国_YouTube：8度科技:443_2
-      - 美国_YouTube：8度科技:443_2_2
-      - 美国_YouTube：8度科技:21888
-      - 中国_YouTube：8度科技:110
-      - 中国_YouTube：8度科技:205
-      - 中国_YouTube：8度科技:203
-      - 中国_YouTube：8度科技:204
       - 中国_YouTube：8度科技:2164
-      - YouTube：8度科技:8443
-      - 澳大利亚_YouTube：8度科技:443
-      - 比利时_YouTube：8度科技:443
-      - YouTube：8度科技:8443_2
-      - 美国_YouTube：8度科技:443_2_2_2
-      - YouTube：8度科技:8443_2_2
-      - YouTube：8度科技:8443_2_2_2
-      - 西班牙_YouTube：8度科技:443
-      - 卢森堡_YouTube：8度科技:2052
+      - 🇺🇸_US_美国:443
+      - 中国_YouTube：8度科技:52205
+      - 美国_YouTube：8度科技:21888
+      - 🇺🇸_US_美国:443_2
       - 英国_YouTube：8度科技:443
       - 俄罗斯联邦_YouTube：8度科技:443
-      - 美国_YouTube：8度科技:443_2_2_2_2
-      - 中国_YouTube：8度科技:206
+      - 🇺🇸_US_美国:443_2_2
+      - 比利时_YouTube：8度科技:443
+      - 澳大利亚_YouTube：8度科技:443
+      - 美国_YouTube：8度科技:443
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
