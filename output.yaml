@@ -17,6 +17,140 @@ proxies:
     tls: true
     ws-path: /ws
     ws-headers: null
+  - name: 🇭🇰_香港_YouTube:VV科技_38:11224
+    type: vmess
+    server: 108.wowogg.cyou
+    port: 11224
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇭🇰_香港_YouTube:VV科技_40:52219
+    type: vmess
+    server: 119.wgong.xyz
+    port: 52219
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇭🇰_香港_YouTube:VV科技_60:52288
+    type: vmess
+    server: 88.wowogg.cyou
+    port: 52288
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇭🇰_香港_YouTube:VV科技_19:52212
+    type: vmess
+    server: 112.wowogg.cyou
+    port: 52212
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇺🇸_美国_YouTube:VV科技_44:52295
+    type: vmess
+    server: 95.wowogg.cyou
+    port: 52295
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇭🇰_香港_YouTube:VV科技_63:52330
+    type: vmess
+    server: 130.wowogg.cyou
+    port: 52330
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇭🇰_香港_YouTube:VV科技_64:52283
+    type: vmess
+    server: 83.wgong.xyz
+    port: 52283
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇭🇰_香港_YouTube:VV科技_56:52215
+    type: vmess
+    server: 115.wowogg.cyou
+    port: 52215
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇺🇸_美国_YouTube:VV科技_62:52287
+    type: vmess
+    server: 87.wowogg.cyou
+    port: 52287
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇹🇼_台湾_YouTube:VV科技_99:60763
+    type: vmess
+    server: tw.v2ssvps.com
+    port: 60763
+    uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: microsoft.com
+  - name: 🇨🇳_中国跳转_YouTube:VV科技_71:504
+    type: vmess
+    server: tunnel-tw-a-01.xncloud.xyz
+    port: 504
+    uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /niaoyun
+    ws-headers:
+      Host: mf-hinet-tw-04.xncloud.xyz
   - name: 中国_YouTube：8度科技:52205
     type: vmess
     server: 105.wgong.xyz
@@ -29,11 +163,137 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
+  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
+    type: vmess
+    server: styd.sf66.cf
+    port: 52412
+    uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /theuploadapi
+    ws-headers:
+      Host: vds.sgp.tgproxy.wtf
   - name: 🇺🇸_US_美国:443
     type: vmess
-    server: 107.155.83.152
+    server: v8.ssrsub.com
     port: 443
-    uuid: 8f469f1b-1fd3-433b-9fd9-b4e041b9df16
+    uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers: null
+  - name: 🇰🇷_韩国_YouTube:VV科技_85:80
+    type: vmess
+    server: 1031kr.fans8.xyz
+    port: 80
+    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 🇺🇸_US_美国:80
+    type: vmess
+    server: ggz.jgw.tgproxy.wtf
+    port: 80
+    uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /theuploadapi
+    ws-headers:
+      Host: ggz.jgw.tgproxy.wtf
+  - name: 🇨🇳_中国跳转_YouTube:VV科技_28:505
+    type: vmess
+    server: tunnel-tw-a-01.xncloud.xyz
+    port: 505
+    uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /niaoyun
+    ws-headers:
+      Host: tunnel-tw-a-01.xncloud.xyz
+  - name: 🇺🇸_US_美国:443_2
+    type: vmess
+    server: v1.ssrsub.com
+    port: 443
+    uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers: null
+  - name: 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+    type: vmess
+    server: styd.sf66.cf
+    port: 16990
+    uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /theuploadapi
+    ws-headers:
+      Host: ggz.jgw.tgproxy.wtf
+  - name: v2cross.com:443
+    type: vmess
+    server: ua1.uuv2.co.uk
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-dallas.lvuft.com
+  - name: v2cross.com:443_2
+    type: vmess
+    server: 45.35.84.162
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: usa-dallas.lvuft.com
+  - name: 🇭🇰_香港_YouTube:VV科技_17:80
+    type: vmess
+    server: 0107hk.fans8.xyz
+    port: 80
+    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 🇷🇺_RU_俄罗斯联邦:443
+    type: vmess
+    server: 5.188.35.120
+    port: 443
+    uuid: 0c7a06d0-8061-4df7-b521-960e2b9ce0f7
     alterId: "0"
     cipher: auto
     udp: true
@@ -55,6 +315,18 @@ proxies:
     ws-path: /ray
     ws-headers:
       Host: govacaxixo.watchdoctor.xyz
+  - name: default_name:443
+    type: vmess
+    server: anzhuo-hezi1.herokuapp.com
+    port: 443
+    uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess
+    ws-headers: null
   - name: 俄罗斯联邦_YouTube：8度科技:443
     type: vmess
     server: 92.223.65.119
@@ -68,6 +340,18 @@ proxies:
     ws-path: /ray
     ws-headers:
       Host: govacaxixo.watchdoctor.xyz
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+    type: vmess
+    server: v2.ssrsub.com
+    port: 8443
+    uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers: null
   - name: 澳大利亚_YouTube：8度科技:443
     type: vmess
     server: 45.76.127.189
@@ -81,6 +365,84 @@ proxies:
     ws-path: /ray
     ws-headers:
       Host: govacaxixo.watchdoctor.xyz
+  - name: 🇺🇸_美国_YouTube:VV科技_124:8443
+    type: vmess
+    server: v2.ssrsub.com
+    port: 8443
+    uuid: 21627f29-0d0f-4dfa-9740-b5ee360bf061
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
+    ws-headers:
+      Host: v2.ssrsub.com
+  - name: YouTube:VV科技_37:2053
+    type: vmess
+    server: 104.17.161.28
+    port: 2053
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /eisasqa
+    ws-headers:
+      Host: foxus.fovi.tk
+  - name: v2cross.com:443_2_2
+    type: vmess
+    server: canada-vancouver.mah3Hoet.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: canada-vancouver.mah3Hoet.com
+  - name: v2cross.com:443_2_2_2
+    type: vmess
+    server: 71.19.252.163
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: canada-vancouver.mah3Hoet.com
+  - name: 🇬🇧_GB_英国:443
+    type: vmess
+    server: gia.uk.tgproxy.wtf
+    port: 443
+    uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /theuploadapi
+    ws-headers:
+      Host: gia.uk.tgproxy.wtf
+  - name: 🇺🇸_US_美国:443_2_2
+    type: vmess
+    server: dax6ujai.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: dax6ujai.com
   - name: 美国_YouTube：8度科技:443
     type: vmess
     server: 198.148.92.246
@@ -101,11 +463,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 中国_YouTube：8度科技:2164
+      - 🇭🇰_香港_YouTube:VV科技_38:11224
+      - 🇭🇰_香港_YouTube:VV科技_40:52219
+      - 🇭🇰_香港_YouTube:VV科技_60:52288
+      - 🇭🇰_香港_YouTube:VV科技_19:52212
+      - 🇺🇸_美国_YouTube:VV科技_44:52295
+      - 🇭🇰_香港_YouTube:VV科技_63:52330
+      - 🇭🇰_香港_YouTube:VV科技_64:52283
+      - 🇭🇰_香港_YouTube:VV科技_56:52215
+      - 🇺🇸_美国_YouTube:VV科技_62:52287
+      - 🇹🇼_台湾_YouTube:VV科技_99:60763
+      - 🇨🇳_中国跳转_YouTube:VV科技_71:504
       - 中国_YouTube：8度科技:52205
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
       - 🇺🇸_US_美国:443
+      - 🇰🇷_韩国_YouTube:VV科技_85:80
+      - 🇺🇸_US_美国:80
+      - 🇨🇳_中国跳转_YouTube:VV科技_28:505
+      - 🇺🇸_US_美国:443_2
+      - 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+      - v2cross.com:443
+      - v2cross.com:443_2
+      - 🇭🇰_香港_YouTube:VV科技_17:80
+      - 🇷🇺_RU_俄罗斯联邦:443
       - 英国_YouTube：8度科技:443
+      - default_name:443
       - 俄罗斯联邦_YouTube：8度科技:443
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
       - 澳大利亚_YouTube：8度科技:443
+      - 🇺🇸_美国_YouTube:VV科技_124:8443
+      - YouTube:VV科技_37:2053
+      - v2cross.com:443_2_2
+      - v2cross.com:443_2_2_2
+      - 🇬🇧_GB_英国:443
+      - 🇺🇸_US_美国:443_2_2
       - 美国_YouTube：8度科技:443
   - name: ♻️ 自动选择
     type: url-test
@@ -113,11 +504,40 @@ proxy-groups:
     interval: 300
     proxies:
       - 中国_YouTube：8度科技:2164
+      - 🇭🇰_香港_YouTube:VV科技_38:11224
+      - 🇭🇰_香港_YouTube:VV科技_40:52219
+      - 🇭🇰_香港_YouTube:VV科技_60:52288
+      - 🇭🇰_香港_YouTube:VV科技_19:52212
+      - 🇺🇸_美国_YouTube:VV科技_44:52295
+      - 🇭🇰_香港_YouTube:VV科技_63:52330
+      - 🇭🇰_香港_YouTube:VV科技_64:52283
+      - 🇭🇰_香港_YouTube:VV科技_56:52215
+      - 🇺🇸_美国_YouTube:VV科技_62:52287
+      - 🇹🇼_台湾_YouTube:VV科技_99:60763
+      - 🇨🇳_中国跳转_YouTube:VV科技_71:504
       - 中国_YouTube：8度科技:52205
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
       - 🇺🇸_US_美国:443
+      - 🇰🇷_韩国_YouTube:VV科技_85:80
+      - 🇺🇸_US_美国:80
+      - 🇨🇳_中国跳转_YouTube:VV科技_28:505
+      - 🇺🇸_US_美国:443_2
+      - 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+      - v2cross.com:443
+      - v2cross.com:443_2
+      - 🇭🇰_香港_YouTube:VV科技_17:80
+      - 🇷🇺_RU_俄罗斯联邦:443
       - 英国_YouTube：8度科技:443
+      - default_name:443
       - 俄罗斯联邦_YouTube：8度科技:443
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
       - 澳大利亚_YouTube：8度科技:443
+      - 🇺🇸_美国_YouTube:VV科技_124:8443
+      - YouTube:VV科技_37:2053
+      - v2cross.com:443_2_2
+      - v2cross.com:443_2_2_2
+      - 🇬🇧_GB_英国:443
+      - 🇺🇸_US_美国:443_2_2
       - 美国_YouTube：8度科技:443
   - name: 🌍 国外媒体
     type: select
@@ -126,11 +546,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 中国_YouTube：8度科技:2164
+      - 🇭🇰_香港_YouTube:VV科技_38:11224
+      - 🇭🇰_香港_YouTube:VV科技_40:52219
+      - 🇭🇰_香港_YouTube:VV科技_60:52288
+      - 🇭🇰_香港_YouTube:VV科技_19:52212
+      - 🇺🇸_美国_YouTube:VV科技_44:52295
+      - 🇭🇰_香港_YouTube:VV科技_63:52330
+      - 🇭🇰_香港_YouTube:VV科技_64:52283
+      - 🇭🇰_香港_YouTube:VV科技_56:52215
+      - 🇺🇸_美国_YouTube:VV科技_62:52287
+      - 🇹🇼_台湾_YouTube:VV科技_99:60763
+      - 🇨🇳_中国跳转_YouTube:VV科技_71:504
       - 中国_YouTube：8度科技:52205
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
       - 🇺🇸_US_美国:443
+      - 🇰🇷_韩国_YouTube:VV科技_85:80
+      - 🇺🇸_US_美国:80
+      - 🇨🇳_中国跳转_YouTube:VV科技_28:505
+      - 🇺🇸_US_美国:443_2
+      - 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+      - v2cross.com:443
+      - v2cross.com:443_2
+      - 🇭🇰_香港_YouTube:VV科技_17:80
+      - 🇷🇺_RU_俄罗斯联邦:443
       - 英国_YouTube：8度科技:443
+      - default_name:443
       - 俄罗斯联邦_YouTube：8度科技:443
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
       - 澳大利亚_YouTube：8度科技:443
+      - 🇺🇸_美国_YouTube:VV科技_124:8443
+      - YouTube:VV科技_37:2053
+      - v2cross.com:443_2_2
+      - v2cross.com:443_2_2_2
+      - 🇬🇧_GB_英国:443
+      - 🇺🇸_US_美国:443_2_2
       - 美国_YouTube：8度科技:443
   - name: 🌏 国内媒体
     type: select
@@ -138,11 +587,40 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 中国_YouTube：8度科技:2164
+      - 🇭🇰_香港_YouTube:VV科技_38:11224
+      - 🇭🇰_香港_YouTube:VV科技_40:52219
+      - 🇭🇰_香港_YouTube:VV科技_60:52288
+      - 🇭🇰_香港_YouTube:VV科技_19:52212
+      - 🇺🇸_美国_YouTube:VV科技_44:52295
+      - 🇭🇰_香港_YouTube:VV科技_63:52330
+      - 🇭🇰_香港_YouTube:VV科技_64:52283
+      - 🇭🇰_香港_YouTube:VV科技_56:52215
+      - 🇺🇸_美国_YouTube:VV科技_62:52287
+      - 🇹🇼_台湾_YouTube:VV科技_99:60763
+      - 🇨🇳_中国跳转_YouTube:VV科技_71:504
       - 中国_YouTube：8度科技:52205
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
       - 🇺🇸_US_美国:443
+      - 🇰🇷_韩国_YouTube:VV科技_85:80
+      - 🇺🇸_US_美国:80
+      - 🇨🇳_中国跳转_YouTube:VV科技_28:505
+      - 🇺🇸_US_美国:443_2
+      - 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+      - v2cross.com:443
+      - v2cross.com:443_2
+      - 🇭🇰_香港_YouTube:VV科技_17:80
+      - 🇷🇺_RU_俄罗斯联邦:443
       - 英国_YouTube：8度科技:443
+      - default_name:443
       - 俄罗斯联邦_YouTube：8度科技:443
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
       - 澳大利亚_YouTube：8度科技:443
+      - 🇺🇸_美国_YouTube:VV科技_124:8443
+      - YouTube:VV科技_37:2053
+      - v2cross.com:443_2_2
+      - v2cross.com:443_2_2_2
+      - 🇬🇧_GB_英国:443
+      - 🇺🇸_US_美国:443_2_2
       - 美国_YouTube：8度科技:443
   - name: Ⓜ️ 微软服务
     type: select
@@ -150,11 +628,40 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 中国_YouTube：8度科技:2164
+      - 🇭🇰_香港_YouTube:VV科技_38:11224
+      - 🇭🇰_香港_YouTube:VV科技_40:52219
+      - 🇭🇰_香港_YouTube:VV科技_60:52288
+      - 🇭🇰_香港_YouTube:VV科技_19:52212
+      - 🇺🇸_美国_YouTube:VV科技_44:52295
+      - 🇭🇰_香港_YouTube:VV科技_63:52330
+      - 🇭🇰_香港_YouTube:VV科技_64:52283
+      - 🇭🇰_香港_YouTube:VV科技_56:52215
+      - 🇺🇸_美国_YouTube:VV科技_62:52287
+      - 🇹🇼_台湾_YouTube:VV科技_99:60763
+      - 🇨🇳_中国跳转_YouTube:VV科技_71:504
       - 中国_YouTube：8度科技:52205
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
       - 🇺🇸_US_美国:443
+      - 🇰🇷_韩国_YouTube:VV科技_85:80
+      - 🇺🇸_US_美国:80
+      - 🇨🇳_中国跳转_YouTube:VV科技_28:505
+      - 🇺🇸_US_美国:443_2
+      - 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+      - v2cross.com:443
+      - v2cross.com:443_2
+      - 🇭🇰_香港_YouTube:VV科技_17:80
+      - 🇷🇺_RU_俄罗斯联邦:443
       - 英国_YouTube：8度科技:443
+      - default_name:443
       - 俄罗斯联邦_YouTube：8度科技:443
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
       - 澳大利亚_YouTube：8度科技:443
+      - 🇺🇸_美国_YouTube:VV科技_124:8443
+      - YouTube:VV科技_37:2053
+      - v2cross.com:443_2_2
+      - v2cross.com:443_2_2_2
+      - 🇬🇧_GB_英国:443
+      - 🇺🇸_US_美国:443_2_2
       - 美国_YouTube：8度科技:443
   - name: 📲 电报信息
     type: select
@@ -162,11 +669,40 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - 中国_YouTube：8度科技:2164
+      - 🇭🇰_香港_YouTube:VV科技_38:11224
+      - 🇭🇰_香港_YouTube:VV科技_40:52219
+      - 🇭🇰_香港_YouTube:VV科技_60:52288
+      - 🇭🇰_香港_YouTube:VV科技_19:52212
+      - 🇺🇸_美国_YouTube:VV科技_44:52295
+      - 🇭🇰_香港_YouTube:VV科技_63:52330
+      - 🇭🇰_香港_YouTube:VV科技_64:52283
+      - 🇭🇰_香港_YouTube:VV科技_56:52215
+      - 🇺🇸_美国_YouTube:VV科技_62:52287
+      - 🇹🇼_台湾_YouTube:VV科技_99:60763
+      - 🇨🇳_中国跳转_YouTube:VV科技_71:504
       - 中国_YouTube：8度科技:52205
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
       - 🇺🇸_US_美国:443
+      - 🇰🇷_韩国_YouTube:VV科技_85:80
+      - 🇺🇸_US_美国:80
+      - 🇨🇳_中国跳转_YouTube:VV科技_28:505
+      - 🇺🇸_US_美国:443_2
+      - 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+      - v2cross.com:443
+      - v2cross.com:443_2
+      - 🇭🇰_香港_YouTube:VV科技_17:80
+      - 🇷🇺_RU_俄罗斯联邦:443
       - 英国_YouTube：8度科技:443
+      - default_name:443
       - 俄罗斯联邦_YouTube：8度科技:443
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
       - 澳大利亚_YouTube：8度科技:443
+      - 🇺🇸_美国_YouTube:VV科技_124:8443
+      - YouTube:VV科技_37:2053
+      - v2cross.com:443_2_2
+      - v2cross.com:443_2_2_2
+      - 🇬🇧_GB_英国:443
+      - 🇺🇸_US_美国:443_2_2
       - 美国_YouTube：8度科技:443
   - name: 🍎 苹果服务
     type: select
@@ -175,22 +711,80 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 中国_YouTube：8度科技:2164
+      - 🇭🇰_香港_YouTube:VV科技_38:11224
+      - 🇭🇰_香港_YouTube:VV科技_40:52219
+      - 🇭🇰_香港_YouTube:VV科技_60:52288
+      - 🇭🇰_香港_YouTube:VV科技_19:52212
+      - 🇺🇸_美国_YouTube:VV科技_44:52295
+      - 🇭🇰_香港_YouTube:VV科技_63:52330
+      - 🇭🇰_香港_YouTube:VV科技_64:52283
+      - 🇭🇰_香港_YouTube:VV科技_56:52215
+      - 🇺🇸_美国_YouTube:VV科技_62:52287
+      - 🇹🇼_台湾_YouTube:VV科技_99:60763
+      - 🇨🇳_中国跳转_YouTube:VV科技_71:504
       - 中国_YouTube：8度科技:52205
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
       - 🇺🇸_US_美国:443
+      - 🇰🇷_韩国_YouTube:VV科技_85:80
+      - 🇺🇸_US_美国:80
+      - 🇨🇳_中国跳转_YouTube:VV科技_28:505
+      - 🇺🇸_US_美国:443_2
+      - 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+      - v2cross.com:443
+      - v2cross.com:443_2
+      - 🇭🇰_香港_YouTube:VV科技_17:80
+      - 🇷🇺_RU_俄罗斯联邦:443
       - 英国_YouTube：8度科技:443
+      - default_name:443
       - 俄罗斯联邦_YouTube：8度科技:443
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
       - 澳大利亚_YouTube：8度科技:443
+      - 🇺🇸_美国_YouTube:VV科技_124:8443
+      - YouTube:VV科技_37:2053
+      - v2cross.com:443_2_2
+      - v2cross.com:443_2_2_2
+      - 🇬🇧_GB_英国:443
+      - 🇺🇸_US_美国:443_2_2
       - 美国_YouTube：8度科技:443
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 中国_YouTube：8度科技:2164
+      - 🇭🇰_香港_YouTube:VV科技_38:11224
+      - 🇭🇰_香港_YouTube:VV科技_40:52219
+      - 🇭🇰_香港_YouTube:VV科技_60:52288
+      - 🇭🇰_香港_YouTube:VV科技_19:52212
+      - 🇺🇸_美国_YouTube:VV科技_44:52295
+      - 🇭🇰_香港_YouTube:VV科技_63:52330
+      - 🇭🇰_香港_YouTube:VV科技_64:52283
+      - 🇭🇰_香港_YouTube:VV科技_56:52215
+      - 🇺🇸_美国_YouTube:VV科技_62:52287
+      - 🇹🇼_台湾_YouTube:VV科技_99:60763
+      - 🇨🇳_中国跳转_YouTube:VV科技_71:504
       - 中国_YouTube：8度科技:52205
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
       - 🇺🇸_US_美国:443
+      - 🇰🇷_韩国_YouTube:VV科技_85:80
+      - 🇺🇸_US_美国:80
+      - 🇨🇳_中国跳转_YouTube:VV科技_28:505
+      - 🇺🇸_US_美国:443_2
+      - 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+      - v2cross.com:443
+      - v2cross.com:443_2
+      - 🇭🇰_香港_YouTube:VV科技_17:80
+      - 🇷🇺_RU_俄罗斯联邦:443
       - 英国_YouTube：8度科技:443
+      - default_name:443
       - 俄罗斯联邦_YouTube：8度科技:443
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
       - 澳大利亚_YouTube：8度科技:443
+      - 🇺🇸_美国_YouTube:VV科技_124:8443
+      - YouTube:VV科技_37:2053
+      - v2cross.com:443_2_2
+      - v2cross.com:443_2_2_2
+      - 🇬🇧_GB_英国:443
+      - 🇺🇸_US_美国:443_2_2
       - 美国_YouTube：8度科技:443
   - name: 🛑 全球拦截
     type: select
@@ -198,11 +792,40 @@ proxy-groups:
       - REJECT
       - DIRECT
       - 中国_YouTube：8度科技:2164
+      - 🇭🇰_香港_YouTube:VV科技_38:11224
+      - 🇭🇰_香港_YouTube:VV科技_40:52219
+      - 🇭🇰_香港_YouTube:VV科技_60:52288
+      - 🇭🇰_香港_YouTube:VV科技_19:52212
+      - 🇺🇸_美国_YouTube:VV科技_44:52295
+      - 🇭🇰_香港_YouTube:VV科技_63:52330
+      - 🇭🇰_香港_YouTube:VV科技_64:52283
+      - 🇭🇰_香港_YouTube:VV科技_56:52215
+      - 🇺🇸_美国_YouTube:VV科技_62:52287
+      - 🇹🇼_台湾_YouTube:VV科技_99:60763
+      - 🇨🇳_中国跳转_YouTube:VV科技_71:504
       - 中国_YouTube：8度科技:52205
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
       - 🇺🇸_US_美国:443
+      - 🇰🇷_韩国_YouTube:VV科技_85:80
+      - 🇺🇸_US_美国:80
+      - 🇨🇳_中国跳转_YouTube:VV科技_28:505
+      - 🇺🇸_US_美国:443_2
+      - 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+      - v2cross.com:443
+      - v2cross.com:443_2
+      - 🇭🇰_香港_YouTube:VV科技_17:80
+      - 🇷🇺_RU_俄罗斯联邦:443
       - 英国_YouTube：8度科技:443
+      - default_name:443
       - 俄罗斯联邦_YouTube：8度科技:443
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
       - 澳大利亚_YouTube：8度科技:443
+      - 🇺🇸_美国_YouTube:VV科技_124:8443
+      - YouTube:VV科技_37:2053
+      - v2cross.com:443_2_2
+      - v2cross.com:443_2_2_2
+      - 🇬🇧_GB_英国:443
+      - 🇺🇸_US_美国:443_2_2
       - 美国_YouTube：8度科技:443
   - name: 🐟 漏网之鱼
     type: select
@@ -211,11 +834,40 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 中国_YouTube：8度科技:2164
+      - 🇭🇰_香港_YouTube:VV科技_38:11224
+      - 🇭🇰_香港_YouTube:VV科技_40:52219
+      - 🇭🇰_香港_YouTube:VV科技_60:52288
+      - 🇭🇰_香港_YouTube:VV科技_19:52212
+      - 🇺🇸_美国_YouTube:VV科技_44:52295
+      - 🇭🇰_香港_YouTube:VV科技_63:52330
+      - 🇭🇰_香港_YouTube:VV科技_64:52283
+      - 🇭🇰_香港_YouTube:VV科技_56:52215
+      - 🇺🇸_美国_YouTube:VV科技_62:52287
+      - 🇹🇼_台湾_YouTube:VV科技_99:60763
+      - 🇨🇳_中国跳转_YouTube:VV科技_71:504
       - 中国_YouTube：8度科技:52205
+      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦:52412
       - 🇺🇸_US_美国:443
+      - 🇰🇷_韩国_YouTube:VV科技_85:80
+      - 🇺🇸_US_美国:80
+      - 🇨🇳_中国跳转_YouTube:VV科技_28:505
+      - 🇺🇸_US_美国:443_2
+      - 🇨🇳_中国跳转_YouTube:VV科技_13:16990
+      - v2cross.com:443
+      - v2cross.com:443_2
+      - 🇭🇰_香港_YouTube:VV科技_17:80
+      - 🇷🇺_RU_俄罗斯联邦:443
       - 英国_YouTube：8度科技:443
+      - default_name:443
       - 俄罗斯联邦_YouTube：8度科技:443
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
       - 澳大利亚_YouTube：8度科技:443
+      - 🇺🇸_美国_YouTube:VV科技_124:8443
+      - YouTube:VV科技_37:2053
+      - v2cross.com:443_2_2
+      - v2cross.com:443_2_2_2
+      - 🇬🇧_GB_英国:443
+      - 🇺🇸_US_美国:443_2_2
       - 美国_YouTube：8度科技:443
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
