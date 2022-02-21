@@ -5,19 +5,56 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: CN_中国_油管 TG 8度科技:1112
+  - name: HK_香港_油管 TG 8度科技:52285
     type: vmess
-    server: 101.230.149.27
-    port: 1112
-    uuid: 6e66fb0b-2d3a-46d9-b778-d4cc15b49a6b
-    alterId: "0"
+    server: 85.wgong.xyz
+    port: 52285
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: 85.wgong.xyz
+  - name: HK_香港_油管 TG 8度科技:52213
+    type: vmess
+    server: 113.wowogg.cyou
+    port: 52213
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
     cipher: auto
     udp: true
     network: tcp
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: HK_香港_油管 TG 8度科技:52213
+  - name: CN_中国_油管 TG 8度科技:52218
+    type: vmess
+    server: 118.wowogg.cyou
+    port: 52218
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: HK_香港_油管 TG 8度科技:52285_2
+    type: vmess
+    server: 85.wgong.xyz
+    port: 52285
+    uuid: 08103798-414e-32b6-8748-2507732d2c51
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: HK_香港_油管 TG 8度科技:52213_2
     type: vmess
     server: 113.wowogg.cyou
     port: 52213
@@ -30,116 +67,6 @@ proxies:
     ws-path: t.me/vpnpool
     ws-headers:
       Host: t.me/vpnhat
-  - name: HK_香港_油管 TG 8度科技:52213_2
-    type: vmess
-    server: 113.wowogg.cyou
-    port: 52213
-    uuid: 08103798-414e-32b6-8748-2507732d2c51
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: HK_香港_油管 TG 8度科技:52281
-    type: vmess
-    server: 81.wgong.xyz
-    port: 52281
-    uuid: 08103798-414e-32b6-8748-2507732d2c51
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: HK_香港_油管 TG 8度科技:52220
-    type: vmess
-    server: 120.wgong.xyz
-    port: 52220
-    uuid: 08103798-414e-32b6-8748-2507732d2c51
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers: null
-  - name: CN_中国_油管 TG 8度科技:1114
-    type: vmess
-    server: 101.230.149.27
-    port: 1114
-    uuid: 6e66fb0b-2d3a-46d9-b778-d4cc15b49a6b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_中国_油管 TG 8度科技:1115
-    type: vmess
-    server: 101.230.149.27
-    port: 1115
-    uuid: 6e66fb0b-2d3a-46d9-b778-d4cc15b49a6b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_中国_油管 TG 8度科技:1113
-    type: vmess
-    server: 101.230.149.27
-    port: 1113
-    uuid: 6e66fb0b-2d3a-46d9-b778-d4cc15b49a6b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_中国_油管 TG 8度科技:1111
-    type: vmess
-    server: 101.230.149.27
-    port: 1111
-    uuid: 6e66fb0b-2d3a-46d9-b778-d4cc15b49a6b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_中国_油管 TG 8度科技:504
-    type: vmess
-    server: tunnel-tw-a-01.xncloud.xyz
-    port: 504
-    uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /niaoyun
-    ws-headers:
-      Host: mf-hinet-tw-04.xncloud.xyz
-  - name: CN_中国_油管 TG 8度科技:504_2
-    type: vmess
-    server: tunnel-tw-a-01.xncloud.xyz
-    port: 504
-    uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /niaoyun
-    ws-headers:
-      Host: mf-hinet-tw-04.xncloud.xyz
   - name: CN_中国_油管 TG 8度科技:505
     type: vmess
     server: tunnel-tw-a-01.xncloud.xyz
@@ -153,19 +80,56 @@ proxies:
     ws-path: /niaoyun
     ws-headers:
       Host: tunnel-tw-a-01.xncloud.xyz
-  - name: US_美国_油管 TG 8度科技:443
+  - name: 🇺🇸_US_美国:443
     type: vmess
-    server: anzhuo-hezi1.herokuapp.com
+    server: v1.ssrsub.com
     port: 443
-    uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8
+    uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess
+    ws-path: /ssrsub
+    ws-headers: null
+  - name: default_name:443
+    type: vmess
+    server: 198.41.221.169
+    port: 443
+    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /sakura/
     ws-headers:
-      Host: anzhuo-hezi1.herokuapp.com
+      Host: zero1.a-yu.xyz
+  - name: CN_中国_油管 TG 8度科技:504
+    type: vmess
+    server: tunnel-tw-a-01.xncloud.xyz
+    port: 504
+    uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /niaoyun
+    ws-headers:
+      Host: mf-hinet-tw-04.xncloud.xyz
+  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+    type: vmess
+    server: v2ray.ifuckgfw.ga
+    port: 8443
+    uuid: a1effd82-8a11-11ec-9aeb-52ac0014346a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /nBaG3RmV/
+    ws-headers: null
   - name: 油管 TG 8度科技:443
     type: vmess
     server: test.0dc.cn
@@ -179,32 +143,45 @@ proxies:
     ws-path: /
     ws-headers:
       Host: test.0dc.cn
-  - name: TW_台湾_油管 TG 8度科技:80
+  - name: default_name:443_2
     type: vmess
-    server: 1207tw.fans8.xyz
-    port: 80
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: a.189.cn
-  - name: US_美国_油管 TG 8度科技:443_2
-    type: vmess
-    server: anzhuo-hezi1.herokuapp.com
+    server: 198.41.212.13
     port: 443
-    uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8
+    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess
+    ws-path: /sakura/
+    ws-headers:
+      Host: zero1.a-yu.xyz
+  - name: 🇺🇸_US_美国:443_2
+    type: vmess
+    server: v8.ssrsub.com
+    port: 443
+    uuid: b2015918-4a70-4250-8afa-dba8a5be97f4
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
     ws-headers: null
-  - name: US_美国_油管 TG 8度科技:443_2_2
+  - name: 🇩🇪_DE_德国:443
+    type: vmess
+    server: 37.61.213.94
+    port: 443
+    uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ray
+    ws-headers:
+      Host: govacaxixo.watchdoctor.xyz
+  - name: US_美国_油管 TG 8度科技:443
     type: vmess
     server: 172.67.68.58
     port: 443
@@ -217,11 +194,11 @@ proxies:
     ws-path: /shuier
     ws-headers:
       Host: xc1.v2rie.pp.ua
-  - name: AU_澳大利亚_油管 TG 8度科技:443
+  - name: 🇷🇺_RU_俄罗斯联邦:443
     type: vmess
-    server: 217.138.204.202
+    server: 92.223.72.42
     port: 443
-    uuid: fa1eff46-f454-42d9-b881-90a102d5521d
+    uuid: ae08412f-5bb9-4be7-8560-1984976a1097
     alterId: "0"
     cipher: auto
     udp: true
@@ -230,374 +207,332 @@ proxies:
     ws-path: /ray
     ws-headers:
       Host: govacaxixo.watchdoctor.xyz
-  - name: TW_台湾_油管 TG 8度科技:80_2
+  - name: CN_中国_油管 TG 8度科技:504_2
     type: vmess
-    server: 128tw02.fans8.xyz
-    port: 80
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
+    server: tunnel-tw-a-01.xncloud.xyz
+    port: 504
+    uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
+    alterId: "1"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /v2ray
-    ws-headers: null
-  - name: HK_香港_油管 TG 8度科技:52285
+    ws-path: /niaoyun
+    ws-headers:
+      Host: mf-hinet-tw-04.xncloud.xyz
+  - name: default_name:443_2_2
     type: vmess
-    server: 85.wgong.xyz
-    port: 52285
-    uuid: 08103798-414e-32b6-8748-2507732d2c51
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_中国_油管 TG 8度科技:34025
-    type: vmess
-    server: ls.yunsu.ke666.net
-    port: 34025
-    uuid: 7a875411-5911-4752-b129-e89722f0e740
+    server: 198.41.212.9
+    port: 443
+    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /yunsunode
+    tls: true
+    ws-path: /sakura/
     ws-headers:
-      Host: ls.yunsu.ke666.net
-  - name: CN_中国_油管 TG 8度科技:52218
+      Host: zero1.a-yu.xyz
+  - name: 🇷🇺_RU_俄罗斯联邦:443_2
     type: vmess
-    server: 118.wowogg.cyou
-    port: 52218
-    uuid: 08103798-414e-32b6-8748-2507732d2c51
-    alterId: "2"
+    server: 92.223.65.119
+    port: 443
+    uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15
+    alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
+    network: ws
+    tls: true
+    ws-path: /ray
+    ws-headers:
+      Host: govacaxixo.watchdoctor.xyz
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+    type: vmess
+    server: v2.ssrsub.com
+    port: 8443
+    uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ssrsub
     ws-headers: null
-  - name: HK_香港_油管 TG 8度科技:52211
+  - name: US_美国_油管 TG 8度科技:443_2
     type: vmess
-    server: v111.wgong.xyz
-    port: 52211
-    uuid: 08103798-414e-32b6-8748-2507732d2c51
-    alterId: "2"
+    server: anzhuo-hezi1.herokuapp.com
+    port: 443
+    uuid: 05b8441f-3c76-4af1-b5b9-dd60d27e5ef8
+    alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: v111.wgong.xyz
-  - name: HK_香港_油管 TG 8度科技:52285_2
-    type: vmess
-    server: 85.wgong.xyz
-    port: 52285
-    uuid: 08103798-414e-32b6-8748-2507732d2c51
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers:
-      Host: 85.wgong.xyz
+    network: ws
+    tls: true
+    ws-path: /05b8441f-3c76-4af1-b5b9-dd60d27e5ef8-vmess
+    ws-headers: null
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_中国_油管 TG 8度科技:1112
-      - HK_香港_油管 TG 8度科技:52213
-      - HK_香港_油管 TG 8度科技:52213_2
-      - HK_香港_油管 TG 8度科技:52281
-      - HK_香港_油管 TG 8度科技:52220
-      - CN_中国_油管 TG 8度科技:1114
-      - CN_中国_油管 TG 8度科技:1115
-      - CN_中国_油管 TG 8度科技:1113
-      - CN_中国_油管 TG 8度科技:1111
-      - CN_中国_油管 TG 8度科技:504
-      - CN_中国_油管 TG 8度科技:504_2
-      - CN_中国_油管 TG 8度科技:505
-      - US_美国_油管 TG 8度科技:443
-      - 油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80
-      - US_美国_油管 TG 8度科技:443_2
-      - US_美国_油管 TG 8度科技:443_2_2
-      - AU_澳大利亚_油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80_2
       - HK_香港_油管 TG 8度科技:52285
-      - CN_中国_油管 TG 8度科技:34025
+      - HK_香港_油管 TG 8度科技:52213
       - CN_中国_油管 TG 8度科技:52218
-      - HK_香港_油管 TG 8度科技:52211
       - HK_香港_油管 TG 8度科技:52285_2
+      - HK_香港_油管 TG 8度科技:52213_2
+      - CN_中国_油管 TG 8度科技:505
+      - 🇺🇸_US_美国:443
+      - default_name:443
+      - CN_中国_油管 TG 8度科技:504
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+      - 油管 TG 8度科技:443
+      - default_name:443_2
+      - 🇺🇸_US_美国:443_2
+      - 🇩🇪_DE_德国:443
+      - US_美国_油管 TG 8度科技:443
+      - 🇷🇺_RU_俄罗斯联邦:443
+      - CN_中国_油管 TG 8度科技:504_2
+      - default_name:443_2_2
+      - 🇷🇺_RU_俄罗斯联邦:443_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - US_美国_油管 TG 8度科技:443_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_中国_油管 TG 8度科技:1112
-      - HK_香港_油管 TG 8度科技:52213
-      - HK_香港_油管 TG 8度科技:52213_2
-      - HK_香港_油管 TG 8度科技:52281
-      - HK_香港_油管 TG 8度科技:52220
-      - CN_中国_油管 TG 8度科技:1114
-      - CN_中国_油管 TG 8度科技:1115
-      - CN_中国_油管 TG 8度科技:1113
-      - CN_中国_油管 TG 8度科技:1111
-      - CN_中国_油管 TG 8度科技:504
-      - CN_中国_油管 TG 8度科技:504_2
-      - CN_中国_油管 TG 8度科技:505
-      - US_美国_油管 TG 8度科技:443
-      - 油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80
-      - US_美国_油管 TG 8度科技:443_2
-      - US_美国_油管 TG 8度科技:443_2_2
-      - AU_澳大利亚_油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80_2
       - HK_香港_油管 TG 8度科技:52285
-      - CN_中国_油管 TG 8度科技:34025
+      - HK_香港_油管 TG 8度科技:52213
       - CN_中国_油管 TG 8度科技:52218
-      - HK_香港_油管 TG 8度科技:52211
       - HK_香港_油管 TG 8度科技:52285_2
+      - HK_香港_油管 TG 8度科技:52213_2
+      - CN_中国_油管 TG 8度科技:505
+      - 🇺🇸_US_美国:443
+      - default_name:443
+      - CN_中国_油管 TG 8度科技:504
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+      - 油管 TG 8度科技:443
+      - default_name:443_2
+      - 🇺🇸_US_美国:443_2
+      - 🇩🇪_DE_德国:443
+      - US_美国_油管 TG 8度科技:443
+      - 🇷🇺_RU_俄罗斯联邦:443
+      - CN_中国_油管 TG 8度科技:504_2
+      - default_name:443_2_2
+      - 🇷🇺_RU_俄罗斯联邦:443_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - US_美国_油管 TG 8度科技:443_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_中国_油管 TG 8度科技:1112
-      - HK_香港_油管 TG 8度科技:52213
-      - HK_香港_油管 TG 8度科技:52213_2
-      - HK_香港_油管 TG 8度科技:52281
-      - HK_香港_油管 TG 8度科技:52220
-      - CN_中国_油管 TG 8度科技:1114
-      - CN_中国_油管 TG 8度科技:1115
-      - CN_中国_油管 TG 8度科技:1113
-      - CN_中国_油管 TG 8度科技:1111
-      - CN_中国_油管 TG 8度科技:504
-      - CN_中国_油管 TG 8度科技:504_2
-      - CN_中国_油管 TG 8度科技:505
-      - US_美国_油管 TG 8度科技:443
-      - 油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80
-      - US_美国_油管 TG 8度科技:443_2
-      - US_美国_油管 TG 8度科技:443_2_2
-      - AU_澳大利亚_油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80_2
       - HK_香港_油管 TG 8度科技:52285
-      - CN_中国_油管 TG 8度科技:34025
+      - HK_香港_油管 TG 8度科技:52213
       - CN_中国_油管 TG 8度科技:52218
-      - HK_香港_油管 TG 8度科技:52211
       - HK_香港_油管 TG 8度科技:52285_2
+      - HK_香港_油管 TG 8度科技:52213_2
+      - CN_中国_油管 TG 8度科技:505
+      - 🇺🇸_US_美国:443
+      - default_name:443
+      - CN_中国_油管 TG 8度科技:504
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+      - 油管 TG 8度科技:443
+      - default_name:443_2
+      - 🇺🇸_US_美国:443_2
+      - 🇩🇪_DE_德国:443
+      - US_美国_油管 TG 8度科技:443
+      - 🇷🇺_RU_俄罗斯联邦:443
+      - CN_中国_油管 TG 8度科技:504_2
+      - default_name:443_2_2
+      - 🇷🇺_RU_俄罗斯联邦:443_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - US_美国_油管 TG 8度科技:443_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_中国_油管 TG 8度科技:1112
-      - HK_香港_油管 TG 8度科技:52213
-      - HK_香港_油管 TG 8度科技:52213_2
-      - HK_香港_油管 TG 8度科技:52281
-      - HK_香港_油管 TG 8度科技:52220
-      - CN_中国_油管 TG 8度科技:1114
-      - CN_中国_油管 TG 8度科技:1115
-      - CN_中国_油管 TG 8度科技:1113
-      - CN_中国_油管 TG 8度科技:1111
-      - CN_中国_油管 TG 8度科技:504
-      - CN_中国_油管 TG 8度科技:504_2
-      - CN_中国_油管 TG 8度科技:505
-      - US_美国_油管 TG 8度科技:443
-      - 油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80
-      - US_美国_油管 TG 8度科技:443_2
-      - US_美国_油管 TG 8度科技:443_2_2
-      - AU_澳大利亚_油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80_2
       - HK_香港_油管 TG 8度科技:52285
-      - CN_中国_油管 TG 8度科技:34025
+      - HK_香港_油管 TG 8度科技:52213
       - CN_中国_油管 TG 8度科技:52218
-      - HK_香港_油管 TG 8度科技:52211
       - HK_香港_油管 TG 8度科技:52285_2
+      - HK_香港_油管 TG 8度科技:52213_2
+      - CN_中国_油管 TG 8度科技:505
+      - 🇺🇸_US_美国:443
+      - default_name:443
+      - CN_中国_油管 TG 8度科技:504
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+      - 油管 TG 8度科技:443
+      - default_name:443_2
+      - 🇺🇸_US_美国:443_2
+      - 🇩🇪_DE_德国:443
+      - US_美国_油管 TG 8度科技:443
+      - 🇷🇺_RU_俄罗斯联邦:443
+      - CN_中国_油管 TG 8度科技:504_2
+      - default_name:443_2_2
+      - 🇷🇺_RU_俄罗斯联邦:443_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - US_美国_油管 TG 8度科技:443_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_中国_油管 TG 8度科技:1112
-      - HK_香港_油管 TG 8度科技:52213
-      - HK_香港_油管 TG 8度科技:52213_2
-      - HK_香港_油管 TG 8度科技:52281
-      - HK_香港_油管 TG 8度科技:52220
-      - CN_中国_油管 TG 8度科技:1114
-      - CN_中国_油管 TG 8度科技:1115
-      - CN_中国_油管 TG 8度科技:1113
-      - CN_中国_油管 TG 8度科技:1111
-      - CN_中国_油管 TG 8度科技:504
-      - CN_中国_油管 TG 8度科技:504_2
-      - CN_中国_油管 TG 8度科技:505
-      - US_美国_油管 TG 8度科技:443
-      - 油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80
-      - US_美国_油管 TG 8度科技:443_2
-      - US_美国_油管 TG 8度科技:443_2_2
-      - AU_澳大利亚_油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80_2
       - HK_香港_油管 TG 8度科技:52285
-      - CN_中国_油管 TG 8度科技:34025
+      - HK_香港_油管 TG 8度科技:52213
       - CN_中国_油管 TG 8度科技:52218
-      - HK_香港_油管 TG 8度科技:52211
       - HK_香港_油管 TG 8度科技:52285_2
+      - HK_香港_油管 TG 8度科技:52213_2
+      - CN_中国_油管 TG 8度科技:505
+      - 🇺🇸_US_美国:443
+      - default_name:443
+      - CN_中国_油管 TG 8度科技:504
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+      - 油管 TG 8度科技:443
+      - default_name:443_2
+      - 🇺🇸_US_美国:443_2
+      - 🇩🇪_DE_德国:443
+      - US_美国_油管 TG 8度科技:443
+      - 🇷🇺_RU_俄罗斯联邦:443
+      - CN_中国_油管 TG 8度科技:504_2
+      - default_name:443_2_2
+      - 🇷🇺_RU_俄罗斯联邦:443_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - US_美国_油管 TG 8度科技:443_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_中国_油管 TG 8度科技:1112
-      - HK_香港_油管 TG 8度科技:52213
-      - HK_香港_油管 TG 8度科技:52213_2
-      - HK_香港_油管 TG 8度科技:52281
-      - HK_香港_油管 TG 8度科技:52220
-      - CN_中国_油管 TG 8度科技:1114
-      - CN_中国_油管 TG 8度科技:1115
-      - CN_中国_油管 TG 8度科技:1113
-      - CN_中国_油管 TG 8度科技:1111
-      - CN_中国_油管 TG 8度科技:504
-      - CN_中国_油管 TG 8度科技:504_2
-      - CN_中国_油管 TG 8度科技:505
-      - US_美国_油管 TG 8度科技:443
-      - 油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80
-      - US_美国_油管 TG 8度科技:443_2
-      - US_美国_油管 TG 8度科技:443_2_2
-      - AU_澳大利亚_油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80_2
       - HK_香港_油管 TG 8度科技:52285
-      - CN_中国_油管 TG 8度科技:34025
+      - HK_香港_油管 TG 8度科技:52213
       - CN_中国_油管 TG 8度科技:52218
-      - HK_香港_油管 TG 8度科技:52211
       - HK_香港_油管 TG 8度科技:52285_2
+      - HK_香港_油管 TG 8度科技:52213_2
+      - CN_中国_油管 TG 8度科技:505
+      - 🇺🇸_US_美国:443
+      - default_name:443
+      - CN_中国_油管 TG 8度科技:504
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+      - 油管 TG 8度科技:443
+      - default_name:443_2
+      - 🇺🇸_US_美国:443_2
+      - 🇩🇪_DE_德国:443
+      - US_美国_油管 TG 8度科技:443
+      - 🇷🇺_RU_俄罗斯联邦:443
+      - CN_中国_油管 TG 8度科技:504_2
+      - default_name:443_2_2
+      - 🇷🇺_RU_俄罗斯联邦:443_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - US_美国_油管 TG 8度科技:443_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - CN_中国_油管 TG 8度科技:1112
-      - HK_香港_油管 TG 8度科技:52213
-      - HK_香港_油管 TG 8度科技:52213_2
-      - HK_香港_油管 TG 8度科技:52281
-      - HK_香港_油管 TG 8度科技:52220
-      - CN_中国_油管 TG 8度科技:1114
-      - CN_中国_油管 TG 8度科技:1115
-      - CN_中国_油管 TG 8度科技:1113
-      - CN_中国_油管 TG 8度科技:1111
-      - CN_中国_油管 TG 8度科技:504
-      - CN_中国_油管 TG 8度科技:504_2
-      - CN_中国_油管 TG 8度科技:505
-      - US_美国_油管 TG 8度科技:443
-      - 油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80
-      - US_美国_油管 TG 8度科技:443_2
-      - US_美国_油管 TG 8度科技:443_2_2
-      - AU_澳大利亚_油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80_2
       - HK_香港_油管 TG 8度科技:52285
-      - CN_中国_油管 TG 8度科技:34025
+      - HK_香港_油管 TG 8度科技:52213
       - CN_中国_油管 TG 8度科技:52218
-      - HK_香港_油管 TG 8度科技:52211
       - HK_香港_油管 TG 8度科技:52285_2
+      - HK_香港_油管 TG 8度科技:52213_2
+      - CN_中国_油管 TG 8度科技:505
+      - 🇺🇸_US_美国:443
+      - default_name:443
+      - CN_中国_油管 TG 8度科技:504
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+      - 油管 TG 8度科技:443
+      - default_name:443_2
+      - 🇺🇸_US_美国:443_2
+      - 🇩🇪_DE_德国:443
+      - US_美国_油管 TG 8度科技:443
+      - 🇷🇺_RU_俄罗斯联邦:443
+      - CN_中国_油管 TG 8度科技:504_2
+      - default_name:443_2_2
+      - 🇷🇺_RU_俄罗斯联邦:443_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - US_美国_油管 TG 8度科技:443_2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - CN_中国_油管 TG 8度科技:1112
-      - HK_香港_油管 TG 8度科技:52213
-      - HK_香港_油管 TG 8度科技:52213_2
-      - HK_香港_油管 TG 8度科技:52281
-      - HK_香港_油管 TG 8度科技:52220
-      - CN_中国_油管 TG 8度科技:1114
-      - CN_中国_油管 TG 8度科技:1115
-      - CN_中国_油管 TG 8度科技:1113
-      - CN_中国_油管 TG 8度科技:1111
-      - CN_中国_油管 TG 8度科技:504
-      - CN_中国_油管 TG 8度科技:504_2
-      - CN_中国_油管 TG 8度科技:505
-      - US_美国_油管 TG 8度科技:443
-      - 油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80
-      - US_美国_油管 TG 8度科技:443_2
-      - US_美国_油管 TG 8度科技:443_2_2
-      - AU_澳大利亚_油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80_2
       - HK_香港_油管 TG 8度科技:52285
-      - CN_中国_油管 TG 8度科技:34025
+      - HK_香港_油管 TG 8度科技:52213
       - CN_中国_油管 TG 8度科技:52218
-      - HK_香港_油管 TG 8度科技:52211
       - HK_香港_油管 TG 8度科技:52285_2
+      - HK_香港_油管 TG 8度科技:52213_2
+      - CN_中国_油管 TG 8度科技:505
+      - 🇺🇸_US_美国:443
+      - default_name:443
+      - CN_中国_油管 TG 8度科技:504
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+      - 油管 TG 8度科技:443
+      - default_name:443_2
+      - 🇺🇸_US_美国:443_2
+      - 🇩🇪_DE_德国:443
+      - US_美国_油管 TG 8度科技:443
+      - 🇷🇺_RU_俄罗斯联邦:443
+      - CN_中国_油管 TG 8度科技:504_2
+      - default_name:443_2_2
+      - 🇷🇺_RU_俄罗斯联邦:443_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - US_美国_油管 TG 8度科技:443_2
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - CN_中国_油管 TG 8度科技:1112
-      - HK_香港_油管 TG 8度科技:52213
-      - HK_香港_油管 TG 8度科技:52213_2
-      - HK_香港_油管 TG 8度科技:52281
-      - HK_香港_油管 TG 8度科技:52220
-      - CN_中国_油管 TG 8度科技:1114
-      - CN_中国_油管 TG 8度科技:1115
-      - CN_中国_油管 TG 8度科技:1113
-      - CN_中国_油管 TG 8度科技:1111
-      - CN_中国_油管 TG 8度科技:504
-      - CN_中国_油管 TG 8度科技:504_2
-      - CN_中国_油管 TG 8度科技:505
-      - US_美国_油管 TG 8度科技:443
-      - 油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80
-      - US_美国_油管 TG 8度科技:443_2
-      - US_美国_油管 TG 8度科技:443_2_2
-      - AU_澳大利亚_油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80_2
       - HK_香港_油管 TG 8度科技:52285
-      - CN_中国_油管 TG 8度科技:34025
+      - HK_香港_油管 TG 8度科技:52213
       - CN_中国_油管 TG 8度科技:52218
-      - HK_香港_油管 TG 8度科技:52211
       - HK_香港_油管 TG 8度科技:52285_2
+      - HK_香港_油管 TG 8度科技:52213_2
+      - CN_中国_油管 TG 8度科技:505
+      - 🇺🇸_US_美国:443
+      - default_name:443
+      - CN_中国_油管 TG 8度科技:504
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+      - 油管 TG 8度科技:443
+      - default_name:443_2
+      - 🇺🇸_US_美国:443_2
+      - 🇩🇪_DE_德国:443
+      - US_美国_油管 TG 8度科技:443
+      - 🇷🇺_RU_俄罗斯联邦:443
+      - CN_中国_油管 TG 8度科技:504_2
+      - default_name:443_2_2
+      - 🇷🇺_RU_俄罗斯联邦:443_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - US_美国_油管 TG 8度科技:443_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_中国_油管 TG 8度科技:1112
-      - HK_香港_油管 TG 8度科技:52213
-      - HK_香港_油管 TG 8度科技:52213_2
-      - HK_香港_油管 TG 8度科技:52281
-      - HK_香港_油管 TG 8度科技:52220
-      - CN_中国_油管 TG 8度科技:1114
-      - CN_中国_油管 TG 8度科技:1115
-      - CN_中国_油管 TG 8度科技:1113
-      - CN_中国_油管 TG 8度科技:1111
-      - CN_中国_油管 TG 8度科技:504
-      - CN_中国_油管 TG 8度科技:504_2
-      - CN_中国_油管 TG 8度科技:505
-      - US_美国_油管 TG 8度科技:443
-      - 油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80
-      - US_美国_油管 TG 8度科技:443_2
-      - US_美国_油管 TG 8度科技:443_2_2
-      - AU_澳大利亚_油管 TG 8度科技:443
-      - TW_台湾_油管 TG 8度科技:80_2
       - HK_香港_油管 TG 8度科技:52285
-      - CN_中国_油管 TG 8度科技:34025
+      - HK_香港_油管 TG 8度科技:52213
       - CN_中国_油管 TG 8度科技:52218
-      - HK_香港_油管 TG 8度科技:52211
       - HK_香港_油管 TG 8度科技:52285_2
+      - HK_香港_油管 TG 8度科技:52213_2
+      - CN_中国_油管 TG 8度科技:505
+      - 🇺🇸_US_美国:443
+      - default_name:443
+      - CN_中国_油管 TG 8度科技:504
+      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
+      - 油管 TG 8度科技:443
+      - default_name:443_2
+      - 🇺🇸_US_美国:443_2
+      - 🇩🇪_DE_德国:443
+      - US_美国_油管 TG 8度科技:443
+      - 🇷🇺_RU_俄罗斯联邦:443
+      - CN_中国_油管 TG 8度科技:504_2
+      - default_name:443_2_2
+      - 🇷🇺_RU_俄罗斯联邦:443_2
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦:8443
+      - US_美国_油管 TG 8度科技:443_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
