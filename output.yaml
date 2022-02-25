@@ -7,43 +7,30 @@ external-controller: 127.0.0.1:9090
 proxies:
   - name: 🇺🇸_US_美国:443
     type: vmess
-    server: app.ssfree.ru
+    server: 45.35.84.162
     port: 443
-    uuid: a8d3abf2-94c1-11ec-b51d-000017022008
-    alterId: "64"
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /getweather
+    ws-path: /ws
+    ws-headers:
+      Host: usa-dallas.lvuft.com
+  - name: 香港:32747
+    type: vmess
+    server: www.shanpao.xyz
+    port: 32747
+    uuid: c460ff8a-c55e-4c7c-d556-356b758af32b
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /pank
     ws-headers: null
-  - name: 油管 TG 8度科技:443
-    type: vmess
-    server: icook.tw
-    port: 443
-    uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /The-Great-Awakening_vws
-    ws-headers:
-      Host: vincent-jackson2022.ml
   - name: RU_油管 TG 8度科技:443
-    type: vmess
-    server: 92.223.72.42
-    port: 443
-    uuid: ae08412f-5bb9-4be7-8560-1984976a1097
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: govacaxixo.watchdoctor.xyz
-  - name: RU_油管 TG 8度科技:443_2
     type: vmess
     server: 92.223.65.119
     port: 443
@@ -56,31 +43,6 @@ proxies:
     ws-path: /ray
     ws-headers:
       Host: govacaxixo.watchdoctor.xyz
-  - name: 🇺🇸_US_美国:443_2
-    type: vmess
-    server: 45.35.84.162
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: usa-dallas.lvuft.com
-  - name: 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
-    type: vmess
-    server: v2ray.ifuckgfw.ga
-    port: 8443
-    uuid: 98b20eea-8a11-11ec-9aeb-52ac0014346a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /nBaG3RmV/
-    ws-headers: null
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -88,22 +50,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国:443
-      - 油管 TG 8度科技:443
+      - 香港:32747
       - RU_油管 TG 8度科技:443
-      - RU_油管 TG 8度科技:443_2
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇺🇸_US_美国:443
-      - 油管 TG 8度科技:443
+      - 香港:32747
       - RU_油管 TG 8度科技:443
-      - RU_油管 TG 8度科技:443_2
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -111,44 +67,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国:443
-      - 油管 TG 8度科技:443
+      - 香港:32747
       - RU_油管 TG 8度科技:443
-      - RU_油管 TG 8度科技:443_2
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇺🇸_US_美国:443
-      - 油管 TG 8度科技:443
+      - 香港:32747
       - RU_油管 TG 8度科技:443
-      - RU_油管 TG 8度科技:443_2
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇺🇸_US_美国:443
-      - 油管 TG 8度科技:443
+      - 香港:32747
       - RU_油管 TG 8度科技:443
-      - RU_油管 TG 8度科技:443_2
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国:443
-      - 油管 TG 8度科技:443
+      - 香港:32747
       - RU_油管 TG 8度科技:443
-      - RU_油管 TG 8度科技:443_2
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -156,32 +100,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🇺🇸_US_美国:443
-      - 油管 TG 8度科技:443
+      - 香港:32747
       - RU_油管 TG 8度科技:443
-      - RU_油管 TG 8度科技:443_2
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
       - 🇺🇸_US_美国:443
-      - 油管 TG 8度科技:443
+      - 香港:32747
       - RU_油管 TG 8度科技:443
-      - RU_油管 TG 8度科技:443_2
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
       - 🇺🇸_US_美国:443
-      - 油管 TG 8度科技:443
+      - 香港:32747
       - RU_油管 TG 8度科技:443
-      - RU_油管 TG 8度科技:443_2
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -189,11 +124,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国:443
-      - 油管 TG 8度科技:443
+      - 香港:32747
       - RU_油管 TG 8度科技:443
-      - RU_油管 TG 8度科技:443_2
-      - 🇺🇸_US_美国:443_2
-      - 🇺🇸_US_美国->🇳🇱_NL_荷兰:8443
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
