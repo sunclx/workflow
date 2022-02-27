@@ -5,127 +5,266 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇺🇸_US_美国:443
+  - name: CN_油管 TG 8度科技:18888
     type: vmess
-    server: 45.35.84.162
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
+    server: 183.232.163.19
+    port: 18888
+    uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3
+    alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: true
-    ws-path: /ws
+    ws-path: /v2ray
     ws-headers:
-      Host: usa-dallas.lvuft.com
-  - name: 香港:32747
+      Host: 183.232.163.19
+  - name: CN_油管 TG 8度科技:6666
     type: vmess
-    server: www.shanpao.xyz
-    port: 32747
-    uuid: c460ff8a-c55e-4c7c-d556-356b758af32b
+    server: 139.226.50.243
+    port: 6666
+    uuid: e5bf31e0-0ffc-4acf-877e-442fab645ec3
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: true
+    ws-path: /niaoyun
+    ws-headers:
+      Host: 139.226.50.243
+  - name: CN_油管 TG 8度科技:39999
+    type: vmess
+    server: 223.166.145.124
+    port: 39999
+    uuid: f7fae0ff-dfcf-34f8-99bd-d52a2ca19c1d
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /pank
-    ws-headers: null
-  - name: RU_油管 TG 8度科技:443
+    tls: null
+    ws-path: /jike1
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_油管 TG 8度科技:29851
     type: vmess
-    server: 92.223.65.119
-    port: 443
-    uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15
+    server: 120.233.10.245
+    port: 29851
+    uuid: 868c63d1-e59c-3634-a93f-fc1d50c67cc0
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /ray
+    tls: null
+    ws-path: /jike1
     ws-headers:
-      Host: govacaxixo.watchdoctor.xyz
+      Host: t.me/vpnhat
+  - name: CN_油管 TG 8度科技:39401
+    type: vmess
+    server: 223.166.145.124
+    port: 39401
+    uuid: 868c63d1-e59c-3634-a93f-fc1d50c67cc0
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jike1
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_油管 TG 8度科技:39401_2
+    type: vmess
+    server: 223.166.145.124
+    port: 39401
+    uuid: f7fae0ff-dfcf-34f8-99bd-d52a2ca19c1d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jike1
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_油管 TG 8度科技:29891
+    type: vmess
+    server: 223.166.145.124
+    port: 29891
+    uuid: f7fae0ff-dfcf-34f8-99bd-d52a2ca19c1d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jike1
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_油管 TG 8度科技:39999_2
+    type: vmess
+    server: 223.166.145.124
+    port: 39999
+    uuid: 868c63d1-e59c-3634-a93f-fc1d50c67cc0
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jike1
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: JP_油管 TG 8度科技:80
+    type: vmess
+    server: 172.105.222.98
+    port: 80
+    uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 172.105.222.98
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国:443
-      - 香港:32747
-      - RU_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:18888
+      - CN_油管 TG 8度科技:6666
+      - CN_油管 TG 8度科技:39999
+      - CN_油管 TG 8度科技:29851
+      - CN_油管 TG 8度科技:39401
+      - CN_油管 TG 8度科技:39401_2
+      - CN_油管 TG 8度科技:29891
+      - CN_油管 TG 8度科技:39999_2
+      - JP_油管 TG 8度科技:80
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国:443
-      - 香港:32747
-      - RU_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:18888
+      - CN_油管 TG 8度科技:6666
+      - CN_油管 TG 8度科技:39999
+      - CN_油管 TG 8度科技:29851
+      - CN_油管 TG 8度科技:39401
+      - CN_油管 TG 8度科技:39401_2
+      - CN_油管 TG 8度科技:29891
+      - CN_油管 TG 8度科技:39999_2
+      - JP_油管 TG 8度科技:80
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国:443
-      - 香港:32747
-      - RU_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:18888
+      - CN_油管 TG 8度科技:6666
+      - CN_油管 TG 8度科技:39999
+      - CN_油管 TG 8度科技:29851
+      - CN_油管 TG 8度科技:39401
+      - CN_油管 TG 8度科技:39401_2
+      - CN_油管 TG 8度科技:29891
+      - CN_油管 TG 8度科技:39999_2
+      - JP_油管 TG 8度科技:80
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国:443
-      - 香港:32747
-      - RU_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:18888
+      - CN_油管 TG 8度科技:6666
+      - CN_油管 TG 8度科技:39999
+      - CN_油管 TG 8度科技:29851
+      - CN_油管 TG 8度科技:39401
+      - CN_油管 TG 8度科技:39401_2
+      - CN_油管 TG 8度科技:29891
+      - CN_油管 TG 8度科技:39999_2
+      - JP_油管 TG 8度科技:80
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国:443
-      - 香港:32747
-      - RU_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:18888
+      - CN_油管 TG 8度科技:6666
+      - CN_油管 TG 8度科技:39999
+      - CN_油管 TG 8度科技:29851
+      - CN_油管 TG 8度科技:39401
+      - CN_油管 TG 8度科技:39401_2
+      - CN_油管 TG 8度科技:29891
+      - CN_油管 TG 8度科技:39999_2
+      - JP_油管 TG 8度科技:80
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国:443
-      - 香港:32747
-      - RU_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:18888
+      - CN_油管 TG 8度科技:6666
+      - CN_油管 TG 8度科技:39999
+      - CN_油管 TG 8度科技:29851
+      - CN_油管 TG 8度科技:39401
+      - CN_油管 TG 8度科技:39401_2
+      - CN_油管 TG 8度科技:29891
+      - CN_油管 TG 8度科技:39999_2
+      - JP_油管 TG 8度科技:80
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇺🇸_US_美国:443
-      - 香港:32747
-      - RU_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:18888
+      - CN_油管 TG 8度科技:6666
+      - CN_油管 TG 8度科技:39999
+      - CN_油管 TG 8度科技:29851
+      - CN_油管 TG 8度科技:39401
+      - CN_油管 TG 8度科技:39401_2
+      - CN_油管 TG 8度科技:29891
+      - CN_油管 TG 8度科技:39999_2
+      - JP_油管 TG 8度科技:80
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🇺🇸_US_美国:443
-      - 香港:32747
-      - RU_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:18888
+      - CN_油管 TG 8度科技:6666
+      - CN_油管 TG 8度科技:39999
+      - CN_油管 TG 8度科技:29851
+      - CN_油管 TG 8度科技:39401
+      - CN_油管 TG 8度科技:39401_2
+      - CN_油管 TG 8度科技:29891
+      - CN_油管 TG 8度科技:39999_2
+      - JP_油管 TG 8度科技:80
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 🇺🇸_US_美国:443
-      - 香港:32747
-      - RU_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:18888
+      - CN_油管 TG 8度科技:6666
+      - CN_油管 TG 8度科技:39999
+      - CN_油管 TG 8度科技:29851
+      - CN_油管 TG 8度科技:39401
+      - CN_油管 TG 8度科技:39401_2
+      - CN_油管 TG 8度科技:29891
+      - CN_油管 TG 8度科技:39999_2
+      - JP_油管 TG 8度科技:80
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国:443
-      - 香港:32747
-      - RU_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:18888
+      - CN_油管 TG 8度科技:6666
+      - CN_油管 TG 8度科技:39999
+      - CN_油管 TG 8度科技:29851
+      - CN_油管 TG 8度科技:39401
+      - CN_油管 TG 8度科技:39401_2
+      - CN_油管 TG 8度科技:29891
+      - CN_油管 TG 8度科技:39999_2
+      - JP_油管 TG 8度科技:80
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
