@@ -5,281 +5,266 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: JP_油管 TG 8度科技:80
+  - name: vpnpool-Tokyo-Linode:18806
     type: vmess
-    server: 172.105.222.98
-    port: 80
-    uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
+    server: 36.250.71.68
+    port: 18806
+    uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /
+    ws-path: ""
     ws-headers:
-      Host: 172.105.222.98
-  - name: CN_油管 TG 8度科技:60003
+      Host: t.me/vpnhat
+  - name: vpnpool-San Jose-PegTech:18805
     type: vmess
-    server: 120.232.173.75
-    port: 60003
-    uuid: 038793d8-4f4f-4812-880e-5229058c1c0c
+    server: 36.250.71.68
+    port: 18805
+    uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
     ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:10005
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-San Jose-PegTech:18805_2
     type: vmess
-    server: 120.232.173.75
-    port: 10005
-    uuid: 038793d8-4f4f-4812-880e-5229058c1c0c
+    server: 183.240.55.55
+    port: 18805
+    uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
     ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:40003
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: default_name:443
     type: vmess
-    server: 120.232.173.75
-    port: 40003
-    uuid: 038793d8-4f4f-4812-880e-5229058c1c0c
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:40001
-    type: vmess
-    server: 120.232.173.75
-    port: 40001
-    uuid: 038793d8-4f4f-4812-880e-5229058c1c0c
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:20005
-    type: vmess
-    server: 120.232.173.75
-    port: 20005
-    uuid: 038793d8-4f4f-4812-880e-5229058c1c0c
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:10003
-    type: vmess
-    server: 120.232.173.75
-    port: 10003
-    uuid: 038793d8-4f4f-4812-880e-5229058c1c0c
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:40002
-    type: vmess
-    server: 120.232.173.75
-    port: 40002
-    uuid: 038793d8-4f4f-4812-880e-5229058c1c0c
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:443
-    type: vmess
-    server: 45.35.84.162
+    server: icook.tw
     port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
+    uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e
+    alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /ws
+    ws-path: /The-Great-Awakening_vws
     ws-headers:
-      Host: usa-dallas.lvuft.com
-  - name: CN_油管 TG 8度科技:30005
+      Host: vincent-jackson2022.ml
+  - name: vpnpool-香港Nearoute:18812
     type: vmess
-    server: 120.232.173.75
-    port: 30005
-    uuid: 038793d8-4f4f-4812-880e-5229058c1c0c
+    server: 183.240.55.55
+    port: 18812
+    uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
     ws-path: ""
-    ws-headers: null
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-London-Linode:18815
+    type: vmess
+    server: 183.240.55.55
+    port: 18815
+    uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Sydney-Linode:18811
+    type: vmess
+    server: 113.240.72.239
+    port: 18811
+    uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Sydney-Linode:18811_2
+    type: vmess
+    server: 183.240.55.55
+    port: 18811
+    uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: vpnpool-Sydney-Linode:18811_2_2
+    type: vmess
+    server: 36.250.71.68
+    port: 18811
+    uuid: 89ad04b4-a702-3753-ac97-9e693709f9ff
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: t.me/vpnhat
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:60003
-      - CN_油管 TG 8度科技:10005
-      - CN_油管 TG 8度科技:40003
-      - CN_油管 TG 8度科技:40001
-      - CN_油管 TG 8度科技:20005
-      - CN_油管 TG 8度科技:10003
-      - CN_油管 TG 8度科技:40002
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:30005
+      - vpnpool-Tokyo-Linode:18806
+      - vpnpool-San Jose-PegTech:18805
+      - vpnpool-San Jose-PegTech:18805_2
+      - default_name:443
+      - vpnpool-香港Nearoute:18812
+      - vpnpool-London-Linode:18815
+      - vpnpool-Sydney-Linode:18811
+      - vpnpool-Sydney-Linode:18811_2
+      - vpnpool-Sydney-Linode:18811_2_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:60003
-      - CN_油管 TG 8度科技:10005
-      - CN_油管 TG 8度科技:40003
-      - CN_油管 TG 8度科技:40001
-      - CN_油管 TG 8度科技:20005
-      - CN_油管 TG 8度科技:10003
-      - CN_油管 TG 8度科技:40002
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:30005
+      - vpnpool-Tokyo-Linode:18806
+      - vpnpool-San Jose-PegTech:18805
+      - vpnpool-San Jose-PegTech:18805_2
+      - default_name:443
+      - vpnpool-香港Nearoute:18812
+      - vpnpool-London-Linode:18815
+      - vpnpool-Sydney-Linode:18811
+      - vpnpool-Sydney-Linode:18811_2
+      - vpnpool-Sydney-Linode:18811_2_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:60003
-      - CN_油管 TG 8度科技:10005
-      - CN_油管 TG 8度科技:40003
-      - CN_油管 TG 8度科技:40001
-      - CN_油管 TG 8度科技:20005
-      - CN_油管 TG 8度科技:10003
-      - CN_油管 TG 8度科技:40002
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:30005
+      - vpnpool-Tokyo-Linode:18806
+      - vpnpool-San Jose-PegTech:18805
+      - vpnpool-San Jose-PegTech:18805_2
+      - default_name:443
+      - vpnpool-香港Nearoute:18812
+      - vpnpool-London-Linode:18815
+      - vpnpool-Sydney-Linode:18811
+      - vpnpool-Sydney-Linode:18811_2
+      - vpnpool-Sydney-Linode:18811_2_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:60003
-      - CN_油管 TG 8度科技:10005
-      - CN_油管 TG 8度科技:40003
-      - CN_油管 TG 8度科技:40001
-      - CN_油管 TG 8度科技:20005
-      - CN_油管 TG 8度科技:10003
-      - CN_油管 TG 8度科技:40002
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:30005
+      - vpnpool-Tokyo-Linode:18806
+      - vpnpool-San Jose-PegTech:18805
+      - vpnpool-San Jose-PegTech:18805_2
+      - default_name:443
+      - vpnpool-香港Nearoute:18812
+      - vpnpool-London-Linode:18815
+      - vpnpool-Sydney-Linode:18811
+      - vpnpool-Sydney-Linode:18811_2
+      - vpnpool-Sydney-Linode:18811_2_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:60003
-      - CN_油管 TG 8度科技:10005
-      - CN_油管 TG 8度科技:40003
-      - CN_油管 TG 8度科技:40001
-      - CN_油管 TG 8度科技:20005
-      - CN_油管 TG 8度科技:10003
-      - CN_油管 TG 8度科技:40002
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:30005
+      - vpnpool-Tokyo-Linode:18806
+      - vpnpool-San Jose-PegTech:18805
+      - vpnpool-San Jose-PegTech:18805_2
+      - default_name:443
+      - vpnpool-香港Nearoute:18812
+      - vpnpool-London-Linode:18815
+      - vpnpool-Sydney-Linode:18811
+      - vpnpool-Sydney-Linode:18811_2
+      - vpnpool-Sydney-Linode:18811_2_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:60003
-      - CN_油管 TG 8度科技:10005
-      - CN_油管 TG 8度科技:40003
-      - CN_油管 TG 8度科技:40001
-      - CN_油管 TG 8度科技:20005
-      - CN_油管 TG 8度科技:10003
-      - CN_油管 TG 8度科技:40002
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:30005
+      - vpnpool-Tokyo-Linode:18806
+      - vpnpool-San Jose-PegTech:18805
+      - vpnpool-San Jose-PegTech:18805_2
+      - default_name:443
+      - vpnpool-香港Nearoute:18812
+      - vpnpool-London-Linode:18815
+      - vpnpool-Sydney-Linode:18811
+      - vpnpool-Sydney-Linode:18811_2
+      - vpnpool-Sydney-Linode:18811_2_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:60003
-      - CN_油管 TG 8度科技:10005
-      - CN_油管 TG 8度科技:40003
-      - CN_油管 TG 8度科技:40001
-      - CN_油管 TG 8度科技:20005
-      - CN_油管 TG 8度科技:10003
-      - CN_油管 TG 8度科技:40002
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:30005
+      - vpnpool-Tokyo-Linode:18806
+      - vpnpool-San Jose-PegTech:18805
+      - vpnpool-San Jose-PegTech:18805_2
+      - default_name:443
+      - vpnpool-香港Nearoute:18812
+      - vpnpool-London-Linode:18815
+      - vpnpool-Sydney-Linode:18811
+      - vpnpool-Sydney-Linode:18811_2
+      - vpnpool-Sydney-Linode:18811_2_2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:60003
-      - CN_油管 TG 8度科技:10005
-      - CN_油管 TG 8度科技:40003
-      - CN_油管 TG 8度科技:40001
-      - CN_油管 TG 8度科技:20005
-      - CN_油管 TG 8度科技:10003
-      - CN_油管 TG 8度科技:40002
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:30005
+      - vpnpool-Tokyo-Linode:18806
+      - vpnpool-San Jose-PegTech:18805
+      - vpnpool-San Jose-PegTech:18805_2
+      - default_name:443
+      - vpnpool-香港Nearoute:18812
+      - vpnpool-London-Linode:18815
+      - vpnpool-Sydney-Linode:18811
+      - vpnpool-Sydney-Linode:18811_2
+      - vpnpool-Sydney-Linode:18811_2_2
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:60003
-      - CN_油管 TG 8度科技:10005
-      - CN_油管 TG 8度科技:40003
-      - CN_油管 TG 8度科技:40001
-      - CN_油管 TG 8度科技:20005
-      - CN_油管 TG 8度科技:10003
-      - CN_油管 TG 8度科技:40002
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:30005
+      - vpnpool-Tokyo-Linode:18806
+      - vpnpool-San Jose-PegTech:18805
+      - vpnpool-San Jose-PegTech:18805_2
+      - default_name:443
+      - vpnpool-香港Nearoute:18812
+      - vpnpool-London-Linode:18815
+      - vpnpool-Sydney-Linode:18811
+      - vpnpool-Sydney-Linode:18811_2
+      - vpnpool-Sydney-Linode:18811_2_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:60003
-      - CN_油管 TG 8度科技:10005
-      - CN_油管 TG 8度科技:40003
-      - CN_油管 TG 8度科技:40001
-      - CN_油管 TG 8度科技:20005
-      - CN_油管 TG 8度科技:10003
-      - CN_油管 TG 8度科技:40002
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:30005
+      - vpnpool-Tokyo-Linode:18806
+      - vpnpool-San Jose-PegTech:18805
+      - vpnpool-San Jose-PegTech:18805_2
+      - default_name:443
+      - vpnpool-香港Nearoute:18812
+      - vpnpool-London-Linode:18815
+      - vpnpool-Sydney-Linode:18811
+      - vpnpool-Sydney-Linode:18811_2
+      - vpnpool-Sydney-Linode:18811_2_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
