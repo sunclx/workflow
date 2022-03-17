@@ -5,84 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇺🇸US_3106:15575
-    type: vmess
-    server: 94.103.5.6
-    port: 15575
-    uuid: 8c226d2a-e526-48ed-d28a-be2190d92e55
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: "%7B%22Host%22:%2294.103.5.6%22%7D"
-  - name: CN_欢迎使用软件库APP:16229
-    type: vmess
-    server: zfd-unicom.ddnsnode.com
-    port: 16229
-    uuid: f8a35790-1599-38a5-bed9-224befd26d38
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: 23.102.234.10
-  - name: US_欢迎使用软件库APP:443
-    type: vmess
-    server: bpjzx2.cainiao.tk
-    port: 443
-    uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
-    ws-headers:
-      Host: orange-mode-ac6a.xjp0mx2cp.workers.dev
-  - name: CN_欢迎使用软件库APP:16227
-    type: vmess
-    server: zfd-unicom.ddnsnode.com
-    port: 16227
-    uuid: f8a35790-1599-38a5-bed9-224befd26d38
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: a.189.cn
-  - name: Relay_🇺🇸US-🇺🇸US_3102:443
-    type: vmess
-    server: 172.67.68.58
-    port: 443
-    uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /shuier
-    ws-headers:
-      Host: xc1.v2rie.pp.ua
-  - name: CN_欢迎使用软件库APP:16109
-    type: vmess
-    server: zfd-unicom.ddnsnode.com
-    port: 16109
-    uuid: f8a35790-1599-38a5-bed9-224befd26d38
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: a.189.cn
   - name: CN_欢迎使用软件库APP:41435
     type: vmess
     server: 120.233.147.118
@@ -96,129 +18,252 @@ proxies:
     ws-path: /
     ws-headers:
       Host: 120.233.147.118
+  - name: CN_欢迎使用软件库APP:40326
+    type: vmess
+    server: juzixjp-001.ddns-oink.xyz
+    port: 40326
+    uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jz666666
+    ws-headers:
+      Host: juzixjp-001.ddns-oink.xyz
+  - name: CN_欢迎使用软件库APP:40322
+    type: vmess
+    server: juzixjp-001.ddns-oink.xyz
+    port: 40322
+    uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jz666666
+    ws-headers:
+      Host: juzixjp-001.ddns-oink.xyz
+  - name: CN_欢迎使用软件库APP:40043
+    type: vmess
+    server: juzixjp-001.ddns-oink.xyz
+    port: 40043
+    uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jz666666
+    ws-headers:
+      Host: juzixjp-001.ddns-oink.xyz
+  - name: US_欢迎使用软件库APP:11443
+    type: vmess
+    server: 173.255.215.146
+    port: 11443
+    uuid: c04e69b1-3498-4187-9193-b657fd40cb65
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /api/common
+    ws-headers:
+      Host: usav2.ddns.tjiasu.xyz
+  - name: US_欢迎使用软件库APP:443
+    type: vmess
+    server: chuch3go.com
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: chuch3go.com
+  - name: US_欢迎使用软件库APP:443_2
+    type: vmess
+    server: cloudflare.xrenblog.com
+    port: 443
+    uuid: 6c175d1a-a57f-4881-a471-173eb139694b
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /xrenblog/
+    ws-headers:
+      Host: ipv6.xrenblog.com
+  - name: US_欢迎使用软件库APP:443_2_2
+    type: vmess
+    server: 154.31.41.10
+    port: 443
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: chuch3go.com
+  - name: CN_欢迎使用软件库APP:50002
+    type: vmess
+    server: 42.193.48.64
+    port: 50002
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: "64"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸US_3106:15575
-      - CN_欢迎使用软件库APP:16229
-      - US_欢迎使用软件库APP:443
-      - CN_欢迎使用软件库APP:16227
-      - Relay_🇺🇸US-🇺🇸US_3102:443
-      - CN_欢迎使用软件库APP:16109
       - CN_欢迎使用软件库APP:41435
+      - CN_欢迎使用软件库APP:40326
+      - CN_欢迎使用软件库APP:40322
+      - CN_欢迎使用软件库APP:40043
+      - US_欢迎使用软件库APP:11443
+      - US_欢迎使用软件库APP:443
+      - US_欢迎使用软件库APP:443_2
+      - US_欢迎使用软件库APP:443_2_2
+      - CN_欢迎使用软件库APP:50002
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸US_3106:15575
-      - CN_欢迎使用软件库APP:16229
-      - US_欢迎使用软件库APP:443
-      - CN_欢迎使用软件库APP:16227
-      - Relay_🇺🇸US-🇺🇸US_3102:443
-      - CN_欢迎使用软件库APP:16109
       - CN_欢迎使用软件库APP:41435
+      - CN_欢迎使用软件库APP:40326
+      - CN_欢迎使用软件库APP:40322
+      - CN_欢迎使用软件库APP:40043
+      - US_欢迎使用软件库APP:11443
+      - US_欢迎使用软件库APP:443
+      - US_欢迎使用软件库APP:443_2
+      - US_欢迎使用软件库APP:443_2_2
+      - CN_欢迎使用软件库APP:50002
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸US_3106:15575
-      - CN_欢迎使用软件库APP:16229
-      - US_欢迎使用软件库APP:443
-      - CN_欢迎使用软件库APP:16227
-      - Relay_🇺🇸US-🇺🇸US_3102:443
-      - CN_欢迎使用软件库APP:16109
       - CN_欢迎使用软件库APP:41435
+      - CN_欢迎使用软件库APP:40326
+      - CN_欢迎使用软件库APP:40322
+      - CN_欢迎使用软件库APP:40043
+      - US_欢迎使用软件库APP:11443
+      - US_欢迎使用软件库APP:443
+      - US_欢迎使用软件库APP:443_2
+      - US_欢迎使用软件库APP:443_2_2
+      - CN_欢迎使用软件库APP:50002
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸US_3106:15575
-      - CN_欢迎使用软件库APP:16229
-      - US_欢迎使用软件库APP:443
-      - CN_欢迎使用软件库APP:16227
-      - Relay_🇺🇸US-🇺🇸US_3102:443
-      - CN_欢迎使用软件库APP:16109
       - CN_欢迎使用软件库APP:41435
+      - CN_欢迎使用软件库APP:40326
+      - CN_欢迎使用软件库APP:40322
+      - CN_欢迎使用软件库APP:40043
+      - US_欢迎使用软件库APP:11443
+      - US_欢迎使用软件库APP:443
+      - US_欢迎使用软件库APP:443_2
+      - US_欢迎使用软件库APP:443_2_2
+      - CN_欢迎使用软件库APP:50002
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸US_3106:15575
-      - CN_欢迎使用软件库APP:16229
-      - US_欢迎使用软件库APP:443
-      - CN_欢迎使用软件库APP:16227
-      - Relay_🇺🇸US-🇺🇸US_3102:443
-      - CN_欢迎使用软件库APP:16109
       - CN_欢迎使用软件库APP:41435
+      - CN_欢迎使用软件库APP:40326
+      - CN_欢迎使用软件库APP:40322
+      - CN_欢迎使用软件库APP:40043
+      - US_欢迎使用软件库APP:11443
+      - US_欢迎使用软件库APP:443
+      - US_欢迎使用软件库APP:443_2
+      - US_欢迎使用软件库APP:443_2_2
+      - CN_欢迎使用软件库APP:50002
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸US_3106:15575
-      - CN_欢迎使用软件库APP:16229
-      - US_欢迎使用软件库APP:443
-      - CN_欢迎使用软件库APP:16227
-      - Relay_🇺🇸US-🇺🇸US_3102:443
-      - CN_欢迎使用软件库APP:16109
       - CN_欢迎使用软件库APP:41435
+      - CN_欢迎使用软件库APP:40326
+      - CN_欢迎使用软件库APP:40322
+      - CN_欢迎使用软件库APP:40043
+      - US_欢迎使用软件库APP:11443
+      - US_欢迎使用软件库APP:443
+      - US_欢迎使用软件库APP:443_2
+      - US_欢迎使用软件库APP:443_2_2
+      - CN_欢迎使用软件库APP:50002
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇺🇸US_3106:15575
-      - CN_欢迎使用软件库APP:16229
-      - US_欢迎使用软件库APP:443
-      - CN_欢迎使用软件库APP:16227
-      - Relay_🇺🇸US-🇺🇸US_3102:443
-      - CN_欢迎使用软件库APP:16109
       - CN_欢迎使用软件库APP:41435
+      - CN_欢迎使用软件库APP:40326
+      - CN_欢迎使用软件库APP:40322
+      - CN_欢迎使用软件库APP:40043
+      - US_欢迎使用软件库APP:11443
+      - US_欢迎使用软件库APP:443
+      - US_欢迎使用软件库APP:443_2
+      - US_欢迎使用软件库APP:443_2_2
+      - CN_欢迎使用软件库APP:50002
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🇺🇸US_3106:15575
-      - CN_欢迎使用软件库APP:16229
-      - US_欢迎使用软件库APP:443
-      - CN_欢迎使用软件库APP:16227
-      - Relay_🇺🇸US-🇺🇸US_3102:443
-      - CN_欢迎使用软件库APP:16109
       - CN_欢迎使用软件库APP:41435
+      - CN_欢迎使用软件库APP:40326
+      - CN_欢迎使用软件库APP:40322
+      - CN_欢迎使用软件库APP:40043
+      - US_欢迎使用软件库APP:11443
+      - US_欢迎使用软件库APP:443
+      - US_欢迎使用软件库APP:443_2
+      - US_欢迎使用软件库APP:443_2_2
+      - CN_欢迎使用软件库APP:50002
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 🇺🇸US_3106:15575
-      - CN_欢迎使用软件库APP:16229
-      - US_欢迎使用软件库APP:443
-      - CN_欢迎使用软件库APP:16227
-      - Relay_🇺🇸US-🇺🇸US_3102:443
-      - CN_欢迎使用软件库APP:16109
       - CN_欢迎使用软件库APP:41435
+      - CN_欢迎使用软件库APP:40326
+      - CN_欢迎使用软件库APP:40322
+      - CN_欢迎使用软件库APP:40043
+      - US_欢迎使用软件库APP:11443
+      - US_欢迎使用软件库APP:443
+      - US_欢迎使用软件库APP:443_2
+      - US_欢迎使用软件库APP:443_2_2
+      - CN_欢迎使用软件库APP:50002
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸US_3106:15575
-      - CN_欢迎使用软件库APP:16229
-      - US_欢迎使用软件库APP:443
-      - CN_欢迎使用软件库APP:16227
-      - Relay_🇺🇸US-🇺🇸US_3102:443
-      - CN_欢迎使用软件库APP:16109
       - CN_欢迎使用软件库APP:41435
+      - CN_欢迎使用软件库APP:40326
+      - CN_欢迎使用软件库APP:40322
+      - CN_欢迎使用软件库APP:40043
+      - US_欢迎使用软件库APP:11443
+      - US_欢迎使用软件库APP:443
+      - US_欢迎使用软件库APP:443_2
+      - US_欢迎使用软件库APP:443_2_2
+      - CN_欢迎使用软件库APP:50002
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
