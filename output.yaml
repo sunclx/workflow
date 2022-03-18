@@ -5,265 +5,473 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: CN_欢迎使用软件库APP:41435
+  - name: HK 102:10231
     type: vmess
-    server: 120.233.147.118
-    port: 41435
-    uuid: 35ffe46b-6c50-467e-9940-832deede23ea
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: 120.233.147.118
-  - name: CN_欢迎使用软件库APP:40326
-    type: vmess
-    server: juzixjp-001.ddns-oink.xyz
-    port: 40326
-    uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993
-    alterId: "0"
+    server: hkaz2.xmrth-node.xyz
+    port: 10231
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /index
     ws-headers:
-      Host: juzixjp-001.ddns-oink.xyz
-  - name: CN_欢迎使用软件库APP:40322
+      Host: www.baidu.com
+  - name: HK 104:10011
     type: vmess
-    server: juzixjp-001.ddns-oink.xyz
-    port: 40322
-    uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993
-    alterId: "0"
+    server: hkaz4.xmrth-node.xyz
+    port: 10011
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /index
     ws-headers:
-      Host: juzixjp-001.ddns-oink.xyz
-  - name: CN_欢迎使用软件库APP:40043
+      Host: www.baidu.com
+  - name: HK 106:10248
     type: vmess
-    server: juzixjp-001.ddns-oink.xyz
-    port: 40043
-    uuid: 4d0b3a57-a52b-3cee-8281-d73096aec993
-    alterId: "0"
+    server: hkaz6.xmrth-node.xyz
+    port: 10248
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /index
     ws-headers:
-      Host: juzixjp-001.ddns-oink.xyz
-  - name: US_欢迎使用软件库APP:11443
+      Host: www.baidu.com
+  - name: HK A 003:10009
     type: vmess
-    server: 173.255.215.146
-    port: 11443
-    uuid: c04e69b1-3498-4187-9193-b657fd40cb65
-    alterId: "0"
+    server: hkaz3.xmrth-node.xyz
+    port: 10009
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /api/common
+    tls: null
+    ws-path: /index
     ws-headers:
-      Host: usav2.ddns.tjiasu.xyz
-  - name: US_欢迎使用软件库APP:443
+      Host: www.baidu.com
+  - name: IN A 001:10033
     type: vmess
-    server: chuch3go.com
+    server: hkaz1.xmrth-node.xyz
+    port: 10033
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: IN A 003:10035
+    type: vmess
+    server: hkaz3.xmrth-node.xyz
+    port: 10035
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: IN B 002:10138
+    type: vmess
+    server: jpaz2.xmrth-node.xyz
+    port: 10138
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: IN B 003:10135
+    type: vmess
+    server: jpaz3.xmrth-node.xyz
+    port: 10135
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: JP B 002:10046
+    type: vmess
+    server: jpaz2.xmrth-node.xyz
+    port: 10046
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: JP B 003:10051
+    type: vmess
+    server: jpaz3.xmrth-node.xyz
+    port: 10051
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG A 001:10026
+    type: vmess
+    server: hkaz1.xmrth-node.xyz
+    port: 10026
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG A 002:10225
+    type: vmess
+    server: hkaz2.xmrth-node.xyz
+    port: 10225
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG A 003:10028
+    type: vmess
+    server: hkaz3.xmrth-node.xyz
+    port: 10028
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG A 004:10218
+    type: vmess
+    server: hkaz4.xmrth-node.xyz
+    port: 10218
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG A 005:10185
+    type: vmess
+    server: hkaz5.xmrth-node.xyz
+    port: 10185
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG A 007:10186
+    type: vmess
+    server: hkaz7.xmrth-node.xyz
+    port: 10186
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: TW A 1:10062
+    type: vmess
+    server: hkaz1.xmrth-node.xyz
+    port: 10062
+    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: 🇺🇸_US_美国->🇫🇷_FR_法国:443
+    type: vmess
+    server: 172.67.68.58
     port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: chuch3go.com
-  - name: US_欢迎使用软件库APP:443_2
-    type: vmess
-    server: cloudflare.xrenblog.com
-    port: 443
-    uuid: 6c175d1a-a57f-4881-a471-173eb139694b
+    uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /xrenblog/
+    ws-path: /shuier
     ws-headers:
-      Host: ipv6.xrenblog.com
-  - name: US_欢迎使用软件库APP:443_2_2
-    type: vmess
-    server: 154.31.41.10
-    port: 443
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: chuch3go.com
-  - name: CN_欢迎使用软件库APP:50002
-    type: vmess
-    server: 42.193.48.64
-    port: 50002
-    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-    alterId: "64"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
+      Host: xc1.v2rie.pp.ua
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_欢迎使用软件库APP:41435
-      - CN_欢迎使用软件库APP:40326
-      - CN_欢迎使用软件库APP:40322
-      - CN_欢迎使用软件库APP:40043
-      - US_欢迎使用软件库APP:11443
-      - US_欢迎使用软件库APP:443
-      - US_欢迎使用软件库APP:443_2
-      - US_欢迎使用软件库APP:443_2_2
-      - CN_欢迎使用软件库APP:50002
+      - HK 102:10231
+      - HK 104:10011
+      - HK 106:10248
+      - HK A 003:10009
+      - IN A 001:10033
+      - IN A 003:10035
+      - IN B 002:10138
+      - IN B 003:10135
+      - JP B 002:10046
+      - JP B 003:10051
+      - SG A 001:10026
+      - SG A 002:10225
+      - SG A 003:10028
+      - SG A 004:10218
+      - SG A 005:10185
+      - SG A 007:10186
+      - TW A 1:10062
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_欢迎使用软件库APP:41435
-      - CN_欢迎使用软件库APP:40326
-      - CN_欢迎使用软件库APP:40322
-      - CN_欢迎使用软件库APP:40043
-      - US_欢迎使用软件库APP:11443
-      - US_欢迎使用软件库APP:443
-      - US_欢迎使用软件库APP:443_2
-      - US_欢迎使用软件库APP:443_2_2
-      - CN_欢迎使用软件库APP:50002
+      - HK 102:10231
+      - HK 104:10011
+      - HK 106:10248
+      - HK A 003:10009
+      - IN A 001:10033
+      - IN A 003:10035
+      - IN B 002:10138
+      - IN B 003:10135
+      - JP B 002:10046
+      - JP B 003:10051
+      - SG A 001:10026
+      - SG A 002:10225
+      - SG A 003:10028
+      - SG A 004:10218
+      - SG A 005:10185
+      - SG A 007:10186
+      - TW A 1:10062
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_欢迎使用软件库APP:41435
-      - CN_欢迎使用软件库APP:40326
-      - CN_欢迎使用软件库APP:40322
-      - CN_欢迎使用软件库APP:40043
-      - US_欢迎使用软件库APP:11443
-      - US_欢迎使用软件库APP:443
-      - US_欢迎使用软件库APP:443_2
-      - US_欢迎使用软件库APP:443_2_2
-      - CN_欢迎使用软件库APP:50002
+      - HK 102:10231
+      - HK 104:10011
+      - HK 106:10248
+      - HK A 003:10009
+      - IN A 001:10033
+      - IN A 003:10035
+      - IN B 002:10138
+      - IN B 003:10135
+      - JP B 002:10046
+      - JP B 003:10051
+      - SG A 001:10026
+      - SG A 002:10225
+      - SG A 003:10028
+      - SG A 004:10218
+      - SG A 005:10185
+      - SG A 007:10186
+      - TW A 1:10062
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_欢迎使用软件库APP:41435
-      - CN_欢迎使用软件库APP:40326
-      - CN_欢迎使用软件库APP:40322
-      - CN_欢迎使用软件库APP:40043
-      - US_欢迎使用软件库APP:11443
-      - US_欢迎使用软件库APP:443
-      - US_欢迎使用软件库APP:443_2
-      - US_欢迎使用软件库APP:443_2_2
-      - CN_欢迎使用软件库APP:50002
+      - HK 102:10231
+      - HK 104:10011
+      - HK 106:10248
+      - HK A 003:10009
+      - IN A 001:10033
+      - IN A 003:10035
+      - IN B 002:10138
+      - IN B 003:10135
+      - JP B 002:10046
+      - JP B 003:10051
+      - SG A 001:10026
+      - SG A 002:10225
+      - SG A 003:10028
+      - SG A 004:10218
+      - SG A 005:10185
+      - SG A 007:10186
+      - TW A 1:10062
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_欢迎使用软件库APP:41435
-      - CN_欢迎使用软件库APP:40326
-      - CN_欢迎使用软件库APP:40322
-      - CN_欢迎使用软件库APP:40043
-      - US_欢迎使用软件库APP:11443
-      - US_欢迎使用软件库APP:443
-      - US_欢迎使用软件库APP:443_2
-      - US_欢迎使用软件库APP:443_2_2
-      - CN_欢迎使用软件库APP:50002
+      - HK 102:10231
+      - HK 104:10011
+      - HK 106:10248
+      - HK A 003:10009
+      - IN A 001:10033
+      - IN A 003:10035
+      - IN B 002:10138
+      - IN B 003:10135
+      - JP B 002:10046
+      - JP B 003:10051
+      - SG A 001:10026
+      - SG A 002:10225
+      - SG A 003:10028
+      - SG A 004:10218
+      - SG A 005:10185
+      - SG A 007:10186
+      - TW A 1:10062
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_欢迎使用软件库APP:41435
-      - CN_欢迎使用软件库APP:40326
-      - CN_欢迎使用软件库APP:40322
-      - CN_欢迎使用软件库APP:40043
-      - US_欢迎使用软件库APP:11443
-      - US_欢迎使用软件库APP:443
-      - US_欢迎使用软件库APP:443_2
-      - US_欢迎使用软件库APP:443_2_2
-      - CN_欢迎使用软件库APP:50002
+      - HK 102:10231
+      - HK 104:10011
+      - HK 106:10248
+      - HK A 003:10009
+      - IN A 001:10033
+      - IN A 003:10035
+      - IN B 002:10138
+      - IN B 003:10135
+      - JP B 002:10046
+      - JP B 003:10051
+      - SG A 001:10026
+      - SG A 002:10225
+      - SG A 003:10028
+      - SG A 004:10218
+      - SG A 005:10185
+      - SG A 007:10186
+      - TW A 1:10062
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - CN_欢迎使用软件库APP:41435
-      - CN_欢迎使用软件库APP:40326
-      - CN_欢迎使用软件库APP:40322
-      - CN_欢迎使用软件库APP:40043
-      - US_欢迎使用软件库APP:11443
-      - US_欢迎使用软件库APP:443
-      - US_欢迎使用软件库APP:443_2
-      - US_欢迎使用软件库APP:443_2_2
-      - CN_欢迎使用软件库APP:50002
+      - HK 102:10231
+      - HK 104:10011
+      - HK 106:10248
+      - HK A 003:10009
+      - IN A 001:10033
+      - IN A 003:10035
+      - IN B 002:10138
+      - IN B 003:10135
+      - JP B 002:10046
+      - JP B 003:10051
+      - SG A 001:10026
+      - SG A 002:10225
+      - SG A 003:10028
+      - SG A 004:10218
+      - SG A 005:10185
+      - SG A 007:10186
+      - TW A 1:10062
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - CN_欢迎使用软件库APP:41435
-      - CN_欢迎使用软件库APP:40326
-      - CN_欢迎使用软件库APP:40322
-      - CN_欢迎使用软件库APP:40043
-      - US_欢迎使用软件库APP:11443
-      - US_欢迎使用软件库APP:443
-      - US_欢迎使用软件库APP:443_2
-      - US_欢迎使用软件库APP:443_2_2
-      - CN_欢迎使用软件库APP:50002
+      - HK 102:10231
+      - HK 104:10011
+      - HK 106:10248
+      - HK A 003:10009
+      - IN A 001:10033
+      - IN A 003:10035
+      - IN B 002:10138
+      - IN B 003:10135
+      - JP B 002:10046
+      - JP B 003:10051
+      - SG A 001:10026
+      - SG A 002:10225
+      - SG A 003:10028
+      - SG A 004:10218
+      - SG A 005:10185
+      - SG A 007:10186
+      - TW A 1:10062
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - CN_欢迎使用软件库APP:41435
-      - CN_欢迎使用软件库APP:40326
-      - CN_欢迎使用软件库APP:40322
-      - CN_欢迎使用软件库APP:40043
-      - US_欢迎使用软件库APP:11443
-      - US_欢迎使用软件库APP:443
-      - US_欢迎使用软件库APP:443_2
-      - US_欢迎使用软件库APP:443_2_2
-      - CN_欢迎使用软件库APP:50002
+      - HK 102:10231
+      - HK 104:10011
+      - HK 106:10248
+      - HK A 003:10009
+      - IN A 001:10033
+      - IN A 003:10035
+      - IN B 002:10138
+      - IN B 003:10135
+      - JP B 002:10046
+      - JP B 003:10051
+      - SG A 001:10026
+      - SG A 002:10225
+      - SG A 003:10028
+      - SG A 004:10218
+      - SG A 005:10185
+      - SG A 007:10186
+      - TW A 1:10062
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_欢迎使用软件库APP:41435
-      - CN_欢迎使用软件库APP:40326
-      - CN_欢迎使用软件库APP:40322
-      - CN_欢迎使用软件库APP:40043
-      - US_欢迎使用软件库APP:11443
-      - US_欢迎使用软件库APP:443
-      - US_欢迎使用软件库APP:443_2
-      - US_欢迎使用软件库APP:443_2_2
-      - CN_欢迎使用软件库APP:50002
+      - HK 102:10231
+      - HK 104:10011
+      - HK 106:10248
+      - HK A 003:10009
+      - IN A 001:10033
+      - IN A 003:10035
+      - IN B 002:10138
+      - IN B 003:10135
+      - JP B 002:10046
+      - JP B 003:10051
+      - SG A 001:10026
+      - SG A 002:10225
+      - SG A 003:10028
+      - SG A 004:10218
+      - SG A 005:10185
+      - SG A 007:10186
+      - TW A 1:10062
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
