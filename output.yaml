@@ -5,473 +5,841 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: HK 102:10231
+  - name: 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
     type: vmess
-    server: hkaz2.xmrth-node.xyz
-    port: 10231
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: HK 104:10011
-    type: vmess
-    server: hkaz4.xmrth-node.xyz
-    port: 10011
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: HK 106:10248
-    type: vmess
-    server: hkaz6.xmrth-node.xyz
-    port: 10248
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: HK A 003:10009
-    type: vmess
-    server: hkaz3.xmrth-node.xyz
-    port: 10009
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: IN A 001:10033
-    type: vmess
-    server: hkaz1.xmrth-node.xyz
-    port: 10033
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: IN A 003:10035
-    type: vmess
-    server: hkaz3.xmrth-node.xyz
-    port: 10035
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: IN B 002:10138
-    type: vmess
-    server: jpaz2.xmrth-node.xyz
-    port: 10138
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: IN B 003:10135
-    type: vmess
-    server: jpaz3.xmrth-node.xyz
-    port: 10135
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: JP B 002:10046
-    type: vmess
-    server: jpaz2.xmrth-node.xyz
-    port: 10046
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: JP B 003:10051
-    type: vmess
-    server: jpaz3.xmrth-node.xyz
-    port: 10051
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: SG A 001:10026
-    type: vmess
-    server: hkaz1.xmrth-node.xyz
-    port: 10026
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: SG A 002:10225
-    type: vmess
-    server: hkaz2.xmrth-node.xyz
-    port: 10225
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: SG A 003:10028
-    type: vmess
-    server: hkaz3.xmrth-node.xyz
-    port: 10028
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: SG A 004:10218
-    type: vmess
-    server: hkaz4.xmrth-node.xyz
-    port: 10218
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: SG A 005:10185
-    type: vmess
-    server: hkaz5.xmrth-node.xyz
-    port: 10185
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: SG A 007:10186
-    type: vmess
-    server: hkaz7.xmrth-node.xyz
-    port: 10186
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: TW A 1:10062
-    type: vmess
-    server: hkaz1.xmrth-node.xyz
-    port: 10062
-    uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: www.baidu.com
-  - name: 🇺🇸_US_美国->🇫🇷_FR_法国:443
-    type: vmess
-    server: 172.67.68.58
-    port: 443
-    uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
+    server: br-cn-east-cu1.node-fnf.xyz
+    port: 10306
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
-    tls: true
-    ws-path: /shuier
+    network: tcp
+    tls: null
+    ws-path: /
     ws-headers:
-      Host: xc1.v2rie.pp.ua
+      Host: br-cn-east-cu1.node-fnf.xyz
+  - name: 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+    type: vmess
+    server: br-cn-east-cu2.node-fnf.xyz
+    port: 50110
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-east-cu2.node-fnf.xyz
+  - name: 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+    type: vmess
+    server: br-cn-south-cu1.node-fnf.xyz
+    port: 10202
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cu1.node-fnf.xyz
+  - name: 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+    type: vmess
+    server: br-cn-east-cu1.node-fnf.xyz
+    port: 10208
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-east-cu1.node-fnf.xyz
+  - name: 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+    type: vmess
+    server: br-cn-south-cu1.node-fnf.xyz
+    port: 25062
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cu1.node-fnf.xyz
+  - name: 标准|日本02解锁|T506:35006
+    type: vmess
+    server: tanz-unicom.0098dns01in.work
+    port: 35006
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-unicom.0098dns01in.work
+  - name: 泰[x0.75|NF|V2Ray]@480Mbps:25042
+    type: vmess
+    server: br-cn-south-cu1.node-fnf.xyz
+    port: 25042
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cu1.node-fnf.xyz
+  - name: 标准|印度01|T519:35021
+    type: vmess
+    server: tanz-unicom.0098dns01in.work
+    port: 35021
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-unicom.0098dns01in.work
+  - name: 瑞典[x1|NF|V2Ray]@240Mbps:15104
+    type: vmess
+    server: br-cn-east-cu1.node-fnf.xyz
+    port: 15104
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-east-cu1.node-fnf.xyz
+  - name: 印AWS1[x1|V2Ray]@480Mbps:10502
+    type: vmess
+    server: br-cn-south-cu1.node-fnf.xyz
+    port: 10502
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cu1.node-fnf.xyz
+  - name: 标准|香港02解锁|T508:35010
+    type: vmess
+    server: tanz-moble.0098dns01in.work
+    port: 35010
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-moble.0098dns01in.work
+  - name: 菲[x0.75|NF|V2Ray]@480Mbps:25032
+    type: vmess
+    server: br-cn-south-cu1.node-fnf.xyz
+    port: 25032
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cu1.node-fnf.xyz
+  - name: 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+    type: vmess
+    server: br-cn-south-cu1.node-fnf.xyz
+    port: 25014
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cu1.node-fnf.xyz
+  - name: 标准|德国01|T515:35017
+    type: vmess
+    server: tanz-unicom.0098dns01in.work
+    port: 35017
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-unicom.0098dns01in.work
+  - name: 标准|英国01|T521:35023
+    type: vmess
+    server: tanz-unicom.0098dns01in.work
+    port: 35023
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-unicom.0098dns01in.work
+  - name: 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+    type: vmess
+    server: br-cn-east-cu1.node-fnf.xyz
+    port: 10402
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-east-cu1.node-fnf.xyz
+  - name: 标准|新加坡01解锁|T511:35013
+    type: vmess
+    server: tanz-moble.0098dns01in.work
+    port: 35013
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-moble.0098dns01in.work
+  - name: 标准|中国台湾04解锁|T604:35070
+    type: vmess
+    server: tanz-moble.0098dns01in.work
+    port: 35070
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-moble.0098dns01in.work
+  - name: 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+    type: vmess
+    server: br-cn-south-cm1.node-fnf.xyz
+    port: 10214
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cm1.node-fnf.xyz
+  - name: 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+    type: vmess
+    server: br-cn-east-cu1.node-fnf.xyz
+    port: 10406
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-east-cu1.node-fnf.xyz
+  - name: 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+    type: vmess
+    server: br-cn-south-cu1.node-fnf.xyz
+    port: 10204
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cu1.node-fnf.xyz
+  - name: 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+    type: vmess
+    server: br-cn-south-cu1.node-fnf.xyz
+    port: 25072
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cu1.node-fnf.xyz
+  - name: 标准|美国01解锁|T503:35019
+    type: vmess
+    server: tanz-unicom.0098dns01in.work
+    port: 35019
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-unicom.0098dns01in.work
+  - name: 标准|中国台湾03解锁|T603:35069
+    type: vmess
+    server: tanz-moble.0098dns01in.work
+    port: 35069
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-moble.0098dns01in.work
+  - name: 标准|英国02|T522:35034
+    type: vmess
+    server: tanz-unicom.0098dns01in.work
+    port: 35034
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-unicom.0098dns01in.work
+  - name: 标准|中国台湾05解锁|T605:35071
+    type: vmess
+    server: tanz-moble.0098dns01in.work
+    port: 35071
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-moble.0098dns01in.work
+  - name: 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+    type: vmess
+    server: br-cn-south-iepl1.node-fnf.xyz
+    port: 10104
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-iepl1.node-fnf.xyz
+  - name: 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+    type: vmess
+    server: br-cn-east-cu1.node-fnf.xyz
+    port: 10302
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-east-cu1.node-fnf.xyz
+  - name: 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+    type: vmess
+    server: br-cn-south-cu1.node-fnf.xyz
+    port: 25052
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cu1.node-fnf.xyz
+  - name: 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+    type: vmess
+    server: br-cn-south-cm1.node-fnf.xyz
+    port: 10218
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cm1.node-fnf.xyz
+  - name: 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+    type: vmess
+    server: br-cn-south-cm1.node-fnf.xyz
+    port: 10216
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cm1.node-fnf.xyz
+  - name: 标准|新加坡02解锁|T512:35014
+    type: vmess
+    server: tanz-moble.0098dns01in.work
+    port: 35014
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-moble.0098dns01in.work
+  - name: 标准|德国02|T516:35018
+    type: vmess
+    server: tanz-unicom.0098dns01in.work
+    port: 35018
+    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: tanz-unicom.0098dns01in.work
+  - name: 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+    type: vmess
+    server: br-cn-south-cu1.node-fnf.xyz
+    port: 25034
+    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: br-cn-south-cu1.node-fnf.xyz
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK 102:10231
-      - HK 104:10011
-      - HK 106:10248
-      - HK A 003:10009
-      - IN A 001:10033
-      - IN A 003:10035
-      - IN B 002:10138
-      - IN B 003:10135
-      - JP B 002:10046
-      - JP B 003:10051
-      - SG A 001:10026
-      - SG A 002:10225
-      - SG A 003:10028
-      - SG A 004:10218
-      - SG A 005:10185
-      - SG A 007:10186
-      - TW A 1:10062
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+      - 标准|日本02解锁|T506:35006
+      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
+      - 标准|印度01|T519:35021
+      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
+      - 印AWS1[x1|V2Ray]@480Mbps:10502
+      - 标准|香港02解锁|T508:35010
+      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+      - 标准|德国01|T515:35017
+      - 标准|英国01|T521:35023
+      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+      - 标准|新加坡01解锁|T511:35013
+      - 标准|中国台湾04解锁|T604:35070
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+      - 标准|美国01解锁|T503:35019
+      - 标准|中国台湾03解锁|T603:35069
+      - 标准|英国02|T522:35034
+      - 标准|中国台湾05解锁|T605:35071
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+      - 标准|新加坡02解锁|T512:35014
+      - 标准|德国02|T516:35018
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK 102:10231
-      - HK 104:10011
-      - HK 106:10248
-      - HK A 003:10009
-      - IN A 001:10033
-      - IN A 003:10035
-      - IN B 002:10138
-      - IN B 003:10135
-      - JP B 002:10046
-      - JP B 003:10051
-      - SG A 001:10026
-      - SG A 002:10225
-      - SG A 003:10028
-      - SG A 004:10218
-      - SG A 005:10185
-      - SG A 007:10186
-      - TW A 1:10062
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+      - 标准|日本02解锁|T506:35006
+      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
+      - 标准|印度01|T519:35021
+      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
+      - 印AWS1[x1|V2Ray]@480Mbps:10502
+      - 标准|香港02解锁|T508:35010
+      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+      - 标准|德国01|T515:35017
+      - 标准|英国01|T521:35023
+      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+      - 标准|新加坡01解锁|T511:35013
+      - 标准|中国台湾04解锁|T604:35070
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+      - 标准|美国01解锁|T503:35019
+      - 标准|中国台湾03解锁|T603:35069
+      - 标准|英国02|T522:35034
+      - 标准|中国台湾05解锁|T605:35071
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+      - 标准|新加坡02解锁|T512:35014
+      - 标准|德国02|T516:35018
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK 102:10231
-      - HK 104:10011
-      - HK 106:10248
-      - HK A 003:10009
-      - IN A 001:10033
-      - IN A 003:10035
-      - IN B 002:10138
-      - IN B 003:10135
-      - JP B 002:10046
-      - JP B 003:10051
-      - SG A 001:10026
-      - SG A 002:10225
-      - SG A 003:10028
-      - SG A 004:10218
-      - SG A 005:10185
-      - SG A 007:10186
-      - TW A 1:10062
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+      - 标准|日本02解锁|T506:35006
+      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
+      - 标准|印度01|T519:35021
+      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
+      - 印AWS1[x1|V2Ray]@480Mbps:10502
+      - 标准|香港02解锁|T508:35010
+      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+      - 标准|德国01|T515:35017
+      - 标准|英国01|T521:35023
+      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+      - 标准|新加坡01解锁|T511:35013
+      - 标准|中国台湾04解锁|T604:35070
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+      - 标准|美国01解锁|T503:35019
+      - 标准|中国台湾03解锁|T603:35069
+      - 标准|英国02|T522:35034
+      - 标准|中国台湾05解锁|T605:35071
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+      - 标准|新加坡02解锁|T512:35014
+      - 标准|德国02|T516:35018
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK 102:10231
-      - HK 104:10011
-      - HK 106:10248
-      - HK A 003:10009
-      - IN A 001:10033
-      - IN A 003:10035
-      - IN B 002:10138
-      - IN B 003:10135
-      - JP B 002:10046
-      - JP B 003:10051
-      - SG A 001:10026
-      - SG A 002:10225
-      - SG A 003:10028
-      - SG A 004:10218
-      - SG A 005:10185
-      - SG A 007:10186
-      - TW A 1:10062
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+      - 标准|日本02解锁|T506:35006
+      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
+      - 标准|印度01|T519:35021
+      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
+      - 印AWS1[x1|V2Ray]@480Mbps:10502
+      - 标准|香港02解锁|T508:35010
+      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+      - 标准|德国01|T515:35017
+      - 标准|英国01|T521:35023
+      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+      - 标准|新加坡01解锁|T511:35013
+      - 标准|中国台湾04解锁|T604:35070
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+      - 标准|美国01解锁|T503:35019
+      - 标准|中国台湾03解锁|T603:35069
+      - 标准|英国02|T522:35034
+      - 标准|中国台湾05解锁|T605:35071
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+      - 标准|新加坡02解锁|T512:35014
+      - 标准|德国02|T516:35018
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK 102:10231
-      - HK 104:10011
-      - HK 106:10248
-      - HK A 003:10009
-      - IN A 001:10033
-      - IN A 003:10035
-      - IN B 002:10138
-      - IN B 003:10135
-      - JP B 002:10046
-      - JP B 003:10051
-      - SG A 001:10026
-      - SG A 002:10225
-      - SG A 003:10028
-      - SG A 004:10218
-      - SG A 005:10185
-      - SG A 007:10186
-      - TW A 1:10062
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+      - 标准|日本02解锁|T506:35006
+      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
+      - 标准|印度01|T519:35021
+      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
+      - 印AWS1[x1|V2Ray]@480Mbps:10502
+      - 标准|香港02解锁|T508:35010
+      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+      - 标准|德国01|T515:35017
+      - 标准|英国01|T521:35023
+      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+      - 标准|新加坡01解锁|T511:35013
+      - 标准|中国台湾04解锁|T604:35070
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+      - 标准|美国01解锁|T503:35019
+      - 标准|中国台湾03解锁|T603:35069
+      - 标准|英国02|T522:35034
+      - 标准|中国台湾05解锁|T605:35071
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+      - 标准|新加坡02解锁|T512:35014
+      - 标准|德国02|T516:35018
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK 102:10231
-      - HK 104:10011
-      - HK 106:10248
-      - HK A 003:10009
-      - IN A 001:10033
-      - IN A 003:10035
-      - IN B 002:10138
-      - IN B 003:10135
-      - JP B 002:10046
-      - JP B 003:10051
-      - SG A 001:10026
-      - SG A 002:10225
-      - SG A 003:10028
-      - SG A 004:10218
-      - SG A 005:10185
-      - SG A 007:10186
-      - TW A 1:10062
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+      - 标准|日本02解锁|T506:35006
+      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
+      - 标准|印度01|T519:35021
+      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
+      - 印AWS1[x1|V2Ray]@480Mbps:10502
+      - 标准|香港02解锁|T508:35010
+      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+      - 标准|德国01|T515:35017
+      - 标准|英国01|T521:35023
+      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+      - 标准|新加坡01解锁|T511:35013
+      - 标准|中国台湾04解锁|T604:35070
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+      - 标准|美国01解锁|T503:35019
+      - 标准|中国台湾03解锁|T603:35069
+      - 标准|英国02|T522:35034
+      - 标准|中国台湾05解锁|T605:35071
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+      - 标准|新加坡02解锁|T512:35014
+      - 标准|德国02|T516:35018
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - HK 102:10231
-      - HK 104:10011
-      - HK 106:10248
-      - HK A 003:10009
-      - IN A 001:10033
-      - IN A 003:10035
-      - IN B 002:10138
-      - IN B 003:10135
-      - JP B 002:10046
-      - JP B 003:10051
-      - SG A 001:10026
-      - SG A 002:10225
-      - SG A 003:10028
-      - SG A 004:10218
-      - SG A 005:10185
-      - SG A 007:10186
-      - TW A 1:10062
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+      - 标准|日本02解锁|T506:35006
+      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
+      - 标准|印度01|T519:35021
+      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
+      - 印AWS1[x1|V2Ray]@480Mbps:10502
+      - 标准|香港02解锁|T508:35010
+      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+      - 标准|德国01|T515:35017
+      - 标准|英国01|T521:35023
+      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+      - 标准|新加坡01解锁|T511:35013
+      - 标准|中国台湾04解锁|T604:35070
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+      - 标准|美国01解锁|T503:35019
+      - 标准|中国台湾03解锁|T603:35069
+      - 标准|英国02|T522:35034
+      - 标准|中国台湾05解锁|T605:35071
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+      - 标准|新加坡02解锁|T512:35014
+      - 标准|德国02|T516:35018
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - HK 102:10231
-      - HK 104:10011
-      - HK 106:10248
-      - HK A 003:10009
-      - IN A 001:10033
-      - IN A 003:10035
-      - IN B 002:10138
-      - IN B 003:10135
-      - JP B 002:10046
-      - JP B 003:10051
-      - SG A 001:10026
-      - SG A 002:10225
-      - SG A 003:10028
-      - SG A 004:10218
-      - SG A 005:10185
-      - SG A 007:10186
-      - TW A 1:10062
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+      - 标准|日本02解锁|T506:35006
+      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
+      - 标准|印度01|T519:35021
+      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
+      - 印AWS1[x1|V2Ray]@480Mbps:10502
+      - 标准|香港02解锁|T508:35010
+      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+      - 标准|德国01|T515:35017
+      - 标准|英国01|T521:35023
+      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+      - 标准|新加坡01解锁|T511:35013
+      - 标准|中国台湾04解锁|T604:35070
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+      - 标准|美国01解锁|T503:35019
+      - 标准|中国台湾03解锁|T603:35069
+      - 标准|英国02|T522:35034
+      - 标准|中国台湾05解锁|T605:35071
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+      - 标准|新加坡02解锁|T512:35014
+      - 标准|德国02|T516:35018
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - HK 102:10231
-      - HK 104:10011
-      - HK 106:10248
-      - HK A 003:10009
-      - IN A 001:10033
-      - IN A 003:10035
-      - IN B 002:10138
-      - IN B 003:10135
-      - JP B 002:10046
-      - JP B 003:10051
-      - SG A 001:10026
-      - SG A 002:10225
-      - SG A 003:10028
-      - SG A 004:10218
-      - SG A 005:10185
-      - SG A 007:10186
-      - TW A 1:10062
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+      - 标准|日本02解锁|T506:35006
+      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
+      - 标准|印度01|T519:35021
+      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
+      - 印AWS1[x1|V2Ray]@480Mbps:10502
+      - 标准|香港02解锁|T508:35010
+      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+      - 标准|德国01|T515:35017
+      - 标准|英国01|T521:35023
+      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+      - 标准|新加坡01解锁|T511:35013
+      - 标准|中国台湾04解锁|T604:35070
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+      - 标准|美国01解锁|T503:35019
+      - 标准|中国台湾03解锁|T603:35069
+      - 标准|英国02|T522:35034
+      - 标准|中国台湾05解锁|T605:35071
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+      - 标准|新加坡02解锁|T512:35014
+      - 标准|德国02|T516:35018
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK 102:10231
-      - HK 104:10011
-      - HK 106:10248
-      - HK A 003:10009
-      - IN A 001:10033
-      - IN A 003:10035
-      - IN B 002:10138
-      - IN B 003:10135
-      - JP B 002:10046
-      - JP B 003:10051
-      - SG A 001:10026
-      - SG A 002:10225
-      - SG A 003:10028
-      - SG A 004:10218
-      - SG A 005:10185
-      - SG A 007:10186
-      - TW A 1:10062
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+      - 标准|日本02解锁|T506:35006
+      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
+      - 标准|印度01|T519:35021
+      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
+      - 印AWS1[x1|V2Ray]@480Mbps:10502
+      - 标准|香港02解锁|T508:35010
+      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
+      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+      - 标准|德国01|T515:35017
+      - 标准|英国01|T521:35023
+      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+      - 标准|新加坡01解锁|T511:35013
+      - 标准|中国台湾04解锁|T604:35070
+      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+      - 标准|美国01解锁|T503:35019
+      - 标准|中国台湾03解锁|T603:35069
+      - 标准|英国02|T522:35034
+      - 标准|中国台湾05解锁|T605:35071
+      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
+      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
+      - 标准|新加坡02解锁|T512:35014
+      - 标准|德国02|T516:35018
+      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
