@@ -5,841 +5,858 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
+  - name: _null_null:443
     type: vmess
-    server: br-cn-east-cu1.node-fnf.xyz
-    port: 10306
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: 0316ro.fans8.xyz
+    port: 443
+    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+    alterId: "3"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ray
+    ws-headers:
+      Host: 0316ro.fans8.xyz
+  - name: lindoe日本|三网优化|1x:20631
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-east-cu1.node-fnf.xyz
-  - name: 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
+    ws-path: /lindoerb01
+    ws-headers: null
+  - name: 澳大利亚01|三网优化|1x:20631
     type: vmess
-    server: br-cn-east-cu2.node-fnf.xyz
-    port: 50110
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-east-cu2.node-fnf.xyz
-  - name: 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
+    ws-path: /AUS01
+    ws-headers: null
+  - name: 澳大利亚02|三网优化|1x:20631
     type: vmess
-    server: br-cn-south-cu1.node-fnf.xyz
-    port: 10202
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cu1.node-fnf.xyz
-  - name: 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
+    ws-path: /AUS02
+    ws-headers: null
+  - name: 德国|三网优化|1x:20631
     type: vmess
-    server: br-cn-east-cu1.node-fnf.xyz
-    port: 10208
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-east-cu1.node-fnf.xyz
-  - name: 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
+    ws-path: /dg01
+    ws-headers: null
+  - name: 东京|优选原生IP|1x:20631
     type: vmess
-    server: br-cn-south-cu1.node-fnf.xyz
-    port: 25062
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cu1.node-fnf.xyz
-  - name: 标准|日本02解锁|T506:35006
+    ws-path: /dj01
+    ws-headers: null
+  - name: 俄罗斯|三网优化|1x:20631
     type: vmess
-    server: tanz-unicom.0098dns01in.work
-    port: 35006
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-unicom.0098dns01in.work
-  - name: 泰[x0.75|NF|V2Ray]@480Mbps:25042
+    ws-path: /els01
+    ws-headers: null
+  - name: 韩国|优选原生IP|1x:20631
     type: vmess
-    server: br-cn-south-cu1.node-fnf.xyz
-    port: 25042
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cu1.node-fnf.xyz
-  - name: 标准|印度01|T519:35021
+    ws-path: /jgwhg01
+    ws-headers: null
+  - name: 加拿大01|三网优化|1x:20631
     type: vmess
-    server: tanz-unicom.0098dns01in.work
-    port: 35021
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-unicom.0098dns01in.work
-  - name: 瑞典[x1|NF|V2Ray]@240Mbps:15104
+    ws-path: /canada01
+    ws-headers: null
+  - name: 加拿大02|三网优化|1x:20631
     type: vmess
-    server: br-cn-east-cu1.node-fnf.xyz
-    port: 15104
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-east-cu1.node-fnf.xyz
-  - name: 印AWS1[x1|V2Ray]@480Mbps:10502
+    ws-path: /canada02
+    ws-headers: null
+  - name: 马来西亚|三网优化|优选原生IP|1x:20631
     type: vmess
-    server: br-cn-south-cu1.node-fnf.xyz
-    port: 10502
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cu1.node-fnf.xyz
-  - name: 标准|香港02解锁|T508:35010
+    ws-path: /mlxy008
+    ws-headers: null
+  - name: 美国01|三网优化|1x:20631
     type: vmess
-    server: tanz-moble.0098dns01in.work
-    port: 35010
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-moble.0098dns01in.work
-  - name: 菲[x0.75|NF|V2Ray]@480Mbps:25032
+    ws-path: /cere01
+    ws-headers: null
+  - name: 美国02|三网优化|1x:20631
     type: vmess
-    server: br-cn-south-cu1.node-fnf.xyz
-    port: 25032
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cu1.node-fnf.xyz
-  - name: 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
+    ws-path: /cere02
+    ws-headers: null
+  - name: 美国03|三网优化|1x:20631
     type: vmess
-    server: br-cn-south-cu1.node-fnf.xyz
-    port: 25014
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cu1.node-fnf.xyz
-  - name: 标准|德国01|T515:35017
+    ws-path: /cere03
+    ws-headers: null
+  - name: 美国04|三网优化|1x:20631
     type: vmess
-    server: tanz-unicom.0098dns01in.work
-    port: 35017
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-unicom.0098dns01in.work
-  - name: 标准|英国01|T521:35023
+    ws-path: /usa04
+    ws-headers: null
+  - name: 日本01|三网优化|1x:20631
     type: vmess
-    server: tanz-unicom.0098dns01in.work
-    port: 35023
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-unicom.0098dns01in.work
-  - name: 韩AWS1[x0.75|V2Ray]@1Gbps:10402
+    ws-path: /linodejp01
+    ws-headers: null
+  - name: 日本02|三网优化|1x:20631
     type: vmess
-    server: br-cn-east-cu1.node-fnf.xyz
-    port: 10402
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-east-cu1.node-fnf.xyz
-  - name: 标准|新加坡01解锁|T511:35013
+    ws-path: linodejp02
+    ws-headers: null
+  - name: 日本03|三网优化|1x:20631
     type: vmess
-    server: tanz-moble.0098dns01in.work
-    port: 35013
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-moble.0098dns01in.work
-  - name: 标准|中国台湾04解锁|T604:35070
+    ws-path: linodejp03
+    ws-headers: null
+  - name: 日本04|三网优化|1x:20631
     type: vmess
-    server: tanz-moble.0098dns01in.work
-    port: 35070
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-moble.0098dns01in.work
-  - name: 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
+    ws-path: /japanese01
+    ws-headers: null
+  - name: 日本05|三网优化|1x:20631
     type: vmess
-    server: br-cn-south-cm1.node-fnf.xyz
-    port: 10214
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cm1.node-fnf.xyz
-  - name: 韩AWS2[x0.75|V2Ray]@1Gbps:10406
+    ws-path: /japanese02
+    ws-headers: null
+  - name: 日本06|三网优化|1x:20631
     type: vmess
-    server: br-cn-east-cu1.node-fnf.xyz
-    port: 10406
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-east-cu1.node-fnf.xyz
-  - name: 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
+    ws-path: /japanese03
+    ws-headers: null
+  - name: 台湾04|三网优化|原生IP|1x:20631
     type: vmess
-    server: br-cn-south-cu1.node-fnf.xyz
-    port: 10204
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cu1.node-fnf.xyz
-  - name: 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
+    ws-path: /hinet04
+    ws-headers: null
+  - name: 香港04|负载均衡|原生IP|1x:20631
     type: vmess
-    server: br-cn-south-cu1.node-fnf.xyz
-    port: 25072
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cu1.node-fnf.xyz
-  - name: 标准|美国01解锁|T503:35019
+    ws-path: /hkt008
+    ws-headers: null
+  - name: 香港阿里云@vpnhat:80
     type: vmess
-    server: tanz-unicom.0098dns01in.work
-    port: 35019
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: 47.243.42.106
+    port: 80
+    uuid: 4df7092c-aeea-3256-a156-f8ca3d094f2b
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: t.me/vppool
+  - name: 香港阿里云@vpnhat:80_2
+    type: vmess
+    server: 47.243.252.67
+    port: 80
+    uuid: 4df7092c-aeea-3256-a156-f8ca3d094f2b
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: t.me/vppool
+  - name: 香港阿里云@vpnhat:80_2_2
+    type: vmess
+    server: 8.210.82.84
+    port: 80
+    uuid: 4df7092c-aeea-3256-a156-f8ca3d094f2b
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: t.me/vppool
+  - name: 香港阿里云@vpnpool:80
+    type: vmess
+    server: 8.210.74.245
+    port: 80
+    uuid: 4dd6cbf5-7ff5-3aeb-b5ac-8cff4b21d0e5
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: 香港阿里云@vpnpool:80_2
+    type: vmess
+    server: 47.243.252.67
+    port: 80
+    uuid: 4dd6cbf5-7ff5-3aeb-b5ac-8cff4b21d0e5
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: 香港阿里云@vpnpool:80_2_2
+    type: vmess
+    server: 8.210.82.84
+    port: 80
+    uuid: 4dd6cbf5-7ff5-3aeb-b5ac-8cff4b21d0e5
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: 新加坡01|三网优化|1x:20631
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-unicom.0098dns01in.work
-  - name: 标准|中国台湾03解锁|T603:35069
+    ws-path: /doxjp01
+    ws-headers: null
+  - name: 新加坡04|三网优化|优选原生IP|1x:20631
     type: vmess
-    server: tanz-moble.0098dns01in.work
-    port: 35069
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-moble.0098dns01in.work
-  - name: 标准|英国02|T522:35034
+    ws-path: /doxjp04
+    ws-headers: null
+  - name: 新加坡05|三网优化|优选原生IP|1x:20631
     type: vmess
-    server: tanz-unicom.0098dns01in.work
-    port: 35034
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-unicom.0098dns01in.work
-  - name: 标准|中国台湾05解锁|T605:35071
+    ws-path: /doxjp05
+    ws-headers: null
+  - name: 新加坡06|三网优化|优选原生IP|1x:20631
     type: vmess
-    server: tanz-moble.0098dns01in.work
-    port: 35071
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-moble.0098dns01in.work
-  - name: 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
+    ws-path: /doxjp06
+    ws-headers: null
+  - name: 英国01|三网优化|1x:20631
     type: vmess
-    server: br-cn-south-iepl1.node-fnf.xyz
-    port: 10104
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-iepl1.node-fnf.xyz
-  - name: 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
+    ws-path: /UK01
+    ws-headers: null
+  - name: 英国02|三网优化|1x:20631
     type: vmess
-    server: br-cn-east-cu1.node-fnf.xyz
-    port: 10302
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-east-cu1.node-fnf.xyz
-  - name: 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
+    ws-path: /UK02
+    ws-headers: null
+  - name: 英国03|三网优化|1x:20631
     type: vmess
-    server: br-cn-south-cu1.node-fnf.xyz
-    port: 25052
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
+    server: cs.daxun.club
+    port: 20631
+    uuid: d2f7e67f-7473-4a97-8c5d-927a296aca35
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cu1.node-fnf.xyz
-  - name: 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-    type: vmess
-    server: br-cn-south-cm1.node-fnf.xyz
-    port: 10218
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cm1.node-fnf.xyz
-  - name: 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-    type: vmess
-    server: br-cn-south-cm1.node-fnf.xyz
-    port: 10216
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cm1.node-fnf.xyz
-  - name: 标准|新加坡02解锁|T512:35014
-    type: vmess
-    server: tanz-moble.0098dns01in.work
-    port: 35014
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-moble.0098dns01in.work
-  - name: 标准|德国02|T516:35018
-    type: vmess
-    server: tanz-unicom.0098dns01in.work
-    port: 35018
-    uuid: b83d0e8b-f4e6-3988-b45e-cc96400f0bc6
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: tanz-unicom.0098dns01in.work
-  - name: 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
-    type: vmess
-    server: br-cn-south-cu1.node-fnf.xyz
-    port: 25034
-    uuid: 0eefa5b3-fe64-3319-ba6c-f4df1c2d9304
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: br-cn-south-cu1.node-fnf.xyz
+    ws-path: /UK03
+    ws-headers: null
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
-      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
-      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
-      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
-      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
-      - 标准|日本02解锁|T506:35006
-      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
-      - 标准|印度01|T519:35021
-      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
-      - 印AWS1[x1|V2Ray]@480Mbps:10502
-      - 标准|香港02解锁|T508:35010
-      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
-      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
-      - 标准|德国01|T515:35017
-      - 标准|英国01|T521:35023
-      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
-      - 标准|新加坡01解锁|T511:35013
-      - 标准|中国台湾04解锁|T604:35070
-      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
-      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
-      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
-      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
-      - 标准|美国01解锁|T503:35019
-      - 标准|中国台湾03解锁|T603:35069
-      - 标准|英国02|T522:35034
-      - 标准|中国台湾05解锁|T605:35071
-      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
-      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
-      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
-      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-      - 标准|新加坡02解锁|T512:35014
-      - 标准|德国02|T516:35018
-      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+      - _null_null:443
+      - lindoe日本|三网优化|1x:20631
+      - 澳大利亚01|三网优化|1x:20631
+      - 澳大利亚02|三网优化|1x:20631
+      - 德国|三网优化|1x:20631
+      - 东京|优选原生IP|1x:20631
+      - 俄罗斯|三网优化|1x:20631
+      - 韩国|优选原生IP|1x:20631
+      - 加拿大01|三网优化|1x:20631
+      - 加拿大02|三网优化|1x:20631
+      - 马来西亚|三网优化|优选原生IP|1x:20631
+      - 美国01|三网优化|1x:20631
+      - 美国02|三网优化|1x:20631
+      - 美国03|三网优化|1x:20631
+      - 美国04|三网优化|1x:20631
+      - 日本01|三网优化|1x:20631
+      - 日本02|三网优化|1x:20631
+      - 日本03|三网优化|1x:20631
+      - 日本04|三网优化|1x:20631
+      - 日本05|三网优化|1x:20631
+      - 日本06|三网优化|1x:20631
+      - 台湾04|三网优化|原生IP|1x:20631
+      - 香港04|负载均衡|原生IP|1x:20631
+      - 香港阿里云@vpnhat:80
+      - 香港阿里云@vpnhat:80_2
+      - 香港阿里云@vpnhat:80_2_2
+      - 香港阿里云@vpnpool:80
+      - 香港阿里云@vpnpool:80_2
+      - 香港阿里云@vpnpool:80_2_2
+      - 新加坡01|三网优化|1x:20631
+      - 新加坡04|三网优化|优选原生IP|1x:20631
+      - 新加坡05|三网优化|优选原生IP|1x:20631
+      - 新加坡06|三网优化|优选原生IP|1x:20631
+      - 英国01|三网优化|1x:20631
+      - 英国02|三网优化|1x:20631
+      - 英国03|三网优化|1x:20631
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
-      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
-      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
-      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
-      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
-      - 标准|日本02解锁|T506:35006
-      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
-      - 标准|印度01|T519:35021
-      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
-      - 印AWS1[x1|V2Ray]@480Mbps:10502
-      - 标准|香港02解锁|T508:35010
-      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
-      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
-      - 标准|德国01|T515:35017
-      - 标准|英国01|T521:35023
-      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
-      - 标准|新加坡01解锁|T511:35013
-      - 标准|中国台湾04解锁|T604:35070
-      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
-      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
-      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
-      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
-      - 标准|美国01解锁|T503:35019
-      - 标准|中国台湾03解锁|T603:35069
-      - 标准|英国02|T522:35034
-      - 标准|中国台湾05解锁|T605:35071
-      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
-      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
-      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
-      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-      - 标准|新加坡02解锁|T512:35014
-      - 标准|德国02|T516:35018
-      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+      - _null_null:443
+      - lindoe日本|三网优化|1x:20631
+      - 澳大利亚01|三网优化|1x:20631
+      - 澳大利亚02|三网优化|1x:20631
+      - 德国|三网优化|1x:20631
+      - 东京|优选原生IP|1x:20631
+      - 俄罗斯|三网优化|1x:20631
+      - 韩国|优选原生IP|1x:20631
+      - 加拿大01|三网优化|1x:20631
+      - 加拿大02|三网优化|1x:20631
+      - 马来西亚|三网优化|优选原生IP|1x:20631
+      - 美国01|三网优化|1x:20631
+      - 美国02|三网优化|1x:20631
+      - 美国03|三网优化|1x:20631
+      - 美国04|三网优化|1x:20631
+      - 日本01|三网优化|1x:20631
+      - 日本02|三网优化|1x:20631
+      - 日本03|三网优化|1x:20631
+      - 日本04|三网优化|1x:20631
+      - 日本05|三网优化|1x:20631
+      - 日本06|三网优化|1x:20631
+      - 台湾04|三网优化|原生IP|1x:20631
+      - 香港04|负载均衡|原生IP|1x:20631
+      - 香港阿里云@vpnhat:80
+      - 香港阿里云@vpnhat:80_2
+      - 香港阿里云@vpnhat:80_2_2
+      - 香港阿里云@vpnpool:80
+      - 香港阿里云@vpnpool:80_2
+      - 香港阿里云@vpnpool:80_2_2
+      - 新加坡01|三网优化|1x:20631
+      - 新加坡04|三网优化|优选原生IP|1x:20631
+      - 新加坡05|三网优化|优选原生IP|1x:20631
+      - 新加坡06|三网优化|优选原生IP|1x:20631
+      - 英国01|三网优化|1x:20631
+      - 英国02|三网优化|1x:20631
+      - 英国03|三网优化|1x:20631
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
-      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
-      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
-      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
-      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
-      - 标准|日本02解锁|T506:35006
-      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
-      - 标准|印度01|T519:35021
-      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
-      - 印AWS1[x1|V2Ray]@480Mbps:10502
-      - 标准|香港02解锁|T508:35010
-      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
-      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
-      - 标准|德国01|T515:35017
-      - 标准|英国01|T521:35023
-      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
-      - 标准|新加坡01解锁|T511:35013
-      - 标准|中国台湾04解锁|T604:35070
-      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
-      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
-      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
-      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
-      - 标准|美国01解锁|T503:35019
-      - 标准|中国台湾03解锁|T603:35069
-      - 标准|英国02|T522:35034
-      - 标准|中国台湾05解锁|T605:35071
-      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
-      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
-      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
-      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-      - 标准|新加坡02解锁|T512:35014
-      - 标准|德国02|T516:35018
-      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+      - _null_null:443
+      - lindoe日本|三网优化|1x:20631
+      - 澳大利亚01|三网优化|1x:20631
+      - 澳大利亚02|三网优化|1x:20631
+      - 德国|三网优化|1x:20631
+      - 东京|优选原生IP|1x:20631
+      - 俄罗斯|三网优化|1x:20631
+      - 韩国|优选原生IP|1x:20631
+      - 加拿大01|三网优化|1x:20631
+      - 加拿大02|三网优化|1x:20631
+      - 马来西亚|三网优化|优选原生IP|1x:20631
+      - 美国01|三网优化|1x:20631
+      - 美国02|三网优化|1x:20631
+      - 美国03|三网优化|1x:20631
+      - 美国04|三网优化|1x:20631
+      - 日本01|三网优化|1x:20631
+      - 日本02|三网优化|1x:20631
+      - 日本03|三网优化|1x:20631
+      - 日本04|三网优化|1x:20631
+      - 日本05|三网优化|1x:20631
+      - 日本06|三网优化|1x:20631
+      - 台湾04|三网优化|原生IP|1x:20631
+      - 香港04|负载均衡|原生IP|1x:20631
+      - 香港阿里云@vpnhat:80
+      - 香港阿里云@vpnhat:80_2
+      - 香港阿里云@vpnhat:80_2_2
+      - 香港阿里云@vpnpool:80
+      - 香港阿里云@vpnpool:80_2
+      - 香港阿里云@vpnpool:80_2_2
+      - 新加坡01|三网优化|1x:20631
+      - 新加坡04|三网优化|优选原生IP|1x:20631
+      - 新加坡05|三网优化|优选原生IP|1x:20631
+      - 新加坡06|三网优化|优选原生IP|1x:20631
+      - 英国01|三网优化|1x:20631
+      - 英国02|三网优化|1x:20631
+      - 英国03|三网优化|1x:20631
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
-      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
-      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
-      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
-      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
-      - 标准|日本02解锁|T506:35006
-      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
-      - 标准|印度01|T519:35021
-      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
-      - 印AWS1[x1|V2Ray]@480Mbps:10502
-      - 标准|香港02解锁|T508:35010
-      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
-      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
-      - 标准|德国01|T515:35017
-      - 标准|英国01|T521:35023
-      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
-      - 标准|新加坡01解锁|T511:35013
-      - 标准|中国台湾04解锁|T604:35070
-      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
-      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
-      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
-      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
-      - 标准|美国01解锁|T503:35019
-      - 标准|中国台湾03解锁|T603:35069
-      - 标准|英国02|T522:35034
-      - 标准|中国台湾05解锁|T605:35071
-      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
-      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
-      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
-      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-      - 标准|新加坡02解锁|T512:35014
-      - 标准|德国02|T516:35018
-      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+      - _null_null:443
+      - lindoe日本|三网优化|1x:20631
+      - 澳大利亚01|三网优化|1x:20631
+      - 澳大利亚02|三网优化|1x:20631
+      - 德国|三网优化|1x:20631
+      - 东京|优选原生IP|1x:20631
+      - 俄罗斯|三网优化|1x:20631
+      - 韩国|优选原生IP|1x:20631
+      - 加拿大01|三网优化|1x:20631
+      - 加拿大02|三网优化|1x:20631
+      - 马来西亚|三网优化|优选原生IP|1x:20631
+      - 美国01|三网优化|1x:20631
+      - 美国02|三网优化|1x:20631
+      - 美国03|三网优化|1x:20631
+      - 美国04|三网优化|1x:20631
+      - 日本01|三网优化|1x:20631
+      - 日本02|三网优化|1x:20631
+      - 日本03|三网优化|1x:20631
+      - 日本04|三网优化|1x:20631
+      - 日本05|三网优化|1x:20631
+      - 日本06|三网优化|1x:20631
+      - 台湾04|三网优化|原生IP|1x:20631
+      - 香港04|负载均衡|原生IP|1x:20631
+      - 香港阿里云@vpnhat:80
+      - 香港阿里云@vpnhat:80_2
+      - 香港阿里云@vpnhat:80_2_2
+      - 香港阿里云@vpnpool:80
+      - 香港阿里云@vpnpool:80_2
+      - 香港阿里云@vpnpool:80_2_2
+      - 新加坡01|三网优化|1x:20631
+      - 新加坡04|三网优化|优选原生IP|1x:20631
+      - 新加坡05|三网优化|优选原生IP|1x:20631
+      - 新加坡06|三网优化|优选原生IP|1x:20631
+      - 英国01|三网优化|1x:20631
+      - 英国02|三网优化|1x:20631
+      - 英国03|三网优化|1x:20631
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
-      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
-      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
-      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
-      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
-      - 标准|日本02解锁|T506:35006
-      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
-      - 标准|印度01|T519:35021
-      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
-      - 印AWS1[x1|V2Ray]@480Mbps:10502
-      - 标准|香港02解锁|T508:35010
-      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
-      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
-      - 标准|德国01|T515:35017
-      - 标准|英国01|T521:35023
-      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
-      - 标准|新加坡01解锁|T511:35013
-      - 标准|中国台湾04解锁|T604:35070
-      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
-      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
-      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
-      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
-      - 标准|美国01解锁|T503:35019
-      - 标准|中国台湾03解锁|T603:35069
-      - 标准|英国02|T522:35034
-      - 标准|中国台湾05解锁|T605:35071
-      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
-      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
-      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
-      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-      - 标准|新加坡02解锁|T512:35014
-      - 标准|德国02|T516:35018
-      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+      - _null_null:443
+      - lindoe日本|三网优化|1x:20631
+      - 澳大利亚01|三网优化|1x:20631
+      - 澳大利亚02|三网优化|1x:20631
+      - 德国|三网优化|1x:20631
+      - 东京|优选原生IP|1x:20631
+      - 俄罗斯|三网优化|1x:20631
+      - 韩国|优选原生IP|1x:20631
+      - 加拿大01|三网优化|1x:20631
+      - 加拿大02|三网优化|1x:20631
+      - 马来西亚|三网优化|优选原生IP|1x:20631
+      - 美国01|三网优化|1x:20631
+      - 美国02|三网优化|1x:20631
+      - 美国03|三网优化|1x:20631
+      - 美国04|三网优化|1x:20631
+      - 日本01|三网优化|1x:20631
+      - 日本02|三网优化|1x:20631
+      - 日本03|三网优化|1x:20631
+      - 日本04|三网优化|1x:20631
+      - 日本05|三网优化|1x:20631
+      - 日本06|三网优化|1x:20631
+      - 台湾04|三网优化|原生IP|1x:20631
+      - 香港04|负载均衡|原生IP|1x:20631
+      - 香港阿里云@vpnhat:80
+      - 香港阿里云@vpnhat:80_2
+      - 香港阿里云@vpnhat:80_2_2
+      - 香港阿里云@vpnpool:80
+      - 香港阿里云@vpnpool:80_2
+      - 香港阿里云@vpnpool:80_2_2
+      - 新加坡01|三网优化|1x:20631
+      - 新加坡04|三网优化|优选原生IP|1x:20631
+      - 新加坡05|三网优化|优选原生IP|1x:20631
+      - 新加坡06|三网优化|优选原生IP|1x:20631
+      - 英国01|三网优化|1x:20631
+      - 英国02|三网优化|1x:20631
+      - 英国03|三网优化|1x:20631
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
-      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
-      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
-      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
-      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
-      - 标准|日本02解锁|T506:35006
-      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
-      - 标准|印度01|T519:35021
-      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
-      - 印AWS1[x1|V2Ray]@480Mbps:10502
-      - 标准|香港02解锁|T508:35010
-      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
-      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
-      - 标准|德国01|T515:35017
-      - 标准|英国01|T521:35023
-      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
-      - 标准|新加坡01解锁|T511:35013
-      - 标准|中国台湾04解锁|T604:35070
-      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
-      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
-      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
-      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
-      - 标准|美国01解锁|T503:35019
-      - 标准|中国台湾03解锁|T603:35069
-      - 标准|英国02|T522:35034
-      - 标准|中国台湾05解锁|T605:35071
-      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
-      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
-      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
-      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-      - 标准|新加坡02解锁|T512:35014
-      - 标准|德国02|T516:35018
-      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+      - _null_null:443
+      - lindoe日本|三网优化|1x:20631
+      - 澳大利亚01|三网优化|1x:20631
+      - 澳大利亚02|三网优化|1x:20631
+      - 德国|三网优化|1x:20631
+      - 东京|优选原生IP|1x:20631
+      - 俄罗斯|三网优化|1x:20631
+      - 韩国|优选原生IP|1x:20631
+      - 加拿大01|三网优化|1x:20631
+      - 加拿大02|三网优化|1x:20631
+      - 马来西亚|三网优化|优选原生IP|1x:20631
+      - 美国01|三网优化|1x:20631
+      - 美国02|三网优化|1x:20631
+      - 美国03|三网优化|1x:20631
+      - 美国04|三网优化|1x:20631
+      - 日本01|三网优化|1x:20631
+      - 日本02|三网优化|1x:20631
+      - 日本03|三网优化|1x:20631
+      - 日本04|三网优化|1x:20631
+      - 日本05|三网优化|1x:20631
+      - 日本06|三网优化|1x:20631
+      - 台湾04|三网优化|原生IP|1x:20631
+      - 香港04|负载均衡|原生IP|1x:20631
+      - 香港阿里云@vpnhat:80
+      - 香港阿里云@vpnhat:80_2
+      - 香港阿里云@vpnhat:80_2_2
+      - 香港阿里云@vpnpool:80
+      - 香港阿里云@vpnpool:80_2
+      - 香港阿里云@vpnpool:80_2_2
+      - 新加坡01|三网优化|1x:20631
+      - 新加坡04|三网优化|优选原生IP|1x:20631
+      - 新加坡05|三网优化|优选原生IP|1x:20631
+      - 新加坡06|三网优化|优选原生IP|1x:20631
+      - 英国01|三网优化|1x:20631
+      - 英国02|三网优化|1x:20631
+      - 英国03|三网优化|1x:20631
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
-      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
-      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
-      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
-      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
-      - 标准|日本02解锁|T506:35006
-      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
-      - 标准|印度01|T519:35021
-      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
-      - 印AWS1[x1|V2Ray]@480Mbps:10502
-      - 标准|香港02解锁|T508:35010
-      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
-      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
-      - 标准|德国01|T515:35017
-      - 标准|英国01|T521:35023
-      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
-      - 标准|新加坡01解锁|T511:35013
-      - 标准|中国台湾04解锁|T604:35070
-      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
-      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
-      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
-      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
-      - 标准|美国01解锁|T503:35019
-      - 标准|中国台湾03解锁|T603:35069
-      - 标准|英国02|T522:35034
-      - 标准|中国台湾05解锁|T605:35071
-      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
-      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
-      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
-      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-      - 标准|新加坡02解锁|T512:35014
-      - 标准|德国02|T516:35018
-      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+      - _null_null:443
+      - lindoe日本|三网优化|1x:20631
+      - 澳大利亚01|三网优化|1x:20631
+      - 澳大利亚02|三网优化|1x:20631
+      - 德国|三网优化|1x:20631
+      - 东京|优选原生IP|1x:20631
+      - 俄罗斯|三网优化|1x:20631
+      - 韩国|优选原生IP|1x:20631
+      - 加拿大01|三网优化|1x:20631
+      - 加拿大02|三网优化|1x:20631
+      - 马来西亚|三网优化|优选原生IP|1x:20631
+      - 美国01|三网优化|1x:20631
+      - 美国02|三网优化|1x:20631
+      - 美国03|三网优化|1x:20631
+      - 美国04|三网优化|1x:20631
+      - 日本01|三网优化|1x:20631
+      - 日本02|三网优化|1x:20631
+      - 日本03|三网优化|1x:20631
+      - 日本04|三网优化|1x:20631
+      - 日本05|三网优化|1x:20631
+      - 日本06|三网优化|1x:20631
+      - 台湾04|三网优化|原生IP|1x:20631
+      - 香港04|负载均衡|原生IP|1x:20631
+      - 香港阿里云@vpnhat:80
+      - 香港阿里云@vpnhat:80_2
+      - 香港阿里云@vpnhat:80_2_2
+      - 香港阿里云@vpnpool:80
+      - 香港阿里云@vpnpool:80_2
+      - 香港阿里云@vpnpool:80_2_2
+      - 新加坡01|三网优化|1x:20631
+      - 新加坡04|三网优化|优选原生IP|1x:20631
+      - 新加坡05|三网优化|优选原生IP|1x:20631
+      - 新加坡06|三网优化|优选原生IP|1x:20631
+      - 英国01|三网优化|1x:20631
+      - 英国02|三网优化|1x:20631
+      - 英国03|三网优化|1x:20631
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
-      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
-      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
-      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
-      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
-      - 标准|日本02解锁|T506:35006
-      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
-      - 标准|印度01|T519:35021
-      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
-      - 印AWS1[x1|V2Ray]@480Mbps:10502
-      - 标准|香港02解锁|T508:35010
-      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
-      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
-      - 标准|德国01|T515:35017
-      - 标准|英国01|T521:35023
-      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
-      - 标准|新加坡01解锁|T511:35013
-      - 标准|中国台湾04解锁|T604:35070
-      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
-      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
-      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
-      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
-      - 标准|美国01解锁|T503:35019
-      - 标准|中国台湾03解锁|T603:35069
-      - 标准|英国02|T522:35034
-      - 标准|中国台湾05解锁|T605:35071
-      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
-      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
-      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
-      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-      - 标准|新加坡02解锁|T512:35014
-      - 标准|德国02|T516:35018
-      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+      - _null_null:443
+      - lindoe日本|三网优化|1x:20631
+      - 澳大利亚01|三网优化|1x:20631
+      - 澳大利亚02|三网优化|1x:20631
+      - 德国|三网优化|1x:20631
+      - 东京|优选原生IP|1x:20631
+      - 俄罗斯|三网优化|1x:20631
+      - 韩国|优选原生IP|1x:20631
+      - 加拿大01|三网优化|1x:20631
+      - 加拿大02|三网优化|1x:20631
+      - 马来西亚|三网优化|优选原生IP|1x:20631
+      - 美国01|三网优化|1x:20631
+      - 美国02|三网优化|1x:20631
+      - 美国03|三网优化|1x:20631
+      - 美国04|三网优化|1x:20631
+      - 日本01|三网优化|1x:20631
+      - 日本02|三网优化|1x:20631
+      - 日本03|三网优化|1x:20631
+      - 日本04|三网优化|1x:20631
+      - 日本05|三网优化|1x:20631
+      - 日本06|三网优化|1x:20631
+      - 台湾04|三网优化|原生IP|1x:20631
+      - 香港04|负载均衡|原生IP|1x:20631
+      - 香港阿里云@vpnhat:80
+      - 香港阿里云@vpnhat:80_2
+      - 香港阿里云@vpnhat:80_2_2
+      - 香港阿里云@vpnpool:80
+      - 香港阿里云@vpnpool:80_2
+      - 香港阿里云@vpnpool:80_2_2
+      - 新加坡01|三网优化|1x:20631
+      - 新加坡04|三网优化|优选原生IP|1x:20631
+      - 新加坡05|三网优化|优选原生IP|1x:20631
+      - 新加坡06|三网优化|优选原生IP|1x:20631
+      - 英国01|三网优化|1x:20631
+      - 英国02|三网优化|1x:20631
+      - 英国03|三网优化|1x:20631
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
-      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
-      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
-      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
-      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
-      - 标准|日本02解锁|T506:35006
-      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
-      - 标准|印度01|T519:35021
-      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
-      - 印AWS1[x1|V2Ray]@480Mbps:10502
-      - 标准|香港02解锁|T508:35010
-      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
-      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
-      - 标准|德国01|T515:35017
-      - 标准|英国01|T521:35023
-      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
-      - 标准|新加坡01解锁|T511:35013
-      - 标准|中国台湾04解锁|T604:35070
-      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
-      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
-      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
-      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
-      - 标准|美国01解锁|T503:35019
-      - 标准|中国台湾03解锁|T603:35069
-      - 标准|英国02|T522:35034
-      - 标准|中国台湾05解锁|T605:35071
-      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
-      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
-      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
-      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-      - 标准|新加坡02解锁|T512:35014
-      - 标准|德国02|T516:35018
-      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+      - _null_null:443
+      - lindoe日本|三网优化|1x:20631
+      - 澳大利亚01|三网优化|1x:20631
+      - 澳大利亚02|三网优化|1x:20631
+      - 德国|三网优化|1x:20631
+      - 东京|优选原生IP|1x:20631
+      - 俄罗斯|三网优化|1x:20631
+      - 韩国|优选原生IP|1x:20631
+      - 加拿大01|三网优化|1x:20631
+      - 加拿大02|三网优化|1x:20631
+      - 马来西亚|三网优化|优选原生IP|1x:20631
+      - 美国01|三网优化|1x:20631
+      - 美国02|三网优化|1x:20631
+      - 美国03|三网优化|1x:20631
+      - 美国04|三网优化|1x:20631
+      - 日本01|三网优化|1x:20631
+      - 日本02|三网优化|1x:20631
+      - 日本03|三网优化|1x:20631
+      - 日本04|三网优化|1x:20631
+      - 日本05|三网优化|1x:20631
+      - 日本06|三网优化|1x:20631
+      - 台湾04|三网优化|原生IP|1x:20631
+      - 香港04|负载均衡|原生IP|1x:20631
+      - 香港阿里云@vpnhat:80
+      - 香港阿里云@vpnhat:80_2
+      - 香港阿里云@vpnhat:80_2_2
+      - 香港阿里云@vpnpool:80
+      - 香港阿里云@vpnpool:80_2
+      - 香港阿里云@vpnpool:80_2_2
+      - 新加坡01|三网优化|1x:20631
+      - 新加坡04|三网优化|优选原生IP|1x:20631
+      - 新加坡05|三网优化|优选原生IP|1x:20631
+      - 新加坡06|三网优化|优选原生IP|1x:20631
+      - 英国01|三网优化|1x:20631
+      - 英国02|三网优化|1x:20631
+      - 英国03|三网优化|1x:20631
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日AWS2[x0.75|NF*|V2Ray]@1Gbps:10306
-      - 日AWS3[x0.1|福利|NF*|V2Ray]@240Mbps:50110
-      - 台HiNet1[x0.75|NF|V2Ray]@480Mbps:10202
-      - 台HiNet4[x0.75|NF|V2Ray]@480Mbps:10208
-      - 越FPT1[x0.75|NF|V2Ray]@480Mbps:25062
-      - 标准|日本02解锁|T506:35006
-      - 泰[x0.75|NF|V2Ray]@480Mbps:25042
-      - 标准|印度01|T519:35021
-      - 瑞典[x1|NF|V2Ray]@240Mbps:15104
-      - 印AWS1[x1|V2Ray]@480Mbps:10502
-      - 标准|香港02解锁|T508:35010
-      - 菲[x0.75|NF|V2Ray]@480Mbps:25032
-      - 阿联酋AZ1[x1|V2Ray]@80Mbps:25014
-      - 标准|德国01|T515:35017
-      - 标准|英国01|T521:35023
-      - 韩AWS1[x0.75|V2Ray]@1Gbps:10402
-      - 标准|新加坡01解锁|T511:35013
-      - 标准|中国台湾04解锁|T604:35070
-      - 新SI1[x0.75|NF|V2Ray]@1Gbps:10214
-      - 韩AWS2[x0.75|V2Ray]@1Gbps:10406
-      - 台HiNet2[x0.75|NF|V2Ray]@480Mbps:10204
-      - 澳大利亚NP1[x1|NF|V2Ray]@480Mbps:25072
-      - 标准|美国01解锁|T503:35019
-      - 标准|中国台湾03解锁|T603:35069
-      - 标准|英国02|T522:35034
-      - 标准|中国台湾05解锁|T605:35071
-      - 港HKT2[x0.75|NF|V2Ray]@1Gbps:10104
-      - 日AWS1[x0.75|NF*|V2Ray]@1Gbps:10302
-      - 马来西亚TM1[x0.75|NF|V2Ray]@240Mbps:25052
-      - 新AWS2[x0.75|NF*|V2Ray]@1Gbps:10218
-      - 新AWS1[x0.75|NF*|V2Ray]@1Gbps:10216
-      - 标准|新加坡02解锁|T512:35014
-      - 标准|德国02|T516:35018
-      - 印尼西亚PT1[x0.75|NF|V2Ray]@80Mbps:25034
+      - _null_null:443
+      - lindoe日本|三网优化|1x:20631
+      - 澳大利亚01|三网优化|1x:20631
+      - 澳大利亚02|三网优化|1x:20631
+      - 德国|三网优化|1x:20631
+      - 东京|优选原生IP|1x:20631
+      - 俄罗斯|三网优化|1x:20631
+      - 韩国|优选原生IP|1x:20631
+      - 加拿大01|三网优化|1x:20631
+      - 加拿大02|三网优化|1x:20631
+      - 马来西亚|三网优化|优选原生IP|1x:20631
+      - 美国01|三网优化|1x:20631
+      - 美国02|三网优化|1x:20631
+      - 美国03|三网优化|1x:20631
+      - 美国04|三网优化|1x:20631
+      - 日本01|三网优化|1x:20631
+      - 日本02|三网优化|1x:20631
+      - 日本03|三网优化|1x:20631
+      - 日本04|三网优化|1x:20631
+      - 日本05|三网优化|1x:20631
+      - 日本06|三网优化|1x:20631
+      - 台湾04|三网优化|原生IP|1x:20631
+      - 香港04|负载均衡|原生IP|1x:20631
+      - 香港阿里云@vpnhat:80
+      - 香港阿里云@vpnhat:80_2
+      - 香港阿里云@vpnhat:80_2_2
+      - 香港阿里云@vpnpool:80
+      - 香港阿里云@vpnpool:80_2
+      - 香港阿里云@vpnpool:80_2_2
+      - 新加坡01|三网优化|1x:20631
+      - 新加坡04|三网优化|优选原生IP|1x:20631
+      - 新加坡05|三网优化|优选原生IP|1x:20631
+      - 新加坡06|三网优化|优选原生IP|1x:20631
+      - 英国01|三网优化|1x:20631
+      - 英国02|三网优化|1x:20631
+      - 英国03|三网优化|1x:20631
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
