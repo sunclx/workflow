@@ -5,9 +5,21 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 港 F | 沪联通中继 | Prepaid Users:12100
+  - name: CN_油管 TG 8度科技:39012
     type: vmess
-    server: cu2.worldmuseum.buzz
+    server: jj02.nfeng6.pp.ua
+    port: 39012
+    uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:12100
+    type: vmess
+    server: cm1.worldmuseum.buzz
     port: 12100
     uuid: ff52c519-91fb-3ca3-9b55-f96e75201532
     alterId: "0"
@@ -15,110 +27,14 @@ proxies:
     udp: true
     network: ws
     tls: null
-    ws-path: /hkt
+    ws-path: /jp1
     ws-headers:
       Host: telegram.channel.p2psharing
-  - name: 日本 | 3 杭日隧道 STCP GAME:52312
-    type: vmess
-    server: cs.bgp.01.211129.xyz
-    port: 52312
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall
-    ws-headers: null
-  - name: lindoe日本|三网优化|1x:20631
+  - name: CN_油管 TG 8度科技:20631
     type: vmess
     server: cs.daxun.club
     port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /lindoerb01
-    ws-headers: null
-  - name: 香港az | 3:10030
-    type: vmess
-    server: azhk520.greenyun.tk
-    port: 10030
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /onefall
-    ws-headers: null
-  - name: 香港-日本 | 5 GAME:10001
-    type: vmess
-    server: swtnsvardi.eastasia.cloudapp.azure.com
-    port: 10001
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall
-    ws-headers: null
-  - name: 日本04|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /japanese01
-    ws-headers: null
-  - name: 日本05|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /japanese02
-    ws-headers: null
-  - name: 东京|优选原生IP|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dj01
-    ws-headers: null
-  - name: 日本 | 2 Softbank GMAE:10010
-    type: vmess
-    server: gy.cm.01.211129.xyz
-    port: 10010
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall
-    ws-headers: null
-  - name: 日本01|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
     alterId: "0"
     cipher: auto
     udp: true
@@ -126,71 +42,23 @@ proxies:
     tls: null
     ws-path: /linodejp01
     ws-headers: null
-  - name: 台湾04|三网优化|原生IP|1x:20631
+  - name: CN_油管 TG 8度科技:39044
+    type: vmess
+    server: jj01.nfeng6.pp.ua
+    port: 39044
+    uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2
     type: vmess
     server: cs.daxun.club
     port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hinet04
-    ws-headers: null
-  - name: 台湾04|三网优化|原生IP|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hinet04
-    ws-headers: null
-  - name: 日本 | 6 GAME:443
-    type: vmess
-    server: 20.222.26.127
-    port: 443
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall
-    ws-headers: null
-  - name: 印度 | 1 Azure:10004
-    type: vmess
-    server: swtnsvardi.eastasia.cloudapp.azure.com
-    port: 10004
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /onefall.top
-    ws-headers: null
-  - name: 日本03|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: linodejp03
-    ws-headers: null
-  - name: 台湾|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
     alterId: "0"
     cipher: auto
     udp: true
@@ -198,70 +66,22 @@ proxies:
     tls: null
     ws-path: /schinet01
     ws-headers: null
-  - name: 新加坡02|三网优化|1x:20631
+  - name: CN_油管 TG 8度科技:20631_2_2
     type: vmess
     server: cs.daxun.club
     port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /doxjp02
+    ws-path: /doxjp01
     ws-headers: null
-  - name: 香港04|负载均衡|原生IP|1x:20631
+  - name: CN_油管 TG 8度科技:21101
     type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hkt008
-    ws-headers: null
-  - name: 日本05|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /japanese02
-    ws-headers: null
-  - name: 俄罗斯|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /els01
-    ws-headers: null
-  - name: 东京|优选原生IP|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dj01
-    ws-headers: null
-  - name: 新02 1x--@p2psharing:20785
-    type: vmess
-    server: 116.162.14.228
-    port: 20785
+    server: 183.240.132.27
+    port: 21101
     uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
     alterId: "2"
     cipher: auto
@@ -270,71 +90,11 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 日本06|三网优化|1x:20631
+  - name: CN_油管 TG 8度科技:20631_2_2_2
     type: vmess
     server: cs.daxun.club
     port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /japanese03
-    ws-headers: null
-  - name: 澳大利亚 | 1 Azure:10003
-    type: vmess
-    server: swtnsvardi.eastasia.cloudapp.azure.com
-    port: 10003
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /onefall.top
-    ws-headers: null
-  - name: 美国2 | 奈飞:10004
-    type: vmess
-    server: azhk520.greenyun.tk
-    port: 10004
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall.top
-    ws-headers: null
-  - name: 土耳其--@p2psharing:21206
-    type: vmess
-    server: 116.162.14.228
-    port: 21206
-    uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 英国01|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /UK01
-    ws-headers: null
-  - name: 美国04|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
     alterId: "0"
     cipher: auto
     udp: true
@@ -342,287 +102,11 @@ proxies:
     tls: null
     ws-path: /usa04
     ws-headers: null
-  - name: 新加坡02|三网优化|1x:20631_2
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2
     type: vmess
     server: cs.daxun.club
     port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /doxjp02
-    ws-headers: null
-  - name: 英国01|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /UK01
-    ws-headers: null
-  - name: 日本03|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: linodejp03
-    ws-headers: null
-  - name: 香港HKT | 2:13123
-    type: vmess
-    server: hkthk.nodrop.bike
-    port: 13123
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /onefall
-    ws-headers: null
-  - name: 美国01|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /cere01
-    ws-headers: null
-  - name: 日本02|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: linodejp02
-    ws-headers: null
-  - name: 俄罗斯|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /els01
-    ws-headers: null
-  - name: 韩国 | 1:32123
-    type: vmess
-    server: KR.nodrop.bike
-    port: 32123
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall.top
-    ws-headers: null
-  - name: lindoe日本|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /lindoerb01
-    ws-headers: null
-  - name: 美国 | 1 奈飞:47891
-    type: vmess
-    server: us.nodrop.bike
-    port: 47891
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall
-    ws-headers: null
-  - name: 日本01|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /linodejp01
-    ws-headers: null
-  - name: 香港-新加坡 | 1:10000
-    type: vmess
-    server: azhk520.greenyun.tk
-    port: 10000
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /onefall.top
-    ws-headers: null
-  - name: 台湾|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /schinet01
-    ws-headers: null
-  - name: 新加坡03|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /doxjp03
-    ws-headers: null
-  - name: 印度 | 2 Azure:443
-    type: vmess
-    server: 20.198.2.18
-    port: 443
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /onefall.top
-    ws-headers: null
-  - name: 德国|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dg01
-    ws-headers: null
-  - name: 马来西亚|三网优化|优选原生IP|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /mlxy008
-    ws-headers: null
-  - name: 美国01|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /cere01
-    ws-headers: null
-  - name: 台湾 | 2 Hinet:20062
-    type: vmess
-    server: gy.cm.01.211129.xyz
-    port: 20062
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 香港-美国 | 5:10000
-    type: vmess
-    server: swtnsvardi.eastasia.cloudapp.azure.com
-    port: 10000
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall
-    ws-headers: null
-  - name: 日本 | 7 Softbank GMAE:9929
-    type: vmess
-    server: 137.220.217.121
-    port: 9929
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall
-    ws-headers: null
-  - name: 英国02|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /UK02
-    ws-headers: null
-  - name: 土耳其 | 2:10003
-    type: vmess
-    server: azhk520.greenyun.tk
-    port: 10003
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall.top
-    ws-headers: null
-  - name: 日本04|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
     alterId: "0"
     cipher: auto
     udp: true
@@ -630,273 +114,19 @@ proxies:
     tls: null
     ws-path: /japanese01
     ws-headers: null
-  - name: 加拿大01|三网优化|1x:20631
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2
     type: vmess
     server: cs.daxun.club
     port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /canada01
+    ws-path: /lindoerb01
     ws-headers: null
-  - name: 澳大利亚01|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /AUS01
-    ws-headers: null
-  - name: 美国04|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /usa04
-    ws-headers: null
-  - name: 澳大利亚01|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /AUS01
-    ws-headers: null
-  - name: 港 E | 沪联通中继 | Prepaid Users:12100
-    type: vmess
-    server: cu2.worldmuseum.buzz
-    port: 12100
-    uuid: ff52c519-91fb-3ca3-9b55-f96e75201532
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /wtt
-    ws-headers:
-      Host: telegram.channel.p2psharing
-  - name: 澳大利亚02|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /AUS02
-    ws-headers: null
-  - name: 韩国|优选原生IP|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jgwhg01
-    ws-headers: null
-  - name: 加拿大01|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /canada01
-    ws-headers: null
-  - name: 美国02|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /cere02
-    ws-headers: null
-  - name: 英国 | 1 Tiktok:52319
-    type: vmess
-    server: gy.cm.01.211129.xyz
-    port: 52319
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /onefall.top
-    ws-headers: null
-  - name: 德国|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dg01
-    ws-headers: null
-  - name: 英国02|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /UK02
-    ws-headers: null
-  - name: 日本02|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: linodejp02
-    ws-headers: null
-  - name: 香港-日本 | 1:10002
-    type: vmess
-    server: swtnsvardi.eastasia.cloudapp.azure.com
-    port: 10002
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall
-    ws-headers: null
-  - name: 澳大利亚02|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /AUS02
-    ws-headers: null
-  - name: 韩国 | 2 广港隧道 STCP:43213
-    type: vmess
-    server: gy.cm.01.211129.xyz
-    port: 43213
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall.top
-    ws-headers: null
-  - name: 美国03|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /cere03
-    ws-headers: null
-  - name: 英国03|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /UK03
-    ws-headers: null
-  - name: 瑞典 A | 沪联通中继 | Prepaid Users:12100
-    type: vmess
-    server: cu2.worldmuseum.buzz
-    port: 12100
-    uuid: ff52c519-91fb-3ca3-9b55-f96e75201532
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /se
-    ws-headers:
-      Host: telegram.channel.p2psharing
-  - name: 英国03|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 59341040-0c8c-4cc9-bae6-f07bd6211d8b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /UK03
-    ws-headers: null
-  - name: 香港-韩国 | 1:32123
-    type: vmess
-    server: azhk520.greenyun.tk
-    port: 32123
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /onefall.top
-    ws-headers: null
-  - name: 美国02|三网优化|1x:20631_2
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /cere02
-    ws-headers: null
-  - name: 香港01 1x--@p2psharing:21232
+  - name: CN_油管 TG 8度科技:21232
     type: vmess
     server: 183.240.132.27
     port: 21232
@@ -908,23 +138,155 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 土耳其 | 1 无限流量！:443
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2
     type: vmess
-    server: rq1.nodrop.bike
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /AUS01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jgwhg01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jgwhg01
+    ws-headers: null
+  - name: US_油管 TG 8度科技:443
+    type: vmess
+    server: clown01.tk
     port: 443
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
+    uuid: 1785204a-a1b1-4224-d3ce-9a11c6b6fc4d
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /onefall.top
+    ws-path: /wefghyFgjydSdfF
     ws-headers: null
-  - name: 美国03|三网优化|1x:20631_2
+  - name: CN_油管 TG 8度科技:39053
+    type: vmess
+    server: jj01.nfeng6.pp.ua
+    port: 39053
+    uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
     type: vmess
     server: cs.daxun.club
     port: 20631
-    uuid: 895f8dc4-ba8a-47d7-ab75-67c872f48d7d
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /doxjp02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mlxy008
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /japanese02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:39051
+    type: vmess
+    server: jj01.nfeng6.pp.ua
+    port: 39051
+    uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:39009
+    type: vmess
+    server: jj02.nfeng6.pp.ua
+    port: 39009
+    uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: linodejp03
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:39050
+    type: vmess
+    server: jj01.nfeng6.pp.ua
+    port: 39050
+    uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
     alterId: "0"
     cipher: auto
     udp: true
@@ -932,30 +294,247 @@ proxies:
     tls: null
     ws-path: /cere03
     ws-headers: null
-  - name: 🇻🇳_VN_越南:443
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
     type: vmess
-    server: 0319hzm01.fans8.xyz
-    port: 443
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /nmsl
-    ws-headers:
-      Host: 0319hzm01.fans8.xyz
-  - name: 美国 | 4:47891
-    type: vmess
-    server: rnus.nodrop.bike
-    port: 47891
-    uuid: 835df9b6-f85c-47e2-bc0c-40c694a3db1e
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /onefall
+    tls: null
+    ws-path: /hkt008
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:21203
+    type: vmess
+    server: 183.240.132.27
+    port: 21203
+    uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /cere01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /AUS01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /japanese02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /japanese01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: linodejp02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:12100_2
+    type: vmess
+    server: cu2.worldmuseum.buzz
+    port: 12100
+    uuid: ff52c519-91fb-3ca3-9b55-f96e75201532
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /ch
+    ws-headers:
+      Host: telegram.channel.p2psharing
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /UK02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /cere01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:39038
+    type: vmess
+    server: jj02.nfeng6.pp.ua
+    port: 39038
+    uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /dg01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /cere02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /lindoerb01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:39065
+    type: vmess
+    server: jj01.nfeng6.pp.ua
+    port: 39065
+    uuid: 9e5610e8-1a66-3206-b598-9e630d3778b3
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /japanese03
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /japanese03
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /cere02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4e3c7666-165d-46b5-946f-78054523589a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /UK03
+    ws-headers: null
+  - name: CN_油管 TG
+      8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 4ab50824-f301-45dd-896a-f33d25fa366d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /dg01
     ws-headers: null
 proxy-groups:
   - name: 🔰 节点选择
@@ -963,843 +542,513 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 港 F | 沪联通中继 | Prepaid Users:12100
-      - 日本 | 3 杭日隧道 STCP GAME:52312
-      - lindoe日本|三网优化|1x:20631
-      - 香港az | 3:10030
-      - 香港-日本 | 5 GAME:10001
-      - 日本04|三网优化|1x:20631
-      - 日本05|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631
-      - 日本 | 2 Softbank GMAE:10010
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631_2
-      - 日本 | 6 GAME:443
-      - 印度 | 1 Azure:10004
-      - 日本03|三网优化|1x:20631
-      - 台湾|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631
-      - 香港04|负载均衡|原生IP|1x:20631
-      - 日本05|三网优化|1x:20631_2
-      - 俄罗斯|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631_2
-      - 新02 1x--@p2psharing:20785
-      - 日本06|三网优化|1x:20631
-      - 澳大利亚 | 1 Azure:10003
-      - 美国2 | 奈飞:10004
-      - 土耳其--@p2psharing:21206
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631_2
-      - 英国01|三网优化|1x:20631_2
-      - 日本03|三网优化|1x:20631_2
-      - 香港HKT | 2:13123
-      - 美国01|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 俄罗斯|三网优化|1x:20631_2
-      - 韩国 | 1:32123
-      - lindoe日本|三网优化|1x:20631_2
-      - 美国 | 1 奈飞:47891
-      - 日本01|三网优化|1x:20631_2
-      - 香港-新加坡 | 1:10000
-      - 台湾|三网优化|1x:20631_2
-      - 新加坡03|三网优化|1x:20631
-      - 印度 | 2 Azure:443
-      - 德国|三网优化|1x:20631
-      - 马来西亚|三网优化|优选原生IP|1x:20631
-      - 美国01|三网优化|1x:20631_2
-      - 台湾 | 2 Hinet:20062
-      - 香港-美国 | 5:10000
-      - 日本 | 7 Softbank GMAE:9929
-      - 英国02|三网优化|1x:20631
-      - 土耳其 | 2:10003
-      - 日本04|三网优化|1x:20631_2
-      - 加拿大01|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631_2
-      - 澳大利亚01|三网优化|1x:20631_2
-      - 港 E | 沪联通中继 | Prepaid Users:12100
-      - 澳大利亚02|三网优化|1x:20631
-      - 韩国|优选原生IP|1x:20631
-      - 加拿大01|三网优化|1x:20631_2
-      - 美国02|三网优化|1x:20631
-      - 英国 | 1 Tiktok:52319
-      - 德国|三网优化|1x:20631_2
-      - 英国02|三网优化|1x:20631_2
-      - 日本02|三网优化|1x:20631_2
-      - 香港-日本 | 1:10002
-      - 澳大利亚02|三网优化|1x:20631_2
-      - 韩国 | 2 广港隧道 STCP:43213
-      - 美国03|三网优化|1x:20631
-      - 英国03|三网优化|1x:20631
-      - 瑞典 A | 沪联通中继 | Prepaid Users:12100
-      - 英国03|三网优化|1x:20631_2
-      - 香港-韩国 | 1:32123
-      - 美国02|三网优化|1x:20631_2
-      - 香港01 1x--@p2psharing:21232
-      - 土耳其 | 1 无限流量！:443
-      - 美国03|三网优化|1x:20631_2
-      - 🇻🇳_VN_越南:443
-      - 美国 | 4:47891
+      - CN_油管 TG 8度科技:39012
+      - CN_油管 TG 8度科技:12100
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:39044
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:21101
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:21232
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:39053
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39051
+      - CN_油管 TG 8度科技:39009
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39050
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:21203
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:12100_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39038
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39065
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 港 F | 沪联通中继 | Prepaid Users:12100
-      - 日本 | 3 杭日隧道 STCP GAME:52312
-      - lindoe日本|三网优化|1x:20631
-      - 香港az | 3:10030
-      - 香港-日本 | 5 GAME:10001
-      - 日本04|三网优化|1x:20631
-      - 日本05|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631
-      - 日本 | 2 Softbank GMAE:10010
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631_2
-      - 日本 | 6 GAME:443
-      - 印度 | 1 Azure:10004
-      - 日本03|三网优化|1x:20631
-      - 台湾|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631
-      - 香港04|负载均衡|原生IP|1x:20631
-      - 日本05|三网优化|1x:20631_2
-      - 俄罗斯|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631_2
-      - 新02 1x--@p2psharing:20785
-      - 日本06|三网优化|1x:20631
-      - 澳大利亚 | 1 Azure:10003
-      - 美国2 | 奈飞:10004
-      - 土耳其--@p2psharing:21206
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631_2
-      - 英国01|三网优化|1x:20631_2
-      - 日本03|三网优化|1x:20631_2
-      - 香港HKT | 2:13123
-      - 美国01|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 俄罗斯|三网优化|1x:20631_2
-      - 韩国 | 1:32123
-      - lindoe日本|三网优化|1x:20631_2
-      - 美国 | 1 奈飞:47891
-      - 日本01|三网优化|1x:20631_2
-      - 香港-新加坡 | 1:10000
-      - 台湾|三网优化|1x:20631_2
-      - 新加坡03|三网优化|1x:20631
-      - 印度 | 2 Azure:443
-      - 德国|三网优化|1x:20631
-      - 马来西亚|三网优化|优选原生IP|1x:20631
-      - 美国01|三网优化|1x:20631_2
-      - 台湾 | 2 Hinet:20062
-      - 香港-美国 | 5:10000
-      - 日本 | 7 Softbank GMAE:9929
-      - 英国02|三网优化|1x:20631
-      - 土耳其 | 2:10003
-      - 日本04|三网优化|1x:20631_2
-      - 加拿大01|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631_2
-      - 澳大利亚01|三网优化|1x:20631_2
-      - 港 E | 沪联通中继 | Prepaid Users:12100
-      - 澳大利亚02|三网优化|1x:20631
-      - 韩国|优选原生IP|1x:20631
-      - 加拿大01|三网优化|1x:20631_2
-      - 美国02|三网优化|1x:20631
-      - 英国 | 1 Tiktok:52319
-      - 德国|三网优化|1x:20631_2
-      - 英国02|三网优化|1x:20631_2
-      - 日本02|三网优化|1x:20631_2
-      - 香港-日本 | 1:10002
-      - 澳大利亚02|三网优化|1x:20631_2
-      - 韩国 | 2 广港隧道 STCP:43213
-      - 美国03|三网优化|1x:20631
-      - 英国03|三网优化|1x:20631
-      - 瑞典 A | 沪联通中继 | Prepaid Users:12100
-      - 英国03|三网优化|1x:20631_2
-      - 香港-韩国 | 1:32123
-      - 美国02|三网优化|1x:20631_2
-      - 香港01 1x--@p2psharing:21232
-      - 土耳其 | 1 无限流量！:443
-      - 美国03|三网优化|1x:20631_2
-      - 🇻🇳_VN_越南:443
-      - 美国 | 4:47891
+      - CN_油管 TG 8度科技:39012
+      - CN_油管 TG 8度科技:12100
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:39044
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:21101
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:21232
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:39053
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39051
+      - CN_油管 TG 8度科技:39009
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39050
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:21203
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:12100_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39038
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39065
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 港 F | 沪联通中继 | Prepaid Users:12100
-      - 日本 | 3 杭日隧道 STCP GAME:52312
-      - lindoe日本|三网优化|1x:20631
-      - 香港az | 3:10030
-      - 香港-日本 | 5 GAME:10001
-      - 日本04|三网优化|1x:20631
-      - 日本05|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631
-      - 日本 | 2 Softbank GMAE:10010
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631_2
-      - 日本 | 6 GAME:443
-      - 印度 | 1 Azure:10004
-      - 日本03|三网优化|1x:20631
-      - 台湾|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631
-      - 香港04|负载均衡|原生IP|1x:20631
-      - 日本05|三网优化|1x:20631_2
-      - 俄罗斯|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631_2
-      - 新02 1x--@p2psharing:20785
-      - 日本06|三网优化|1x:20631
-      - 澳大利亚 | 1 Azure:10003
-      - 美国2 | 奈飞:10004
-      - 土耳其--@p2psharing:21206
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631_2
-      - 英国01|三网优化|1x:20631_2
-      - 日本03|三网优化|1x:20631_2
-      - 香港HKT | 2:13123
-      - 美国01|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 俄罗斯|三网优化|1x:20631_2
-      - 韩国 | 1:32123
-      - lindoe日本|三网优化|1x:20631_2
-      - 美国 | 1 奈飞:47891
-      - 日本01|三网优化|1x:20631_2
-      - 香港-新加坡 | 1:10000
-      - 台湾|三网优化|1x:20631_2
-      - 新加坡03|三网优化|1x:20631
-      - 印度 | 2 Azure:443
-      - 德国|三网优化|1x:20631
-      - 马来西亚|三网优化|优选原生IP|1x:20631
-      - 美国01|三网优化|1x:20631_2
-      - 台湾 | 2 Hinet:20062
-      - 香港-美国 | 5:10000
-      - 日本 | 7 Softbank GMAE:9929
-      - 英国02|三网优化|1x:20631
-      - 土耳其 | 2:10003
-      - 日本04|三网优化|1x:20631_2
-      - 加拿大01|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631_2
-      - 澳大利亚01|三网优化|1x:20631_2
-      - 港 E | 沪联通中继 | Prepaid Users:12100
-      - 澳大利亚02|三网优化|1x:20631
-      - 韩国|优选原生IP|1x:20631
-      - 加拿大01|三网优化|1x:20631_2
-      - 美国02|三网优化|1x:20631
-      - 英国 | 1 Tiktok:52319
-      - 德国|三网优化|1x:20631_2
-      - 英国02|三网优化|1x:20631_2
-      - 日本02|三网优化|1x:20631_2
-      - 香港-日本 | 1:10002
-      - 澳大利亚02|三网优化|1x:20631_2
-      - 韩国 | 2 广港隧道 STCP:43213
-      - 美国03|三网优化|1x:20631
-      - 英国03|三网优化|1x:20631
-      - 瑞典 A | 沪联通中继 | Prepaid Users:12100
-      - 英国03|三网优化|1x:20631_2
-      - 香港-韩国 | 1:32123
-      - 美国02|三网优化|1x:20631_2
-      - 香港01 1x--@p2psharing:21232
-      - 土耳其 | 1 无限流量！:443
-      - 美国03|三网优化|1x:20631_2
-      - 🇻🇳_VN_越南:443
-      - 美国 | 4:47891
+      - CN_油管 TG 8度科技:39012
+      - CN_油管 TG 8度科技:12100
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:39044
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:21101
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:21232
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:39053
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39051
+      - CN_油管 TG 8度科技:39009
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39050
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:21203
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:12100_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39038
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39065
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 港 F | 沪联通中继 | Prepaid Users:12100
-      - 日本 | 3 杭日隧道 STCP GAME:52312
-      - lindoe日本|三网优化|1x:20631
-      - 香港az | 3:10030
-      - 香港-日本 | 5 GAME:10001
-      - 日本04|三网优化|1x:20631
-      - 日本05|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631
-      - 日本 | 2 Softbank GMAE:10010
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631_2
-      - 日本 | 6 GAME:443
-      - 印度 | 1 Azure:10004
-      - 日本03|三网优化|1x:20631
-      - 台湾|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631
-      - 香港04|负载均衡|原生IP|1x:20631
-      - 日本05|三网优化|1x:20631_2
-      - 俄罗斯|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631_2
-      - 新02 1x--@p2psharing:20785
-      - 日本06|三网优化|1x:20631
-      - 澳大利亚 | 1 Azure:10003
-      - 美国2 | 奈飞:10004
-      - 土耳其--@p2psharing:21206
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631_2
-      - 英国01|三网优化|1x:20631_2
-      - 日本03|三网优化|1x:20631_2
-      - 香港HKT | 2:13123
-      - 美国01|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 俄罗斯|三网优化|1x:20631_2
-      - 韩国 | 1:32123
-      - lindoe日本|三网优化|1x:20631_2
-      - 美国 | 1 奈飞:47891
-      - 日本01|三网优化|1x:20631_2
-      - 香港-新加坡 | 1:10000
-      - 台湾|三网优化|1x:20631_2
-      - 新加坡03|三网优化|1x:20631
-      - 印度 | 2 Azure:443
-      - 德国|三网优化|1x:20631
-      - 马来西亚|三网优化|优选原生IP|1x:20631
-      - 美国01|三网优化|1x:20631_2
-      - 台湾 | 2 Hinet:20062
-      - 香港-美国 | 5:10000
-      - 日本 | 7 Softbank GMAE:9929
-      - 英国02|三网优化|1x:20631
-      - 土耳其 | 2:10003
-      - 日本04|三网优化|1x:20631_2
-      - 加拿大01|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631_2
-      - 澳大利亚01|三网优化|1x:20631_2
-      - 港 E | 沪联通中继 | Prepaid Users:12100
-      - 澳大利亚02|三网优化|1x:20631
-      - 韩国|优选原生IP|1x:20631
-      - 加拿大01|三网优化|1x:20631_2
-      - 美国02|三网优化|1x:20631
-      - 英国 | 1 Tiktok:52319
-      - 德国|三网优化|1x:20631_2
-      - 英国02|三网优化|1x:20631_2
-      - 日本02|三网优化|1x:20631_2
-      - 香港-日本 | 1:10002
-      - 澳大利亚02|三网优化|1x:20631_2
-      - 韩国 | 2 广港隧道 STCP:43213
-      - 美国03|三网优化|1x:20631
-      - 英国03|三网优化|1x:20631
-      - 瑞典 A | 沪联通中继 | Prepaid Users:12100
-      - 英国03|三网优化|1x:20631_2
-      - 香港-韩国 | 1:32123
-      - 美国02|三网优化|1x:20631_2
-      - 香港01 1x--@p2psharing:21232
-      - 土耳其 | 1 无限流量！:443
-      - 美国03|三网优化|1x:20631_2
-      - 🇻🇳_VN_越南:443
-      - 美国 | 4:47891
+      - CN_油管 TG 8度科技:39012
+      - CN_油管 TG 8度科技:12100
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:39044
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:21101
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:21232
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:39053
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39051
+      - CN_油管 TG 8度科技:39009
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39050
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:21203
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:12100_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39038
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39065
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 港 F | 沪联通中继 | Prepaid Users:12100
-      - 日本 | 3 杭日隧道 STCP GAME:52312
-      - lindoe日本|三网优化|1x:20631
-      - 香港az | 3:10030
-      - 香港-日本 | 5 GAME:10001
-      - 日本04|三网优化|1x:20631
-      - 日本05|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631
-      - 日本 | 2 Softbank GMAE:10010
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631_2
-      - 日本 | 6 GAME:443
-      - 印度 | 1 Azure:10004
-      - 日本03|三网优化|1x:20631
-      - 台湾|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631
-      - 香港04|负载均衡|原生IP|1x:20631
-      - 日本05|三网优化|1x:20631_2
-      - 俄罗斯|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631_2
-      - 新02 1x--@p2psharing:20785
-      - 日本06|三网优化|1x:20631
-      - 澳大利亚 | 1 Azure:10003
-      - 美国2 | 奈飞:10004
-      - 土耳其--@p2psharing:21206
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631_2
-      - 英国01|三网优化|1x:20631_2
-      - 日本03|三网优化|1x:20631_2
-      - 香港HKT | 2:13123
-      - 美国01|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 俄罗斯|三网优化|1x:20631_2
-      - 韩国 | 1:32123
-      - lindoe日本|三网优化|1x:20631_2
-      - 美国 | 1 奈飞:47891
-      - 日本01|三网优化|1x:20631_2
-      - 香港-新加坡 | 1:10000
-      - 台湾|三网优化|1x:20631_2
-      - 新加坡03|三网优化|1x:20631
-      - 印度 | 2 Azure:443
-      - 德国|三网优化|1x:20631
-      - 马来西亚|三网优化|优选原生IP|1x:20631
-      - 美国01|三网优化|1x:20631_2
-      - 台湾 | 2 Hinet:20062
-      - 香港-美国 | 5:10000
-      - 日本 | 7 Softbank GMAE:9929
-      - 英国02|三网优化|1x:20631
-      - 土耳其 | 2:10003
-      - 日本04|三网优化|1x:20631_2
-      - 加拿大01|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631_2
-      - 澳大利亚01|三网优化|1x:20631_2
-      - 港 E | 沪联通中继 | Prepaid Users:12100
-      - 澳大利亚02|三网优化|1x:20631
-      - 韩国|优选原生IP|1x:20631
-      - 加拿大01|三网优化|1x:20631_2
-      - 美国02|三网优化|1x:20631
-      - 英国 | 1 Tiktok:52319
-      - 德国|三网优化|1x:20631_2
-      - 英国02|三网优化|1x:20631_2
-      - 日本02|三网优化|1x:20631_2
-      - 香港-日本 | 1:10002
-      - 澳大利亚02|三网优化|1x:20631_2
-      - 韩国 | 2 广港隧道 STCP:43213
-      - 美国03|三网优化|1x:20631
-      - 英国03|三网优化|1x:20631
-      - 瑞典 A | 沪联通中继 | Prepaid Users:12100
-      - 英国03|三网优化|1x:20631_2
-      - 香港-韩国 | 1:32123
-      - 美国02|三网优化|1x:20631_2
-      - 香港01 1x--@p2psharing:21232
-      - 土耳其 | 1 无限流量！:443
-      - 美国03|三网优化|1x:20631_2
-      - 🇻🇳_VN_越南:443
-      - 美国 | 4:47891
+      - CN_油管 TG 8度科技:39012
+      - CN_油管 TG 8度科技:12100
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:39044
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:21101
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:21232
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:39053
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39051
+      - CN_油管 TG 8度科技:39009
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39050
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:21203
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:12100_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39038
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39065
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 港 F | 沪联通中继 | Prepaid Users:12100
-      - 日本 | 3 杭日隧道 STCP GAME:52312
-      - lindoe日本|三网优化|1x:20631
-      - 香港az | 3:10030
-      - 香港-日本 | 5 GAME:10001
-      - 日本04|三网优化|1x:20631
-      - 日本05|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631
-      - 日本 | 2 Softbank GMAE:10010
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631_2
-      - 日本 | 6 GAME:443
-      - 印度 | 1 Azure:10004
-      - 日本03|三网优化|1x:20631
-      - 台湾|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631
-      - 香港04|负载均衡|原生IP|1x:20631
-      - 日本05|三网优化|1x:20631_2
-      - 俄罗斯|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631_2
-      - 新02 1x--@p2psharing:20785
-      - 日本06|三网优化|1x:20631
-      - 澳大利亚 | 1 Azure:10003
-      - 美国2 | 奈飞:10004
-      - 土耳其--@p2psharing:21206
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631_2
-      - 英国01|三网优化|1x:20631_2
-      - 日本03|三网优化|1x:20631_2
-      - 香港HKT | 2:13123
-      - 美国01|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 俄罗斯|三网优化|1x:20631_2
-      - 韩国 | 1:32123
-      - lindoe日本|三网优化|1x:20631_2
-      - 美国 | 1 奈飞:47891
-      - 日本01|三网优化|1x:20631_2
-      - 香港-新加坡 | 1:10000
-      - 台湾|三网优化|1x:20631_2
-      - 新加坡03|三网优化|1x:20631
-      - 印度 | 2 Azure:443
-      - 德国|三网优化|1x:20631
-      - 马来西亚|三网优化|优选原生IP|1x:20631
-      - 美国01|三网优化|1x:20631_2
-      - 台湾 | 2 Hinet:20062
-      - 香港-美国 | 5:10000
-      - 日本 | 7 Softbank GMAE:9929
-      - 英国02|三网优化|1x:20631
-      - 土耳其 | 2:10003
-      - 日本04|三网优化|1x:20631_2
-      - 加拿大01|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631_2
-      - 澳大利亚01|三网优化|1x:20631_2
-      - 港 E | 沪联通中继 | Prepaid Users:12100
-      - 澳大利亚02|三网优化|1x:20631
-      - 韩国|优选原生IP|1x:20631
-      - 加拿大01|三网优化|1x:20631_2
-      - 美国02|三网优化|1x:20631
-      - 英国 | 1 Tiktok:52319
-      - 德国|三网优化|1x:20631_2
-      - 英国02|三网优化|1x:20631_2
-      - 日本02|三网优化|1x:20631_2
-      - 香港-日本 | 1:10002
-      - 澳大利亚02|三网优化|1x:20631_2
-      - 韩国 | 2 广港隧道 STCP:43213
-      - 美国03|三网优化|1x:20631
-      - 英国03|三网优化|1x:20631
-      - 瑞典 A | 沪联通中继 | Prepaid Users:12100
-      - 英国03|三网优化|1x:20631_2
-      - 香港-韩国 | 1:32123
-      - 美国02|三网优化|1x:20631_2
-      - 香港01 1x--@p2psharing:21232
-      - 土耳其 | 1 无限流量！:443
-      - 美国03|三网优化|1x:20631_2
-      - 🇻🇳_VN_越南:443
-      - 美国 | 4:47891
+      - CN_油管 TG 8度科技:39012
+      - CN_油管 TG 8度科技:12100
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:39044
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:21101
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:21232
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:39053
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39051
+      - CN_油管 TG 8度科技:39009
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39050
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:21203
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:12100_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39038
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39065
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 港 F | 沪联通中继 | Prepaid Users:12100
-      - 日本 | 3 杭日隧道 STCP GAME:52312
-      - lindoe日本|三网优化|1x:20631
-      - 香港az | 3:10030
-      - 香港-日本 | 5 GAME:10001
-      - 日本04|三网优化|1x:20631
-      - 日本05|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631
-      - 日本 | 2 Softbank GMAE:10010
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631_2
-      - 日本 | 6 GAME:443
-      - 印度 | 1 Azure:10004
-      - 日本03|三网优化|1x:20631
-      - 台湾|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631
-      - 香港04|负载均衡|原生IP|1x:20631
-      - 日本05|三网优化|1x:20631_2
-      - 俄罗斯|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631_2
-      - 新02 1x--@p2psharing:20785
-      - 日本06|三网优化|1x:20631
-      - 澳大利亚 | 1 Azure:10003
-      - 美国2 | 奈飞:10004
-      - 土耳其--@p2psharing:21206
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631_2
-      - 英国01|三网优化|1x:20631_2
-      - 日本03|三网优化|1x:20631_2
-      - 香港HKT | 2:13123
-      - 美国01|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 俄罗斯|三网优化|1x:20631_2
-      - 韩国 | 1:32123
-      - lindoe日本|三网优化|1x:20631_2
-      - 美国 | 1 奈飞:47891
-      - 日本01|三网优化|1x:20631_2
-      - 香港-新加坡 | 1:10000
-      - 台湾|三网优化|1x:20631_2
-      - 新加坡03|三网优化|1x:20631
-      - 印度 | 2 Azure:443
-      - 德国|三网优化|1x:20631
-      - 马来西亚|三网优化|优选原生IP|1x:20631
-      - 美国01|三网优化|1x:20631_2
-      - 台湾 | 2 Hinet:20062
-      - 香港-美国 | 5:10000
-      - 日本 | 7 Softbank GMAE:9929
-      - 英国02|三网优化|1x:20631
-      - 土耳其 | 2:10003
-      - 日本04|三网优化|1x:20631_2
-      - 加拿大01|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631_2
-      - 澳大利亚01|三网优化|1x:20631_2
-      - 港 E | 沪联通中继 | Prepaid Users:12100
-      - 澳大利亚02|三网优化|1x:20631
-      - 韩国|优选原生IP|1x:20631
-      - 加拿大01|三网优化|1x:20631_2
-      - 美国02|三网优化|1x:20631
-      - 英国 | 1 Tiktok:52319
-      - 德国|三网优化|1x:20631_2
-      - 英国02|三网优化|1x:20631_2
-      - 日本02|三网优化|1x:20631_2
-      - 香港-日本 | 1:10002
-      - 澳大利亚02|三网优化|1x:20631_2
-      - 韩国 | 2 广港隧道 STCP:43213
-      - 美国03|三网优化|1x:20631
-      - 英国03|三网优化|1x:20631
-      - 瑞典 A | 沪联通中继 | Prepaid Users:12100
-      - 英国03|三网优化|1x:20631_2
-      - 香港-韩国 | 1:32123
-      - 美国02|三网优化|1x:20631_2
-      - 香港01 1x--@p2psharing:21232
-      - 土耳其 | 1 无限流量！:443
-      - 美国03|三网优化|1x:20631_2
-      - 🇻🇳_VN_越南:443
-      - 美国 | 4:47891
+      - CN_油管 TG 8度科技:39012
+      - CN_油管 TG 8度科技:12100
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:39044
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:21101
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:21232
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:39053
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39051
+      - CN_油管 TG 8度科技:39009
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39050
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:21203
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:12100_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39038
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39065
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 港 F | 沪联通中继 | Prepaid Users:12100
-      - 日本 | 3 杭日隧道 STCP GAME:52312
-      - lindoe日本|三网优化|1x:20631
-      - 香港az | 3:10030
-      - 香港-日本 | 5 GAME:10001
-      - 日本04|三网优化|1x:20631
-      - 日本05|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631
-      - 日本 | 2 Softbank GMAE:10010
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631_2
-      - 日本 | 6 GAME:443
-      - 印度 | 1 Azure:10004
-      - 日本03|三网优化|1x:20631
-      - 台湾|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631
-      - 香港04|负载均衡|原生IP|1x:20631
-      - 日本05|三网优化|1x:20631_2
-      - 俄罗斯|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631_2
-      - 新02 1x--@p2psharing:20785
-      - 日本06|三网优化|1x:20631
-      - 澳大利亚 | 1 Azure:10003
-      - 美国2 | 奈飞:10004
-      - 土耳其--@p2psharing:21206
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631_2
-      - 英国01|三网优化|1x:20631_2
-      - 日本03|三网优化|1x:20631_2
-      - 香港HKT | 2:13123
-      - 美国01|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 俄罗斯|三网优化|1x:20631_2
-      - 韩国 | 1:32123
-      - lindoe日本|三网优化|1x:20631_2
-      - 美国 | 1 奈飞:47891
-      - 日本01|三网优化|1x:20631_2
-      - 香港-新加坡 | 1:10000
-      - 台湾|三网优化|1x:20631_2
-      - 新加坡03|三网优化|1x:20631
-      - 印度 | 2 Azure:443
-      - 德国|三网优化|1x:20631
-      - 马来西亚|三网优化|优选原生IP|1x:20631
-      - 美国01|三网优化|1x:20631_2
-      - 台湾 | 2 Hinet:20062
-      - 香港-美国 | 5:10000
-      - 日本 | 7 Softbank GMAE:9929
-      - 英国02|三网优化|1x:20631
-      - 土耳其 | 2:10003
-      - 日本04|三网优化|1x:20631_2
-      - 加拿大01|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631_2
-      - 澳大利亚01|三网优化|1x:20631_2
-      - 港 E | 沪联通中继 | Prepaid Users:12100
-      - 澳大利亚02|三网优化|1x:20631
-      - 韩国|优选原生IP|1x:20631
-      - 加拿大01|三网优化|1x:20631_2
-      - 美国02|三网优化|1x:20631
-      - 英国 | 1 Tiktok:52319
-      - 德国|三网优化|1x:20631_2
-      - 英国02|三网优化|1x:20631_2
-      - 日本02|三网优化|1x:20631_2
-      - 香港-日本 | 1:10002
-      - 澳大利亚02|三网优化|1x:20631_2
-      - 韩国 | 2 广港隧道 STCP:43213
-      - 美国03|三网优化|1x:20631
-      - 英国03|三网优化|1x:20631
-      - 瑞典 A | 沪联通中继 | Prepaid Users:12100
-      - 英国03|三网优化|1x:20631_2
-      - 香港-韩国 | 1:32123
-      - 美国02|三网优化|1x:20631_2
-      - 香港01 1x--@p2psharing:21232
-      - 土耳其 | 1 无限流量！:443
-      - 美国03|三网优化|1x:20631_2
-      - 🇻🇳_VN_越南:443
-      - 美国 | 4:47891
+      - CN_油管 TG 8度科技:39012
+      - CN_油管 TG 8度科技:12100
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:39044
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:21101
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:21232
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:39053
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39051
+      - CN_油管 TG 8度科技:39009
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39050
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:21203
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:12100_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39038
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39065
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 港 F | 沪联通中继 | Prepaid Users:12100
-      - 日本 | 3 杭日隧道 STCP GAME:52312
-      - lindoe日本|三网优化|1x:20631
-      - 香港az | 3:10030
-      - 香港-日本 | 5 GAME:10001
-      - 日本04|三网优化|1x:20631
-      - 日本05|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631
-      - 日本 | 2 Softbank GMAE:10010
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631_2
-      - 日本 | 6 GAME:443
-      - 印度 | 1 Azure:10004
-      - 日本03|三网优化|1x:20631
-      - 台湾|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631
-      - 香港04|负载均衡|原生IP|1x:20631
-      - 日本05|三网优化|1x:20631_2
-      - 俄罗斯|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631_2
-      - 新02 1x--@p2psharing:20785
-      - 日本06|三网优化|1x:20631
-      - 澳大利亚 | 1 Azure:10003
-      - 美国2 | 奈飞:10004
-      - 土耳其--@p2psharing:21206
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631_2
-      - 英国01|三网优化|1x:20631_2
-      - 日本03|三网优化|1x:20631_2
-      - 香港HKT | 2:13123
-      - 美国01|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 俄罗斯|三网优化|1x:20631_2
-      - 韩国 | 1:32123
-      - lindoe日本|三网优化|1x:20631_2
-      - 美国 | 1 奈飞:47891
-      - 日本01|三网优化|1x:20631_2
-      - 香港-新加坡 | 1:10000
-      - 台湾|三网优化|1x:20631_2
-      - 新加坡03|三网优化|1x:20631
-      - 印度 | 2 Azure:443
-      - 德国|三网优化|1x:20631
-      - 马来西亚|三网优化|优选原生IP|1x:20631
-      - 美国01|三网优化|1x:20631_2
-      - 台湾 | 2 Hinet:20062
-      - 香港-美国 | 5:10000
-      - 日本 | 7 Softbank GMAE:9929
-      - 英国02|三网优化|1x:20631
-      - 土耳其 | 2:10003
-      - 日本04|三网优化|1x:20631_2
-      - 加拿大01|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631_2
-      - 澳大利亚01|三网优化|1x:20631_2
-      - 港 E | 沪联通中继 | Prepaid Users:12100
-      - 澳大利亚02|三网优化|1x:20631
-      - 韩国|优选原生IP|1x:20631
-      - 加拿大01|三网优化|1x:20631_2
-      - 美国02|三网优化|1x:20631
-      - 英国 | 1 Tiktok:52319
-      - 德国|三网优化|1x:20631_2
-      - 英国02|三网优化|1x:20631_2
-      - 日本02|三网优化|1x:20631_2
-      - 香港-日本 | 1:10002
-      - 澳大利亚02|三网优化|1x:20631_2
-      - 韩国 | 2 广港隧道 STCP:43213
-      - 美国03|三网优化|1x:20631
-      - 英国03|三网优化|1x:20631
-      - 瑞典 A | 沪联通中继 | Prepaid Users:12100
-      - 英国03|三网优化|1x:20631_2
-      - 香港-韩国 | 1:32123
-      - 美国02|三网优化|1x:20631_2
-      - 香港01 1x--@p2psharing:21232
-      - 土耳其 | 1 无限流量！:443
-      - 美国03|三网优化|1x:20631_2
-      - 🇻🇳_VN_越南:443
-      - 美国 | 4:47891
+      - CN_油管 TG 8度科技:39012
+      - CN_油管 TG 8度科技:12100
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:39044
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:21101
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:21232
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:39053
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39051
+      - CN_油管 TG 8度科技:39009
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39050
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:21203
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:12100_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39038
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39065
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 港 F | 沪联通中继 | Prepaid Users:12100
-      - 日本 | 3 杭日隧道 STCP GAME:52312
-      - lindoe日本|三网优化|1x:20631
-      - 香港az | 3:10030
-      - 香港-日本 | 5 GAME:10001
-      - 日本04|三网优化|1x:20631
-      - 日本05|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631
-      - 日本 | 2 Softbank GMAE:10010
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631
-      - 台湾04|三网优化|原生IP|1x:20631_2
-      - 日本 | 6 GAME:443
-      - 印度 | 1 Azure:10004
-      - 日本03|三网优化|1x:20631
-      - 台湾|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631
-      - 香港04|负载均衡|原生IP|1x:20631
-      - 日本05|三网优化|1x:20631_2
-      - 俄罗斯|三网优化|1x:20631
-      - 东京|优选原生IP|1x:20631_2
-      - 新02 1x--@p2psharing:20785
-      - 日本06|三网优化|1x:20631
-      - 澳大利亚 | 1 Azure:10003
-      - 美国2 | 奈飞:10004
-      - 土耳其--@p2psharing:21206
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631
-      - 新加坡02|三网优化|1x:20631_2
-      - 英国01|三网优化|1x:20631_2
-      - 日本03|三网优化|1x:20631_2
-      - 香港HKT | 2:13123
-      - 美国01|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 俄罗斯|三网优化|1x:20631_2
-      - 韩国 | 1:32123
-      - lindoe日本|三网优化|1x:20631_2
-      - 美国 | 1 奈飞:47891
-      - 日本01|三网优化|1x:20631_2
-      - 香港-新加坡 | 1:10000
-      - 台湾|三网优化|1x:20631_2
-      - 新加坡03|三网优化|1x:20631
-      - 印度 | 2 Azure:443
-      - 德国|三网优化|1x:20631
-      - 马来西亚|三网优化|优选原生IP|1x:20631
-      - 美国01|三网优化|1x:20631_2
-      - 台湾 | 2 Hinet:20062
-      - 香港-美国 | 5:10000
-      - 日本 | 7 Softbank GMAE:9929
-      - 英国02|三网优化|1x:20631
-      - 土耳其 | 2:10003
-      - 日本04|三网优化|1x:20631_2
-      - 加拿大01|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - 美国04|三网优化|1x:20631_2
-      - 澳大利亚01|三网优化|1x:20631_2
-      - 港 E | 沪联通中继 | Prepaid Users:12100
-      - 澳大利亚02|三网优化|1x:20631
-      - 韩国|优选原生IP|1x:20631
-      - 加拿大01|三网优化|1x:20631_2
-      - 美国02|三网优化|1x:20631
-      - 英国 | 1 Tiktok:52319
-      - 德国|三网优化|1x:20631_2
-      - 英国02|三网优化|1x:20631_2
-      - 日本02|三网优化|1x:20631_2
-      - 香港-日本 | 1:10002
-      - 澳大利亚02|三网优化|1x:20631_2
-      - 韩国 | 2 广港隧道 STCP:43213
-      - 美国03|三网优化|1x:20631
-      - 英国03|三网优化|1x:20631
-      - 瑞典 A | 沪联通中继 | Prepaid Users:12100
-      - 英国03|三网优化|1x:20631_2
-      - 香港-韩国 | 1:32123
-      - 美国02|三网优化|1x:20631_2
-      - 香港01 1x--@p2psharing:21232
-      - 土耳其 | 1 无限流量！:443
-      - 美国03|三网优化|1x:20631_2
-      - 🇻🇳_VN_越南:443
-      - 美国 | 4:47891
+      - CN_油管 TG 8度科技:39012
+      - CN_油管 TG 8度科技:12100
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:39044
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:21101
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:21232
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:443
+      - CN_油管 TG 8度科技:39053
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39051
+      - CN_油管 TG 8度科技:39009
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39050
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:21203
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:12100_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39038
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:39065
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
