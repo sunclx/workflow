@@ -5,771 +5,781 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 台湾01|三网优化|解锁流媒体|1x:20631
+  - name: CN_油管 TG 8度科技:45250
     type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
+    server: hz.bgp.rx.naiun.pw
+    port: 45250
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /schinet01
+    ws-path: ""
     ws-headers: null
-  - name: 日本05|三网优化|1x:20631
+  - name: CN_油管 TG 8度科技:45239
     type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
+    server: hz.bgp.rx.naiun.pw
+    port: 45239
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /japanese02
+    ws-path: ""
     ws-headers: null
-  - name: CN_油管 TG 8度科技:40012
+  - name: HK_油管 TG 8度科技:80
     type: vmess
-    server: fc.jm.wokuaitule.xyz
-    port: 40012
+    server: hk03.startmy.cc
+    port: 80
+    uuid: 965f900d-242a-3c76-b323-5c987f19250f
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: a.189.cn
+  - name: CN_油管 TG 8度科技:45149
+    type: vmess
+    server: hz.bgp.rx.naiun.pw
+    port: 45149
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:45239_2
+    type: vmess
+    server: gz.bgp.rx.naiun.pw
+    port: 45239
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:45250_2
+    type: vmess
+    server: gz.bgp.rx.naiun.pw
+    port: 45250
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:45149_2
+    type: vmess
+    server: gz.bgp.rx.naiun.pw
+    port: 45149
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:45184
+    type: vmess
+    server: gz.bgp.rx.naiun.pw
+    port: 45184
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: SK_油管 TG 8度科技:8886
+    type: vmess
+    server: jp16.vpnjc.cc
+    port: 8886
+    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk
+    ws-headers:
+      Host: apple.com
+  - name: CN_油管 TG 8度科技:45184_2
+    type: vmess
+    server: hz.bgp.rx.naiun.pw
+    port: 45184
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:21201
+    type: vmess
+    server: 116.162.14.228
+    port: 21201
+    uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers: null
+  - name: US_油管 TG 8度科技:10052
+    type: vmess
+    server: 20.222.27.151
+    port: 10052
+    uuid: 8c8cbd81-ad25-3e16-a6dc-e78fc4381ca1
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_油管 TG 8度科技:21233
+    type: vmess
+    server: 116.162.14.228
+    port: 21233
+    uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers: null
+  - name: HK_油管 TG 8度科技:21168
+    type: vmess
+    server: f2s.wokuaitule.xyz
+    port: 21168
     uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: f2s.wokuaitule.xyz
+  - name: CN_油管 TG 8度科技:45394
+    type: vmess
+    server: hz.bgp.rx.naiun.pw
+    port: 45394
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: US_油管 TG 8度科技:10058
+    type: vmess
+    server: 20.222.27.151
+    port: 10058
+    uuid: 8c8cbd81-ad25-3e16-a6dc-e78fc4381ca1
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: HK_油管 TG 8度科技:8485
+    type: vmess
+    server: hk06.vpnjc.cc
+    port: 8485
+    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk
+    ws-headers:
+      Host: apple.com
+  - name: SG_油管 TG 8度科技:63530
+    type: vmess
+    server: raoy1.rnmtq.gq
+    port: 63530
+    uuid: 461bb2aa-af57-4d89-8450-3aad54a8c337
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers:
+      Host: vod3.nty.tv189.cn
+  - name: HK_油管 TG 8度科技:8486
+    type: vmess
+    server: hk07.vpnjc.cc
+    port: 8486
+    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk
+    ws-headers:
+      Host: apple.com
+  - name: HK_油管 TG 8度科技:8485_2
+    type: vmess
+    server: hk01.vpnjc.cc
+    port: 8485
+    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk
+    ws-headers:
+      Host: apple.com
+  - name: HK_油管 TG 8度科技:8486_2
+    type: vmess
+    server: hk05.vpnjc.cc
+    port: 8486
+    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk
+    ws-headers:
+      Host: apple.com
+  - name: US_油管 TG 8度科技:42383
+    type: vmess
+    server: 192.18.143.53
+    port: 42383
+    uuid: 30a09c32-35d8-444e-a2f1-274395523945
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: 192.18.143.53
+  - name: US_油管 TG 8度科技:10063
+    type: vmess
+    server: 20.222.27.151
+    port: 10063
+    uuid: 8c8cbd81-ad25-3e16-a6dc-e78fc4381ca1
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: HK_油管 TG 8度科技:8486_2_2
+    type: vmess
+    server: hk04.vpnjc.cc
+    port: 8486
+    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk
+    ws-headers:
+      Host: apple.com
+  - name: CN_油管 TG 8度科技:45394_2
+    type: vmess
+    server: gz.bgp.rx.naiun.pw
+    port: 45394
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:61765
+    type: vmess
+    server: 116.162.14.228
+    port: 61765
+    uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers: null
+  - name: US_油管 TG 8度科技:17247
+    type: vmess
+    server: san.515223.xyz
+    port: 17247
+    uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: san.515223.xyz
+  - name: US_油管 TG 8度科技:63609
+    type: vmess
+    server: 138.2.41.25
+    port: 63609
+    uuid: 3d2ba777-ca20-4ab7-a99a-4fd9c3e637dc
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: 138.2.41.25
+  - name: HK_油管 TG 8度科技:25082
+    type: vmess
+    server: node.relay.az.naiun.pw
+    port: 25082
+    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /index
+    ws-path: /
     ws-headers:
-      Host: telegram.channel.p2psharing
-  - name: vip1丨港 6--TG@p2psharing:40015
+      Host: node.free.usa.naiun.pw
+  - name: US_油管 TG 8度科技:11794
     type: vmess
-    server: fc.st.wokuaitule.xyz
-    port: 40015
-    uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
+    server: 20.124.107.207
+    port: 11794
+    uuid: 8c30e7e4-2fdc-4a95-c58b-43e6ac7f0f48
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers: null
+  - name: GB_油管 TG 8度科技:8485
+    type: vmess
+    server: uk04.vpnjc.cc
+    port: 8485
+    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk
+    ws-headers:
+      Host: apple.com
+  - name: US_油管 TG 8度科技:443
+    type: vmess
+    server: niaop.tk
+    port: 443
+    uuid: a0b0df87-bda2-440e-830f-347da6cc7760
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /index
+    ws-path: /wsssdr1
     ws-headers:
-      Host: telegram.channel.p2psharing
-  - name: 澳大利亚02|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /AUS02
-    ws-headers: null
-  - name: 日本04|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /japanese01
-    ws-headers: null
-  - name: 台湾02|三网优化|解锁流媒体|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /schinet02
-    ws-headers: null
-  - name: 美国02|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /cere02
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:40019
-    type: vmess
-    server: fc.jm.wokuaitule.xyz
-    port: 40019
-    uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: telegram.channel.p2psharing
-  - name: 印度|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /yd01
-    ws-headers: null
-  - name: 美国03|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /cere03
-    ws-headers: null
-  - name: 澳大利亚01|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /AUS01
-    ws-headers: null
-  - name: vip2丨港HKBN 2--TG@p2psharing:11031
-    type: vmess
-    server: fc.bjbgp.wokuaitule.xyz
-    port: 11031
-    uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /index
-    ws-headers:
-      Host: telegram.channel.p2psharing
-  - name: 德国|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dg01
-    ws-headers: null
-  - name: vip2丨港HKBN--TG@p2psharing:11032
-    type: vmess
-    server: fc.bjbgp.wokuaitule.xyz
-    port: 11032
-    uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /index
-    ws-headers:
-      Host: telegram.channel.p2psharing
-  - name: 英国01|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /UK01
-    ws-headers: null
-  - name: 美国04|三网优化|解锁流媒体|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /usa04
-    ws-headers: null
-  - name: vip3 港家宽 2--TG@p2psharing:19975
-    type: vmess
-    server: fc.shbgp.wokuaitule.xyz
-    port: 19975
-    uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /index
-    ws-headers:
-      Host: telegram.channel.p2psharing
-  - name: 俄罗斯|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /els01
-    ws-headers: null
-  - name: 日本02|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: linodejp02
-    ws-headers: null
-  - name: 新加坡03|三网优化|解锁流媒体1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /doxjp03
-    ws-headers: null
-  - name: 美国01|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /cere01
-    ws-headers: null
-  - name: lindoe日本|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /lindoerb01
-    ws-headers: null
-  - name: 日本03|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: linodejp03
-    ws-headers: null
-  - name: 英国02|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /UK02
-    ws-headers: null
-  - name: 韩国|解锁流媒体|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jgwhg01
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:10030
-    type: vmess
-    server: fc.gzbgp.wokuaitule.xyz
-    port: 10030
-    uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /index
-    ws-headers:
-      Host: telegram.channel.p2psharing
-  - name: CN_油管 TG 8度科技:40017
-    type: vmess
-    server: fc.jm.wokuaitule.xyz
-    port: 40017
-    uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: telegram.channel.p2psharing
-  - name: 英国03|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /UK03
-    ws-headers: null
-  - name: 日本01|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /linodejp01
-    ws-headers: null
-  - name: 台湾04|三网优化|解锁流媒体|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hinet04
-    ws-headers: null
-  - name: 加拿大01|三网优化|1x:20631
-    type: vmess
-    server: cs.daxun.club
-    port: 20631
-    uuid: cf051f16-0c0c-45a3-9309-60bb3d34e0db
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /canada01
-    ws-headers: null
+      Host: niaop.tk
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾01|三网优化|解锁流媒体|1x:20631
-      - 日本05|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40012
-      - vip1丨港 6--TG@p2psharing:40015
-      - 澳大利亚02|三网优化|1x:20631
-      - 日本04|三网优化|1x:20631
-      - 台湾02|三网优化|解锁流媒体|1x:20631
-      - 美国02|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40019
-      - 印度|三网优化|1x:20631
-      - 美国03|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - vip2丨港HKBN 2--TG@p2psharing:11031
-      - 德国|三网优化|1x:20631
-      - vip2丨港HKBN--TG@p2psharing:11032
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|解锁流媒体|1x:20631
-      - vip3 港家宽 2--TG@p2psharing:19975
-      - 俄罗斯|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 新加坡03|三网优化|解锁流媒体1x:20631
-      - 美国01|三网优化|1x:20631
-      - lindoe日本|三网优化|1x:20631
-      - 日本03|三网优化|1x:20631
-      - 英国02|三网优化|1x:20631
-      - 韩国|解锁流媒体|1x:20631
-      - CN_油管 TG 8度科技:10030
-      - CN_油管 TG 8度科技:40017
-      - 英国03|三网优化|1x:20631
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|解锁流媒体|1x:20631
-      - 加拿大01|三网优化|1x:20631
+      - CN_油管 TG 8度科技:45250
+      - CN_油管 TG 8度科技:45239
+      - HK_油管 TG 8度科技:80
+      - CN_油管 TG 8度科技:45149
+      - CN_油管 TG 8度科技:45239_2
+      - CN_油管 TG 8度科技:45250_2
+      - CN_油管 TG 8度科技:45149_2
+      - CN_油管 TG 8度科技:45184
+      - SK_油管 TG 8度科技:8886
+      - CN_油管 TG 8度科技:45184_2
+      - CN_油管 TG 8度科技:21201
+      - US_油管 TG 8度科技:10052
+      - CN_油管 TG 8度科技:21233
+      - HK_油管 TG 8度科技:21168
+      - CN_油管 TG 8度科技:45394
+      - US_油管 TG 8度科技:10058
+      - HK_油管 TG 8度科技:8485
+      - SG_油管 TG 8度科技:63530
+      - HK_油管 TG 8度科技:8486
+      - HK_油管 TG 8度科技:8485_2
+      - HK_油管 TG 8度科技:8486_2
+      - US_油管 TG 8度科技:42383
+      - US_油管 TG 8度科技:10063
+      - HK_油管 TG 8度科技:8486_2_2
+      - CN_油管 TG 8度科技:45394_2
+      - CN_油管 TG 8度科技:61765
+      - US_油管 TG 8度科技:17247
+      - US_油管 TG 8度科技:63609
+      - HK_油管 TG 8度科技:25082
+      - US_油管 TG 8度科技:11794
+      - GB_油管 TG 8度科技:8485
+      - US_油管 TG 8度科技:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 台湾01|三网优化|解锁流媒体|1x:20631
-      - 日本05|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40012
-      - vip1丨港 6--TG@p2psharing:40015
-      - 澳大利亚02|三网优化|1x:20631
-      - 日本04|三网优化|1x:20631
-      - 台湾02|三网优化|解锁流媒体|1x:20631
-      - 美国02|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40019
-      - 印度|三网优化|1x:20631
-      - 美国03|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - vip2丨港HKBN 2--TG@p2psharing:11031
-      - 德国|三网优化|1x:20631
-      - vip2丨港HKBN--TG@p2psharing:11032
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|解锁流媒体|1x:20631
-      - vip3 港家宽 2--TG@p2psharing:19975
-      - 俄罗斯|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 新加坡03|三网优化|解锁流媒体1x:20631
-      - 美国01|三网优化|1x:20631
-      - lindoe日本|三网优化|1x:20631
-      - 日本03|三网优化|1x:20631
-      - 英国02|三网优化|1x:20631
-      - 韩国|解锁流媒体|1x:20631
-      - CN_油管 TG 8度科技:10030
-      - CN_油管 TG 8度科技:40017
-      - 英国03|三网优化|1x:20631
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|解锁流媒体|1x:20631
-      - 加拿大01|三网优化|1x:20631
+      - CN_油管 TG 8度科技:45250
+      - CN_油管 TG 8度科技:45239
+      - HK_油管 TG 8度科技:80
+      - CN_油管 TG 8度科技:45149
+      - CN_油管 TG 8度科技:45239_2
+      - CN_油管 TG 8度科技:45250_2
+      - CN_油管 TG 8度科技:45149_2
+      - CN_油管 TG 8度科技:45184
+      - SK_油管 TG 8度科技:8886
+      - CN_油管 TG 8度科技:45184_2
+      - CN_油管 TG 8度科技:21201
+      - US_油管 TG 8度科技:10052
+      - CN_油管 TG 8度科技:21233
+      - HK_油管 TG 8度科技:21168
+      - CN_油管 TG 8度科技:45394
+      - US_油管 TG 8度科技:10058
+      - HK_油管 TG 8度科技:8485
+      - SG_油管 TG 8度科技:63530
+      - HK_油管 TG 8度科技:8486
+      - HK_油管 TG 8度科技:8485_2
+      - HK_油管 TG 8度科技:8486_2
+      - US_油管 TG 8度科技:42383
+      - US_油管 TG 8度科技:10063
+      - HK_油管 TG 8度科技:8486_2_2
+      - CN_油管 TG 8度科技:45394_2
+      - CN_油管 TG 8度科技:61765
+      - US_油管 TG 8度科技:17247
+      - US_油管 TG 8度科技:63609
+      - HK_油管 TG 8度科技:25082
+      - US_油管 TG 8度科技:11794
+      - GB_油管 TG 8度科技:8485
+      - US_油管 TG 8度科技:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 台湾01|三网优化|解锁流媒体|1x:20631
-      - 日本05|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40012
-      - vip1丨港 6--TG@p2psharing:40015
-      - 澳大利亚02|三网优化|1x:20631
-      - 日本04|三网优化|1x:20631
-      - 台湾02|三网优化|解锁流媒体|1x:20631
-      - 美国02|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40019
-      - 印度|三网优化|1x:20631
-      - 美国03|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - vip2丨港HKBN 2--TG@p2psharing:11031
-      - 德国|三网优化|1x:20631
-      - vip2丨港HKBN--TG@p2psharing:11032
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|解锁流媒体|1x:20631
-      - vip3 港家宽 2--TG@p2psharing:19975
-      - 俄罗斯|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 新加坡03|三网优化|解锁流媒体1x:20631
-      - 美国01|三网优化|1x:20631
-      - lindoe日本|三网优化|1x:20631
-      - 日本03|三网优化|1x:20631
-      - 英国02|三网优化|1x:20631
-      - 韩国|解锁流媒体|1x:20631
-      - CN_油管 TG 8度科技:10030
-      - CN_油管 TG 8度科技:40017
-      - 英国03|三网优化|1x:20631
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|解锁流媒体|1x:20631
-      - 加拿大01|三网优化|1x:20631
+      - CN_油管 TG 8度科技:45250
+      - CN_油管 TG 8度科技:45239
+      - HK_油管 TG 8度科技:80
+      - CN_油管 TG 8度科技:45149
+      - CN_油管 TG 8度科技:45239_2
+      - CN_油管 TG 8度科技:45250_2
+      - CN_油管 TG 8度科技:45149_2
+      - CN_油管 TG 8度科技:45184
+      - SK_油管 TG 8度科技:8886
+      - CN_油管 TG 8度科技:45184_2
+      - CN_油管 TG 8度科技:21201
+      - US_油管 TG 8度科技:10052
+      - CN_油管 TG 8度科技:21233
+      - HK_油管 TG 8度科技:21168
+      - CN_油管 TG 8度科技:45394
+      - US_油管 TG 8度科技:10058
+      - HK_油管 TG 8度科技:8485
+      - SG_油管 TG 8度科技:63530
+      - HK_油管 TG 8度科技:8486
+      - HK_油管 TG 8度科技:8485_2
+      - HK_油管 TG 8度科技:8486_2
+      - US_油管 TG 8度科技:42383
+      - US_油管 TG 8度科技:10063
+      - HK_油管 TG 8度科技:8486_2_2
+      - CN_油管 TG 8度科技:45394_2
+      - CN_油管 TG 8度科技:61765
+      - US_油管 TG 8度科技:17247
+      - US_油管 TG 8度科技:63609
+      - HK_油管 TG 8度科技:25082
+      - US_油管 TG 8度科技:11794
+      - GB_油管 TG 8度科技:8485
+      - US_油管 TG 8度科技:443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 台湾01|三网优化|解锁流媒体|1x:20631
-      - 日本05|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40012
-      - vip1丨港 6--TG@p2psharing:40015
-      - 澳大利亚02|三网优化|1x:20631
-      - 日本04|三网优化|1x:20631
-      - 台湾02|三网优化|解锁流媒体|1x:20631
-      - 美国02|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40019
-      - 印度|三网优化|1x:20631
-      - 美国03|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - vip2丨港HKBN 2--TG@p2psharing:11031
-      - 德国|三网优化|1x:20631
-      - vip2丨港HKBN--TG@p2psharing:11032
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|解锁流媒体|1x:20631
-      - vip3 港家宽 2--TG@p2psharing:19975
-      - 俄罗斯|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 新加坡03|三网优化|解锁流媒体1x:20631
-      - 美国01|三网优化|1x:20631
-      - lindoe日本|三网优化|1x:20631
-      - 日本03|三网优化|1x:20631
-      - 英国02|三网优化|1x:20631
-      - 韩国|解锁流媒体|1x:20631
-      - CN_油管 TG 8度科技:10030
-      - CN_油管 TG 8度科技:40017
-      - 英国03|三网优化|1x:20631
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|解锁流媒体|1x:20631
-      - 加拿大01|三网优化|1x:20631
+      - CN_油管 TG 8度科技:45250
+      - CN_油管 TG 8度科技:45239
+      - HK_油管 TG 8度科技:80
+      - CN_油管 TG 8度科技:45149
+      - CN_油管 TG 8度科技:45239_2
+      - CN_油管 TG 8度科技:45250_2
+      - CN_油管 TG 8度科技:45149_2
+      - CN_油管 TG 8度科技:45184
+      - SK_油管 TG 8度科技:8886
+      - CN_油管 TG 8度科技:45184_2
+      - CN_油管 TG 8度科技:21201
+      - US_油管 TG 8度科技:10052
+      - CN_油管 TG 8度科技:21233
+      - HK_油管 TG 8度科技:21168
+      - CN_油管 TG 8度科技:45394
+      - US_油管 TG 8度科技:10058
+      - HK_油管 TG 8度科技:8485
+      - SG_油管 TG 8度科技:63530
+      - HK_油管 TG 8度科技:8486
+      - HK_油管 TG 8度科技:8485_2
+      - HK_油管 TG 8度科技:8486_2
+      - US_油管 TG 8度科技:42383
+      - US_油管 TG 8度科技:10063
+      - HK_油管 TG 8度科技:8486_2_2
+      - CN_油管 TG 8度科技:45394_2
+      - CN_油管 TG 8度科技:61765
+      - US_油管 TG 8度科技:17247
+      - US_油管 TG 8度科技:63609
+      - HK_油管 TG 8度科技:25082
+      - US_油管 TG 8度科技:11794
+      - GB_油管 TG 8度科技:8485
+      - US_油管 TG 8度科技:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 台湾01|三网优化|解锁流媒体|1x:20631
-      - 日本05|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40012
-      - vip1丨港 6--TG@p2psharing:40015
-      - 澳大利亚02|三网优化|1x:20631
-      - 日本04|三网优化|1x:20631
-      - 台湾02|三网优化|解锁流媒体|1x:20631
-      - 美国02|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40019
-      - 印度|三网优化|1x:20631
-      - 美国03|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - vip2丨港HKBN 2--TG@p2psharing:11031
-      - 德国|三网优化|1x:20631
-      - vip2丨港HKBN--TG@p2psharing:11032
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|解锁流媒体|1x:20631
-      - vip3 港家宽 2--TG@p2psharing:19975
-      - 俄罗斯|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 新加坡03|三网优化|解锁流媒体1x:20631
-      - 美国01|三网优化|1x:20631
-      - lindoe日本|三网优化|1x:20631
-      - 日本03|三网优化|1x:20631
-      - 英国02|三网优化|1x:20631
-      - 韩国|解锁流媒体|1x:20631
-      - CN_油管 TG 8度科技:10030
-      - CN_油管 TG 8度科技:40017
-      - 英国03|三网优化|1x:20631
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|解锁流媒体|1x:20631
-      - 加拿大01|三网优化|1x:20631
+      - CN_油管 TG 8度科技:45250
+      - CN_油管 TG 8度科技:45239
+      - HK_油管 TG 8度科技:80
+      - CN_油管 TG 8度科技:45149
+      - CN_油管 TG 8度科技:45239_2
+      - CN_油管 TG 8度科技:45250_2
+      - CN_油管 TG 8度科技:45149_2
+      - CN_油管 TG 8度科技:45184
+      - SK_油管 TG 8度科技:8886
+      - CN_油管 TG 8度科技:45184_2
+      - CN_油管 TG 8度科技:21201
+      - US_油管 TG 8度科技:10052
+      - CN_油管 TG 8度科技:21233
+      - HK_油管 TG 8度科技:21168
+      - CN_油管 TG 8度科技:45394
+      - US_油管 TG 8度科技:10058
+      - HK_油管 TG 8度科技:8485
+      - SG_油管 TG 8度科技:63530
+      - HK_油管 TG 8度科技:8486
+      - HK_油管 TG 8度科技:8485_2
+      - HK_油管 TG 8度科技:8486_2
+      - US_油管 TG 8度科技:42383
+      - US_油管 TG 8度科技:10063
+      - HK_油管 TG 8度科技:8486_2_2
+      - CN_油管 TG 8度科技:45394_2
+      - CN_油管 TG 8度科技:61765
+      - US_油管 TG 8度科技:17247
+      - US_油管 TG 8度科技:63609
+      - HK_油管 TG 8度科技:25082
+      - US_油管 TG 8度科技:11794
+      - GB_油管 TG 8度科技:8485
+      - US_油管 TG 8度科技:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 台湾01|三网优化|解锁流媒体|1x:20631
-      - 日本05|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40012
-      - vip1丨港 6--TG@p2psharing:40015
-      - 澳大利亚02|三网优化|1x:20631
-      - 日本04|三网优化|1x:20631
-      - 台湾02|三网优化|解锁流媒体|1x:20631
-      - 美国02|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40019
-      - 印度|三网优化|1x:20631
-      - 美国03|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - vip2丨港HKBN 2--TG@p2psharing:11031
-      - 德国|三网优化|1x:20631
-      - vip2丨港HKBN--TG@p2psharing:11032
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|解锁流媒体|1x:20631
-      - vip3 港家宽 2--TG@p2psharing:19975
-      - 俄罗斯|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 新加坡03|三网优化|解锁流媒体1x:20631
-      - 美国01|三网优化|1x:20631
-      - lindoe日本|三网优化|1x:20631
-      - 日本03|三网优化|1x:20631
-      - 英国02|三网优化|1x:20631
-      - 韩国|解锁流媒体|1x:20631
-      - CN_油管 TG 8度科技:10030
-      - CN_油管 TG 8度科技:40017
-      - 英国03|三网优化|1x:20631
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|解锁流媒体|1x:20631
-      - 加拿大01|三网优化|1x:20631
+      - CN_油管 TG 8度科技:45250
+      - CN_油管 TG 8度科技:45239
+      - HK_油管 TG 8度科技:80
+      - CN_油管 TG 8度科技:45149
+      - CN_油管 TG 8度科技:45239_2
+      - CN_油管 TG 8度科技:45250_2
+      - CN_油管 TG 8度科技:45149_2
+      - CN_油管 TG 8度科技:45184
+      - SK_油管 TG 8度科技:8886
+      - CN_油管 TG 8度科技:45184_2
+      - CN_油管 TG 8度科技:21201
+      - US_油管 TG 8度科技:10052
+      - CN_油管 TG 8度科技:21233
+      - HK_油管 TG 8度科技:21168
+      - CN_油管 TG 8度科技:45394
+      - US_油管 TG 8度科技:10058
+      - HK_油管 TG 8度科技:8485
+      - SG_油管 TG 8度科技:63530
+      - HK_油管 TG 8度科技:8486
+      - HK_油管 TG 8度科技:8485_2
+      - HK_油管 TG 8度科技:8486_2
+      - US_油管 TG 8度科技:42383
+      - US_油管 TG 8度科技:10063
+      - HK_油管 TG 8度科技:8486_2_2
+      - CN_油管 TG 8度科技:45394_2
+      - CN_油管 TG 8度科技:61765
+      - US_油管 TG 8度科技:17247
+      - US_油管 TG 8度科技:63609
+      - HK_油管 TG 8度科技:25082
+      - US_油管 TG 8度科技:11794
+      - GB_油管 TG 8度科技:8485
+      - US_油管 TG 8度科技:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 台湾01|三网优化|解锁流媒体|1x:20631
-      - 日本05|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40012
-      - vip1丨港 6--TG@p2psharing:40015
-      - 澳大利亚02|三网优化|1x:20631
-      - 日本04|三网优化|1x:20631
-      - 台湾02|三网优化|解锁流媒体|1x:20631
-      - 美国02|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40019
-      - 印度|三网优化|1x:20631
-      - 美国03|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - vip2丨港HKBN 2--TG@p2psharing:11031
-      - 德国|三网优化|1x:20631
-      - vip2丨港HKBN--TG@p2psharing:11032
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|解锁流媒体|1x:20631
-      - vip3 港家宽 2--TG@p2psharing:19975
-      - 俄罗斯|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 新加坡03|三网优化|解锁流媒体1x:20631
-      - 美国01|三网优化|1x:20631
-      - lindoe日本|三网优化|1x:20631
-      - 日本03|三网优化|1x:20631
-      - 英国02|三网优化|1x:20631
-      - 韩国|解锁流媒体|1x:20631
-      - CN_油管 TG 8度科技:10030
-      - CN_油管 TG 8度科技:40017
-      - 英国03|三网优化|1x:20631
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|解锁流媒体|1x:20631
-      - 加拿大01|三网优化|1x:20631
+      - CN_油管 TG 8度科技:45250
+      - CN_油管 TG 8度科技:45239
+      - HK_油管 TG 8度科技:80
+      - CN_油管 TG 8度科技:45149
+      - CN_油管 TG 8度科技:45239_2
+      - CN_油管 TG 8度科技:45250_2
+      - CN_油管 TG 8度科技:45149_2
+      - CN_油管 TG 8度科技:45184
+      - SK_油管 TG 8度科技:8886
+      - CN_油管 TG 8度科技:45184_2
+      - CN_油管 TG 8度科技:21201
+      - US_油管 TG 8度科技:10052
+      - CN_油管 TG 8度科技:21233
+      - HK_油管 TG 8度科技:21168
+      - CN_油管 TG 8度科技:45394
+      - US_油管 TG 8度科技:10058
+      - HK_油管 TG 8度科技:8485
+      - SG_油管 TG 8度科技:63530
+      - HK_油管 TG 8度科技:8486
+      - HK_油管 TG 8度科技:8485_2
+      - HK_油管 TG 8度科技:8486_2
+      - US_油管 TG 8度科技:42383
+      - US_油管 TG 8度科技:10063
+      - HK_油管 TG 8度科技:8486_2_2
+      - CN_油管 TG 8度科技:45394_2
+      - CN_油管 TG 8度科技:61765
+      - US_油管 TG 8度科技:17247
+      - US_油管 TG 8度科技:63609
+      - HK_油管 TG 8度科技:25082
+      - US_油管 TG 8度科技:11794
+      - GB_油管 TG 8度科技:8485
+      - US_油管 TG 8度科技:443
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 台湾01|三网优化|解锁流媒体|1x:20631
-      - 日本05|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40012
-      - vip1丨港 6--TG@p2psharing:40015
-      - 澳大利亚02|三网优化|1x:20631
-      - 日本04|三网优化|1x:20631
-      - 台湾02|三网优化|解锁流媒体|1x:20631
-      - 美国02|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40019
-      - 印度|三网优化|1x:20631
-      - 美国03|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - vip2丨港HKBN 2--TG@p2psharing:11031
-      - 德国|三网优化|1x:20631
-      - vip2丨港HKBN--TG@p2psharing:11032
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|解锁流媒体|1x:20631
-      - vip3 港家宽 2--TG@p2psharing:19975
-      - 俄罗斯|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 新加坡03|三网优化|解锁流媒体1x:20631
-      - 美国01|三网优化|1x:20631
-      - lindoe日本|三网优化|1x:20631
-      - 日本03|三网优化|1x:20631
-      - 英国02|三网优化|1x:20631
-      - 韩国|解锁流媒体|1x:20631
-      - CN_油管 TG 8度科技:10030
-      - CN_油管 TG 8度科技:40017
-      - 英国03|三网优化|1x:20631
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|解锁流媒体|1x:20631
-      - 加拿大01|三网优化|1x:20631
+      - CN_油管 TG 8度科技:45250
+      - CN_油管 TG 8度科技:45239
+      - HK_油管 TG 8度科技:80
+      - CN_油管 TG 8度科技:45149
+      - CN_油管 TG 8度科技:45239_2
+      - CN_油管 TG 8度科技:45250_2
+      - CN_油管 TG 8度科技:45149_2
+      - CN_油管 TG 8度科技:45184
+      - SK_油管 TG 8度科技:8886
+      - CN_油管 TG 8度科技:45184_2
+      - CN_油管 TG 8度科技:21201
+      - US_油管 TG 8度科技:10052
+      - CN_油管 TG 8度科技:21233
+      - HK_油管 TG 8度科技:21168
+      - CN_油管 TG 8度科技:45394
+      - US_油管 TG 8度科技:10058
+      - HK_油管 TG 8度科技:8485
+      - SG_油管 TG 8度科技:63530
+      - HK_油管 TG 8度科技:8486
+      - HK_油管 TG 8度科技:8485_2
+      - HK_油管 TG 8度科技:8486_2
+      - US_油管 TG 8度科技:42383
+      - US_油管 TG 8度科技:10063
+      - HK_油管 TG 8度科技:8486_2_2
+      - CN_油管 TG 8度科技:45394_2
+      - CN_油管 TG 8度科技:61765
+      - US_油管 TG 8度科技:17247
+      - US_油管 TG 8度科技:63609
+      - HK_油管 TG 8度科技:25082
+      - US_油管 TG 8度科技:11794
+      - GB_油管 TG 8度科技:8485
+      - US_油管 TG 8度科技:443
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 台湾01|三网优化|解锁流媒体|1x:20631
-      - 日本05|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40012
-      - vip1丨港 6--TG@p2psharing:40015
-      - 澳大利亚02|三网优化|1x:20631
-      - 日本04|三网优化|1x:20631
-      - 台湾02|三网优化|解锁流媒体|1x:20631
-      - 美国02|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40019
-      - 印度|三网优化|1x:20631
-      - 美国03|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - vip2丨港HKBN 2--TG@p2psharing:11031
-      - 德国|三网优化|1x:20631
-      - vip2丨港HKBN--TG@p2psharing:11032
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|解锁流媒体|1x:20631
-      - vip3 港家宽 2--TG@p2psharing:19975
-      - 俄罗斯|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 新加坡03|三网优化|解锁流媒体1x:20631
-      - 美国01|三网优化|1x:20631
-      - lindoe日本|三网优化|1x:20631
-      - 日本03|三网优化|1x:20631
-      - 英国02|三网优化|1x:20631
-      - 韩国|解锁流媒体|1x:20631
-      - CN_油管 TG 8度科技:10030
-      - CN_油管 TG 8度科技:40017
-      - 英国03|三网优化|1x:20631
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|解锁流媒体|1x:20631
-      - 加拿大01|三网优化|1x:20631
+      - CN_油管 TG 8度科技:45250
+      - CN_油管 TG 8度科技:45239
+      - HK_油管 TG 8度科技:80
+      - CN_油管 TG 8度科技:45149
+      - CN_油管 TG 8度科技:45239_2
+      - CN_油管 TG 8度科技:45250_2
+      - CN_油管 TG 8度科技:45149_2
+      - CN_油管 TG 8度科技:45184
+      - SK_油管 TG 8度科技:8886
+      - CN_油管 TG 8度科技:45184_2
+      - CN_油管 TG 8度科技:21201
+      - US_油管 TG 8度科技:10052
+      - CN_油管 TG 8度科技:21233
+      - HK_油管 TG 8度科技:21168
+      - CN_油管 TG 8度科技:45394
+      - US_油管 TG 8度科技:10058
+      - HK_油管 TG 8度科技:8485
+      - SG_油管 TG 8度科技:63530
+      - HK_油管 TG 8度科技:8486
+      - HK_油管 TG 8度科技:8485_2
+      - HK_油管 TG 8度科技:8486_2
+      - US_油管 TG 8度科技:42383
+      - US_油管 TG 8度科技:10063
+      - HK_油管 TG 8度科技:8486_2_2
+      - CN_油管 TG 8度科技:45394_2
+      - CN_油管 TG 8度科技:61765
+      - US_油管 TG 8度科技:17247
+      - US_油管 TG 8度科技:63609
+      - HK_油管 TG 8度科技:25082
+      - US_油管 TG 8度科技:11794
+      - GB_油管 TG 8度科技:8485
+      - US_油管 TG 8度科技:443
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 台湾01|三网优化|解锁流媒体|1x:20631
-      - 日本05|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40012
-      - vip1丨港 6--TG@p2psharing:40015
-      - 澳大利亚02|三网优化|1x:20631
-      - 日本04|三网优化|1x:20631
-      - 台湾02|三网优化|解锁流媒体|1x:20631
-      - 美国02|三网优化|1x:20631
-      - CN_油管 TG 8度科技:40019
-      - 印度|三网优化|1x:20631
-      - 美国03|三网优化|1x:20631
-      - 澳大利亚01|三网优化|1x:20631
-      - vip2丨港HKBN 2--TG@p2psharing:11031
-      - 德国|三网优化|1x:20631
-      - vip2丨港HKBN--TG@p2psharing:11032
-      - 英国01|三网优化|1x:20631
-      - 美国04|三网优化|解锁流媒体|1x:20631
-      - vip3 港家宽 2--TG@p2psharing:19975
-      - 俄罗斯|三网优化|1x:20631
-      - 日本02|三网优化|1x:20631
-      - 新加坡03|三网优化|解锁流媒体1x:20631
-      - 美国01|三网优化|1x:20631
-      - lindoe日本|三网优化|1x:20631
-      - 日本03|三网优化|1x:20631
-      - 英国02|三网优化|1x:20631
-      - 韩国|解锁流媒体|1x:20631
-      - CN_油管 TG 8度科技:10030
-      - CN_油管 TG 8度科技:40017
-      - 英国03|三网优化|1x:20631
-      - 日本01|三网优化|1x:20631
-      - 台湾04|三网优化|解锁流媒体|1x:20631
-      - 加拿大01|三网优化|1x:20631
+      - CN_油管 TG 8度科技:45250
+      - CN_油管 TG 8度科技:45239
+      - HK_油管 TG 8度科技:80
+      - CN_油管 TG 8度科技:45149
+      - CN_油管 TG 8度科技:45239_2
+      - CN_油管 TG 8度科技:45250_2
+      - CN_油管 TG 8度科技:45149_2
+      - CN_油管 TG 8度科技:45184
+      - SK_油管 TG 8度科技:8886
+      - CN_油管 TG 8度科技:45184_2
+      - CN_油管 TG 8度科技:21201
+      - US_油管 TG 8度科技:10052
+      - CN_油管 TG 8度科技:21233
+      - HK_油管 TG 8度科技:21168
+      - CN_油管 TG 8度科技:45394
+      - US_油管 TG 8度科技:10058
+      - HK_油管 TG 8度科技:8485
+      - SG_油管 TG 8度科技:63530
+      - HK_油管 TG 8度科技:8486
+      - HK_油管 TG 8度科技:8485_2
+      - HK_油管 TG 8度科技:8486_2
+      - US_油管 TG 8度科技:42383
+      - US_油管 TG 8度科技:10063
+      - HK_油管 TG 8度科技:8486_2_2
+      - CN_油管 TG 8度科技:45394_2
+      - CN_油管 TG 8度科技:61765
+      - US_油管 TG 8度科技:17247
+      - US_油管 TG 8度科技:63609
+      - HK_油管 TG 8度科技:25082
+      - US_油管 TG 8度科技:11794
+      - GB_油管 TG 8度科技:8485
+      - US_油管 TG 8度科技:443
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
