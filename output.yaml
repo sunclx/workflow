@@ -5,35 +5,35 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: CN_油管 TG 8度科技:45250
+  - name: 油管 TG 8度科技:1051
     type: vmess
-    server: hz.bgp.rx.naiun.pw
-    port: 45250
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    server: 183.232.56.161
+    port: 1051
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: ""
+    ws-path: /v2ray
     ws-headers: null
-  - name: CN_油管 TG 8度科技:45239
+  - name: 油管 TG 8度科技:1022
     type: vmess
-    server: hz.bgp.rx.naiun.pw
-    port: 45239
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    server: 101.230.149.1
+    port: 1022
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: ""
+    ws-path: /v2ray
     ws-headers: null
-  - name: HK_油管 TG 8度科技:80
+  - name: 油管 TG 8度科技:31417
     type: vmess
-    server: hk03.startmy.cc
-    port: 80
-    uuid: 965f900d-242a-3c76-b323-5c987f19250f
+    server: 52.131.222.178
+    port: 31417
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
@@ -41,296 +41,249 @@ proxies:
     tls: null
     ws-path: /v2ray
     ws-headers:
-      Host: a.189.cn
-  - name: CN_油管 TG 8度科技:45149
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:31417_2
     type: vmess
-    server: hz.bgp.rx.naiun.pw
-    port: 45149
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    server: 52.131.222.178
+    port: 31417
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:45239_2
-    type: vmess
-    server: gz.bgp.rx.naiun.pw
-    port: 45239
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:45250_2
-    type: vmess
-    server: gz.bgp.rx.naiun.pw
-    port: 45250
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:45149_2
-    type: vmess
-    server: gz.bgp.rx.naiun.pw
-    port: 45149
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:45184
-    type: vmess
-    server: gz.bgp.rx.naiun.pw
-    port: 45184
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: SK_油管 TG 8度科技:8886
-    type: vmess
-    server: jp16.vpnjc.cc
-    port: 8886
-    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk
+    ws-path: /v2ray
     ws-headers:
-      Host: apple.com
-  - name: CN_油管 TG 8度科技:45184_2
+      Host: 52.131.222.178
+  - name: 油管 TG 8度科技:31416
     type: vmess
-    server: hz.bgp.rx.naiun.pw
-    port: 45184
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    server: 52.131.222.178
+    port: 31416
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: CN_油管 TG 8度科技:21201
+    ws-path: /v2ray
+    ws-headers:
+      Host: 52.131.222.178
+  - name: 油管 TG 8度科技:31126
     type: vmess
-    server: 116.162.14.228
-    port: 21201
-    uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
+    server: 52.131.222.178
+    port: 31126
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:31416_2
+    type: vmess
+    server: 52.131.222.178
+    port: 31416
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1202
+    type: vmess
+    server: 183.232.56.161
+    port: 1202
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:60021
+    type: vmess
+    server: nn01.nfeng6.pp.ua
+    port: 60021
+    uuid: 0a6e2599-5683-33ed-9f50-deef337c9924
     alterId: "2"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 油管 TG 8度科技:1611
+    type: vmess
+    server: 183.232.56.161
+    port: 1611
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:2089
+    type: vmess
+    server: 154.17.25.49
+    port: 2089
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1022_2
+    type: vmess
+    server: 101.230.149.1
+    port: 1022
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 101.230.149.1
+  - name: 油管 TG 8度科技:51011
+    type: vmess
+    server: 52.131.222.178
+    port: 51011
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 52.131.222.178
+  - name: 油管 TG 8度科技:51011_2
+    type: vmess
+    server: 52.131.222.178
+    port: 51011
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:2089_2
+    type: vmess
+    server: 154.17.25.49
+    port: 2089
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 154.17.25.49
+  - name: 油管 TG 8度科技:80
+    type: vmess
+    server: lin1.free80ml.tk
+    port: 80
+    uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
     tls: null
     ws-path: /
-    ws-headers: null
-  - name: US_油管 TG 8度科技:10052
-    type: vmess
-    server: 20.222.27.151
-    port: 10052
-    uuid: 8c8cbd81-ad25-3e16-a6dc-e78fc4381ca1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
     ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_油管 TG 8度科技:21233
+      Host: lin1.free80ml.tk
+  - name: 油管 TG 8度科技:2086
     type: vmess
-    server: 116.162.14.228
-    port: 21233
-    uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers: null
-  - name: HK_油管 TG 8度科技:21168
-    type: vmess
-    server: f2s.wokuaitule.xyz
-    port: 21168
-    uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
+    server: 185.217.108.182
+    port: 2086
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /index
+    ws-path: /v2ray
     ws-headers:
-      Host: f2s.wokuaitule.xyz
-  - name: CN_油管 TG 8度科技:45394
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1001
     type: vmess
-    server: hz.bgp.rx.naiun.pw
-    port: 45394
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    server: 101.230.149.1
+    port: 1001
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: ""
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1202_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1202
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:51012
+    type: vmess
+    server: 52.131.222.178
+    port: 51012
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
     ws-headers: null
-  - name: US_油管 TG 8度科技:10058
+  - name: 油管 TG 8度科技:2086_2
     type: vmess
-    server: 20.222.27.151
-    port: 10058
-    uuid: 8c8cbd81-ad25-3e16-a6dc-e78fc4381ca1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: HK_油管 TG 8度科技:8485
-    type: vmess
-    server: hk06.vpnjc.cc
-    port: 8485
-    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk
-    ws-headers:
-      Host: apple.com
-  - name: SG_油管 TG 8度科技:63530
-    type: vmess
-    server: raoy1.rnmtq.gq
-    port: 63530
-    uuid: 461bb2aa-af57-4d89-8450-3aad54a8c337
+    server: 185.217.108.182
+    port: 2086
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: ""
-    ws-headers:
-      Host: vod3.nty.tv189.cn
-  - name: HK_油管 TG 8度科技:8486
-    type: vmess
-    server: hk07.vpnjc.cc
-    port: 8486
-    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk
-    ws-headers:
-      Host: apple.com
-  - name: HK_油管 TG 8度科技:8485_2
-    type: vmess
-    server: hk01.vpnjc.cc
-    port: 8485
-    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk
-    ws-headers:
-      Host: apple.com
-  - name: HK_油管 TG 8度科技:8486_2
-    type: vmess
-    server: hk05.vpnjc.cc
-    port: 8486
-    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk
-    ws-headers:
-      Host: apple.com
-  - name: US_油管 TG 8度科技:42383
-    type: vmess
-    server: 192.18.143.53
-    port: 42383
-    uuid: 30a09c32-35d8-444e-a2f1-274395523945
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: 192.18.143.53
-  - name: US_油管 TG 8度科技:10063
-    type: vmess
-    server: 20.222.27.151
-    port: 10063
-    uuid: 8c8cbd81-ad25-3e16-a6dc-e78fc4381ca1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: HK_油管 TG 8度科技:8486_2_2
-    type: vmess
-    server: hk04.vpnjc.cc
-    port: 8486
-    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk
-    ws-headers:
-      Host: apple.com
-  - name: CN_油管 TG 8度科技:45394_2
-    type: vmess
-    server: gz.bgp.rx.naiun.pw
-    port: 45394
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
+    ws-path: /v2ray
     ws-headers: null
-  - name: CN_油管 TG 8度科技:61765
+  - name: 油管 TG 8度科技:2089_2_2
     type: vmess
-    server: 116.162.14.228
-    port: 61765
-    uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
-    alterId: "2"
+    server: 154.17.25.49
+    port: 2089
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
-    ws-headers: null
-  - name: US_油管 TG 8度科技:17247
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:17247
     type: vmess
     server: san.515223.xyz
     port: 17247
@@ -343,443 +296,2042 @@ proxies:
     ws-path: /
     ws-headers:
       Host: san.515223.xyz
-  - name: US_油管 TG 8度科技:63609
+  - name: 油管 TG 8度科技:2086_2_2
     type: vmess
-    server: 138.2.41.25
-    port: 63609
-    uuid: 3d2ba777-ca20-4ab7-a99a-4fd9c3e637dc
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: 138.2.41.25
-  - name: HK_油管 TG 8度科技:25082
-    type: vmess
-    server: node.relay.az.naiun.pw
-    port: 25082
-    uuid: 344b6094-8755-4e18-9e1a-bf5af2027521
+    server: 185.217.108.182
+    port: 2086
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /
+    tls: null
+    ws-path: /v2ray
     ws-headers:
-      Host: node.free.usa.naiun.pw
-  - name: US_油管 TG 8度科技:11794
+      Host: 185.217.108.182
+  - name: 油管 TG 8度科技:51012_2
     type: vmess
-    server: 20.124.107.207
-    port: 11794
-    uuid: 8c30e7e4-2fdc-4a95-c58b-43e6ac7f0f48
+    server: 52.131.222.178
+    port: 51012
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: null
-    ws-path: /
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:31125
+    type: vmess
+    server: 52.131.222.178
+    port: 31125
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1202_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1202
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:5019
+    type: vmess
+    server: 183.232.56.161
+    port: 5019
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
     ws-headers: null
-  - name: GB_油管 TG 8度科技:8485
+  - name: 油管 TG 8度科技:1301
     type: vmess
-    server: uk04.vpnjc.cc
-    port: 8485
-    uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk
-    ws-headers:
-      Host: apple.com
-  - name: US_油管 TG 8度科技:443
-    type: vmess
-    server: niaop.tk
-    port: 443
-    uuid: a0b0df87-bda2-440e-830f-347da6cc7760
+    server: 183.232.56.161
+    port: 1301
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /wsssdr1
+    tls: null
+    ws-path: /v2ray
     ws-headers:
-      Host: niaop.tk
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:31125_2
+    type: vmess
+    server: 52.131.222.178
+    port: 31125
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1123
+    type: vmess
+    server: 183.232.56.161
+    port: 1123
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:3001
+    type: vmess
+    server: 183.232.56.161
+    port: 3001
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:31417_2_2
+    type: vmess
+    server: 52.131.222.178
+    port: 31417
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1095
+    type: vmess
+    server: 154.17.18.191
+    port: 1095
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 154.17.18.191
+  - name: 油管 TG 8度科技:31416_2_2
+    type: vmess
+    server: 52.131.222.178
+    port: 31416
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1303
+    type: vmess
+    server: 183.232.56.161
+    port: 1303
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1602
+    type: vmess
+    server: 183.232.56.161
+    port: 1602
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1952
+    type: vmess
+    server: 183.232.56.161
+    port: 1952
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:31126_2
+    type: vmess
+    server: 52.131.222.178
+    port: 31126
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 52.131.222.178
+  - name: 油管 TG 8度科技:5019_2
+    type: vmess
+    server: 183.232.56.161
+    port: 5019
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1602_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1602
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1602_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1602
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:1122
+    type: vmess
+    server: 183.232.56.161
+    port: 1122
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1051_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1051
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1123_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1123
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:5018
+    type: vmess
+    server: 183.232.56.161
+    port: 5018
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:1802
+    type: vmess
+    server: 183.232.56.161
+    port: 1802
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:21418
+    type: vmess
+    server: 64.27.30.217
+    port: 21418
+    uuid: e396b9ad-d1d3-4f58-885e-df6638db37eb
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 64.27.30.217
+  - name: 油管 TG 8度科技:1095_2
+    type: vmess
+    server: 154.17.18.191
+    port: 1095
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:9112
+    type: vmess
+    server: 183.232.56.161
+    port: 9112
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:51011_2_2
+    type: vmess
+    server: 52.131.222.178
+    port: 51011
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1601
+    type: vmess
+    server: 183.232.56.161
+    port: 1601
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1952_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1952
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1612
+    type: vmess
+    server: 183.232.56.161
+    port: 1612
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:31126_2_2
+    type: vmess
+    server: 52.131.222.178
+    port: 31126
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1022_2_2
+    type: vmess
+    server: 101.230.149.1
+    port: 1022
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:31313
+    type: vmess
+    server: 52.131.222.178
+    port: 31313
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 52.131.222.178
+  - name: 油管 TG 8度科技:1951
+    type: vmess
+    server: 183.232.56.161
+    port: 1951
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:5018_2
+    type: vmess
+    server: 183.232.56.161
+    port: 5018
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1603
+    type: vmess
+    server: 183.232.56.161
+    port: 1603
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:9111
+    type: vmess
+    server: 183.232.56.161
+    port: 9111
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:9121
+    type: vmess
+    server: 183.232.56.161
+    port: 9121
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:31125_2_2
+    type: vmess
+    server: 52.131.222.178
+    port: 31125
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 52.131.222.178
+  - name: 油管 TG 8度科技:1101
+    type: vmess
+    server: 183.232.56.161
+    port: 1101
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1051_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1051
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:3002
+    type: vmess
+    server: 183.232.56.161
+    port: 3002
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:9121_2
+    type: vmess
+    server: 183.232.56.161
+    port: 9121
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:1605
+    type: vmess
+    server: 183.232.56.161
+    port: 1605
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:31313_2
+    type: vmess
+    server: 52.131.222.178
+    port: 31313
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1201
+    type: vmess
+    server: 183.232.56.161
+    port: 1201
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1703
+    type: vmess
+    server: 183.232.56.161
+    port: 1703
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:65017
+    type: vmess
+    server: dns-02-838711.zhcn.one
+    port: 65017
+    uuid: 07eb058a-9eef-343f-83fc-f387c0ab684b
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: dns-02-838711.zhcn.one
+  - name: 油管 TG 8度科技:1122_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1122
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1605_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1605
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1101_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1101
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:102
+    type: vmess
+    server: 58.216.136.106
+    port: 102
+    uuid: 2af1f7d3-cc4f-47d8-846b-9bbcda178645
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 58.216.136.106
+  - name: 油管 TG 8度科技:1601_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1601
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:1700
+    type: vmess
+    server: 183.232.56.161
+    port: 1700
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1706
+    type: vmess
+    server: 183.232.56.161
+    port: 1706
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:5018_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 5018
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:65027
+    type: vmess
+    server: dns-05-351958.zhcn.one
+    port: 65027
+    uuid: 07eb058a-9eef-343f-83fc-f387c0ab684b
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /rocket
+    ws-headers:
+      Host: dns-05-351958.zhcn.one
+  - name: 油管 TG 8度科技:1605_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1605
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:1703_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1703
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:1601_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1601
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1612_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1612
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1312
+    type: vmess
+    server: 183.232.56.161
+    port: 1312
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1311
+    type: vmess
+    server: 183.232.56.161
+    port: 1311
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1603_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1603
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1704
+    type: vmess
+    server: 183.232.56.161
+    port: 1704
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1603_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1603
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:3002_2
+    type: vmess
+    server: 183.232.56.161
+    port: 3002
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:9112_2
+    type: vmess
+    server: 183.232.56.161
+    port: 9112
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:6111
+    type: vmess
+    server: 183.232.56.161
+    port: 6111
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:5019_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 5019
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:1303_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1303
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:9121_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 9121
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers: null
+  - name: 油管 TG 8度科技:1212
+    type: vmess
+    server: 183.232.56.161
+    port: 1212
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管 TG 8度科技:1303_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 1303
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:9112_2_2
+    type: vmess
+    server: 183.232.56.161
+    port: 9112
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: 183.232.56.161
+  - name: 油管 TG 8度科技:6112
+    type: vmess
+    server: 183.232.56.161
+    port: 6112
+    uuid: bfd2cb06-5cd7-3203-b414-17a809396898
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me.vpnhat
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技:45250
-      - CN_油管 TG 8度科技:45239
-      - HK_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:45149
-      - CN_油管 TG 8度科技:45239_2
-      - CN_油管 TG 8度科技:45250_2
-      - CN_油管 TG 8度科技:45149_2
-      - CN_油管 TG 8度科技:45184
-      - SK_油管 TG 8度科技:8886
-      - CN_油管 TG 8度科技:45184_2
-      - CN_油管 TG 8度科技:21201
-      - US_油管 TG 8度科技:10052
-      - CN_油管 TG 8度科技:21233
-      - HK_油管 TG 8度科技:21168
-      - CN_油管 TG 8度科技:45394
-      - US_油管 TG 8度科技:10058
-      - HK_油管 TG 8度科技:8485
-      - SG_油管 TG 8度科技:63530
-      - HK_油管 TG 8度科技:8486
-      - HK_油管 TG 8度科技:8485_2
-      - HK_油管 TG 8度科技:8486_2
-      - US_油管 TG 8度科技:42383
-      - US_油管 TG 8度科技:10063
-      - HK_油管 TG 8度科技:8486_2_2
-      - CN_油管 TG 8度科技:45394_2
-      - CN_油管 TG 8度科技:61765
-      - US_油管 TG 8度科技:17247
-      - US_油管 TG 8度科技:63609
-      - HK_油管 TG 8度科技:25082
-      - US_油管 TG 8度科技:11794
-      - GB_油管 TG 8度科技:8485
-      - US_油管 TG 8度科技:443
+      - 油管 TG 8度科技:1051
+      - 油管 TG 8度科技:1022
+      - 油管 TG 8度科技:31417
+      - 油管 TG 8度科技:31417_2
+      - 油管 TG 8度科技:31416
+      - 油管 TG 8度科技:31126
+      - 油管 TG 8度科技:31416_2
+      - 油管 TG 8度科技:1202
+      - 油管 TG 8度科技:60021
+      - 油管 TG 8度科技:1611
+      - 油管 TG 8度科技:2089
+      - 油管 TG 8度科技:1022_2
+      - 油管 TG 8度科技:51011
+      - 油管 TG 8度科技:51011_2
+      - 油管 TG 8度科技:2089_2
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:2086
+      - 油管 TG 8度科技:1001
+      - 油管 TG 8度科技:1202_2
+      - 油管 TG 8度科技:51012
+      - 油管 TG 8度科技:2086_2
+      - 油管 TG 8度科技:2089_2_2
+      - 油管 TG 8度科技:17247
+      - 油管 TG 8度科技:2086_2_2
+      - 油管 TG 8度科技:51012_2
+      - 油管 TG 8度科技:31125
+      - 油管 TG 8度科技:1202_2_2
+      - 油管 TG 8度科技:5019
+      - 油管 TG 8度科技:1301
+      - 油管 TG 8度科技:31125_2
+      - 油管 TG 8度科技:1123
+      - 油管 TG 8度科技:3001
+      - 油管 TG 8度科技:31417_2_2
+      - 油管 TG 8度科技:1095
+      - 油管 TG 8度科技:31416_2_2
+      - 油管 TG 8度科技:1303
+      - 油管 TG 8度科技:1602
+      - 油管 TG 8度科技:1952
+      - 油管 TG 8度科技:31126_2
+      - 油管 TG 8度科技:5019_2
+      - 油管 TG 8度科技:1602_2
+      - 油管 TG 8度科技:1602_2_2
+      - 油管 TG 8度科技:1122
+      - 油管 TG 8度科技:1051_2
+      - 油管 TG 8度科技:1123_2
+      - 油管 TG 8度科技:5018
+      - 油管 TG 8度科技:1802
+      - 油管 TG 8度科技:21418
+      - 油管 TG 8度科技:1095_2
+      - 油管 TG 8度科技:9112
+      - 油管 TG 8度科技:51011_2_2
+      - 油管 TG 8度科技:1601
+      - 油管 TG 8度科技:1952_2
+      - 油管 TG 8度科技:1612
+      - 油管 TG 8度科技:31126_2_2
+      - 油管 TG 8度科技:1022_2_2
+      - 油管 TG 8度科技:31313
+      - 油管 TG 8度科技:1951
+      - 油管 TG 8度科技:5018_2
+      - 油管 TG 8度科技:1603
+      - 油管 TG 8度科技:9111
+      - 油管 TG 8度科技:9121
+      - 油管 TG 8度科技:31125_2_2
+      - 油管 TG 8度科技:1101
+      - 油管 TG 8度科技:1051_2_2
+      - 油管 TG 8度科技:3002
+      - 油管 TG 8度科技:9121_2
+      - 油管 TG 8度科技:1605
+      - 油管 TG 8度科技:31313_2
+      - 油管 TG 8度科技:1201
+      - 油管 TG 8度科技:1703
+      - 油管 TG 8度科技:65017
+      - 油管 TG 8度科技:1122_2
+      - 油管 TG 8度科技:1605_2
+      - 油管 TG 8度科技:1101_2
+      - 油管 TG 8度科技:102
+      - 油管 TG 8度科技:1601_2
+      - 油管 TG 8度科技:1700
+      - 油管 TG 8度科技:1706
+      - 油管 TG 8度科技:5018_2_2
+      - 油管 TG 8度科技:65027
+      - 油管 TG 8度科技:1605_2_2
+      - 油管 TG 8度科技:1703_2
+      - 油管 TG 8度科技:1601_2_2
+      - 油管 TG 8度科技:1612_2
+      - 油管 TG 8度科技:1312
+      - 油管 TG 8度科技:1311
+      - 油管 TG 8度科技:1603_2
+      - 油管 TG 8度科技:1704
+      - 油管 TG 8度科技:1603_2_2
+      - 油管 TG 8度科技:3002_2
+      - 油管 TG 8度科技:9112_2
+      - 油管 TG 8度科技:6111
+      - 油管 TG 8度科技:5019_2_2
+      - 油管 TG 8度科技:1303_2
+      - 油管 TG 8度科技:9121_2_2
+      - 油管 TG 8度科技:1212
+      - 油管 TG 8度科技:1303_2_2
+      - 油管 TG 8度科技:9112_2_2
+      - 油管 TG 8度科技:6112
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_油管 TG 8度科技:45250
-      - CN_油管 TG 8度科技:45239
-      - HK_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:45149
-      - CN_油管 TG 8度科技:45239_2
-      - CN_油管 TG 8度科技:45250_2
-      - CN_油管 TG 8度科技:45149_2
-      - CN_油管 TG 8度科技:45184
-      - SK_油管 TG 8度科技:8886
-      - CN_油管 TG 8度科技:45184_2
-      - CN_油管 TG 8度科技:21201
-      - US_油管 TG 8度科技:10052
-      - CN_油管 TG 8度科技:21233
-      - HK_油管 TG 8度科技:21168
-      - CN_油管 TG 8度科技:45394
-      - US_油管 TG 8度科技:10058
-      - HK_油管 TG 8度科技:8485
-      - SG_油管 TG 8度科技:63530
-      - HK_油管 TG 8度科技:8486
-      - HK_油管 TG 8度科技:8485_2
-      - HK_油管 TG 8度科技:8486_2
-      - US_油管 TG 8度科技:42383
-      - US_油管 TG 8度科技:10063
-      - HK_油管 TG 8度科技:8486_2_2
-      - CN_油管 TG 8度科技:45394_2
-      - CN_油管 TG 8度科技:61765
-      - US_油管 TG 8度科技:17247
-      - US_油管 TG 8度科技:63609
-      - HK_油管 TG 8度科技:25082
-      - US_油管 TG 8度科技:11794
-      - GB_油管 TG 8度科技:8485
-      - US_油管 TG 8度科技:443
+      - 油管 TG 8度科技:1051
+      - 油管 TG 8度科技:1022
+      - 油管 TG 8度科技:31417
+      - 油管 TG 8度科技:31417_2
+      - 油管 TG 8度科技:31416
+      - 油管 TG 8度科技:31126
+      - 油管 TG 8度科技:31416_2
+      - 油管 TG 8度科技:1202
+      - 油管 TG 8度科技:60021
+      - 油管 TG 8度科技:1611
+      - 油管 TG 8度科技:2089
+      - 油管 TG 8度科技:1022_2
+      - 油管 TG 8度科技:51011
+      - 油管 TG 8度科技:51011_2
+      - 油管 TG 8度科技:2089_2
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:2086
+      - 油管 TG 8度科技:1001
+      - 油管 TG 8度科技:1202_2
+      - 油管 TG 8度科技:51012
+      - 油管 TG 8度科技:2086_2
+      - 油管 TG 8度科技:2089_2_2
+      - 油管 TG 8度科技:17247
+      - 油管 TG 8度科技:2086_2_2
+      - 油管 TG 8度科技:51012_2
+      - 油管 TG 8度科技:31125
+      - 油管 TG 8度科技:1202_2_2
+      - 油管 TG 8度科技:5019
+      - 油管 TG 8度科技:1301
+      - 油管 TG 8度科技:31125_2
+      - 油管 TG 8度科技:1123
+      - 油管 TG 8度科技:3001
+      - 油管 TG 8度科技:31417_2_2
+      - 油管 TG 8度科技:1095
+      - 油管 TG 8度科技:31416_2_2
+      - 油管 TG 8度科技:1303
+      - 油管 TG 8度科技:1602
+      - 油管 TG 8度科技:1952
+      - 油管 TG 8度科技:31126_2
+      - 油管 TG 8度科技:5019_2
+      - 油管 TG 8度科技:1602_2
+      - 油管 TG 8度科技:1602_2_2
+      - 油管 TG 8度科技:1122
+      - 油管 TG 8度科技:1051_2
+      - 油管 TG 8度科技:1123_2
+      - 油管 TG 8度科技:5018
+      - 油管 TG 8度科技:1802
+      - 油管 TG 8度科技:21418
+      - 油管 TG 8度科技:1095_2
+      - 油管 TG 8度科技:9112
+      - 油管 TG 8度科技:51011_2_2
+      - 油管 TG 8度科技:1601
+      - 油管 TG 8度科技:1952_2
+      - 油管 TG 8度科技:1612
+      - 油管 TG 8度科技:31126_2_2
+      - 油管 TG 8度科技:1022_2_2
+      - 油管 TG 8度科技:31313
+      - 油管 TG 8度科技:1951
+      - 油管 TG 8度科技:5018_2
+      - 油管 TG 8度科技:1603
+      - 油管 TG 8度科技:9111
+      - 油管 TG 8度科技:9121
+      - 油管 TG 8度科技:31125_2_2
+      - 油管 TG 8度科技:1101
+      - 油管 TG 8度科技:1051_2_2
+      - 油管 TG 8度科技:3002
+      - 油管 TG 8度科技:9121_2
+      - 油管 TG 8度科技:1605
+      - 油管 TG 8度科技:31313_2
+      - 油管 TG 8度科技:1201
+      - 油管 TG 8度科技:1703
+      - 油管 TG 8度科技:65017
+      - 油管 TG 8度科技:1122_2
+      - 油管 TG 8度科技:1605_2
+      - 油管 TG 8度科技:1101_2
+      - 油管 TG 8度科技:102
+      - 油管 TG 8度科技:1601_2
+      - 油管 TG 8度科技:1700
+      - 油管 TG 8度科技:1706
+      - 油管 TG 8度科技:5018_2_2
+      - 油管 TG 8度科技:65027
+      - 油管 TG 8度科技:1605_2_2
+      - 油管 TG 8度科技:1703_2
+      - 油管 TG 8度科技:1601_2_2
+      - 油管 TG 8度科技:1612_2
+      - 油管 TG 8度科技:1312
+      - 油管 TG 8度科技:1311
+      - 油管 TG 8度科技:1603_2
+      - 油管 TG 8度科技:1704
+      - 油管 TG 8度科技:1603_2_2
+      - 油管 TG 8度科技:3002_2
+      - 油管 TG 8度科技:9112_2
+      - 油管 TG 8度科技:6111
+      - 油管 TG 8度科技:5019_2_2
+      - 油管 TG 8度科技:1303_2
+      - 油管 TG 8度科技:9121_2_2
+      - 油管 TG 8度科技:1212
+      - 油管 TG 8度科技:1303_2_2
+      - 油管 TG 8度科技:9112_2_2
+      - 油管 TG 8度科技:6112
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技:45250
-      - CN_油管 TG 8度科技:45239
-      - HK_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:45149
-      - CN_油管 TG 8度科技:45239_2
-      - CN_油管 TG 8度科技:45250_2
-      - CN_油管 TG 8度科技:45149_2
-      - CN_油管 TG 8度科技:45184
-      - SK_油管 TG 8度科技:8886
-      - CN_油管 TG 8度科技:45184_2
-      - CN_油管 TG 8度科技:21201
-      - US_油管 TG 8度科技:10052
-      - CN_油管 TG 8度科技:21233
-      - HK_油管 TG 8度科技:21168
-      - CN_油管 TG 8度科技:45394
-      - US_油管 TG 8度科技:10058
-      - HK_油管 TG 8度科技:8485
-      - SG_油管 TG 8度科技:63530
-      - HK_油管 TG 8度科技:8486
-      - HK_油管 TG 8度科技:8485_2
-      - HK_油管 TG 8度科技:8486_2
-      - US_油管 TG 8度科技:42383
-      - US_油管 TG 8度科技:10063
-      - HK_油管 TG 8度科技:8486_2_2
-      - CN_油管 TG 8度科技:45394_2
-      - CN_油管 TG 8度科技:61765
-      - US_油管 TG 8度科技:17247
-      - US_油管 TG 8度科技:63609
-      - HK_油管 TG 8度科技:25082
-      - US_油管 TG 8度科技:11794
-      - GB_油管 TG 8度科技:8485
-      - US_油管 TG 8度科技:443
+      - 油管 TG 8度科技:1051
+      - 油管 TG 8度科技:1022
+      - 油管 TG 8度科技:31417
+      - 油管 TG 8度科技:31417_2
+      - 油管 TG 8度科技:31416
+      - 油管 TG 8度科技:31126
+      - 油管 TG 8度科技:31416_2
+      - 油管 TG 8度科技:1202
+      - 油管 TG 8度科技:60021
+      - 油管 TG 8度科技:1611
+      - 油管 TG 8度科技:2089
+      - 油管 TG 8度科技:1022_2
+      - 油管 TG 8度科技:51011
+      - 油管 TG 8度科技:51011_2
+      - 油管 TG 8度科技:2089_2
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:2086
+      - 油管 TG 8度科技:1001
+      - 油管 TG 8度科技:1202_2
+      - 油管 TG 8度科技:51012
+      - 油管 TG 8度科技:2086_2
+      - 油管 TG 8度科技:2089_2_2
+      - 油管 TG 8度科技:17247
+      - 油管 TG 8度科技:2086_2_2
+      - 油管 TG 8度科技:51012_2
+      - 油管 TG 8度科技:31125
+      - 油管 TG 8度科技:1202_2_2
+      - 油管 TG 8度科技:5019
+      - 油管 TG 8度科技:1301
+      - 油管 TG 8度科技:31125_2
+      - 油管 TG 8度科技:1123
+      - 油管 TG 8度科技:3001
+      - 油管 TG 8度科技:31417_2_2
+      - 油管 TG 8度科技:1095
+      - 油管 TG 8度科技:31416_2_2
+      - 油管 TG 8度科技:1303
+      - 油管 TG 8度科技:1602
+      - 油管 TG 8度科技:1952
+      - 油管 TG 8度科技:31126_2
+      - 油管 TG 8度科技:5019_2
+      - 油管 TG 8度科技:1602_2
+      - 油管 TG 8度科技:1602_2_2
+      - 油管 TG 8度科技:1122
+      - 油管 TG 8度科技:1051_2
+      - 油管 TG 8度科技:1123_2
+      - 油管 TG 8度科技:5018
+      - 油管 TG 8度科技:1802
+      - 油管 TG 8度科技:21418
+      - 油管 TG 8度科技:1095_2
+      - 油管 TG 8度科技:9112
+      - 油管 TG 8度科技:51011_2_2
+      - 油管 TG 8度科技:1601
+      - 油管 TG 8度科技:1952_2
+      - 油管 TG 8度科技:1612
+      - 油管 TG 8度科技:31126_2_2
+      - 油管 TG 8度科技:1022_2_2
+      - 油管 TG 8度科技:31313
+      - 油管 TG 8度科技:1951
+      - 油管 TG 8度科技:5018_2
+      - 油管 TG 8度科技:1603
+      - 油管 TG 8度科技:9111
+      - 油管 TG 8度科技:9121
+      - 油管 TG 8度科技:31125_2_2
+      - 油管 TG 8度科技:1101
+      - 油管 TG 8度科技:1051_2_2
+      - 油管 TG 8度科技:3002
+      - 油管 TG 8度科技:9121_2
+      - 油管 TG 8度科技:1605
+      - 油管 TG 8度科技:31313_2
+      - 油管 TG 8度科技:1201
+      - 油管 TG 8度科技:1703
+      - 油管 TG 8度科技:65017
+      - 油管 TG 8度科技:1122_2
+      - 油管 TG 8度科技:1605_2
+      - 油管 TG 8度科技:1101_2
+      - 油管 TG 8度科技:102
+      - 油管 TG 8度科技:1601_2
+      - 油管 TG 8度科技:1700
+      - 油管 TG 8度科技:1706
+      - 油管 TG 8度科技:5018_2_2
+      - 油管 TG 8度科技:65027
+      - 油管 TG 8度科技:1605_2_2
+      - 油管 TG 8度科技:1703_2
+      - 油管 TG 8度科技:1601_2_2
+      - 油管 TG 8度科技:1612_2
+      - 油管 TG 8度科技:1312
+      - 油管 TG 8度科技:1311
+      - 油管 TG 8度科技:1603_2
+      - 油管 TG 8度科技:1704
+      - 油管 TG 8度科技:1603_2_2
+      - 油管 TG 8度科技:3002_2
+      - 油管 TG 8度科技:9112_2
+      - 油管 TG 8度科技:6111
+      - 油管 TG 8度科技:5019_2_2
+      - 油管 TG 8度科技:1303_2
+      - 油管 TG 8度科技:9121_2_2
+      - 油管 TG 8度科技:1212
+      - 油管 TG 8度科技:1303_2_2
+      - 油管 TG 8度科技:9112_2_2
+      - 油管 TG 8度科技:6112
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_油管 TG 8度科技:45250
-      - CN_油管 TG 8度科技:45239
-      - HK_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:45149
-      - CN_油管 TG 8度科技:45239_2
-      - CN_油管 TG 8度科技:45250_2
-      - CN_油管 TG 8度科技:45149_2
-      - CN_油管 TG 8度科技:45184
-      - SK_油管 TG 8度科技:8886
-      - CN_油管 TG 8度科技:45184_2
-      - CN_油管 TG 8度科技:21201
-      - US_油管 TG 8度科技:10052
-      - CN_油管 TG 8度科技:21233
-      - HK_油管 TG 8度科技:21168
-      - CN_油管 TG 8度科技:45394
-      - US_油管 TG 8度科技:10058
-      - HK_油管 TG 8度科技:8485
-      - SG_油管 TG 8度科技:63530
-      - HK_油管 TG 8度科技:8486
-      - HK_油管 TG 8度科技:8485_2
-      - HK_油管 TG 8度科技:8486_2
-      - US_油管 TG 8度科技:42383
-      - US_油管 TG 8度科技:10063
-      - HK_油管 TG 8度科技:8486_2_2
-      - CN_油管 TG 8度科技:45394_2
-      - CN_油管 TG 8度科技:61765
-      - US_油管 TG 8度科技:17247
-      - US_油管 TG 8度科技:63609
-      - HK_油管 TG 8度科技:25082
-      - US_油管 TG 8度科技:11794
-      - GB_油管 TG 8度科技:8485
-      - US_油管 TG 8度科技:443
+      - 油管 TG 8度科技:1051
+      - 油管 TG 8度科技:1022
+      - 油管 TG 8度科技:31417
+      - 油管 TG 8度科技:31417_2
+      - 油管 TG 8度科技:31416
+      - 油管 TG 8度科技:31126
+      - 油管 TG 8度科技:31416_2
+      - 油管 TG 8度科技:1202
+      - 油管 TG 8度科技:60021
+      - 油管 TG 8度科技:1611
+      - 油管 TG 8度科技:2089
+      - 油管 TG 8度科技:1022_2
+      - 油管 TG 8度科技:51011
+      - 油管 TG 8度科技:51011_2
+      - 油管 TG 8度科技:2089_2
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:2086
+      - 油管 TG 8度科技:1001
+      - 油管 TG 8度科技:1202_2
+      - 油管 TG 8度科技:51012
+      - 油管 TG 8度科技:2086_2
+      - 油管 TG 8度科技:2089_2_2
+      - 油管 TG 8度科技:17247
+      - 油管 TG 8度科技:2086_2_2
+      - 油管 TG 8度科技:51012_2
+      - 油管 TG 8度科技:31125
+      - 油管 TG 8度科技:1202_2_2
+      - 油管 TG 8度科技:5019
+      - 油管 TG 8度科技:1301
+      - 油管 TG 8度科技:31125_2
+      - 油管 TG 8度科技:1123
+      - 油管 TG 8度科技:3001
+      - 油管 TG 8度科技:31417_2_2
+      - 油管 TG 8度科技:1095
+      - 油管 TG 8度科技:31416_2_2
+      - 油管 TG 8度科技:1303
+      - 油管 TG 8度科技:1602
+      - 油管 TG 8度科技:1952
+      - 油管 TG 8度科技:31126_2
+      - 油管 TG 8度科技:5019_2
+      - 油管 TG 8度科技:1602_2
+      - 油管 TG 8度科技:1602_2_2
+      - 油管 TG 8度科技:1122
+      - 油管 TG 8度科技:1051_2
+      - 油管 TG 8度科技:1123_2
+      - 油管 TG 8度科技:5018
+      - 油管 TG 8度科技:1802
+      - 油管 TG 8度科技:21418
+      - 油管 TG 8度科技:1095_2
+      - 油管 TG 8度科技:9112
+      - 油管 TG 8度科技:51011_2_2
+      - 油管 TG 8度科技:1601
+      - 油管 TG 8度科技:1952_2
+      - 油管 TG 8度科技:1612
+      - 油管 TG 8度科技:31126_2_2
+      - 油管 TG 8度科技:1022_2_2
+      - 油管 TG 8度科技:31313
+      - 油管 TG 8度科技:1951
+      - 油管 TG 8度科技:5018_2
+      - 油管 TG 8度科技:1603
+      - 油管 TG 8度科技:9111
+      - 油管 TG 8度科技:9121
+      - 油管 TG 8度科技:31125_2_2
+      - 油管 TG 8度科技:1101
+      - 油管 TG 8度科技:1051_2_2
+      - 油管 TG 8度科技:3002
+      - 油管 TG 8度科技:9121_2
+      - 油管 TG 8度科技:1605
+      - 油管 TG 8度科技:31313_2
+      - 油管 TG 8度科技:1201
+      - 油管 TG 8度科技:1703
+      - 油管 TG 8度科技:65017
+      - 油管 TG 8度科技:1122_2
+      - 油管 TG 8度科技:1605_2
+      - 油管 TG 8度科技:1101_2
+      - 油管 TG 8度科技:102
+      - 油管 TG 8度科技:1601_2
+      - 油管 TG 8度科技:1700
+      - 油管 TG 8度科技:1706
+      - 油管 TG 8度科技:5018_2_2
+      - 油管 TG 8度科技:65027
+      - 油管 TG 8度科技:1605_2_2
+      - 油管 TG 8度科技:1703_2
+      - 油管 TG 8度科技:1601_2_2
+      - 油管 TG 8度科技:1612_2
+      - 油管 TG 8度科技:1312
+      - 油管 TG 8度科技:1311
+      - 油管 TG 8度科技:1603_2
+      - 油管 TG 8度科技:1704
+      - 油管 TG 8度科技:1603_2_2
+      - 油管 TG 8度科技:3002_2
+      - 油管 TG 8度科技:9112_2
+      - 油管 TG 8度科技:6111
+      - 油管 TG 8度科技:5019_2_2
+      - 油管 TG 8度科技:1303_2
+      - 油管 TG 8度科技:9121_2_2
+      - 油管 TG 8度科技:1212
+      - 油管 TG 8度科技:1303_2_2
+      - 油管 TG 8度科技:9112_2_2
+      - 油管 TG 8度科技:6112
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_油管 TG 8度科技:45250
-      - CN_油管 TG 8度科技:45239
-      - HK_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:45149
-      - CN_油管 TG 8度科技:45239_2
-      - CN_油管 TG 8度科技:45250_2
-      - CN_油管 TG 8度科技:45149_2
-      - CN_油管 TG 8度科技:45184
-      - SK_油管 TG 8度科技:8886
-      - CN_油管 TG 8度科技:45184_2
-      - CN_油管 TG 8度科技:21201
-      - US_油管 TG 8度科技:10052
-      - CN_油管 TG 8度科技:21233
-      - HK_油管 TG 8度科技:21168
-      - CN_油管 TG 8度科技:45394
-      - US_油管 TG 8度科技:10058
-      - HK_油管 TG 8度科技:8485
-      - SG_油管 TG 8度科技:63530
-      - HK_油管 TG 8度科技:8486
-      - HK_油管 TG 8度科技:8485_2
-      - HK_油管 TG 8度科技:8486_2
-      - US_油管 TG 8度科技:42383
-      - US_油管 TG 8度科技:10063
-      - HK_油管 TG 8度科技:8486_2_2
-      - CN_油管 TG 8度科技:45394_2
-      - CN_油管 TG 8度科技:61765
-      - US_油管 TG 8度科技:17247
-      - US_油管 TG 8度科技:63609
-      - HK_油管 TG 8度科技:25082
-      - US_油管 TG 8度科技:11794
-      - GB_油管 TG 8度科技:8485
-      - US_油管 TG 8度科技:443
+      - 油管 TG 8度科技:1051
+      - 油管 TG 8度科技:1022
+      - 油管 TG 8度科技:31417
+      - 油管 TG 8度科技:31417_2
+      - 油管 TG 8度科技:31416
+      - 油管 TG 8度科技:31126
+      - 油管 TG 8度科技:31416_2
+      - 油管 TG 8度科技:1202
+      - 油管 TG 8度科技:60021
+      - 油管 TG 8度科技:1611
+      - 油管 TG 8度科技:2089
+      - 油管 TG 8度科技:1022_2
+      - 油管 TG 8度科技:51011
+      - 油管 TG 8度科技:51011_2
+      - 油管 TG 8度科技:2089_2
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:2086
+      - 油管 TG 8度科技:1001
+      - 油管 TG 8度科技:1202_2
+      - 油管 TG 8度科技:51012
+      - 油管 TG 8度科技:2086_2
+      - 油管 TG 8度科技:2089_2_2
+      - 油管 TG 8度科技:17247
+      - 油管 TG 8度科技:2086_2_2
+      - 油管 TG 8度科技:51012_2
+      - 油管 TG 8度科技:31125
+      - 油管 TG 8度科技:1202_2_2
+      - 油管 TG 8度科技:5019
+      - 油管 TG 8度科技:1301
+      - 油管 TG 8度科技:31125_2
+      - 油管 TG 8度科技:1123
+      - 油管 TG 8度科技:3001
+      - 油管 TG 8度科技:31417_2_2
+      - 油管 TG 8度科技:1095
+      - 油管 TG 8度科技:31416_2_2
+      - 油管 TG 8度科技:1303
+      - 油管 TG 8度科技:1602
+      - 油管 TG 8度科技:1952
+      - 油管 TG 8度科技:31126_2
+      - 油管 TG 8度科技:5019_2
+      - 油管 TG 8度科技:1602_2
+      - 油管 TG 8度科技:1602_2_2
+      - 油管 TG 8度科技:1122
+      - 油管 TG 8度科技:1051_2
+      - 油管 TG 8度科技:1123_2
+      - 油管 TG 8度科技:5018
+      - 油管 TG 8度科技:1802
+      - 油管 TG 8度科技:21418
+      - 油管 TG 8度科技:1095_2
+      - 油管 TG 8度科技:9112
+      - 油管 TG 8度科技:51011_2_2
+      - 油管 TG 8度科技:1601
+      - 油管 TG 8度科技:1952_2
+      - 油管 TG 8度科技:1612
+      - 油管 TG 8度科技:31126_2_2
+      - 油管 TG 8度科技:1022_2_2
+      - 油管 TG 8度科技:31313
+      - 油管 TG 8度科技:1951
+      - 油管 TG 8度科技:5018_2
+      - 油管 TG 8度科技:1603
+      - 油管 TG 8度科技:9111
+      - 油管 TG 8度科技:9121
+      - 油管 TG 8度科技:31125_2_2
+      - 油管 TG 8度科技:1101
+      - 油管 TG 8度科技:1051_2_2
+      - 油管 TG 8度科技:3002
+      - 油管 TG 8度科技:9121_2
+      - 油管 TG 8度科技:1605
+      - 油管 TG 8度科技:31313_2
+      - 油管 TG 8度科技:1201
+      - 油管 TG 8度科技:1703
+      - 油管 TG 8度科技:65017
+      - 油管 TG 8度科技:1122_2
+      - 油管 TG 8度科技:1605_2
+      - 油管 TG 8度科技:1101_2
+      - 油管 TG 8度科技:102
+      - 油管 TG 8度科技:1601_2
+      - 油管 TG 8度科技:1700
+      - 油管 TG 8度科技:1706
+      - 油管 TG 8度科技:5018_2_2
+      - 油管 TG 8度科技:65027
+      - 油管 TG 8度科技:1605_2_2
+      - 油管 TG 8度科技:1703_2
+      - 油管 TG 8度科技:1601_2_2
+      - 油管 TG 8度科技:1612_2
+      - 油管 TG 8度科技:1312
+      - 油管 TG 8度科技:1311
+      - 油管 TG 8度科技:1603_2
+      - 油管 TG 8度科技:1704
+      - 油管 TG 8度科技:1603_2_2
+      - 油管 TG 8度科技:3002_2
+      - 油管 TG 8度科技:9112_2
+      - 油管 TG 8度科技:6111
+      - 油管 TG 8度科技:5019_2_2
+      - 油管 TG 8度科技:1303_2
+      - 油管 TG 8度科技:9121_2_2
+      - 油管 TG 8度科技:1212
+      - 油管 TG 8度科技:1303_2_2
+      - 油管 TG 8度科技:9112_2_2
+      - 油管 TG 8度科技:6112
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_油管 TG 8度科技:45250
-      - CN_油管 TG 8度科技:45239
-      - HK_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:45149
-      - CN_油管 TG 8度科技:45239_2
-      - CN_油管 TG 8度科技:45250_2
-      - CN_油管 TG 8度科技:45149_2
-      - CN_油管 TG 8度科技:45184
-      - SK_油管 TG 8度科技:8886
-      - CN_油管 TG 8度科技:45184_2
-      - CN_油管 TG 8度科技:21201
-      - US_油管 TG 8度科技:10052
-      - CN_油管 TG 8度科技:21233
-      - HK_油管 TG 8度科技:21168
-      - CN_油管 TG 8度科技:45394
-      - US_油管 TG 8度科技:10058
-      - HK_油管 TG 8度科技:8485
-      - SG_油管 TG 8度科技:63530
-      - HK_油管 TG 8度科技:8486
-      - HK_油管 TG 8度科技:8485_2
-      - HK_油管 TG 8度科技:8486_2
-      - US_油管 TG 8度科技:42383
-      - US_油管 TG 8度科技:10063
-      - HK_油管 TG 8度科技:8486_2_2
-      - CN_油管 TG 8度科技:45394_2
-      - CN_油管 TG 8度科技:61765
-      - US_油管 TG 8度科技:17247
-      - US_油管 TG 8度科技:63609
-      - HK_油管 TG 8度科技:25082
-      - US_油管 TG 8度科技:11794
-      - GB_油管 TG 8度科技:8485
-      - US_油管 TG 8度科技:443
+      - 油管 TG 8度科技:1051
+      - 油管 TG 8度科技:1022
+      - 油管 TG 8度科技:31417
+      - 油管 TG 8度科技:31417_2
+      - 油管 TG 8度科技:31416
+      - 油管 TG 8度科技:31126
+      - 油管 TG 8度科技:31416_2
+      - 油管 TG 8度科技:1202
+      - 油管 TG 8度科技:60021
+      - 油管 TG 8度科技:1611
+      - 油管 TG 8度科技:2089
+      - 油管 TG 8度科技:1022_2
+      - 油管 TG 8度科技:51011
+      - 油管 TG 8度科技:51011_2
+      - 油管 TG 8度科技:2089_2
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:2086
+      - 油管 TG 8度科技:1001
+      - 油管 TG 8度科技:1202_2
+      - 油管 TG 8度科技:51012
+      - 油管 TG 8度科技:2086_2
+      - 油管 TG 8度科技:2089_2_2
+      - 油管 TG 8度科技:17247
+      - 油管 TG 8度科技:2086_2_2
+      - 油管 TG 8度科技:51012_2
+      - 油管 TG 8度科技:31125
+      - 油管 TG 8度科技:1202_2_2
+      - 油管 TG 8度科技:5019
+      - 油管 TG 8度科技:1301
+      - 油管 TG 8度科技:31125_2
+      - 油管 TG 8度科技:1123
+      - 油管 TG 8度科技:3001
+      - 油管 TG 8度科技:31417_2_2
+      - 油管 TG 8度科技:1095
+      - 油管 TG 8度科技:31416_2_2
+      - 油管 TG 8度科技:1303
+      - 油管 TG 8度科技:1602
+      - 油管 TG 8度科技:1952
+      - 油管 TG 8度科技:31126_2
+      - 油管 TG 8度科技:5019_2
+      - 油管 TG 8度科技:1602_2
+      - 油管 TG 8度科技:1602_2_2
+      - 油管 TG 8度科技:1122
+      - 油管 TG 8度科技:1051_2
+      - 油管 TG 8度科技:1123_2
+      - 油管 TG 8度科技:5018
+      - 油管 TG 8度科技:1802
+      - 油管 TG 8度科技:21418
+      - 油管 TG 8度科技:1095_2
+      - 油管 TG 8度科技:9112
+      - 油管 TG 8度科技:51011_2_2
+      - 油管 TG 8度科技:1601
+      - 油管 TG 8度科技:1952_2
+      - 油管 TG 8度科技:1612
+      - 油管 TG 8度科技:31126_2_2
+      - 油管 TG 8度科技:1022_2_2
+      - 油管 TG 8度科技:31313
+      - 油管 TG 8度科技:1951
+      - 油管 TG 8度科技:5018_2
+      - 油管 TG 8度科技:1603
+      - 油管 TG 8度科技:9111
+      - 油管 TG 8度科技:9121
+      - 油管 TG 8度科技:31125_2_2
+      - 油管 TG 8度科技:1101
+      - 油管 TG 8度科技:1051_2_2
+      - 油管 TG 8度科技:3002
+      - 油管 TG 8度科技:9121_2
+      - 油管 TG 8度科技:1605
+      - 油管 TG 8度科技:31313_2
+      - 油管 TG 8度科技:1201
+      - 油管 TG 8度科技:1703
+      - 油管 TG 8度科技:65017
+      - 油管 TG 8度科技:1122_2
+      - 油管 TG 8度科技:1605_2
+      - 油管 TG 8度科技:1101_2
+      - 油管 TG 8度科技:102
+      - 油管 TG 8度科技:1601_2
+      - 油管 TG 8度科技:1700
+      - 油管 TG 8度科技:1706
+      - 油管 TG 8度科技:5018_2_2
+      - 油管 TG 8度科技:65027
+      - 油管 TG 8度科技:1605_2_2
+      - 油管 TG 8度科技:1703_2
+      - 油管 TG 8度科技:1601_2_2
+      - 油管 TG 8度科技:1612_2
+      - 油管 TG 8度科技:1312
+      - 油管 TG 8度科技:1311
+      - 油管 TG 8度科技:1603_2
+      - 油管 TG 8度科技:1704
+      - 油管 TG 8度科技:1603_2_2
+      - 油管 TG 8度科技:3002_2
+      - 油管 TG 8度科技:9112_2
+      - 油管 TG 8度科技:6111
+      - 油管 TG 8度科技:5019_2_2
+      - 油管 TG 8度科技:1303_2
+      - 油管 TG 8度科技:9121_2_2
+      - 油管 TG 8度科技:1212
+      - 油管 TG 8度科技:1303_2_2
+      - 油管 TG 8度科技:9112_2_2
+      - 油管 TG 8度科技:6112
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - CN_油管 TG 8度科技:45250
-      - CN_油管 TG 8度科技:45239
-      - HK_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:45149
-      - CN_油管 TG 8度科技:45239_2
-      - CN_油管 TG 8度科技:45250_2
-      - CN_油管 TG 8度科技:45149_2
-      - CN_油管 TG 8度科技:45184
-      - SK_油管 TG 8度科技:8886
-      - CN_油管 TG 8度科技:45184_2
-      - CN_油管 TG 8度科技:21201
-      - US_油管 TG 8度科技:10052
-      - CN_油管 TG 8度科技:21233
-      - HK_油管 TG 8度科技:21168
-      - CN_油管 TG 8度科技:45394
-      - US_油管 TG 8度科技:10058
-      - HK_油管 TG 8度科技:8485
-      - SG_油管 TG 8度科技:63530
-      - HK_油管 TG 8度科技:8486
-      - HK_油管 TG 8度科技:8485_2
-      - HK_油管 TG 8度科技:8486_2
-      - US_油管 TG 8度科技:42383
-      - US_油管 TG 8度科技:10063
-      - HK_油管 TG 8度科技:8486_2_2
-      - CN_油管 TG 8度科技:45394_2
-      - CN_油管 TG 8度科技:61765
-      - US_油管 TG 8度科技:17247
-      - US_油管 TG 8度科技:63609
-      - HK_油管 TG 8度科技:25082
-      - US_油管 TG 8度科技:11794
-      - GB_油管 TG 8度科技:8485
-      - US_油管 TG 8度科技:443
+      - 油管 TG 8度科技:1051
+      - 油管 TG 8度科技:1022
+      - 油管 TG 8度科技:31417
+      - 油管 TG 8度科技:31417_2
+      - 油管 TG 8度科技:31416
+      - 油管 TG 8度科技:31126
+      - 油管 TG 8度科技:31416_2
+      - 油管 TG 8度科技:1202
+      - 油管 TG 8度科技:60021
+      - 油管 TG 8度科技:1611
+      - 油管 TG 8度科技:2089
+      - 油管 TG 8度科技:1022_2
+      - 油管 TG 8度科技:51011
+      - 油管 TG 8度科技:51011_2
+      - 油管 TG 8度科技:2089_2
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:2086
+      - 油管 TG 8度科技:1001
+      - 油管 TG 8度科技:1202_2
+      - 油管 TG 8度科技:51012
+      - 油管 TG 8度科技:2086_2
+      - 油管 TG 8度科技:2089_2_2
+      - 油管 TG 8度科技:17247
+      - 油管 TG 8度科技:2086_2_2
+      - 油管 TG 8度科技:51012_2
+      - 油管 TG 8度科技:31125
+      - 油管 TG 8度科技:1202_2_2
+      - 油管 TG 8度科技:5019
+      - 油管 TG 8度科技:1301
+      - 油管 TG 8度科技:31125_2
+      - 油管 TG 8度科技:1123
+      - 油管 TG 8度科技:3001
+      - 油管 TG 8度科技:31417_2_2
+      - 油管 TG 8度科技:1095
+      - 油管 TG 8度科技:31416_2_2
+      - 油管 TG 8度科技:1303
+      - 油管 TG 8度科技:1602
+      - 油管 TG 8度科技:1952
+      - 油管 TG 8度科技:31126_2
+      - 油管 TG 8度科技:5019_2
+      - 油管 TG 8度科技:1602_2
+      - 油管 TG 8度科技:1602_2_2
+      - 油管 TG 8度科技:1122
+      - 油管 TG 8度科技:1051_2
+      - 油管 TG 8度科技:1123_2
+      - 油管 TG 8度科技:5018
+      - 油管 TG 8度科技:1802
+      - 油管 TG 8度科技:21418
+      - 油管 TG 8度科技:1095_2
+      - 油管 TG 8度科技:9112
+      - 油管 TG 8度科技:51011_2_2
+      - 油管 TG 8度科技:1601
+      - 油管 TG 8度科技:1952_2
+      - 油管 TG 8度科技:1612
+      - 油管 TG 8度科技:31126_2_2
+      - 油管 TG 8度科技:1022_2_2
+      - 油管 TG 8度科技:31313
+      - 油管 TG 8度科技:1951
+      - 油管 TG 8度科技:5018_2
+      - 油管 TG 8度科技:1603
+      - 油管 TG 8度科技:9111
+      - 油管 TG 8度科技:9121
+      - 油管 TG 8度科技:31125_2_2
+      - 油管 TG 8度科技:1101
+      - 油管 TG 8度科技:1051_2_2
+      - 油管 TG 8度科技:3002
+      - 油管 TG 8度科技:9121_2
+      - 油管 TG 8度科技:1605
+      - 油管 TG 8度科技:31313_2
+      - 油管 TG 8度科技:1201
+      - 油管 TG 8度科技:1703
+      - 油管 TG 8度科技:65017
+      - 油管 TG 8度科技:1122_2
+      - 油管 TG 8度科技:1605_2
+      - 油管 TG 8度科技:1101_2
+      - 油管 TG 8度科技:102
+      - 油管 TG 8度科技:1601_2
+      - 油管 TG 8度科技:1700
+      - 油管 TG 8度科技:1706
+      - 油管 TG 8度科技:5018_2_2
+      - 油管 TG 8度科技:65027
+      - 油管 TG 8度科技:1605_2_2
+      - 油管 TG 8度科技:1703_2
+      - 油管 TG 8度科技:1601_2_2
+      - 油管 TG 8度科技:1612_2
+      - 油管 TG 8度科技:1312
+      - 油管 TG 8度科技:1311
+      - 油管 TG 8度科技:1603_2
+      - 油管 TG 8度科技:1704
+      - 油管 TG 8度科技:1603_2_2
+      - 油管 TG 8度科技:3002_2
+      - 油管 TG 8度科技:9112_2
+      - 油管 TG 8度科技:6111
+      - 油管 TG 8度科技:5019_2_2
+      - 油管 TG 8度科技:1303_2
+      - 油管 TG 8度科技:9121_2_2
+      - 油管 TG 8度科技:1212
+      - 油管 TG 8度科技:1303_2_2
+      - 油管 TG 8度科技:9112_2_2
+      - 油管 TG 8度科技:6112
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - CN_油管 TG 8度科技:45250
-      - CN_油管 TG 8度科技:45239
-      - HK_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:45149
-      - CN_油管 TG 8度科技:45239_2
-      - CN_油管 TG 8度科技:45250_2
-      - CN_油管 TG 8度科技:45149_2
-      - CN_油管 TG 8度科技:45184
-      - SK_油管 TG 8度科技:8886
-      - CN_油管 TG 8度科技:45184_2
-      - CN_油管 TG 8度科技:21201
-      - US_油管 TG 8度科技:10052
-      - CN_油管 TG 8度科技:21233
-      - HK_油管 TG 8度科技:21168
-      - CN_油管 TG 8度科技:45394
-      - US_油管 TG 8度科技:10058
-      - HK_油管 TG 8度科技:8485
-      - SG_油管 TG 8度科技:63530
-      - HK_油管 TG 8度科技:8486
-      - HK_油管 TG 8度科技:8485_2
-      - HK_油管 TG 8度科技:8486_2
-      - US_油管 TG 8度科技:42383
-      - US_油管 TG 8度科技:10063
-      - HK_油管 TG 8度科技:8486_2_2
-      - CN_油管 TG 8度科技:45394_2
-      - CN_油管 TG 8度科技:61765
-      - US_油管 TG 8度科技:17247
-      - US_油管 TG 8度科技:63609
-      - HK_油管 TG 8度科技:25082
-      - US_油管 TG 8度科技:11794
-      - GB_油管 TG 8度科技:8485
-      - US_油管 TG 8度科技:443
+      - 油管 TG 8度科技:1051
+      - 油管 TG 8度科技:1022
+      - 油管 TG 8度科技:31417
+      - 油管 TG 8度科技:31417_2
+      - 油管 TG 8度科技:31416
+      - 油管 TG 8度科技:31126
+      - 油管 TG 8度科技:31416_2
+      - 油管 TG 8度科技:1202
+      - 油管 TG 8度科技:60021
+      - 油管 TG 8度科技:1611
+      - 油管 TG 8度科技:2089
+      - 油管 TG 8度科技:1022_2
+      - 油管 TG 8度科技:51011
+      - 油管 TG 8度科技:51011_2
+      - 油管 TG 8度科技:2089_2
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:2086
+      - 油管 TG 8度科技:1001
+      - 油管 TG 8度科技:1202_2
+      - 油管 TG 8度科技:51012
+      - 油管 TG 8度科技:2086_2
+      - 油管 TG 8度科技:2089_2_2
+      - 油管 TG 8度科技:17247
+      - 油管 TG 8度科技:2086_2_2
+      - 油管 TG 8度科技:51012_2
+      - 油管 TG 8度科技:31125
+      - 油管 TG 8度科技:1202_2_2
+      - 油管 TG 8度科技:5019
+      - 油管 TG 8度科技:1301
+      - 油管 TG 8度科技:31125_2
+      - 油管 TG 8度科技:1123
+      - 油管 TG 8度科技:3001
+      - 油管 TG 8度科技:31417_2_2
+      - 油管 TG 8度科技:1095
+      - 油管 TG 8度科技:31416_2_2
+      - 油管 TG 8度科技:1303
+      - 油管 TG 8度科技:1602
+      - 油管 TG 8度科技:1952
+      - 油管 TG 8度科技:31126_2
+      - 油管 TG 8度科技:5019_2
+      - 油管 TG 8度科技:1602_2
+      - 油管 TG 8度科技:1602_2_2
+      - 油管 TG 8度科技:1122
+      - 油管 TG 8度科技:1051_2
+      - 油管 TG 8度科技:1123_2
+      - 油管 TG 8度科技:5018
+      - 油管 TG 8度科技:1802
+      - 油管 TG 8度科技:21418
+      - 油管 TG 8度科技:1095_2
+      - 油管 TG 8度科技:9112
+      - 油管 TG 8度科技:51011_2_2
+      - 油管 TG 8度科技:1601
+      - 油管 TG 8度科技:1952_2
+      - 油管 TG 8度科技:1612
+      - 油管 TG 8度科技:31126_2_2
+      - 油管 TG 8度科技:1022_2_2
+      - 油管 TG 8度科技:31313
+      - 油管 TG 8度科技:1951
+      - 油管 TG 8度科技:5018_2
+      - 油管 TG 8度科技:1603
+      - 油管 TG 8度科技:9111
+      - 油管 TG 8度科技:9121
+      - 油管 TG 8度科技:31125_2_2
+      - 油管 TG 8度科技:1101
+      - 油管 TG 8度科技:1051_2_2
+      - 油管 TG 8度科技:3002
+      - 油管 TG 8度科技:9121_2
+      - 油管 TG 8度科技:1605
+      - 油管 TG 8度科技:31313_2
+      - 油管 TG 8度科技:1201
+      - 油管 TG 8度科技:1703
+      - 油管 TG 8度科技:65017
+      - 油管 TG 8度科技:1122_2
+      - 油管 TG 8度科技:1605_2
+      - 油管 TG 8度科技:1101_2
+      - 油管 TG 8度科技:102
+      - 油管 TG 8度科技:1601_2
+      - 油管 TG 8度科技:1700
+      - 油管 TG 8度科技:1706
+      - 油管 TG 8度科技:5018_2_2
+      - 油管 TG 8度科技:65027
+      - 油管 TG 8度科技:1605_2_2
+      - 油管 TG 8度科技:1703_2
+      - 油管 TG 8度科技:1601_2_2
+      - 油管 TG 8度科技:1612_2
+      - 油管 TG 8度科技:1312
+      - 油管 TG 8度科技:1311
+      - 油管 TG 8度科技:1603_2
+      - 油管 TG 8度科技:1704
+      - 油管 TG 8度科技:1603_2_2
+      - 油管 TG 8度科技:3002_2
+      - 油管 TG 8度科技:9112_2
+      - 油管 TG 8度科技:6111
+      - 油管 TG 8度科技:5019_2_2
+      - 油管 TG 8度科技:1303_2
+      - 油管 TG 8度科技:9121_2_2
+      - 油管 TG 8度科技:1212
+      - 油管 TG 8度科技:1303_2_2
+      - 油管 TG 8度科技:9112_2_2
+      - 油管 TG 8度科技:6112
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - CN_油管 TG 8度科技:45250
-      - CN_油管 TG 8度科技:45239
-      - HK_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:45149
-      - CN_油管 TG 8度科技:45239_2
-      - CN_油管 TG 8度科技:45250_2
-      - CN_油管 TG 8度科技:45149_2
-      - CN_油管 TG 8度科技:45184
-      - SK_油管 TG 8度科技:8886
-      - CN_油管 TG 8度科技:45184_2
-      - CN_油管 TG 8度科技:21201
-      - US_油管 TG 8度科技:10052
-      - CN_油管 TG 8度科技:21233
-      - HK_油管 TG 8度科技:21168
-      - CN_油管 TG 8度科技:45394
-      - US_油管 TG 8度科技:10058
-      - HK_油管 TG 8度科技:8485
-      - SG_油管 TG 8度科技:63530
-      - HK_油管 TG 8度科技:8486
-      - HK_油管 TG 8度科技:8485_2
-      - HK_油管 TG 8度科技:8486_2
-      - US_油管 TG 8度科技:42383
-      - US_油管 TG 8度科技:10063
-      - HK_油管 TG 8度科技:8486_2_2
-      - CN_油管 TG 8度科技:45394_2
-      - CN_油管 TG 8度科技:61765
-      - US_油管 TG 8度科技:17247
-      - US_油管 TG 8度科技:63609
-      - HK_油管 TG 8度科技:25082
-      - US_油管 TG 8度科技:11794
-      - GB_油管 TG 8度科技:8485
-      - US_油管 TG 8度科技:443
+      - 油管 TG 8度科技:1051
+      - 油管 TG 8度科技:1022
+      - 油管 TG 8度科技:31417
+      - 油管 TG 8度科技:31417_2
+      - 油管 TG 8度科技:31416
+      - 油管 TG 8度科技:31126
+      - 油管 TG 8度科技:31416_2
+      - 油管 TG 8度科技:1202
+      - 油管 TG 8度科技:60021
+      - 油管 TG 8度科技:1611
+      - 油管 TG 8度科技:2089
+      - 油管 TG 8度科技:1022_2
+      - 油管 TG 8度科技:51011
+      - 油管 TG 8度科技:51011_2
+      - 油管 TG 8度科技:2089_2
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:2086
+      - 油管 TG 8度科技:1001
+      - 油管 TG 8度科技:1202_2
+      - 油管 TG 8度科技:51012
+      - 油管 TG 8度科技:2086_2
+      - 油管 TG 8度科技:2089_2_2
+      - 油管 TG 8度科技:17247
+      - 油管 TG 8度科技:2086_2_2
+      - 油管 TG 8度科技:51012_2
+      - 油管 TG 8度科技:31125
+      - 油管 TG 8度科技:1202_2_2
+      - 油管 TG 8度科技:5019
+      - 油管 TG 8度科技:1301
+      - 油管 TG 8度科技:31125_2
+      - 油管 TG 8度科技:1123
+      - 油管 TG 8度科技:3001
+      - 油管 TG 8度科技:31417_2_2
+      - 油管 TG 8度科技:1095
+      - 油管 TG 8度科技:31416_2_2
+      - 油管 TG 8度科技:1303
+      - 油管 TG 8度科技:1602
+      - 油管 TG 8度科技:1952
+      - 油管 TG 8度科技:31126_2
+      - 油管 TG 8度科技:5019_2
+      - 油管 TG 8度科技:1602_2
+      - 油管 TG 8度科技:1602_2_2
+      - 油管 TG 8度科技:1122
+      - 油管 TG 8度科技:1051_2
+      - 油管 TG 8度科技:1123_2
+      - 油管 TG 8度科技:5018
+      - 油管 TG 8度科技:1802
+      - 油管 TG 8度科技:21418
+      - 油管 TG 8度科技:1095_2
+      - 油管 TG 8度科技:9112
+      - 油管 TG 8度科技:51011_2_2
+      - 油管 TG 8度科技:1601
+      - 油管 TG 8度科技:1952_2
+      - 油管 TG 8度科技:1612
+      - 油管 TG 8度科技:31126_2_2
+      - 油管 TG 8度科技:1022_2_2
+      - 油管 TG 8度科技:31313
+      - 油管 TG 8度科技:1951
+      - 油管 TG 8度科技:5018_2
+      - 油管 TG 8度科技:1603
+      - 油管 TG 8度科技:9111
+      - 油管 TG 8度科技:9121
+      - 油管 TG 8度科技:31125_2_2
+      - 油管 TG 8度科技:1101
+      - 油管 TG 8度科技:1051_2_2
+      - 油管 TG 8度科技:3002
+      - 油管 TG 8度科技:9121_2
+      - 油管 TG 8度科技:1605
+      - 油管 TG 8度科技:31313_2
+      - 油管 TG 8度科技:1201
+      - 油管 TG 8度科技:1703
+      - 油管 TG 8度科技:65017
+      - 油管 TG 8度科技:1122_2
+      - 油管 TG 8度科技:1605_2
+      - 油管 TG 8度科技:1101_2
+      - 油管 TG 8度科技:102
+      - 油管 TG 8度科技:1601_2
+      - 油管 TG 8度科技:1700
+      - 油管 TG 8度科技:1706
+      - 油管 TG 8度科技:5018_2_2
+      - 油管 TG 8度科技:65027
+      - 油管 TG 8度科技:1605_2_2
+      - 油管 TG 8度科技:1703_2
+      - 油管 TG 8度科技:1601_2_2
+      - 油管 TG 8度科技:1612_2
+      - 油管 TG 8度科技:1312
+      - 油管 TG 8度科技:1311
+      - 油管 TG 8度科技:1603_2
+      - 油管 TG 8度科技:1704
+      - 油管 TG 8度科技:1603_2_2
+      - 油管 TG 8度科技:3002_2
+      - 油管 TG 8度科技:9112_2
+      - 油管 TG 8度科技:6111
+      - 油管 TG 8度科技:5019_2_2
+      - 油管 TG 8度科技:1303_2
+      - 油管 TG 8度科技:9121_2_2
+      - 油管 TG 8度科技:1212
+      - 油管 TG 8度科技:1303_2_2
+      - 油管 TG 8度科技:9112_2_2
+      - 油管 TG 8度科技:6112
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_油管 TG 8度科技:45250
-      - CN_油管 TG 8度科技:45239
-      - HK_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:45149
-      - CN_油管 TG 8度科技:45239_2
-      - CN_油管 TG 8度科技:45250_2
-      - CN_油管 TG 8度科技:45149_2
-      - CN_油管 TG 8度科技:45184
-      - SK_油管 TG 8度科技:8886
-      - CN_油管 TG 8度科技:45184_2
-      - CN_油管 TG 8度科技:21201
-      - US_油管 TG 8度科技:10052
-      - CN_油管 TG 8度科技:21233
-      - HK_油管 TG 8度科技:21168
-      - CN_油管 TG 8度科技:45394
-      - US_油管 TG 8度科技:10058
-      - HK_油管 TG 8度科技:8485
-      - SG_油管 TG 8度科技:63530
-      - HK_油管 TG 8度科技:8486
-      - HK_油管 TG 8度科技:8485_2
-      - HK_油管 TG 8度科技:8486_2
-      - US_油管 TG 8度科技:42383
-      - US_油管 TG 8度科技:10063
-      - HK_油管 TG 8度科技:8486_2_2
-      - CN_油管 TG 8度科技:45394_2
-      - CN_油管 TG 8度科技:61765
-      - US_油管 TG 8度科技:17247
-      - US_油管 TG 8度科技:63609
-      - HK_油管 TG 8度科技:25082
-      - US_油管 TG 8度科技:11794
-      - GB_油管 TG 8度科技:8485
-      - US_油管 TG 8度科技:443
+      - 油管 TG 8度科技:1051
+      - 油管 TG 8度科技:1022
+      - 油管 TG 8度科技:31417
+      - 油管 TG 8度科技:31417_2
+      - 油管 TG 8度科技:31416
+      - 油管 TG 8度科技:31126
+      - 油管 TG 8度科技:31416_2
+      - 油管 TG 8度科技:1202
+      - 油管 TG 8度科技:60021
+      - 油管 TG 8度科技:1611
+      - 油管 TG 8度科技:2089
+      - 油管 TG 8度科技:1022_2
+      - 油管 TG 8度科技:51011
+      - 油管 TG 8度科技:51011_2
+      - 油管 TG 8度科技:2089_2
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:2086
+      - 油管 TG 8度科技:1001
+      - 油管 TG 8度科技:1202_2
+      - 油管 TG 8度科技:51012
+      - 油管 TG 8度科技:2086_2
+      - 油管 TG 8度科技:2089_2_2
+      - 油管 TG 8度科技:17247
+      - 油管 TG 8度科技:2086_2_2
+      - 油管 TG 8度科技:51012_2
+      - 油管 TG 8度科技:31125
+      - 油管 TG 8度科技:1202_2_2
+      - 油管 TG 8度科技:5019
+      - 油管 TG 8度科技:1301
+      - 油管 TG 8度科技:31125_2
+      - 油管 TG 8度科技:1123
+      - 油管 TG 8度科技:3001
+      - 油管 TG 8度科技:31417_2_2
+      - 油管 TG 8度科技:1095
+      - 油管 TG 8度科技:31416_2_2
+      - 油管 TG 8度科技:1303
+      - 油管 TG 8度科技:1602
+      - 油管 TG 8度科技:1952
+      - 油管 TG 8度科技:31126_2
+      - 油管 TG 8度科技:5019_2
+      - 油管 TG 8度科技:1602_2
+      - 油管 TG 8度科技:1602_2_2
+      - 油管 TG 8度科技:1122
+      - 油管 TG 8度科技:1051_2
+      - 油管 TG 8度科技:1123_2
+      - 油管 TG 8度科技:5018
+      - 油管 TG 8度科技:1802
+      - 油管 TG 8度科技:21418
+      - 油管 TG 8度科技:1095_2
+      - 油管 TG 8度科技:9112
+      - 油管 TG 8度科技:51011_2_2
+      - 油管 TG 8度科技:1601
+      - 油管 TG 8度科技:1952_2
+      - 油管 TG 8度科技:1612
+      - 油管 TG 8度科技:31126_2_2
+      - 油管 TG 8度科技:1022_2_2
+      - 油管 TG 8度科技:31313
+      - 油管 TG 8度科技:1951
+      - 油管 TG 8度科技:5018_2
+      - 油管 TG 8度科技:1603
+      - 油管 TG 8度科技:9111
+      - 油管 TG 8度科技:9121
+      - 油管 TG 8度科技:31125_2_2
+      - 油管 TG 8度科技:1101
+      - 油管 TG 8度科技:1051_2_2
+      - 油管 TG 8度科技:3002
+      - 油管 TG 8度科技:9121_2
+      - 油管 TG 8度科技:1605
+      - 油管 TG 8度科技:31313_2
+      - 油管 TG 8度科技:1201
+      - 油管 TG 8度科技:1703
+      - 油管 TG 8度科技:65017
+      - 油管 TG 8度科技:1122_2
+      - 油管 TG 8度科技:1605_2
+      - 油管 TG 8度科技:1101_2
+      - 油管 TG 8度科技:102
+      - 油管 TG 8度科技:1601_2
+      - 油管 TG 8度科技:1700
+      - 油管 TG 8度科技:1706
+      - 油管 TG 8度科技:5018_2_2
+      - 油管 TG 8度科技:65027
+      - 油管 TG 8度科技:1605_2_2
+      - 油管 TG 8度科技:1703_2
+      - 油管 TG 8度科技:1601_2_2
+      - 油管 TG 8度科技:1612_2
+      - 油管 TG 8度科技:1312
+      - 油管 TG 8度科技:1311
+      - 油管 TG 8度科技:1603_2
+      - 油管 TG 8度科技:1704
+      - 油管 TG 8度科技:1603_2_2
+      - 油管 TG 8度科技:3002_2
+      - 油管 TG 8度科技:9112_2
+      - 油管 TG 8度科技:6111
+      - 油管 TG 8度科技:5019_2_2
+      - 油管 TG 8度科技:1303_2
+      - 油管 TG 8度科技:9121_2_2
+      - 油管 TG 8度科技:1212
+      - 油管 TG 8度科技:1303_2_2
+      - 油管 TG 8度科技:9112_2_2
+      - 油管 TG 8度科技:6112
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
