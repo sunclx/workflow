@@ -129,7 +129,7 @@ for c in range(1,config_list['每次轮数']+1):
             else:
                 print("原版顺序,共十个api,自己数")
                 apilist=[5,9,8,1,20,24,23,6,21,22]
-                runapi(apilista,a)
+                runapi(apilist,a)
         else:
             client_id=os.getenv('CLIENT_ID_'+str(a))
             client_secret=os.getenv('CLIENT_SECRET_'+str(a))
