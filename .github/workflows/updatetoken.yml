@@ -48,4 +48,4 @@ jobs:
         CLIENT_ID_n: ${{ secrets.CLIENT_ID_n }}
         CLIENT_SECRET_n: ${{ secrets.CLIENT_SECRET_n }}
       run: |
-        python src/python/AutoApi/updatetoken.py
+        python src/python/AutoApiP/updatetoken.py

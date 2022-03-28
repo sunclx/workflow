@@ -34,4 +34,4 @@ jobs:
         CLIENT_ID: ${{ secrets.CLIENT_ID }}
         CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
       run: |
-        python src/python/AutoApi/runapi.py
+        python src/python/AutoApiP/runapi.py
