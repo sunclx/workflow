@@ -5,288 +5,409 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: US_油管 TG 8度科技:41523
+  - name: CN_油管 TG 8度科技:20631
     type: vmess
-    server: sdzf.20220313.xyz
-    port: 41523
-    uuid: e0866612-febf-3627-bcb7-ed9e768ad9e8
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34635
-    type: vmess
-    server: sg1.azure.infininode.xyz
-    port: 34635
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: JP_油管 TG 8度科技:52015
-    type: vmess
-    server: sdzf1.882202.xyz
-    port: 52015
-    uuid: e0866612-febf-3627-bcb7-ed9e768ad9e8
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34635_2
-    type: vmess
-    server: hk1.azure.infininode.xyz
-    port: 34635
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34634
-    type: vmess
-    server: hk1.azure.infininode.xyz
-    port: 34634
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: HK_油管 TG 8度科技:43979
-    type: vmess
-    server: sdzf4.882202.xyz
-    port: 43979
-    uuid: e0866612-febf-3627-bcb7-ed9e768ad9e8
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34634_2
-    type: vmess
-    server: jp2.azure.infininode.xyz
-    port: 34634
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34635_2_2
-    type: vmess
-    server: hk2.azure.infininode.xyz
-    port: 34635
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:5956
-    type: vmess
-    server: 20.214.185.230
-    port: 5956
-    uuid: a16449dc-c2cd-43b7-a127-218c23ebe62a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34635_2_2_2
-    type: vmess
-    server: jp3.azure.infininode.xyz
-    port: 34635
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34634_2_2
-    type: vmess
-    server: hk3.azure.infininode.xyz
-    port: 34634
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:61158
-    type: vmess
-    server: sdzf.20220313.xyz
-    port: 61158
-    uuid: e0866612-febf-3627-bcb7-ed9e768ad9e8
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34635_2_2_2_2
-    type: vmess
-    server: sg2.azure.infininode.xyz
-    port: 34635
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34634_2_2_2
-    type: vmess
-    server: sg2.azure.infininode.xyz
-    port: 34634
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 油管 TG 8度科技:443
-    type: vmess
-    server: 104.19.3.23
-    port: 443
-    uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /chaug
-    ws-headers:
-      Host: v2fly.samrt.website
-  - name: US_油管 TG 8度科技:34635_2_2_2_2_2
-    type: vmess
-    server: us2.azure.infininode.xyz
-    port: 34635
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:50001
-    type: vmess
-    server: V2-NODE-5-B.GFWAIRPORT.NET
-    port: 50001
-    uuid: aebdbdce-5933-45fb-b017-caef3f723204
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: ""
+    ws-path: /AUS02
     ws-headers: null
-  - name: US_油管 TG 8度科技:34635_2_2_2_2_2_2
+  - name: CN_油管 TG 8度科技:20631_2
     type: vmess
-    server: jp2.azure.infininode.xyz
-    port: 34635
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
+    network: ws
+    tls: null
+    ws-path: /japanese01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /japanese03
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /japanese02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hkt008
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: linodejp02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jgwhg01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jp01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hinet04
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /doxjp06
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /dj01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /linodejp01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /AUS01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /yd01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /doxjp04
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /doxjp05
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /lindoerb01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: linodejp03
     ws-headers: null
   - name: US_油管 TG 8度科技:443
     type: vmess
-    server: cloudflare.xrenblog.com
+    server: xqw.stivao.xyz
     port: 443
-    uuid: 6c175d1a-a57f-4881-a471-173eb139694b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /xrenblog/
-    ws-headers:
-      Host: ipv6.xrenblog.com
-  - name: JP_油管 TG 8度科技:59946
-    type: vmess
-    server: pf1.882202.xyz
-    port: 59946
-    uuid: e0866612-febf-3627-bcb7-ed9e768ad9e8
+    uuid: 21683a20-f064-45e8-c6b1-8c9333eeac08
     alterId: "0"
     cipher: auto
     udp: true
     network: tcp
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: tj-us01.yiyodns.xyz
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
     tls: null
-    ws-path: ""
+    ws-path: /cere01
     ws-headers: null
-  - name: US_油管 TG 8度科技:34634_2_2_2_2
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
     type: vmess
-    server: hk2.azure.infininode.xyz
-    port: 34634
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 油管 TG 8度科技:443_2
-    type: vmess
-    server: 104.18.135.208
-    port: 443
-    uuid: 71452d0f-a921-49c2-b5a8-fc9fdd9cacb6
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /Support-Putin-Kill-all-Ukrainians_vws
-    ws-headers:
-      Host: support-putin-kill-all-ukrainians.884899.cf
-  - name: US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
+    tls: null
+    ws-path: /cere02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
     type: vmess
-    server: us1.azure.infininode.xyz
-    port: 34635
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
+    network: ws
+    tls: null
+    ws-path: /dg01
     ws-headers: null
-  - name: HK_油管 TG 8度科技:443
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
     type: vmess
-    server: 0320hk567.fans8.xyz
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /cere03
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /usa04
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /UK01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /UK02
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /mlxy008
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /UK03
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /canada01
+    ws-headers: null
+  - name: CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /schinet01
+    ws-headers: null
+  - name: CN_油管 TG
+      8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /els01
+    ws-headers: null
+  - name: CN_油管 TG
+      8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+    type: vmess
+    server: cs.daxun.club
+    port: 20631
+    uuid: 77035997-3750-4d8c-9ace-bcd2c0cbe3e6
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /schinet02
+    ws-headers: null
+  - name: US_油管 TG 8度科技:31676
+    type: vmess
+    server: 45.32.94.166
+    port: 31676
+    uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: http
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 45.32.94.166
+  - name: KR_油管 TG 8度科技:443
+    type: vmess
+    server: 0326kr.fans8.xyz
     port: 443
     uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
     alterId: "2"
@@ -296,477 +417,476 @@ proxies:
     tls: true
     ws-path: /ray
     ws-headers:
-      Host: 0320hk567.fans8.xyz
-  - name: US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
-    type: vmess
-    server: hk3.azure.infininode.xyz
-    port: 34635
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
+      Host: 0326kr.fans8.xyz
   - name: US_油管 TG 8度科技:443_2
     type: vmess
-    server: 172.67.62.214
+    server: 209.94.56.152
     port: 443
-    uuid: 71452d0f-a921-49c2-b5a8-fc9fdd9cacb6
+    uuid: 3033e157-fdc3-47c0-ae32-fc4fe65fc64d
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /Support-Putin-Kill-all-Ukrainians_vws
+    ws-path: /9apQabyg9le
     ws-headers:
-      Host: support-putin-kill-all-ukrainians.884899.cf
-  - name: JP_油管 TG 8度科技:34634
+      Host: 209.94.56.152
+  - name: JP_油管 TG 8度科技:443
     type: vmess
-    server: jp1public.linode.infininode.xyz
-    port: 34634
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
+    server: dj1.csz666.ml
+    port: 443
+    uuid: e57e2134-e5cc-4b83-aa19-e2a438a5c517
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
+    network: ws
     tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34634_2_2_2_2_2
-    type: vmess
-    server: sg1.azure.infininode.xyz
-    port: 34634
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: JP_油管 TG 8度科技:34634_2
-    type: vmess
-    server: jp3.linode.infininode.xyz
-    port: 34634
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-    type: vmess
-    server: us3.azure.infininode.xyz
-    port: 34635
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: US_油管 TG 8度科技:34634_2_2_2_2_2_2
-    type: vmess
-    server: jp3.azure.infininode.xyz
-    port: 34634
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: JP_油管 TG 8度科技:34634_2_2
-    type: vmess
-    server: jp3public.linode.infininode.xyz
-    port: 34634
-    uuid: 6f79d367-c450-4e0d-a934-34bcbdf5b564
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
+    ws-path: /
+    ws-headers:
+      Host: dj1.csz666.ml
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_油管 TG 8度科技:41523
-      - US_油管 TG 8度科技:34635
-      - JP_油管 TG 8度科技:52015
-      - US_油管 TG 8度科技:34635_2
-      - US_油管 TG 8度科技:34634
-      - HK_油管 TG 8度科技:43979
-      - US_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2
-      - US_油管 TG 8度科技:5956
-      - US_油管 TG 8度科技:34635_2_2_2
-      - US_油管 TG 8度科技:34634_2_2
-      - US_油管 TG 8度科技:61158
-      - US_油管 TG 8度科技:34635_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2
-      - 油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2
-      - US_油管 TG 8度科技:50001
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
       - US_油管 TG 8度科技:443
-      - JP_油管 TG 8度科技:59946
-      - US_油管 TG 8度科技:34634_2_2_2_2
-      - 油管 TG 8度科技:443_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
-      - HK_油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:31676
+      - KR_油管 TG 8度科技:443
       - US_油管 TG 8度科技:443_2
-      - JP_油管 TG 8度科技:34634
-      - US_油管 TG 8度科技:34634_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2_2
+      - JP_油管 TG 8度科技:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_油管 TG 8度科技:41523
-      - US_油管 TG 8度科技:34635
-      - JP_油管 TG 8度科技:52015
-      - US_油管 TG 8度科技:34635_2
-      - US_油管 TG 8度科技:34634
-      - HK_油管 TG 8度科技:43979
-      - US_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2
-      - US_油管 TG 8度科技:5956
-      - US_油管 TG 8度科技:34635_2_2_2
-      - US_油管 TG 8度科技:34634_2_2
-      - US_油管 TG 8度科技:61158
-      - US_油管 TG 8度科技:34635_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2
-      - 油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2
-      - US_油管 TG 8度科技:50001
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
       - US_油管 TG 8度科技:443
-      - JP_油管 TG 8度科技:59946
-      - US_油管 TG 8度科技:34634_2_2_2_2
-      - 油管 TG 8度科技:443_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
-      - HK_油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:31676
+      - KR_油管 TG 8度科技:443
       - US_油管 TG 8度科技:443_2
-      - JP_油管 TG 8度科技:34634
-      - US_油管 TG 8度科技:34634_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2_2
+      - JP_油管 TG 8度科技:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_油管 TG 8度科技:41523
-      - US_油管 TG 8度科技:34635
-      - JP_油管 TG 8度科技:52015
-      - US_油管 TG 8度科技:34635_2
-      - US_油管 TG 8度科技:34634
-      - HK_油管 TG 8度科技:43979
-      - US_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2
-      - US_油管 TG 8度科技:5956
-      - US_油管 TG 8度科技:34635_2_2_2
-      - US_油管 TG 8度科技:34634_2_2
-      - US_油管 TG 8度科技:61158
-      - US_油管 TG 8度科技:34635_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2
-      - 油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2
-      - US_油管 TG 8度科技:50001
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
       - US_油管 TG 8度科技:443
-      - JP_油管 TG 8度科技:59946
-      - US_油管 TG 8度科技:34634_2_2_2_2
-      - 油管 TG 8度科技:443_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
-      - HK_油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:31676
+      - KR_油管 TG 8度科技:443
       - US_油管 TG 8度科技:443_2
-      - JP_油管 TG 8度科技:34634
-      - US_油管 TG 8度科技:34634_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2_2
+      - JP_油管 TG 8度科技:443
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_油管 TG 8度科技:41523
-      - US_油管 TG 8度科技:34635
-      - JP_油管 TG 8度科技:52015
-      - US_油管 TG 8度科技:34635_2
-      - US_油管 TG 8度科技:34634
-      - HK_油管 TG 8度科技:43979
-      - US_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2
-      - US_油管 TG 8度科技:5956
-      - US_油管 TG 8度科技:34635_2_2_2
-      - US_油管 TG 8度科技:34634_2_2
-      - US_油管 TG 8度科技:61158
-      - US_油管 TG 8度科技:34635_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2
-      - 油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2
-      - US_油管 TG 8度科技:50001
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
       - US_油管 TG 8度科技:443
-      - JP_油管 TG 8度科技:59946
-      - US_油管 TG 8度科技:34634_2_2_2_2
-      - 油管 TG 8度科技:443_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
-      - HK_油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:31676
+      - KR_油管 TG 8度科技:443
       - US_油管 TG 8度科技:443_2
-      - JP_油管 TG 8度科技:34634
-      - US_油管 TG 8度科技:34634_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2_2
+      - JP_油管 TG 8度科技:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_油管 TG 8度科技:41523
-      - US_油管 TG 8度科技:34635
-      - JP_油管 TG 8度科技:52015
-      - US_油管 TG 8度科技:34635_2
-      - US_油管 TG 8度科技:34634
-      - HK_油管 TG 8度科技:43979
-      - US_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2
-      - US_油管 TG 8度科技:5956
-      - US_油管 TG 8度科技:34635_2_2_2
-      - US_油管 TG 8度科技:34634_2_2
-      - US_油管 TG 8度科技:61158
-      - US_油管 TG 8度科技:34635_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2
-      - 油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2
-      - US_油管 TG 8度科技:50001
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
       - US_油管 TG 8度科技:443
-      - JP_油管 TG 8度科技:59946
-      - US_油管 TG 8度科技:34634_2_2_2_2
-      - 油管 TG 8度科技:443_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
-      - HK_油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:31676
+      - KR_油管 TG 8度科技:443
       - US_油管 TG 8度科技:443_2
-      - JP_油管 TG 8度科技:34634
-      - US_油管 TG 8度科技:34634_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2_2
+      - JP_油管 TG 8度科技:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_油管 TG 8度科技:41523
-      - US_油管 TG 8度科技:34635
-      - JP_油管 TG 8度科技:52015
-      - US_油管 TG 8度科技:34635_2
-      - US_油管 TG 8度科技:34634
-      - HK_油管 TG 8度科技:43979
-      - US_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2
-      - US_油管 TG 8度科技:5956
-      - US_油管 TG 8度科技:34635_2_2_2
-      - US_油管 TG 8度科技:34634_2_2
-      - US_油管 TG 8度科技:61158
-      - US_油管 TG 8度科技:34635_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2
-      - 油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2
-      - US_油管 TG 8度科技:50001
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
       - US_油管 TG 8度科技:443
-      - JP_油管 TG 8度科技:59946
-      - US_油管 TG 8度科技:34634_2_2_2_2
-      - 油管 TG 8度科技:443_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
-      - HK_油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:31676
+      - KR_油管 TG 8度科技:443
       - US_油管 TG 8度科技:443_2
-      - JP_油管 TG 8度科技:34634
-      - US_油管 TG 8度科技:34634_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2_2
+      - JP_油管 TG 8度科技:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - US_油管 TG 8度科技:41523
-      - US_油管 TG 8度科技:34635
-      - JP_油管 TG 8度科技:52015
-      - US_油管 TG 8度科技:34635_2
-      - US_油管 TG 8度科技:34634
-      - HK_油管 TG 8度科技:43979
-      - US_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2
-      - US_油管 TG 8度科技:5956
-      - US_油管 TG 8度科技:34635_2_2_2
-      - US_油管 TG 8度科技:34634_2_2
-      - US_油管 TG 8度科技:61158
-      - US_油管 TG 8度科技:34635_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2
-      - 油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2
-      - US_油管 TG 8度科技:50001
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
       - US_油管 TG 8度科技:443
-      - JP_油管 TG 8度科技:59946
-      - US_油管 TG 8度科技:34634_2_2_2_2
-      - 油管 TG 8度科技:443_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
-      - HK_油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:31676
+      - KR_油管 TG 8度科技:443
       - US_油管 TG 8度科技:443_2
-      - JP_油管 TG 8度科技:34634
-      - US_油管 TG 8度科技:34634_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2_2
+      - JP_油管 TG 8度科技:443
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - US_油管 TG 8度科技:41523
-      - US_油管 TG 8度科技:34635
-      - JP_油管 TG 8度科技:52015
-      - US_油管 TG 8度科技:34635_2
-      - US_油管 TG 8度科技:34634
-      - HK_油管 TG 8度科技:43979
-      - US_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2
-      - US_油管 TG 8度科技:5956
-      - US_油管 TG 8度科技:34635_2_2_2
-      - US_油管 TG 8度科技:34634_2_2
-      - US_油管 TG 8度科技:61158
-      - US_油管 TG 8度科技:34635_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2
-      - 油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2
-      - US_油管 TG 8度科技:50001
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
       - US_油管 TG 8度科技:443
-      - JP_油管 TG 8度科技:59946
-      - US_油管 TG 8度科技:34634_2_2_2_2
-      - 油管 TG 8度科技:443_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
-      - HK_油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:31676
+      - KR_油管 TG 8度科技:443
       - US_油管 TG 8度科技:443_2
-      - JP_油管 TG 8度科技:34634
-      - US_油管 TG 8度科技:34634_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2_2
+      - JP_油管 TG 8度科技:443
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - US_油管 TG 8度科技:41523
-      - US_油管 TG 8度科技:34635
-      - JP_油管 TG 8度科技:52015
-      - US_油管 TG 8度科技:34635_2
-      - US_油管 TG 8度科技:34634
-      - HK_油管 TG 8度科技:43979
-      - US_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2
-      - US_油管 TG 8度科技:5956
-      - US_油管 TG 8度科技:34635_2_2_2
-      - US_油管 TG 8度科技:34634_2_2
-      - US_油管 TG 8度科技:61158
-      - US_油管 TG 8度科技:34635_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2
-      - 油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2
-      - US_油管 TG 8度科技:50001
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
       - US_油管 TG 8度科技:443
-      - JP_油管 TG 8度科技:59946
-      - US_油管 TG 8度科技:34634_2_2_2_2
-      - 油管 TG 8度科技:443_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
-      - HK_油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:31676
+      - KR_油管 TG 8度科技:443
       - US_油管 TG 8度科技:443_2
-      - JP_油管 TG 8度科技:34634
-      - US_油管 TG 8度科技:34634_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2_2
+      - JP_油管 TG 8度科技:443
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_油管 TG 8度科技:41523
-      - US_油管 TG 8度科技:34635
-      - JP_油管 TG 8度科技:52015
-      - US_油管 TG 8度科技:34635_2
-      - US_油管 TG 8度科技:34634
-      - HK_油管 TG 8度科技:43979
-      - US_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2
-      - US_油管 TG 8度科技:5956
-      - US_油管 TG 8度科技:34635_2_2_2
-      - US_油管 TG 8度科技:34634_2_2
-      - US_油管 TG 8度科技:61158
-      - US_油管 TG 8度科技:34635_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2
-      - 油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2
-      - US_油管 TG 8度科技:50001
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631
+      - CN_油管 TG 8度科技:20631_2
+      - CN_油管 TG 8度科技:20631_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
       - US_油管 TG 8度科技:443
-      - JP_油管 TG 8度科技:59946
-      - US_油管 TG 8度科技:34634_2_2_2_2
-      - 油管 TG 8度科技:443_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2
-      - HK_油管 TG 8度科技:443
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG 8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - CN_油管 TG
+        8度科技:20631_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2_2
+      - US_油管 TG 8度科技:31676
+      - KR_油管 TG 8度科技:443
       - US_油管 TG 8度科技:443_2
-      - JP_油管 TG 8度科技:34634
-      - US_油管 TG 8度科技:34634_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2
-      - US_油管 TG 8度科技:34635_2_2_2_2_2_2_2_2_2
-      - US_油管 TG 8度科技:34634_2_2_2_2_2_2
-      - JP_油管 TG 8度科技:34634_2_2
+      - JP_油管 TG 8度科技:443
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
