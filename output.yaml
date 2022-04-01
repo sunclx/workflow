@@ -5,282 +5,170 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: HK_油管 TG 8度科技:50006
+  - name: 油管 TG 8度科技:10005
     type: vmess
-    server: aead.tls.hongkongazsuper.dnsfree.top
-    port: 50006
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
+    server: zz.195382.xyz
+    port: 10005
+    uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
+    tls: null
     ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: HK_油管 TG 8度科技:50004
+    ws-headers: null
+  - name: 油管 TG 8度科技:12999
     type: vmess
-    server: aead.tls.hongkongazsuper.dnsfree.top
-    port: 50004
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
+    server: hk-az2.checkmails.xyz
+    port: 12999
+    uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers: null
+  - name: 油管 TG 8度科技:10007
+    type: vmess
+    server: zz.195382.xyz
+    port: 10007
+    uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
+    tls: null
     ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: HK_油管 TG 8度科技:50005
+    ws-headers: null
+  - name: 油管 TG 8度科技:10008
     type: vmess
-    server: aead.tls.hongkongazsuper.dnsfree.top
-    port: 50005
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
+    server: zz.195382.xyz
+    port: 10008
+    uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
+    tls: null
     ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: CN_油管 TG 8度科技:31267
+    ws-headers: null
+  - name: 油管 TG 8度科技:43993
     type: vmess
-    server: cu3.sgdns.club
-    port: 31267
-    uuid: 2dc10784-c7fb-377d-a579-2b541eb16d7b
+    server: 13.113.22.120
+    port: 43993
+    uuid: cdc7dc87-a395-479e-fdc0-4de148cdbc11
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 油管 TG 8度科技:25122
+    type: vmess
+    server: hk-az2.checkmails.xyz
+    port: 25122
+    uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers: null
+  - name: 油管 TG 8度科技:14045
+    type: vmess
+    server: 144.202.116.116
+    port: 14045
+    uuid: 38c57734-b148-11ec-962d-560003edcbd7
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hgDmY39b/
+    ws-headers: null
+  - name: 油管 TG 8度科技:80
+    type: vmess
+    server: hk2.quoctai.xyz
+    port: 80
+    uuid: caf12d12-e017-44fe-b741-f8727e2fecd9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /quoctai
+    ws-headers:
+      Host: Livestream2.tv360.vn
+  - name: 油管 TG 8度科技:21207
+    type: vmess
+    server: 183.240.132.27
+    port: 21207
+    uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
     alterId: "2"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
-    ws-path: /sgy
-    ws-headers:
-      Host: cu3.sgdns.club
-  - name: HK_油管 TG 8度科技:50002
-    type: vmess
-    server: aead.tls.hongkongazsuper.dnsfree.top
-    port: 50002
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
     ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: HK_油管 TG 8度科技:50003
+    ws-headers: null
+  - name: 油管 TG 8度科技:443
     type: vmess
-    server: aead.tls.hongkongazsuper.dnsfree.top
-    port: 50003
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: JP_油管 TG 8度科技:12355
-    type: vmess
-    server: superjapan.dnsfree.top
-    port: 12355
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: CN_油管 TG 8度科技:1952
-    type: vmess
-    server: 183.232.56.161
-    port: 1952
-    uuid: 3a226645-c640-39a2-8177-000381e29f20
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: 183.232.56.161
-  - name: US_油管 TG 8度科技:12323
-    type: vmess
-    server: aead.tls.sksuper.dnsfree.top
-    port: 12323
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: HK_油管 TG 8度科技:50001
-    type: vmess
-    server: aead.tls.hongkongazsuper.dnsfree.top
-    port: 50001
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: JP_油管 TG 8度科技:12353
-    type: vmess
-    server: superjapan.dnsfree.top
-    port: 12353
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: CN_油管 TG 8度科技:1101
-    type: vmess
-    server: 183.232.56.161
-    port: 1101
-    uuid: 3a226645-c640-39a2-8177-000381e29f20
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: 183.232.56.161
-  - name: CN_油管 TG 8度科技:52024
-    type: vmess
-    server: china-gzyd-1.forwardserver.xyz
-    port: 52024
-    uuid: 9e2c37d4-ab58-4730-8869-cb7b923d55d1
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /sakura
-    ws-headers:
-      Host: az1.14530529.xyz
-  - name: CN_油管 TG 8度科技:1704
-    type: vmess
-    server: 183.232.56.161
-    port: 1704
-    uuid: 3a226645-c640-39a2-8177-000381e29f20
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: 183.232.56.161
-  - name: JP_油管 TG 8度科技:12354
-    type: vmess
-    server: superjapan.dnsfree.top
-    port: 12354
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: 油管 TG 8度科技:2053
-    type: vmess
-    server: 104.16.162.16
-    port: 2053
-    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /eisasqa
-    ws-headers:
-      Host: foxus.fovi.tk
-  - name: JP_油管 TG 8度科技:12352
-    type: vmess
-    server: superjapan.dnsfree.top
-    port: 12352
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: tiebapic.baidu.com
-  - name: US_油管 TG 8度科技:443
-    type: vmess
-    server: cloudflare.xrenblog.com
+    server: linodemx0303.moonfree.top
     port: 443
-    uuid: 6c175d1a-a57f-4881-a471-173eb139694b
+    uuid: aca01f68-8528-429d-813a-11c21764e86a
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /xrenblog/
-    ws-headers:
-      Host: ipv6.xrenblog.com
-  - name: CN_油管 TG 8度科技:1212
-    type: vmess
-    server: 183.232.56.161
-    port: 1212
-    uuid: 3a226645-c640-39a2-8177-000381e29f20
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: 183.232.56.161
-  - name: JP_油管 TG 8度科技:80
-    type: vmess
-    server: superjapan.dnsfree.top
-    port: 80
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
     ws-path: /
     ws-headers:
-      Host: tiebapic.baidu.com
-  - name: CN_油管 TG 8度科技:1951
+      Host: linodemx0303.moonfree.top
+  - name: 油管 TG 8度科技:153
     type: vmess
-    server: 183.232.56.161
-    port: 1951
-    uuid: 3a226645-c640-39a2-8177-000381e29f20
-    alterId: "0"
+    server: 54.199.233.160
+    port: 153
+    uuid: f92834d1-64c0-3e72-bb02-d8e5f5694e4d
+    alterId: "64"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /v2ray
+    ws-path: /api/v3/download.getFile
     ws-headers:
-      Host: 183.232.56.161
-  - name: US_油管 TG 8度科技:39043
+      Host: 8505782627.laowanxiang.com
+  - name: 油管 TG 8度科技:443_2
     type: vmess
-    server: 198.16.35.242
+    server: bwg.dennydong.com
+    port: 443
+    uuid: b788aa28-c1ef-4380-b1b9-2d65e9aec76b
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: bwg.dennydong.com
+  - name: 油管 TG 8度科技:443_2_2
+    type: vmess
+    server: 03071t.moonfree.top
+    port: 443
+    uuid: aca01f68-8528-429d-813a-11c21764e86a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: 03071t.moonfree.top
+  - name: 油管 TG 8度科技:39043
+    type: vmess
+    server: 192.74.246.120
     port: 39043
     uuid: 1b2f44e4-a810-48a8-b620-a4567b46c9b7
     alterId: "0"
@@ -291,325 +179,245 @@ proxies:
     ws-path: /
     ws-headers:
       Host: v2ex.downk.cc
-  - name: CN_油管 TG 8度科技:1611
+  - name: 油管 TG 8度科技:80_2
     type: vmess
-    server: 183.232.56.161
-    port: 1611
-    uuid: 3a226645-c640-39a2-8177-000381e29f20
+    server: hn5.quoctai.xyz
+    port: 80
+    uuid: caf12d12-e017-44fe-b741-f8727e2fecd9
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /v2ray
+    ws-path: /quoctai
     ws-headers:
-      Host: 183.232.56.161
-  - name: US_油管 TG 8度科技:12321
+      Host: Livestream2.tv360.vn
+  - name: 油管 TG 8度科技:38501
     type: vmess
-    server: aead.tls.sksuper.dnsfree.top
-    port: 12321
-    uuid: ce4b7385-9b70-4baa-a839-14be858b83c2
-    alterId: "0"
+    server: ingress-i1.onebox6.org
+    port: 38501
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: "1"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
     ws-headers:
-      Host: tiebapic.baidu.com
+      Host: www.ivpnpro.net
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_油管 TG 8度科技:50006
-      - HK_油管 TG 8度科技:50004
-      - HK_油管 TG 8度科技:50005
-      - CN_油管 TG 8度科技:31267
-      - HK_油管 TG 8度科技:50002
-      - HK_油管 TG 8度科技:50003
-      - JP_油管 TG 8度科技:12355
-      - CN_油管 TG 8度科技:1952
-      - US_油管 TG 8度科技:12323
-      - HK_油管 TG 8度科技:50001
-      - JP_油管 TG 8度科技:12353
-      - CN_油管 TG 8度科技:1101
-      - CN_油管 TG 8度科技:52024
-      - CN_油管 TG 8度科技:1704
-      - JP_油管 TG 8度科技:12354
-      - 油管 TG 8度科技:2053
-      - JP_油管 TG 8度科技:12352
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:1212
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:1951
-      - US_油管 TG 8度科技:39043
-      - CN_油管 TG 8度科技:1611
-      - US_油管 TG 8度科技:12321
+      - 油管 TG 8度科技:10005
+      - 油管 TG 8度科技:12999
+      - 油管 TG 8度科技:10007
+      - 油管 TG 8度科技:10008
+      - 油管 TG 8度科技:43993
+      - 油管 TG 8度科技:25122
+      - 油管 TG 8度科技:14045
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:21207
+      - 油管 TG 8度科技:443
+      - 油管 TG 8度科技:153
+      - 油管 TG 8度科技:443_2
+      - 油管 TG 8度科技:443_2_2
+      - 油管 TG 8度科技:39043
+      - 油管 TG 8度科技:80_2
+      - 油管 TG 8度科技:38501
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK_油管 TG 8度科技:50006
-      - HK_油管 TG 8度科技:50004
-      - HK_油管 TG 8度科技:50005
-      - CN_油管 TG 8度科技:31267
-      - HK_油管 TG 8度科技:50002
-      - HK_油管 TG 8度科技:50003
-      - JP_油管 TG 8度科技:12355
-      - CN_油管 TG 8度科技:1952
-      - US_油管 TG 8度科技:12323
-      - HK_油管 TG 8度科技:50001
-      - JP_油管 TG 8度科技:12353
-      - CN_油管 TG 8度科技:1101
-      - CN_油管 TG 8度科技:52024
-      - CN_油管 TG 8度科技:1704
-      - JP_油管 TG 8度科技:12354
-      - 油管 TG 8度科技:2053
-      - JP_油管 TG 8度科技:12352
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:1212
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:1951
-      - US_油管 TG 8度科技:39043
-      - CN_油管 TG 8度科技:1611
-      - US_油管 TG 8度科技:12321
+      - 油管 TG 8度科技:10005
+      - 油管 TG 8度科技:12999
+      - 油管 TG 8度科技:10007
+      - 油管 TG 8度科技:10008
+      - 油管 TG 8度科技:43993
+      - 油管 TG 8度科技:25122
+      - 油管 TG 8度科技:14045
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:21207
+      - 油管 TG 8度科技:443
+      - 油管 TG 8度科技:153
+      - 油管 TG 8度科技:443_2
+      - 油管 TG 8度科技:443_2_2
+      - 油管 TG 8度科技:39043
+      - 油管 TG 8度科技:80_2
+      - 油管 TG 8度科技:38501
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_油管 TG 8度科技:50006
-      - HK_油管 TG 8度科技:50004
-      - HK_油管 TG 8度科技:50005
-      - CN_油管 TG 8度科技:31267
-      - HK_油管 TG 8度科技:50002
-      - HK_油管 TG 8度科技:50003
-      - JP_油管 TG 8度科技:12355
-      - CN_油管 TG 8度科技:1952
-      - US_油管 TG 8度科技:12323
-      - HK_油管 TG 8度科技:50001
-      - JP_油管 TG 8度科技:12353
-      - CN_油管 TG 8度科技:1101
-      - CN_油管 TG 8度科技:52024
-      - CN_油管 TG 8度科技:1704
-      - JP_油管 TG 8度科技:12354
-      - 油管 TG 8度科技:2053
-      - JP_油管 TG 8度科技:12352
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:1212
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:1951
-      - US_油管 TG 8度科技:39043
-      - CN_油管 TG 8度科技:1611
-      - US_油管 TG 8度科技:12321
+      - 油管 TG 8度科技:10005
+      - 油管 TG 8度科技:12999
+      - 油管 TG 8度科技:10007
+      - 油管 TG 8度科技:10008
+      - 油管 TG 8度科技:43993
+      - 油管 TG 8度科技:25122
+      - 油管 TG 8度科技:14045
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:21207
+      - 油管 TG 8度科技:443
+      - 油管 TG 8度科技:153
+      - 油管 TG 8度科技:443_2
+      - 油管 TG 8度科技:443_2_2
+      - 油管 TG 8度科技:39043
+      - 油管 TG 8度科技:80_2
+      - 油管 TG 8度科技:38501
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK_油管 TG 8度科技:50006
-      - HK_油管 TG 8度科技:50004
-      - HK_油管 TG 8度科技:50005
-      - CN_油管 TG 8度科技:31267
-      - HK_油管 TG 8度科技:50002
-      - HK_油管 TG 8度科技:50003
-      - JP_油管 TG 8度科技:12355
-      - CN_油管 TG 8度科技:1952
-      - US_油管 TG 8度科技:12323
-      - HK_油管 TG 8度科技:50001
-      - JP_油管 TG 8度科技:12353
-      - CN_油管 TG 8度科技:1101
-      - CN_油管 TG 8度科技:52024
-      - CN_油管 TG 8度科技:1704
-      - JP_油管 TG 8度科技:12354
-      - 油管 TG 8度科技:2053
-      - JP_油管 TG 8度科技:12352
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:1212
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:1951
-      - US_油管 TG 8度科技:39043
-      - CN_油管 TG 8度科技:1611
-      - US_油管 TG 8度科技:12321
+      - 油管 TG 8度科技:10005
+      - 油管 TG 8度科技:12999
+      - 油管 TG 8度科技:10007
+      - 油管 TG 8度科技:10008
+      - 油管 TG 8度科技:43993
+      - 油管 TG 8度科技:25122
+      - 油管 TG 8度科技:14045
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:21207
+      - 油管 TG 8度科技:443
+      - 油管 TG 8度科技:153
+      - 油管 TG 8度科技:443_2
+      - 油管 TG 8度科技:443_2_2
+      - 油管 TG 8度科技:39043
+      - 油管 TG 8度科技:80_2
+      - 油管 TG 8度科技:38501
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK_油管 TG 8度科技:50006
-      - HK_油管 TG 8度科技:50004
-      - HK_油管 TG 8度科技:50005
-      - CN_油管 TG 8度科技:31267
-      - HK_油管 TG 8度科技:50002
-      - HK_油管 TG 8度科技:50003
-      - JP_油管 TG 8度科技:12355
-      - CN_油管 TG 8度科技:1952
-      - US_油管 TG 8度科技:12323
-      - HK_油管 TG 8度科技:50001
-      - JP_油管 TG 8度科技:12353
-      - CN_油管 TG 8度科技:1101
-      - CN_油管 TG 8度科技:52024
-      - CN_油管 TG 8度科技:1704
-      - JP_油管 TG 8度科技:12354
-      - 油管 TG 8度科技:2053
-      - JP_油管 TG 8度科技:12352
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:1212
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:1951
-      - US_油管 TG 8度科技:39043
-      - CN_油管 TG 8度科技:1611
-      - US_油管 TG 8度科技:12321
+      - 油管 TG 8度科技:10005
+      - 油管 TG 8度科技:12999
+      - 油管 TG 8度科技:10007
+      - 油管 TG 8度科技:10008
+      - 油管 TG 8度科技:43993
+      - 油管 TG 8度科技:25122
+      - 油管 TG 8度科技:14045
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:21207
+      - 油管 TG 8度科技:443
+      - 油管 TG 8度科技:153
+      - 油管 TG 8度科技:443_2
+      - 油管 TG 8度科技:443_2_2
+      - 油管 TG 8度科技:39043
+      - 油管 TG 8度科技:80_2
+      - 油管 TG 8度科技:38501
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK_油管 TG 8度科技:50006
-      - HK_油管 TG 8度科技:50004
-      - HK_油管 TG 8度科技:50005
-      - CN_油管 TG 8度科技:31267
-      - HK_油管 TG 8度科技:50002
-      - HK_油管 TG 8度科技:50003
-      - JP_油管 TG 8度科技:12355
-      - CN_油管 TG 8度科技:1952
-      - US_油管 TG 8度科技:12323
-      - HK_油管 TG 8度科技:50001
-      - JP_油管 TG 8度科技:12353
-      - CN_油管 TG 8度科技:1101
-      - CN_油管 TG 8度科技:52024
-      - CN_油管 TG 8度科技:1704
-      - JP_油管 TG 8度科技:12354
-      - 油管 TG 8度科技:2053
-      - JP_油管 TG 8度科技:12352
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:1212
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:1951
-      - US_油管 TG 8度科技:39043
-      - CN_油管 TG 8度科技:1611
-      - US_油管 TG 8度科技:12321
+      - 油管 TG 8度科技:10005
+      - 油管 TG 8度科技:12999
+      - 油管 TG 8度科技:10007
+      - 油管 TG 8度科技:10008
+      - 油管 TG 8度科技:43993
+      - 油管 TG 8度科技:25122
+      - 油管 TG 8度科技:14045
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:21207
+      - 油管 TG 8度科技:443
+      - 油管 TG 8度科技:153
+      - 油管 TG 8度科技:443_2
+      - 油管 TG 8度科技:443_2_2
+      - 油管 TG 8度科技:39043
+      - 油管 TG 8度科技:80_2
+      - 油管 TG 8度科技:38501
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - HK_油管 TG 8度科技:50006
-      - HK_油管 TG 8度科技:50004
-      - HK_油管 TG 8度科技:50005
-      - CN_油管 TG 8度科技:31267
-      - HK_油管 TG 8度科技:50002
-      - HK_油管 TG 8度科技:50003
-      - JP_油管 TG 8度科技:12355
-      - CN_油管 TG 8度科技:1952
-      - US_油管 TG 8度科技:12323
-      - HK_油管 TG 8度科技:50001
-      - JP_油管 TG 8度科技:12353
-      - CN_油管 TG 8度科技:1101
-      - CN_油管 TG 8度科技:52024
-      - CN_油管 TG 8度科技:1704
-      - JP_油管 TG 8度科技:12354
-      - 油管 TG 8度科技:2053
-      - JP_油管 TG 8度科技:12352
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:1212
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:1951
-      - US_油管 TG 8度科技:39043
-      - CN_油管 TG 8度科技:1611
-      - US_油管 TG 8度科技:12321
+      - 油管 TG 8度科技:10005
+      - 油管 TG 8度科技:12999
+      - 油管 TG 8度科技:10007
+      - 油管 TG 8度科技:10008
+      - 油管 TG 8度科技:43993
+      - 油管 TG 8度科技:25122
+      - 油管 TG 8度科技:14045
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:21207
+      - 油管 TG 8度科技:443
+      - 油管 TG 8度科技:153
+      - 油管 TG 8度科技:443_2
+      - 油管 TG 8度科技:443_2_2
+      - 油管 TG 8度科技:39043
+      - 油管 TG 8度科技:80_2
+      - 油管 TG 8度科技:38501
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - HK_油管 TG 8度科技:50006
-      - HK_油管 TG 8度科技:50004
-      - HK_油管 TG 8度科技:50005
-      - CN_油管 TG 8度科技:31267
-      - HK_油管 TG 8度科技:50002
-      - HK_油管 TG 8度科技:50003
-      - JP_油管 TG 8度科技:12355
-      - CN_油管 TG 8度科技:1952
-      - US_油管 TG 8度科技:12323
-      - HK_油管 TG 8度科技:50001
-      - JP_油管 TG 8度科技:12353
-      - CN_油管 TG 8度科技:1101
-      - CN_油管 TG 8度科技:52024
-      - CN_油管 TG 8度科技:1704
-      - JP_油管 TG 8度科技:12354
-      - 油管 TG 8度科技:2053
-      - JP_油管 TG 8度科技:12352
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:1212
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:1951
-      - US_油管 TG 8度科技:39043
-      - CN_油管 TG 8度科技:1611
-      - US_油管 TG 8度科技:12321
+      - 油管 TG 8度科技:10005
+      - 油管 TG 8度科技:12999
+      - 油管 TG 8度科技:10007
+      - 油管 TG 8度科技:10008
+      - 油管 TG 8度科技:43993
+      - 油管 TG 8度科技:25122
+      - 油管 TG 8度科技:14045
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:21207
+      - 油管 TG 8度科技:443
+      - 油管 TG 8度科技:153
+      - 油管 TG 8度科技:443_2
+      - 油管 TG 8度科技:443_2_2
+      - 油管 TG 8度科技:39043
+      - 油管 TG 8度科技:80_2
+      - 油管 TG 8度科技:38501
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - HK_油管 TG 8度科技:50006
-      - HK_油管 TG 8度科技:50004
-      - HK_油管 TG 8度科技:50005
-      - CN_油管 TG 8度科技:31267
-      - HK_油管 TG 8度科技:50002
-      - HK_油管 TG 8度科技:50003
-      - JP_油管 TG 8度科技:12355
-      - CN_油管 TG 8度科技:1952
-      - US_油管 TG 8度科技:12323
-      - HK_油管 TG 8度科技:50001
-      - JP_油管 TG 8度科技:12353
-      - CN_油管 TG 8度科技:1101
-      - CN_油管 TG 8度科技:52024
-      - CN_油管 TG 8度科技:1704
-      - JP_油管 TG 8度科技:12354
-      - 油管 TG 8度科技:2053
-      - JP_油管 TG 8度科技:12352
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:1212
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:1951
-      - US_油管 TG 8度科技:39043
-      - CN_油管 TG 8度科技:1611
-      - US_油管 TG 8度科技:12321
+      - 油管 TG 8度科技:10005
+      - 油管 TG 8度科技:12999
+      - 油管 TG 8度科技:10007
+      - 油管 TG 8度科技:10008
+      - 油管 TG 8度科技:43993
+      - 油管 TG 8度科技:25122
+      - 油管 TG 8度科技:14045
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:21207
+      - 油管 TG 8度科技:443
+      - 油管 TG 8度科技:153
+      - 油管 TG 8度科技:443_2
+      - 油管 TG 8度科技:443_2_2
+      - 油管 TG 8度科技:39043
+      - 油管 TG 8度科技:80_2
+      - 油管 TG 8度科技:38501
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_油管 TG 8度科技:50006
-      - HK_油管 TG 8度科技:50004
-      - HK_油管 TG 8度科技:50005
-      - CN_油管 TG 8度科技:31267
-      - HK_油管 TG 8度科技:50002
-      - HK_油管 TG 8度科技:50003
-      - JP_油管 TG 8度科技:12355
-      - CN_油管 TG 8度科技:1952
-      - US_油管 TG 8度科技:12323
-      - HK_油管 TG 8度科技:50001
-      - JP_油管 TG 8度科技:12353
-      - CN_油管 TG 8度科技:1101
-      - CN_油管 TG 8度科技:52024
-      - CN_油管 TG 8度科技:1704
-      - JP_油管 TG 8度科技:12354
-      - 油管 TG 8度科技:2053
-      - JP_油管 TG 8度科技:12352
-      - US_油管 TG 8度科技:443
-      - CN_油管 TG 8度科技:1212
-      - JP_油管 TG 8度科技:80
-      - CN_油管 TG 8度科技:1951
-      - US_油管 TG 8度科技:39043
-      - CN_油管 TG 8度科技:1611
-      - US_油管 TG 8度科技:12321
+      - 油管 TG 8度科技:10005
+      - 油管 TG 8度科技:12999
+      - 油管 TG 8度科技:10007
+      - 油管 TG 8度科技:10008
+      - 油管 TG 8度科技:43993
+      - 油管 TG 8度科技:25122
+      - 油管 TG 8度科技:14045
+      - 油管 TG 8度科技:80
+      - 油管 TG 8度科技:21207
+      - 油管 TG 8度科技:443
+      - 油管 TG 8度科技:153
+      - 油管 TG 8度科技:443_2
+      - 油管 TG 8度科技:443_2_2
+      - 油管 TG 8度科技:39043
+      - 油管 TG 8度科技:80_2
+      - 油管 TG 8度科技:38501
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
