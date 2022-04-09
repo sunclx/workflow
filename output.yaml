@@ -5,227 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: AA-V2ray-HK-HGC:19083
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19083
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dahjwuh
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-HK-HKBN.02:19092
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19092
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dahjwuh
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-TW-HiNet.01:19046
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19046
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /catnet
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-HK-HKT.02:19040
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19040
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dahjwuh
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-HK-NTT.01:19084
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19084
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dahjwuh
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-HK-HKT.01:19094
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19094
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dahjwuh
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-JP-NTT.03:19055
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19055
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /catnet
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-TW-HiNet.02:19047
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19047
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dahjwuh
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-HK-HKBN:19085
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19085
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dahjwuh
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-JP-NTT.02:10006
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 10006
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /catnet
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-VN【越南】:10007
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 10007
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dahjwuh
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-TW-HiNet.05:19045
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19045
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /catnet
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-TW-HiNet.04:19038
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19038
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /catnet
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-US-HE.04:19095
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19095
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /catnet
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-TW-HiNet.03:19048
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19048
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /catnet
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-US-HE.01:10002
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 10002
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /catnet
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-JP-NTT.01:19050
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19050
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /catnet
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
   - name: THE WORLD:443
     type: vmess
     server: cloudflare.xrenblog.com
@@ -239,24 +18,37 @@ proxies:
     ws-path: /sakura/
     ws-headers:
       Host: v4.xrenblog.com
-  - name: AA-V2ray-US-HE.03:19029
+  - name: 香港 ➤ 02:80
     type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19029
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
+    server: hk02.startmy.cc
+    port: 80
+    uuid: b254acd1-b7ee-36d6-a0d7-718d5c079f1e
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /catnet
+    ws-path: /v2ray
     ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-US-Philadelphia:19016
+      Host: a.189.cn
+  - name: 香港 ➤ 05:80
     type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19016
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
+    server: hk05.startmy.cc
+    port: 80
+    uuid: b254acd1-b7ee-36d6-a0d7-718d5c079f1e
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: a.189.cn
+  - name: Singapore,V2_63:50001
+    type: vmess
+    server: V2-NODE-3.GFWAIRPORT.NET
+    port: 50001
+    uuid: be014763-7fb3-4ecb-bfb8-8679b1a76333
     alterId: "0"
     cipher: auto
     udp: true
@@ -264,306 +56,192 @@ proxies:
     tls: null
     ws-path: /
     ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: AA-V2ray-RU-Selectel:19080
+      Host: V2-NODE-3.GFWAIRPORT.NET
+  - name: 日本 ➤ 01:80
     type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19080
-    uuid: bb4950f2-3762-3479-a909-8fb58a1b1090
+    server: jp01.startmy.cc
+    port: 80
+    uuid: b254acd1-b7ee-36d6-a0d7-718d5c079f1e
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /dahjwuh
+    ws-path: /v2ray
     ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      Host: a.189.cn
+  - name: Incheon,V2_62:50001
     type: vmess
-    server: zhuzhu12.com
-    port: 33893
-    uuid: 9c31a43c-11f7-34b7-bc1f-dfb08f831599
+    server: V2-NODE-2.GFWAIRPORT.NET
+    port: 50001
+    uuid: be014763-7fb3-4ecb-bfb8-8679b1a76333
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /zz
+    tls: null
+    ws-path: /
     ws-headers:
-      Host: korea2.zhuzhu12.com
+      Host: V2-NODE-2.GFWAIRPORT.NET
+  - name: Hongkong,V2_64:50001
+    type: vmess
+    server: V2-NODE-4.GFWAIRPORT.NET
+    port: 50001
+    uuid: be014763-7fb3-4ecb-bfb8-8679b1a76333
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: V2-NODE-4.GFWAIRPORT.NET
+  - name: California,V2_65:50001
+    type: vmess
+    server: V2-NODE-5.GFWAIRPORT.NET
+    port: 50001
+    uuid: be014763-7fb3-4ecb-bfb8-8679b1a76333
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: V2-NODE-5.GFWAIRPORT.NET
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AA-V2ray-HK-HGC:19083
-      - AA-V2ray-HK-HKBN.02:19092
-      - AA-V2ray-TW-HiNet.01:19046
-      - AA-V2ray-HK-HKT.02:19040
-      - AA-V2ray-HK-NTT.01:19084
-      - AA-V2ray-HK-HKT.01:19094
-      - AA-V2ray-JP-NTT.03:19055
-      - AA-V2ray-TW-HiNet.02:19047
-      - AA-V2ray-HK-HKBN:19085
-      - AA-V2ray-JP-NTT.02:10006
-      - AA-V2ray-VN【越南】:10007
-      - AA-V2ray-TW-HiNet.05:19045
-      - AA-V2ray-TW-HiNet.04:19038
-      - AA-V2ray-US-HE.04:19095
-      - AA-V2ray-TW-HiNet.03:19048
-      - AA-V2ray-US-HE.01:10002
-      - AA-V2ray-JP-NTT.01:19050
       - THE WORLD:443
-      - AA-V2ray-US-HE.03:19029
-      - AA-V2ray-US-Philadelphia:19016
-      - AA-V2ray-RU-Selectel:19080
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      - 香港 ➤ 02:80
+      - 香港 ➤ 05:80
+      - Singapore,V2_63:50001
+      - 日本 ➤ 01:80
+      - Incheon,V2_62:50001
+      - Hongkong,V2_64:50001
+      - California,V2_65:50001
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AA-V2ray-HK-HGC:19083
-      - AA-V2ray-HK-HKBN.02:19092
-      - AA-V2ray-TW-HiNet.01:19046
-      - AA-V2ray-HK-HKT.02:19040
-      - AA-V2ray-HK-NTT.01:19084
-      - AA-V2ray-HK-HKT.01:19094
-      - AA-V2ray-JP-NTT.03:19055
-      - AA-V2ray-TW-HiNet.02:19047
-      - AA-V2ray-HK-HKBN:19085
-      - AA-V2ray-JP-NTT.02:10006
-      - AA-V2ray-VN【越南】:10007
-      - AA-V2ray-TW-HiNet.05:19045
-      - AA-V2ray-TW-HiNet.04:19038
-      - AA-V2ray-US-HE.04:19095
-      - AA-V2ray-TW-HiNet.03:19048
-      - AA-V2ray-US-HE.01:10002
-      - AA-V2ray-JP-NTT.01:19050
       - THE WORLD:443
-      - AA-V2ray-US-HE.03:19029
-      - AA-V2ray-US-Philadelphia:19016
-      - AA-V2ray-RU-Selectel:19080
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      - 香港 ➤ 02:80
+      - 香港 ➤ 05:80
+      - Singapore,V2_63:50001
+      - 日本 ➤ 01:80
+      - Incheon,V2_62:50001
+      - Hongkong,V2_64:50001
+      - California,V2_65:50001
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AA-V2ray-HK-HGC:19083
-      - AA-V2ray-HK-HKBN.02:19092
-      - AA-V2ray-TW-HiNet.01:19046
-      - AA-V2ray-HK-HKT.02:19040
-      - AA-V2ray-HK-NTT.01:19084
-      - AA-V2ray-HK-HKT.01:19094
-      - AA-V2ray-JP-NTT.03:19055
-      - AA-V2ray-TW-HiNet.02:19047
-      - AA-V2ray-HK-HKBN:19085
-      - AA-V2ray-JP-NTT.02:10006
-      - AA-V2ray-VN【越南】:10007
-      - AA-V2ray-TW-HiNet.05:19045
-      - AA-V2ray-TW-HiNet.04:19038
-      - AA-V2ray-US-HE.04:19095
-      - AA-V2ray-TW-HiNet.03:19048
-      - AA-V2ray-US-HE.01:10002
-      - AA-V2ray-JP-NTT.01:19050
       - THE WORLD:443
-      - AA-V2ray-US-HE.03:19029
-      - AA-V2ray-US-Philadelphia:19016
-      - AA-V2ray-RU-Selectel:19080
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      - 香港 ➤ 02:80
+      - 香港 ➤ 05:80
+      - Singapore,V2_63:50001
+      - 日本 ➤ 01:80
+      - Incheon,V2_62:50001
+      - Hongkong,V2_64:50001
+      - California,V2_65:50001
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - AA-V2ray-HK-HGC:19083
-      - AA-V2ray-HK-HKBN.02:19092
-      - AA-V2ray-TW-HiNet.01:19046
-      - AA-V2ray-HK-HKT.02:19040
-      - AA-V2ray-HK-NTT.01:19084
-      - AA-V2ray-HK-HKT.01:19094
-      - AA-V2ray-JP-NTT.03:19055
-      - AA-V2ray-TW-HiNet.02:19047
-      - AA-V2ray-HK-HKBN:19085
-      - AA-V2ray-JP-NTT.02:10006
-      - AA-V2ray-VN【越南】:10007
-      - AA-V2ray-TW-HiNet.05:19045
-      - AA-V2ray-TW-HiNet.04:19038
-      - AA-V2ray-US-HE.04:19095
-      - AA-V2ray-TW-HiNet.03:19048
-      - AA-V2ray-US-HE.01:10002
-      - AA-V2ray-JP-NTT.01:19050
       - THE WORLD:443
-      - AA-V2ray-US-HE.03:19029
-      - AA-V2ray-US-Philadelphia:19016
-      - AA-V2ray-RU-Selectel:19080
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      - 香港 ➤ 02:80
+      - 香港 ➤ 05:80
+      - Singapore,V2_63:50001
+      - 日本 ➤ 01:80
+      - Incheon,V2_62:50001
+      - Hongkong,V2_64:50001
+      - California,V2_65:50001
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - AA-V2ray-HK-HGC:19083
-      - AA-V2ray-HK-HKBN.02:19092
-      - AA-V2ray-TW-HiNet.01:19046
-      - AA-V2ray-HK-HKT.02:19040
-      - AA-V2ray-HK-NTT.01:19084
-      - AA-V2ray-HK-HKT.01:19094
-      - AA-V2ray-JP-NTT.03:19055
-      - AA-V2ray-TW-HiNet.02:19047
-      - AA-V2ray-HK-HKBN:19085
-      - AA-V2ray-JP-NTT.02:10006
-      - AA-V2ray-VN【越南】:10007
-      - AA-V2ray-TW-HiNet.05:19045
-      - AA-V2ray-TW-HiNet.04:19038
-      - AA-V2ray-US-HE.04:19095
-      - AA-V2ray-TW-HiNet.03:19048
-      - AA-V2ray-US-HE.01:10002
-      - AA-V2ray-JP-NTT.01:19050
       - THE WORLD:443
-      - AA-V2ray-US-HE.03:19029
-      - AA-V2ray-US-Philadelphia:19016
-      - AA-V2ray-RU-Selectel:19080
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      - 香港 ➤ 02:80
+      - 香港 ➤ 05:80
+      - Singapore,V2_63:50001
+      - 日本 ➤ 01:80
+      - Incheon,V2_62:50001
+      - Hongkong,V2_64:50001
+      - California,V2_65:50001
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - AA-V2ray-HK-HGC:19083
-      - AA-V2ray-HK-HKBN.02:19092
-      - AA-V2ray-TW-HiNet.01:19046
-      - AA-V2ray-HK-HKT.02:19040
-      - AA-V2ray-HK-NTT.01:19084
-      - AA-V2ray-HK-HKT.01:19094
-      - AA-V2ray-JP-NTT.03:19055
-      - AA-V2ray-TW-HiNet.02:19047
-      - AA-V2ray-HK-HKBN:19085
-      - AA-V2ray-JP-NTT.02:10006
-      - AA-V2ray-VN【越南】:10007
-      - AA-V2ray-TW-HiNet.05:19045
-      - AA-V2ray-TW-HiNet.04:19038
-      - AA-V2ray-US-HE.04:19095
-      - AA-V2ray-TW-HiNet.03:19048
-      - AA-V2ray-US-HE.01:10002
-      - AA-V2ray-JP-NTT.01:19050
       - THE WORLD:443
-      - AA-V2ray-US-HE.03:19029
-      - AA-V2ray-US-Philadelphia:19016
-      - AA-V2ray-RU-Selectel:19080
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      - 香港 ➤ 02:80
+      - 香港 ➤ 05:80
+      - Singapore,V2_63:50001
+      - 日本 ➤ 01:80
+      - Incheon,V2_62:50001
+      - Hongkong,V2_64:50001
+      - California,V2_65:50001
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - AA-V2ray-HK-HGC:19083
-      - AA-V2ray-HK-HKBN.02:19092
-      - AA-V2ray-TW-HiNet.01:19046
-      - AA-V2ray-HK-HKT.02:19040
-      - AA-V2ray-HK-NTT.01:19084
-      - AA-V2ray-HK-HKT.01:19094
-      - AA-V2ray-JP-NTT.03:19055
-      - AA-V2ray-TW-HiNet.02:19047
-      - AA-V2ray-HK-HKBN:19085
-      - AA-V2ray-JP-NTT.02:10006
-      - AA-V2ray-VN【越南】:10007
-      - AA-V2ray-TW-HiNet.05:19045
-      - AA-V2ray-TW-HiNet.04:19038
-      - AA-V2ray-US-HE.04:19095
-      - AA-V2ray-TW-HiNet.03:19048
-      - AA-V2ray-US-HE.01:10002
-      - AA-V2ray-JP-NTT.01:19050
       - THE WORLD:443
-      - AA-V2ray-US-HE.03:19029
-      - AA-V2ray-US-Philadelphia:19016
-      - AA-V2ray-RU-Selectel:19080
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      - 香港 ➤ 02:80
+      - 香港 ➤ 05:80
+      - Singapore,V2_63:50001
+      - 日本 ➤ 01:80
+      - Incheon,V2_62:50001
+      - Hongkong,V2_64:50001
+      - California,V2_65:50001
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - AA-V2ray-HK-HGC:19083
-      - AA-V2ray-HK-HKBN.02:19092
-      - AA-V2ray-TW-HiNet.01:19046
-      - AA-V2ray-HK-HKT.02:19040
-      - AA-V2ray-HK-NTT.01:19084
-      - AA-V2ray-HK-HKT.01:19094
-      - AA-V2ray-JP-NTT.03:19055
-      - AA-V2ray-TW-HiNet.02:19047
-      - AA-V2ray-HK-HKBN:19085
-      - AA-V2ray-JP-NTT.02:10006
-      - AA-V2ray-VN【越南】:10007
-      - AA-V2ray-TW-HiNet.05:19045
-      - AA-V2ray-TW-HiNet.04:19038
-      - AA-V2ray-US-HE.04:19095
-      - AA-V2ray-TW-HiNet.03:19048
-      - AA-V2ray-US-HE.01:10002
-      - AA-V2ray-JP-NTT.01:19050
       - THE WORLD:443
-      - AA-V2ray-US-HE.03:19029
-      - AA-V2ray-US-Philadelphia:19016
-      - AA-V2ray-RU-Selectel:19080
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      - 香港 ➤ 02:80
+      - 香港 ➤ 05:80
+      - Singapore,V2_63:50001
+      - 日本 ➤ 01:80
+      - Incheon,V2_62:50001
+      - Hongkong,V2_64:50001
+      - California,V2_65:50001
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - AA-V2ray-HK-HGC:19083
-      - AA-V2ray-HK-HKBN.02:19092
-      - AA-V2ray-TW-HiNet.01:19046
-      - AA-V2ray-HK-HKT.02:19040
-      - AA-V2ray-HK-NTT.01:19084
-      - AA-V2ray-HK-HKT.01:19094
-      - AA-V2ray-JP-NTT.03:19055
-      - AA-V2ray-TW-HiNet.02:19047
-      - AA-V2ray-HK-HKBN:19085
-      - AA-V2ray-JP-NTT.02:10006
-      - AA-V2ray-VN【越南】:10007
-      - AA-V2ray-TW-HiNet.05:19045
-      - AA-V2ray-TW-HiNet.04:19038
-      - AA-V2ray-US-HE.04:19095
-      - AA-V2ray-TW-HiNet.03:19048
-      - AA-V2ray-US-HE.01:10002
-      - AA-V2ray-JP-NTT.01:19050
       - THE WORLD:443
-      - AA-V2ray-US-HE.03:19029
-      - AA-V2ray-US-Philadelphia:19016
-      - AA-V2ray-RU-Selectel:19080
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      - 香港 ➤ 02:80
+      - 香港 ➤ 05:80
+      - Singapore,V2_63:50001
+      - 日本 ➤ 01:80
+      - Incheon,V2_62:50001
+      - Hongkong,V2_64:50001
+      - California,V2_65:50001
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AA-V2ray-HK-HGC:19083
-      - AA-V2ray-HK-HKBN.02:19092
-      - AA-V2ray-TW-HiNet.01:19046
-      - AA-V2ray-HK-HKT.02:19040
-      - AA-V2ray-HK-NTT.01:19084
-      - AA-V2ray-HK-HKT.01:19094
-      - AA-V2ray-JP-NTT.03:19055
-      - AA-V2ray-TW-HiNet.02:19047
-      - AA-V2ray-HK-HKBN:19085
-      - AA-V2ray-JP-NTT.02:10006
-      - AA-V2ray-VN【越南】:10007
-      - AA-V2ray-TW-HiNet.05:19045
-      - AA-V2ray-TW-HiNet.04:19038
-      - AA-V2ray-US-HE.04:19095
-      - AA-V2ray-TW-HiNet.03:19048
-      - AA-V2ray-US-HE.01:10002
-      - AA-V2ray-JP-NTT.01:19050
       - THE WORLD:443
-      - AA-V2ray-US-HE.03:19029
-      - AA-V2ray-US-Philadelphia:19016
-      - AA-V2ray-RU-Selectel:19080
-      - 🇭🇰_HK_香港->🇰🇷_KR_韩国:33893
+      - 香港 ➤ 02:80
+      - 香港 ➤ 05:80
+      - Singapore,V2_63:50001
+      - 日本 ➤ 01:80
+      - Incheon,V2_62:50001
+      - Hongkong,V2_64:50001
+      - California,V2_65:50001
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
