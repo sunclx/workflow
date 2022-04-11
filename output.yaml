@@ -5,241 +5,535 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: EXTM3U-香港HKT-nf-iplc:40306
+  - name: HK:51693
     type: vmess
-    server: 120.233.10.55
-    port: 40306
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: hkcmi.745937508.xyz
+    port: 51693
+    uuid: 5d5f96d0-5d45-4860-915d-c1fbb16f4384
+    alterId: "20"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /andre
+    ws-headers:
+      Host: hkcmi.745937508.xyz
+  - name: CN:10009
+    type: vmess
+    server: az.hk01.paopaocloud.cyou
+    port: 10009
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: az.hk01.paopaocloud.cyou
+  - name: KR:443
+    type: vmess
+    server: 0326kr.fans8.xyz
+    port: 443
+    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ray
+    ws-headers:
+      Host: 0326kr.fans8.xyz
+  - name: CN:48517
+    type: vmess
+    server: fs.keaiyun.xyz
+    port: 48517
+    uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /v2ray
     ws-headers:
-      Host: t.me/vpnhat
-  - name: V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
+      Host: www.baidu.com
+  - name: CN:21129
     type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40328
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: cmjm.senlinss.link
+    port: 21129
+    uuid: 79bd1d4c-d5df-3f44-b01b-77209cdf1342
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: cmjm.senlinss.link
+  - name: 🇺🇸_US_美国->🇫🇷_FR_法国:443
+    type: vmess
+    server: fri.ncugo.cf
+    port: 443
+    uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers: null
+  - name: JP:3845
+    type: vmess
+    server: 139.162.122.205
+    port: 3845
+    uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /catnet
+    ws-headers:
+      Host: 139.162.122.205
+  - name: default_name:443
+    type: vmess
+    server: v2ray.788644.xyz
+    port: 443
+    uuid: 000fe881-b655-4212-b804-b00f9970d5aa
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /happy
+    ws-headers: null
+  - name: JP:3845_2
+    type: vmess
+    server: 139.162.122.205
+    port: 3845
+    uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers: null
+  - name: US:8443
+    type: vmess
+    server: v2ray.ifuckgfw.ga
+    port: 8443
+    uuid: f40c594a-b3c3-11ec-876b-5254001b7b42
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /yUxLk70F/
+    ws-headers:
+      Host: v2ray.ifuckgfw.ga
+  - name: CN:10025
+    type: vmess
+    server: ah.yd01.paopaocloud.cyou
+    port: 10025
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: ah.yd01.paopaocloud.cyou
+  - name: KR:40030
+    type: vmess
+    server: kor1.lolvps.xyz
+    port: 40030
+    uuid: 77005b76-6917-4e2a-815c-d06b2bfa0bed
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /DYUSC0AP
+    ws-headers:
+      Host: kor1.lolvps.xyz
+  - name: CN:13303
+    type: vmess
+    server: bgpv2.kmcyun.com
+    port: 13303
+    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /websocket
     ws-headers:
-      Host: juzi-iplc001.ddns-oink.xyz
-  - name: EXTM3U-香港HKT-nf-iplc:40328
+      Host: www.icloud.com
+  - name: CN:50301
     type: vmess
-    server: 120.233.10.55
-    port: 40328
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: in-v1.sdgdn.com
+    port: 50301
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: in-v1.sdgdn.com
+  - name: US:8443_2
+    type: vmess
+    server: v2ray.ifuckgfw.ga
+    port: 8443
+    uuid: ea53a296-b3c3-11ec-876b-5254001b7b42
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /yUxLk70F/
+    ws-headers:
+      Host: v2ray.ifuckgfw.ga
+  - name: CN:63078
+    type: vmess
+    server: mg01.nfeng6.pp.ua
+    port: 63078
+    uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /t.me/nfeng6
+    ws-headers:
+      Host: mg01.nfeng6.pp.ua
+  - name: US:443
+    type: vmess
+    server: app.ssfree.ru
+    port: 443
+    uuid: 47aa161e-b8e7-11ec-a265-000017022008
+    alterId: "64"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /getweather
+    ws-headers: null
+  - name: GB:18888
+    type: vmess
+    server: rknc.xrenblog.com
+    port: 18888
+    uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /xrenblog
+    ws-headers:
+      Host: rknc.xrenblog.com
+  - name: CN:55154
+    type: vmess
+    server: fs.keaiyun.xyz
+    port: 55154
+    uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /v2ray
     ws-headers:
-      Host: t.me/vpnhat
-  - name: V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
+      Host: www.baidu.com
+  - name: CN:55156
     type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40306
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: fs.keaiyun.xyz
+    port: 55156
+    uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /v2ray
     ws-headers:
-      Host: juzi-iplc001.ddns-oink.xyz
-  - name: V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
+      Host: www.baidu.com
+  - name: HK:443
     type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40307
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: 0326hk01.fans8.xyz
+    port: 443
+    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ray
+    ws-headers:
+      Host: 0326hk01.fans8.xyz
+  - name: KR:25135
+    type: vmess
+    server: 146.56.99.245
+    port: 25135
+    uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers: null
+  - name: HK:443_2
+    type: vmess
+    server: 165.154.225.231
+    port: 443
+    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ray
+    ws-headers:
+      Host: 330hk02.fans8.xyz
+  - name: CN:10012
+    type: vmess
+    server: az.hk01.paopaocloud.cyou
+    port: 10012
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: az.hk01.paopaocloud.cyou
+  - name: CN:10034
+    type: vmess
+    server: ah.yd01.paopaocloud.cyou
+    port: 10034
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: ah.yd01.paopaocloud.cyou
+  - name: 🇸🇬_SG_新加坡:443
+    type: vmess
+    server: sg1.31vpn.com
+    port: 443
+    uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /fastssh/bddasdf/624e71635ed8e/
+    ws-headers:
+      Host: sg1.31vpn.com
+  - name: CN:10027
+    type: vmess
+    server: gz.yd01.paopaocloud.cyou
+    port: 10027
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: gz.yd01.paopaocloud.cyou
+  - name: HK:443_2_2
+    type: vmess
+    server: 330hk02.fans8.xyz
+    port: 443
+    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ray
+    ws-headers:
+      Host: 330hk02.fans8.xyz
+  - name: US:42383
+    type: vmess
+    server: 207.246.94.28
+    port: 42383
+    uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /ray
+    ws-headers:
+      Host: 48us.fans8.xyz
+  - name: CN:10011
+    type: vmess
+    server: ah.yd01.paopaocloud.cyou
+    port: 10011
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: ah.yd01.paopaocloud.cyou
+  - name: 🇭🇰_HK_香港:10125
+    type: vmess
+    server: 20.205.131.172
+    port: 10125
+    uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: vn.mumi.bid
+  - name: CN:15622
+    type: vmess
+    server: jm.yd02.paopaocloud.cyou
+    port: 15622
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: jm.yd02.paopaocloud.cyou
+  - name: US:8443_2_2
+    type: vmess
+    server: v2ray.ifuckgfw.ga
+    port: 8443
+    uuid: ef20236c-b3c3-11ec-876b-5254001b7b42
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /yUxLk70F/
+    ws-headers:
+      Host: v2ray.ifuckgfw.ga
+  - name: CN:13004
+    type: vmess
+    server: bgpv2.kmcyun.com
+    port: 13004
+    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /websocket
     ws-headers:
-      Host: juzi-iplc001.ddns-oink.xyz
-  - name: V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
+      Host: www.icloud.com
+  - name: CN:10042
     type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40308
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: ah.yd01.paopaocloud.cyou
+    port: 10042
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: ah.yd01.paopaocloud.cyou
+  - name: CN:13304
+    type: vmess
+    server: bgpv2.kmcyun.com
+    port: 13304
+    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /websocket
     ws-headers:
-      Host: juzi-iplc001.ddns-oink.xyz
-  - name: vpnpool-香港HGC:40338
+      Host: www.icloud.com
+  - name: CN:10031
     type: vmess
-    server: 120.232.215.142
-    port: 40338
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: az.hk01.paopaocloud.cyou
+    port: 10031
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: az.hk01.paopaocloud.cyou
+  - name: US:8443_2_2_2
+    type: vmess
+    server: v2ray.ifuckgfw.ga
+    port: 8443
+    uuid: ecb634c2-b3c3-11ec-876b-5254001b7b42
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /yUxLk70F/
+    ws-headers:
+      Host: v2ray.ifuckgfw.ga
+  - name: CN:10038
+    type: vmess
+    server: az.hk01.paopaocloud.cyou
+    port: 10038
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: az.hk01.paopaocloud.cyou
+  - name: CN:13003
+    type: vmess
+    server: bgpv2.kmcyun.com
+    port: 13003
+    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /websocket
     ws-headers:
-      Host: t.me/vpnhat
-  - name: V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
+      Host: www.icloud.com
+  - name: JP:30032
     type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40240
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: jp3.lolvps.xyz
+    port: 30032
+    uuid: a4ca5bcd-b869-40d1-a22b-ffedde600ac3
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /HQMVPI9Y
     ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-    type: vmess
-    server: jzyjxcn2.ddns-oink.xyz
-    port: 40206
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: jzyjxcn2.ddns-oink.xyz
-  - name: V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-    type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40241
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: vpnpool-香港HKBN-nf:40241
-    type: vmess
-    server: 120.232.82.157
-    port: 40241
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-    type: vmess
-    server: gdyd01.ddns-oink.xyz
-    port: 40213
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: gdyd01.ddns-oink.xyz
-  - name: vpnhat-日本-nf:40109
-    type: vmess
-    server: 112.64.98.220
-    port: 40109
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-    type: vmess
-    server: yygd-rb-02.ddns-oink.xyz
-    port: 40041
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: yygd-rb-02.ddns-oink.xyz
-  - name: v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-    type: vmess
-    server: gdyd01.ddns-oink.xyz
-    port: 40217
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: gdyd01.ddns-oink.xyz
-  - name: vpnpool-US-nf:40214
-    type: vmess
-    server: 120.232.215.142
-    port: 40214
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40175
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: juzi-iplc001.ddns-oink.xyz
-  - name: EXTM3U-香港HKT-nf-iplc:40308
-    type: vmess
-    server: 120.233.10.55
-    port: 40308
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇺🇸_US_美国:443
+      Host: jp3.lolvps.xyz
+  - name: US:443_2
     type: vmess
     server: node.zxcairport.xyz
     port: 443
@@ -252,2181 +546,913 @@ proxies:
     ws-path: /
     ws-headers:
       Host: us2.zxcairport.xyz
-  - name: EXTM3U-香港-nf-iplc:40123
+  - name: TW:50895
     type: vmess
-    server: 120.233.10.55
-    port: 40123
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: 34.80.198.210
+    port: 50895
+    uuid: 3cade6c5-4516-490f-89bc-3913e3478c12
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-US-nf:40213
-    type: vmess
-    server: 120.232.215.142
-    port: 40213
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-    type: vmess
-    server: gdyd01.ddns-oink.xyz
-    port: 40069
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: gdyd01.ddns-oink.xyz
-  - name: V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-    type: vmess
-    server: shanghai-01.ddns-oink.xyz
-    port: 40291
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: shanghai-01.ddns-oink.xyz
-  - name: V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-    type: vmess
-    server: shanghai-01.ddns-oink.xyz
-    port: 40297
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: shanghai-01.ddns-oink.xyz
-  - name: V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-    type: vmess
-    server: juzixjp-001.ddns-oink.xyz
-    port: 40319
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: juzixjp-001.ddns-oink.xyz
-  - name: vpnhat-RU:40286
-    type: vmess
-    server: 112.64.98.220
-    port: 40286
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-SG-nf:40141
-    type: vmess
-    server: 120.232.215.142
-    port: 40141
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-    type: vmess
-    server: gdyd01.ddns-oink.xyz
-    port: 40215
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: gdyd01.ddns-oink.xyz
-  - name: vpnpool-US-nf:40217
-    type: vmess
-    server: 120.232.215.142
-    port: 40217
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: EXTM3U-台湾-nf-iplc:40202
-    type: vmess
-    server: 120.233.10.55
-    port: 40202
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-台湾-nf:40324
-    type: vmess
-    server: 120.232.82.157
-    port: 40324
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-    type: vmess
-    server: shanghai-cn2-01.ddns-oink.xyz
-    port: 40105
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: shanghai-cn2-01.ddns-oink.xyz
-  - name: V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-    type: vmess
-    server: shanghai-01.ddns-oink.xyz
-    port: 40294
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: shanghai-01.ddns-oink.xyz
-  - name: EXTM3U-SG-nf-iplc:40175
-    type: vmess
-    server: 120.233.10.55
-    port: 40175
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40310
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: juzi-iplc001.ddns-oink.xyz
-  - name: vpnhat-SG-nf:40101
-    type: vmess
-    server: 58.32.3.53
-    port: 40101
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-    type: vmess
-    server: shanghai-01.ddns-oink.xyz
-    port: 40299
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: shanghai-01.ddns-oink.xyz
-  - name: EXTM3U-香港-nf-iplc:40309
-    type: vmess
-    server: 120.233.10.55
-    port: 40309
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnhat-日本-nf:40107
-    type: vmess
-    server: 112.64.98.220
-    port: 40107
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-    type: vmess
-    server: shanghai-cn2-01.ddns-oink.xyz
-    port: 40103
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: shanghai-cn2-01.ddns-oink.xyz
-  - name: EXTM3U-香港-nf-iplc:40310
-    type: vmess
-    server: 120.233.10.55
-    port: 40310
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-香港HKT:40261
-    type: vmess
-    server: 120.232.82.157
-    port: 40261
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnhat-日本-nf:40039
-    type: vmess
-    server: 112.64.98.220
-    port: 40039
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-    type: vmess
-    server: niuniu-shlt-01.ddns-oink.xyz
-    port: 40055
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: niuniu-shlt-01.ddns-oink.xyz
-  - name: V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-    type: vmess
-    server: gdyd01.ddns-oink.xyz
-    port: 40338
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: gdyd01.ddns-oink.xyz
-  - name: V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-    type: vmess
-    server: juzixjp-001.ddns-oink.xyz
-    port: 40320
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: juzixjp-001.ddns-oink.xyz
-  - name: vpnhat-台湾-nf:40111
-    type: vmess
-    server: 58.32.3.53
-    port: 40111
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-香港HKT:40269
-    type: vmess
-    server: 120.232.82.157
-    port: 40269
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-香港HKT:40249
-    type: vmess
-    server: 120.232.82.157
-    port: 40249
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-香港HKT:40251
-    type: vmess
-    server: 120.232.82.157
-    port: 40251
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-    type: vmess
-    server: gdyd01.ddns-oink.xyz
-    port: 40336
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: gdyd01.ddns-oink.xyz
-  - name: V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-    type: vmess
-    server: shanghai-01.ddns-oink.xyz
-    port: 40288
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: shanghai-01.ddns-oink.xyz
-  - name: vpnpool-香港HKT:40336
-    type: vmess
-    server: 120.232.215.142
-    port: 40336
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-    type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40250
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-    type: vmess
-    server: jzyjxcn2.ddns-oink.xyz
-    port: 40113
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: jzyjxcn2.ddns-oink.xyz
-  - name: vpnhat-RU:40296
-    type: vmess
-    server: 112.64.98.220
-    port: 40296
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-    type: vmess
-    server: shanghai-01.ddns-oink.xyz
-    port: 40293
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: shanghai-01.ddns-oink.xyz
-  - name: V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-    type: vmess
-    server: niuniu-shlt-01.ddns-oink.xyz
-    port: 40035
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: niuniu-shlt-01.ddns-oink.xyz
-  - name: V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-    type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40023
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-    type: vmess
-    server: niuniu-shlt-01.ddns-oink.xyz
-    port: 40033
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: niuniu-shlt-01.ddns-oink.xyz
-  - name: vpnpool-US-nf:40216
-    type: vmess
-    server: 120.232.215.142
-    port: 40216
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-    type: vmess
-    server: niuniu-shlt-01.ddns-oink.xyz
-    port: 40037
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: niuniu-shlt-01.ddns-oink.xyz
-  - name: vpnpool-香港HKT:40250
-    type: vmess
-    server: 120.232.82.157
-    port: 40250
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-    type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40247
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-    type: vmess
-    server: gdyd01.ddns-oink.xyz
-    port: 40141
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: gdyd01.ddns-oink.xyz
-  - name: V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-    type: vmess
-    server: juzixjp-001.ddns-oink.xyz
-    port: 40322
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: juzixjp-001.ddns-oink.xyz
-  - name: V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-    type: vmess
-    server: yygd-rb-02.ddns-oink.xyz
-    port: 40189
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: yygd-rb-02.ddns-oink.xyz
-  - name: vpnpool-香港HKT:40260
-    type: vmess
-    server: 120.232.82.157
-    port: 40260
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-台湾-nf:40319
-    type: vmess
-    server: 120.232.82.157
-    port: 40319
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-香港HKT:40267
-    type: vmess
-    server: 120.232.82.157
-    port: 40267
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-    type: vmess
-    server: shanghai-01.ddns-oink.xyz
-    port: 40292
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: shanghai-01.ddns-oink.xyz
-  - name: vpnhat-日本-nf:40187
-    type: vmess
-    server: 112.64.98.220
-    port: 40187
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-SG-nf:40047
-    type: vmess
-    server: 120.232.215.142
-    port: 40047
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-    type: vmess
-    server: juzixjp-001.ddns-oink.xyz
-    port: 40081
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: juzixjp-001.ddns-oink.xyz
-  - name: V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-    type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40258
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: vpnpool-香港HKT:40247
-    type: vmess
-    server: 120.232.82.157
-    port: 40247
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40309
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: juzi-iplc001.ddns-oink.xyz
-  - name: V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-    type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40269
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: vpnhat-RU:40288
-    type: vmess
-    server: 112.64.98.220
-    port: 40288
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-香港HKT-nf:40238
-    type: vmess
-    server: 120.232.82.157
-    port: 40238
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnhat-台湾-nf:40113
-    type: vmess
-    server: 58.32.3.53
-    port: 40113
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-香港HKBN-nf:40240
-    type: vmess
-    server: 120.232.82.157
-    port: 40240
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-    type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40249
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: vpnhat-RU:40297
-    type: vmess
-    server: 112.64.98.220
-    port: 40297
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-    type: vmess
-    server: juzixjp-001.ddns-oink.xyz
-    port: 40324
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: juzixjp-001.ddns-oink.xyz
-  - name: V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
+    ws-path: /
+    ws-headers: null
+  - name: CN:13302
     type: vmess
-    server: yygd-rb-02.ddns-oink.xyz
-    port: 40077
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: bgpv2.kmcyun.com
+    port: 13302
+    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /websocket
     ws-headers:
-      Host: yygd-rb-02.ddns-oink.xyz
-  - name: V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
+      Host: www.icloud.com
+  - name: TW:443
     type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40202
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
+    server: 330tw.fans8.xyz
+    port: 443
+    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /ray
     ws-headers:
-      Host: juzi-iplc001.ddns-oink.xyz
-  - name: vpnpool-香港HKT-nf:40239
+      Host: 330tw.fans8.xyz
+  - name: CN:48552
     type: vmess
-    server: 120.232.82.157
-    port: 40239
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: fs.keaiyun.xyz
+    port: 48552
+    uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /v2ray
     ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-香港-nf:40196
+      Host: www.baidu.com
+  - name: CN:10025_2
     type: vmess
-    server: 120.232.82.157
-    port: 40196
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: az.hk01.paopaocloud.cyou
+    port: 10025
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /v2ray
     ws-headers:
-      Host: t.me/vpnhat
-  - name: V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
+      Host: az.hk01.paopaocloud.cyou
+  - name: KR:40034
     type: vmess
-    server: jzyjxcn2.ddns-oink.xyz
-    port: 40171
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: kor3.lolvps.xyz
+    port: 40034
+    uuid: ad470e66-6851-45bb-bc8d-c2f5f7b0e361
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /AQFLW40C
     ws-headers:
-      Host: jzyjxcn2.ddns-oink.xyz
-  - name: vpnhat-RU:40294
+      Host: kor3.lolvps.xyz
+  - name: US:42383_2
     type: vmess
-    server: 112.64.98.220
-    port: 40294
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: 207.246.94.28
+    port: 42383
+    uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
     ws-path: /jz666666
     ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnhat-香港-nf:40206
+      Host: 120.232.215.142
+  - name: JP:3845_2_2
     type: vmess
-    server: 58.32.3.53
-    port: 40206
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: 139.162.122.205
+    port: 3845
+    uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
-    ws-path: /jz666666
+    ws-path: /v2ray
     ws-headers:
-      Host: t.me/vpnhat
-  - name: V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
+      Host: www.ibm.com
+  - name: CN:10018
     type: vmess
-    server: shanghai-01.ddns-oink.xyz
-    port: 40289
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: az.hk01.paopaocloud.cyou
+    port: 10018
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /v2ray
     ws-headers:
-      Host: shanghai-01.ddns-oink.xyz
-  - name: vpnpool-香港HKT:40262
+      Host: az.hk01.paopaocloud.cyou
+  - name: CN:10009_2
     type: vmess
-    server: 120.232.82.157
-    port: 40262
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: gz.yd01.paopaocloud.cyou
+    port: 10009
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /v2ray
     ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnhat-RU-nf:40053
+      Host: gz.yd01.paopaocloud.cyou
+  - name: CN:10041
     type: vmess
-    server: 112.64.98.220
-    port: 40053
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: ah.yd01.paopaocloud.cyou
+    port: 10041
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /v2ray
     ws-headers:
-      Host: t.me/vpnhat
-  - name: V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
+      Host: ah.yd01.paopaocloud.cyou
+  - name: TW:46137
     type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40261
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: 34.80.198.210
+    port: 46137
+    uuid: 77ff090a-e711-4af8-8538-67fa2ab3f3d1
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
+    ws-path: /
+    ws-headers: null
+  - name: US:443_2_2
     type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40198
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: cloudflare.xrenblog.com
+    port: 443
+    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /sakura/
     ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
+      Host: v4.xrenblog.com
+  - name: CN:13301
     type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40169
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: bgpv2.kmcyun.com
+    port: 13301
+    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /websocket
     ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
+      Host: www.icloud.com
+  - name: HK:443_2_2_2
     type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40238
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
-    alterId: "0"
+    server: 165.154.225.176
+    port: 443
+    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /ray
     ws-headers:
-      Host: jzdjd-01.ddns-oink.xyz
-  - name: vpnpool-US-nf:40215
+      Host: 0326hk01.fans8.xyz
+  - name: 🇺🇸_US_美国:18888
     type: vmess
-    server: 120.232.215.142
-    port: 40215
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: sjc.xrenblog.com
+    port: 18888
+    uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /xrenblog
     ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnhat-香港HKTnf:40067
+      Host: sjc.xrenblog.com
+  - name: CN:13002
     type: vmess
-    server: 120.232.215.142
-    port: 40067
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: bgpv2.kmcyun.com
+    port: 13002
+    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
+    ws-path: /websocket
     ws-headers:
-      Host: t.me/vpnhat
-  - name: vpnpool-台湾-nf:40323
+      Host: www.icloud.com
+  - name: CN:10034_2
     type: vmess
-    server: 120.232.82.157
-    port: 40323
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: az.hk01.paopaocloud.cyou
+    port: 10034
+    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /jz666666
+    tls: true
+    ws-path: /v2ray
     ws-headers:
-      Host: t.me/vpnhat
-  - name: V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      Host: az.hk01.paopaocloud.cyou
+  - name: US:80
     type: vmess
-    server: gdyd01.ddns-oink.xyz
-    port: 40263
-    uuid: e4cba870-e545-3e17-bd03-f3ce5e3e292e
+    server: us1.31vpn.com
+    port: 80
+    uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: gdyd01.ddns-oink.xyz
+    ws-path: /fastssh/remaoqi/624ca41d72e6d/
+    ws-headers: null
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EXTM3U-香港HKT-nf-iplc:40306
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
-      - EXTM3U-香港HKT-nf-iplc:40328
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
-      - vpnpool-香港HGC:40338
-      - V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-      - V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-      - vpnpool-香港HKBN-nf:40241
-      - V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-      - vpnhat-日本-nf:40109
-      - V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-      - v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-      - vpnpool-US-nf:40214
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-      - EXTM3U-香港HKT-nf-iplc:40308
-      - 🇺🇸_US_美国:443
-      - EXTM3U-香港-nf-iplc:40123
-      - vpnpool-US-nf:40213
-      - V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-      - V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-      - V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-      - V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-      - vpnhat-RU:40286
-      - vpnpool-SG-nf:40141
-      - v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-      - vpnpool-US-nf:40217
-      - EXTM3U-台湾-nf-iplc:40202
-      - vpnpool-台湾-nf:40324
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-      - V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-      - EXTM3U-SG-nf-iplc:40175
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-      - vpnhat-SG-nf:40101
-      - V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-      - EXTM3U-香港-nf-iplc:40309
-      - vpnhat-日本-nf:40107
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-      - EXTM3U-香港-nf-iplc:40310
-      - vpnpool-香港HKT:40261
-      - vpnhat-日本-nf:40039
-      - V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-      - V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-      - V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-      - vpnhat-台湾-nf:40111
-      - vpnpool-香港HKT:40269
-      - vpnpool-香港HKT:40249
-      - vpnpool-香港HKT:40251
-      - V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-      - V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-      - vpnpool-香港HKT:40336
-      - V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-      - V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-      - vpnhat-RU:40296
-      - V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-      - V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-      - V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-      - vpnpool-US-nf:40216
-      - V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-      - vpnpool-香港HKT:40250
-      - V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-      - V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-      - V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-      - V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-      - vpnpool-香港HKT:40260
-      - vpnpool-台湾-nf:40319
-      - vpnpool-香港HKT:40267
-      - V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-      - vpnhat-日本-nf:40187
-      - vpnpool-SG-nf:40047
-      - V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-      - V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-      - vpnpool-香港HKT:40247
-      - V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-      - V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-      - vpnhat-RU:40288
-      - vpnpool-香港HKT-nf:40238
-      - vpnhat-台湾-nf:40113
-      - vpnpool-香港HKBN-nf:40240
-      - V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-      - vpnhat-RU:40297
-      - V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-      - V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
-      - V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
-      - vpnpool-香港HKT-nf:40239
-      - vpnpool-香港-nf:40196
-      - V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
-      - vpnhat-RU:40294
-      - vpnhat-香港-nf:40206
-      - V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
-      - vpnpool-香港HKT:40262
-      - vpnhat-RU-nf:40053
-      - V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
-      - V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
-      - V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
-      - V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
-      - vpnpool-US-nf:40215
-      - vpnhat-香港HKTnf:40067
-      - vpnpool-台湾-nf:40323
-      - V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      - HK:51693
+      - CN:10009
+      - KR:443
+      - CN:48517
+      - CN:21129
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - JP:3845
+      - default_name:443
+      - JP:3845_2
+      - US:8443
+      - CN:10025
+      - KR:40030
+      - CN:13303
+      - CN:50301
+      - US:8443_2
+      - CN:63078
+      - US:443
+      - GB:18888
+      - CN:55154
+      - CN:55156
+      - HK:443
+      - KR:25135
+      - HK:443_2
+      - CN:10012
+      - CN:10034
+      - 🇸🇬_SG_新加坡:443
+      - CN:10027
+      - HK:443_2_2
+      - US:42383
+      - CN:10011
+      - 🇭🇰_HK_香港:10125
+      - CN:15622
+      - US:8443_2_2
+      - CN:13004
+      - CN:10042
+      - CN:13304
+      - CN:10031
+      - US:8443_2_2_2
+      - CN:10038
+      - CN:13003
+      - JP:30032
+      - US:443_2
+      - TW:50895
+      - CN:13302
+      - TW:443
+      - CN:48552
+      - CN:10025_2
+      - KR:40034
+      - US:42383_2
+      - JP:3845_2_2
+      - CN:10018
+      - CN:10009_2
+      - CN:10041
+      - TW:46137
+      - US:443_2_2
+      - CN:13301
+      - HK:443_2_2_2
+      - 🇺🇸_US_美国:18888
+      - CN:13002
+      - CN:10034_2
+      - US:80
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - EXTM3U-香港HKT-nf-iplc:40306
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
-      - EXTM3U-香港HKT-nf-iplc:40328
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
-      - vpnpool-香港HGC:40338
-      - V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-      - V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-      - vpnpool-香港HKBN-nf:40241
-      - V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-      - vpnhat-日本-nf:40109
-      - V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-      - v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-      - vpnpool-US-nf:40214
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-      - EXTM3U-香港HKT-nf-iplc:40308
-      - 🇺🇸_US_美国:443
-      - EXTM3U-香港-nf-iplc:40123
-      - vpnpool-US-nf:40213
-      - V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-      - V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-      - V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-      - V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-      - vpnhat-RU:40286
-      - vpnpool-SG-nf:40141
-      - v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-      - vpnpool-US-nf:40217
-      - EXTM3U-台湾-nf-iplc:40202
-      - vpnpool-台湾-nf:40324
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-      - V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-      - EXTM3U-SG-nf-iplc:40175
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-      - vpnhat-SG-nf:40101
-      - V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-      - EXTM3U-香港-nf-iplc:40309
-      - vpnhat-日本-nf:40107
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-      - EXTM3U-香港-nf-iplc:40310
-      - vpnpool-香港HKT:40261
-      - vpnhat-日本-nf:40039
-      - V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-      - V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-      - V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-      - vpnhat-台湾-nf:40111
-      - vpnpool-香港HKT:40269
-      - vpnpool-香港HKT:40249
-      - vpnpool-香港HKT:40251
-      - V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-      - V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-      - vpnpool-香港HKT:40336
-      - V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-      - V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-      - vpnhat-RU:40296
-      - V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-      - V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-      - V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-      - vpnpool-US-nf:40216
-      - V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-      - vpnpool-香港HKT:40250
-      - V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-      - V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-      - V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-      - V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-      - vpnpool-香港HKT:40260
-      - vpnpool-台湾-nf:40319
-      - vpnpool-香港HKT:40267
-      - V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-      - vpnhat-日本-nf:40187
-      - vpnpool-SG-nf:40047
-      - V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-      - V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-      - vpnpool-香港HKT:40247
-      - V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-      - V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-      - vpnhat-RU:40288
-      - vpnpool-香港HKT-nf:40238
-      - vpnhat-台湾-nf:40113
-      - vpnpool-香港HKBN-nf:40240
-      - V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-      - vpnhat-RU:40297
-      - V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-      - V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
-      - V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
-      - vpnpool-香港HKT-nf:40239
-      - vpnpool-香港-nf:40196
-      - V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
-      - vpnhat-RU:40294
-      - vpnhat-香港-nf:40206
-      - V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
-      - vpnpool-香港HKT:40262
-      - vpnhat-RU-nf:40053
-      - V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
-      - V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
-      - V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
-      - V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
-      - vpnpool-US-nf:40215
-      - vpnhat-香港HKTnf:40067
-      - vpnpool-台湾-nf:40323
-      - V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      - HK:51693
+      - CN:10009
+      - KR:443
+      - CN:48517
+      - CN:21129
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - JP:3845
+      - default_name:443
+      - JP:3845_2
+      - US:8443
+      - CN:10025
+      - KR:40030
+      - CN:13303
+      - CN:50301
+      - US:8443_2
+      - CN:63078
+      - US:443
+      - GB:18888
+      - CN:55154
+      - CN:55156
+      - HK:443
+      - KR:25135
+      - HK:443_2
+      - CN:10012
+      - CN:10034
+      - 🇸🇬_SG_新加坡:443
+      - CN:10027
+      - HK:443_2_2
+      - US:42383
+      - CN:10011
+      - 🇭🇰_HK_香港:10125
+      - CN:15622
+      - US:8443_2_2
+      - CN:13004
+      - CN:10042
+      - CN:13304
+      - CN:10031
+      - US:8443_2_2_2
+      - CN:10038
+      - CN:13003
+      - JP:30032
+      - US:443_2
+      - TW:50895
+      - CN:13302
+      - TW:443
+      - CN:48552
+      - CN:10025_2
+      - KR:40034
+      - US:42383_2
+      - JP:3845_2_2
+      - CN:10018
+      - CN:10009_2
+      - CN:10041
+      - TW:46137
+      - US:443_2_2
+      - CN:13301
+      - HK:443_2_2_2
+      - 🇺🇸_US_美国:18888
+      - CN:13002
+      - CN:10034_2
+      - US:80
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - EXTM3U-香港HKT-nf-iplc:40306
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
-      - EXTM3U-香港HKT-nf-iplc:40328
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
-      - vpnpool-香港HGC:40338
-      - V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-      - V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-      - vpnpool-香港HKBN-nf:40241
-      - V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-      - vpnhat-日本-nf:40109
-      - V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-      - v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-      - vpnpool-US-nf:40214
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-      - EXTM3U-香港HKT-nf-iplc:40308
-      - 🇺🇸_US_美国:443
-      - EXTM3U-香港-nf-iplc:40123
-      - vpnpool-US-nf:40213
-      - V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-      - V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-      - V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-      - V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-      - vpnhat-RU:40286
-      - vpnpool-SG-nf:40141
-      - v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-      - vpnpool-US-nf:40217
-      - EXTM3U-台湾-nf-iplc:40202
-      - vpnpool-台湾-nf:40324
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-      - V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-      - EXTM3U-SG-nf-iplc:40175
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-      - vpnhat-SG-nf:40101
-      - V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-      - EXTM3U-香港-nf-iplc:40309
-      - vpnhat-日本-nf:40107
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-      - EXTM3U-香港-nf-iplc:40310
-      - vpnpool-香港HKT:40261
-      - vpnhat-日本-nf:40039
-      - V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-      - V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-      - V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-      - vpnhat-台湾-nf:40111
-      - vpnpool-香港HKT:40269
-      - vpnpool-香港HKT:40249
-      - vpnpool-香港HKT:40251
-      - V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-      - V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-      - vpnpool-香港HKT:40336
-      - V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-      - V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-      - vpnhat-RU:40296
-      - V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-      - V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-      - V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-      - vpnpool-US-nf:40216
-      - V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-      - vpnpool-香港HKT:40250
-      - V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-      - V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-      - V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-      - V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-      - vpnpool-香港HKT:40260
-      - vpnpool-台湾-nf:40319
-      - vpnpool-香港HKT:40267
-      - V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-      - vpnhat-日本-nf:40187
-      - vpnpool-SG-nf:40047
-      - V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-      - V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-      - vpnpool-香港HKT:40247
-      - V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-      - V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-      - vpnhat-RU:40288
-      - vpnpool-香港HKT-nf:40238
-      - vpnhat-台湾-nf:40113
-      - vpnpool-香港HKBN-nf:40240
-      - V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-      - vpnhat-RU:40297
-      - V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-      - V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
-      - V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
-      - vpnpool-香港HKT-nf:40239
-      - vpnpool-香港-nf:40196
-      - V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
-      - vpnhat-RU:40294
-      - vpnhat-香港-nf:40206
-      - V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
-      - vpnpool-香港HKT:40262
-      - vpnhat-RU-nf:40053
-      - V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
-      - V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
-      - V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
-      - V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
-      - vpnpool-US-nf:40215
-      - vpnhat-香港HKTnf:40067
-      - vpnpool-台湾-nf:40323
-      - V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      - HK:51693
+      - CN:10009
+      - KR:443
+      - CN:48517
+      - CN:21129
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - JP:3845
+      - default_name:443
+      - JP:3845_2
+      - US:8443
+      - CN:10025
+      - KR:40030
+      - CN:13303
+      - CN:50301
+      - US:8443_2
+      - CN:63078
+      - US:443
+      - GB:18888
+      - CN:55154
+      - CN:55156
+      - HK:443
+      - KR:25135
+      - HK:443_2
+      - CN:10012
+      - CN:10034
+      - 🇸🇬_SG_新加坡:443
+      - CN:10027
+      - HK:443_2_2
+      - US:42383
+      - CN:10011
+      - 🇭🇰_HK_香港:10125
+      - CN:15622
+      - US:8443_2_2
+      - CN:13004
+      - CN:10042
+      - CN:13304
+      - CN:10031
+      - US:8443_2_2_2
+      - CN:10038
+      - CN:13003
+      - JP:30032
+      - US:443_2
+      - TW:50895
+      - CN:13302
+      - TW:443
+      - CN:48552
+      - CN:10025_2
+      - KR:40034
+      - US:42383_2
+      - JP:3845_2_2
+      - CN:10018
+      - CN:10009_2
+      - CN:10041
+      - TW:46137
+      - US:443_2_2
+      - CN:13301
+      - HK:443_2_2_2
+      - 🇺🇸_US_美国:18888
+      - CN:13002
+      - CN:10034_2
+      - US:80
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - EXTM3U-香港HKT-nf-iplc:40306
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
-      - EXTM3U-香港HKT-nf-iplc:40328
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
-      - vpnpool-香港HGC:40338
-      - V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-      - V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-      - vpnpool-香港HKBN-nf:40241
-      - V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-      - vpnhat-日本-nf:40109
-      - V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-      - v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-      - vpnpool-US-nf:40214
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-      - EXTM3U-香港HKT-nf-iplc:40308
-      - 🇺🇸_US_美国:443
-      - EXTM3U-香港-nf-iplc:40123
-      - vpnpool-US-nf:40213
-      - V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-      - V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-      - V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-      - V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-      - vpnhat-RU:40286
-      - vpnpool-SG-nf:40141
-      - v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-      - vpnpool-US-nf:40217
-      - EXTM3U-台湾-nf-iplc:40202
-      - vpnpool-台湾-nf:40324
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-      - V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-      - EXTM3U-SG-nf-iplc:40175
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-      - vpnhat-SG-nf:40101
-      - V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-      - EXTM3U-香港-nf-iplc:40309
-      - vpnhat-日本-nf:40107
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-      - EXTM3U-香港-nf-iplc:40310
-      - vpnpool-香港HKT:40261
-      - vpnhat-日本-nf:40039
-      - V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-      - V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-      - V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-      - vpnhat-台湾-nf:40111
-      - vpnpool-香港HKT:40269
-      - vpnpool-香港HKT:40249
-      - vpnpool-香港HKT:40251
-      - V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-      - V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-      - vpnpool-香港HKT:40336
-      - V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-      - V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-      - vpnhat-RU:40296
-      - V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-      - V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-      - V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-      - vpnpool-US-nf:40216
-      - V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-      - vpnpool-香港HKT:40250
-      - V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-      - V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-      - V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-      - V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-      - vpnpool-香港HKT:40260
-      - vpnpool-台湾-nf:40319
-      - vpnpool-香港HKT:40267
-      - V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-      - vpnhat-日本-nf:40187
-      - vpnpool-SG-nf:40047
-      - V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-      - V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-      - vpnpool-香港HKT:40247
-      - V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-      - V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-      - vpnhat-RU:40288
-      - vpnpool-香港HKT-nf:40238
-      - vpnhat-台湾-nf:40113
-      - vpnpool-香港HKBN-nf:40240
-      - V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-      - vpnhat-RU:40297
-      - V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-      - V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
-      - V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
-      - vpnpool-香港HKT-nf:40239
-      - vpnpool-香港-nf:40196
-      - V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
-      - vpnhat-RU:40294
-      - vpnhat-香港-nf:40206
-      - V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
-      - vpnpool-香港HKT:40262
-      - vpnhat-RU-nf:40053
-      - V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
-      - V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
-      - V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
-      - V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
-      - vpnpool-US-nf:40215
-      - vpnhat-香港HKTnf:40067
-      - vpnpool-台湾-nf:40323
-      - V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      - HK:51693
+      - CN:10009
+      - KR:443
+      - CN:48517
+      - CN:21129
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - JP:3845
+      - default_name:443
+      - JP:3845_2
+      - US:8443
+      - CN:10025
+      - KR:40030
+      - CN:13303
+      - CN:50301
+      - US:8443_2
+      - CN:63078
+      - US:443
+      - GB:18888
+      - CN:55154
+      - CN:55156
+      - HK:443
+      - KR:25135
+      - HK:443_2
+      - CN:10012
+      - CN:10034
+      - 🇸🇬_SG_新加坡:443
+      - CN:10027
+      - HK:443_2_2
+      - US:42383
+      - CN:10011
+      - 🇭🇰_HK_香港:10125
+      - CN:15622
+      - US:8443_2_2
+      - CN:13004
+      - CN:10042
+      - CN:13304
+      - CN:10031
+      - US:8443_2_2_2
+      - CN:10038
+      - CN:13003
+      - JP:30032
+      - US:443_2
+      - TW:50895
+      - CN:13302
+      - TW:443
+      - CN:48552
+      - CN:10025_2
+      - KR:40034
+      - US:42383_2
+      - JP:3845_2_2
+      - CN:10018
+      - CN:10009_2
+      - CN:10041
+      - TW:46137
+      - US:443_2_2
+      - CN:13301
+      - HK:443_2_2_2
+      - 🇺🇸_US_美国:18888
+      - CN:13002
+      - CN:10034_2
+      - US:80
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - EXTM3U-香港HKT-nf-iplc:40306
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
-      - EXTM3U-香港HKT-nf-iplc:40328
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
-      - vpnpool-香港HGC:40338
-      - V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-      - V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-      - vpnpool-香港HKBN-nf:40241
-      - V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-      - vpnhat-日本-nf:40109
-      - V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-      - v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-      - vpnpool-US-nf:40214
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-      - EXTM3U-香港HKT-nf-iplc:40308
-      - 🇺🇸_US_美国:443
-      - EXTM3U-香港-nf-iplc:40123
-      - vpnpool-US-nf:40213
-      - V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-      - V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-      - V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-      - V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-      - vpnhat-RU:40286
-      - vpnpool-SG-nf:40141
-      - v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-      - vpnpool-US-nf:40217
-      - EXTM3U-台湾-nf-iplc:40202
-      - vpnpool-台湾-nf:40324
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-      - V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-      - EXTM3U-SG-nf-iplc:40175
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-      - vpnhat-SG-nf:40101
-      - V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-      - EXTM3U-香港-nf-iplc:40309
-      - vpnhat-日本-nf:40107
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-      - EXTM3U-香港-nf-iplc:40310
-      - vpnpool-香港HKT:40261
-      - vpnhat-日本-nf:40039
-      - V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-      - V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-      - V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-      - vpnhat-台湾-nf:40111
-      - vpnpool-香港HKT:40269
-      - vpnpool-香港HKT:40249
-      - vpnpool-香港HKT:40251
-      - V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-      - V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-      - vpnpool-香港HKT:40336
-      - V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-      - V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-      - vpnhat-RU:40296
-      - V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-      - V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-      - V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-      - vpnpool-US-nf:40216
-      - V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-      - vpnpool-香港HKT:40250
-      - V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-      - V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-      - V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-      - V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-      - vpnpool-香港HKT:40260
-      - vpnpool-台湾-nf:40319
-      - vpnpool-香港HKT:40267
-      - V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-      - vpnhat-日本-nf:40187
-      - vpnpool-SG-nf:40047
-      - V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-      - V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-      - vpnpool-香港HKT:40247
-      - V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-      - V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-      - vpnhat-RU:40288
-      - vpnpool-香港HKT-nf:40238
-      - vpnhat-台湾-nf:40113
-      - vpnpool-香港HKBN-nf:40240
-      - V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-      - vpnhat-RU:40297
-      - V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-      - V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
-      - V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
-      - vpnpool-香港HKT-nf:40239
-      - vpnpool-香港-nf:40196
-      - V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
-      - vpnhat-RU:40294
-      - vpnhat-香港-nf:40206
-      - V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
-      - vpnpool-香港HKT:40262
-      - vpnhat-RU-nf:40053
-      - V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
-      - V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
-      - V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
-      - V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
-      - vpnpool-US-nf:40215
-      - vpnhat-香港HKTnf:40067
-      - vpnpool-台湾-nf:40323
-      - V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      - HK:51693
+      - CN:10009
+      - KR:443
+      - CN:48517
+      - CN:21129
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - JP:3845
+      - default_name:443
+      - JP:3845_2
+      - US:8443
+      - CN:10025
+      - KR:40030
+      - CN:13303
+      - CN:50301
+      - US:8443_2
+      - CN:63078
+      - US:443
+      - GB:18888
+      - CN:55154
+      - CN:55156
+      - HK:443
+      - KR:25135
+      - HK:443_2
+      - CN:10012
+      - CN:10034
+      - 🇸🇬_SG_新加坡:443
+      - CN:10027
+      - HK:443_2_2
+      - US:42383
+      - CN:10011
+      - 🇭🇰_HK_香港:10125
+      - CN:15622
+      - US:8443_2_2
+      - CN:13004
+      - CN:10042
+      - CN:13304
+      - CN:10031
+      - US:8443_2_2_2
+      - CN:10038
+      - CN:13003
+      - JP:30032
+      - US:443_2
+      - TW:50895
+      - CN:13302
+      - TW:443
+      - CN:48552
+      - CN:10025_2
+      - KR:40034
+      - US:42383_2
+      - JP:3845_2_2
+      - CN:10018
+      - CN:10009_2
+      - CN:10041
+      - TW:46137
+      - US:443_2_2
+      - CN:13301
+      - HK:443_2_2_2
+      - 🇺🇸_US_美国:18888
+      - CN:13002
+      - CN:10034_2
+      - US:80
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - EXTM3U-香港HKT-nf-iplc:40306
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
-      - EXTM3U-香港HKT-nf-iplc:40328
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
-      - vpnpool-香港HGC:40338
-      - V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-      - V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-      - vpnpool-香港HKBN-nf:40241
-      - V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-      - vpnhat-日本-nf:40109
-      - V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-      - v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-      - vpnpool-US-nf:40214
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-      - EXTM3U-香港HKT-nf-iplc:40308
-      - 🇺🇸_US_美国:443
-      - EXTM3U-香港-nf-iplc:40123
-      - vpnpool-US-nf:40213
-      - V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-      - V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-      - V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-      - V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-      - vpnhat-RU:40286
-      - vpnpool-SG-nf:40141
-      - v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-      - vpnpool-US-nf:40217
-      - EXTM3U-台湾-nf-iplc:40202
-      - vpnpool-台湾-nf:40324
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-      - V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-      - EXTM3U-SG-nf-iplc:40175
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-      - vpnhat-SG-nf:40101
-      - V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-      - EXTM3U-香港-nf-iplc:40309
-      - vpnhat-日本-nf:40107
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-      - EXTM3U-香港-nf-iplc:40310
-      - vpnpool-香港HKT:40261
-      - vpnhat-日本-nf:40039
-      - V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-      - V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-      - V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-      - vpnhat-台湾-nf:40111
-      - vpnpool-香港HKT:40269
-      - vpnpool-香港HKT:40249
-      - vpnpool-香港HKT:40251
-      - V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-      - V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-      - vpnpool-香港HKT:40336
-      - V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-      - V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-      - vpnhat-RU:40296
-      - V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-      - V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-      - V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-      - vpnpool-US-nf:40216
-      - V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-      - vpnpool-香港HKT:40250
-      - V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-      - V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-      - V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-      - V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-      - vpnpool-香港HKT:40260
-      - vpnpool-台湾-nf:40319
-      - vpnpool-香港HKT:40267
-      - V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-      - vpnhat-日本-nf:40187
-      - vpnpool-SG-nf:40047
-      - V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-      - V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-      - vpnpool-香港HKT:40247
-      - V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-      - V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-      - vpnhat-RU:40288
-      - vpnpool-香港HKT-nf:40238
-      - vpnhat-台湾-nf:40113
-      - vpnpool-香港HKBN-nf:40240
-      - V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-      - vpnhat-RU:40297
-      - V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-      - V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
-      - V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
-      - vpnpool-香港HKT-nf:40239
-      - vpnpool-香港-nf:40196
-      - V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
-      - vpnhat-RU:40294
-      - vpnhat-香港-nf:40206
-      - V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
-      - vpnpool-香港HKT:40262
-      - vpnhat-RU-nf:40053
-      - V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
-      - V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
-      - V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
-      - V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
-      - vpnpool-US-nf:40215
-      - vpnhat-香港HKTnf:40067
-      - vpnpool-台湾-nf:40323
-      - V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      - HK:51693
+      - CN:10009
+      - KR:443
+      - CN:48517
+      - CN:21129
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - JP:3845
+      - default_name:443
+      - JP:3845_2
+      - US:8443
+      - CN:10025
+      - KR:40030
+      - CN:13303
+      - CN:50301
+      - US:8443_2
+      - CN:63078
+      - US:443
+      - GB:18888
+      - CN:55154
+      - CN:55156
+      - HK:443
+      - KR:25135
+      - HK:443_2
+      - CN:10012
+      - CN:10034
+      - 🇸🇬_SG_新加坡:443
+      - CN:10027
+      - HK:443_2_2
+      - US:42383
+      - CN:10011
+      - 🇭🇰_HK_香港:10125
+      - CN:15622
+      - US:8443_2_2
+      - CN:13004
+      - CN:10042
+      - CN:13304
+      - CN:10031
+      - US:8443_2_2_2
+      - CN:10038
+      - CN:13003
+      - JP:30032
+      - US:443_2
+      - TW:50895
+      - CN:13302
+      - TW:443
+      - CN:48552
+      - CN:10025_2
+      - KR:40034
+      - US:42383_2
+      - JP:3845_2_2
+      - CN:10018
+      - CN:10009_2
+      - CN:10041
+      - TW:46137
+      - US:443_2_2
+      - CN:13301
+      - HK:443_2_2_2
+      - 🇺🇸_US_美国:18888
+      - CN:13002
+      - CN:10034_2
+      - US:80
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - EXTM3U-香港HKT-nf-iplc:40306
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
-      - EXTM3U-香港HKT-nf-iplc:40328
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
-      - vpnpool-香港HGC:40338
-      - V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-      - V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-      - vpnpool-香港HKBN-nf:40241
-      - V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-      - vpnhat-日本-nf:40109
-      - V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-      - v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-      - vpnpool-US-nf:40214
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-      - EXTM3U-香港HKT-nf-iplc:40308
-      - 🇺🇸_US_美国:443
-      - EXTM3U-香港-nf-iplc:40123
-      - vpnpool-US-nf:40213
-      - V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-      - V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-      - V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-      - V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-      - vpnhat-RU:40286
-      - vpnpool-SG-nf:40141
-      - v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-      - vpnpool-US-nf:40217
-      - EXTM3U-台湾-nf-iplc:40202
-      - vpnpool-台湾-nf:40324
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-      - V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-      - EXTM3U-SG-nf-iplc:40175
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-      - vpnhat-SG-nf:40101
-      - V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-      - EXTM3U-香港-nf-iplc:40309
-      - vpnhat-日本-nf:40107
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-      - EXTM3U-香港-nf-iplc:40310
-      - vpnpool-香港HKT:40261
-      - vpnhat-日本-nf:40039
-      - V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-      - V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-      - V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-      - vpnhat-台湾-nf:40111
-      - vpnpool-香港HKT:40269
-      - vpnpool-香港HKT:40249
-      - vpnpool-香港HKT:40251
-      - V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-      - V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-      - vpnpool-香港HKT:40336
-      - V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-      - V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-      - vpnhat-RU:40296
-      - V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-      - V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-      - V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-      - vpnpool-US-nf:40216
-      - V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-      - vpnpool-香港HKT:40250
-      - V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-      - V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-      - V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-      - V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-      - vpnpool-香港HKT:40260
-      - vpnpool-台湾-nf:40319
-      - vpnpool-香港HKT:40267
-      - V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-      - vpnhat-日本-nf:40187
-      - vpnpool-SG-nf:40047
-      - V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-      - V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-      - vpnpool-香港HKT:40247
-      - V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-      - V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-      - vpnhat-RU:40288
-      - vpnpool-香港HKT-nf:40238
-      - vpnhat-台湾-nf:40113
-      - vpnpool-香港HKBN-nf:40240
-      - V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-      - vpnhat-RU:40297
-      - V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-      - V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
-      - V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
-      - vpnpool-香港HKT-nf:40239
-      - vpnpool-香港-nf:40196
-      - V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
-      - vpnhat-RU:40294
-      - vpnhat-香港-nf:40206
-      - V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
-      - vpnpool-香港HKT:40262
-      - vpnhat-RU-nf:40053
-      - V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
-      - V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
-      - V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
-      - V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
-      - vpnpool-US-nf:40215
-      - vpnhat-香港HKTnf:40067
-      - vpnpool-台湾-nf:40323
-      - V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      - HK:51693
+      - CN:10009
+      - KR:443
+      - CN:48517
+      - CN:21129
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - JP:3845
+      - default_name:443
+      - JP:3845_2
+      - US:8443
+      - CN:10025
+      - KR:40030
+      - CN:13303
+      - CN:50301
+      - US:8443_2
+      - CN:63078
+      - US:443
+      - GB:18888
+      - CN:55154
+      - CN:55156
+      - HK:443
+      - KR:25135
+      - HK:443_2
+      - CN:10012
+      - CN:10034
+      - 🇸🇬_SG_新加坡:443
+      - CN:10027
+      - HK:443_2_2
+      - US:42383
+      - CN:10011
+      - 🇭🇰_HK_香港:10125
+      - CN:15622
+      - US:8443_2_2
+      - CN:13004
+      - CN:10042
+      - CN:13304
+      - CN:10031
+      - US:8443_2_2_2
+      - CN:10038
+      - CN:13003
+      - JP:30032
+      - US:443_2
+      - TW:50895
+      - CN:13302
+      - TW:443
+      - CN:48552
+      - CN:10025_2
+      - KR:40034
+      - US:42383_2
+      - JP:3845_2_2
+      - CN:10018
+      - CN:10009_2
+      - CN:10041
+      - TW:46137
+      - US:443_2_2
+      - CN:13301
+      - HK:443_2_2_2
+      - 🇺🇸_US_美国:18888
+      - CN:13002
+      - CN:10034_2
+      - US:80
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - EXTM3U-香港HKT-nf-iplc:40306
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
-      - EXTM3U-香港HKT-nf-iplc:40328
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
-      - vpnpool-香港HGC:40338
-      - V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-      - V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-      - vpnpool-香港HKBN-nf:40241
-      - V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-      - vpnhat-日本-nf:40109
-      - V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-      - v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-      - vpnpool-US-nf:40214
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-      - EXTM3U-香港HKT-nf-iplc:40308
-      - 🇺🇸_US_美国:443
-      - EXTM3U-香港-nf-iplc:40123
-      - vpnpool-US-nf:40213
-      - V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-      - V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-      - V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-      - V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-      - vpnhat-RU:40286
-      - vpnpool-SG-nf:40141
-      - v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-      - vpnpool-US-nf:40217
-      - EXTM3U-台湾-nf-iplc:40202
-      - vpnpool-台湾-nf:40324
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-      - V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-      - EXTM3U-SG-nf-iplc:40175
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-      - vpnhat-SG-nf:40101
-      - V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-      - EXTM3U-香港-nf-iplc:40309
-      - vpnhat-日本-nf:40107
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-      - EXTM3U-香港-nf-iplc:40310
-      - vpnpool-香港HKT:40261
-      - vpnhat-日本-nf:40039
-      - V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-      - V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-      - V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-      - vpnhat-台湾-nf:40111
-      - vpnpool-香港HKT:40269
-      - vpnpool-香港HKT:40249
-      - vpnpool-香港HKT:40251
-      - V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-      - V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-      - vpnpool-香港HKT:40336
-      - V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-      - V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-      - vpnhat-RU:40296
-      - V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-      - V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-      - V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-      - vpnpool-US-nf:40216
-      - V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-      - vpnpool-香港HKT:40250
-      - V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-      - V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-      - V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-      - V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-      - vpnpool-香港HKT:40260
-      - vpnpool-台湾-nf:40319
-      - vpnpool-香港HKT:40267
-      - V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-      - vpnhat-日本-nf:40187
-      - vpnpool-SG-nf:40047
-      - V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-      - V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-      - vpnpool-香港HKT:40247
-      - V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-      - V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-      - vpnhat-RU:40288
-      - vpnpool-香港HKT-nf:40238
-      - vpnhat-台湾-nf:40113
-      - vpnpool-香港HKBN-nf:40240
-      - V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-      - vpnhat-RU:40297
-      - V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-      - V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
-      - V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
-      - vpnpool-香港HKT-nf:40239
-      - vpnpool-香港-nf:40196
-      - V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
-      - vpnhat-RU:40294
-      - vpnhat-香港-nf:40206
-      - V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
-      - vpnpool-香港HKT:40262
-      - vpnhat-RU-nf:40053
-      - V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
-      - V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
-      - V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
-      - V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
-      - vpnpool-US-nf:40215
-      - vpnhat-香港HKTnf:40067
-      - vpnpool-台湾-nf:40323
-      - V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      - HK:51693
+      - CN:10009
+      - KR:443
+      - CN:48517
+      - CN:21129
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - JP:3845
+      - default_name:443
+      - JP:3845_2
+      - US:8443
+      - CN:10025
+      - KR:40030
+      - CN:13303
+      - CN:50301
+      - US:8443_2
+      - CN:63078
+      - US:443
+      - GB:18888
+      - CN:55154
+      - CN:55156
+      - HK:443
+      - KR:25135
+      - HK:443_2
+      - CN:10012
+      - CN:10034
+      - 🇸🇬_SG_新加坡:443
+      - CN:10027
+      - HK:443_2_2
+      - US:42383
+      - CN:10011
+      - 🇭🇰_HK_香港:10125
+      - CN:15622
+      - US:8443_2_2
+      - CN:13004
+      - CN:10042
+      - CN:13304
+      - CN:10031
+      - US:8443_2_2_2
+      - CN:10038
+      - CN:13003
+      - JP:30032
+      - US:443_2
+      - TW:50895
+      - CN:13302
+      - TW:443
+      - CN:48552
+      - CN:10025_2
+      - KR:40034
+      - US:42383_2
+      - JP:3845_2_2
+      - CN:10018
+      - CN:10009_2
+      - CN:10041
+      - TW:46137
+      - US:443_2_2
+      - CN:13301
+      - HK:443_2_2_2
+      - 🇺🇸_US_美国:18888
+      - CN:13002
+      - CN:10034_2
+      - US:80
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - EXTM3U-香港HKT-nf-iplc:40306
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
-      - EXTM3U-香港HKT-nf-iplc:40328
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
-      - vpnpool-香港HGC:40338
-      - V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-      - V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-      - vpnpool-香港HKBN-nf:40241
-      - V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-      - vpnhat-日本-nf:40109
-      - V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-      - v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-      - vpnpool-US-nf:40214
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-      - EXTM3U-香港HKT-nf-iplc:40308
-      - 🇺🇸_US_美国:443
-      - EXTM3U-香港-nf-iplc:40123
-      - vpnpool-US-nf:40213
-      - V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-      - V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-      - V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-      - V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-      - vpnhat-RU:40286
-      - vpnpool-SG-nf:40141
-      - v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-      - vpnpool-US-nf:40217
-      - EXTM3U-台湾-nf-iplc:40202
-      - vpnpool-台湾-nf:40324
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-      - V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-      - EXTM3U-SG-nf-iplc:40175
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-      - vpnhat-SG-nf:40101
-      - V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-      - EXTM3U-香港-nf-iplc:40309
-      - vpnhat-日本-nf:40107
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-      - EXTM3U-香港-nf-iplc:40310
-      - vpnpool-香港HKT:40261
-      - vpnhat-日本-nf:40039
-      - V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-      - V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-      - V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-      - vpnhat-台湾-nf:40111
-      - vpnpool-香港HKT:40269
-      - vpnpool-香港HKT:40249
-      - vpnpool-香港HKT:40251
-      - V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-      - V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-      - vpnpool-香港HKT:40336
-      - V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-      - V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-      - vpnhat-RU:40296
-      - V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-      - V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-      - V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-      - vpnpool-US-nf:40216
-      - V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-      - vpnpool-香港HKT:40250
-      - V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-      - V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-      - V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-      - V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-      - vpnpool-香港HKT:40260
-      - vpnpool-台湾-nf:40319
-      - vpnpool-香港HKT:40267
-      - V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-      - vpnhat-日本-nf:40187
-      - vpnpool-SG-nf:40047
-      - V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-      - V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-      - vpnpool-香港HKT:40247
-      - V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-      - V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-      - vpnhat-RU:40288
-      - vpnpool-香港HKT-nf:40238
-      - vpnhat-台湾-nf:40113
-      - vpnpool-香港HKBN-nf:40240
-      - V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-      - vpnhat-RU:40297
-      - V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-      - V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
-      - V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
-      - vpnpool-香港HKT-nf:40239
-      - vpnpool-香港-nf:40196
-      - V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
-      - vpnhat-RU:40294
-      - vpnhat-香港-nf:40206
-      - V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
-      - vpnpool-香港HKT:40262
-      - vpnhat-RU-nf:40053
-      - V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
-      - V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
-      - V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
-      - V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
-      - vpnpool-US-nf:40215
-      - vpnhat-香港HKTnf:40067
-      - vpnpool-台湾-nf:40323
-      - V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      - HK:51693
+      - CN:10009
+      - KR:443
+      - CN:48517
+      - CN:21129
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - JP:3845
+      - default_name:443
+      - JP:3845_2
+      - US:8443
+      - CN:10025
+      - KR:40030
+      - CN:13303
+      - CN:50301
+      - US:8443_2
+      - CN:63078
+      - US:443
+      - GB:18888
+      - CN:55154
+      - CN:55156
+      - HK:443
+      - KR:25135
+      - HK:443_2
+      - CN:10012
+      - CN:10034
+      - 🇸🇬_SG_新加坡:443
+      - CN:10027
+      - HK:443_2_2
+      - US:42383
+      - CN:10011
+      - 🇭🇰_HK_香港:10125
+      - CN:15622
+      - US:8443_2_2
+      - CN:13004
+      - CN:10042
+      - CN:13304
+      - CN:10031
+      - US:8443_2_2_2
+      - CN:10038
+      - CN:13003
+      - JP:30032
+      - US:443_2
+      - TW:50895
+      - CN:13302
+      - TW:443
+      - CN:48552
+      - CN:10025_2
+      - KR:40034
+      - US:42383_2
+      - JP:3845_2_2
+      - CN:10018
+      - CN:10009_2
+      - CN:10041
+      - TW:46137
+      - US:443_2_2
+      - CN:13301
+      - HK:443_2_2_2
+      - 🇺🇸_US_美国:18888
+      - CN:13002
+      - CN:10034_2
+      - US:80
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - EXTM3U-香港HKT-nf-iplc:40306
-      - V1-#328_IPLC-深圳-香港HKT_NF_x4_0_V2ray_260:40328
-      - EXTM3U-香港HKT-nf-iplc:40328
-      - V1-#306_IPLC-深圳-香港HKT_NF_x4_0_V2ray_255:40306
-      - V1-#307_IPLC-深圳-香港HKT_NF_x4_0_V2ray_256:40307
-      - V1-#308_IPLC-深圳-香港HKT_NF_x4_0_V2ray_257:40308
-      - vpnpool-香港HGC:40338
-      - V4-#240_广东-香港HKBN_NF_x2_0_V2ray_295:40240
-      - V2-#206_CN2-香港_NF_x2_0_V2ray_306:40206
-      - V4-#241_广东-香港HKBN_NF_x2_0_V2ray_296:40241
-      - vpnpool-香港HKBN-nf:40241
-      - V3-#213_江港-美国M_NF_x2_0_V2ray_236:40213
-      - vpnhat-日本-nf:40109
-      - V4-#41_上海-日本_NF_x1_0_V2ray_338:40041
-      - v1-#217_江港-美国M_NF_x1_0_V2ray_228:40217
-      - vpnpool-US-nf:40214
-      - V1-#175_IPLC-深圳-新加坡_NF_x4_0_V2ray_252:40175
-      - EXTM3U-香港HKT-nf-iplc:40308
-      - 🇺🇸_US_美国:443
-      - EXTM3U-香港-nf-iplc:40123
-      - vpnpool-US-nf:40213
-      - V3-#69_广港-新加坡_NF_x1_0_V2ray_239:40069
-      - V3-#291_上海-俄罗斯_x0_5_V2ray_318:40291
-      - V4-#297_上海-俄罗斯_x1_0_V2ray_324:40297
-      - V3-#319_广东-台湾_NF_x2_0_V2ray_265:40319
-      - vpnhat-RU:40286
-      - vpnpool-SG-nf:40141
-      - v2-#215_江港-美国M_NF_x1_5_V2ray_231:40215
-      - vpnpool-US-nf:40217
-      - EXTM3U-台湾-nf-iplc:40202
-      - vpnpool-台湾-nf:40324
-      - V2-#105_cn2-新加坡_NF_x1_5_V2ray_330:40105
-      - V3-#294_上海-俄罗斯_x0_5_V2ray_321:40294
-      - EXTM3U-SG-nf-iplc:40175
-      - V1-#310_IPLC-深圳-香港BGP_NF_x4_0_V2ray_259:40310
-      - vpnhat-SG-nf:40101
-      - V4-#299_上海-俄罗斯_x1_0_V2ray_326:40299
-      - EXTM3U-香港-nf-iplc:40309
-      - vpnhat-日本-nf:40107
-      - V2-#103_cn2-新加坡_NF_x1_5_V2ray_329:40103
-      - EXTM3U-香港-nf-iplc:40310
-      - vpnpool-香港HKT:40261
-      - vpnhat-日本-nf:40039
-      - V3-#55_上海-俄罗斯_NF_x0_5_V2ray_309:40055
-      - V2-#338_广东-香港HGC_x2_0_V2ray_234:40338
-      - V3-#320_广东-台湾_NF_x2_0_V2ray_266:40320
-      - vpnhat-台湾-nf:40111
-      - vpnpool-香港HKT:40269
-      - vpnpool-香港HKT:40249
-      - vpnpool-香港HKT:40251
-      - V4-#336_广东-香港HKT_x2_0_V2ray_242:40336
-      - V2-#288_上海-俄罗斯_x0_3_V2ray_315:40288
-      - vpnpool-香港HKT:40336
-      - V4-#250_广东-香港HKT_x2_0_V2ray_299:40250
-      - V2-#113_cn2-台湾_NF_x2_5_V2ray_305:40113
-      - vpnhat-RU:40296
-      - V3-#293_上海-俄罗斯_x0_5_V2ray_320:40293
-      - V4-#35_上海-俄罗斯_NF_x1_0_V2ray_311:40035
-      - V3-#23_广东-香港HKBN_NF_x1_5_V2ray_285:40023
-      - V4-#33_上海-俄罗斯_NF_x1_0_V2ray_310:40033
-      - vpnpool-US-nf:40216
-      - V4-#37_上海-俄罗斯_NF_x1_0_V2ray_312:40037
-      - vpnpool-香港HKT:40250
-      - V2-#247_广东-香港HKTx1_2_V2ray_278:40247
-      - V3-#141_广港-新加坡_NF_x1_0_V2ray_235:40141
-      - V3-#322_广东-台湾_NF_x2_0_V2ray_268:40322
-      - V3-#189_上海-日本_NF_x1_0_V2ray_333:40189
-      - vpnpool-香港HKT:40260
-      - vpnpool-台湾-nf:40319
-      - vpnpool-香港HKT:40267
-      - V3-#292_上海-俄罗斯_x0_5_V2ray_319:40292
-      - vpnhat-日本-nf:40187
-      - vpnpool-SG-nf:40047
-      - V1-#81_广东-台湾_NF_x2_0_V2ray_263:40081
-      - V3-#258_广东-香港HKTx1_5_V2ray_286:40258
-      - vpnpool-香港HKT:40247
-      - V1-#309_IPLC-深圳-香港BGP_NF_x4_0_V2ray_258:40309
-      - V1-#269_广东-香港HKT_x1_0_V2ray_274:40269
-      - vpnhat-RU:40288
-      - vpnpool-香港HKT-nf:40238
-      - vpnhat-台湾-nf:40113
-      - vpnpool-香港HKBN-nf:40240
-      - V4-#249_广东-香港HKTx2_0_V2ray_298:40249
-      - vpnhat-RU:40297
-      - V4-#324_广东-台湾_NF_x2_0_V2ray_270:40324
-      - V3-#77_上海-日本_NF_x1_0_V2ray_335:40077
-      - V1-#202_IPLC-深圳-台湾_NF_x4_0_V2ray_253:40202
-      - vpnpool-香港HKT-nf:40239
-      - vpnpool-香港-nf:40196
-      - V1-#171_CN2-香港HKBN_NF_x2_0_V2ray_302:40171
-      - vpnhat-RU:40294
-      - vpnhat-香港-nf:40206
-      - V2-#289_上海-俄罗斯_x0_3_V2ray_316:40289
-      - vpnpool-香港HKT:40262
-      - vpnhat-RU-nf:40053
-      - V2-#261_广东-香港HKT_x1_2_V2ray_279:40261
-      - V3-#198_广东-香港HKT_NF_x1_5_V2ray_282:40198
-      - V4-#169_广东-香港HKT_NF_x2_0_V2ray_292:40169
-      - V2-#238_广东-香港HKT_NF_x1_5_V2ray_277:40238
-      - vpnpool-US-nf:40215
-      - vpnhat-香港HKTnf:40067
-      - vpnpool-台湾-nf:40323
-      - V2-#263_广东-香港HKT_x1_5_V2ray_233:40263
+      - HK:51693
+      - CN:10009
+      - KR:443
+      - CN:48517
+      - CN:21129
+      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
+      - JP:3845
+      - default_name:443
+      - JP:3845_2
+      - US:8443
+      - CN:10025
+      - KR:40030
+      - CN:13303
+      - CN:50301
+      - US:8443_2
+      - CN:63078
+      - US:443
+      - GB:18888
+      - CN:55154
+      - CN:55156
+      - HK:443
+      - KR:25135
+      - HK:443_2
+      - CN:10012
+      - CN:10034
+      - 🇸🇬_SG_新加坡:443
+      - CN:10027
+      - HK:443_2_2
+      - US:42383
+      - CN:10011
+      - 🇭🇰_HK_香港:10125
+      - CN:15622
+      - US:8443_2_2
+      - CN:13004
+      - CN:10042
+      - CN:13304
+      - CN:10031
+      - US:8443_2_2_2
+      - CN:10038
+      - CN:13003
+      - JP:30032
+      - US:443_2
+      - TW:50895
+      - CN:13302
+      - TW:443
+      - CN:48552
+      - CN:10025_2
+      - KR:40034
+      - US:42383_2
+      - JP:3845_2_2
+      - CN:10018
+      - CN:10009_2
+      - CN:10041
+      - TW:46137
+      - US:443_2_2
+      - CN:13301
+      - HK:443_2_2_2
+      - 🇺🇸_US_美国:18888
+      - CN:13002
+      - CN:10034_2
+      - US:80
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
