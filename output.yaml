@@ -5,45 +5,253 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: HK:51693
+  - name: ❶香港 A4 [H]:10080
     type: vmess
-    server: hkcmi.745937508.xyz
-    port: 51693
-    uuid: 5d5f96d0-5d45-4860-915d-c1fbb16f4384
-    alterId: "20"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /andre
-    ws-headers:
-      Host: hkcmi.745937508.xyz
-  - name: CN:10009
-    type: vmess
-    server: az.hk01.paopaocloud.cyou
-    port: 10009
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
+    server: transit01.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /v2ray
+    tls: null
+    ws-path: /hk18
     ws-headers:
-      Host: az.hk01.paopaocloud.cyou
-  - name: KR:443
+      Host: transit01.balala2016.xyz
+  - name: ❷香港 12:10080
     type: vmess
-    server: 0326kr.fans8.xyz
-    port: 443
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
+    server: hk12.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /ray
+    tls: null
+    ws-path: /balala
     ws-headers:
-      Host: 0326kr.fans8.xyz
+      Host: hk12.balala2016.xyz
+  - name: ❶香港 B4 [H]:10080
+    type: vmess
+    server: transit01.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /balala
+    ws-headers:
+      Host: transit01.balala2016.xyz
+  - name: ❷香港 51:10080
+    type: vmess
+    server: hk51.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk51
+    ws-headers:
+      Host: hk51.balala2016.xyz
+  - name: ❶新加坡 02 [M]:20086
+    type: vmess
+    server: js01.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /sg02
+    ws-headers:
+      Host: js01.balala2016.xyz
+  - name: ❶日本 03 [转]:80
+    type: vmess
+    server: transit01.balala2016.xyz
+    port: 80
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jp01
+    ws-headers:
+      Host: transit01.balala2016.xyz
+  - name: ❶香港 B1 [推荐]:20086
+    type: vmess
+    server: js01.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /balala
+    ws-headers:
+      Host: js01.balala2016.xyz
+  - name: ❶香港 B2 [推荐]:20086
+    type: vmess
+    server: js02.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /balala
+    ws-headers:
+      Host: js02.balala2016.xyz
+  - name: ❶香港 B3 [推荐]:20086
+    type: vmess
+    server: js03.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /balala
+    ws-headers:
+      Host: js03.balala2016.xyz
+  - name: 台湾02丨原生IP丨:55155
+    type: vmess
+    server: fs.keaiyun.xyz
+    port: 55155
+    uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: www.baidu.com
+  - name: ❶台湾 02 [推荐]:20086
+    type: vmess
+    server: js02.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /tw01
+    ws-headers:
+      Host: js02.balala2016.xyz
+  - name: ❶香港 A3 [推荐]:20086
+    type: vmess
+    server: js03.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk18
+    ws-headers:
+      Host: js03.balala2016.xyz
+  - name: ❶香港 03 [BGP]:80
+    type: vmess
+    server: hk03.balala2016.xyz
+    port: 80
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /balala
+    ws-headers:
+      Host: hk03.balala2016.xyz
+  - name: ❶日本 01 [M]:20086
+    type: vmess
+    server: js01.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /jp01
+    ws-headers:
+      Host: js01.balala2016.xyz
+  - name: ❶香港 A1 [推荐]:20086
+    type: vmess
+    server: js01.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk18
+    ws-headers:
+      Host: js01.balala2016.xyz
+  - name: ❶香港 A2 [推荐]:20086
+    type: vmess
+    server: js02.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk18
+    ws-headers:
+      Host: js02.balala2016.xyz
+  - name: ❷香港 C3 [推荐]:20086
+    type: vmess
+    server: js03.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk51
+    ws-headers:
+      Host: js03.balala2016.xyz
+  - name: ❷香港 C2 [推荐]:20086
+    type: vmess
+    server: js02.balala2016.xyz
+    port: 20086
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hk51
+    ws-headers:
+      Host: js02.balala2016.xyz
+  - name: ❷韩国 [转]:10080
+    type: vmess
+    server: transit01.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /kr01
+    ws-headers:
+      Host: transit01.balala2016.xyz
   - name: CN:48517
     type: vmess
     server: fs.keaiyun.xyz
@@ -57,188 +265,75 @@ proxies:
     ws-path: /v2ray
     ws-headers:
       Host: www.baidu.com
-  - name: CN:21129
+  - name: ❶香港 02 [BGP]:80
     type: vmess
-    server: cmjm.senlinss.link
-    port: 21129
-    uuid: 79bd1d4c-d5df-3f44-b01b-77209cdf1342
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: cmjm.senlinss.link
-  - name: 🇺🇸_US_美国->🇫🇷_FR_法国:443
-    type: vmess
-    server: fri.ncugo.cf
-    port: 443
-    uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers: null
-  - name: JP:3845
-    type: vmess
-    server: 139.162.122.205
-    port: 3845
-    uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /catnet
-    ws-headers:
-      Host: 139.162.122.205
-  - name: default_name:443
-    type: vmess
-    server: v2ray.788644.xyz
-    port: 443
-    uuid: 000fe881-b655-4212-b804-b00f9970d5aa
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /happy
-    ws-headers: null
-  - name: JP:3845_2
-    type: vmess
-    server: 139.162.122.205
-    port: 3845
-    uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers: null
-  - name: US:8443
-    type: vmess
-    server: v2ray.ifuckgfw.ga
-    port: 8443
-    uuid: f40c594a-b3c3-11ec-876b-5254001b7b42
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /yUxLk70F/
-    ws-headers:
-      Host: v2ray.ifuckgfw.ga
-  - name: CN:10025
-    type: vmess
-    server: ah.yd01.paopaocloud.cyou
-    port: 10025
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: ah.yd01.paopaocloud.cyou
-  - name: KR:40030
-    type: vmess
-    server: kor1.lolvps.xyz
-    port: 40030
-    uuid: 77005b76-6917-4e2a-815c-d06b2bfa0bed
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /DYUSC0AP
-    ws-headers:
-      Host: kor1.lolvps.xyz
-  - name: CN:13303
-    type: vmess
-    server: bgpv2.kmcyun.com
-    port: 13303
-    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
+    server: hk02.balala2016.xyz
+    port: 80
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /websocket
+    ws-path: /balala
     ws-headers:
-      Host: www.icloud.com
-  - name: CN:50301
+      Host: hk02.balala2016.xyz
+  - name: ❶美国 02 [转]:10080
     type: vmess
-    server: in-v1.sdgdn.com
-    port: 50301
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: "1"
+    server: transit01.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /us02
     ws-headers:
-      Host: in-v1.sdgdn.com
-  - name: US:8443_2
+      Host: transit01.balala2016.xyz
+  - name: 俄罗斯原生1-负载均衡-解锁流媒体:40040
     type: vmess
-    server: v2ray.ifuckgfw.ga
-    port: 8443
-    uuid: ea53a296-b3c3-11ec-876b-5254001b7b42
+    server: ru1.lolvps.xyz
+    port: 40040
+    uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /yUxLk70F/
+    ws-path: /6129CFHR
     ws-headers:
-      Host: v2ray.ifuckgfw.ga
-  - name: CN:63078
+      Host: ru1.lolvps.xyz
+  - name: ❷荷兰 [M]:10080
     type: vmess
-    server: mg01.nfeng6.pp.ua
-    port: 63078
-    uuid: ba22a02b-4178-39a7-b748-4d0c03b9a674
+    server: js01.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /t.me/nfeng6
+    tls: null
+    ws-path: /nl01
     ws-headers:
-      Host: mg01.nfeng6.pp.ua
-  - name: US:443
+      Host: js01.balala2016.xyz
+  - name: ❶香港 18:10080
     type: vmess
-    server: app.ssfree.ru
-    port: 443
-    uuid: 47aa161e-b8e7-11ec-a265-000017022008
-    alterId: "64"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /getweather
-    ws-headers: null
-  - name: GB:18888
-    type: vmess
-    server: rknc.xrenblog.com
-    port: 18888
-    uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c
+    server: hk18.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /xrenblog
+    tls: null
+    ws-path: /hk18
     ws-headers:
-      Host: rknc.xrenblog.com
-  - name: CN:55154
+      Host: hk18.balala2016.xyz
+  - name: 新加坡4:48550
     type: vmess
     server: fs.keaiyun.xyz
-    port: 55154
+    port: 48550
     uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
     alterId: "0"
     cipher: auto
@@ -248,342 +343,6 @@ proxies:
     ws-path: /v2ray
     ws-headers:
       Host: www.baidu.com
-  - name: CN:55156
-    type: vmess
-    server: fs.keaiyun.xyz
-    port: 55156
-    uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: www.baidu.com
-  - name: HK:443
-    type: vmess
-    server: 0326hk01.fans8.xyz
-    port: 443
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: 0326hk01.fans8.xyz
-  - name: KR:25135
-    type: vmess
-    server: 146.56.99.245
-    port: 25135
-    uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers: null
-  - name: HK:443_2
-    type: vmess
-    server: 165.154.225.231
-    port: 443
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: 330hk02.fans8.xyz
-  - name: CN:10012
-    type: vmess
-    server: az.hk01.paopaocloud.cyou
-    port: 10012
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: az.hk01.paopaocloud.cyou
-  - name: CN:10034
-    type: vmess
-    server: ah.yd01.paopaocloud.cyou
-    port: 10034
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: ah.yd01.paopaocloud.cyou
-  - name: 🇸🇬_SG_新加坡:443
-    type: vmess
-    server: sg1.31vpn.com
-    port: 443
-    uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /fastssh/bddasdf/624e71635ed8e/
-    ws-headers:
-      Host: sg1.31vpn.com
-  - name: CN:10027
-    type: vmess
-    server: gz.yd01.paopaocloud.cyou
-    port: 10027
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: gz.yd01.paopaocloud.cyou
-  - name: HK:443_2_2
-    type: vmess
-    server: 330hk02.fans8.xyz
-    port: 443
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: 330hk02.fans8.xyz
-  - name: US:42383
-    type: vmess
-    server: 207.246.94.28
-    port: 42383
-    uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /ray
-    ws-headers:
-      Host: 48us.fans8.xyz
-  - name: CN:10011
-    type: vmess
-    server: ah.yd01.paopaocloud.cyou
-    port: 10011
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: ah.yd01.paopaocloud.cyou
-  - name: 🇭🇰_HK_香港:10125
-    type: vmess
-    server: 20.205.131.172
-    port: 10125
-    uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: vn.mumi.bid
-  - name: CN:15622
-    type: vmess
-    server: jm.yd02.paopaocloud.cyou
-    port: 15622
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: jm.yd02.paopaocloud.cyou
-  - name: US:8443_2_2
-    type: vmess
-    server: v2ray.ifuckgfw.ga
-    port: 8443
-    uuid: ef20236c-b3c3-11ec-876b-5254001b7b42
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /yUxLk70F/
-    ws-headers:
-      Host: v2ray.ifuckgfw.ga
-  - name: CN:13004
-    type: vmess
-    server: bgpv2.kmcyun.com
-    port: 13004
-    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /websocket
-    ws-headers:
-      Host: www.icloud.com
-  - name: CN:10042
-    type: vmess
-    server: ah.yd01.paopaocloud.cyou
-    port: 10042
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: ah.yd01.paopaocloud.cyou
-  - name: CN:13304
-    type: vmess
-    server: bgpv2.kmcyun.com
-    port: 13304
-    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /websocket
-    ws-headers:
-      Host: www.icloud.com
-  - name: CN:10031
-    type: vmess
-    server: az.hk01.paopaocloud.cyou
-    port: 10031
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: az.hk01.paopaocloud.cyou
-  - name: US:8443_2_2_2
-    type: vmess
-    server: v2ray.ifuckgfw.ga
-    port: 8443
-    uuid: ecb634c2-b3c3-11ec-876b-5254001b7b42
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /yUxLk70F/
-    ws-headers:
-      Host: v2ray.ifuckgfw.ga
-  - name: CN:10038
-    type: vmess
-    server: az.hk01.paopaocloud.cyou
-    port: 10038
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: az.hk01.paopaocloud.cyou
-  - name: CN:13003
-    type: vmess
-    server: bgpv2.kmcyun.com
-    port: 13003
-    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /websocket
-    ws-headers:
-      Host: www.icloud.com
-  - name: JP:30032
-    type: vmess
-    server: jp3.lolvps.xyz
-    port: 30032
-    uuid: a4ca5bcd-b869-40d1-a22b-ffedde600ac3
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /HQMVPI9Y
-    ws-headers:
-      Host: jp3.lolvps.xyz
-  - name: US:443_2
-    type: vmess
-    server: node.zxcairport.xyz
-    port: 443
-    uuid: 7b198651-f526-44b5-a156-6badfe346dbf
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: us2.zxcairport.xyz
-  - name: TW:50895
-    type: vmess
-    server: 34.80.198.210
-    port: 50895
-    uuid: 3cade6c5-4516-490f-89bc-3913e3478c12
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers: null
-  - name: CN:13302
-    type: vmess
-    server: bgpv2.kmcyun.com
-    port: 13302
-    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /websocket
-    ws-headers:
-      Host: www.icloud.com
-  - name: TW:443
-    type: vmess
-    server: 330tw.fans8.xyz
-    port: 443
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: 330tw.fans8.xyz
   - name: CN:48552
     type: vmess
     server: fs.keaiyun.xyz
@@ -597,862 +356,421 @@ proxies:
     ws-path: /v2ray
     ws-headers:
       Host: www.baidu.com
-  - name: CN:10025_2
+  - name: ❷法国 [转]:10080
     type: vmess
-    server: az.hk01.paopaocloud.cyou
-    port: 10025
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: az.hk01.paopaocloud.cyou
-  - name: KR:40034
-    type: vmess
-    server: kor3.lolvps.xyz
-    port: 40034
-    uuid: ad470e66-6851-45bb-bc8d-c2f5f7b0e361
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /AQFLW40C
-    ws-headers:
-      Host: kor3.lolvps.xyz
-  - name: US:42383_2
-    type: vmess
-    server: 207.246.94.28
-    port: 42383
-    uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /jz666666
-    ws-headers:
-      Host: 120.232.215.142
-  - name: JP:3845_2_2
-    type: vmess
-    server: 139.162.122.205
-    port: 3845
-    uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: www.ibm.com
-  - name: CN:10018
-    type: vmess
-    server: az.hk01.paopaocloud.cyou
-    port: 10018
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: az.hk01.paopaocloud.cyou
-  - name: CN:10009_2
-    type: vmess
-    server: gz.yd01.paopaocloud.cyou
-    port: 10009
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: gz.yd01.paopaocloud.cyou
-  - name: CN:10041
-    type: vmess
-    server: ah.yd01.paopaocloud.cyou
-    port: 10041
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: ah.yd01.paopaocloud.cyou
-  - name: TW:46137
-    type: vmess
-    server: 34.80.198.210
-    port: 46137
-    uuid: 77ff090a-e711-4af8-8538-67fa2ab3f3d1
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers: null
-  - name: US:443_2_2
-    type: vmess
-    server: cloudflare.xrenblog.com
-    port: 443
-    uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /sakura/
-    ws-headers:
-      Host: v4.xrenblog.com
-  - name: CN:13301
-    type: vmess
-    server: bgpv2.kmcyun.com
-    port: 13301
-    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
+    server: transit01.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /websocket
+    ws-path: /fr01
     ws-headers:
-      Host: www.icloud.com
-  - name: HK:443_2_2_2
+      Host: transit01.balala2016.xyz
+  - name: ❶台湾 03 [推荐]:10080
     type: vmess
-    server: 165.154.225.176
-    port: 443
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: 0326hk01.fans8.xyz
-  - name: 🇺🇸_US_美国:18888
-    type: vmess
-    server: sjc.xrenblog.com
-    port: 18888
-    uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /xrenblog
-    ws-headers:
-      Host: sjc.xrenblog.com
-  - name: CN:13002
-    type: vmess
-    server: bgpv2.kmcyun.com
-    port: 13002
-    uuid: e84af26c-31ed-3b49-979c-8c26ee290e28
+    server: transit01.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /websocket
+    ws-path: /tw01
     ws-headers:
-      Host: www.icloud.com
-  - name: CN:10034_2
+      Host: transit01.balala2016.xyz
+  - name: ❷英国 [转]:10080
     type: vmess
-    server: az.hk01.paopaocloud.cyou
-    port: 10034
-    uuid: 29b6360a-0ddf-31db-8d22-a1d2398debee
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /v2ray
-    ws-headers:
-      Host: az.hk01.paopaocloud.cyou
-  - name: US:80
-    type: vmess
-    server: us1.31vpn.com
-    port: 80
-    uuid: bb4b9e95-c9ff-411c-9a47-483570e169aa
+    server: transit01.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /fastssh/remaoqi/624ca41d72e6d/
-    ws-headers: null
+    ws-path: /uk01
+    ws-headers:
+      Host: transit01.balala2016.xyz
+  - name: ❶新加坡 03 [H]:10080
+    type: vmess
+    server: transit01.balala2016.xyz
+    port: 10080
+    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /sg02
+    ws-headers:
+      Host: transit01.balala2016.xyz
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK:51693
-      - CN:10009
-      - KR:443
+      - ❶香港 A4 [H]:10080
+      - ❷香港 12:10080
+      - ❶香港 B4 [H]:10080
+      - ❷香港 51:10080
+      - ❶新加坡 02 [M]:20086
+      - ❶日本 03 [转]:80
+      - ❶香港 B1 [推荐]:20086
+      - ❶香港 B2 [推荐]:20086
+      - ❶香港 B3 [推荐]:20086
+      - 台湾02丨原生IP丨:55155
+      - ❶台湾 02 [推荐]:20086
+      - ❶香港 A3 [推荐]:20086
+      - ❶香港 03 [BGP]:80
+      - ❶日本 01 [M]:20086
+      - ❶香港 A1 [推荐]:20086
+      - ❶香港 A2 [推荐]:20086
+      - ❷香港 C3 [推荐]:20086
+      - ❷香港 C2 [推荐]:20086
+      - ❷韩国 [转]:10080
       - CN:48517
-      - CN:21129
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - JP:3845
-      - default_name:443
-      - JP:3845_2
-      - US:8443
-      - CN:10025
-      - KR:40030
-      - CN:13303
-      - CN:50301
-      - US:8443_2
-      - CN:63078
-      - US:443
-      - GB:18888
-      - CN:55154
-      - CN:55156
-      - HK:443
-      - KR:25135
-      - HK:443_2
-      - CN:10012
-      - CN:10034
-      - 🇸🇬_SG_新加坡:443
-      - CN:10027
-      - HK:443_2_2
-      - US:42383
-      - CN:10011
-      - 🇭🇰_HK_香港:10125
-      - CN:15622
-      - US:8443_2_2
-      - CN:13004
-      - CN:10042
-      - CN:13304
-      - CN:10031
-      - US:8443_2_2_2
-      - CN:10038
-      - CN:13003
-      - JP:30032
-      - US:443_2
-      - TW:50895
-      - CN:13302
-      - TW:443
+      - ❶香港 02 [BGP]:80
+      - ❶美国 02 [转]:10080
+      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
+      - ❷荷兰 [M]:10080
+      - ❶香港 18:10080
+      - 新加坡4:48550
       - CN:48552
-      - CN:10025_2
-      - KR:40034
-      - US:42383_2
-      - JP:3845_2_2
-      - CN:10018
-      - CN:10009_2
-      - CN:10041
-      - TW:46137
-      - US:443_2_2
-      - CN:13301
-      - HK:443_2_2_2
-      - 🇺🇸_US_美国:18888
-      - CN:13002
-      - CN:10034_2
-      - US:80
+      - ❷法国 [转]:10080
+      - ❶台湾 03 [推荐]:10080
+      - ❷英国 [转]:10080
+      - ❶新加坡 03 [H]:10080
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK:51693
-      - CN:10009
-      - KR:443
+      - ❶香港 A4 [H]:10080
+      - ❷香港 12:10080
+      - ❶香港 B4 [H]:10080
+      - ❷香港 51:10080
+      - ❶新加坡 02 [M]:20086
+      - ❶日本 03 [转]:80
+      - ❶香港 B1 [推荐]:20086
+      - ❶香港 B2 [推荐]:20086
+      - ❶香港 B3 [推荐]:20086
+      - 台湾02丨原生IP丨:55155
+      - ❶台湾 02 [推荐]:20086
+      - ❶香港 A3 [推荐]:20086
+      - ❶香港 03 [BGP]:80
+      - ❶日本 01 [M]:20086
+      - ❶香港 A1 [推荐]:20086
+      - ❶香港 A2 [推荐]:20086
+      - ❷香港 C3 [推荐]:20086
+      - ❷香港 C2 [推荐]:20086
+      - ❷韩国 [转]:10080
       - CN:48517
-      - CN:21129
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - JP:3845
-      - default_name:443
-      - JP:3845_2
-      - US:8443
-      - CN:10025
-      - KR:40030
-      - CN:13303
-      - CN:50301
-      - US:8443_2
-      - CN:63078
-      - US:443
-      - GB:18888
-      - CN:55154
-      - CN:55156
-      - HK:443
-      - KR:25135
-      - HK:443_2
-      - CN:10012
-      - CN:10034
-      - 🇸🇬_SG_新加坡:443
-      - CN:10027
-      - HK:443_2_2
-      - US:42383
-      - CN:10011
-      - 🇭🇰_HK_香港:10125
-      - CN:15622
-      - US:8443_2_2
-      - CN:13004
-      - CN:10042
-      - CN:13304
-      - CN:10031
-      - US:8443_2_2_2
-      - CN:10038
-      - CN:13003
-      - JP:30032
-      - US:443_2
-      - TW:50895
-      - CN:13302
-      - TW:443
+      - ❶香港 02 [BGP]:80
+      - ❶美国 02 [转]:10080
+      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
+      - ❷荷兰 [M]:10080
+      - ❶香港 18:10080
+      - 新加坡4:48550
       - CN:48552
-      - CN:10025_2
-      - KR:40034
-      - US:42383_2
-      - JP:3845_2_2
-      - CN:10018
-      - CN:10009_2
-      - CN:10041
-      - TW:46137
-      - US:443_2_2
-      - CN:13301
-      - HK:443_2_2_2
-      - 🇺🇸_US_美国:18888
-      - CN:13002
-      - CN:10034_2
-      - US:80
+      - ❷法国 [转]:10080
+      - ❶台湾 03 [推荐]:10080
+      - ❷英国 [转]:10080
+      - ❶新加坡 03 [H]:10080
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK:51693
-      - CN:10009
-      - KR:443
+      - ❶香港 A4 [H]:10080
+      - ❷香港 12:10080
+      - ❶香港 B4 [H]:10080
+      - ❷香港 51:10080
+      - ❶新加坡 02 [M]:20086
+      - ❶日本 03 [转]:80
+      - ❶香港 B1 [推荐]:20086
+      - ❶香港 B2 [推荐]:20086
+      - ❶香港 B3 [推荐]:20086
+      - 台湾02丨原生IP丨:55155
+      - ❶台湾 02 [推荐]:20086
+      - ❶香港 A3 [推荐]:20086
+      - ❶香港 03 [BGP]:80
+      - ❶日本 01 [M]:20086
+      - ❶香港 A1 [推荐]:20086
+      - ❶香港 A2 [推荐]:20086
+      - ❷香港 C3 [推荐]:20086
+      - ❷香港 C2 [推荐]:20086
+      - ❷韩国 [转]:10080
       - CN:48517
-      - CN:21129
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - JP:3845
-      - default_name:443
-      - JP:3845_2
-      - US:8443
-      - CN:10025
-      - KR:40030
-      - CN:13303
-      - CN:50301
-      - US:8443_2
-      - CN:63078
-      - US:443
-      - GB:18888
-      - CN:55154
-      - CN:55156
-      - HK:443
-      - KR:25135
-      - HK:443_2
-      - CN:10012
-      - CN:10034
-      - 🇸🇬_SG_新加坡:443
-      - CN:10027
-      - HK:443_2_2
-      - US:42383
-      - CN:10011
-      - 🇭🇰_HK_香港:10125
-      - CN:15622
-      - US:8443_2_2
-      - CN:13004
-      - CN:10042
-      - CN:13304
-      - CN:10031
-      - US:8443_2_2_2
-      - CN:10038
-      - CN:13003
-      - JP:30032
-      - US:443_2
-      - TW:50895
-      - CN:13302
-      - TW:443
+      - ❶香港 02 [BGP]:80
+      - ❶美国 02 [转]:10080
+      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
+      - ❷荷兰 [M]:10080
+      - ❶香港 18:10080
+      - 新加坡4:48550
       - CN:48552
-      - CN:10025_2
-      - KR:40034
-      - US:42383_2
-      - JP:3845_2_2
-      - CN:10018
-      - CN:10009_2
-      - CN:10041
-      - TW:46137
-      - US:443_2_2
-      - CN:13301
-      - HK:443_2_2_2
-      - 🇺🇸_US_美国:18888
-      - CN:13002
-      - CN:10034_2
-      - US:80
+      - ❷法国 [转]:10080
+      - ❶台湾 03 [推荐]:10080
+      - ❷英国 [转]:10080
+      - ❶新加坡 03 [H]:10080
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK:51693
-      - CN:10009
-      - KR:443
+      - ❶香港 A4 [H]:10080
+      - ❷香港 12:10080
+      - ❶香港 B4 [H]:10080
+      - ❷香港 51:10080
+      - ❶新加坡 02 [M]:20086
+      - ❶日本 03 [转]:80
+      - ❶香港 B1 [推荐]:20086
+      - ❶香港 B2 [推荐]:20086
+      - ❶香港 B3 [推荐]:20086
+      - 台湾02丨原生IP丨:55155
+      - ❶台湾 02 [推荐]:20086
+      - ❶香港 A3 [推荐]:20086
+      - ❶香港 03 [BGP]:80
+      - ❶日本 01 [M]:20086
+      - ❶香港 A1 [推荐]:20086
+      - ❶香港 A2 [推荐]:20086
+      - ❷香港 C3 [推荐]:20086
+      - ❷香港 C2 [推荐]:20086
+      - ❷韩国 [转]:10080
       - CN:48517
-      - CN:21129
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - JP:3845
-      - default_name:443
-      - JP:3845_2
-      - US:8443
-      - CN:10025
-      - KR:40030
-      - CN:13303
-      - CN:50301
-      - US:8443_2
-      - CN:63078
-      - US:443
-      - GB:18888
-      - CN:55154
-      - CN:55156
-      - HK:443
-      - KR:25135
-      - HK:443_2
-      - CN:10012
-      - CN:10034
-      - 🇸🇬_SG_新加坡:443
-      - CN:10027
-      - HK:443_2_2
-      - US:42383
-      - CN:10011
-      - 🇭🇰_HK_香港:10125
-      - CN:15622
-      - US:8443_2_2
-      - CN:13004
-      - CN:10042
-      - CN:13304
-      - CN:10031
-      - US:8443_2_2_2
-      - CN:10038
-      - CN:13003
-      - JP:30032
-      - US:443_2
-      - TW:50895
-      - CN:13302
-      - TW:443
+      - ❶香港 02 [BGP]:80
+      - ❶美国 02 [转]:10080
+      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
+      - ❷荷兰 [M]:10080
+      - ❶香港 18:10080
+      - 新加坡4:48550
       - CN:48552
-      - CN:10025_2
-      - KR:40034
-      - US:42383_2
-      - JP:3845_2_2
-      - CN:10018
-      - CN:10009_2
-      - CN:10041
-      - TW:46137
-      - US:443_2_2
-      - CN:13301
-      - HK:443_2_2_2
-      - 🇺🇸_US_美国:18888
-      - CN:13002
-      - CN:10034_2
-      - US:80
+      - ❷法国 [转]:10080
+      - ❶台湾 03 [推荐]:10080
+      - ❷英国 [转]:10080
+      - ❶新加坡 03 [H]:10080
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK:51693
-      - CN:10009
-      - KR:443
+      - ❶香港 A4 [H]:10080
+      - ❷香港 12:10080
+      - ❶香港 B4 [H]:10080
+      - ❷香港 51:10080
+      - ❶新加坡 02 [M]:20086
+      - ❶日本 03 [转]:80
+      - ❶香港 B1 [推荐]:20086
+      - ❶香港 B2 [推荐]:20086
+      - ❶香港 B3 [推荐]:20086
+      - 台湾02丨原生IP丨:55155
+      - ❶台湾 02 [推荐]:20086
+      - ❶香港 A3 [推荐]:20086
+      - ❶香港 03 [BGP]:80
+      - ❶日本 01 [M]:20086
+      - ❶香港 A1 [推荐]:20086
+      - ❶香港 A2 [推荐]:20086
+      - ❷香港 C3 [推荐]:20086
+      - ❷香港 C2 [推荐]:20086
+      - ❷韩国 [转]:10080
       - CN:48517
-      - CN:21129
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - JP:3845
-      - default_name:443
-      - JP:3845_2
-      - US:8443
-      - CN:10025
-      - KR:40030
-      - CN:13303
-      - CN:50301
-      - US:8443_2
-      - CN:63078
-      - US:443
-      - GB:18888
-      - CN:55154
-      - CN:55156
-      - HK:443
-      - KR:25135
-      - HK:443_2
-      - CN:10012
-      - CN:10034
-      - 🇸🇬_SG_新加坡:443
-      - CN:10027
-      - HK:443_2_2
-      - US:42383
-      - CN:10011
-      - 🇭🇰_HK_香港:10125
-      - CN:15622
-      - US:8443_2_2
-      - CN:13004
-      - CN:10042
-      - CN:13304
-      - CN:10031
-      - US:8443_2_2_2
-      - CN:10038
-      - CN:13003
-      - JP:30032
-      - US:443_2
-      - TW:50895
-      - CN:13302
-      - TW:443
+      - ❶香港 02 [BGP]:80
+      - ❶美国 02 [转]:10080
+      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
+      - ❷荷兰 [M]:10080
+      - ❶香港 18:10080
+      - 新加坡4:48550
       - CN:48552
-      - CN:10025_2
-      - KR:40034
-      - US:42383_2
-      - JP:3845_2_2
-      - CN:10018
-      - CN:10009_2
-      - CN:10041
-      - TW:46137
-      - US:443_2_2
-      - CN:13301
-      - HK:443_2_2_2
-      - 🇺🇸_US_美国:18888
-      - CN:13002
-      - CN:10034_2
-      - US:80
+      - ❷法国 [转]:10080
+      - ❶台湾 03 [推荐]:10080
+      - ❷英国 [转]:10080
+      - ❶新加坡 03 [H]:10080
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK:51693
-      - CN:10009
-      - KR:443
+      - ❶香港 A4 [H]:10080
+      - ❷香港 12:10080
+      - ❶香港 B4 [H]:10080
+      - ❷香港 51:10080
+      - ❶新加坡 02 [M]:20086
+      - ❶日本 03 [转]:80
+      - ❶香港 B1 [推荐]:20086
+      - ❶香港 B2 [推荐]:20086
+      - ❶香港 B3 [推荐]:20086
+      - 台湾02丨原生IP丨:55155
+      - ❶台湾 02 [推荐]:20086
+      - ❶香港 A3 [推荐]:20086
+      - ❶香港 03 [BGP]:80
+      - ❶日本 01 [M]:20086
+      - ❶香港 A1 [推荐]:20086
+      - ❶香港 A2 [推荐]:20086
+      - ❷香港 C3 [推荐]:20086
+      - ❷香港 C2 [推荐]:20086
+      - ❷韩国 [转]:10080
       - CN:48517
-      - CN:21129
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - JP:3845
-      - default_name:443
-      - JP:3845_2
-      - US:8443
-      - CN:10025
-      - KR:40030
-      - CN:13303
-      - CN:50301
-      - US:8443_2
-      - CN:63078
-      - US:443
-      - GB:18888
-      - CN:55154
-      - CN:55156
-      - HK:443
-      - KR:25135
-      - HK:443_2
-      - CN:10012
-      - CN:10034
-      - 🇸🇬_SG_新加坡:443
-      - CN:10027
-      - HK:443_2_2
-      - US:42383
-      - CN:10011
-      - 🇭🇰_HK_香港:10125
-      - CN:15622
-      - US:8443_2_2
-      - CN:13004
-      - CN:10042
-      - CN:13304
-      - CN:10031
-      - US:8443_2_2_2
-      - CN:10038
-      - CN:13003
-      - JP:30032
-      - US:443_2
-      - TW:50895
-      - CN:13302
-      - TW:443
+      - ❶香港 02 [BGP]:80
+      - ❶美国 02 [转]:10080
+      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
+      - ❷荷兰 [M]:10080
+      - ❶香港 18:10080
+      - 新加坡4:48550
       - CN:48552
-      - CN:10025_2
-      - KR:40034
-      - US:42383_2
-      - JP:3845_2_2
-      - CN:10018
-      - CN:10009_2
-      - CN:10041
-      - TW:46137
-      - US:443_2_2
-      - CN:13301
-      - HK:443_2_2_2
-      - 🇺🇸_US_美国:18888
-      - CN:13002
-      - CN:10034_2
-      - US:80
+      - ❷法国 [转]:10080
+      - ❶台湾 03 [推荐]:10080
+      - ❷英国 [转]:10080
+      - ❶新加坡 03 [H]:10080
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - HK:51693
-      - CN:10009
-      - KR:443
+      - ❶香港 A4 [H]:10080
+      - ❷香港 12:10080
+      - ❶香港 B4 [H]:10080
+      - ❷香港 51:10080
+      - ❶新加坡 02 [M]:20086
+      - ❶日本 03 [转]:80
+      - ❶香港 B1 [推荐]:20086
+      - ❶香港 B2 [推荐]:20086
+      - ❶香港 B3 [推荐]:20086
+      - 台湾02丨原生IP丨:55155
+      - ❶台湾 02 [推荐]:20086
+      - ❶香港 A3 [推荐]:20086
+      - ❶香港 03 [BGP]:80
+      - ❶日本 01 [M]:20086
+      - ❶香港 A1 [推荐]:20086
+      - ❶香港 A2 [推荐]:20086
+      - ❷香港 C3 [推荐]:20086
+      - ❷香港 C2 [推荐]:20086
+      - ❷韩国 [转]:10080
       - CN:48517
-      - CN:21129
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - JP:3845
-      - default_name:443
-      - JP:3845_2
-      - US:8443
-      - CN:10025
-      - KR:40030
-      - CN:13303
-      - CN:50301
-      - US:8443_2
-      - CN:63078
-      - US:443
-      - GB:18888
-      - CN:55154
-      - CN:55156
-      - HK:443
-      - KR:25135
-      - HK:443_2
-      - CN:10012
-      - CN:10034
-      - 🇸🇬_SG_新加坡:443
-      - CN:10027
-      - HK:443_2_2
-      - US:42383
-      - CN:10011
-      - 🇭🇰_HK_香港:10125
-      - CN:15622
-      - US:8443_2_2
-      - CN:13004
-      - CN:10042
-      - CN:13304
-      - CN:10031
-      - US:8443_2_2_2
-      - CN:10038
-      - CN:13003
-      - JP:30032
-      - US:443_2
-      - TW:50895
-      - CN:13302
-      - TW:443
+      - ❶香港 02 [BGP]:80
+      - ❶美国 02 [转]:10080
+      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
+      - ❷荷兰 [M]:10080
+      - ❶香港 18:10080
+      - 新加坡4:48550
       - CN:48552
-      - CN:10025_2
-      - KR:40034
-      - US:42383_2
-      - JP:3845_2_2
-      - CN:10018
-      - CN:10009_2
-      - CN:10041
-      - TW:46137
-      - US:443_2_2
-      - CN:13301
-      - HK:443_2_2_2
-      - 🇺🇸_US_美国:18888
-      - CN:13002
-      - CN:10034_2
-      - US:80
+      - ❷法国 [转]:10080
+      - ❶台湾 03 [推荐]:10080
+      - ❷英国 [转]:10080
+      - ❶新加坡 03 [H]:10080
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - HK:51693
-      - CN:10009
-      - KR:443
+      - ❶香港 A4 [H]:10080
+      - ❷香港 12:10080
+      - ❶香港 B4 [H]:10080
+      - ❷香港 51:10080
+      - ❶新加坡 02 [M]:20086
+      - ❶日本 03 [转]:80
+      - ❶香港 B1 [推荐]:20086
+      - ❶香港 B2 [推荐]:20086
+      - ❶香港 B3 [推荐]:20086
+      - 台湾02丨原生IP丨:55155
+      - ❶台湾 02 [推荐]:20086
+      - ❶香港 A3 [推荐]:20086
+      - ❶香港 03 [BGP]:80
+      - ❶日本 01 [M]:20086
+      - ❶香港 A1 [推荐]:20086
+      - ❶香港 A2 [推荐]:20086
+      - ❷香港 C3 [推荐]:20086
+      - ❷香港 C2 [推荐]:20086
+      - ❷韩国 [转]:10080
       - CN:48517
-      - CN:21129
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - JP:3845
-      - default_name:443
-      - JP:3845_2
-      - US:8443
-      - CN:10025
-      - KR:40030
-      - CN:13303
-      - CN:50301
-      - US:8443_2
-      - CN:63078
-      - US:443
-      - GB:18888
-      - CN:55154
-      - CN:55156
-      - HK:443
-      - KR:25135
-      - HK:443_2
-      - CN:10012
-      - CN:10034
-      - 🇸🇬_SG_新加坡:443
-      - CN:10027
-      - HK:443_2_2
-      - US:42383
-      - CN:10011
-      - 🇭🇰_HK_香港:10125
-      - CN:15622
-      - US:8443_2_2
-      - CN:13004
-      - CN:10042
-      - CN:13304
-      - CN:10031
-      - US:8443_2_2_2
-      - CN:10038
-      - CN:13003
-      - JP:30032
-      - US:443_2
-      - TW:50895
-      - CN:13302
-      - TW:443
+      - ❶香港 02 [BGP]:80
+      - ❶美国 02 [转]:10080
+      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
+      - ❷荷兰 [M]:10080
+      - ❶香港 18:10080
+      - 新加坡4:48550
       - CN:48552
-      - CN:10025_2
-      - KR:40034
-      - US:42383_2
-      - JP:3845_2_2
-      - CN:10018
-      - CN:10009_2
-      - CN:10041
-      - TW:46137
-      - US:443_2_2
-      - CN:13301
-      - HK:443_2_2_2
-      - 🇺🇸_US_美国:18888
-      - CN:13002
-      - CN:10034_2
-      - US:80
+      - ❷法国 [转]:10080
+      - ❶台湾 03 [推荐]:10080
+      - ❷英国 [转]:10080
+      - ❶新加坡 03 [H]:10080
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - HK:51693
-      - CN:10009
-      - KR:443
+      - ❶香港 A4 [H]:10080
+      - ❷香港 12:10080
+      - ❶香港 B4 [H]:10080
+      - ❷香港 51:10080
+      - ❶新加坡 02 [M]:20086
+      - ❶日本 03 [转]:80
+      - ❶香港 B1 [推荐]:20086
+      - ❶香港 B2 [推荐]:20086
+      - ❶香港 B3 [推荐]:20086
+      - 台湾02丨原生IP丨:55155
+      - ❶台湾 02 [推荐]:20086
+      - ❶香港 A3 [推荐]:20086
+      - ❶香港 03 [BGP]:80
+      - ❶日本 01 [M]:20086
+      - ❶香港 A1 [推荐]:20086
+      - ❶香港 A2 [推荐]:20086
+      - ❷香港 C3 [推荐]:20086
+      - ❷香港 C2 [推荐]:20086
+      - ❷韩国 [转]:10080
       - CN:48517
-      - CN:21129
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - JP:3845
-      - default_name:443
-      - JP:3845_2
-      - US:8443
-      - CN:10025
-      - KR:40030
-      - CN:13303
-      - CN:50301
-      - US:8443_2
-      - CN:63078
-      - US:443
-      - GB:18888
-      - CN:55154
-      - CN:55156
-      - HK:443
-      - KR:25135
-      - HK:443_2
-      - CN:10012
-      - CN:10034
-      - 🇸🇬_SG_新加坡:443
-      - CN:10027
-      - HK:443_2_2
-      - US:42383
-      - CN:10011
-      - 🇭🇰_HK_香港:10125
-      - CN:15622
-      - US:8443_2_2
-      - CN:13004
-      - CN:10042
-      - CN:13304
-      - CN:10031
-      - US:8443_2_2_2
-      - CN:10038
-      - CN:13003
-      - JP:30032
-      - US:443_2
-      - TW:50895
-      - CN:13302
-      - TW:443
+      - ❶香港 02 [BGP]:80
+      - ❶美国 02 [转]:10080
+      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
+      - ❷荷兰 [M]:10080
+      - ❶香港 18:10080
+      - 新加坡4:48550
       - CN:48552
-      - CN:10025_2
-      - KR:40034
-      - US:42383_2
-      - JP:3845_2_2
-      - CN:10018
-      - CN:10009_2
-      - CN:10041
-      - TW:46137
-      - US:443_2_2
-      - CN:13301
-      - HK:443_2_2_2
-      - 🇺🇸_US_美国:18888
-      - CN:13002
-      - CN:10034_2
-      - US:80
+      - ❷法国 [转]:10080
+      - ❶台湾 03 [推荐]:10080
+      - ❷英国 [转]:10080
+      - ❶新加坡 03 [H]:10080
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK:51693
-      - CN:10009
-      - KR:443
+      - ❶香港 A4 [H]:10080
+      - ❷香港 12:10080
+      - ❶香港 B4 [H]:10080
+      - ❷香港 51:10080
+      - ❶新加坡 02 [M]:20086
+      - ❶日本 03 [转]:80
+      - ❶香港 B1 [推荐]:20086
+      - ❶香港 B2 [推荐]:20086
+      - ❶香港 B3 [推荐]:20086
+      - 台湾02丨原生IP丨:55155
+      - ❶台湾 02 [推荐]:20086
+      - ❶香港 A3 [推荐]:20086
+      - ❶香港 03 [BGP]:80
+      - ❶日本 01 [M]:20086
+      - ❶香港 A1 [推荐]:20086
+      - ❶香港 A2 [推荐]:20086
+      - ❷香港 C3 [推荐]:20086
+      - ❷香港 C2 [推荐]:20086
+      - ❷韩国 [转]:10080
       - CN:48517
-      - CN:21129
-      - 🇺🇸_US_美国->🇫🇷_FR_法国:443
-      - JP:3845
-      - default_name:443
-      - JP:3845_2
-      - US:8443
-      - CN:10025
-      - KR:40030
-      - CN:13303
-      - CN:50301
-      - US:8443_2
-      - CN:63078
-      - US:443
-      - GB:18888
-      - CN:55154
-      - CN:55156
-      - HK:443
-      - KR:25135
-      - HK:443_2
-      - CN:10012
-      - CN:10034
-      - 🇸🇬_SG_新加坡:443
-      - CN:10027
-      - HK:443_2_2
-      - US:42383
-      - CN:10011
-      - 🇭🇰_HK_香港:10125
-      - CN:15622
-      - US:8443_2_2
-      - CN:13004
-      - CN:10042
-      - CN:13304
-      - CN:10031
-      - US:8443_2_2_2
-      - CN:10038
-      - CN:13003
-      - JP:30032
-      - US:443_2
-      - TW:50895
-      - CN:13302
-      - TW:443
+      - ❶香港 02 [BGP]:80
+      - ❶美国 02 [转]:10080
+      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
+      - ❷荷兰 [M]:10080
+      - ❶香港 18:10080
+      - 新加坡4:48550
       - CN:48552
-      - CN:10025_2
-      - KR:40034
-      - US:42383_2
-      - JP:3845_2_2
-      - CN:10018
-      - CN:10009_2
-      - CN:10041
-      - TW:46137
-      - US:443_2_2
-      - CN:13301
-      - HK:443_2_2_2
-      - 🇺🇸_US_美国:18888
-      - CN:13002
-      - CN:10034_2
-      - US:80
+      - ❷法国 [转]:10080
+      - ❶台湾 03 [推荐]:10080
+      - ❷英国 [转]:10080
+      - ❶新加坡 03 [H]:10080
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
