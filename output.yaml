@@ -5,772 +5,896 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: ❶香港 A4 [H]:10080
+  - name: CN:65512
     type: vmess
-    server: transit01.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    server: ck66.ck222.xyz
+    port: 65512
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:65511
+    type: vmess
+    server: ck66.ck222.xyz
+    port: 65511
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10033
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 10033
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55123
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 55123
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55127
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 55127
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10055
+    type: vmess
+    server: ck66.ck222.xyz
+    port: 10055
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10040
+    type: vmess
+    server: ck66.ck222.xyz
+    port: 10040
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55138
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 55138
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:50113
+    type: vmess
+    server: gzzz.v2ssyhub.xyz
+    port: 50113
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55124
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 55124
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10041
+    type: vmess
+    server: ck66.ck222.xyz
+    port: 10041
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10026
+    type: vmess
+    server: gzzz.v2ssyhub.xyz
+    port: 10026
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:65514
+    type: vmess
+    server: ck66.ck222.xyz
+    port: 65514
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10035
+    type: vmess
+    server: ck88.ck222.xyz
+    port: 10035
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:63005
+    type: vmess
+    server: ck66.ck222.xyz
+    port: 63005
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:65513
+    type: vmess
+    server: ck66.ck222.xyz
+    port: 65513
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55122
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 55122
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55132
+    type: vmess
+    server: ck66.ck222.xyz
+    port: 55132
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10036
+    type: vmess
+    server: ck88.ck222.xyz
+    port: 10036
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55129
+    type: vmess
+    server: ck99.ck222.xyz
+    port: 55129
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:65510
+    type: vmess
+    server: ck66.ck222.xyz
+    port: 65510
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55128
+    type: vmess
+    server: ck99.ck222.xyz
+    port: 55128
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55135
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 55135
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10028
+    type: vmess
+    server: ck99.ck222.xyz
+    port: 10028
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55125
+    type: vmess
+    server: ck88.ck222.xyz
+    port: 55125
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55126
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 55126
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10034
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 10034
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55139
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 55139
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10031
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 10031
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10030
+    type: vmess
+    server: ck99.ck222.xyz
+    port: 10030
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55136
+    type: vmess
+    server: ck99.ck222.xyz
+    port: 55136
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55137
+    type: vmess
+    server: ck88.ck222.xyz
+    port: 55137
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55134
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 55134
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: CN:38201
+    type: vmess
+    server: 120.240.48.19
+    port: 38201
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: ingress-i1.onebox6.org
+  - name: CN:55133
+    type: vmess
+    server: ck77.ck222.xyz
+    port: 55133
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hk18
-    ws-headers:
-      Host: transit01.balala2016.xyz
-  - name: ❷香港 12:10080
+    ws-path: ""
+    ws-headers: null
+  - name: CN:55131
     type: vmess
-    server: hk12.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    server: ck77.ck222.xyz
+    port: 55131
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
-    ws-path: /balala
-    ws-headers:
-      Host: hk12.balala2016.xyz
-  - name: ❶香港 B4 [H]:10080
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10037
     type: vmess
-    server: transit01.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    server: ck99.ck222.xyz
+    port: 10037
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
-    ws-path: /balala
-    ws-headers:
-      Host: transit01.balala2016.xyz
-  - name: ❷香港 51:10080
+    ws-path: ""
+    ws-headers: null
+  - name: CN:10044
     type: vmess
-    server: hk51.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+    server: ck66.ck222.xyz
+    port: 10044
+    uuid: 247c589a-a456-452b-90b7-7d9fc211d052
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
-    ws-path: /hk51
-    ws-headers:
-      Host: hk51.balala2016.xyz
-  - name: ❶新加坡 02 [M]:20086
-    type: vmess
-    server: js01.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /sg02
-    ws-headers:
-      Host: js01.balala2016.xyz
-  - name: ❶日本 03 [转]:80
-    type: vmess
-    server: transit01.balala2016.xyz
-    port: 80
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jp01
-    ws-headers:
-      Host: transit01.balala2016.xyz
-  - name: ❶香港 B1 [推荐]:20086
-    type: vmess
-    server: js01.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /balala
-    ws-headers:
-      Host: js01.balala2016.xyz
-  - name: ❶香港 B2 [推荐]:20086
-    type: vmess
-    server: js02.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /balala
-    ws-headers:
-      Host: js02.balala2016.xyz
-  - name: ❶香港 B3 [推荐]:20086
-    type: vmess
-    server: js03.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /balala
-    ws-headers:
-      Host: js03.balala2016.xyz
-  - name: 台湾02丨原生IP丨:55155
-    type: vmess
-    server: fs.keaiyun.xyz
-    port: 55155
-    uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: www.baidu.com
-  - name: ❶台湾 02 [推荐]:20086
-    type: vmess
-    server: js02.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /tw01
-    ws-headers:
-      Host: js02.balala2016.xyz
-  - name: ❶香港 A3 [推荐]:20086
-    type: vmess
-    server: js03.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk18
-    ws-headers:
-      Host: js03.balala2016.xyz
-  - name: ❶香港 03 [BGP]:80
-    type: vmess
-    server: hk03.balala2016.xyz
-    port: 80
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /balala
-    ws-headers:
-      Host: hk03.balala2016.xyz
-  - name: ❶日本 01 [M]:20086
-    type: vmess
-    server: js01.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jp01
-    ws-headers:
-      Host: js01.balala2016.xyz
-  - name: ❶香港 A1 [推荐]:20086
-    type: vmess
-    server: js01.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk18
-    ws-headers:
-      Host: js01.balala2016.xyz
-  - name: ❶香港 A2 [推荐]:20086
-    type: vmess
-    server: js02.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk18
-    ws-headers:
-      Host: js02.balala2016.xyz
-  - name: ❷香港 C3 [推荐]:20086
-    type: vmess
-    server: js03.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk51
-    ws-headers:
-      Host: js03.balala2016.xyz
-  - name: ❷香港 C2 [推荐]:20086
-    type: vmess
-    server: js02.balala2016.xyz
-    port: 20086
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk51
-    ws-headers:
-      Host: js02.balala2016.xyz
-  - name: ❷韩国 [转]:10080
-    type: vmess
-    server: transit01.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /kr01
-    ws-headers:
-      Host: transit01.balala2016.xyz
-  - name: CN:48517
-    type: vmess
-    server: fs.keaiyun.xyz
-    port: 48517
-    uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: www.baidu.com
-  - name: ❶香港 02 [BGP]:80
-    type: vmess
-    server: hk02.balala2016.xyz
-    port: 80
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /balala
-    ws-headers:
-      Host: hk02.balala2016.xyz
-  - name: ❶美国 02 [转]:10080
-    type: vmess
-    server: transit01.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /us02
-    ws-headers:
-      Host: transit01.balala2016.xyz
-  - name: 俄罗斯原生1-负载均衡-解锁流媒体:40040
-    type: vmess
-    server: ru1.lolvps.xyz
-    port: 40040
-    uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /6129CFHR
-    ws-headers:
-      Host: ru1.lolvps.xyz
-  - name: ❷荷兰 [M]:10080
-    type: vmess
-    server: js01.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /nl01
-    ws-headers:
-      Host: js01.balala2016.xyz
-  - name: ❶香港 18:10080
-    type: vmess
-    server: hk18.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hk18
-    ws-headers:
-      Host: hk18.balala2016.xyz
-  - name: 新加坡4:48550
-    type: vmess
-    server: fs.keaiyun.xyz
-    port: 48550
-    uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: www.baidu.com
-  - name: CN:48552
-    type: vmess
-    server: fs.keaiyun.xyz
-    port: 48552
-    uuid: 8d2afe1b-0b96-3390-9258-36ff22e0d023
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: www.baidu.com
-  - name: ❷法国 [转]:10080
-    type: vmess
-    server: transit01.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /fr01
-    ws-headers:
-      Host: transit01.balala2016.xyz
-  - name: ❶台湾 03 [推荐]:10080
-    type: vmess
-    server: transit01.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /tw01
-    ws-headers:
-      Host: transit01.balala2016.xyz
-  - name: ❷英国 [转]:10080
-    type: vmess
-    server: transit01.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /uk01
-    ws-headers:
-      Host: transit01.balala2016.xyz
-  - name: ❶新加坡 03 [H]:10080
-    type: vmess
-    server: transit01.balala2016.xyz
-    port: 10080
-    uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /sg02
-    ws-headers:
-      Host: transit01.balala2016.xyz
+    ws-path: ""
+    ws-headers: null
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ❶香港 A4 [H]:10080
-      - ❷香港 12:10080
-      - ❶香港 B4 [H]:10080
-      - ❷香港 51:10080
-      - ❶新加坡 02 [M]:20086
-      - ❶日本 03 [转]:80
-      - ❶香港 B1 [推荐]:20086
-      - ❶香港 B2 [推荐]:20086
-      - ❶香港 B3 [推荐]:20086
-      - 台湾02丨原生IP丨:55155
-      - ❶台湾 02 [推荐]:20086
-      - ❶香港 A3 [推荐]:20086
-      - ❶香港 03 [BGP]:80
-      - ❶日本 01 [M]:20086
-      - ❶香港 A1 [推荐]:20086
-      - ❶香港 A2 [推荐]:20086
-      - ❷香港 C3 [推荐]:20086
-      - ❷香港 C2 [推荐]:20086
-      - ❷韩国 [转]:10080
-      - CN:48517
-      - ❶香港 02 [BGP]:80
-      - ❶美国 02 [转]:10080
-      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
-      - ❷荷兰 [M]:10080
-      - ❶香港 18:10080
-      - 新加坡4:48550
-      - CN:48552
-      - ❷法国 [转]:10080
-      - ❶台湾 03 [推荐]:10080
-      - ❷英国 [转]:10080
-      - ❶新加坡 03 [H]:10080
+      - CN:65512
+      - CN:65511
+      - CN:10033
+      - CN:55123
+      - CN:55127
+      - CN:10055
+      - CN:10040
+      - CN:55138
+      - CN:50113
+      - CN:55124
+      - CN:10041
+      - CN:10026
+      - CN:65514
+      - CN:10035
+      - CN:63005
+      - CN:65513
+      - CN:55122
+      - CN:55132
+      - CN:10036
+      - CN:55129
+      - CN:65510
+      - CN:55128
+      - CN:55135
+      - CN:10028
+      - CN:55125
+      - CN:55126
+      - CN:10034
+      - CN:55139
+      - CN:10031
+      - CN:10030
+      - CN:55136
+      - CN:55137
+      - CN:55134
+      - CN:38201
+      - CN:55133
+      - CN:55131
+      - CN:10037
+      - CN:10044
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - ❶香港 A4 [H]:10080
-      - ❷香港 12:10080
-      - ❶香港 B4 [H]:10080
-      - ❷香港 51:10080
-      - ❶新加坡 02 [M]:20086
-      - ❶日本 03 [转]:80
-      - ❶香港 B1 [推荐]:20086
-      - ❶香港 B2 [推荐]:20086
-      - ❶香港 B3 [推荐]:20086
-      - 台湾02丨原生IP丨:55155
-      - ❶台湾 02 [推荐]:20086
-      - ❶香港 A3 [推荐]:20086
-      - ❶香港 03 [BGP]:80
-      - ❶日本 01 [M]:20086
-      - ❶香港 A1 [推荐]:20086
-      - ❶香港 A2 [推荐]:20086
-      - ❷香港 C3 [推荐]:20086
-      - ❷香港 C2 [推荐]:20086
-      - ❷韩国 [转]:10080
-      - CN:48517
-      - ❶香港 02 [BGP]:80
-      - ❶美国 02 [转]:10080
-      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
-      - ❷荷兰 [M]:10080
-      - ❶香港 18:10080
-      - 新加坡4:48550
-      - CN:48552
-      - ❷法国 [转]:10080
-      - ❶台湾 03 [推荐]:10080
-      - ❷英国 [转]:10080
-      - ❶新加坡 03 [H]:10080
+      - CN:65512
+      - CN:65511
+      - CN:10033
+      - CN:55123
+      - CN:55127
+      - CN:10055
+      - CN:10040
+      - CN:55138
+      - CN:50113
+      - CN:55124
+      - CN:10041
+      - CN:10026
+      - CN:65514
+      - CN:10035
+      - CN:63005
+      - CN:65513
+      - CN:55122
+      - CN:55132
+      - CN:10036
+      - CN:55129
+      - CN:65510
+      - CN:55128
+      - CN:55135
+      - CN:10028
+      - CN:55125
+      - CN:55126
+      - CN:10034
+      - CN:55139
+      - CN:10031
+      - CN:10030
+      - CN:55136
+      - CN:55137
+      - CN:55134
+      - CN:38201
+      - CN:55133
+      - CN:55131
+      - CN:10037
+      - CN:10044
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ❶香港 A4 [H]:10080
-      - ❷香港 12:10080
-      - ❶香港 B4 [H]:10080
-      - ❷香港 51:10080
-      - ❶新加坡 02 [M]:20086
-      - ❶日本 03 [转]:80
-      - ❶香港 B1 [推荐]:20086
-      - ❶香港 B2 [推荐]:20086
-      - ❶香港 B3 [推荐]:20086
-      - 台湾02丨原生IP丨:55155
-      - ❶台湾 02 [推荐]:20086
-      - ❶香港 A3 [推荐]:20086
-      - ❶香港 03 [BGP]:80
-      - ❶日本 01 [M]:20086
-      - ❶香港 A1 [推荐]:20086
-      - ❶香港 A2 [推荐]:20086
-      - ❷香港 C3 [推荐]:20086
-      - ❷香港 C2 [推荐]:20086
-      - ❷韩国 [转]:10080
-      - CN:48517
-      - ❶香港 02 [BGP]:80
-      - ❶美国 02 [转]:10080
-      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
-      - ❷荷兰 [M]:10080
-      - ❶香港 18:10080
-      - 新加坡4:48550
-      - CN:48552
-      - ❷法国 [转]:10080
-      - ❶台湾 03 [推荐]:10080
-      - ❷英国 [转]:10080
-      - ❶新加坡 03 [H]:10080
+      - CN:65512
+      - CN:65511
+      - CN:10033
+      - CN:55123
+      - CN:55127
+      - CN:10055
+      - CN:10040
+      - CN:55138
+      - CN:50113
+      - CN:55124
+      - CN:10041
+      - CN:10026
+      - CN:65514
+      - CN:10035
+      - CN:63005
+      - CN:65513
+      - CN:55122
+      - CN:55132
+      - CN:10036
+      - CN:55129
+      - CN:65510
+      - CN:55128
+      - CN:55135
+      - CN:10028
+      - CN:55125
+      - CN:55126
+      - CN:10034
+      - CN:55139
+      - CN:10031
+      - CN:10030
+      - CN:55136
+      - CN:55137
+      - CN:55134
+      - CN:38201
+      - CN:55133
+      - CN:55131
+      - CN:10037
+      - CN:10044
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ❶香港 A4 [H]:10080
-      - ❷香港 12:10080
-      - ❶香港 B4 [H]:10080
-      - ❷香港 51:10080
-      - ❶新加坡 02 [M]:20086
-      - ❶日本 03 [转]:80
-      - ❶香港 B1 [推荐]:20086
-      - ❶香港 B2 [推荐]:20086
-      - ❶香港 B3 [推荐]:20086
-      - 台湾02丨原生IP丨:55155
-      - ❶台湾 02 [推荐]:20086
-      - ❶香港 A3 [推荐]:20086
-      - ❶香港 03 [BGP]:80
-      - ❶日本 01 [M]:20086
-      - ❶香港 A1 [推荐]:20086
-      - ❶香港 A2 [推荐]:20086
-      - ❷香港 C3 [推荐]:20086
-      - ❷香港 C2 [推荐]:20086
-      - ❷韩国 [转]:10080
-      - CN:48517
-      - ❶香港 02 [BGP]:80
-      - ❶美国 02 [转]:10080
-      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
-      - ❷荷兰 [M]:10080
-      - ❶香港 18:10080
-      - 新加坡4:48550
-      - CN:48552
-      - ❷法国 [转]:10080
-      - ❶台湾 03 [推荐]:10080
-      - ❷英国 [转]:10080
-      - ❶新加坡 03 [H]:10080
+      - CN:65512
+      - CN:65511
+      - CN:10033
+      - CN:55123
+      - CN:55127
+      - CN:10055
+      - CN:10040
+      - CN:55138
+      - CN:50113
+      - CN:55124
+      - CN:10041
+      - CN:10026
+      - CN:65514
+      - CN:10035
+      - CN:63005
+      - CN:65513
+      - CN:55122
+      - CN:55132
+      - CN:10036
+      - CN:55129
+      - CN:65510
+      - CN:55128
+      - CN:55135
+      - CN:10028
+      - CN:55125
+      - CN:55126
+      - CN:10034
+      - CN:55139
+      - CN:10031
+      - CN:10030
+      - CN:55136
+      - CN:55137
+      - CN:55134
+      - CN:38201
+      - CN:55133
+      - CN:55131
+      - CN:10037
+      - CN:10044
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - ❶香港 A4 [H]:10080
-      - ❷香港 12:10080
-      - ❶香港 B4 [H]:10080
-      - ❷香港 51:10080
-      - ❶新加坡 02 [M]:20086
-      - ❶日本 03 [转]:80
-      - ❶香港 B1 [推荐]:20086
-      - ❶香港 B2 [推荐]:20086
-      - ❶香港 B3 [推荐]:20086
-      - 台湾02丨原生IP丨:55155
-      - ❶台湾 02 [推荐]:20086
-      - ❶香港 A3 [推荐]:20086
-      - ❶香港 03 [BGP]:80
-      - ❶日本 01 [M]:20086
-      - ❶香港 A1 [推荐]:20086
-      - ❶香港 A2 [推荐]:20086
-      - ❷香港 C3 [推荐]:20086
-      - ❷香港 C2 [推荐]:20086
-      - ❷韩国 [转]:10080
-      - CN:48517
-      - ❶香港 02 [BGP]:80
-      - ❶美国 02 [转]:10080
-      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
-      - ❷荷兰 [M]:10080
-      - ❶香港 18:10080
-      - 新加坡4:48550
-      - CN:48552
-      - ❷法国 [转]:10080
-      - ❶台湾 03 [推荐]:10080
-      - ❷英国 [转]:10080
-      - ❶新加坡 03 [H]:10080
+      - CN:65512
+      - CN:65511
+      - CN:10033
+      - CN:55123
+      - CN:55127
+      - CN:10055
+      - CN:10040
+      - CN:55138
+      - CN:50113
+      - CN:55124
+      - CN:10041
+      - CN:10026
+      - CN:65514
+      - CN:10035
+      - CN:63005
+      - CN:65513
+      - CN:55122
+      - CN:55132
+      - CN:10036
+      - CN:55129
+      - CN:65510
+      - CN:55128
+      - CN:55135
+      - CN:10028
+      - CN:55125
+      - CN:55126
+      - CN:10034
+      - CN:55139
+      - CN:10031
+      - CN:10030
+      - CN:55136
+      - CN:55137
+      - CN:55134
+      - CN:38201
+      - CN:55133
+      - CN:55131
+      - CN:10037
+      - CN:10044
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - ❶香港 A4 [H]:10080
-      - ❷香港 12:10080
-      - ❶香港 B4 [H]:10080
-      - ❷香港 51:10080
-      - ❶新加坡 02 [M]:20086
-      - ❶日本 03 [转]:80
-      - ❶香港 B1 [推荐]:20086
-      - ❶香港 B2 [推荐]:20086
-      - ❶香港 B3 [推荐]:20086
-      - 台湾02丨原生IP丨:55155
-      - ❶台湾 02 [推荐]:20086
-      - ❶香港 A3 [推荐]:20086
-      - ❶香港 03 [BGP]:80
-      - ❶日本 01 [M]:20086
-      - ❶香港 A1 [推荐]:20086
-      - ❶香港 A2 [推荐]:20086
-      - ❷香港 C3 [推荐]:20086
-      - ❷香港 C2 [推荐]:20086
-      - ❷韩国 [转]:10080
-      - CN:48517
-      - ❶香港 02 [BGP]:80
-      - ❶美国 02 [转]:10080
-      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
-      - ❷荷兰 [M]:10080
-      - ❶香港 18:10080
-      - 新加坡4:48550
-      - CN:48552
-      - ❷法国 [转]:10080
-      - ❶台湾 03 [推荐]:10080
-      - ❷英国 [转]:10080
-      - ❶新加坡 03 [H]:10080
+      - CN:65512
+      - CN:65511
+      - CN:10033
+      - CN:55123
+      - CN:55127
+      - CN:10055
+      - CN:10040
+      - CN:55138
+      - CN:50113
+      - CN:55124
+      - CN:10041
+      - CN:10026
+      - CN:65514
+      - CN:10035
+      - CN:63005
+      - CN:65513
+      - CN:55122
+      - CN:55132
+      - CN:10036
+      - CN:55129
+      - CN:65510
+      - CN:55128
+      - CN:55135
+      - CN:10028
+      - CN:55125
+      - CN:55126
+      - CN:10034
+      - CN:55139
+      - CN:10031
+      - CN:10030
+      - CN:55136
+      - CN:55137
+      - CN:55134
+      - CN:38201
+      - CN:55133
+      - CN:55131
+      - CN:10037
+      - CN:10044
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - ❶香港 A4 [H]:10080
-      - ❷香港 12:10080
-      - ❶香港 B4 [H]:10080
-      - ❷香港 51:10080
-      - ❶新加坡 02 [M]:20086
-      - ❶日本 03 [转]:80
-      - ❶香港 B1 [推荐]:20086
-      - ❶香港 B2 [推荐]:20086
-      - ❶香港 B3 [推荐]:20086
-      - 台湾02丨原生IP丨:55155
-      - ❶台湾 02 [推荐]:20086
-      - ❶香港 A3 [推荐]:20086
-      - ❶香港 03 [BGP]:80
-      - ❶日本 01 [M]:20086
-      - ❶香港 A1 [推荐]:20086
-      - ❶香港 A2 [推荐]:20086
-      - ❷香港 C3 [推荐]:20086
-      - ❷香港 C2 [推荐]:20086
-      - ❷韩国 [转]:10080
-      - CN:48517
-      - ❶香港 02 [BGP]:80
-      - ❶美国 02 [转]:10080
-      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
-      - ❷荷兰 [M]:10080
-      - ❶香港 18:10080
-      - 新加坡4:48550
-      - CN:48552
-      - ❷法国 [转]:10080
-      - ❶台湾 03 [推荐]:10080
-      - ❷英国 [转]:10080
-      - ❶新加坡 03 [H]:10080
+      - CN:65512
+      - CN:65511
+      - CN:10033
+      - CN:55123
+      - CN:55127
+      - CN:10055
+      - CN:10040
+      - CN:55138
+      - CN:50113
+      - CN:55124
+      - CN:10041
+      - CN:10026
+      - CN:65514
+      - CN:10035
+      - CN:63005
+      - CN:65513
+      - CN:55122
+      - CN:55132
+      - CN:10036
+      - CN:55129
+      - CN:65510
+      - CN:55128
+      - CN:55135
+      - CN:10028
+      - CN:55125
+      - CN:55126
+      - CN:10034
+      - CN:55139
+      - CN:10031
+      - CN:10030
+      - CN:55136
+      - CN:55137
+      - CN:55134
+      - CN:38201
+      - CN:55133
+      - CN:55131
+      - CN:10037
+      - CN:10044
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - ❶香港 A4 [H]:10080
-      - ❷香港 12:10080
-      - ❶香港 B4 [H]:10080
-      - ❷香港 51:10080
-      - ❶新加坡 02 [M]:20086
-      - ❶日本 03 [转]:80
-      - ❶香港 B1 [推荐]:20086
-      - ❶香港 B2 [推荐]:20086
-      - ❶香港 B3 [推荐]:20086
-      - 台湾02丨原生IP丨:55155
-      - ❶台湾 02 [推荐]:20086
-      - ❶香港 A3 [推荐]:20086
-      - ❶香港 03 [BGP]:80
-      - ❶日本 01 [M]:20086
-      - ❶香港 A1 [推荐]:20086
-      - ❶香港 A2 [推荐]:20086
-      - ❷香港 C3 [推荐]:20086
-      - ❷香港 C2 [推荐]:20086
-      - ❷韩国 [转]:10080
-      - CN:48517
-      - ❶香港 02 [BGP]:80
-      - ❶美国 02 [转]:10080
-      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
-      - ❷荷兰 [M]:10080
-      - ❶香港 18:10080
-      - 新加坡4:48550
-      - CN:48552
-      - ❷法国 [转]:10080
-      - ❶台湾 03 [推荐]:10080
-      - ❷英国 [转]:10080
-      - ❶新加坡 03 [H]:10080
+      - CN:65512
+      - CN:65511
+      - CN:10033
+      - CN:55123
+      - CN:55127
+      - CN:10055
+      - CN:10040
+      - CN:55138
+      - CN:50113
+      - CN:55124
+      - CN:10041
+      - CN:10026
+      - CN:65514
+      - CN:10035
+      - CN:63005
+      - CN:65513
+      - CN:55122
+      - CN:55132
+      - CN:10036
+      - CN:55129
+      - CN:65510
+      - CN:55128
+      - CN:55135
+      - CN:10028
+      - CN:55125
+      - CN:55126
+      - CN:10034
+      - CN:55139
+      - CN:10031
+      - CN:10030
+      - CN:55136
+      - CN:55137
+      - CN:55134
+      - CN:38201
+      - CN:55133
+      - CN:55131
+      - CN:10037
+      - CN:10044
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - ❶香港 A4 [H]:10080
-      - ❷香港 12:10080
-      - ❶香港 B4 [H]:10080
-      - ❷香港 51:10080
-      - ❶新加坡 02 [M]:20086
-      - ❶日本 03 [转]:80
-      - ❶香港 B1 [推荐]:20086
-      - ❶香港 B2 [推荐]:20086
-      - ❶香港 B3 [推荐]:20086
-      - 台湾02丨原生IP丨:55155
-      - ❶台湾 02 [推荐]:20086
-      - ❶香港 A3 [推荐]:20086
-      - ❶香港 03 [BGP]:80
-      - ❶日本 01 [M]:20086
-      - ❶香港 A1 [推荐]:20086
-      - ❶香港 A2 [推荐]:20086
-      - ❷香港 C3 [推荐]:20086
-      - ❷香港 C2 [推荐]:20086
-      - ❷韩国 [转]:10080
-      - CN:48517
-      - ❶香港 02 [BGP]:80
-      - ❶美国 02 [转]:10080
-      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
-      - ❷荷兰 [M]:10080
-      - ❶香港 18:10080
-      - 新加坡4:48550
-      - CN:48552
-      - ❷法国 [转]:10080
-      - ❶台湾 03 [推荐]:10080
-      - ❷英国 [转]:10080
-      - ❶新加坡 03 [H]:10080
+      - CN:65512
+      - CN:65511
+      - CN:10033
+      - CN:55123
+      - CN:55127
+      - CN:10055
+      - CN:10040
+      - CN:55138
+      - CN:50113
+      - CN:55124
+      - CN:10041
+      - CN:10026
+      - CN:65514
+      - CN:10035
+      - CN:63005
+      - CN:65513
+      - CN:55122
+      - CN:55132
+      - CN:10036
+      - CN:55129
+      - CN:65510
+      - CN:55128
+      - CN:55135
+      - CN:10028
+      - CN:55125
+      - CN:55126
+      - CN:10034
+      - CN:55139
+      - CN:10031
+      - CN:10030
+      - CN:55136
+      - CN:55137
+      - CN:55134
+      - CN:38201
+      - CN:55133
+      - CN:55131
+      - CN:10037
+      - CN:10044
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ❶香港 A4 [H]:10080
-      - ❷香港 12:10080
-      - ❶香港 B4 [H]:10080
-      - ❷香港 51:10080
-      - ❶新加坡 02 [M]:20086
-      - ❶日本 03 [转]:80
-      - ❶香港 B1 [推荐]:20086
-      - ❶香港 B2 [推荐]:20086
-      - ❶香港 B3 [推荐]:20086
-      - 台湾02丨原生IP丨:55155
-      - ❶台湾 02 [推荐]:20086
-      - ❶香港 A3 [推荐]:20086
-      - ❶香港 03 [BGP]:80
-      - ❶日本 01 [M]:20086
-      - ❶香港 A1 [推荐]:20086
-      - ❶香港 A2 [推荐]:20086
-      - ❷香港 C3 [推荐]:20086
-      - ❷香港 C2 [推荐]:20086
-      - ❷韩国 [转]:10080
-      - CN:48517
-      - ❶香港 02 [BGP]:80
-      - ❶美国 02 [转]:10080
-      - 俄罗斯原生1-负载均衡-解锁流媒体:40040
-      - ❷荷兰 [M]:10080
-      - ❶香港 18:10080
-      - 新加坡4:48550
-      - CN:48552
-      - ❷法国 [转]:10080
-      - ❶台湾 03 [推荐]:10080
-      - ❷英国 [转]:10080
-      - ❶新加坡 03 [H]:10080
+      - CN:65512
+      - CN:65511
+      - CN:10033
+      - CN:55123
+      - CN:55127
+      - CN:10055
+      - CN:10040
+      - CN:55138
+      - CN:50113
+      - CN:55124
+      - CN:10041
+      - CN:10026
+      - CN:65514
+      - CN:10035
+      - CN:63005
+      - CN:65513
+      - CN:55122
+      - CN:55132
+      - CN:10036
+      - CN:55129
+      - CN:65510
+      - CN:55128
+      - CN:55135
+      - CN:10028
+      - CN:55125
+      - CN:55126
+      - CN:10034
+      - CN:55139
+      - CN:10031
+      - CN:10030
+      - CN:55136
+      - CN:55137
+      - CN:55134
+      - CN:38201
+      - CN:55133
+      - CN:55131
+      - CN:10037
+      - CN:10044
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
