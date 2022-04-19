@@ -5,61 +5,22 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: CN:63087
+  - name: US_8du.shop:443
     type: vmess
-    server: in02.dns2333.xyz
-    port: 63087
-    uuid: 982227b6-fb48-3c17-b44f-b41daa88afab
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: sg-balancer.tencent.best
-  - name: CN:63062
-    type: vmess
-    server: in05.dns2333.xyz
-    port: 63062
-    uuid: 982227b6-fb48-3c17-b44f-b41daa88afab
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: nl01-cdn.tencent.best
-  - name: CN:63077
-    type: vmess
-    server: in05.dns2333.xyz
-    port: 63077
-    uuid: 982227b6-fb48-3c17-b44f-b41daa88afab
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: pl01-cdn.myn0des.com
-  - name: US:443
-    type: vmess
-    server: v2ray.788644.xyz
+    server: vpna1.herokuapp.com
     port: 443
-    uuid: 000fe881-b655-4212-b804-b00f9970d5aa
+    uuid: 8ccdfb2e-e039-47f9-a460-8ca6183d701c
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /happy
+    ws-path: /ray
     ws-headers:
-      Host: v2ray.788644.xyz
-  - name: US:8443
+      Host: vpna1.herokuapp.com
+  - name: 8du.shop:8443
     type: vmess
-    server: v4.ssrsub.com
+    server: v5.ssrsub.com
     port: 8443
     uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256
     alterId: "0"
@@ -68,204 +29,13 @@ proxies:
     network: ws
     tls: true
     ws-path: /ssrsub
-    ws-headers: null
-  - name: CN:63062_2
-    type: vmess
-    server: in05.dns2333.xyz
-    port: 63062
-    uuid: 982227b6-fb48-3c17-b44f-b41daa88afab
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
     ws-headers:
-      Host: nl01-cdn.tencent.best
-  - name: IR:80
+      Host: v5.ssrsub.com
+  - name: 8du.shop:443
     type: vmess
-    server: irancell.android-club.ir
-    port: 80
-    uuid: e2c5779c-76b1-4077-d829-9c7c31ef1a28
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /apiws
-    ws-headers:
-      Host: irancell.android-club.ir
-  - name: US:443_2
-    type: vmess
-    server: hk4.fdns.unino.tech
+    server: hax.hax01.tk
     port: 443
-    uuid: eb90ad94-9b20-4075-af26-e8e17ff12258
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers: null
-  - name: US:443_2_2
-    type: vmess
-    server: hk4.fdns.unino.tech
-    port: 443
-    uuid: eb90ad94-9b20-4075-af26-e8e17ff12258
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: hk4.fdns.unino.tech
-  - name: US:57745
-    type: vmess
-    server: 45.77.126.179
-    port: 57745
-    uuid: e8b99f3e-bc07-11ec-bc51-560003f2ac4d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /SfqyKoZu/
-    ws-headers:
-      Host: 45.77.126.179
-  - name: US:59627
-    type: vmess
-    server: www.zhangss.xyz
-    port: 59627
-    uuid: 7cb9b8c1-ddc8-4bdc-b365-d8b73aafa0ec
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: www.zhangss.xyz
-  - name: US:57745_2
-    type: vmess
-    server: 45.77.126.179
-    port: 57745
-    uuid: e8b99f3e-bc07-11ec-bc51-560003f2ac4d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /SfqyKoZu/
-    ws-headers: null
-  - name: US:37572
-    type: vmess
-    server: 140.82.22.122
-    port: 37572
-    uuid: 81e3f426-bc02-11ec-b4df-560003f2aa40
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /qgbdnHwN/
-    ws-headers: null
-  - name: :443
-    type: vmess
-    server: oz.moonfree.top
-    port: 443
-    uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: oz.moonfree.top
-  - name: CN:48520
-    type: vmess
-    server: fs.keaiyun.xyz
-    port: 48520
-    uuid: 0aebc864-b680-3ff9-ba91-27479c658201
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: fs.keaiyun.xyz
-  - name: CN:48520_2
-    type: vmess
-    server: fs.keaiyun.xyz
-    port: 48520
-    uuid: 0aebc864-b680-3ff9-ba91-27479c658201
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /v2ray
-    ws-headers:
-      Host: www.baidu.com
-  - name: TW:443
-    type: vmess
-    server: 330tw.fans8.xyz
-    port: 443
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: 330tw.fans8.xyz
-  - name: RU:443
-    type: vmess
-    server: 331tw.fans8.xyz
-    port: 443
-    uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: 331tw.fans8.xyz
-  - name: CN:63028
-    type: vmess
-    server: in01.dns2333.xyz
-    port: 63028
-    uuid: 982227b6-fb48-3c17-b44f-b41daa88afab
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: mugua-tr01.covid19.rip
-  - name: CN:63028_2
-    type: vmess
-    server: in01.dns2333.xyz
-    port: 63028
-    uuid: 982227b6-fb48-3c17-b44f-b41daa88afab
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: mugua-tr01.covid19.rip
-  - name: US:443_2_2_2
-    type: vmess
-    server: hk4.fdns.unino.tech
-    port: 443
-    uuid: eb90ad94-9b20-4075-af26-e8e17ff12258
+    uuid: e2e073ce-c1d4-43ed-89f5-ca978507548a
     alterId: "0"
     cipher: auto
     udp: true
@@ -273,338 +43,226 @@ proxies:
     tls: true
     ws-path: ""
     ws-headers: null
-  - name: HK:80
+  - name: US_8du.shop:12388
     type: vmess
-    server: 13.75.70.197
-    port: 80
-    uuid: e1bc1a4f-a077-3241-b6ef-26ce6d4c0b54
+    server: 45.66.157.162
+    port: 12388
+    uuid: 6bb71b78-b299-11ec-9211-00163c76ea30
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /v2ray
+    ws-path: /cYkKjbF7/
     ws-headers:
-      Host: 13.75.70.197
-  - name: CN:48550
+      Host: 45.66.157.162
+  - name: US_8du.shop:10019
     type: vmess
-    server: fs.keaiyun.xyz
-    port: 48550
-    uuid: 0aebc864-b680-3ff9-ba91-27479c658201
+    server: wsclash1.free4444.xyz
+    port: 10019
+    uuid: b6124e52-b4bc-11ec-8937-00163cdcde4a
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /v2ray
+    ws-path: /PnlgSf7a/
     ws-headers:
-      Host: www.baidu.com
-  - name: CN:63021
+      Host: wsclash1.free4444.xyz
+  - name: US_8du.shop:29988
     type: vmess
-    server: in05.dns2333.xyz
-    port: 63021
-    uuid: e701a942-fba5-3381-b15e-2838689b9c23
+    server: 88.218.94.22
+    port: 29988
+    uuid: e020b92c-b4ee-11ec-a479-00163c4358f0
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /
+    ws-path: /x6UiVPhJ/
     ws-headers:
-      Host: uk01-cdn.airport-v2.com
+      Host: wsclash2.free4444.xyz
+  - name: US_8du.shop:10011
+    type: vmess
+    server: 85.209.159.105
+    port: 10011
+    uuid: 8d36810e-b0b3-11ec-80b8-00163c3fe0cd
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /2U4LiB6X/
+    ws-headers:
+      Host: 85.209.159.105
+  - name: CN_8du.shop:20356
+    type: vmess
+    server: gy-node.csccdd.xyz
+    port: 20356
+    uuid: 380640bb-201f-4903-9aab-a6418bc40563
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: gy-node.csccdd.xyz
+  - name: US_8du.shop:443_2
+    type: vmess
+    server: hax2.hax01.ml
+    port: 443
+    uuid: 25af03c3-27ff-4c14-c142-ad7694ec42f9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN:63087
-      - CN:63062
-      - CN:63077
-      - US:443
-      - US:8443
-      - CN:63062_2
-      - IR:80
-      - US:443_2
-      - US:443_2_2
-      - US:57745
-      - US:59627
-      - US:57745_2
-      - US:37572
-      - :443
-      - CN:48520
-      - CN:48520_2
-      - TW:443
-      - RU:443
-      - CN:63028
-      - CN:63028_2
-      - US:443_2_2_2
-      - HK:80
-      - CN:48550
-      - CN:63021
+      - US_8du.shop:443
+      - 8du.shop:8443
+      - 8du.shop:443
+      - US_8du.shop:12388
+      - US_8du.shop:10019
+      - US_8du.shop:29988
+      - US_8du.shop:10011
+      - CN_8du.shop:20356
+      - US_8du.shop:443_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN:63087
-      - CN:63062
-      - CN:63077
-      - US:443
-      - US:8443
-      - CN:63062_2
-      - IR:80
-      - US:443_2
-      - US:443_2_2
-      - US:57745
-      - US:59627
-      - US:57745_2
-      - US:37572
-      - :443
-      - CN:48520
-      - CN:48520_2
-      - TW:443
-      - RU:443
-      - CN:63028
-      - CN:63028_2
-      - US:443_2_2_2
-      - HK:80
-      - CN:48550
-      - CN:63021
+      - US_8du.shop:443
+      - 8du.shop:8443
+      - 8du.shop:443
+      - US_8du.shop:12388
+      - US_8du.shop:10019
+      - US_8du.shop:29988
+      - US_8du.shop:10011
+      - CN_8du.shop:20356
+      - US_8du.shop:443_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN:63087
-      - CN:63062
-      - CN:63077
-      - US:443
-      - US:8443
-      - CN:63062_2
-      - IR:80
-      - US:443_2
-      - US:443_2_2
-      - US:57745
-      - US:59627
-      - US:57745_2
-      - US:37572
-      - :443
-      - CN:48520
-      - CN:48520_2
-      - TW:443
-      - RU:443
-      - CN:63028
-      - CN:63028_2
-      - US:443_2_2_2
-      - HK:80
-      - CN:48550
-      - CN:63021
+      - US_8du.shop:443
+      - 8du.shop:8443
+      - 8du.shop:443
+      - US_8du.shop:12388
+      - US_8du.shop:10019
+      - US_8du.shop:29988
+      - US_8du.shop:10011
+      - CN_8du.shop:20356
+      - US_8du.shop:443_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN:63087
-      - CN:63062
-      - CN:63077
-      - US:443
-      - US:8443
-      - CN:63062_2
-      - IR:80
-      - US:443_2
-      - US:443_2_2
-      - US:57745
-      - US:59627
-      - US:57745_2
-      - US:37572
-      - :443
-      - CN:48520
-      - CN:48520_2
-      - TW:443
-      - RU:443
-      - CN:63028
-      - CN:63028_2
-      - US:443_2_2_2
-      - HK:80
-      - CN:48550
-      - CN:63021
+      - US_8du.shop:443
+      - 8du.shop:8443
+      - 8du.shop:443
+      - US_8du.shop:12388
+      - US_8du.shop:10019
+      - US_8du.shop:29988
+      - US_8du.shop:10011
+      - CN_8du.shop:20356
+      - US_8du.shop:443_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN:63087
-      - CN:63062
-      - CN:63077
-      - US:443
-      - US:8443
-      - CN:63062_2
-      - IR:80
-      - US:443_2
-      - US:443_2_2
-      - US:57745
-      - US:59627
-      - US:57745_2
-      - US:37572
-      - :443
-      - CN:48520
-      - CN:48520_2
-      - TW:443
-      - RU:443
-      - CN:63028
-      - CN:63028_2
-      - US:443_2_2_2
-      - HK:80
-      - CN:48550
-      - CN:63021
+      - US_8du.shop:443
+      - 8du.shop:8443
+      - 8du.shop:443
+      - US_8du.shop:12388
+      - US_8du.shop:10019
+      - US_8du.shop:29988
+      - US_8du.shop:10011
+      - CN_8du.shop:20356
+      - US_8du.shop:443_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN:63087
-      - CN:63062
-      - CN:63077
-      - US:443
-      - US:8443
-      - CN:63062_2
-      - IR:80
-      - US:443_2
-      - US:443_2_2
-      - US:57745
-      - US:59627
-      - US:57745_2
-      - US:37572
-      - :443
-      - CN:48520
-      - CN:48520_2
-      - TW:443
-      - RU:443
-      - CN:63028
-      - CN:63028_2
-      - US:443_2_2_2
-      - HK:80
-      - CN:48550
-      - CN:63021
+      - US_8du.shop:443
+      - 8du.shop:8443
+      - 8du.shop:443
+      - US_8du.shop:12388
+      - US_8du.shop:10019
+      - US_8du.shop:29988
+      - US_8du.shop:10011
+      - CN_8du.shop:20356
+      - US_8du.shop:443_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - CN:63087
-      - CN:63062
-      - CN:63077
-      - US:443
-      - US:8443
-      - CN:63062_2
-      - IR:80
-      - US:443_2
-      - US:443_2_2
-      - US:57745
-      - US:59627
-      - US:57745_2
-      - US:37572
-      - :443
-      - CN:48520
-      - CN:48520_2
-      - TW:443
-      - RU:443
-      - CN:63028
-      - CN:63028_2
-      - US:443_2_2_2
-      - HK:80
-      - CN:48550
-      - CN:63021
+      - US_8du.shop:443
+      - 8du.shop:8443
+      - 8du.shop:443
+      - US_8du.shop:12388
+      - US_8du.shop:10019
+      - US_8du.shop:29988
+      - US_8du.shop:10011
+      - CN_8du.shop:20356
+      - US_8du.shop:443_2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - CN:63087
-      - CN:63062
-      - CN:63077
-      - US:443
-      - US:8443
-      - CN:63062_2
-      - IR:80
-      - US:443_2
-      - US:443_2_2
-      - US:57745
-      - US:59627
-      - US:57745_2
-      - US:37572
-      - :443
-      - CN:48520
-      - CN:48520_2
-      - TW:443
-      - RU:443
-      - CN:63028
-      - CN:63028_2
-      - US:443_2_2_2
-      - HK:80
-      - CN:48550
-      - CN:63021
+      - US_8du.shop:443
+      - 8du.shop:8443
+      - 8du.shop:443
+      - US_8du.shop:12388
+      - US_8du.shop:10019
+      - US_8du.shop:29988
+      - US_8du.shop:10011
+      - CN_8du.shop:20356
+      - US_8du.shop:443_2
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - CN:63087
-      - CN:63062
-      - CN:63077
-      - US:443
-      - US:8443
-      - CN:63062_2
-      - IR:80
-      - US:443_2
-      - US:443_2_2
-      - US:57745
-      - US:59627
-      - US:57745_2
-      - US:37572
-      - :443
-      - CN:48520
-      - CN:48520_2
-      - TW:443
-      - RU:443
-      - CN:63028
-      - CN:63028_2
-      - US:443_2_2_2
-      - HK:80
-      - CN:48550
-      - CN:63021
+      - US_8du.shop:443
+      - 8du.shop:8443
+      - 8du.shop:443
+      - US_8du.shop:12388
+      - US_8du.shop:10019
+      - US_8du.shop:29988
+      - US_8du.shop:10011
+      - CN_8du.shop:20356
+      - US_8du.shop:443_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN:63087
-      - CN:63062
-      - CN:63077
-      - US:443
-      - US:8443
-      - CN:63062_2
-      - IR:80
-      - US:443_2
-      - US:443_2_2
-      - US:57745
-      - US:59627
-      - US:57745_2
-      - US:37572
-      - :443
-      - CN:48520
-      - CN:48520_2
-      - TW:443
-      - RU:443
-      - CN:63028
-      - CN:63028_2
-      - US:443_2_2_2
-      - HK:80
-      - CN:48550
-      - CN:63021
+      - US_8du.shop:443
+      - 8du.shop:8443
+      - 8du.shop:443
+      - US_8du.shop:12388
+      - US_8du.shop:10019
+      - US_8du.shop:29988
+      - US_8du.shop:10011
+      - CN_8du.shop:20356
+      - US_8du.shop:443_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
