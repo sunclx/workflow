@@ -5,89 +5,206 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: HK_8du.shop:43312
+  - name: CN_8du.shop:21118
     type: vmess
-    server: hkt.zhongyun.xyz
-    port: 43312
-    uuid: 2eae0876-b17f-4f57-af38-c138668db626
+    server: 183.232.163.120
+    port: 21118
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_8du.shop:21125
+    type: vmess
+    server: cmjm.senlinss.link
+    port: 21125
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: true
-    ws-path: /c
+    tls: null
+    ws-path: /index
     ws-headers:
-      Host: hkt.zhongyun.xyz
-  - name: CN_8du.shop:2506
+      Host: cmjm.senlinss.link
+  - name: CN_8du.shop:21135
     type: vmess
-    server: tw2506.cloudmatrix.xyz
-    port: 2506
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
+    server: cmjm.senlinss.link
+    port: 21135
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: cmjm.senlinss.link
+  - name: CN_8du.shop:21125_2
+    type: vmess
+    server: 183.232.163.120
+    port: 21125
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:2603
+  - name: CN_8du.shop:21135_2
     type: vmess
-    server: sg2603.cloudmatrix.xyz
-    port: 2603
-    uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
+    server: 183.232.163.120
+    port: 21135
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:2505
+  - name: CN_8du.shop:21126
     type: vmess
-    server: tw2505.cloudmatrix.xyz
-    port: 2505
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
+    server: 183.232.163.120
+    port: 21126
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:21301
+  - name: CN_8du.shop:21136
     type: vmess
-    server: jp21301.cloudmatrix.xyz
-    port: 21301
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
+    server: 183.232.163.120
+    port: 21136
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:2702
+  - name: CN_8du.shop:21124
     type: vmess
-    server: hk2702.cloudmatrix.xyz
-    port: 2702
-    uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
+    server: 183.232.163.120
+    port: 21124
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:50050
+  - name: CN_8du.shop:21115
     type: vmess
-    server: hnt.stashbox.best
-    port: 50050
-    uuid: 65aa9fbd-4185-47ee-80be-34721dee1ff0
+    server: 183.232.163.120
+    port: 21115
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_8du.shop:21122
+    type: vmess
+    server: 183.232.163.120
+    port: 21122
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_8du.shop:21120
+    type: vmess
+    server: cmjm.senlinss.link
+    port: 21120
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: cmjm.senlinss.link
+  - name: CN_8du.shop:21113
+    type: vmess
+    server: 183.232.163.120
+    port: 21113
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_8du.shop:21140
+    type: vmess
+    server: 183.232.163.120
+    port: 21140
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_8du.shop:21114
+    type: vmess
+    server: 183.232.163.120
+    port: 21114
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_8du.shop:21139
+    type: vmess
+    server: 183.232.163.120
+    port: 21139
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: HK_8du.shop:80
+    type: vmess
+    server: 104.208.88.1
+    port: 80
+    uuid: 985dc171-40f8-4daf-b1ca-c8fb6aecdb72
     alterId: "0"
     cipher: auto
     udp: true
@@ -95,129 +212,219 @@ proxies:
     tls: null
     ws-path: /
     ws-headers:
-      Host: hnt.stashbox.best
-  - name: CN_8du.shop:2704
+      Host: a.189.cn
+  - name: CN_8du.shop:21116
     type: vmess
-    server: hk2704.cloudmatrix.xyz
-    port: 2704
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
+    server: 183.232.163.120
+    port: 21116
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:2702_2
+  - name: CN_8du.shop:21120_2
     type: vmess
-    server: hk2702.cloudmatrix.xyz
-    port: 2702
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
+    server: 183.232.163.120
+    port: 21120
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: US_8du.shop:443
+  - name: CN_8du.shop:36487
     type: vmess
-    server: 104.25.234.170
-    port: 443
-    uuid: f78db9ae-24c2-4a83-9d96-e8def79d0379
+    server: 183.240.181.36
+    port: 36487
+    uuid: 354b8f96-75a1-4488-9aaf-25329f8a36ff
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /Support-Putin-Kill-all-Ukrainians_vws
+    ws-path: /nana
     ws-headers:
-      Host: jp02.884899.cf
-  - name: CN_8du.shop:21202
+      Host: sg2.qcjs.one
+  - name: CN_8du.shop:21142
     type: vmess
-    server: hk21202.cloudmatrix.xyz
-    port: 21202
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
+    server: 183.232.163.120
+    port: 21142
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:21202_2
+  - name: CN_8du.shop:21134
     type: vmess
-    server: hk21202.cloudmatrix.xyz
-    port: 21202
-    uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
+    server: 183.232.163.120
+    port: 21134
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:2406
+  - name: CN_8du.shop:30005
     type: vmess
-    server: us2406.cloudmatrix.xyz
-    port: 2406
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
+    server: dns.ysguanggang.xyz
+    port: 30005
+    uuid: f1886be0-5338-493d-ae5e-2cfea20a73b4
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /yunsunode
+    ws-headers:
+      Host: dns.ysguanggang.xyz
+  - name: CN_8du.shop:61117
+    type: vmess
+    server: 112.48.177.74
+    port: 61117
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:2603_2
+  - name: CN_8du.shop:61118
     type: vmess
-    server: sg2603.cloudmatrix.xyz
-    port: 2603
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
+    server: 112.48.177.74
+    port: 61118
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
     alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /index
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:21701
+  - name: 8du.shop:443
     type: vmess
-    server: ru21701.cloudmatrix.xyz
-    port: 21701
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: JP_8du.shop:14474
-    type: vmess
-    server: shaobo.monster
-    port: 14474
-    uuid: 2ccd2b01-2fe3-4226-ced8-96e901a85aaf
-    alterId: "23"
+    server: www.digitalocean.com
+    port: 443
+    uuid: 589756d8-2214-49d5-995b-ed3b43f8cb78
+    alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
+    ws-path: /cctvvws
+    ws-headers:
+      Host: olo.aoyyds.tk
+  - name: CN_8du.shop:21130
+    type: vmess
+    server: 183.232.163.120
+    port: 21130
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_8du.shop:21133
+    type: vmess
+    server: 183.232.163.120
+    port: 21133
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_8du.shop:21142_2
+    type: vmess
+    server: cmjm.senlinss.link
+    port: 21142
+    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: cmjm.senlinss.link
+  - name: US_8du.shop:8443
+    type: vmess
+    server: node.774.gs
+    port: 8443
+    uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: node.774.gs
+  - name: CN_8du.shop:64078
+    type: vmess
+    server: in04.dns2333.xyz
+    port: 64078
+    uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: in04.dns2333.xyz
+  - name: CN_8du.shop:65450
+    type: vmess
+    server: 116.163.14.127
+    port: 65450
+    uuid: d9183468-6297-4d41-a74a-d73fadfd6283
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: true
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers: null
+  - name: CN_8du.shop:65450_2
+    type: vmess
+    server: 116.163.14.127
+    port: 65450
+    uuid: d9183468-6297-4d41-a74a-d73fadfd6283
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: true
     ws-path: ""
     ws-headers: null
-  - name: CN_8du.shop:2604
+  - name: CN_8du.shop:38106
     type: vmess
-    server: sg2604.cloudmatrix.xyz
-    port: 2604
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
-    alterId: "2"
+    server: 120.240.48.20
+    port: 38106
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: "1"
     cipher: auto
     udp: true
     network: ws
@@ -225,12 +432,37 @@ proxies:
     ws-path: /hls/cctv5phd.m3u8
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:21102
+  - name: CN_8du.shop:38102
     type: vmess
-    server: sg21102.cloudmatrix.xyz
-    port: 21102
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
-    alterId: "2"
+    server: 120.240.48.20
+    port: 38102
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: 120.240.48.20
+  - name: CN_8du.shop:38106_2
+    type: vmess
+    server: 120.240.48.20
+    port: 38106
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers: null
+  - name: CN_8du.shop:38101
+    type: vmess
+    server: 120.240.48.20
+    port: 38101
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: "1"
     cipher: auto
     udp: true
     network: ws
@@ -238,12 +470,12 @@ proxies:
     ws-path: /hls/cctv5phd.m3u8
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:2504
+  - name: CN_8du.shop:38102_2
     type: vmess
-    server: tw2504.cloudmatrix.xyz
-    port: 2504
-    uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
-    alterId: "2"
+    server: 120.240.48.20
+    port: 38102
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: "1"
     cipher: auto
     udp: true
     network: ws
@@ -251,456 +483,474 @@ proxies:
     ws-path: /hls/cctv5phd.m3u8
     ws-headers:
       Host: t.me/vpnhat
-  - name: CN_8du.shop:2504_2
+  - name: CN_8du.shop:38101_2
     type: vmess
-    server: tw2504.cloudmatrix.xyz
-    port: 2504
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
-    alterId: "2"
+    server: 120.240.48.20
+    port: 38101
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers: null
+  - name: CN_8du.shop:38106_2_2
+    type: vmess
+    server: 120.240.48.19
+    port: 38106
+    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+    alterId: "1"
     cipher: auto
     udp: true
     network: ws
     tls: null
     ws-path: /hls/cctv5phd.m3u8
     ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:2901
-    type: vmess
-    server: uk2901.cloudmatrix.xyz
-    port: 2901
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:24055
-    type: vmess
-    server: us24055.cloudmatrix.xyz
-    port: 24055
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:2704_2
-    type: vmess
-    server: hk2704.cloudmatrix.xyz
-    port: 2704
-    uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:24052
-    type: vmess
-    server: us24052.cloudmatrix.xyz
-    port: 24052
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21101
-    type: vmess
-    server: sg21101.cloudmatrix.xyz
-    port: 21101
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:2802
-    type: vmess
-    server: jp2802.cloudmatrix.xyz
-    port: 2802
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21101_2
-    type: vmess
-    server: sg21101.cloudmatrix.xyz
-    port: 21101
-    uuid: 479a9dbc-b896-3fc7-8f68-c26c92f3ae2a
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:2703
-    type: vmess
-    server: hk2703.cloudmatrix.xyz
-    port: 2703
-    uuid: a992be42-bed4-3037-8788-9e860cd635d3
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
+      Host: 120.240.48.19
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_8du.shop:43312
-      - CN_8du.shop:2506
-      - CN_8du.shop:2603
-      - CN_8du.shop:2505
-      - CN_8du.shop:21301
-      - CN_8du.shop:2702
-      - CN_8du.shop:50050
-      - CN_8du.shop:2704
-      - CN_8du.shop:2702_2
-      - US_8du.shop:443
-      - CN_8du.shop:21202
-      - CN_8du.shop:21202_2
-      - CN_8du.shop:2406
-      - CN_8du.shop:2603_2
-      - CN_8du.shop:21701
-      - JP_8du.shop:14474
-      - CN_8du.shop:2604
-      - CN_8du.shop:21102
-      - CN_8du.shop:2504
-      - CN_8du.shop:2504_2
-      - CN_8du.shop:2901
-      - CN_8du.shop:24055
-      - CN_8du.shop:2704_2
-      - CN_8du.shop:24052
-      - CN_8du.shop:21101
-      - CN_8du.shop:2802
-      - CN_8du.shop:21101_2
-      - CN_8du.shop:2703
+      - CN_8du.shop:21118
+      - CN_8du.shop:21125
+      - CN_8du.shop:21135
+      - CN_8du.shop:21125_2
+      - CN_8du.shop:21135_2
+      - CN_8du.shop:21126
+      - CN_8du.shop:21136
+      - CN_8du.shop:21124
+      - CN_8du.shop:21115
+      - CN_8du.shop:21122
+      - CN_8du.shop:21120
+      - CN_8du.shop:21113
+      - CN_8du.shop:21140
+      - CN_8du.shop:21114
+      - CN_8du.shop:21139
+      - HK_8du.shop:80
+      - CN_8du.shop:21116
+      - CN_8du.shop:21120_2
+      - CN_8du.shop:36487
+      - CN_8du.shop:21142
+      - CN_8du.shop:21134
+      - CN_8du.shop:30005
+      - CN_8du.shop:61117
+      - CN_8du.shop:61118
+      - 8du.shop:443
+      - CN_8du.shop:21130
+      - CN_8du.shop:21133
+      - CN_8du.shop:21142_2
+      - US_8du.shop:8443
+      - CN_8du.shop:64078
+      - CN_8du.shop:65450
+      - CN_8du.shop:65450_2
+      - CN_8du.shop:38106
+      - CN_8du.shop:38102
+      - CN_8du.shop:38106_2
+      - CN_8du.shop:38101
+      - CN_8du.shop:38102_2
+      - CN_8du.shop:38101_2
+      - CN_8du.shop:38106_2_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK_8du.shop:43312
-      - CN_8du.shop:2506
-      - CN_8du.shop:2603
-      - CN_8du.shop:2505
-      - CN_8du.shop:21301
-      - CN_8du.shop:2702
-      - CN_8du.shop:50050
-      - CN_8du.shop:2704
-      - CN_8du.shop:2702_2
-      - US_8du.shop:443
-      - CN_8du.shop:21202
-      - CN_8du.shop:21202_2
-      - CN_8du.shop:2406
-      - CN_8du.shop:2603_2
-      - CN_8du.shop:21701
-      - JP_8du.shop:14474
-      - CN_8du.shop:2604
-      - CN_8du.shop:21102
-      - CN_8du.shop:2504
-      - CN_8du.shop:2504_2
-      - CN_8du.shop:2901
-      - CN_8du.shop:24055
-      - CN_8du.shop:2704_2
-      - CN_8du.shop:24052
-      - CN_8du.shop:21101
-      - CN_8du.shop:2802
-      - CN_8du.shop:21101_2
-      - CN_8du.shop:2703
+      - CN_8du.shop:21118
+      - CN_8du.shop:21125
+      - CN_8du.shop:21135
+      - CN_8du.shop:21125_2
+      - CN_8du.shop:21135_2
+      - CN_8du.shop:21126
+      - CN_8du.shop:21136
+      - CN_8du.shop:21124
+      - CN_8du.shop:21115
+      - CN_8du.shop:21122
+      - CN_8du.shop:21120
+      - CN_8du.shop:21113
+      - CN_8du.shop:21140
+      - CN_8du.shop:21114
+      - CN_8du.shop:21139
+      - HK_8du.shop:80
+      - CN_8du.shop:21116
+      - CN_8du.shop:21120_2
+      - CN_8du.shop:36487
+      - CN_8du.shop:21142
+      - CN_8du.shop:21134
+      - CN_8du.shop:30005
+      - CN_8du.shop:61117
+      - CN_8du.shop:61118
+      - 8du.shop:443
+      - CN_8du.shop:21130
+      - CN_8du.shop:21133
+      - CN_8du.shop:21142_2
+      - US_8du.shop:8443
+      - CN_8du.shop:64078
+      - CN_8du.shop:65450
+      - CN_8du.shop:65450_2
+      - CN_8du.shop:38106
+      - CN_8du.shop:38102
+      - CN_8du.shop:38106_2
+      - CN_8du.shop:38101
+      - CN_8du.shop:38102_2
+      - CN_8du.shop:38101_2
+      - CN_8du.shop:38106_2_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_8du.shop:43312
-      - CN_8du.shop:2506
-      - CN_8du.shop:2603
-      - CN_8du.shop:2505
-      - CN_8du.shop:21301
-      - CN_8du.shop:2702
-      - CN_8du.shop:50050
-      - CN_8du.shop:2704
-      - CN_8du.shop:2702_2
-      - US_8du.shop:443
-      - CN_8du.shop:21202
-      - CN_8du.shop:21202_2
-      - CN_8du.shop:2406
-      - CN_8du.shop:2603_2
-      - CN_8du.shop:21701
-      - JP_8du.shop:14474
-      - CN_8du.shop:2604
-      - CN_8du.shop:21102
-      - CN_8du.shop:2504
-      - CN_8du.shop:2504_2
-      - CN_8du.shop:2901
-      - CN_8du.shop:24055
-      - CN_8du.shop:2704_2
-      - CN_8du.shop:24052
-      - CN_8du.shop:21101
-      - CN_8du.shop:2802
-      - CN_8du.shop:21101_2
-      - CN_8du.shop:2703
+      - CN_8du.shop:21118
+      - CN_8du.shop:21125
+      - CN_8du.shop:21135
+      - CN_8du.shop:21125_2
+      - CN_8du.shop:21135_2
+      - CN_8du.shop:21126
+      - CN_8du.shop:21136
+      - CN_8du.shop:21124
+      - CN_8du.shop:21115
+      - CN_8du.shop:21122
+      - CN_8du.shop:21120
+      - CN_8du.shop:21113
+      - CN_8du.shop:21140
+      - CN_8du.shop:21114
+      - CN_8du.shop:21139
+      - HK_8du.shop:80
+      - CN_8du.shop:21116
+      - CN_8du.shop:21120_2
+      - CN_8du.shop:36487
+      - CN_8du.shop:21142
+      - CN_8du.shop:21134
+      - CN_8du.shop:30005
+      - CN_8du.shop:61117
+      - CN_8du.shop:61118
+      - 8du.shop:443
+      - CN_8du.shop:21130
+      - CN_8du.shop:21133
+      - CN_8du.shop:21142_2
+      - US_8du.shop:8443
+      - CN_8du.shop:64078
+      - CN_8du.shop:65450
+      - CN_8du.shop:65450_2
+      - CN_8du.shop:38106
+      - CN_8du.shop:38102
+      - CN_8du.shop:38106_2
+      - CN_8du.shop:38101
+      - CN_8du.shop:38102_2
+      - CN_8du.shop:38101_2
+      - CN_8du.shop:38106_2_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK_8du.shop:43312
-      - CN_8du.shop:2506
-      - CN_8du.shop:2603
-      - CN_8du.shop:2505
-      - CN_8du.shop:21301
-      - CN_8du.shop:2702
-      - CN_8du.shop:50050
-      - CN_8du.shop:2704
-      - CN_8du.shop:2702_2
-      - US_8du.shop:443
-      - CN_8du.shop:21202
-      - CN_8du.shop:21202_2
-      - CN_8du.shop:2406
-      - CN_8du.shop:2603_2
-      - CN_8du.shop:21701
-      - JP_8du.shop:14474
-      - CN_8du.shop:2604
-      - CN_8du.shop:21102
-      - CN_8du.shop:2504
-      - CN_8du.shop:2504_2
-      - CN_8du.shop:2901
-      - CN_8du.shop:24055
-      - CN_8du.shop:2704_2
-      - CN_8du.shop:24052
-      - CN_8du.shop:21101
-      - CN_8du.shop:2802
-      - CN_8du.shop:21101_2
-      - CN_8du.shop:2703
+      - CN_8du.shop:21118
+      - CN_8du.shop:21125
+      - CN_8du.shop:21135
+      - CN_8du.shop:21125_2
+      - CN_8du.shop:21135_2
+      - CN_8du.shop:21126
+      - CN_8du.shop:21136
+      - CN_8du.shop:21124
+      - CN_8du.shop:21115
+      - CN_8du.shop:21122
+      - CN_8du.shop:21120
+      - CN_8du.shop:21113
+      - CN_8du.shop:21140
+      - CN_8du.shop:21114
+      - CN_8du.shop:21139
+      - HK_8du.shop:80
+      - CN_8du.shop:21116
+      - CN_8du.shop:21120_2
+      - CN_8du.shop:36487
+      - CN_8du.shop:21142
+      - CN_8du.shop:21134
+      - CN_8du.shop:30005
+      - CN_8du.shop:61117
+      - CN_8du.shop:61118
+      - 8du.shop:443
+      - CN_8du.shop:21130
+      - CN_8du.shop:21133
+      - CN_8du.shop:21142_2
+      - US_8du.shop:8443
+      - CN_8du.shop:64078
+      - CN_8du.shop:65450
+      - CN_8du.shop:65450_2
+      - CN_8du.shop:38106
+      - CN_8du.shop:38102
+      - CN_8du.shop:38106_2
+      - CN_8du.shop:38101
+      - CN_8du.shop:38102_2
+      - CN_8du.shop:38101_2
+      - CN_8du.shop:38106_2_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK_8du.shop:43312
-      - CN_8du.shop:2506
-      - CN_8du.shop:2603
-      - CN_8du.shop:2505
-      - CN_8du.shop:21301
-      - CN_8du.shop:2702
-      - CN_8du.shop:50050
-      - CN_8du.shop:2704
-      - CN_8du.shop:2702_2
-      - US_8du.shop:443
-      - CN_8du.shop:21202
-      - CN_8du.shop:21202_2
-      - CN_8du.shop:2406
-      - CN_8du.shop:2603_2
-      - CN_8du.shop:21701
-      - JP_8du.shop:14474
-      - CN_8du.shop:2604
-      - CN_8du.shop:21102
-      - CN_8du.shop:2504
-      - CN_8du.shop:2504_2
-      - CN_8du.shop:2901
-      - CN_8du.shop:24055
-      - CN_8du.shop:2704_2
-      - CN_8du.shop:24052
-      - CN_8du.shop:21101
-      - CN_8du.shop:2802
-      - CN_8du.shop:21101_2
-      - CN_8du.shop:2703
+      - CN_8du.shop:21118
+      - CN_8du.shop:21125
+      - CN_8du.shop:21135
+      - CN_8du.shop:21125_2
+      - CN_8du.shop:21135_2
+      - CN_8du.shop:21126
+      - CN_8du.shop:21136
+      - CN_8du.shop:21124
+      - CN_8du.shop:21115
+      - CN_8du.shop:21122
+      - CN_8du.shop:21120
+      - CN_8du.shop:21113
+      - CN_8du.shop:21140
+      - CN_8du.shop:21114
+      - CN_8du.shop:21139
+      - HK_8du.shop:80
+      - CN_8du.shop:21116
+      - CN_8du.shop:21120_2
+      - CN_8du.shop:36487
+      - CN_8du.shop:21142
+      - CN_8du.shop:21134
+      - CN_8du.shop:30005
+      - CN_8du.shop:61117
+      - CN_8du.shop:61118
+      - 8du.shop:443
+      - CN_8du.shop:21130
+      - CN_8du.shop:21133
+      - CN_8du.shop:21142_2
+      - US_8du.shop:8443
+      - CN_8du.shop:64078
+      - CN_8du.shop:65450
+      - CN_8du.shop:65450_2
+      - CN_8du.shop:38106
+      - CN_8du.shop:38102
+      - CN_8du.shop:38106_2
+      - CN_8du.shop:38101
+      - CN_8du.shop:38102_2
+      - CN_8du.shop:38101_2
+      - CN_8du.shop:38106_2_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK_8du.shop:43312
-      - CN_8du.shop:2506
-      - CN_8du.shop:2603
-      - CN_8du.shop:2505
-      - CN_8du.shop:21301
-      - CN_8du.shop:2702
-      - CN_8du.shop:50050
-      - CN_8du.shop:2704
-      - CN_8du.shop:2702_2
-      - US_8du.shop:443
-      - CN_8du.shop:21202
-      - CN_8du.shop:21202_2
-      - CN_8du.shop:2406
-      - CN_8du.shop:2603_2
-      - CN_8du.shop:21701
-      - JP_8du.shop:14474
-      - CN_8du.shop:2604
-      - CN_8du.shop:21102
-      - CN_8du.shop:2504
-      - CN_8du.shop:2504_2
-      - CN_8du.shop:2901
-      - CN_8du.shop:24055
-      - CN_8du.shop:2704_2
-      - CN_8du.shop:24052
-      - CN_8du.shop:21101
-      - CN_8du.shop:2802
-      - CN_8du.shop:21101_2
-      - CN_8du.shop:2703
+      - CN_8du.shop:21118
+      - CN_8du.shop:21125
+      - CN_8du.shop:21135
+      - CN_8du.shop:21125_2
+      - CN_8du.shop:21135_2
+      - CN_8du.shop:21126
+      - CN_8du.shop:21136
+      - CN_8du.shop:21124
+      - CN_8du.shop:21115
+      - CN_8du.shop:21122
+      - CN_8du.shop:21120
+      - CN_8du.shop:21113
+      - CN_8du.shop:21140
+      - CN_8du.shop:21114
+      - CN_8du.shop:21139
+      - HK_8du.shop:80
+      - CN_8du.shop:21116
+      - CN_8du.shop:21120_2
+      - CN_8du.shop:36487
+      - CN_8du.shop:21142
+      - CN_8du.shop:21134
+      - CN_8du.shop:30005
+      - CN_8du.shop:61117
+      - CN_8du.shop:61118
+      - 8du.shop:443
+      - CN_8du.shop:21130
+      - CN_8du.shop:21133
+      - CN_8du.shop:21142_2
+      - US_8du.shop:8443
+      - CN_8du.shop:64078
+      - CN_8du.shop:65450
+      - CN_8du.shop:65450_2
+      - CN_8du.shop:38106
+      - CN_8du.shop:38102
+      - CN_8du.shop:38106_2
+      - CN_8du.shop:38101
+      - CN_8du.shop:38102_2
+      - CN_8du.shop:38101_2
+      - CN_8du.shop:38106_2_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - HK_8du.shop:43312
-      - CN_8du.shop:2506
-      - CN_8du.shop:2603
-      - CN_8du.shop:2505
-      - CN_8du.shop:21301
-      - CN_8du.shop:2702
-      - CN_8du.shop:50050
-      - CN_8du.shop:2704
-      - CN_8du.shop:2702_2
-      - US_8du.shop:443
-      - CN_8du.shop:21202
-      - CN_8du.shop:21202_2
-      - CN_8du.shop:2406
-      - CN_8du.shop:2603_2
-      - CN_8du.shop:21701
-      - JP_8du.shop:14474
-      - CN_8du.shop:2604
-      - CN_8du.shop:21102
-      - CN_8du.shop:2504
-      - CN_8du.shop:2504_2
-      - CN_8du.shop:2901
-      - CN_8du.shop:24055
-      - CN_8du.shop:2704_2
-      - CN_8du.shop:24052
-      - CN_8du.shop:21101
-      - CN_8du.shop:2802
-      - CN_8du.shop:21101_2
-      - CN_8du.shop:2703
+      - CN_8du.shop:21118
+      - CN_8du.shop:21125
+      - CN_8du.shop:21135
+      - CN_8du.shop:21125_2
+      - CN_8du.shop:21135_2
+      - CN_8du.shop:21126
+      - CN_8du.shop:21136
+      - CN_8du.shop:21124
+      - CN_8du.shop:21115
+      - CN_8du.shop:21122
+      - CN_8du.shop:21120
+      - CN_8du.shop:21113
+      - CN_8du.shop:21140
+      - CN_8du.shop:21114
+      - CN_8du.shop:21139
+      - HK_8du.shop:80
+      - CN_8du.shop:21116
+      - CN_8du.shop:21120_2
+      - CN_8du.shop:36487
+      - CN_8du.shop:21142
+      - CN_8du.shop:21134
+      - CN_8du.shop:30005
+      - CN_8du.shop:61117
+      - CN_8du.shop:61118
+      - 8du.shop:443
+      - CN_8du.shop:21130
+      - CN_8du.shop:21133
+      - CN_8du.shop:21142_2
+      - US_8du.shop:8443
+      - CN_8du.shop:64078
+      - CN_8du.shop:65450
+      - CN_8du.shop:65450_2
+      - CN_8du.shop:38106
+      - CN_8du.shop:38102
+      - CN_8du.shop:38106_2
+      - CN_8du.shop:38101
+      - CN_8du.shop:38102_2
+      - CN_8du.shop:38101_2
+      - CN_8du.shop:38106_2_2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - HK_8du.shop:43312
-      - CN_8du.shop:2506
-      - CN_8du.shop:2603
-      - CN_8du.shop:2505
-      - CN_8du.shop:21301
-      - CN_8du.shop:2702
-      - CN_8du.shop:50050
-      - CN_8du.shop:2704
-      - CN_8du.shop:2702_2
-      - US_8du.shop:443
-      - CN_8du.shop:21202
-      - CN_8du.shop:21202_2
-      - CN_8du.shop:2406
-      - CN_8du.shop:2603_2
-      - CN_8du.shop:21701
-      - JP_8du.shop:14474
-      - CN_8du.shop:2604
-      - CN_8du.shop:21102
-      - CN_8du.shop:2504
-      - CN_8du.shop:2504_2
-      - CN_8du.shop:2901
-      - CN_8du.shop:24055
-      - CN_8du.shop:2704_2
-      - CN_8du.shop:24052
-      - CN_8du.shop:21101
-      - CN_8du.shop:2802
-      - CN_8du.shop:21101_2
-      - CN_8du.shop:2703
+      - CN_8du.shop:21118
+      - CN_8du.shop:21125
+      - CN_8du.shop:21135
+      - CN_8du.shop:21125_2
+      - CN_8du.shop:21135_2
+      - CN_8du.shop:21126
+      - CN_8du.shop:21136
+      - CN_8du.shop:21124
+      - CN_8du.shop:21115
+      - CN_8du.shop:21122
+      - CN_8du.shop:21120
+      - CN_8du.shop:21113
+      - CN_8du.shop:21140
+      - CN_8du.shop:21114
+      - CN_8du.shop:21139
+      - HK_8du.shop:80
+      - CN_8du.shop:21116
+      - CN_8du.shop:21120_2
+      - CN_8du.shop:36487
+      - CN_8du.shop:21142
+      - CN_8du.shop:21134
+      - CN_8du.shop:30005
+      - CN_8du.shop:61117
+      - CN_8du.shop:61118
+      - 8du.shop:443
+      - CN_8du.shop:21130
+      - CN_8du.shop:21133
+      - CN_8du.shop:21142_2
+      - US_8du.shop:8443
+      - CN_8du.shop:64078
+      - CN_8du.shop:65450
+      - CN_8du.shop:65450_2
+      - CN_8du.shop:38106
+      - CN_8du.shop:38102
+      - CN_8du.shop:38106_2
+      - CN_8du.shop:38101
+      - CN_8du.shop:38102_2
+      - CN_8du.shop:38101_2
+      - CN_8du.shop:38106_2_2
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - HK_8du.shop:43312
-      - CN_8du.shop:2506
-      - CN_8du.shop:2603
-      - CN_8du.shop:2505
-      - CN_8du.shop:21301
-      - CN_8du.shop:2702
-      - CN_8du.shop:50050
-      - CN_8du.shop:2704
-      - CN_8du.shop:2702_2
-      - US_8du.shop:443
-      - CN_8du.shop:21202
-      - CN_8du.shop:21202_2
-      - CN_8du.shop:2406
-      - CN_8du.shop:2603_2
-      - CN_8du.shop:21701
-      - JP_8du.shop:14474
-      - CN_8du.shop:2604
-      - CN_8du.shop:21102
-      - CN_8du.shop:2504
-      - CN_8du.shop:2504_2
-      - CN_8du.shop:2901
-      - CN_8du.shop:24055
-      - CN_8du.shop:2704_2
-      - CN_8du.shop:24052
-      - CN_8du.shop:21101
-      - CN_8du.shop:2802
-      - CN_8du.shop:21101_2
-      - CN_8du.shop:2703
+      - CN_8du.shop:21118
+      - CN_8du.shop:21125
+      - CN_8du.shop:21135
+      - CN_8du.shop:21125_2
+      - CN_8du.shop:21135_2
+      - CN_8du.shop:21126
+      - CN_8du.shop:21136
+      - CN_8du.shop:21124
+      - CN_8du.shop:21115
+      - CN_8du.shop:21122
+      - CN_8du.shop:21120
+      - CN_8du.shop:21113
+      - CN_8du.shop:21140
+      - CN_8du.shop:21114
+      - CN_8du.shop:21139
+      - HK_8du.shop:80
+      - CN_8du.shop:21116
+      - CN_8du.shop:21120_2
+      - CN_8du.shop:36487
+      - CN_8du.shop:21142
+      - CN_8du.shop:21134
+      - CN_8du.shop:30005
+      - CN_8du.shop:61117
+      - CN_8du.shop:61118
+      - 8du.shop:443
+      - CN_8du.shop:21130
+      - CN_8du.shop:21133
+      - CN_8du.shop:21142_2
+      - US_8du.shop:8443
+      - CN_8du.shop:64078
+      - CN_8du.shop:65450
+      - CN_8du.shop:65450_2
+      - CN_8du.shop:38106
+      - CN_8du.shop:38102
+      - CN_8du.shop:38106_2
+      - CN_8du.shop:38101
+      - CN_8du.shop:38102_2
+      - CN_8du.shop:38101_2
+      - CN_8du.shop:38106_2_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_8du.shop:43312
-      - CN_8du.shop:2506
-      - CN_8du.shop:2603
-      - CN_8du.shop:2505
-      - CN_8du.shop:21301
-      - CN_8du.shop:2702
-      - CN_8du.shop:50050
-      - CN_8du.shop:2704
-      - CN_8du.shop:2702_2
-      - US_8du.shop:443
-      - CN_8du.shop:21202
-      - CN_8du.shop:21202_2
-      - CN_8du.shop:2406
-      - CN_8du.shop:2603_2
-      - CN_8du.shop:21701
-      - JP_8du.shop:14474
-      - CN_8du.shop:2604
-      - CN_8du.shop:21102
-      - CN_8du.shop:2504
-      - CN_8du.shop:2504_2
-      - CN_8du.shop:2901
-      - CN_8du.shop:24055
-      - CN_8du.shop:2704_2
-      - CN_8du.shop:24052
-      - CN_8du.shop:21101
-      - CN_8du.shop:2802
-      - CN_8du.shop:21101_2
-      - CN_8du.shop:2703
+      - CN_8du.shop:21118
+      - CN_8du.shop:21125
+      - CN_8du.shop:21135
+      - CN_8du.shop:21125_2
+      - CN_8du.shop:21135_2
+      - CN_8du.shop:21126
+      - CN_8du.shop:21136
+      - CN_8du.shop:21124
+      - CN_8du.shop:21115
+      - CN_8du.shop:21122
+      - CN_8du.shop:21120
+      - CN_8du.shop:21113
+      - CN_8du.shop:21140
+      - CN_8du.shop:21114
+      - CN_8du.shop:21139
+      - HK_8du.shop:80
+      - CN_8du.shop:21116
+      - CN_8du.shop:21120_2
+      - CN_8du.shop:36487
+      - CN_8du.shop:21142
+      - CN_8du.shop:21134
+      - CN_8du.shop:30005
+      - CN_8du.shop:61117
+      - CN_8du.shop:61118
+      - 8du.shop:443
+      - CN_8du.shop:21130
+      - CN_8du.shop:21133
+      - CN_8du.shop:21142_2
+      - US_8du.shop:8443
+      - CN_8du.shop:64078
+      - CN_8du.shop:65450
+      - CN_8du.shop:65450_2
+      - CN_8du.shop:38106
+      - CN_8du.shop:38102
+      - CN_8du.shop:38106_2
+      - CN_8du.shop:38101
+      - CN_8du.shop:38102_2
+      - CN_8du.shop:38101_2
+      - CN_8du.shop:38106_2_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
