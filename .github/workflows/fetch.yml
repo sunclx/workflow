@@ -23,5 +23,5 @@ jobs:
           git config --global user.email sunclx@gmail.com
           git config --global user.name sunclx
           git add .
-          git commit --alow-empty -m "deno fmt auto" -a       
+          git commit --allow-empty -m "deno fmt auto" -a       
       - run: git push
