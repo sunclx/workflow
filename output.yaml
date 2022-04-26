@@ -5,375 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: CN_8du.shop:21118
+  - name: CN_欢迎下载软件库app:47010
     type: vmess
-    server: 183.232.163.120
-    port: 21118
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21125
-    type: vmess
-    server: cmjm.senlinss.link
-    port: 21125
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
+    port: 47010
+    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /index
+    ws-path: /hls/cctv5phd.m3u8
     ws-headers:
-      Host: cmjm.senlinss.link
-  - name: CN_8du.shop:21135
+      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
+  - name: US_欢迎下载软件库app:443
     type: vmess
-    server: cmjm.senlinss.link
-    port: 21135
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: cmjm.senlinss.link
-  - name: CN_8du.shop:21125_2
-    type: vmess
-    server: 183.232.163.120
-    port: 21125
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21135_2
-    type: vmess
-    server: 183.232.163.120
-    port: 21135
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21126
-    type: vmess
-    server: 183.232.163.120
-    port: 21126
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21136
-    type: vmess
-    server: 183.232.163.120
-    port: 21136
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21124
-    type: vmess
-    server: 183.232.163.120
-    port: 21124
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21115
-    type: vmess
-    server: 183.232.163.120
-    port: 21115
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21122
-    type: vmess
-    server: 183.232.163.120
-    port: 21122
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21120
-    type: vmess
-    server: cmjm.senlinss.link
-    port: 21120
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: cmjm.senlinss.link
-  - name: CN_8du.shop:21113
-    type: vmess
-    server: 183.232.163.120
-    port: 21113
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21140
-    type: vmess
-    server: 183.232.163.120
-    port: 21140
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21114
-    type: vmess
-    server: 183.232.163.120
-    port: 21114
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21139
-    type: vmess
-    server: 183.232.163.120
-    port: 21139
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: HK_8du.shop:80
-    type: vmess
-    server: 104.208.88.1
-    port: 80
-    uuid: 985dc171-40f8-4daf-b1ca-c8fb6aecdb72
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: a.189.cn
-  - name: CN_8du.shop:21116
-    type: vmess
-    server: 183.232.163.120
-    port: 21116
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21120_2
-    type: vmess
-    server: 183.232.163.120
-    port: 21120
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:36487
-    type: vmess
-    server: 183.240.181.36
-    port: 36487
-    uuid: 354b8f96-75a1-4488-9aaf-25329f8a36ff
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /nana
-    ws-headers:
-      Host: sg2.qcjs.one
-  - name: CN_8du.shop:21142
-    type: vmess
-    server: 183.232.163.120
-    port: 21142
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21134
-    type: vmess
-    server: 183.232.163.120
-    port: 21134
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:30005
-    type: vmess
-    server: dns.ysguanggang.xyz
-    port: 30005
-    uuid: f1886be0-5338-493d-ae5e-2cfea20a73b4
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /yunsunode
-    ws-headers:
-      Host: dns.ysguanggang.xyz
-  - name: CN_8du.shop:61117
-    type: vmess
-    server: 112.48.177.74
-    port: 61117
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:61118
-    type: vmess
-    server: 112.48.177.74
-    port: 61118
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 8du.shop:443
-    type: vmess
-    server: www.digitalocean.com
+    server: fancy-sun-d3ca.fallcrystal.workers.dev
     port: 443
-    uuid: 589756d8-2214-49d5-995b-ed3b43f8cb78
+    uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /cctvvws
+    ws-path: /
     ws-headers:
-      Host: olo.aoyyds.tk
-  - name: CN_8du.shop:21130
+      Host: fancy-sun-d3ca.fallcrystal.workers.dev
+  - name: US_欢迎下载软件库app:35874
     type: vmess
-    server: 183.232.163.120
-    port: 21130
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21133
-    type: vmess
-    server: 183.232.163.120
-    port: 21133
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /index
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:21142_2
-    type: vmess
-    server: cmjm.senlinss.link
-    port: 21142
-    uuid: 8697b9c9-71b3-36e0-9c25-23b370f47956
+    server: 66.42.111.55
+    port: 35874
+    uuid: b0602b3e-c3e2-11ec-9e4a-560003f65c5e
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /index
+    ws-path: /0BFK7hzT/
     ws-headers:
-      Host: cmjm.senlinss.link
-  - name: US_8du.shop:8443
+      Host: 66.42.111.55
+  - name: CN_欢迎下载软件库app:47016
     type: vmess
-    server: node.774.gs
+    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
+    port: 47016
+    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
+  - name: CN_欢迎下载软件库app:47018
+    type: vmess
+    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
+    port: 47018
+    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
+  - name: CN_欢迎下载软件库app:47013
+    type: vmess
+    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
+    port: 47013
+    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
+  - name: CN_欢迎下载软件库app:47001
+    type: vmess
+    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
+    port: 47001
+    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
+  - name: 欢迎下载软件库app:8443
+    type: vmess
+    server: fr1t.moonfree.top
     port: 8443
-    uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143
+    uuid: 1ae053d9-90a9-4548-a0e3-327f62171331
     alterId: "0"
     cipher: auto
     udp: true
@@ -381,12 +108,51 @@ proxies:
     tls: true
     ws-path: /
     ws-headers:
-      Host: node.774.gs
-  - name: CN_8du.shop:64078
+      Host: fr1t.moonfree.top
+  - name: 欢迎下载软件库app:8443_2
     type: vmess
-    server: in04.dns2333.xyz
-    port: 64078
-    uuid: a34d6fe7-7ab0-3071-81f7-e24c8edd2acb
+    server: v2ray.wefuckgfw.ga
+    port: 8443
+    uuid: 104ce500-b353-11ec-a378-52ac00ea1411
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /E94olUFf/
+    ws-headers:
+      Host: v2ray.wefuckgfw.ga
+  - name: CN_欢迎下载软件库app:47009
+    type: vmess
+    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
+    port: 47009
+    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
+  - name: CN_欢迎下载软件库app:47017
+    type: vmess
+    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
+    port: 47017
+    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
+  - name: 欢迎下载软件库app:443
+    type: vmess
+    server: v6d1.moonfree.top
+    port: 443
+    uuid: 1ae053d9-90a9-4548-a0e3-327f62171331
     alterId: "0"
     cipher: auto
     udp: true
@@ -394,563 +160,203 @@ proxies:
     tls: true
     ws-path: /
     ws-headers:
-      Host: in04.dns2333.xyz
-  - name: CN_8du.shop:65450
+      Host: v6d1.moonfree.top
+  - name: CN_欢迎下载软件库app:47012
     type: vmess
-    server: 116.163.14.127
-    port: 65450
-    uuid: d9183468-6297-4d41-a74a-d73fadfd6283
+    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
+    port: 47012
+    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
     alterId: "0"
     cipher: auto
     udp: true
-    network: tcp
-    tls: true
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers: null
-  - name: CN_8du.shop:65450_2
-    type: vmess
-    server: 116.163.14.127
-    port: 65450
-    uuid: d9183468-6297-4d41-a74a-d73fadfd6283
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: CN_8du.shop:38106
-    type: vmess
-    server: 120.240.48.20
-    port: 38106
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: "1"
-    cipher: auto
-    udp: true
     network: ws
     tls: null
     ws-path: /hls/cctv5phd.m3u8
     ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:38102
-    type: vmess
-    server: 120.240.48.20
-    port: 38102
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: 120.240.48.20
-  - name: CN_8du.shop:38106_2
-    type: vmess
-    server: 120.240.48.20
-    port: 38106
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers: null
-  - name: CN_8du.shop:38101
-    type: vmess
-    server: 120.240.48.20
-    port: 38101
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:38102_2
-    type: vmess
-    server: 120.240.48.20
-    port: 38102
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: CN_8du.shop:38101_2
-    type: vmess
-    server: 120.240.48.20
-    port: 38101
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers: null
-  - name: CN_8du.shop:38106_2_2
-    type: vmess
-    server: 120.240.48.19
-    port: 38106
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: 120.240.48.19
+      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_8du.shop:21118
-      - CN_8du.shop:21125
-      - CN_8du.shop:21135
-      - CN_8du.shop:21125_2
-      - CN_8du.shop:21135_2
-      - CN_8du.shop:21126
-      - CN_8du.shop:21136
-      - CN_8du.shop:21124
-      - CN_8du.shop:21115
-      - CN_8du.shop:21122
-      - CN_8du.shop:21120
-      - CN_8du.shop:21113
-      - CN_8du.shop:21140
-      - CN_8du.shop:21114
-      - CN_8du.shop:21139
-      - HK_8du.shop:80
-      - CN_8du.shop:21116
-      - CN_8du.shop:21120_2
-      - CN_8du.shop:36487
-      - CN_8du.shop:21142
-      - CN_8du.shop:21134
-      - CN_8du.shop:30005
-      - CN_8du.shop:61117
-      - CN_8du.shop:61118
-      - 8du.shop:443
-      - CN_8du.shop:21130
-      - CN_8du.shop:21133
-      - CN_8du.shop:21142_2
-      - US_8du.shop:8443
-      - CN_8du.shop:64078
-      - CN_8du.shop:65450
-      - CN_8du.shop:65450_2
-      - CN_8du.shop:38106
-      - CN_8du.shop:38102
-      - CN_8du.shop:38106_2
-      - CN_8du.shop:38101
-      - CN_8du.shop:38102_2
-      - CN_8du.shop:38101_2
-      - CN_8du.shop:38106_2_2
+      - CN_欢迎下载软件库app:47010
+      - US_欢迎下载软件库app:443
+      - US_欢迎下载软件库app:35874
+      - CN_欢迎下载软件库app:47016
+      - CN_欢迎下载软件库app:47018
+      - CN_欢迎下载软件库app:47013
+      - CN_欢迎下载软件库app:47001
+      - 欢迎下载软件库app:8443
+      - 欢迎下载软件库app:8443_2
+      - CN_欢迎下载软件库app:47009
+      - CN_欢迎下载软件库app:47017
+      - 欢迎下载软件库app:443
+      - CN_欢迎下载软件库app:47012
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_8du.shop:21118
-      - CN_8du.shop:21125
-      - CN_8du.shop:21135
-      - CN_8du.shop:21125_2
-      - CN_8du.shop:21135_2
-      - CN_8du.shop:21126
-      - CN_8du.shop:21136
-      - CN_8du.shop:21124
-      - CN_8du.shop:21115
-      - CN_8du.shop:21122
-      - CN_8du.shop:21120
-      - CN_8du.shop:21113
-      - CN_8du.shop:21140
-      - CN_8du.shop:21114
-      - CN_8du.shop:21139
-      - HK_8du.shop:80
-      - CN_8du.shop:21116
-      - CN_8du.shop:21120_2
-      - CN_8du.shop:36487
-      - CN_8du.shop:21142
-      - CN_8du.shop:21134
-      - CN_8du.shop:30005
-      - CN_8du.shop:61117
-      - CN_8du.shop:61118
-      - 8du.shop:443
-      - CN_8du.shop:21130
-      - CN_8du.shop:21133
-      - CN_8du.shop:21142_2
-      - US_8du.shop:8443
-      - CN_8du.shop:64078
-      - CN_8du.shop:65450
-      - CN_8du.shop:65450_2
-      - CN_8du.shop:38106
-      - CN_8du.shop:38102
-      - CN_8du.shop:38106_2
-      - CN_8du.shop:38101
-      - CN_8du.shop:38102_2
-      - CN_8du.shop:38101_2
-      - CN_8du.shop:38106_2_2
+      - CN_欢迎下载软件库app:47010
+      - US_欢迎下载软件库app:443
+      - US_欢迎下载软件库app:35874
+      - CN_欢迎下载软件库app:47016
+      - CN_欢迎下载软件库app:47018
+      - CN_欢迎下载软件库app:47013
+      - CN_欢迎下载软件库app:47001
+      - 欢迎下载软件库app:8443
+      - 欢迎下载软件库app:8443_2
+      - CN_欢迎下载软件库app:47009
+      - CN_欢迎下载软件库app:47017
+      - 欢迎下载软件库app:443
+      - CN_欢迎下载软件库app:47012
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_8du.shop:21118
-      - CN_8du.shop:21125
-      - CN_8du.shop:21135
-      - CN_8du.shop:21125_2
-      - CN_8du.shop:21135_2
-      - CN_8du.shop:21126
-      - CN_8du.shop:21136
-      - CN_8du.shop:21124
-      - CN_8du.shop:21115
-      - CN_8du.shop:21122
-      - CN_8du.shop:21120
-      - CN_8du.shop:21113
-      - CN_8du.shop:21140
-      - CN_8du.shop:21114
-      - CN_8du.shop:21139
-      - HK_8du.shop:80
-      - CN_8du.shop:21116
-      - CN_8du.shop:21120_2
-      - CN_8du.shop:36487
-      - CN_8du.shop:21142
-      - CN_8du.shop:21134
-      - CN_8du.shop:30005
-      - CN_8du.shop:61117
-      - CN_8du.shop:61118
-      - 8du.shop:443
-      - CN_8du.shop:21130
-      - CN_8du.shop:21133
-      - CN_8du.shop:21142_2
-      - US_8du.shop:8443
-      - CN_8du.shop:64078
-      - CN_8du.shop:65450
-      - CN_8du.shop:65450_2
-      - CN_8du.shop:38106
-      - CN_8du.shop:38102
-      - CN_8du.shop:38106_2
-      - CN_8du.shop:38101
-      - CN_8du.shop:38102_2
-      - CN_8du.shop:38101_2
-      - CN_8du.shop:38106_2_2
+      - CN_欢迎下载软件库app:47010
+      - US_欢迎下载软件库app:443
+      - US_欢迎下载软件库app:35874
+      - CN_欢迎下载软件库app:47016
+      - CN_欢迎下载软件库app:47018
+      - CN_欢迎下载软件库app:47013
+      - CN_欢迎下载软件库app:47001
+      - 欢迎下载软件库app:8443
+      - 欢迎下载软件库app:8443_2
+      - CN_欢迎下载软件库app:47009
+      - CN_欢迎下载软件库app:47017
+      - 欢迎下载软件库app:443
+      - CN_欢迎下载软件库app:47012
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_8du.shop:21118
-      - CN_8du.shop:21125
-      - CN_8du.shop:21135
-      - CN_8du.shop:21125_2
-      - CN_8du.shop:21135_2
-      - CN_8du.shop:21126
-      - CN_8du.shop:21136
-      - CN_8du.shop:21124
-      - CN_8du.shop:21115
-      - CN_8du.shop:21122
-      - CN_8du.shop:21120
-      - CN_8du.shop:21113
-      - CN_8du.shop:21140
-      - CN_8du.shop:21114
-      - CN_8du.shop:21139
-      - HK_8du.shop:80
-      - CN_8du.shop:21116
-      - CN_8du.shop:21120_2
-      - CN_8du.shop:36487
-      - CN_8du.shop:21142
-      - CN_8du.shop:21134
-      - CN_8du.shop:30005
-      - CN_8du.shop:61117
-      - CN_8du.shop:61118
-      - 8du.shop:443
-      - CN_8du.shop:21130
-      - CN_8du.shop:21133
-      - CN_8du.shop:21142_2
-      - US_8du.shop:8443
-      - CN_8du.shop:64078
-      - CN_8du.shop:65450
-      - CN_8du.shop:65450_2
-      - CN_8du.shop:38106
-      - CN_8du.shop:38102
-      - CN_8du.shop:38106_2
-      - CN_8du.shop:38101
-      - CN_8du.shop:38102_2
-      - CN_8du.shop:38101_2
-      - CN_8du.shop:38106_2_2
+      - CN_欢迎下载软件库app:47010
+      - US_欢迎下载软件库app:443
+      - US_欢迎下载软件库app:35874
+      - CN_欢迎下载软件库app:47016
+      - CN_欢迎下载软件库app:47018
+      - CN_欢迎下载软件库app:47013
+      - CN_欢迎下载软件库app:47001
+      - 欢迎下载软件库app:8443
+      - 欢迎下载软件库app:8443_2
+      - CN_欢迎下载软件库app:47009
+      - CN_欢迎下载软件库app:47017
+      - 欢迎下载软件库app:443
+      - CN_欢迎下载软件库app:47012
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_8du.shop:21118
-      - CN_8du.shop:21125
-      - CN_8du.shop:21135
-      - CN_8du.shop:21125_2
-      - CN_8du.shop:21135_2
-      - CN_8du.shop:21126
-      - CN_8du.shop:21136
-      - CN_8du.shop:21124
-      - CN_8du.shop:21115
-      - CN_8du.shop:21122
-      - CN_8du.shop:21120
-      - CN_8du.shop:21113
-      - CN_8du.shop:21140
-      - CN_8du.shop:21114
-      - CN_8du.shop:21139
-      - HK_8du.shop:80
-      - CN_8du.shop:21116
-      - CN_8du.shop:21120_2
-      - CN_8du.shop:36487
-      - CN_8du.shop:21142
-      - CN_8du.shop:21134
-      - CN_8du.shop:30005
-      - CN_8du.shop:61117
-      - CN_8du.shop:61118
-      - 8du.shop:443
-      - CN_8du.shop:21130
-      - CN_8du.shop:21133
-      - CN_8du.shop:21142_2
-      - US_8du.shop:8443
-      - CN_8du.shop:64078
-      - CN_8du.shop:65450
-      - CN_8du.shop:65450_2
-      - CN_8du.shop:38106
-      - CN_8du.shop:38102
-      - CN_8du.shop:38106_2
-      - CN_8du.shop:38101
-      - CN_8du.shop:38102_2
-      - CN_8du.shop:38101_2
-      - CN_8du.shop:38106_2_2
+      - CN_欢迎下载软件库app:47010
+      - US_欢迎下载软件库app:443
+      - US_欢迎下载软件库app:35874
+      - CN_欢迎下载软件库app:47016
+      - CN_欢迎下载软件库app:47018
+      - CN_欢迎下载软件库app:47013
+      - CN_欢迎下载软件库app:47001
+      - 欢迎下载软件库app:8443
+      - 欢迎下载软件库app:8443_2
+      - CN_欢迎下载软件库app:47009
+      - CN_欢迎下载软件库app:47017
+      - 欢迎下载软件库app:443
+      - CN_欢迎下载软件库app:47012
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_8du.shop:21118
-      - CN_8du.shop:21125
-      - CN_8du.shop:21135
-      - CN_8du.shop:21125_2
-      - CN_8du.shop:21135_2
-      - CN_8du.shop:21126
-      - CN_8du.shop:21136
-      - CN_8du.shop:21124
-      - CN_8du.shop:21115
-      - CN_8du.shop:21122
-      - CN_8du.shop:21120
-      - CN_8du.shop:21113
-      - CN_8du.shop:21140
-      - CN_8du.shop:21114
-      - CN_8du.shop:21139
-      - HK_8du.shop:80
-      - CN_8du.shop:21116
-      - CN_8du.shop:21120_2
-      - CN_8du.shop:36487
-      - CN_8du.shop:21142
-      - CN_8du.shop:21134
-      - CN_8du.shop:30005
-      - CN_8du.shop:61117
-      - CN_8du.shop:61118
-      - 8du.shop:443
-      - CN_8du.shop:21130
-      - CN_8du.shop:21133
-      - CN_8du.shop:21142_2
-      - US_8du.shop:8443
-      - CN_8du.shop:64078
-      - CN_8du.shop:65450
-      - CN_8du.shop:65450_2
-      - CN_8du.shop:38106
-      - CN_8du.shop:38102
-      - CN_8du.shop:38106_2
-      - CN_8du.shop:38101
-      - CN_8du.shop:38102_2
-      - CN_8du.shop:38101_2
-      - CN_8du.shop:38106_2_2
+      - CN_欢迎下载软件库app:47010
+      - US_欢迎下载软件库app:443
+      - US_欢迎下载软件库app:35874
+      - CN_欢迎下载软件库app:47016
+      - CN_欢迎下载软件库app:47018
+      - CN_欢迎下载软件库app:47013
+      - CN_欢迎下载软件库app:47001
+      - 欢迎下载软件库app:8443
+      - 欢迎下载软件库app:8443_2
+      - CN_欢迎下载软件库app:47009
+      - CN_欢迎下载软件库app:47017
+      - 欢迎下载软件库app:443
+      - CN_欢迎下载软件库app:47012
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - CN_8du.shop:21118
-      - CN_8du.shop:21125
-      - CN_8du.shop:21135
-      - CN_8du.shop:21125_2
-      - CN_8du.shop:21135_2
-      - CN_8du.shop:21126
-      - CN_8du.shop:21136
-      - CN_8du.shop:21124
-      - CN_8du.shop:21115
-      - CN_8du.shop:21122
-      - CN_8du.shop:21120
-      - CN_8du.shop:21113
-      - CN_8du.shop:21140
-      - CN_8du.shop:21114
-      - CN_8du.shop:21139
-      - HK_8du.shop:80
-      - CN_8du.shop:21116
-      - CN_8du.shop:21120_2
-      - CN_8du.shop:36487
-      - CN_8du.shop:21142
-      - CN_8du.shop:21134
-      - CN_8du.shop:30005
-      - CN_8du.shop:61117
-      - CN_8du.shop:61118
-      - 8du.shop:443
-      - CN_8du.shop:21130
-      - CN_8du.shop:21133
-      - CN_8du.shop:21142_2
-      - US_8du.shop:8443
-      - CN_8du.shop:64078
-      - CN_8du.shop:65450
-      - CN_8du.shop:65450_2
-      - CN_8du.shop:38106
-      - CN_8du.shop:38102
-      - CN_8du.shop:38106_2
-      - CN_8du.shop:38101
-      - CN_8du.shop:38102_2
-      - CN_8du.shop:38101_2
-      - CN_8du.shop:38106_2_2
+      - CN_欢迎下载软件库app:47010
+      - US_欢迎下载软件库app:443
+      - US_欢迎下载软件库app:35874
+      - CN_欢迎下载软件库app:47016
+      - CN_欢迎下载软件库app:47018
+      - CN_欢迎下载软件库app:47013
+      - CN_欢迎下载软件库app:47001
+      - 欢迎下载软件库app:8443
+      - 欢迎下载软件库app:8443_2
+      - CN_欢迎下载软件库app:47009
+      - CN_欢迎下载软件库app:47017
+      - 欢迎下载软件库app:443
+      - CN_欢迎下载软件库app:47012
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - CN_8du.shop:21118
-      - CN_8du.shop:21125
-      - CN_8du.shop:21135
-      - CN_8du.shop:21125_2
-      - CN_8du.shop:21135_2
-      - CN_8du.shop:21126
-      - CN_8du.shop:21136
-      - CN_8du.shop:21124
-      - CN_8du.shop:21115
-      - CN_8du.shop:21122
-      - CN_8du.shop:21120
-      - CN_8du.shop:21113
-      - CN_8du.shop:21140
-      - CN_8du.shop:21114
-      - CN_8du.shop:21139
-      - HK_8du.shop:80
-      - CN_8du.shop:21116
-      - CN_8du.shop:21120_2
-      - CN_8du.shop:36487
-      - CN_8du.shop:21142
-      - CN_8du.shop:21134
-      - CN_8du.shop:30005
-      - CN_8du.shop:61117
-      - CN_8du.shop:61118
-      - 8du.shop:443
-      - CN_8du.shop:21130
-      - CN_8du.shop:21133
-      - CN_8du.shop:21142_2
-      - US_8du.shop:8443
-      - CN_8du.shop:64078
-      - CN_8du.shop:65450
-      - CN_8du.shop:65450_2
-      - CN_8du.shop:38106
-      - CN_8du.shop:38102
-      - CN_8du.shop:38106_2
-      - CN_8du.shop:38101
-      - CN_8du.shop:38102_2
-      - CN_8du.shop:38101_2
-      - CN_8du.shop:38106_2_2
+      - CN_欢迎下载软件库app:47010
+      - US_欢迎下载软件库app:443
+      - US_欢迎下载软件库app:35874
+      - CN_欢迎下载软件库app:47016
+      - CN_欢迎下载软件库app:47018
+      - CN_欢迎下载软件库app:47013
+      - CN_欢迎下载软件库app:47001
+      - 欢迎下载软件库app:8443
+      - 欢迎下载软件库app:8443_2
+      - CN_欢迎下载软件库app:47009
+      - CN_欢迎下载软件库app:47017
+      - 欢迎下载软件库app:443
+      - CN_欢迎下载软件库app:47012
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - CN_8du.shop:21118
-      - CN_8du.shop:21125
-      - CN_8du.shop:21135
-      - CN_8du.shop:21125_2
-      - CN_8du.shop:21135_2
-      - CN_8du.shop:21126
-      - CN_8du.shop:21136
-      - CN_8du.shop:21124
-      - CN_8du.shop:21115
-      - CN_8du.shop:21122
-      - CN_8du.shop:21120
-      - CN_8du.shop:21113
-      - CN_8du.shop:21140
-      - CN_8du.shop:21114
-      - CN_8du.shop:21139
-      - HK_8du.shop:80
-      - CN_8du.shop:21116
-      - CN_8du.shop:21120_2
-      - CN_8du.shop:36487
-      - CN_8du.shop:21142
-      - CN_8du.shop:21134
-      - CN_8du.shop:30005
-      - CN_8du.shop:61117
-      - CN_8du.shop:61118
-      - 8du.shop:443
-      - CN_8du.shop:21130
-      - CN_8du.shop:21133
-      - CN_8du.shop:21142_2
-      - US_8du.shop:8443
-      - CN_8du.shop:64078
-      - CN_8du.shop:65450
-      - CN_8du.shop:65450_2
-      - CN_8du.shop:38106
-      - CN_8du.shop:38102
-      - CN_8du.shop:38106_2
-      - CN_8du.shop:38101
-      - CN_8du.shop:38102_2
-      - CN_8du.shop:38101_2
-      - CN_8du.shop:38106_2_2
+      - CN_欢迎下载软件库app:47010
+      - US_欢迎下载软件库app:443
+      - US_欢迎下载软件库app:35874
+      - CN_欢迎下载软件库app:47016
+      - CN_欢迎下载软件库app:47018
+      - CN_欢迎下载软件库app:47013
+      - CN_欢迎下载软件库app:47001
+      - 欢迎下载软件库app:8443
+      - 欢迎下载软件库app:8443_2
+      - CN_欢迎下载软件库app:47009
+      - CN_欢迎下载软件库app:47017
+      - 欢迎下载软件库app:443
+      - CN_欢迎下载软件库app:47012
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_8du.shop:21118
-      - CN_8du.shop:21125
-      - CN_8du.shop:21135
-      - CN_8du.shop:21125_2
-      - CN_8du.shop:21135_2
-      - CN_8du.shop:21126
-      - CN_8du.shop:21136
-      - CN_8du.shop:21124
-      - CN_8du.shop:21115
-      - CN_8du.shop:21122
-      - CN_8du.shop:21120
-      - CN_8du.shop:21113
-      - CN_8du.shop:21140
-      - CN_8du.shop:21114
-      - CN_8du.shop:21139
-      - HK_8du.shop:80
-      - CN_8du.shop:21116
-      - CN_8du.shop:21120_2
-      - CN_8du.shop:36487
-      - CN_8du.shop:21142
-      - CN_8du.shop:21134
-      - CN_8du.shop:30005
-      - CN_8du.shop:61117
-      - CN_8du.shop:61118
-      - 8du.shop:443
-      - CN_8du.shop:21130
-      - CN_8du.shop:21133
-      - CN_8du.shop:21142_2
-      - US_8du.shop:8443
-      - CN_8du.shop:64078
-      - CN_8du.shop:65450
-      - CN_8du.shop:65450_2
-      - CN_8du.shop:38106
-      - CN_8du.shop:38102
-      - CN_8du.shop:38106_2
-      - CN_8du.shop:38101
-      - CN_8du.shop:38102_2
-      - CN_8du.shop:38101_2
-      - CN_8du.shop:38106_2_2
+      - CN_欢迎下载软件库app:47010
+      - US_欢迎下载软件库app:443
+      - US_欢迎下载软件库app:35874
+      - CN_欢迎下载软件库app:47016
+      - CN_欢迎下载软件库app:47018
+      - CN_欢迎下载软件库app:47013
+      - CN_欢迎下载软件库app:47001
+      - 欢迎下载软件库app:8443
+      - 欢迎下载软件库app:8443_2
+      - CN_欢迎下载软件库app:47009
+      - CN_欢迎下载软件库app:47017
+      - 欢迎下载软件库app:443
+      - CN_欢迎下载软件库app:47012
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
