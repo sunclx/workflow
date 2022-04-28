@@ -5,358 +5,242 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: CN_欢迎下载软件库app:47010
+  - name: 香港HGC-2号线路(中转):443
     type: vmess
-    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
-    port: 47010
-    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
-  - name: US_欢迎下载软件库app:443
-    type: vmess
-    server: fancy-sun-d3ca.fallcrystal.workers.dev
+    server: 47.52.57.57
     port: 443
-    uuid: ad806487-2d26-4636-98b6-ab85cc8521f7
+    uuid: 4cf713fb-67ff-433e-9372-2683332a6458
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
+    ws-path: /guolicheng/hkhgc?ed=2048
+    ws-headers:
+      Host: hkhgc.meizhiyuanya.xyz
+  - name: Relay_🇺🇸US-🇺🇸US_3788:80
+    type: vmess
+    server: hk3.fdns.cloudlink123.com
+    port: 80
+    uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
     ws-path: /
     ws-headers:
-      Host: fancy-sun-d3ca.fallcrystal.workers.dev
-  - name: US_欢迎下载软件库app:35874
+      Host: hk3.fdns.cloudlink123.com
+  - name: 香港HGC-4号线路(中转):36660
     type: vmess
-    server: 66.42.111.55
-    port: 35874
-    uuid: b0602b3e-c3e2-11ec-9e4a-560003f65c5e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /0BFK7hzT/
-    ws-headers:
-      Host: 66.42.111.55
-  - name: CN_欢迎下载软件库app:47016
-    type: vmess
-    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
-    port: 47016
-    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
-  - name: CN_欢迎下载软件库app:47018
-    type: vmess
-    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
-    port: 47018
-    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
-  - name: CN_欢迎下载软件库app:47013
-    type: vmess
-    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
-    port: 47013
-    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
-  - name: CN_欢迎下载软件库app:47001
-    type: vmess
-    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
-    port: 47001
-    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
-  - name: 欢迎下载软件库app:8443
-    type: vmess
-    server: fr1t.moonfree.top
-    port: 8443
-    uuid: 1ae053d9-90a9-4548-a0e3-327f62171331
+    server: gzyd.xxcv.cc
+    port: 36660
+    uuid: 4cf713fb-67ff-433e-9372-2683332a6458
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /
+    ws-path: /guolicheng/hkhgc?ed=2048
     ws-headers:
-      Host: fr1t.moonfree.top
-  - name: 欢迎下载软件库app:8443_2
+      Host: huayun.xyz
+  - name: 台湾Hinet-3号线路(中转):443
     type: vmess
-    server: v2ray.wefuckgfw.ga
-    port: 8443
-    uuid: 104ce500-b353-11ec-a378-52ac00ea1411
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /E94olUFf/
-    ws-headers:
-      Host: v2ray.wefuckgfw.ga
-  - name: CN_欢迎下载软件库app:47009
-    type: vmess
-    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
-    port: 47009
-    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
-  - name: CN_欢迎下载软件库app:47017
-    type: vmess
-    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
-    port: 47017
-    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
-  - name: 欢迎下载软件库app:443
-    type: vmess
-    server: v6d1.moonfree.top
+    server: 35.241.72.154
     port: 443
-    uuid: 1ae053d9-90a9-4548-a0e3-327f62171331
+    uuid: 4cf713fb-67ff-433e-9372-2683332a6458
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /
+    ws-path: /guolicheng/hinet?ed=2048
     ws-headers:
-      Host: v6d1.moonfree.top
-  - name: CN_欢迎下载软件库app:47012
+      Host: hinet.meizhiyuanya.xyz
+  - name: 台湾Hinet-4号线路(中转):36660
     type: vmess
-    server: gtm-sg-6wr2na7z604.gtm-i1d9.com
-    port: 47012
-    uuid: 63d9a40c-5ce9-3025-8e7e-8630cba33480
+    server: gzyd.xxcv.cc
+    port: 36660
+    uuid: 4cf713fb-67ff-433e-9372-2683332a6458
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    tls: true
+    ws-path: /guolicheng/hinet?ed=2048
     ws-headers:
-      Host: gtm-sg-6wr2na7z604.gtm-i1d9.com
+      Host: huayun.xyz
+  - name: 台湾Hinet-2号线路(中转):443
+    type: vmess
+    server: 47.52.57.57
+    port: 443
+    uuid: 4cf713fb-67ff-433e-9372-2683332a6458
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /guolicheng/hinet?ed=2048
+    ws-headers:
+      Host: hinet.meizhiyuanya.xyz
+  - name: Relay_🇨🇳CN-🇹🇼TW_482:55154
+    type: vmess
+    server: fs.keaiyun.top
+    port: 55154
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: hk3.fdns.cloudlink123.com
+  - name: 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+    type: vmess
+    server: fs.keaiyun.top
+    port: 55154
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_欢迎下载软件库app:47010
-      - US_欢迎下载软件库app:443
-      - US_欢迎下载软件库app:35874
-      - CN_欢迎下载软件库app:47016
-      - CN_欢迎下载软件库app:47018
-      - CN_欢迎下载软件库app:47013
-      - CN_欢迎下载软件库app:47001
-      - 欢迎下载软件库app:8443
-      - 欢迎下载软件库app:8443_2
-      - CN_欢迎下载软件库app:47009
-      - CN_欢迎下载软件库app:47017
-      - 欢迎下载软件库app:443
-      - CN_欢迎下载软件库app:47012
+      - 香港HGC-2号线路(中转):443
+      - Relay_🇺🇸US-🇺🇸US_3788:80
+      - 香港HGC-4号线路(中转):36660
+      - 台湾Hinet-3号线路(中转):443
+      - 台湾Hinet-4号线路(中转):36660
+      - 台湾Hinet-2号线路(中转):443
+      - Relay_🇨🇳CN-🇹🇼TW_482:55154
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_欢迎下载软件库app:47010
-      - US_欢迎下载软件库app:443
-      - US_欢迎下载软件库app:35874
-      - CN_欢迎下载软件库app:47016
-      - CN_欢迎下载软件库app:47018
-      - CN_欢迎下载软件库app:47013
-      - CN_欢迎下载软件库app:47001
-      - 欢迎下载软件库app:8443
-      - 欢迎下载软件库app:8443_2
-      - CN_欢迎下载软件库app:47009
-      - CN_欢迎下载软件库app:47017
-      - 欢迎下载软件库app:443
-      - CN_欢迎下载软件库app:47012
+      - 香港HGC-2号线路(中转):443
+      - Relay_🇺🇸US-🇺🇸US_3788:80
+      - 香港HGC-4号线路(中转):36660
+      - 台湾Hinet-3号线路(中转):443
+      - 台湾Hinet-4号线路(中转):36660
+      - 台湾Hinet-2号线路(中转):443
+      - Relay_🇨🇳CN-🇹🇼TW_482:55154
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_欢迎下载软件库app:47010
-      - US_欢迎下载软件库app:443
-      - US_欢迎下载软件库app:35874
-      - CN_欢迎下载软件库app:47016
-      - CN_欢迎下载软件库app:47018
-      - CN_欢迎下载软件库app:47013
-      - CN_欢迎下载软件库app:47001
-      - 欢迎下载软件库app:8443
-      - 欢迎下载软件库app:8443_2
-      - CN_欢迎下载软件库app:47009
-      - CN_欢迎下载软件库app:47017
-      - 欢迎下载软件库app:443
-      - CN_欢迎下载软件库app:47012
+      - 香港HGC-2号线路(中转):443
+      - Relay_🇺🇸US-🇺🇸US_3788:80
+      - 香港HGC-4号线路(中转):36660
+      - 台湾Hinet-3号线路(中转):443
+      - 台湾Hinet-4号线路(中转):36660
+      - 台湾Hinet-2号线路(中转):443
+      - Relay_🇨🇳CN-🇹🇼TW_482:55154
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_欢迎下载软件库app:47010
-      - US_欢迎下载软件库app:443
-      - US_欢迎下载软件库app:35874
-      - CN_欢迎下载软件库app:47016
-      - CN_欢迎下载软件库app:47018
-      - CN_欢迎下载软件库app:47013
-      - CN_欢迎下载软件库app:47001
-      - 欢迎下载软件库app:8443
-      - 欢迎下载软件库app:8443_2
-      - CN_欢迎下载软件库app:47009
-      - CN_欢迎下载软件库app:47017
-      - 欢迎下载软件库app:443
-      - CN_欢迎下载软件库app:47012
+      - 香港HGC-2号线路(中转):443
+      - Relay_🇺🇸US-🇺🇸US_3788:80
+      - 香港HGC-4号线路(中转):36660
+      - 台湾Hinet-3号线路(中转):443
+      - 台湾Hinet-4号线路(中转):36660
+      - 台湾Hinet-2号线路(中转):443
+      - Relay_🇨🇳CN-🇹🇼TW_482:55154
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_欢迎下载软件库app:47010
-      - US_欢迎下载软件库app:443
-      - US_欢迎下载软件库app:35874
-      - CN_欢迎下载软件库app:47016
-      - CN_欢迎下载软件库app:47018
-      - CN_欢迎下载软件库app:47013
-      - CN_欢迎下载软件库app:47001
-      - 欢迎下载软件库app:8443
-      - 欢迎下载软件库app:8443_2
-      - CN_欢迎下载软件库app:47009
-      - CN_欢迎下载软件库app:47017
-      - 欢迎下载软件库app:443
-      - CN_欢迎下载软件库app:47012
+      - 香港HGC-2号线路(中转):443
+      - Relay_🇺🇸US-🇺🇸US_3788:80
+      - 香港HGC-4号线路(中转):36660
+      - 台湾Hinet-3号线路(中转):443
+      - 台湾Hinet-4号线路(中转):36660
+      - 台湾Hinet-2号线路(中转):443
+      - Relay_🇨🇳CN-🇹🇼TW_482:55154
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_欢迎下载软件库app:47010
-      - US_欢迎下载软件库app:443
-      - US_欢迎下载软件库app:35874
-      - CN_欢迎下载软件库app:47016
-      - CN_欢迎下载软件库app:47018
-      - CN_欢迎下载软件库app:47013
-      - CN_欢迎下载软件库app:47001
-      - 欢迎下载软件库app:8443
-      - 欢迎下载软件库app:8443_2
-      - CN_欢迎下载软件库app:47009
-      - CN_欢迎下载软件库app:47017
-      - 欢迎下载软件库app:443
-      - CN_欢迎下载软件库app:47012
+      - 香港HGC-2号线路(中转):443
+      - Relay_🇺🇸US-🇺🇸US_3788:80
+      - 香港HGC-4号线路(中转):36660
+      - 台湾Hinet-3号线路(中转):443
+      - 台湾Hinet-4号线路(中转):36660
+      - 台湾Hinet-2号线路(中转):443
+      - Relay_🇨🇳CN-🇹🇼TW_482:55154
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - CN_欢迎下载软件库app:47010
-      - US_欢迎下载软件库app:443
-      - US_欢迎下载软件库app:35874
-      - CN_欢迎下载软件库app:47016
-      - CN_欢迎下载软件库app:47018
-      - CN_欢迎下载软件库app:47013
-      - CN_欢迎下载软件库app:47001
-      - 欢迎下载软件库app:8443
-      - 欢迎下载软件库app:8443_2
-      - CN_欢迎下载软件库app:47009
-      - CN_欢迎下载软件库app:47017
-      - 欢迎下载软件库app:443
-      - CN_欢迎下载软件库app:47012
+      - 香港HGC-2号线路(中转):443
+      - Relay_🇺🇸US-🇺🇸US_3788:80
+      - 香港HGC-4号线路(中转):36660
+      - 台湾Hinet-3号线路(中转):443
+      - 台湾Hinet-4号线路(中转):36660
+      - 台湾Hinet-2号线路(中转):443
+      - Relay_🇨🇳CN-🇹🇼TW_482:55154
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - CN_欢迎下载软件库app:47010
-      - US_欢迎下载软件库app:443
-      - US_欢迎下载软件库app:35874
-      - CN_欢迎下载软件库app:47016
-      - CN_欢迎下载软件库app:47018
-      - CN_欢迎下载软件库app:47013
-      - CN_欢迎下载软件库app:47001
-      - 欢迎下载软件库app:8443
-      - 欢迎下载软件库app:8443_2
-      - CN_欢迎下载软件库app:47009
-      - CN_欢迎下载软件库app:47017
-      - 欢迎下载软件库app:443
-      - CN_欢迎下载软件库app:47012
+      - 香港HGC-2号线路(中转):443
+      - Relay_🇺🇸US-🇺🇸US_3788:80
+      - 香港HGC-4号线路(中转):36660
+      - 台湾Hinet-3号线路(中转):443
+      - 台湾Hinet-4号线路(中转):36660
+      - 台湾Hinet-2号线路(中转):443
+      - Relay_🇨🇳CN-🇹🇼TW_482:55154
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - CN_欢迎下载软件库app:47010
-      - US_欢迎下载软件库app:443
-      - US_欢迎下载软件库app:35874
-      - CN_欢迎下载软件库app:47016
-      - CN_欢迎下载软件库app:47018
-      - CN_欢迎下载软件库app:47013
-      - CN_欢迎下载软件库app:47001
-      - 欢迎下载软件库app:8443
-      - 欢迎下载软件库app:8443_2
-      - CN_欢迎下载软件库app:47009
-      - CN_欢迎下载软件库app:47017
-      - 欢迎下载软件库app:443
-      - CN_欢迎下载软件库app:47012
+      - 香港HGC-2号线路(中转):443
+      - Relay_🇺🇸US-🇺🇸US_3788:80
+      - 香港HGC-4号线路(中转):36660
+      - 台湾Hinet-3号线路(中转):443
+      - 台湾Hinet-4号线路(中转):36660
+      - 台湾Hinet-2号线路(中转):443
+      - Relay_🇨🇳CN-🇹🇼TW_482:55154
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_欢迎下载软件库app:47010
-      - US_欢迎下载软件库app:443
-      - US_欢迎下载软件库app:35874
-      - CN_欢迎下载软件库app:47016
-      - CN_欢迎下载软件库app:47018
-      - CN_欢迎下载软件库app:47013
-      - CN_欢迎下载软件库app:47001
-      - 欢迎下载软件库app:8443
-      - 欢迎下载软件库app:8443_2
-      - CN_欢迎下载软件库app:47009
-      - CN_欢迎下载软件库app:47017
-      - 欢迎下载软件库app:443
-      - CN_欢迎下载软件库app:47012
+      - 香港HGC-2号线路(中转):443
+      - Relay_🇺🇸US-🇺🇸US_3788:80
+      - 香港HGC-4号线路(中转):36660
+      - 台湾Hinet-3号线路(中转):443
+      - 台湾Hinet-4号线路(中转):36660
+      - 台湾Hinet-2号线路(中转):443
+      - Relay_🇨🇳CN-🇹🇼TW_482:55154
+      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
