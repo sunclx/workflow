@@ -5,98 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 香港HGC-2号线路(中转):443
-    type: vmess
-    server: 47.52.57.57
-    port: 443
-    uuid: 4cf713fb-67ff-433e-9372-2683332a6458
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /guolicheng/hkhgc?ed=2048
-    ws-headers:
-      Host: hkhgc.meizhiyuanya.xyz
-  - name: Relay_🇺🇸US-🇺🇸US_3788:80
-    type: vmess
-    server: hk3.fdns.cloudlink123.com
-    port: 80
-    uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: hk3.fdns.cloudlink123.com
-  - name: 香港HGC-4号线路(中转):36660
-    type: vmess
-    server: gzyd.xxcv.cc
-    port: 36660
-    uuid: 4cf713fb-67ff-433e-9372-2683332a6458
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /guolicheng/hkhgc?ed=2048
-    ws-headers:
-      Host: huayun.xyz
-  - name: 台湾Hinet-3号线路(中转):443
-    type: vmess
-    server: 35.241.72.154
-    port: 443
-    uuid: 4cf713fb-67ff-433e-9372-2683332a6458
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /guolicheng/hinet?ed=2048
-    ws-headers:
-      Host: hinet.meizhiyuanya.xyz
-  - name: 台湾Hinet-4号线路(中转):36660
-    type: vmess
-    server: gzyd.xxcv.cc
-    port: 36660
-    uuid: 4cf713fb-67ff-433e-9372-2683332a6458
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /guolicheng/hinet?ed=2048
-    ws-headers:
-      Host: huayun.xyz
-  - name: 台湾Hinet-2号线路(中转):443
-    type: vmess
-    server: 47.52.57.57
-    port: 443
-    uuid: 4cf713fb-67ff-433e-9372-2683332a6458
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /guolicheng/hinet?ed=2048
-    ws-headers:
-      Host: hinet.meizhiyuanya.xyz
-  - name: Relay_🇨🇳CN-🇹🇼TW_482:55154
-    type: vmess
-    server: fs.keaiyun.top
-    port: 55154
-    uuid: 048da825-d468-3a29-b015-2d60886f830d
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: hk3.fdns.cloudlink123.com
-  - name: 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+  - name: CN_油管频道 全网最强白嫖:55154
     type: vmess
     server: fs.keaiyun.top
     port: 55154
@@ -108,139 +17,712 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
+  - name: CN_油管频道 全网最强白嫖:48550
+    type: vmess
+    server: 183.240.60.133
+    port: 48550
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: t.me/EXTM3U
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: JP_油管频道 全网最强白嫖:12236
+    type: vmess
+    server: v2-1.godlight.xyz
+    port: 12236
+    uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /j75g1461x
+    ws-headers:
+      Host: v2-1.godlight.xyz
+  - name: CN_油管频道 全网最强白嫖:48512
+    type: vmess
+    server: 183.240.60.133
+    port: 48512
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: t.me/EXTM3U
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_油管频道 全网最强白嫖:55155
+    type: vmess
+    server: fs.keaiyun.top
+    port: 55155
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /zh-cn/news
+    ws-headers:
+      Host: gz-1.jiasugou.one
+  - name: CN_油管频道 全网最强白嫖:55154_2
+    type: vmess
+    server: fs.keaiyun.top
+    port: 55154
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /v2ray
+    ws-headers:
+      Host: az03.kuli888.xyz
+  - name: CN_油管频道 全网最强白嫖:48514
+    type: vmess
+    server: 183.240.60.133
+    port: 48514
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: t.me/EXTM3U
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_油管频道 全网最强白嫖:55154_2_2
+    type: vmess
+    server: fs.keaiyun.top
+    port: 55154
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: hk3.fdns.cloudlink123.com
+  - name: CN_油管频道 全网最强白嫖:55154_2_2_2
+    type: vmess
+    server: fs.keaiyun.top
+    port: 55154
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /71h4b3s1f53
+    ws-headers:
+      Host: v2-5.godlight.xyz
+  - name: CN_油管频道 全网最强白嫖:48515
+    type: vmess
+    server: 183.240.60.133
+    port: 48515
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: t.me/EXTM3U
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_油管频道 全网最强白嫖:55154_2_2_2_2
+    type: vmess
+    server: fs.keaiyun.top
+    port: 55154
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /go
+    ws-headers:
+      Host: us02.gogogoo.cyou
+  - name: CN_油管频道 全网最强白嫖:15002
+    type: vmess
+    server: gz-1.jiasugou.one
+    port: 15002
+    uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /zh-cn/news
+    ws-headers:
+      Host: www.msn.cn
+  - name: CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+    type: vmess
+    server: fs.keaiyun.top
+    port: 55154
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: vps.qweasdzxc.ml
+  - name: CN_油管频道 全网最强白嫖:15004
+    type: vmess
+    server: gz-1.jiasugou.one
+    port: 15004
+    uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /zh-cn/news
+    ws-headers:
+      Host: gz-1.jiasugou.one
+  - name: CN_油管频道 全网最强白嫖:55155_2
+    type: vmess
+    server: fs.keaiyun.top
+    port: 55155
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: vps.qweasdzxc.ml
+  - name: CN_油管频道 全网最强白嫖:15004_2
+    type: vmess
+    server: gz-1.jiasugou.one
+    port: 15004
+    uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /zh-cn/news
+    ws-headers:
+      Host: www.msn.cn
+  - name: CN_油管频道 全网最强白嫖:55155_2_2
+    type: vmess
+    server: fs.keaiyun.top
+    port: 55155
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: SG_油管频道 全网最强白嫖:30526
+    type: vmess
+    server: v2-2.godlight.xyz
+    port: 30526
+    uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /54f634fs
+    ws-headers:
+      Host: v2-2.godlight.xyz
+  - name: US_油管频道 全网最强白嫖:443
+    type: vmess
+    server: oz.moonfree.top
+    port: 443
+    uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: oz.moonfree.top
+  - name: 油管频道 全网最强白嫖:8443
+    type: vmess
+    server: fr1t.moonfree.top
+    port: 8443
+    uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: fr1t.moonfree.top
+  - name: US_油管频道 全网最强白嫖:8443
+    type: vmess
+    server: v2ray.wefuckgfw.ga
+    port: 8443
+    uuid: 104ce500-b353-11ec-a378-52ac00ea1411
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /E94olUFf/
+    ws-headers:
+      Host: v2ray.wefuckgfw.ga
+  - name: 油管频道 全网最强白嫖:443
+    type: vmess
+    server: 104.17.67.190
+    port: 443
+    uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /Support-Putin-Kill-all-Ukrainians_vws
+    ws-headers:
+      Host: jp.567568.ml
+  - name: CN_油管频道 全网最强白嫖:47389
+    type: vmess
+    server: shcu.forgebukkit.com
+    port: 47389
+    uuid: f680dfd8-3b59-48af-aea8-1d4bc09a1705
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /71h4b3s1f53
+    ws-headers:
+      Host: v2-5.godlight.xyz
+  - name: CN_油管频道 全网最强白嫖:48516
+    type: vmess
+    server: 183.240.60.133
+    port: 48516
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /zh-cn/news
+    ws-headers:
+      Host: gz-1.jiasugou.one
+  - name: US_油管频道 全网最强白嫖:8443_2
+    type: vmess
+    server: v2ray.wefuckgfw.ga
+    port: 8443
+    uuid: 135284c6-b353-11ec-a378-52ac00ea1411
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /E94olUFf/
+    ws-headers:
+      Host: v2ray.wefuckgfw.ga
+  - name: 油管频道 全网最强白嫖:443_2
+    type: vmess
+    server: ruvds.testx.eu.org
+    port: 443
+    uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /vmess-share/?ed=2048
+    ws-headers:
+      Host: ruvds.testx.eu.org
+  - name: US_油管频道 全网最强白嫖:443_2
+    type: vmess
+    server: v6d1.moonfree.top
+    port: 443
+    uuid: 63f97910-6b3f-4abc-a92e-b9acaba4f467
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: v6d1.moonfree.top
+  - name: CN_油管频道 全网最强白嫖:15003
+    type: vmess
+    server: gz-1.jiasugou.one
+    port: 15003
+    uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /zh-cn/news
+    ws-headers:
+      Host: gz-1.jiasugou.one
+  - name: CN_油管频道 全网最强白嫖:48550_2
+    type: vmess
+    server: fs.keaiyun.top
+    port: 48550
+    uuid: 048da825-d468-3a29-b015-2d60886f830d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: fs.keaiyun.top
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港HGC-2号线路(中转):443
-      - Relay_🇺🇸US-🇺🇸US_3788:80
-      - 香港HGC-4号线路(中转):36660
-      - 台湾Hinet-3号线路(中转):443
-      - 台湾Hinet-4号线路(中转):36660
-      - 台湾Hinet-2号线路(中转):443
-      - Relay_🇨🇳CN-🇹🇼TW_482:55154
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+      - CN_油管频道 全网最强白嫖:55154
+      - CN_油管频道 全网最强白嫖:48550
+      - JP_油管频道 全网最强白嫖:12236
+      - CN_油管频道 全网最强白嫖:48512
+      - CN_油管频道 全网最强白嫖:55155
+      - CN_油管频道 全网最强白嫖:55154_2
+      - CN_油管频道 全网最强白嫖:48514
+      - CN_油管频道 全网最强白嫖:55154_2_2
+      - CN_油管频道 全网最强白嫖:55154_2_2_2
+      - CN_油管频道 全网最强白嫖:48515
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15002
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15004
+      - CN_油管频道 全网最强白嫖:55155_2
+      - CN_油管频道 全网最强白嫖:15004_2
+      - CN_油管频道 全网最强白嫖:55155_2_2
+      - SG_油管频道 全网最强白嫖:30526
+      - US_油管频道 全网最强白嫖:443
+      - 油管频道 全网最强白嫖:8443
+      - US_油管频道 全网最强白嫖:8443
+      - 油管频道 全网最强白嫖:443
+      - CN_油管频道 全网最强白嫖:47389
+      - CN_油管频道 全网最强白嫖:48516
+      - US_油管频道 全网最强白嫖:8443_2
+      - 油管频道 全网最强白嫖:443_2
+      - US_油管频道 全网最强白嫖:443_2
+      - CN_油管频道 全网最强白嫖:15003
+      - CN_油管频道 全网最强白嫖:48550_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港HGC-2号线路(中转):443
-      - Relay_🇺🇸US-🇺🇸US_3788:80
-      - 香港HGC-4号线路(中转):36660
-      - 台湾Hinet-3号线路(中转):443
-      - 台湾Hinet-4号线路(中转):36660
-      - 台湾Hinet-2号线路(中转):443
-      - Relay_🇨🇳CN-🇹🇼TW_482:55154
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+      - CN_油管频道 全网最强白嫖:55154
+      - CN_油管频道 全网最强白嫖:48550
+      - JP_油管频道 全网最强白嫖:12236
+      - CN_油管频道 全网最强白嫖:48512
+      - CN_油管频道 全网最强白嫖:55155
+      - CN_油管频道 全网最强白嫖:55154_2
+      - CN_油管频道 全网最强白嫖:48514
+      - CN_油管频道 全网最强白嫖:55154_2_2
+      - CN_油管频道 全网最强白嫖:55154_2_2_2
+      - CN_油管频道 全网最强白嫖:48515
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15002
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15004
+      - CN_油管频道 全网最强白嫖:55155_2
+      - CN_油管频道 全网最强白嫖:15004_2
+      - CN_油管频道 全网最强白嫖:55155_2_2
+      - SG_油管频道 全网最强白嫖:30526
+      - US_油管频道 全网最强白嫖:443
+      - 油管频道 全网最强白嫖:8443
+      - US_油管频道 全网最强白嫖:8443
+      - 油管频道 全网最强白嫖:443
+      - CN_油管频道 全网最强白嫖:47389
+      - CN_油管频道 全网最强白嫖:48516
+      - US_油管频道 全网最强白嫖:8443_2
+      - 油管频道 全网最强白嫖:443_2
+      - US_油管频道 全网最强白嫖:443_2
+      - CN_油管频道 全网最强白嫖:15003
+      - CN_油管频道 全网最强白嫖:48550_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港HGC-2号线路(中转):443
-      - Relay_🇺🇸US-🇺🇸US_3788:80
-      - 香港HGC-4号线路(中转):36660
-      - 台湾Hinet-3号线路(中转):443
-      - 台湾Hinet-4号线路(中转):36660
-      - 台湾Hinet-2号线路(中转):443
-      - Relay_🇨🇳CN-🇹🇼TW_482:55154
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+      - CN_油管频道 全网最强白嫖:55154
+      - CN_油管频道 全网最强白嫖:48550
+      - JP_油管频道 全网最强白嫖:12236
+      - CN_油管频道 全网最强白嫖:48512
+      - CN_油管频道 全网最强白嫖:55155
+      - CN_油管频道 全网最强白嫖:55154_2
+      - CN_油管频道 全网最强白嫖:48514
+      - CN_油管频道 全网最强白嫖:55154_2_2
+      - CN_油管频道 全网最强白嫖:55154_2_2_2
+      - CN_油管频道 全网最强白嫖:48515
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15002
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15004
+      - CN_油管频道 全网最强白嫖:55155_2
+      - CN_油管频道 全网最强白嫖:15004_2
+      - CN_油管频道 全网最强白嫖:55155_2_2
+      - SG_油管频道 全网最强白嫖:30526
+      - US_油管频道 全网最强白嫖:443
+      - 油管频道 全网最强白嫖:8443
+      - US_油管频道 全网最强白嫖:8443
+      - 油管频道 全网最强白嫖:443
+      - CN_油管频道 全网最强白嫖:47389
+      - CN_油管频道 全网最强白嫖:48516
+      - US_油管频道 全网最强白嫖:8443_2
+      - 油管频道 全网最强白嫖:443_2
+      - US_油管频道 全网最强白嫖:443_2
+      - CN_油管频道 全网最强白嫖:15003
+      - CN_油管频道 全网最强白嫖:48550_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港HGC-2号线路(中转):443
-      - Relay_🇺🇸US-🇺🇸US_3788:80
-      - 香港HGC-4号线路(中转):36660
-      - 台湾Hinet-3号线路(中转):443
-      - 台湾Hinet-4号线路(中转):36660
-      - 台湾Hinet-2号线路(中转):443
-      - Relay_🇨🇳CN-🇹🇼TW_482:55154
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+      - CN_油管频道 全网最强白嫖:55154
+      - CN_油管频道 全网最强白嫖:48550
+      - JP_油管频道 全网最强白嫖:12236
+      - CN_油管频道 全网最强白嫖:48512
+      - CN_油管频道 全网最强白嫖:55155
+      - CN_油管频道 全网最强白嫖:55154_2
+      - CN_油管频道 全网最强白嫖:48514
+      - CN_油管频道 全网最强白嫖:55154_2_2
+      - CN_油管频道 全网最强白嫖:55154_2_2_2
+      - CN_油管频道 全网最强白嫖:48515
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15002
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15004
+      - CN_油管频道 全网最强白嫖:55155_2
+      - CN_油管频道 全网最强白嫖:15004_2
+      - CN_油管频道 全网最强白嫖:55155_2_2
+      - SG_油管频道 全网最强白嫖:30526
+      - US_油管频道 全网最强白嫖:443
+      - 油管频道 全网最强白嫖:8443
+      - US_油管频道 全网最强白嫖:8443
+      - 油管频道 全网最强白嫖:443
+      - CN_油管频道 全网最强白嫖:47389
+      - CN_油管频道 全网最强白嫖:48516
+      - US_油管频道 全网最强白嫖:8443_2
+      - 油管频道 全网最强白嫖:443_2
+      - US_油管频道 全网最强白嫖:443_2
+      - CN_油管频道 全网最强白嫖:15003
+      - CN_油管频道 全网最强白嫖:48550_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港HGC-2号线路(中转):443
-      - Relay_🇺🇸US-🇺🇸US_3788:80
-      - 香港HGC-4号线路(中转):36660
-      - 台湾Hinet-3号线路(中转):443
-      - 台湾Hinet-4号线路(中转):36660
-      - 台湾Hinet-2号线路(中转):443
-      - Relay_🇨🇳CN-🇹🇼TW_482:55154
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+      - CN_油管频道 全网最强白嫖:55154
+      - CN_油管频道 全网最强白嫖:48550
+      - JP_油管频道 全网最强白嫖:12236
+      - CN_油管频道 全网最强白嫖:48512
+      - CN_油管频道 全网最强白嫖:55155
+      - CN_油管频道 全网最强白嫖:55154_2
+      - CN_油管频道 全网最强白嫖:48514
+      - CN_油管频道 全网最强白嫖:55154_2_2
+      - CN_油管频道 全网最强白嫖:55154_2_2_2
+      - CN_油管频道 全网最强白嫖:48515
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15002
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15004
+      - CN_油管频道 全网最强白嫖:55155_2
+      - CN_油管频道 全网最强白嫖:15004_2
+      - CN_油管频道 全网最强白嫖:55155_2_2
+      - SG_油管频道 全网最强白嫖:30526
+      - US_油管频道 全网最强白嫖:443
+      - 油管频道 全网最强白嫖:8443
+      - US_油管频道 全网最强白嫖:8443
+      - 油管频道 全网最强白嫖:443
+      - CN_油管频道 全网最强白嫖:47389
+      - CN_油管频道 全网最强白嫖:48516
+      - US_油管频道 全网最强白嫖:8443_2
+      - 油管频道 全网最强白嫖:443_2
+      - US_油管频道 全网最强白嫖:443_2
+      - CN_油管频道 全网最强白嫖:15003
+      - CN_油管频道 全网最强白嫖:48550_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港HGC-2号线路(中转):443
-      - Relay_🇺🇸US-🇺🇸US_3788:80
-      - 香港HGC-4号线路(中转):36660
-      - 台湾Hinet-3号线路(中转):443
-      - 台湾Hinet-4号线路(中转):36660
-      - 台湾Hinet-2号线路(中转):443
-      - Relay_🇨🇳CN-🇹🇼TW_482:55154
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+      - CN_油管频道 全网最强白嫖:55154
+      - CN_油管频道 全网最强白嫖:48550
+      - JP_油管频道 全网最强白嫖:12236
+      - CN_油管频道 全网最强白嫖:48512
+      - CN_油管频道 全网最强白嫖:55155
+      - CN_油管频道 全网最强白嫖:55154_2
+      - CN_油管频道 全网最强白嫖:48514
+      - CN_油管频道 全网最强白嫖:55154_2_2
+      - CN_油管频道 全网最强白嫖:55154_2_2_2
+      - CN_油管频道 全网最强白嫖:48515
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15002
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15004
+      - CN_油管频道 全网最强白嫖:55155_2
+      - CN_油管频道 全网最强白嫖:15004_2
+      - CN_油管频道 全网最强白嫖:55155_2_2
+      - SG_油管频道 全网最强白嫖:30526
+      - US_油管频道 全网最强白嫖:443
+      - 油管频道 全网最强白嫖:8443
+      - US_油管频道 全网最强白嫖:8443
+      - 油管频道 全网最强白嫖:443
+      - CN_油管频道 全网最强白嫖:47389
+      - CN_油管频道 全网最强白嫖:48516
+      - US_油管频道 全网最强白嫖:8443_2
+      - 油管频道 全网最强白嫖:443_2
+      - US_油管频道 全网最强白嫖:443_2
+      - CN_油管频道 全网最强白嫖:15003
+      - CN_油管频道 全网最强白嫖:48550_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 香港HGC-2号线路(中转):443
-      - Relay_🇺🇸US-🇺🇸US_3788:80
-      - 香港HGC-4号线路(中转):36660
-      - 台湾Hinet-3号线路(中转):443
-      - 台湾Hinet-4号线路(中转):36660
-      - 台湾Hinet-2号线路(中转):443
-      - Relay_🇨🇳CN-🇹🇼TW_482:55154
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+      - CN_油管频道 全网最强白嫖:55154
+      - CN_油管频道 全网最强白嫖:48550
+      - JP_油管频道 全网最强白嫖:12236
+      - CN_油管频道 全网最强白嫖:48512
+      - CN_油管频道 全网最强白嫖:55155
+      - CN_油管频道 全网最强白嫖:55154_2
+      - CN_油管频道 全网最强白嫖:48514
+      - CN_油管频道 全网最强白嫖:55154_2_2
+      - CN_油管频道 全网最强白嫖:55154_2_2_2
+      - CN_油管频道 全网最强白嫖:48515
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15002
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15004
+      - CN_油管频道 全网最强白嫖:55155_2
+      - CN_油管频道 全网最强白嫖:15004_2
+      - CN_油管频道 全网最强白嫖:55155_2_2
+      - SG_油管频道 全网最强白嫖:30526
+      - US_油管频道 全网最强白嫖:443
+      - 油管频道 全网最强白嫖:8443
+      - US_油管频道 全网最强白嫖:8443
+      - 油管频道 全网最强白嫖:443
+      - CN_油管频道 全网最强白嫖:47389
+      - CN_油管频道 全网最强白嫖:48516
+      - US_油管频道 全网最强白嫖:8443_2
+      - 油管频道 全网最强白嫖:443_2
+      - US_油管频道 全网最强白嫖:443_2
+      - CN_油管频道 全网最强白嫖:15003
+      - CN_油管频道 全网最强白嫖:48550_2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 香港HGC-2号线路(中转):443
-      - Relay_🇺🇸US-🇺🇸US_3788:80
-      - 香港HGC-4号线路(中转):36660
-      - 台湾Hinet-3号线路(中转):443
-      - 台湾Hinet-4号线路(中转):36660
-      - 台湾Hinet-2号线路(中转):443
-      - Relay_🇨🇳CN-🇹🇼TW_482:55154
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+      - CN_油管频道 全网最强白嫖:55154
+      - CN_油管频道 全网最强白嫖:48550
+      - JP_油管频道 全网最强白嫖:12236
+      - CN_油管频道 全网最强白嫖:48512
+      - CN_油管频道 全网最强白嫖:55155
+      - CN_油管频道 全网最强白嫖:55154_2
+      - CN_油管频道 全网最强白嫖:48514
+      - CN_油管频道 全网最强白嫖:55154_2_2
+      - CN_油管频道 全网最强白嫖:55154_2_2_2
+      - CN_油管频道 全网最强白嫖:48515
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15002
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15004
+      - CN_油管频道 全网最强白嫖:55155_2
+      - CN_油管频道 全网最强白嫖:15004_2
+      - CN_油管频道 全网最强白嫖:55155_2_2
+      - SG_油管频道 全网最强白嫖:30526
+      - US_油管频道 全网最强白嫖:443
+      - 油管频道 全网最强白嫖:8443
+      - US_油管频道 全网最强白嫖:8443
+      - 油管频道 全网最强白嫖:443
+      - CN_油管频道 全网最强白嫖:47389
+      - CN_油管频道 全网最强白嫖:48516
+      - US_油管频道 全网最强白嫖:8443_2
+      - 油管频道 全网最强白嫖:443_2
+      - US_油管频道 全网最强白嫖:443_2
+      - CN_油管频道 全网最强白嫖:15003
+      - CN_油管频道 全网最强白嫖:48550_2
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 香港HGC-2号线路(中转):443
-      - Relay_🇺🇸US-🇺🇸US_3788:80
-      - 香港HGC-4号线路(中转):36660
-      - 台湾Hinet-3号线路(中转):443
-      - 台湾Hinet-4号线路(中转):36660
-      - 台湾Hinet-2号线路(中转):443
-      - Relay_🇨🇳CN-🇹🇼TW_482:55154
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+      - CN_油管频道 全网最强白嫖:55154
+      - CN_油管频道 全网最强白嫖:48550
+      - JP_油管频道 全网最强白嫖:12236
+      - CN_油管频道 全网最强白嫖:48512
+      - CN_油管频道 全网最强白嫖:55155
+      - CN_油管频道 全网最强白嫖:55154_2
+      - CN_油管频道 全网最强白嫖:48514
+      - CN_油管频道 全网最强白嫖:55154_2_2
+      - CN_油管频道 全网最强白嫖:55154_2_2_2
+      - CN_油管频道 全网最强白嫖:48515
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15002
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15004
+      - CN_油管频道 全网最强白嫖:55155_2
+      - CN_油管频道 全网最强白嫖:15004_2
+      - CN_油管频道 全网最强白嫖:55155_2_2
+      - SG_油管频道 全网最强白嫖:30526
+      - US_油管频道 全网最强白嫖:443
+      - 油管频道 全网最强白嫖:8443
+      - US_油管频道 全网最强白嫖:8443
+      - 油管频道 全网最强白嫖:443
+      - CN_油管频道 全网最强白嫖:47389
+      - CN_油管频道 全网最强白嫖:48516
+      - US_油管频道 全网最强白嫖:8443_2
+      - 油管频道 全网最强白嫖:443_2
+      - US_油管频道 全网最强白嫖:443_2
+      - CN_油管频道 全网最强白嫖:15003
+      - CN_油管频道 全网最强白嫖:48550_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港HGC-2号线路(中转):443
-      - Relay_🇺🇸US-🇺🇸US_3788:80
-      - 香港HGC-4号线路(中转):36660
-      - 台湾Hinet-3号线路(中转):443
-      - 台湾Hinet-4号线路(中转):36660
-      - 台湾Hinet-2号线路(中转):443
-      - Relay_🇨🇳CN-🇹🇼TW_482:55154
-      - 🇨🇳_CN_中国->🇹🇼_TW_台湾:55154
+      - CN_油管频道 全网最强白嫖:55154
+      - CN_油管频道 全网最强白嫖:48550
+      - JP_油管频道 全网最强白嫖:12236
+      - CN_油管频道 全网最强白嫖:48512
+      - CN_油管频道 全网最强白嫖:55155
+      - CN_油管频道 全网最强白嫖:55154_2
+      - CN_油管频道 全网最强白嫖:48514
+      - CN_油管频道 全网最强白嫖:55154_2_2
+      - CN_油管频道 全网最强白嫖:55154_2_2_2
+      - CN_油管频道 全网最强白嫖:48515
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15002
+      - CN_油管频道 全网最强白嫖:55154_2_2_2_2_2
+      - CN_油管频道 全网最强白嫖:15004
+      - CN_油管频道 全网最强白嫖:55155_2
+      - CN_油管频道 全网最强白嫖:15004_2
+      - CN_油管频道 全网最强白嫖:55155_2_2
+      - SG_油管频道 全网最强白嫖:30526
+      - US_油管频道 全网最强白嫖:443
+      - 油管频道 全网最强白嫖:8443
+      - US_油管频道 全网最强白嫖:8443
+      - 油管频道 全网最强白嫖:443
+      - CN_油管频道 全网最强白嫖:47389
+      - CN_油管频道 全网最强白嫖:48516
+      - US_油管频道 全网最强白嫖:8443_2
+      - 油管频道 全网最强白嫖:443_2
+      - US_油管频道 全网最强白嫖:443_2
+      - CN_油管频道 全网最强白嫖:15003
+      - CN_油管频道 全网最强白嫖:48550_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
