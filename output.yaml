@@ -5,37 +5,180 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 美国（Meteor） 17:80
+  - name: CN_8度商店 8du.shop:60301
     type: vmess
-    server: us-ca1.qwqjsq.top
-    port: 80
-    uuid: b0543a3b-d690-3ed9-9a81-f24f852e74f7
+    server: 2.sg.zz.xxxxx.x-t-fuckword.network
+    port: 60301
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
     alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: gb1.v2.ld.cn.fuckword.club
+  - name: CN_8度商店 8du.shop:35419
+    type: vmess
+    server: 2.hk.zz.xxxxx.x-t-fuckword.network
+    port: 35419
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 6.hk.ld.xxxxx.x-t-fuckword.link
+  - name: 免费-日本1:446
+    type: vmess
+    server: jp01-vm0.entry.ikuuu.casa
+    port: 446
+    uuid: c498879d-8a73-3baf-a4f4-a0f38b75949c
+    alterId: "1"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /hls/cctv5phd.m3u8
+    ws-path: /
     ws-headers:
-      Host: aweikeji-YouTube-TG
-  - name: 印度（Meteor） 2:443
+      Host: bf419d5f59f96a.windowsupdate.com
+  - name: CN_8度商店 8du.shop:25842
     type: vmess
-    server: www.digitalocean.com
-    port: 443
-    uuid: c675b1c1-b668-46fc-97eb-6bdcc57fd3a3
+    server: 4.game.speed.zz.001.oooooooooo.icu
+    port: 25842
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
     alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 2.tw.ld.xxxxx.x-t-fuckword.link
+  - name: 免费-日本4:446
+    type: vmess
+    server: jp04-vm0.entry.ikuuu.casa
+    port: 446
+    uuid: c498879d-8a73-3baf-a4f4-a0f38b75949c
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: bf419d5f59f7d0.windowsupdate.com
+  - name: CN_8度商店 8du.shop:48752
+    type: vmess
+    server: 5.jp.zz.xxxxx.x-t-fuckword.network
+    port: 48752
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: sg2.v3.ld.cn.fuckword.club
+  - name: CN_8度商店 8du.shop:48861
+    type: vmess
+    server: word.14.1.fuckword.club
+    port: 48861
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 1.us.ld.xxxxx.x-t-fuckword.link
+  - name: CN_8度商店 8du.shop:49511
+    type: vmess
+    server: hk1.v2.zz.cn.fuckword.club
+    port: 49511
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 6.hk.ld.xxxxx.x-t-fuckword.link
+  - name: CN_8度商店 8du.shop:53945
+    type: vmess
+    server: 2.game.speed.zz.001.oooooooooo.icu
+    port: 53945
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: sg2.v3.ld.cn.fuckword.club
+  - name: US_8度商店 8du.shop:443
+    type: vmess
+    server: 172.67.184.192
+    port: 443
+    uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /Support-Putin-Kill-all-Ukrainians_vws
+    ws-path: /v2ray
     ws-headers:
-      Host: in.884899.cf
-  - name: 香港（Meteor） 14:24787
+      Host: kr01.ssttkk.com
+  - name: CN_8度商店 8du.shop:48744
     type: vmess
-    server: ulose.win
-    port: 24787
-    uuid: 319fc6fc-a715-4763-f44e-eae525ebdc18
+    server: word.12.1.fuckword.club
+    port: 48744
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: word.2.2.fuckword.club
+  - name: CN_8度商店 8du.shop:60302
+    type: vmess
+    server: 3.2.1.fuckppppp.today
+    port: 60302
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 2.3.fuckppppp.today
+  - name: CN_8度商店 8du.shop:36672
+    type: vmess
+    server: 1.hk.zz.xxxxx.x-t-fuckword.network
+    port: 36672
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 6.hk.ld.xxxxx.x-t-fuckword.link
+  - name: US_8度商店 8du.shop:443_2
+    type: vmess
+    server: 172.67.140.112
+    port: 443
+    uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a
     alterId: "0"
     cipher: auto
     udp: true
@@ -43,205 +186,545 @@ proxies:
     tls: true
     ws-path: /
     ws-headers:
-      Host: ulose.win
-  - name: US:8443
+      Host: yzjd01-ublubeu.koyeb.app
+  - name: US_8度商店 8du.shop:443_2_2
     type: vmess
-    server: v2ray.wefuckgfw.ga
-    port: 8443
-    uuid: 104ce500-b353-11ec-a378-52ac00ea1411
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /E94olUFf/
-    ws-headers:
-      Host: v2ray.wefuckgfw.ga
-  - name: :443
-    type: vmess
-    server: 104.17.67.190
+    server: us02.gogogoo.cyou
     port: 443
-    uuid: 1293e022-6347-4d7e-8425-e65576b6ae0e
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /Support-Putin-Kill-all-Ukrainians_vws
+    ws-path: /go
     ws-headers:
-      Host: jp.567568.ml
-  - name: SG:30526
+      Host: us02.gogogoo.cyou
+  - name: CN_8度商店 8du.shop:36678
     type: vmess
-    server: v2-2.godlight.xyz
-    port: 30526
-    uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9
+    server: word.2.fuckword.club
+    port: 36678
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: sg2.v3.ld.cn.fuckword.club
+  - name: US_8度商店 8du.shop:443_2_2_2
+    type: vmess
+    server: 172.67.140.112
+    port: 443
+    uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /54f634fs
+    ws-path: /
     ws-headers:
-      Host: v2-2.godlight.xyz
-  - name: CN:15004
+      Host: herokuyz01.7595333.workers.dev
+  - name: 日本-Pro-05:53942
     type: vmess
-    server: gz-1.jiasugou.one
-    port: 15004
-    uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49
+    server: 2.9.0.fuckppppp.today
+    port: 53942
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: word.2.2.fuckword.club
+  - name: CN_8度商店 8du.shop:36679
+    type: vmess
+    server: 3.sg.zz.xxxxx.x-t-fuckword.network
+    port: 36679
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 3.hk.ld.xxxxx.x-t-fuckword.link
+  - name: CN_8度商店 8du.shop:36676
+    type: vmess
+    server: 4.hk.zz.xxxxx.x-t-fuckword.network
+    port: 36676
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 3.hk.ld.xxxxx.x-t-fuckword.link
+  - name: CN_8度商店 8du.shop:50010
+    type: vmess
+    server: 1.5.1.fuckppppp.today
+    port: 50010
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 3.hk.ld.xxxxx.x-t-fuckword.link
+  - name: US_8度商店 8du.shop:4440
+    type: vmess
+    server: 50.114.56.20
+    port: 4440
+    uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: t.me/vpnhat
+  - name: CN_8度商店 8du.shop:58416
+    type: vmess
+    server: 7.hk.zz.xxxxx.x-t-fuckword.network
+    port: 58416
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 2.3.fuckppppp.today
+  - name: CN_8度商店 8du.shop:53943
+    type: vmess
+    server: 1.mo.zz.xxxxx.x-t-fuckword.network
+    port: 53943
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: fr1.v3.ld.cn.fuckword.club
+  - name: CN_8度商店 8du.shop:56812
+    type: vmess
+    server: hkt01.hk.zz.xxxxx.x-t-fuckword.network
+    port: 56812
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 2.3.fuckppppp.today
+  - name: 🇻🇳 Hồ Chí Minh:80
+    type: vmess
+    server: 0001.hcm.genzpn.com
+    port: 80
+    uuid: 85a173a6-cbac-44b7-83b7-0c53d4aadf93
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /zh-cn/news
+    ws-path: /
     ws-headers:
-      Host: www.msn.cn
-  - name: CN:15004_2
+      Host: livestream2.tv360.vn
+  - name: CN_8度商店 8du.shop:50002
     type: vmess
-    server: gz-1.jiasugou.one
-    port: 15004
-    uuid: 985eb001-56be-3bb9-927a-f3b9c6376a49
+    server: 2.7.1.fuckppppp.today
+    port: 50002
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
+    network: tcp
     tls: null
-    ws-path: /zh-cn/news
+    ws-path: /
     ws-headers:
-      Host: gz-1.jiasugou.one
+      Host: word.1.fuckword.club
+  - name: US_8度商店 8du.shop:443_2_2_2_2
+    type: vmess
+    server: 172.67.184.192
+    port: 443
+    uuid: 3a9c0d0c-e0fd-3145-a414-ec265e7010b7
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /v2ray
+    ws-headers:
+      Host: jp10.ssttkk.com
+  - name: CN_8度商店 8du.shop:58418
+    type: vmess
+    server: 4.3.1.fuckppppp.today
+    port: 58418
+    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: word.1.fuckword.club
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（Meteor） 17:80
-      - 印度（Meteor） 2:443
-      - 香港（Meteor） 14:24787
-      - US:8443
-      - :443
-      - SG:30526
-      - CN:15004
-      - CN:15004_2
+      - CN_8度商店 8du.shop:60301
+      - CN_8度商店 8du.shop:35419
+      - 免费-日本1:446
+      - CN_8度商店 8du.shop:25842
+      - 免费-日本4:446
+      - CN_8度商店 8du.shop:48752
+      - CN_8度商店 8du.shop:48861
+      - CN_8度商店 8du.shop:49511
+      - CN_8度商店 8du.shop:53945
+      - US_8度商店 8du.shop:443
+      - CN_8度商店 8du.shop:48744
+      - CN_8度商店 8du.shop:60302
+      - CN_8度商店 8du.shop:36672
+      - US_8度商店 8du.shop:443_2
+      - US_8度商店 8du.shop:443_2_2
+      - CN_8度商店 8du.shop:36678
+      - US_8度商店 8du.shop:443_2_2_2
+      - 日本-Pro-05:53942
+      - CN_8度商店 8du.shop:36679
+      - CN_8度商店 8du.shop:36676
+      - CN_8度商店 8du.shop:50010
+      - US_8度商店 8du.shop:4440
+      - CN_8度商店 8du.shop:58416
+      - CN_8度商店 8du.shop:53943
+      - CN_8度商店 8du.shop:56812
+      - 🇻🇳 Hồ Chí Minh:80
+      - CN_8度商店 8du.shop:50002
+      - US_8度商店 8du.shop:443_2_2_2_2
+      - CN_8度商店 8du.shop:58418
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国（Meteor） 17:80
-      - 印度（Meteor） 2:443
-      - 香港（Meteor） 14:24787
-      - US:8443
-      - :443
-      - SG:30526
-      - CN:15004
-      - CN:15004_2
+      - CN_8度商店 8du.shop:60301
+      - CN_8度商店 8du.shop:35419
+      - 免费-日本1:446
+      - CN_8度商店 8du.shop:25842
+      - 免费-日本4:446
+      - CN_8度商店 8du.shop:48752
+      - CN_8度商店 8du.shop:48861
+      - CN_8度商店 8du.shop:49511
+      - CN_8度商店 8du.shop:53945
+      - US_8度商店 8du.shop:443
+      - CN_8度商店 8du.shop:48744
+      - CN_8度商店 8du.shop:60302
+      - CN_8度商店 8du.shop:36672
+      - US_8度商店 8du.shop:443_2
+      - US_8度商店 8du.shop:443_2_2
+      - CN_8度商店 8du.shop:36678
+      - US_8度商店 8du.shop:443_2_2_2
+      - 日本-Pro-05:53942
+      - CN_8度商店 8du.shop:36679
+      - CN_8度商店 8du.shop:36676
+      - CN_8度商店 8du.shop:50010
+      - US_8度商店 8du.shop:4440
+      - CN_8度商店 8du.shop:58416
+      - CN_8度商店 8du.shop:53943
+      - CN_8度商店 8du.shop:56812
+      - 🇻🇳 Hồ Chí Minh:80
+      - CN_8度商店 8du.shop:50002
+      - US_8度商店 8du.shop:443_2_2_2_2
+      - CN_8度商店 8du.shop:58418
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国（Meteor） 17:80
-      - 印度（Meteor） 2:443
-      - 香港（Meteor） 14:24787
-      - US:8443
-      - :443
-      - SG:30526
-      - CN:15004
-      - CN:15004_2
+      - CN_8度商店 8du.shop:60301
+      - CN_8度商店 8du.shop:35419
+      - 免费-日本1:446
+      - CN_8度商店 8du.shop:25842
+      - 免费-日本4:446
+      - CN_8度商店 8du.shop:48752
+      - CN_8度商店 8du.shop:48861
+      - CN_8度商店 8du.shop:49511
+      - CN_8度商店 8du.shop:53945
+      - US_8度商店 8du.shop:443
+      - CN_8度商店 8du.shop:48744
+      - CN_8度商店 8du.shop:60302
+      - CN_8度商店 8du.shop:36672
+      - US_8度商店 8du.shop:443_2
+      - US_8度商店 8du.shop:443_2_2
+      - CN_8度商店 8du.shop:36678
+      - US_8度商店 8du.shop:443_2_2_2
+      - 日本-Pro-05:53942
+      - CN_8度商店 8du.shop:36679
+      - CN_8度商店 8du.shop:36676
+      - CN_8度商店 8du.shop:50010
+      - US_8度商店 8du.shop:4440
+      - CN_8度商店 8du.shop:58416
+      - CN_8度商店 8du.shop:53943
+      - CN_8度商店 8du.shop:56812
+      - 🇻🇳 Hồ Chí Minh:80
+      - CN_8度商店 8du.shop:50002
+      - US_8度商店 8du.shop:443_2_2_2_2
+      - CN_8度商店 8du.shop:58418
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国（Meteor） 17:80
-      - 印度（Meteor） 2:443
-      - 香港（Meteor） 14:24787
-      - US:8443
-      - :443
-      - SG:30526
-      - CN:15004
-      - CN:15004_2
+      - CN_8度商店 8du.shop:60301
+      - CN_8度商店 8du.shop:35419
+      - 免费-日本1:446
+      - CN_8度商店 8du.shop:25842
+      - 免费-日本4:446
+      - CN_8度商店 8du.shop:48752
+      - CN_8度商店 8du.shop:48861
+      - CN_8度商店 8du.shop:49511
+      - CN_8度商店 8du.shop:53945
+      - US_8度商店 8du.shop:443
+      - CN_8度商店 8du.shop:48744
+      - CN_8度商店 8du.shop:60302
+      - CN_8度商店 8du.shop:36672
+      - US_8度商店 8du.shop:443_2
+      - US_8度商店 8du.shop:443_2_2
+      - CN_8度商店 8du.shop:36678
+      - US_8度商店 8du.shop:443_2_2_2
+      - 日本-Pro-05:53942
+      - CN_8度商店 8du.shop:36679
+      - CN_8度商店 8du.shop:36676
+      - CN_8度商店 8du.shop:50010
+      - US_8度商店 8du.shop:4440
+      - CN_8度商店 8du.shop:58416
+      - CN_8度商店 8du.shop:53943
+      - CN_8度商店 8du.shop:56812
+      - 🇻🇳 Hồ Chí Minh:80
+      - CN_8度商店 8du.shop:50002
+      - US_8度商店 8du.shop:443_2_2_2_2
+      - CN_8度商店 8du.shop:58418
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国（Meteor） 17:80
-      - 印度（Meteor） 2:443
-      - 香港（Meteor） 14:24787
-      - US:8443
-      - :443
-      - SG:30526
-      - CN:15004
-      - CN:15004_2
+      - CN_8度商店 8du.shop:60301
+      - CN_8度商店 8du.shop:35419
+      - 免费-日本1:446
+      - CN_8度商店 8du.shop:25842
+      - 免费-日本4:446
+      - CN_8度商店 8du.shop:48752
+      - CN_8度商店 8du.shop:48861
+      - CN_8度商店 8du.shop:49511
+      - CN_8度商店 8du.shop:53945
+      - US_8度商店 8du.shop:443
+      - CN_8度商店 8du.shop:48744
+      - CN_8度商店 8du.shop:60302
+      - CN_8度商店 8du.shop:36672
+      - US_8度商店 8du.shop:443_2
+      - US_8度商店 8du.shop:443_2_2
+      - CN_8度商店 8du.shop:36678
+      - US_8度商店 8du.shop:443_2_2_2
+      - 日本-Pro-05:53942
+      - CN_8度商店 8du.shop:36679
+      - CN_8度商店 8du.shop:36676
+      - CN_8度商店 8du.shop:50010
+      - US_8度商店 8du.shop:4440
+      - CN_8度商店 8du.shop:58416
+      - CN_8度商店 8du.shop:53943
+      - CN_8度商店 8du.shop:56812
+      - 🇻🇳 Hồ Chí Minh:80
+      - CN_8度商店 8du.shop:50002
+      - US_8度商店 8du.shop:443_2_2_2_2
+      - CN_8度商店 8du.shop:58418
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国（Meteor） 17:80
-      - 印度（Meteor） 2:443
-      - 香港（Meteor） 14:24787
-      - US:8443
-      - :443
-      - SG:30526
-      - CN:15004
-      - CN:15004_2
+      - CN_8度商店 8du.shop:60301
+      - CN_8度商店 8du.shop:35419
+      - 免费-日本1:446
+      - CN_8度商店 8du.shop:25842
+      - 免费-日本4:446
+      - CN_8度商店 8du.shop:48752
+      - CN_8度商店 8du.shop:48861
+      - CN_8度商店 8du.shop:49511
+      - CN_8度商店 8du.shop:53945
+      - US_8度商店 8du.shop:443
+      - CN_8度商店 8du.shop:48744
+      - CN_8度商店 8du.shop:60302
+      - CN_8度商店 8du.shop:36672
+      - US_8度商店 8du.shop:443_2
+      - US_8度商店 8du.shop:443_2_2
+      - CN_8度商店 8du.shop:36678
+      - US_8度商店 8du.shop:443_2_2_2
+      - 日本-Pro-05:53942
+      - CN_8度商店 8du.shop:36679
+      - CN_8度商店 8du.shop:36676
+      - CN_8度商店 8du.shop:50010
+      - US_8度商店 8du.shop:4440
+      - CN_8度商店 8du.shop:58416
+      - CN_8度商店 8du.shop:53943
+      - CN_8度商店 8du.shop:56812
+      - 🇻🇳 Hồ Chí Minh:80
+      - CN_8度商店 8du.shop:50002
+      - US_8度商店 8du.shop:443_2_2_2_2
+      - CN_8度商店 8du.shop:58418
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 美国（Meteor） 17:80
-      - 印度（Meteor） 2:443
-      - 香港（Meteor） 14:24787
-      - US:8443
-      - :443
-      - SG:30526
-      - CN:15004
-      - CN:15004_2
+      - CN_8度商店 8du.shop:60301
+      - CN_8度商店 8du.shop:35419
+      - 免费-日本1:446
+      - CN_8度商店 8du.shop:25842
+      - 免费-日本4:446
+      - CN_8度商店 8du.shop:48752
+      - CN_8度商店 8du.shop:48861
+      - CN_8度商店 8du.shop:49511
+      - CN_8度商店 8du.shop:53945
+      - US_8度商店 8du.shop:443
+      - CN_8度商店 8du.shop:48744
+      - CN_8度商店 8du.shop:60302
+      - CN_8度商店 8du.shop:36672
+      - US_8度商店 8du.shop:443_2
+      - US_8度商店 8du.shop:443_2_2
+      - CN_8度商店 8du.shop:36678
+      - US_8度商店 8du.shop:443_2_2_2
+      - 日本-Pro-05:53942
+      - CN_8度商店 8du.shop:36679
+      - CN_8度商店 8du.shop:36676
+      - CN_8度商店 8du.shop:50010
+      - US_8度商店 8du.shop:4440
+      - CN_8度商店 8du.shop:58416
+      - CN_8度商店 8du.shop:53943
+      - CN_8度商店 8du.shop:56812
+      - 🇻🇳 Hồ Chí Minh:80
+      - CN_8度商店 8du.shop:50002
+      - US_8度商店 8du.shop:443_2_2_2_2
+      - CN_8度商店 8du.shop:58418
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 美国（Meteor） 17:80
-      - 印度（Meteor） 2:443
-      - 香港（Meteor） 14:24787
-      - US:8443
-      - :443
-      - SG:30526
-      - CN:15004
-      - CN:15004_2
+      - CN_8度商店 8du.shop:60301
+      - CN_8度商店 8du.shop:35419
+      - 免费-日本1:446
+      - CN_8度商店 8du.shop:25842
+      - 免费-日本4:446
+      - CN_8度商店 8du.shop:48752
+      - CN_8度商店 8du.shop:48861
+      - CN_8度商店 8du.shop:49511
+      - CN_8度商店 8du.shop:53945
+      - US_8度商店 8du.shop:443
+      - CN_8度商店 8du.shop:48744
+      - CN_8度商店 8du.shop:60302
+      - CN_8度商店 8du.shop:36672
+      - US_8度商店 8du.shop:443_2
+      - US_8度商店 8du.shop:443_2_2
+      - CN_8度商店 8du.shop:36678
+      - US_8度商店 8du.shop:443_2_2_2
+      - 日本-Pro-05:53942
+      - CN_8度商店 8du.shop:36679
+      - CN_8度商店 8du.shop:36676
+      - CN_8度商店 8du.shop:50010
+      - US_8度商店 8du.shop:4440
+      - CN_8度商店 8du.shop:58416
+      - CN_8度商店 8du.shop:53943
+      - CN_8度商店 8du.shop:56812
+      - 🇻🇳 Hồ Chí Minh:80
+      - CN_8度商店 8du.shop:50002
+      - US_8度商店 8du.shop:443_2_2_2_2
+      - CN_8度商店 8du.shop:58418
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 美国（Meteor） 17:80
-      - 印度（Meteor） 2:443
-      - 香港（Meteor） 14:24787
-      - US:8443
-      - :443
-      - SG:30526
-      - CN:15004
-      - CN:15004_2
+      - CN_8度商店 8du.shop:60301
+      - CN_8度商店 8du.shop:35419
+      - 免费-日本1:446
+      - CN_8度商店 8du.shop:25842
+      - 免费-日本4:446
+      - CN_8度商店 8du.shop:48752
+      - CN_8度商店 8du.shop:48861
+      - CN_8度商店 8du.shop:49511
+      - CN_8度商店 8du.shop:53945
+      - US_8度商店 8du.shop:443
+      - CN_8度商店 8du.shop:48744
+      - CN_8度商店 8du.shop:60302
+      - CN_8度商店 8du.shop:36672
+      - US_8度商店 8du.shop:443_2
+      - US_8度商店 8du.shop:443_2_2
+      - CN_8度商店 8du.shop:36678
+      - US_8度商店 8du.shop:443_2_2_2
+      - 日本-Pro-05:53942
+      - CN_8度商店 8du.shop:36679
+      - CN_8度商店 8du.shop:36676
+      - CN_8度商店 8du.shop:50010
+      - US_8度商店 8du.shop:4440
+      - CN_8度商店 8du.shop:58416
+      - CN_8度商店 8du.shop:53943
+      - CN_8度商店 8du.shop:56812
+      - 🇻🇳 Hồ Chí Minh:80
+      - CN_8度商店 8du.shop:50002
+      - US_8度商店 8du.shop:443_2_2_2_2
+      - CN_8度商店 8du.shop:58418
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国（Meteor） 17:80
-      - 印度（Meteor） 2:443
-      - 香港（Meteor） 14:24787
-      - US:8443
-      - :443
-      - SG:30526
-      - CN:15004
-      - CN:15004_2
+      - CN_8度商店 8du.shop:60301
+      - CN_8度商店 8du.shop:35419
+      - 免费-日本1:446
+      - CN_8度商店 8du.shop:25842
+      - 免费-日本4:446
+      - CN_8度商店 8du.shop:48752
+      - CN_8度商店 8du.shop:48861
+      - CN_8度商店 8du.shop:49511
+      - CN_8度商店 8du.shop:53945
+      - US_8度商店 8du.shop:443
+      - CN_8度商店 8du.shop:48744
+      - CN_8度商店 8du.shop:60302
+      - CN_8度商店 8du.shop:36672
+      - US_8度商店 8du.shop:443_2
+      - US_8度商店 8du.shop:443_2_2
+      - CN_8度商店 8du.shop:36678
+      - US_8度商店 8du.shop:443_2_2_2
+      - 日本-Pro-05:53942
+      - CN_8度商店 8du.shop:36679
+      - CN_8度商店 8du.shop:36676
+      - CN_8度商店 8du.shop:50010
+      - US_8度商店 8du.shop:4440
+      - CN_8度商店 8du.shop:58416
+      - CN_8度商店 8du.shop:53943
+      - CN_8度商店 8du.shop:56812
+      - 🇻🇳 Hồ Chí Minh:80
+      - CN_8度商店 8du.shop:50002
+      - US_8度商店 8du.shop:443_2_2_2_2
+      - CN_8度商店 8du.shop:58418
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
