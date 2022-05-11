@@ -5,95 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇭🇰8度商店：8du.shop:60045
+  - name: 🇨🇳_商店：8du.shop:55156
     type: vmess
-    server: 20.205.11.55
-    port: 60045
-    uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40175
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40175
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40121
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40121
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40268
-    type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40268
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40204
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40204
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40306
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40306
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40101
-    type: vmess
-    server: shanghai-cn2-01.ddns-oink.xyz
-    port: 40101
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇸🇬8度商店：8du.shop:59942
-    type: vmess
-    server: fliplc.getxlx.com
-    port: 59942
-    uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe
+    server: fs.keaiyun.top
+    port: 55156
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
@@ -101,511 +17,24 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40123
+  - name: 🇺🇸_商店：8du.shop:2086
     type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40123
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
+    server: kr-direct-cdn.node001.xyz
+    port: 2086
+    uuid: a1f3e867-8f8d-3763-bb80-21da561e6714
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63087
-    type: vmess
-    server: 116.129.254.33
-    port: 63087
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇭🇰8度商店：8du.shop:20004
-    type: vmess
-    server: 20.205.125.236
-    port: 20004
-    uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40133
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40133
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40171
-    type: vmess
-    server: jzyjxcn2.ddns-oink.xyz
-    port: 40171
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40103
-    type: vmess
-    server: shanghai-cn2-01.ddns-oink.xyz
-    port: 40103
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40173
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40173
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇸🇬8度商店：8du.shop:59944
-    type: vmess
-    server: fliplc.getxlx.com
-    port: 59944
-    uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰8度商店：8du.shop:60026
-    type: vmess
-    server: 20.205.125.236
-    port: 60026
-    uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:19040
-    type: vmess
-    server: cdn-cn.nekocloud.cn
-    port: 19040
-    uuid: c1e94a4a-ba05-3ef9-ab0e-1148539af86b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /dahjwuh
-    ws-headers:
-      Host: cdn-cn.nekocloud.cn
-  - name: 🇸🇬8度商店：8du.shop:59943
-    type: vmess
-    server: fliplc.getxlx.com
-    port: 59943
-    uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40107
-    type: vmess
-    server: yygd-rb-02.ddns-oink.xyz
-    port: 40107
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇸🇬8度商店：8du.shop:59952
-    type: vmess
-    server: fliplc.getxlx.com
-    port: 59952
-    uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:50002
-    type: vmess
-    server: 2.7.1.fuckppppp.today
-    port: 50002
-    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40041
-    type: vmess
-    server: yygd-rb-02.ddns-oink.xyz
-    port: 40041
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇺🇸8度商店：8du.shop:443
-    type: vmess
-    server: 1.v2tk.tk
-    port: 443
-    uuid: f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /upload
-    ws-headers: null
-  - name: 🇭🇰8度商店：8du.shop:60042
-    type: vmess
-    server: 20.205.11.55
-    port: 60042
-    uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63069
-    type: vmess
-    server: 159.27.115.21
-    port: 63069
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰8度商店：8du.shop:60012
-    type: vmess
-    server: 20.205.125.236
-    port: 60012
-    uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇸🇬8度商店：8du.shop:59931
-    type: vmess
-    server: fliplc.getxlx.com
-    port: 59931
-    uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇸🇬8度商店：8du.shop:59950
-    type: vmess
-    server: fliplc.getxlx.com
-    port: 59950
-    uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63078
-    type: vmess
-    server: 120.232.82.139
-    port: 63078
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40218
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40218
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63086
-    type: vmess
-    server: 120.240.168.118
-    port: 63086
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇦8度商店：8du.shop:443
-    type: vmess
-    server: 3.v2tk.tk
-    port: 443
-    uuid: f0e10fe1-b01d-4ecc-9fcc-550badc7d1f8
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /upload
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40217
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40217
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:48861
-    type: vmess
-    server: word.14.1.fuckword.club
-    port: 48861
-    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇸🇬8度商店：8du.shop:59932
-    type: vmess
-    server: fliplc.getxlx.com
-    port: 59932
-    uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63078_2
-    type: vmess
-    server: 120.240.168.118
-    port: 63078
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63051
-    type: vmess
-    server: 120.240.168.118
-    port: 63051
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /hls
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63004
-    type: vmess
-    server: 116.129.254.65
-    port: 63004
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰8度商店：8du.shop:60046
-    type: vmess
-    server: 20.205.11.55
-    port: 60046
-    uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63086_2
-    type: vmess
-    server: 116.129.254.33
-    port: 63086
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇭🇰8度商店：8du.shop:60018
-    type: vmess
-    server: 20.205.125.236
-    port: 60018
-    uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63004_2
-    type: vmess
-    server: 116.129.254.33
-    port: 63004
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63051_2
-    type: vmess
-    server: 183.232.56.108
-    port: 63051
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /hls
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63086_2_2
-    type: vmess
-    server: 159.27.115.21
-    port: 63086
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63014
-    type: vmess
-    server: 120.240.168.118
-    port: 63014
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
     ws-path: /mg
     ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63004_2_2
+      Host: /t.me/mengge88888888
+  - name: 🇨🇳_商店：8du.shop:55154
     type: vmess
-    server: 120.240.168.118
-    port: 63004
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰8度商店：8du.shop:553
-    type: vmess
-    server: 202.64.1.102
-    port: 553
-    uuid: 30ef0f29-da14-349d-9c49-728d5adc4ba8
-    alterId: "8"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63069_2
-    type: vmess
-    server: 120.232.82.139
-    port: 63069
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇸🇬8度商店：8du.shop:59941
-    type: vmess
-    server: fliplc.getxlx.com
-    port: 59941
-    uuid: 3a9e460c-2f70-3688-9602-ad67a1f5efbe
+    server: fs.keaiyun.top
+    port: 55154
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
@@ -613,23 +42,11 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇭🇰8度商店：8du.shop:60041
+  - name: 🇨🇳_商店：8du.shop:55155
     type: vmess
-    server: 20.205.125.236
-    port: 60041
-    uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:36676
-    type: vmess
-    server: 4.hk.zz.xxxxx.x-t-fuckword.network
-    port: 36676
-    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    server: fs.keaiyun.top
+    port: 55155
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
@@ -637,23 +54,11 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63069_2_2
+  - name: 🇨🇳_商店：8du.shop:48519
     type: vmess
-    server: 120.240.168.118
-    port: 63069
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸8度商店：8du.shop:50503
-    type: vmess
-    server: 152.69.204.149
-    port: 50503
-    uuid: 11b8a8c2-3548-4424-88f8-26cde886230a
+    server: fs.keaiyun.top
+    port: 48519
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
@@ -661,24 +66,11 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63041
+  - name: 🇨🇳_商店：8du.shop:48517
     type: vmess
-    server: 183.232.56.108
-    port: 63041
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mg
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:53945
-    type: vmess
-    server: 2.game.speed.zz.001.oooooooooo.icu
-    port: 53945
-    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    server: fs.keaiyun.top
+    port: 48517
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
@@ -686,173 +78,11 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40269
+  - name: 🇳🇱_商店：8du.shop:8288
     type: vmess
-    server: jzdjd-01.ddns-oink.xyz
-    port: 40269
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63014_2
-    type: vmess
-    server: 116.129.254.65
-    port: 63014
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mg
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63086_2_2_2
-    type: vmess
-    server: 183.232.56.108
-    port: 63086
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63069_2_2_2
-    type: vmess
-    server: 116.129.254.33
-    port: 63069
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40109
-    type: vmess
-    server: yygd-rb-02.ddns-oink.xyz
-    port: 40109
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63087_2
-    type: vmess
-    server: 120.240.168.118
-    port: 63087
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63078_2_2
-    type: vmess
-    server: 116.129.254.33
-    port: 63078
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-    type: vmess
-    server: 120.232.82.139
-    port: 63086
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63051_2_2
-    type: vmess
-    server: 120.232.82.139
-    port: 63051
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /hls
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63051_2_2_2
-    type: vmess
-    server: 116.129.254.33
-    port: 63051
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /hls
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:40113
-    type: vmess
-    server: jzyjxcn2.ddns-oink.xyz
-    port: 40113
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63078_2_2_2
-    type: vmess
-    server: 159.27.115.21
-    port: 63078
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-    type: vmess
-    server: 112.64.53.217
-    port: 63069
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:60301
-    type: vmess
-    server: 2.sg.zz.xxxxx.x-t-fuckword.network
-    port: 60301
-    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    server: c69s5.jamjams.net
+    port: 8288
+    uuid: 614ee3a3-90ad-4239-8eb0-1661daba6c2a
     alterId: "0"
     cipher: auto
     udp: true
@@ -860,24 +90,11 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63051_2_2_2_2
+  - name: 🇨🇳_商店：8du.shop:48521
     type: vmess
-    server: 159.27.115.21
-    port: 63051
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /hls
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:36678
-    type: vmess
-    server: word.2.fuckword.club
-    port: 36678
-    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    server: fs.keaiyun.top
+    port: 48521
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
@@ -885,101 +102,11 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:40291
+  - name: 🇨🇳_商店：8du.shop:55154_2
     type: vmess
-    server: shanghai-01.ddns-oink.xyz
-    port: 40291
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63087_2_2
-    type: vmess
-    server: 159.27.115.21
-    port: 63087
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-    type: vmess
-    server: 116.129.254.65
-    port: 63051
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /hls
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63087_2_2_2
-    type: vmess
-    server: 120.232.82.139
-    port: 63087
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-    type: vmess
-    server: 112.64.53.217
-    port: 63087
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇸🇬8度商店：8du.shop:443
-    type: vmess
-    server: xa.ex306.buzz
-    port: 443
-    uuid: E725D31D-BBBF-3330-7A40-C92DEEA3B1CF
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: xa.ex306.buzz
-  - name: 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-    type: vmess
-    server: 116.129.254.65
-    port: 63087
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:36672
-    type: vmess
-    server: 1.hk.zz.xxxxx.x-t-fuckword.network
-    port: 36672
-    uuid: 0f62bb1b-dd16-3bb2-a435-c13e068b0955
+    server: fs.keaiyun.top
+    port: 55154
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
@@ -987,140 +114,64 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
+  - name: 🇨🇳_商店：8du.shop:55155_2
     type: vmess
-    server: 183.232.56.108
-    port: 63069
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
+    server: fs.keaiyun.top
+    port: 55155
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
-    tls: true
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-    type: vmess
-    server: 112.64.53.217
-    port: 63086
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:40202
-    type: vmess
-    server: juzi-iplc001.ddns-oink.xyz
-    port: 40202
-    uuid: 4a11fe77-f1a7-35b0-a535-4762d2f9ac2b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /jz666666
-    ws-headers: null
-  - name: 🇭🇰8度商店：8du.shop:60044
-    type: vmess
-    server: 20.205.11.55
-    port: 60044
-    uuid: 9d7fb490-f159-3b56-8e8a-614c45c299d1
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
+    network: tcp
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63078_2_2_2_2
+  - name: 🇨🇳_商店：8du.shop:48519_2
     type: vmess
-    server: 116.129.254.65
-    port: 63078
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
+    server: fs.keaiyun.top
+    port: 48519
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
-    tls: true
+    network: tcp
+    tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
+  - name: 🇨🇳_商店：8du.shop:48517_2
     type: vmess
-    server: 223.166.129.29
-    port: 63087
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
+    server: fs.keaiyun.top
+    port: 48517
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63014_2_2
-    type: vmess
-    server: 112.64.53.217
-    port: 63014
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mg
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-    type: vmess
-    server: 223.166.129.29
-    port: 63086
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me/vpnhat
-  - name: 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-    type: vmess
-    server: 112.64.53.217
-    port: 63078
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
+    network: tcp
+    tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63004_2_2_2
+  - name: 🇳🇱_商店：8du.shop:8288_2
     type: vmess
-    server: 183.232.56.108
-    port: 63004
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
+    server: c69s5.jamjams.net
+    port: 8288
+    uuid: 614ee3a3-90ad-4239-8eb0-1661daba6c2a
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
-    tls: true
+    network: tcp
+    tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+  - name: 🇨🇳_商店：8du.shop:48521_2
     type: vmess
-    server: 183.232.56.108
-    port: 63078
-    uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0
+    server: fs.keaiyun.top
+    port: 48521
+    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
     alterId: "0"
     cipher: auto
     udp: true
-    network: ws
-    tls: true
+    network: tcp
+    tls: null
     ws-path: ""
     ws-headers: null
 proxy-groups:
@@ -1129,963 +180,193 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰8度商店：8du.shop:60045
-      - 🇨🇳8度商店：8du.shop:40175
-      - 🇨🇳8度商店：8du.shop:40121
-      - 🇨🇳8度商店：8du.shop:40268
-      - 🇨🇳8度商店：8du.shop:40204
-      - 🇨🇳8度商店：8du.shop:40306
-      - 🇨🇳8度商店：8du.shop:40101
-      - 🇸🇬8度商店：8du.shop:59942
-      - 🇨🇳8度商店：8du.shop:40123
-      - 🇨🇳8度商店：8du.shop:63087
-      - 🇭🇰8度商店：8du.shop:20004
-      - 🇨🇳8度商店：8du.shop:40133
-      - 🇨🇳8度商店：8du.shop:40171
-      - 🇨🇳8度商店：8du.shop:40103
-      - 🇨🇳8度商店：8du.shop:40173
-      - 🇸🇬8度商店：8du.shop:59944
-      - 🇭🇰8度商店：8du.shop:60026
-      - 🇨🇳8度商店：8du.shop:19040
-      - 🇸🇬8度商店：8du.shop:59943
-      - 🇨🇳8度商店：8du.shop:40107
-      - 🇸🇬8度商店：8du.shop:59952
-      - 🇨🇳8度商店：8du.shop:50002
-      - 🇨🇳8度商店：8du.shop:40041
-      - 🇺🇸8度商店：8du.shop:443
-      - 🇭🇰8度商店：8du.shop:60042
-      - 🇨🇳8度商店：8du.shop:63069
-      - 🇭🇰8度商店：8du.shop:60012
-      - 🇸🇬8度商店：8du.shop:59931
-      - 🇸🇬8度商店：8du.shop:59950
-      - 🇨🇳8度商店：8du.shop:63078
-      - 🇨🇳8度商店：8du.shop:40218
-      - 🇨🇳8度商店：8du.shop:63086
-      - 🇨🇦8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:40217
-      - 🇨🇳8度商店：8du.shop:48861
-      - 🇸🇬8度商店：8du.shop:59932
-      - 🇨🇳8度商店：8du.shop:63078_2
-      - 🇨🇳8度商店：8du.shop:63051
-      - 🇨🇳8度商店：8du.shop:63004
-      - 🇭🇰8度商店：8du.shop:60046
-      - 🇨🇳8度商店：8du.shop:63086_2
-      - 🇭🇰8度商店：8du.shop:60018
-      - 🇨🇳8度商店：8du.shop:63004_2
-      - 🇨🇳8度商店：8du.shop:63051_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2
-      - 🇨🇳8度商店：8du.shop:63014
-      - 🇨🇳8度商店：8du.shop:63004_2_2
-      - 🇭🇰8度商店：8du.shop:553
-      - 🇨🇳8度商店：8du.shop:63069_2
-      - 🇸🇬8度商店：8du.shop:59941
-      - 🇭🇰8度商店：8du.shop:60041
-      - 🇨🇳8度商店：8du.shop:36676
-      - 🇨🇳8度商店：8du.shop:63069_2_2
-      - 🇺🇸8度商店：8du.shop:50503
-      - 🇨🇳8度商店：8du.shop:63041
-      - 🇨🇳8度商店：8du.shop:53945
-      - 🇨🇳8度商店：8du.shop:40269
-      - 🇨🇳8度商店：8du.shop:63014_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2
-      - 🇨🇳8度商店：8du.shop:40109
-      - 🇨🇳8度商店：8du.shop:63087_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2
-      - 🇨🇳8度商店：8du.shop:40113
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:60301
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36678
-      - 🇨🇳8度商店：8du.shop:40291
-      - 🇨🇳8度商店：8du.shop:63087_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-      - 🇸🇬8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36672
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:40202
-      - 🇭🇰8度商店：8du.shop:60044
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63014_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63004_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+      - 🇨🇳_商店：8du.shop:55156
+      - 🇺🇸_商店：8du.shop:2086
+      - 🇨🇳_商店：8du.shop:55154
+      - 🇨🇳_商店：8du.shop:55155
+      - 🇨🇳_商店：8du.shop:48519
+      - 🇨🇳_商店：8du.shop:48517
+      - 🇳🇱_商店：8du.shop:8288
+      - 🇨🇳_商店：8du.shop:48521
+      - 🇨🇳_商店：8du.shop:55154_2
+      - 🇨🇳_商店：8du.shop:55155_2
+      - 🇨🇳_商店：8du.shop:48519_2
+      - 🇨🇳_商店：8du.shop:48517_2
+      - 🇳🇱_商店：8du.shop:8288_2
+      - 🇨🇳_商店：8du.shop:48521_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰8度商店：8du.shop:60045
-      - 🇨🇳8度商店：8du.shop:40175
-      - 🇨🇳8度商店：8du.shop:40121
-      - 🇨🇳8度商店：8du.shop:40268
-      - 🇨🇳8度商店：8du.shop:40204
-      - 🇨🇳8度商店：8du.shop:40306
-      - 🇨🇳8度商店：8du.shop:40101
-      - 🇸🇬8度商店：8du.shop:59942
-      - 🇨🇳8度商店：8du.shop:40123
-      - 🇨🇳8度商店：8du.shop:63087
-      - 🇭🇰8度商店：8du.shop:20004
-      - 🇨🇳8度商店：8du.shop:40133
-      - 🇨🇳8度商店：8du.shop:40171
-      - 🇨🇳8度商店：8du.shop:40103
-      - 🇨🇳8度商店：8du.shop:40173
-      - 🇸🇬8度商店：8du.shop:59944
-      - 🇭🇰8度商店：8du.shop:60026
-      - 🇨🇳8度商店：8du.shop:19040
-      - 🇸🇬8度商店：8du.shop:59943
-      - 🇨🇳8度商店：8du.shop:40107
-      - 🇸🇬8度商店：8du.shop:59952
-      - 🇨🇳8度商店：8du.shop:50002
-      - 🇨🇳8度商店：8du.shop:40041
-      - 🇺🇸8度商店：8du.shop:443
-      - 🇭🇰8度商店：8du.shop:60042
-      - 🇨🇳8度商店：8du.shop:63069
-      - 🇭🇰8度商店：8du.shop:60012
-      - 🇸🇬8度商店：8du.shop:59931
-      - 🇸🇬8度商店：8du.shop:59950
-      - 🇨🇳8度商店：8du.shop:63078
-      - 🇨🇳8度商店：8du.shop:40218
-      - 🇨🇳8度商店：8du.shop:63086
-      - 🇨🇦8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:40217
-      - 🇨🇳8度商店：8du.shop:48861
-      - 🇸🇬8度商店：8du.shop:59932
-      - 🇨🇳8度商店：8du.shop:63078_2
-      - 🇨🇳8度商店：8du.shop:63051
-      - 🇨🇳8度商店：8du.shop:63004
-      - 🇭🇰8度商店：8du.shop:60046
-      - 🇨🇳8度商店：8du.shop:63086_2
-      - 🇭🇰8度商店：8du.shop:60018
-      - 🇨🇳8度商店：8du.shop:63004_2
-      - 🇨🇳8度商店：8du.shop:63051_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2
-      - 🇨🇳8度商店：8du.shop:63014
-      - 🇨🇳8度商店：8du.shop:63004_2_2
-      - 🇭🇰8度商店：8du.shop:553
-      - 🇨🇳8度商店：8du.shop:63069_2
-      - 🇸🇬8度商店：8du.shop:59941
-      - 🇭🇰8度商店：8du.shop:60041
-      - 🇨🇳8度商店：8du.shop:36676
-      - 🇨🇳8度商店：8du.shop:63069_2_2
-      - 🇺🇸8度商店：8du.shop:50503
-      - 🇨🇳8度商店：8du.shop:63041
-      - 🇨🇳8度商店：8du.shop:53945
-      - 🇨🇳8度商店：8du.shop:40269
-      - 🇨🇳8度商店：8du.shop:63014_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2
-      - 🇨🇳8度商店：8du.shop:40109
-      - 🇨🇳8度商店：8du.shop:63087_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2
-      - 🇨🇳8度商店：8du.shop:40113
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:60301
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36678
-      - 🇨🇳8度商店：8du.shop:40291
-      - 🇨🇳8度商店：8du.shop:63087_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-      - 🇸🇬8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36672
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:40202
-      - 🇭🇰8度商店：8du.shop:60044
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63014_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63004_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+      - 🇨🇳_商店：8du.shop:55156
+      - 🇺🇸_商店：8du.shop:2086
+      - 🇨🇳_商店：8du.shop:55154
+      - 🇨🇳_商店：8du.shop:55155
+      - 🇨🇳_商店：8du.shop:48519
+      - 🇨🇳_商店：8du.shop:48517
+      - 🇳🇱_商店：8du.shop:8288
+      - 🇨🇳_商店：8du.shop:48521
+      - 🇨🇳_商店：8du.shop:55154_2
+      - 🇨🇳_商店：8du.shop:55155_2
+      - 🇨🇳_商店：8du.shop:48519_2
+      - 🇨🇳_商店：8du.shop:48517_2
+      - 🇳🇱_商店：8du.shop:8288_2
+      - 🇨🇳_商店：8du.shop:48521_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰8度商店：8du.shop:60045
-      - 🇨🇳8度商店：8du.shop:40175
-      - 🇨🇳8度商店：8du.shop:40121
-      - 🇨🇳8度商店：8du.shop:40268
-      - 🇨🇳8度商店：8du.shop:40204
-      - 🇨🇳8度商店：8du.shop:40306
-      - 🇨🇳8度商店：8du.shop:40101
-      - 🇸🇬8度商店：8du.shop:59942
-      - 🇨🇳8度商店：8du.shop:40123
-      - 🇨🇳8度商店：8du.shop:63087
-      - 🇭🇰8度商店：8du.shop:20004
-      - 🇨🇳8度商店：8du.shop:40133
-      - 🇨🇳8度商店：8du.shop:40171
-      - 🇨🇳8度商店：8du.shop:40103
-      - 🇨🇳8度商店：8du.shop:40173
-      - 🇸🇬8度商店：8du.shop:59944
-      - 🇭🇰8度商店：8du.shop:60026
-      - 🇨🇳8度商店：8du.shop:19040
-      - 🇸🇬8度商店：8du.shop:59943
-      - 🇨🇳8度商店：8du.shop:40107
-      - 🇸🇬8度商店：8du.shop:59952
-      - 🇨🇳8度商店：8du.shop:50002
-      - 🇨🇳8度商店：8du.shop:40041
-      - 🇺🇸8度商店：8du.shop:443
-      - 🇭🇰8度商店：8du.shop:60042
-      - 🇨🇳8度商店：8du.shop:63069
-      - 🇭🇰8度商店：8du.shop:60012
-      - 🇸🇬8度商店：8du.shop:59931
-      - 🇸🇬8度商店：8du.shop:59950
-      - 🇨🇳8度商店：8du.shop:63078
-      - 🇨🇳8度商店：8du.shop:40218
-      - 🇨🇳8度商店：8du.shop:63086
-      - 🇨🇦8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:40217
-      - 🇨🇳8度商店：8du.shop:48861
-      - 🇸🇬8度商店：8du.shop:59932
-      - 🇨🇳8度商店：8du.shop:63078_2
-      - 🇨🇳8度商店：8du.shop:63051
-      - 🇨🇳8度商店：8du.shop:63004
-      - 🇭🇰8度商店：8du.shop:60046
-      - 🇨🇳8度商店：8du.shop:63086_2
-      - 🇭🇰8度商店：8du.shop:60018
-      - 🇨🇳8度商店：8du.shop:63004_2
-      - 🇨🇳8度商店：8du.shop:63051_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2
-      - 🇨🇳8度商店：8du.shop:63014
-      - 🇨🇳8度商店：8du.shop:63004_2_2
-      - 🇭🇰8度商店：8du.shop:553
-      - 🇨🇳8度商店：8du.shop:63069_2
-      - 🇸🇬8度商店：8du.shop:59941
-      - 🇭🇰8度商店：8du.shop:60041
-      - 🇨🇳8度商店：8du.shop:36676
-      - 🇨🇳8度商店：8du.shop:63069_2_2
-      - 🇺🇸8度商店：8du.shop:50503
-      - 🇨🇳8度商店：8du.shop:63041
-      - 🇨🇳8度商店：8du.shop:53945
-      - 🇨🇳8度商店：8du.shop:40269
-      - 🇨🇳8度商店：8du.shop:63014_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2
-      - 🇨🇳8度商店：8du.shop:40109
-      - 🇨🇳8度商店：8du.shop:63087_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2
-      - 🇨🇳8度商店：8du.shop:40113
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:60301
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36678
-      - 🇨🇳8度商店：8du.shop:40291
-      - 🇨🇳8度商店：8du.shop:63087_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-      - 🇸🇬8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36672
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:40202
-      - 🇭🇰8度商店：8du.shop:60044
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63014_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63004_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+      - 🇨🇳_商店：8du.shop:55156
+      - 🇺🇸_商店：8du.shop:2086
+      - 🇨🇳_商店：8du.shop:55154
+      - 🇨🇳_商店：8du.shop:55155
+      - 🇨🇳_商店：8du.shop:48519
+      - 🇨🇳_商店：8du.shop:48517
+      - 🇳🇱_商店：8du.shop:8288
+      - 🇨🇳_商店：8du.shop:48521
+      - 🇨🇳_商店：8du.shop:55154_2
+      - 🇨🇳_商店：8du.shop:55155_2
+      - 🇨🇳_商店：8du.shop:48519_2
+      - 🇨🇳_商店：8du.shop:48517_2
+      - 🇳🇱_商店：8du.shop:8288_2
+      - 🇨🇳_商店：8du.shop:48521_2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰8度商店：8du.shop:60045
-      - 🇨🇳8度商店：8du.shop:40175
-      - 🇨🇳8度商店：8du.shop:40121
-      - 🇨🇳8度商店：8du.shop:40268
-      - 🇨🇳8度商店：8du.shop:40204
-      - 🇨🇳8度商店：8du.shop:40306
-      - 🇨🇳8度商店：8du.shop:40101
-      - 🇸🇬8度商店：8du.shop:59942
-      - 🇨🇳8度商店：8du.shop:40123
-      - 🇨🇳8度商店：8du.shop:63087
-      - 🇭🇰8度商店：8du.shop:20004
-      - 🇨🇳8度商店：8du.shop:40133
-      - 🇨🇳8度商店：8du.shop:40171
-      - 🇨🇳8度商店：8du.shop:40103
-      - 🇨🇳8度商店：8du.shop:40173
-      - 🇸🇬8度商店：8du.shop:59944
-      - 🇭🇰8度商店：8du.shop:60026
-      - 🇨🇳8度商店：8du.shop:19040
-      - 🇸🇬8度商店：8du.shop:59943
-      - 🇨🇳8度商店：8du.shop:40107
-      - 🇸🇬8度商店：8du.shop:59952
-      - 🇨🇳8度商店：8du.shop:50002
-      - 🇨🇳8度商店：8du.shop:40041
-      - 🇺🇸8度商店：8du.shop:443
-      - 🇭🇰8度商店：8du.shop:60042
-      - 🇨🇳8度商店：8du.shop:63069
-      - 🇭🇰8度商店：8du.shop:60012
-      - 🇸🇬8度商店：8du.shop:59931
-      - 🇸🇬8度商店：8du.shop:59950
-      - 🇨🇳8度商店：8du.shop:63078
-      - 🇨🇳8度商店：8du.shop:40218
-      - 🇨🇳8度商店：8du.shop:63086
-      - 🇨🇦8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:40217
-      - 🇨🇳8度商店：8du.shop:48861
-      - 🇸🇬8度商店：8du.shop:59932
-      - 🇨🇳8度商店：8du.shop:63078_2
-      - 🇨🇳8度商店：8du.shop:63051
-      - 🇨🇳8度商店：8du.shop:63004
-      - 🇭🇰8度商店：8du.shop:60046
-      - 🇨🇳8度商店：8du.shop:63086_2
-      - 🇭🇰8度商店：8du.shop:60018
-      - 🇨🇳8度商店：8du.shop:63004_2
-      - 🇨🇳8度商店：8du.shop:63051_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2
-      - 🇨🇳8度商店：8du.shop:63014
-      - 🇨🇳8度商店：8du.shop:63004_2_2
-      - 🇭🇰8度商店：8du.shop:553
-      - 🇨🇳8度商店：8du.shop:63069_2
-      - 🇸🇬8度商店：8du.shop:59941
-      - 🇭🇰8度商店：8du.shop:60041
-      - 🇨🇳8度商店：8du.shop:36676
-      - 🇨🇳8度商店：8du.shop:63069_2_2
-      - 🇺🇸8度商店：8du.shop:50503
-      - 🇨🇳8度商店：8du.shop:63041
-      - 🇨🇳8度商店：8du.shop:53945
-      - 🇨🇳8度商店：8du.shop:40269
-      - 🇨🇳8度商店：8du.shop:63014_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2
-      - 🇨🇳8度商店：8du.shop:40109
-      - 🇨🇳8度商店：8du.shop:63087_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2
-      - 🇨🇳8度商店：8du.shop:40113
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:60301
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36678
-      - 🇨🇳8度商店：8du.shop:40291
-      - 🇨🇳8度商店：8du.shop:63087_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-      - 🇸🇬8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36672
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:40202
-      - 🇭🇰8度商店：8du.shop:60044
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63014_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63004_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+      - 🇨🇳_商店：8du.shop:55156
+      - 🇺🇸_商店：8du.shop:2086
+      - 🇨🇳_商店：8du.shop:55154
+      - 🇨🇳_商店：8du.shop:55155
+      - 🇨🇳_商店：8du.shop:48519
+      - 🇨🇳_商店：8du.shop:48517
+      - 🇳🇱_商店：8du.shop:8288
+      - 🇨🇳_商店：8du.shop:48521
+      - 🇨🇳_商店：8du.shop:55154_2
+      - 🇨🇳_商店：8du.shop:55155_2
+      - 🇨🇳_商店：8du.shop:48519_2
+      - 🇨🇳_商店：8du.shop:48517_2
+      - 🇳🇱_商店：8du.shop:8288_2
+      - 🇨🇳_商店：8du.shop:48521_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰8度商店：8du.shop:60045
-      - 🇨🇳8度商店：8du.shop:40175
-      - 🇨🇳8度商店：8du.shop:40121
-      - 🇨🇳8度商店：8du.shop:40268
-      - 🇨🇳8度商店：8du.shop:40204
-      - 🇨🇳8度商店：8du.shop:40306
-      - 🇨🇳8度商店：8du.shop:40101
-      - 🇸🇬8度商店：8du.shop:59942
-      - 🇨🇳8度商店：8du.shop:40123
-      - 🇨🇳8度商店：8du.shop:63087
-      - 🇭🇰8度商店：8du.shop:20004
-      - 🇨🇳8度商店：8du.shop:40133
-      - 🇨🇳8度商店：8du.shop:40171
-      - 🇨🇳8度商店：8du.shop:40103
-      - 🇨🇳8度商店：8du.shop:40173
-      - 🇸🇬8度商店：8du.shop:59944
-      - 🇭🇰8度商店：8du.shop:60026
-      - 🇨🇳8度商店：8du.shop:19040
-      - 🇸🇬8度商店：8du.shop:59943
-      - 🇨🇳8度商店：8du.shop:40107
-      - 🇸🇬8度商店：8du.shop:59952
-      - 🇨🇳8度商店：8du.shop:50002
-      - 🇨🇳8度商店：8du.shop:40041
-      - 🇺🇸8度商店：8du.shop:443
-      - 🇭🇰8度商店：8du.shop:60042
-      - 🇨🇳8度商店：8du.shop:63069
-      - 🇭🇰8度商店：8du.shop:60012
-      - 🇸🇬8度商店：8du.shop:59931
-      - 🇸🇬8度商店：8du.shop:59950
-      - 🇨🇳8度商店：8du.shop:63078
-      - 🇨🇳8度商店：8du.shop:40218
-      - 🇨🇳8度商店：8du.shop:63086
-      - 🇨🇦8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:40217
-      - 🇨🇳8度商店：8du.shop:48861
-      - 🇸🇬8度商店：8du.shop:59932
-      - 🇨🇳8度商店：8du.shop:63078_2
-      - 🇨🇳8度商店：8du.shop:63051
-      - 🇨🇳8度商店：8du.shop:63004
-      - 🇭🇰8度商店：8du.shop:60046
-      - 🇨🇳8度商店：8du.shop:63086_2
-      - 🇭🇰8度商店：8du.shop:60018
-      - 🇨🇳8度商店：8du.shop:63004_2
-      - 🇨🇳8度商店：8du.shop:63051_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2
-      - 🇨🇳8度商店：8du.shop:63014
-      - 🇨🇳8度商店：8du.shop:63004_2_2
-      - 🇭🇰8度商店：8du.shop:553
-      - 🇨🇳8度商店：8du.shop:63069_2
-      - 🇸🇬8度商店：8du.shop:59941
-      - 🇭🇰8度商店：8du.shop:60041
-      - 🇨🇳8度商店：8du.shop:36676
-      - 🇨🇳8度商店：8du.shop:63069_2_2
-      - 🇺🇸8度商店：8du.shop:50503
-      - 🇨🇳8度商店：8du.shop:63041
-      - 🇨🇳8度商店：8du.shop:53945
-      - 🇨🇳8度商店：8du.shop:40269
-      - 🇨🇳8度商店：8du.shop:63014_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2
-      - 🇨🇳8度商店：8du.shop:40109
-      - 🇨🇳8度商店：8du.shop:63087_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2
-      - 🇨🇳8度商店：8du.shop:40113
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:60301
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36678
-      - 🇨🇳8度商店：8du.shop:40291
-      - 🇨🇳8度商店：8du.shop:63087_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-      - 🇸🇬8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36672
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:40202
-      - 🇭🇰8度商店：8du.shop:60044
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63014_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63004_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+      - 🇨🇳_商店：8du.shop:55156
+      - 🇺🇸_商店：8du.shop:2086
+      - 🇨🇳_商店：8du.shop:55154
+      - 🇨🇳_商店：8du.shop:55155
+      - 🇨🇳_商店：8du.shop:48519
+      - 🇨🇳_商店：8du.shop:48517
+      - 🇳🇱_商店：8du.shop:8288
+      - 🇨🇳_商店：8du.shop:48521
+      - 🇨🇳_商店：8du.shop:55154_2
+      - 🇨🇳_商店：8du.shop:55155_2
+      - 🇨🇳_商店：8du.shop:48519_2
+      - 🇨🇳_商店：8du.shop:48517_2
+      - 🇳🇱_商店：8du.shop:8288_2
+      - 🇨🇳_商店：8du.shop:48521_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰8度商店：8du.shop:60045
-      - 🇨🇳8度商店：8du.shop:40175
-      - 🇨🇳8度商店：8du.shop:40121
-      - 🇨🇳8度商店：8du.shop:40268
-      - 🇨🇳8度商店：8du.shop:40204
-      - 🇨🇳8度商店：8du.shop:40306
-      - 🇨🇳8度商店：8du.shop:40101
-      - 🇸🇬8度商店：8du.shop:59942
-      - 🇨🇳8度商店：8du.shop:40123
-      - 🇨🇳8度商店：8du.shop:63087
-      - 🇭🇰8度商店：8du.shop:20004
-      - 🇨🇳8度商店：8du.shop:40133
-      - 🇨🇳8度商店：8du.shop:40171
-      - 🇨🇳8度商店：8du.shop:40103
-      - 🇨🇳8度商店：8du.shop:40173
-      - 🇸🇬8度商店：8du.shop:59944
-      - 🇭🇰8度商店：8du.shop:60026
-      - 🇨🇳8度商店：8du.shop:19040
-      - 🇸🇬8度商店：8du.shop:59943
-      - 🇨🇳8度商店：8du.shop:40107
-      - 🇸🇬8度商店：8du.shop:59952
-      - 🇨🇳8度商店：8du.shop:50002
-      - 🇨🇳8度商店：8du.shop:40041
-      - 🇺🇸8度商店：8du.shop:443
-      - 🇭🇰8度商店：8du.shop:60042
-      - 🇨🇳8度商店：8du.shop:63069
-      - 🇭🇰8度商店：8du.shop:60012
-      - 🇸🇬8度商店：8du.shop:59931
-      - 🇸🇬8度商店：8du.shop:59950
-      - 🇨🇳8度商店：8du.shop:63078
-      - 🇨🇳8度商店：8du.shop:40218
-      - 🇨🇳8度商店：8du.shop:63086
-      - 🇨🇦8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:40217
-      - 🇨🇳8度商店：8du.shop:48861
-      - 🇸🇬8度商店：8du.shop:59932
-      - 🇨🇳8度商店：8du.shop:63078_2
-      - 🇨🇳8度商店：8du.shop:63051
-      - 🇨🇳8度商店：8du.shop:63004
-      - 🇭🇰8度商店：8du.shop:60046
-      - 🇨🇳8度商店：8du.shop:63086_2
-      - 🇭🇰8度商店：8du.shop:60018
-      - 🇨🇳8度商店：8du.shop:63004_2
-      - 🇨🇳8度商店：8du.shop:63051_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2
-      - 🇨🇳8度商店：8du.shop:63014
-      - 🇨🇳8度商店：8du.shop:63004_2_2
-      - 🇭🇰8度商店：8du.shop:553
-      - 🇨🇳8度商店：8du.shop:63069_2
-      - 🇸🇬8度商店：8du.shop:59941
-      - 🇭🇰8度商店：8du.shop:60041
-      - 🇨🇳8度商店：8du.shop:36676
-      - 🇨🇳8度商店：8du.shop:63069_2_2
-      - 🇺🇸8度商店：8du.shop:50503
-      - 🇨🇳8度商店：8du.shop:63041
-      - 🇨🇳8度商店：8du.shop:53945
-      - 🇨🇳8度商店：8du.shop:40269
-      - 🇨🇳8度商店：8du.shop:63014_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2
-      - 🇨🇳8度商店：8du.shop:40109
-      - 🇨🇳8度商店：8du.shop:63087_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2
-      - 🇨🇳8度商店：8du.shop:40113
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:60301
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36678
-      - 🇨🇳8度商店：8du.shop:40291
-      - 🇨🇳8度商店：8du.shop:63087_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-      - 🇸🇬8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36672
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:40202
-      - 🇭🇰8度商店：8du.shop:60044
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63014_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63004_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+      - 🇨🇳_商店：8du.shop:55156
+      - 🇺🇸_商店：8du.shop:2086
+      - 🇨🇳_商店：8du.shop:55154
+      - 🇨🇳_商店：8du.shop:55155
+      - 🇨🇳_商店：8du.shop:48519
+      - 🇨🇳_商店：8du.shop:48517
+      - 🇳🇱_商店：8du.shop:8288
+      - 🇨🇳_商店：8du.shop:48521
+      - 🇨🇳_商店：8du.shop:55154_2
+      - 🇨🇳_商店：8du.shop:55155_2
+      - 🇨🇳_商店：8du.shop:48519_2
+      - 🇨🇳_商店：8du.shop:48517_2
+      - 🇳🇱_商店：8du.shop:8288_2
+      - 🇨🇳_商店：8du.shop:48521_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇭🇰8度商店：8du.shop:60045
-      - 🇨🇳8度商店：8du.shop:40175
-      - 🇨🇳8度商店：8du.shop:40121
-      - 🇨🇳8度商店：8du.shop:40268
-      - 🇨🇳8度商店：8du.shop:40204
-      - 🇨🇳8度商店：8du.shop:40306
-      - 🇨🇳8度商店：8du.shop:40101
-      - 🇸🇬8度商店：8du.shop:59942
-      - 🇨🇳8度商店：8du.shop:40123
-      - 🇨🇳8度商店：8du.shop:63087
-      - 🇭🇰8度商店：8du.shop:20004
-      - 🇨🇳8度商店：8du.shop:40133
-      - 🇨🇳8度商店：8du.shop:40171
-      - 🇨🇳8度商店：8du.shop:40103
-      - 🇨🇳8度商店：8du.shop:40173
-      - 🇸🇬8度商店：8du.shop:59944
-      - 🇭🇰8度商店：8du.shop:60026
-      - 🇨🇳8度商店：8du.shop:19040
-      - 🇸🇬8度商店：8du.shop:59943
-      - 🇨🇳8度商店：8du.shop:40107
-      - 🇸🇬8度商店：8du.shop:59952
-      - 🇨🇳8度商店：8du.shop:50002
-      - 🇨🇳8度商店：8du.shop:40041
-      - 🇺🇸8度商店：8du.shop:443
-      - 🇭🇰8度商店：8du.shop:60042
-      - 🇨🇳8度商店：8du.shop:63069
-      - 🇭🇰8度商店：8du.shop:60012
-      - 🇸🇬8度商店：8du.shop:59931
-      - 🇸🇬8度商店：8du.shop:59950
-      - 🇨🇳8度商店：8du.shop:63078
-      - 🇨🇳8度商店：8du.shop:40218
-      - 🇨🇳8度商店：8du.shop:63086
-      - 🇨🇦8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:40217
-      - 🇨🇳8度商店：8du.shop:48861
-      - 🇸🇬8度商店：8du.shop:59932
-      - 🇨🇳8度商店：8du.shop:63078_2
-      - 🇨🇳8度商店：8du.shop:63051
-      - 🇨🇳8度商店：8du.shop:63004
-      - 🇭🇰8度商店：8du.shop:60046
-      - 🇨🇳8度商店：8du.shop:63086_2
-      - 🇭🇰8度商店：8du.shop:60018
-      - 🇨🇳8度商店：8du.shop:63004_2
-      - 🇨🇳8度商店：8du.shop:63051_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2
-      - 🇨🇳8度商店：8du.shop:63014
-      - 🇨🇳8度商店：8du.shop:63004_2_2
-      - 🇭🇰8度商店：8du.shop:553
-      - 🇨🇳8度商店：8du.shop:63069_2
-      - 🇸🇬8度商店：8du.shop:59941
-      - 🇭🇰8度商店：8du.shop:60041
-      - 🇨🇳8度商店：8du.shop:36676
-      - 🇨🇳8度商店：8du.shop:63069_2_2
-      - 🇺🇸8度商店：8du.shop:50503
-      - 🇨🇳8度商店：8du.shop:63041
-      - 🇨🇳8度商店：8du.shop:53945
-      - 🇨🇳8度商店：8du.shop:40269
-      - 🇨🇳8度商店：8du.shop:63014_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2
-      - 🇨🇳8度商店：8du.shop:40109
-      - 🇨🇳8度商店：8du.shop:63087_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2
-      - 🇨🇳8度商店：8du.shop:40113
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:60301
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36678
-      - 🇨🇳8度商店：8du.shop:40291
-      - 🇨🇳8度商店：8du.shop:63087_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-      - 🇸🇬8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36672
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:40202
-      - 🇭🇰8度商店：8du.shop:60044
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63014_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63004_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+      - 🇨🇳_商店：8du.shop:55156
+      - 🇺🇸_商店：8du.shop:2086
+      - 🇨🇳_商店：8du.shop:55154
+      - 🇨🇳_商店：8du.shop:55155
+      - 🇨🇳_商店：8du.shop:48519
+      - 🇨🇳_商店：8du.shop:48517
+      - 🇳🇱_商店：8du.shop:8288
+      - 🇨🇳_商店：8du.shop:48521
+      - 🇨🇳_商店：8du.shop:55154_2
+      - 🇨🇳_商店：8du.shop:55155_2
+      - 🇨🇳_商店：8du.shop:48519_2
+      - 🇨🇳_商店：8du.shop:48517_2
+      - 🇳🇱_商店：8du.shop:8288_2
+      - 🇨🇳_商店：8du.shop:48521_2
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰8度商店：8du.shop:60045
-      - 🇨🇳8度商店：8du.shop:40175
-      - 🇨🇳8度商店：8du.shop:40121
-      - 🇨🇳8度商店：8du.shop:40268
-      - 🇨🇳8度商店：8du.shop:40204
-      - 🇨🇳8度商店：8du.shop:40306
-      - 🇨🇳8度商店：8du.shop:40101
-      - 🇸🇬8度商店：8du.shop:59942
-      - 🇨🇳8度商店：8du.shop:40123
-      - 🇨🇳8度商店：8du.shop:63087
-      - 🇭🇰8度商店：8du.shop:20004
-      - 🇨🇳8度商店：8du.shop:40133
-      - 🇨🇳8度商店：8du.shop:40171
-      - 🇨🇳8度商店：8du.shop:40103
-      - 🇨🇳8度商店：8du.shop:40173
-      - 🇸🇬8度商店：8du.shop:59944
-      - 🇭🇰8度商店：8du.shop:60026
-      - 🇨🇳8度商店：8du.shop:19040
-      - 🇸🇬8度商店：8du.shop:59943
-      - 🇨🇳8度商店：8du.shop:40107
-      - 🇸🇬8度商店：8du.shop:59952
-      - 🇨🇳8度商店：8du.shop:50002
-      - 🇨🇳8度商店：8du.shop:40041
-      - 🇺🇸8度商店：8du.shop:443
-      - 🇭🇰8度商店：8du.shop:60042
-      - 🇨🇳8度商店：8du.shop:63069
-      - 🇭🇰8度商店：8du.shop:60012
-      - 🇸🇬8度商店：8du.shop:59931
-      - 🇸🇬8度商店：8du.shop:59950
-      - 🇨🇳8度商店：8du.shop:63078
-      - 🇨🇳8度商店：8du.shop:40218
-      - 🇨🇳8度商店：8du.shop:63086
-      - 🇨🇦8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:40217
-      - 🇨🇳8度商店：8du.shop:48861
-      - 🇸🇬8度商店：8du.shop:59932
-      - 🇨🇳8度商店：8du.shop:63078_2
-      - 🇨🇳8度商店：8du.shop:63051
-      - 🇨🇳8度商店：8du.shop:63004
-      - 🇭🇰8度商店：8du.shop:60046
-      - 🇨🇳8度商店：8du.shop:63086_2
-      - 🇭🇰8度商店：8du.shop:60018
-      - 🇨🇳8度商店：8du.shop:63004_2
-      - 🇨🇳8度商店：8du.shop:63051_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2
-      - 🇨🇳8度商店：8du.shop:63014
-      - 🇨🇳8度商店：8du.shop:63004_2_2
-      - 🇭🇰8度商店：8du.shop:553
-      - 🇨🇳8度商店：8du.shop:63069_2
-      - 🇸🇬8度商店：8du.shop:59941
-      - 🇭🇰8度商店：8du.shop:60041
-      - 🇨🇳8度商店：8du.shop:36676
-      - 🇨🇳8度商店：8du.shop:63069_2_2
-      - 🇺🇸8度商店：8du.shop:50503
-      - 🇨🇳8度商店：8du.shop:63041
-      - 🇨🇳8度商店：8du.shop:53945
-      - 🇨🇳8度商店：8du.shop:40269
-      - 🇨🇳8度商店：8du.shop:63014_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2
-      - 🇨🇳8度商店：8du.shop:40109
-      - 🇨🇳8度商店：8du.shop:63087_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2
-      - 🇨🇳8度商店：8du.shop:40113
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:60301
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36678
-      - 🇨🇳8度商店：8du.shop:40291
-      - 🇨🇳8度商店：8du.shop:63087_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-      - 🇸🇬8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36672
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:40202
-      - 🇭🇰8度商店：8du.shop:60044
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63014_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63004_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+      - 🇨🇳_商店：8du.shop:55156
+      - 🇺🇸_商店：8du.shop:2086
+      - 🇨🇳_商店：8du.shop:55154
+      - 🇨🇳_商店：8du.shop:55155
+      - 🇨🇳_商店：8du.shop:48519
+      - 🇨🇳_商店：8du.shop:48517
+      - 🇳🇱_商店：8du.shop:8288
+      - 🇨🇳_商店：8du.shop:48521
+      - 🇨🇳_商店：8du.shop:55154_2
+      - 🇨🇳_商店：8du.shop:55155_2
+      - 🇨🇳_商店：8du.shop:48519_2
+      - 🇨🇳_商店：8du.shop:48517_2
+      - 🇳🇱_商店：8du.shop:8288_2
+      - 🇨🇳_商店：8du.shop:48521_2
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 🇭🇰8度商店：8du.shop:60045
-      - 🇨🇳8度商店：8du.shop:40175
-      - 🇨🇳8度商店：8du.shop:40121
-      - 🇨🇳8度商店：8du.shop:40268
-      - 🇨🇳8度商店：8du.shop:40204
-      - 🇨🇳8度商店：8du.shop:40306
-      - 🇨🇳8度商店：8du.shop:40101
-      - 🇸🇬8度商店：8du.shop:59942
-      - 🇨🇳8度商店：8du.shop:40123
-      - 🇨🇳8度商店：8du.shop:63087
-      - 🇭🇰8度商店：8du.shop:20004
-      - 🇨🇳8度商店：8du.shop:40133
-      - 🇨🇳8度商店：8du.shop:40171
-      - 🇨🇳8度商店：8du.shop:40103
-      - 🇨🇳8度商店：8du.shop:40173
-      - 🇸🇬8度商店：8du.shop:59944
-      - 🇭🇰8度商店：8du.shop:60026
-      - 🇨🇳8度商店：8du.shop:19040
-      - 🇸🇬8度商店：8du.shop:59943
-      - 🇨🇳8度商店：8du.shop:40107
-      - 🇸🇬8度商店：8du.shop:59952
-      - 🇨🇳8度商店：8du.shop:50002
-      - 🇨🇳8度商店：8du.shop:40041
-      - 🇺🇸8度商店：8du.shop:443
-      - 🇭🇰8度商店：8du.shop:60042
-      - 🇨🇳8度商店：8du.shop:63069
-      - 🇭🇰8度商店：8du.shop:60012
-      - 🇸🇬8度商店：8du.shop:59931
-      - 🇸🇬8度商店：8du.shop:59950
-      - 🇨🇳8度商店：8du.shop:63078
-      - 🇨🇳8度商店：8du.shop:40218
-      - 🇨🇳8度商店：8du.shop:63086
-      - 🇨🇦8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:40217
-      - 🇨🇳8度商店：8du.shop:48861
-      - 🇸🇬8度商店：8du.shop:59932
-      - 🇨🇳8度商店：8du.shop:63078_2
-      - 🇨🇳8度商店：8du.shop:63051
-      - 🇨🇳8度商店：8du.shop:63004
-      - 🇭🇰8度商店：8du.shop:60046
-      - 🇨🇳8度商店：8du.shop:63086_2
-      - 🇭🇰8度商店：8du.shop:60018
-      - 🇨🇳8度商店：8du.shop:63004_2
-      - 🇨🇳8度商店：8du.shop:63051_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2
-      - 🇨🇳8度商店：8du.shop:63014
-      - 🇨🇳8度商店：8du.shop:63004_2_2
-      - 🇭🇰8度商店：8du.shop:553
-      - 🇨🇳8度商店：8du.shop:63069_2
-      - 🇸🇬8度商店：8du.shop:59941
-      - 🇭🇰8度商店：8du.shop:60041
-      - 🇨🇳8度商店：8du.shop:36676
-      - 🇨🇳8度商店：8du.shop:63069_2_2
-      - 🇺🇸8度商店：8du.shop:50503
-      - 🇨🇳8度商店：8du.shop:63041
-      - 🇨🇳8度商店：8du.shop:53945
-      - 🇨🇳8度商店：8du.shop:40269
-      - 🇨🇳8度商店：8du.shop:63014_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2
-      - 🇨🇳8度商店：8du.shop:40109
-      - 🇨🇳8度商店：8du.shop:63087_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2
-      - 🇨🇳8度商店：8du.shop:40113
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:60301
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36678
-      - 🇨🇳8度商店：8du.shop:40291
-      - 🇨🇳8度商店：8du.shop:63087_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-      - 🇸🇬8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36672
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:40202
-      - 🇭🇰8度商店：8du.shop:60044
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63014_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63004_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+      - 🇨🇳_商店：8du.shop:55156
+      - 🇺🇸_商店：8du.shop:2086
+      - 🇨🇳_商店：8du.shop:55154
+      - 🇨🇳_商店：8du.shop:55155
+      - 🇨🇳_商店：8du.shop:48519
+      - 🇨🇳_商店：8du.shop:48517
+      - 🇳🇱_商店：8du.shop:8288
+      - 🇨🇳_商店：8du.shop:48521
+      - 🇨🇳_商店：8du.shop:55154_2
+      - 🇨🇳_商店：8du.shop:55155_2
+      - 🇨🇳_商店：8du.shop:48519_2
+      - 🇨🇳_商店：8du.shop:48517_2
+      - 🇳🇱_商店：8du.shop:8288_2
+      - 🇨🇳_商店：8du.shop:48521_2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰8度商店：8du.shop:60045
-      - 🇨🇳8度商店：8du.shop:40175
-      - 🇨🇳8度商店：8du.shop:40121
-      - 🇨🇳8度商店：8du.shop:40268
-      - 🇨🇳8度商店：8du.shop:40204
-      - 🇨🇳8度商店：8du.shop:40306
-      - 🇨🇳8度商店：8du.shop:40101
-      - 🇸🇬8度商店：8du.shop:59942
-      - 🇨🇳8度商店：8du.shop:40123
-      - 🇨🇳8度商店：8du.shop:63087
-      - 🇭🇰8度商店：8du.shop:20004
-      - 🇨🇳8度商店：8du.shop:40133
-      - 🇨🇳8度商店：8du.shop:40171
-      - 🇨🇳8度商店：8du.shop:40103
-      - 🇨🇳8度商店：8du.shop:40173
-      - 🇸🇬8度商店：8du.shop:59944
-      - 🇭🇰8度商店：8du.shop:60026
-      - 🇨🇳8度商店：8du.shop:19040
-      - 🇸🇬8度商店：8du.shop:59943
-      - 🇨🇳8度商店：8du.shop:40107
-      - 🇸🇬8度商店：8du.shop:59952
-      - 🇨🇳8度商店：8du.shop:50002
-      - 🇨🇳8度商店：8du.shop:40041
-      - 🇺🇸8度商店：8du.shop:443
-      - 🇭🇰8度商店：8du.shop:60042
-      - 🇨🇳8度商店：8du.shop:63069
-      - 🇭🇰8度商店：8du.shop:60012
-      - 🇸🇬8度商店：8du.shop:59931
-      - 🇸🇬8度商店：8du.shop:59950
-      - 🇨🇳8度商店：8du.shop:63078
-      - 🇨🇳8度商店：8du.shop:40218
-      - 🇨🇳8度商店：8du.shop:63086
-      - 🇨🇦8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:40217
-      - 🇨🇳8度商店：8du.shop:48861
-      - 🇸🇬8度商店：8du.shop:59932
-      - 🇨🇳8度商店：8du.shop:63078_2
-      - 🇨🇳8度商店：8du.shop:63051
-      - 🇨🇳8度商店：8du.shop:63004
-      - 🇭🇰8度商店：8du.shop:60046
-      - 🇨🇳8度商店：8du.shop:63086_2
-      - 🇭🇰8度商店：8du.shop:60018
-      - 🇨🇳8度商店：8du.shop:63004_2
-      - 🇨🇳8度商店：8du.shop:63051_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2
-      - 🇨🇳8度商店：8du.shop:63014
-      - 🇨🇳8度商店：8du.shop:63004_2_2
-      - 🇭🇰8度商店：8du.shop:553
-      - 🇨🇳8度商店：8du.shop:63069_2
-      - 🇸🇬8度商店：8du.shop:59941
-      - 🇭🇰8度商店：8du.shop:60041
-      - 🇨🇳8度商店：8du.shop:36676
-      - 🇨🇳8度商店：8du.shop:63069_2_2
-      - 🇺🇸8度商店：8du.shop:50503
-      - 🇨🇳8度商店：8du.shop:63041
-      - 🇨🇳8度商店：8du.shop:53945
-      - 🇨🇳8度商店：8du.shop:40269
-      - 🇨🇳8度商店：8du.shop:63014_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2
-      - 🇨🇳8度商店：8du.shop:40109
-      - 🇨🇳8度商店：8du.shop:63087_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2
-      - 🇨🇳8度商店：8du.shop:40113
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:60301
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36678
-      - 🇨🇳8度商店：8du.shop:40291
-      - 🇨🇳8度商店：8du.shop:63087_2_2
-      - 🇨🇳8度商店：8du.shop:63051_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2
-      - 🇸🇬8度商店：8du.shop:443
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:36672
-      - 🇨🇳8度商店：8du.shop:63069_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:40202
-      - 🇭🇰8度商店：8du.shop:60044
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63087_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63014_2_2
-      - 🇨🇳8度商店：8du.shop:63086_2_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2
-      - 🇨🇳8度商店：8du.shop:63004_2_2_2
-      - 🇨🇳8度商店：8du.shop:63078_2_2_2_2_2_2
+      - 🇨🇳_商店：8du.shop:55156
+      - 🇺🇸_商店：8du.shop:2086
+      - 🇨🇳_商店：8du.shop:55154
+      - 🇨🇳_商店：8du.shop:55155
+      - 🇨🇳_商店：8du.shop:48519
+      - 🇨🇳_商店：8du.shop:48517
+      - 🇳🇱_商店：8du.shop:8288
+      - 🇨🇳_商店：8du.shop:48521
+      - 🇨🇳_商店：8du.shop:55154_2
+      - 🇨🇳_商店：8du.shop:55155_2
+      - 🇨🇳_商店：8du.shop:48519_2
+      - 🇨🇳_商店：8du.shop:48517_2
+      - 🇳🇱_商店：8du.shop:8288_2
+      - 🇨🇳_商店：8du.shop:48521_2
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
