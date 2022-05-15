@@ -5,36 +5,89 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇨🇳_商店：8du.shop:55156
+  - name: TW 2:15571
     type: vmess
-    server: fs.keaiyun.top
-    port: 55156
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸_商店：8du.shop:2086
-    type: vmess
-    server: kr-direct-cdn.node001.xyz
-    port: 2086
-    uuid: a1f3e867-8f8d-3763-bb80-21da561e6714
-    alterId: "0"
+    server: tw2.xmrth-node.xyz
+    port: 15571
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /mg
+    ws-path: /index
     ws-headers:
-      Host: /t.me/mengge88888888
-  - name: 🇨🇳_商店：8du.shop:55154
+      Host: www.baidu.com
+  - name: TW 1:15529
     type: vmess
-    server: fs.keaiyun.top
-    port: 55154
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
+    server: tw1.xmrth-node.xyz
+    port: 15529
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG 006:14510
+    type: vmess
+    server: sgaws006.xmrth-node.xyz
+    port: 14510
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG 005:13057
+    type: vmess
+    server: sgaws005.xmrth-node.xyz
+    port: 13057
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG 002:14508
+    type: vmess
+    server: sgaws002.xmrth-node.xyz
+    port: 14508
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG 001:15574
+    type: vmess
+    server: sgaws001.xmrth-node.xyz
+    port: 15574
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: 🇨🇳_商店：8du.shop:3333
+    type: vmess
+    server: s4.mine.com.cn
+    port: 3333
+    uuid: 5eea1f96-6e33-4409-b8b4-a8d3596ec991
     alterId: "0"
     cipher: auto
     udp: true
@@ -42,136 +95,440 @@ proxies:
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳_商店：8du.shop:55155
+  - name: KR 006:15561
     type: vmess
-    server: fs.keaiyun.top
-    port: 55155
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
+    server: kraws006.xmrth-node.xyz
+    port: 15561
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: KR 005:15288
+    type: vmess
+    server: kraws005.xmrth-node.xyz
+    port: 15288
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: KR 004:15545
+    type: vmess
+    server: kraws004.xmrth-node.xyz
+    port: 15545
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: KR 003:15553
+    type: vmess
+    server: kraws003.xmrth-node.xyz
+    port: 15553
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: KR 002:15569
+    type: vmess
+    server: kraws002.xmrth-node.xyz
+    port: 15569
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: KR 001:15573
+    type: vmess
+    server: kraws001.xmrth-node.xyz
+    port: 15573
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: JP 005:15566
+    type: vmess
+    server: jplin005.xmrth-node.xyz
+    port: 15566
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: JP 003:15570
+    type: vmess
+    server: jplin003.xmrth-node.xyz
+    port: 15570
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: JP 101:15394
+    type: vmess
+    server: jpaz1.xmrth-node.xyz
+    port: 15394
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: US B 001:15547
+    type: vmess
+    server: jpaz1.xmrth-node.xyz
+    port: 15547
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: IN B 001:11032
+    type: vmess
+    server: jpaz1.xmrth-node.xyz
+    port: 11032
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: JP B 001:11178
+    type: vmess
+    server: jpaz1.xmrth-node.xyz
+    port: 11178
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: JP 006:14433
+    type: vmess
+    server: jpaws006.xmrth-node.xyz
+    port: 14433
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: JP 002:15262
+    type: vmess
+    server: jpaws002.xmrth-node.xyz
+    port: 15262
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: US 008:12265
+    type: vmess
+    server: inap008.xmrth-node.xyz
+    port: 12265
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: US 007:15567
+    type: vmess
+    server: inap007.xmrth-node.xyz
+    port: 15567
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: US 005:15555
+    type: vmess
+    server: inap005.xmrth-node.xyz
+    port: 15555
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: US 002:11465
+    type: vmess
+    server: inap002.xmrth-node.xyz
+    port: 11465
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: HK 105:14492
+    type: vmess
+    server: hkaz5.xmrth-node.xyz
+    port: 14492
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: KR A 005:14163
+    type: vmess
+    server: hkaz5.xmrth-node.xyz
+    port: 14163
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG A 005:14164
+    type: vmess
+    server: hkaz5.xmrth-node.xyz
+    port: 14164
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: TW A 2:14017
+    type: vmess
+    server: hkaz2.xmrth-node.xyz
+    port: 14017
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: SG A 002:15437
+    type: vmess
+    server: hkaz2.xmrth-node.xyz
+    port: 15437
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: KR A 002:15558
+    type: vmess
+    server: hkaz2.xmrth-node.xyz
+    port: 15558
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: HK 102:14935
+    type: vmess
+    server: hkaz2.xmrth-node.xyz
+    port: 14935
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: IN A 002:11154
+    type: vmess
+    server: hkaz2.xmrth-node.xyz
+    port: 11154
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: HK 002:14499
+    type: vmess
+    server: hkaz002.xmrth-node.xyz
+    port: 14499
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: AU 001:13963
+    type: vmess
+    server: aulin001.xmrth-node.xyz
+    port: 13963
+    uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
+    alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /index
+    ws-headers:
+      Host: www.baidu.com
+  - name: 🇨🇳_商店：8du.shop:31204
+    type: vmess
+    server: 211.91.243.240
+    port: 31204
+    uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
     alterId: "0"
     cipher: auto
     udp: true
     network: tcp
-    tls: null
+    tls: true
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳_商店：8du.shop:48519
+  - name: 🇨🇳_商店：8du.shop:31203
     type: vmess
-    server: fs.keaiyun.top
-    port: 48519
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
+    server: 211.91.243.240
+    port: 31203
+    uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
     alterId: "0"
     cipher: auto
     udp: true
     network: tcp
-    tls: null
+    tls: true
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳_商店：8du.shop:48517
+  - name: 🇨🇳_商店：8du.shop:31225
     type: vmess
-    server: fs.keaiyun.top
-    port: 48517
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
+    server: 211.91.243.240
+    port: 31225
+    uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
     alterId: "0"
     cipher: auto
     udp: true
     network: tcp
-    tls: null
+    tls: true
     ws-path: ""
     ws-headers: null
-  - name: 🇳🇱_商店：8du.shop:8288
+  - name: 🇨🇳_商店：8du.shop:31215
     type: vmess
-    server: c69s5.jamjams.net
-    port: 8288
-    uuid: 614ee3a3-90ad-4239-8eb0-1661daba6c2a
+    server: 211.91.243.240
+    port: 31215
+    uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
     alterId: "0"
     cipher: auto
     udp: true
     network: tcp
-    tls: null
+    tls: true
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳_商店：8du.shop:48521
+  - name: 🇨🇳_商店：8du.shop:31201
     type: vmess
-    server: fs.keaiyun.top
-    port: 48521
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
+    server: 211.91.243.240
+    port: 31201
+    uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
     alterId: "0"
     cipher: auto
     udp: true
     network: tcp
-    tls: null
+    tls: true
     ws-path: ""
     ws-headers: null
-  - name: 🇨🇳_商店：8du.shop:55154_2
+  - name: 🇨🇳_商店：8du.shop:31601
     type: vmess
-    server: fs.keaiyun.top
-    port: 55154
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
+    server: 183.232.48.186
+    port: 31601
+    uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
     alterId: "0"
     cipher: auto
     udp: true
     network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳_商店：8du.shop:55155_2
-    type: vmess
-    server: fs.keaiyun.top
-    port: 55155
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳_商店：8du.shop:48519_2
-    type: vmess
-    server: fs.keaiyun.top
-    port: 48519
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳_商店：8du.shop:48517_2
-    type: vmess
-    server: fs.keaiyun.top
-    port: 48517
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇳🇱_商店：8du.shop:8288_2
-    type: vmess
-    server: c69s5.jamjams.net
-    port: 8288
-    uuid: 614ee3a3-90ad-4239-8eb0-1661daba6c2a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳_商店：8du.shop:48521_2
-    type: vmess
-    server: fs.keaiyun.top
-    port: 48521
-    uuid: 6bdb5616-d0ca-3638-8a96-5a70b8ca27a5
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
+    tls: true
     ws-path: ""
     ws-headers: null
 proxy-groups:
@@ -180,193 +537,463 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_商店：8du.shop:55156
-      - 🇺🇸_商店：8du.shop:2086
-      - 🇨🇳_商店：8du.shop:55154
-      - 🇨🇳_商店：8du.shop:55155
-      - 🇨🇳_商店：8du.shop:48519
-      - 🇨🇳_商店：8du.shop:48517
-      - 🇳🇱_商店：8du.shop:8288
-      - 🇨🇳_商店：8du.shop:48521
-      - 🇨🇳_商店：8du.shop:55154_2
-      - 🇨🇳_商店：8du.shop:55155_2
-      - 🇨🇳_商店：8du.shop:48519_2
-      - 🇨🇳_商店：8du.shop:48517_2
-      - 🇳🇱_商店：8du.shop:8288_2
-      - 🇨🇳_商店：8du.shop:48521_2
+      - TW 2:15571
+      - TW 1:15529
+      - SG 006:14510
+      - SG 005:13057
+      - SG 002:14508
+      - SG 001:15574
+      - 🇨🇳_商店：8du.shop:3333
+      - KR 006:15561
+      - KR 005:15288
+      - KR 004:15545
+      - KR 003:15553
+      - KR 002:15569
+      - KR 001:15573
+      - JP 005:15566
+      - JP 003:15570
+      - JP 101:15394
+      - US B 001:15547
+      - IN B 001:11032
+      - JP B 001:11178
+      - JP 006:14433
+      - JP 002:15262
+      - US 008:12265
+      - US 007:15567
+      - US 005:15555
+      - US 002:11465
+      - HK 105:14492
+      - KR A 005:14163
+      - SG A 005:14164
+      - TW A 2:14017
+      - SG A 002:15437
+      - KR A 002:15558
+      - HK 102:14935
+      - IN A 002:11154
+      - HK 002:14499
+      - AU 001:13963
+      - 🇨🇳_商店：8du.shop:31204
+      - 🇨🇳_商店：8du.shop:31203
+      - 🇨🇳_商店：8du.shop:31225
+      - 🇨🇳_商店：8du.shop:31215
+      - 🇨🇳_商店：8du.shop:31201
+      - 🇨🇳_商店：8du.shop:31601
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇨🇳_商店：8du.shop:55156
-      - 🇺🇸_商店：8du.shop:2086
-      - 🇨🇳_商店：8du.shop:55154
-      - 🇨🇳_商店：8du.shop:55155
-      - 🇨🇳_商店：8du.shop:48519
-      - 🇨🇳_商店：8du.shop:48517
-      - 🇳🇱_商店：8du.shop:8288
-      - 🇨🇳_商店：8du.shop:48521
-      - 🇨🇳_商店：8du.shop:55154_2
-      - 🇨🇳_商店：8du.shop:55155_2
-      - 🇨🇳_商店：8du.shop:48519_2
-      - 🇨🇳_商店：8du.shop:48517_2
-      - 🇳🇱_商店：8du.shop:8288_2
-      - 🇨🇳_商店：8du.shop:48521_2
+      - TW 2:15571
+      - TW 1:15529
+      - SG 006:14510
+      - SG 005:13057
+      - SG 002:14508
+      - SG 001:15574
+      - 🇨🇳_商店：8du.shop:3333
+      - KR 006:15561
+      - KR 005:15288
+      - KR 004:15545
+      - KR 003:15553
+      - KR 002:15569
+      - KR 001:15573
+      - JP 005:15566
+      - JP 003:15570
+      - JP 101:15394
+      - US B 001:15547
+      - IN B 001:11032
+      - JP B 001:11178
+      - JP 006:14433
+      - JP 002:15262
+      - US 008:12265
+      - US 007:15567
+      - US 005:15555
+      - US 002:11465
+      - HK 105:14492
+      - KR A 005:14163
+      - SG A 005:14164
+      - TW A 2:14017
+      - SG A 002:15437
+      - KR A 002:15558
+      - HK 102:14935
+      - IN A 002:11154
+      - HK 002:14499
+      - AU 001:13963
+      - 🇨🇳_商店：8du.shop:31204
+      - 🇨🇳_商店：8du.shop:31203
+      - 🇨🇳_商店：8du.shop:31225
+      - 🇨🇳_商店：8du.shop:31215
+      - 🇨🇳_商店：8du.shop:31201
+      - 🇨🇳_商店：8du.shop:31601
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_商店：8du.shop:55156
-      - 🇺🇸_商店：8du.shop:2086
-      - 🇨🇳_商店：8du.shop:55154
-      - 🇨🇳_商店：8du.shop:55155
-      - 🇨🇳_商店：8du.shop:48519
-      - 🇨🇳_商店：8du.shop:48517
-      - 🇳🇱_商店：8du.shop:8288
-      - 🇨🇳_商店：8du.shop:48521
-      - 🇨🇳_商店：8du.shop:55154_2
-      - 🇨🇳_商店：8du.shop:55155_2
-      - 🇨🇳_商店：8du.shop:48519_2
-      - 🇨🇳_商店：8du.shop:48517_2
-      - 🇳🇱_商店：8du.shop:8288_2
-      - 🇨🇳_商店：8du.shop:48521_2
+      - TW 2:15571
+      - TW 1:15529
+      - SG 006:14510
+      - SG 005:13057
+      - SG 002:14508
+      - SG 001:15574
+      - 🇨🇳_商店：8du.shop:3333
+      - KR 006:15561
+      - KR 005:15288
+      - KR 004:15545
+      - KR 003:15553
+      - KR 002:15569
+      - KR 001:15573
+      - JP 005:15566
+      - JP 003:15570
+      - JP 101:15394
+      - US B 001:15547
+      - IN B 001:11032
+      - JP B 001:11178
+      - JP 006:14433
+      - JP 002:15262
+      - US 008:12265
+      - US 007:15567
+      - US 005:15555
+      - US 002:11465
+      - HK 105:14492
+      - KR A 005:14163
+      - SG A 005:14164
+      - TW A 2:14017
+      - SG A 002:15437
+      - KR A 002:15558
+      - HK 102:14935
+      - IN A 002:11154
+      - HK 002:14499
+      - AU 001:13963
+      - 🇨🇳_商店：8du.shop:31204
+      - 🇨🇳_商店：8du.shop:31203
+      - 🇨🇳_商店：8du.shop:31225
+      - 🇨🇳_商店：8du.shop:31215
+      - 🇨🇳_商店：8du.shop:31201
+      - 🇨🇳_商店：8du.shop:31601
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_商店：8du.shop:55156
-      - 🇺🇸_商店：8du.shop:2086
-      - 🇨🇳_商店：8du.shop:55154
-      - 🇨🇳_商店：8du.shop:55155
-      - 🇨🇳_商店：8du.shop:48519
-      - 🇨🇳_商店：8du.shop:48517
-      - 🇳🇱_商店：8du.shop:8288
-      - 🇨🇳_商店：8du.shop:48521
-      - 🇨🇳_商店：8du.shop:55154_2
-      - 🇨🇳_商店：8du.shop:55155_2
-      - 🇨🇳_商店：8du.shop:48519_2
-      - 🇨🇳_商店：8du.shop:48517_2
-      - 🇳🇱_商店：8du.shop:8288_2
-      - 🇨🇳_商店：8du.shop:48521_2
+      - TW 2:15571
+      - TW 1:15529
+      - SG 006:14510
+      - SG 005:13057
+      - SG 002:14508
+      - SG 001:15574
+      - 🇨🇳_商店：8du.shop:3333
+      - KR 006:15561
+      - KR 005:15288
+      - KR 004:15545
+      - KR 003:15553
+      - KR 002:15569
+      - KR 001:15573
+      - JP 005:15566
+      - JP 003:15570
+      - JP 101:15394
+      - US B 001:15547
+      - IN B 001:11032
+      - JP B 001:11178
+      - JP 006:14433
+      - JP 002:15262
+      - US 008:12265
+      - US 007:15567
+      - US 005:15555
+      - US 002:11465
+      - HK 105:14492
+      - KR A 005:14163
+      - SG A 005:14164
+      - TW A 2:14017
+      - SG A 002:15437
+      - KR A 002:15558
+      - HK 102:14935
+      - IN A 002:11154
+      - HK 002:14499
+      - AU 001:13963
+      - 🇨🇳_商店：8du.shop:31204
+      - 🇨🇳_商店：8du.shop:31203
+      - 🇨🇳_商店：8du.shop:31225
+      - 🇨🇳_商店：8du.shop:31215
+      - 🇨🇳_商店：8du.shop:31201
+      - 🇨🇳_商店：8du.shop:31601
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇨🇳_商店：8du.shop:55156
-      - 🇺🇸_商店：8du.shop:2086
-      - 🇨🇳_商店：8du.shop:55154
-      - 🇨🇳_商店：8du.shop:55155
-      - 🇨🇳_商店：8du.shop:48519
-      - 🇨🇳_商店：8du.shop:48517
-      - 🇳🇱_商店：8du.shop:8288
-      - 🇨🇳_商店：8du.shop:48521
-      - 🇨🇳_商店：8du.shop:55154_2
-      - 🇨🇳_商店：8du.shop:55155_2
-      - 🇨🇳_商店：8du.shop:48519_2
-      - 🇨🇳_商店：8du.shop:48517_2
-      - 🇳🇱_商店：8du.shop:8288_2
-      - 🇨🇳_商店：8du.shop:48521_2
+      - TW 2:15571
+      - TW 1:15529
+      - SG 006:14510
+      - SG 005:13057
+      - SG 002:14508
+      - SG 001:15574
+      - 🇨🇳_商店：8du.shop:3333
+      - KR 006:15561
+      - KR 005:15288
+      - KR 004:15545
+      - KR 003:15553
+      - KR 002:15569
+      - KR 001:15573
+      - JP 005:15566
+      - JP 003:15570
+      - JP 101:15394
+      - US B 001:15547
+      - IN B 001:11032
+      - JP B 001:11178
+      - JP 006:14433
+      - JP 002:15262
+      - US 008:12265
+      - US 007:15567
+      - US 005:15555
+      - US 002:11465
+      - HK 105:14492
+      - KR A 005:14163
+      - SG A 005:14164
+      - TW A 2:14017
+      - SG A 002:15437
+      - KR A 002:15558
+      - HK 102:14935
+      - IN A 002:11154
+      - HK 002:14499
+      - AU 001:13963
+      - 🇨🇳_商店：8du.shop:31204
+      - 🇨🇳_商店：8du.shop:31203
+      - 🇨🇳_商店：8du.shop:31225
+      - 🇨🇳_商店：8du.shop:31215
+      - 🇨🇳_商店：8du.shop:31201
+      - 🇨🇳_商店：8du.shop:31601
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇨🇳_商店：8du.shop:55156
-      - 🇺🇸_商店：8du.shop:2086
-      - 🇨🇳_商店：8du.shop:55154
-      - 🇨🇳_商店：8du.shop:55155
-      - 🇨🇳_商店：8du.shop:48519
-      - 🇨🇳_商店：8du.shop:48517
-      - 🇳🇱_商店：8du.shop:8288
-      - 🇨🇳_商店：8du.shop:48521
-      - 🇨🇳_商店：8du.shop:55154_2
-      - 🇨🇳_商店：8du.shop:55155_2
-      - 🇨🇳_商店：8du.shop:48519_2
-      - 🇨🇳_商店：8du.shop:48517_2
-      - 🇳🇱_商店：8du.shop:8288_2
-      - 🇨🇳_商店：8du.shop:48521_2
+      - TW 2:15571
+      - TW 1:15529
+      - SG 006:14510
+      - SG 005:13057
+      - SG 002:14508
+      - SG 001:15574
+      - 🇨🇳_商店：8du.shop:3333
+      - KR 006:15561
+      - KR 005:15288
+      - KR 004:15545
+      - KR 003:15553
+      - KR 002:15569
+      - KR 001:15573
+      - JP 005:15566
+      - JP 003:15570
+      - JP 101:15394
+      - US B 001:15547
+      - IN B 001:11032
+      - JP B 001:11178
+      - JP 006:14433
+      - JP 002:15262
+      - US 008:12265
+      - US 007:15567
+      - US 005:15555
+      - US 002:11465
+      - HK 105:14492
+      - KR A 005:14163
+      - SG A 005:14164
+      - TW A 2:14017
+      - SG A 002:15437
+      - KR A 002:15558
+      - HK 102:14935
+      - IN A 002:11154
+      - HK 002:14499
+      - AU 001:13963
+      - 🇨🇳_商店：8du.shop:31204
+      - 🇨🇳_商店：8du.shop:31203
+      - 🇨🇳_商店：8du.shop:31225
+      - 🇨🇳_商店：8du.shop:31215
+      - 🇨🇳_商店：8du.shop:31201
+      - 🇨🇳_商店：8du.shop:31601
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇨🇳_商店：8du.shop:55156
-      - 🇺🇸_商店：8du.shop:2086
-      - 🇨🇳_商店：8du.shop:55154
-      - 🇨🇳_商店：8du.shop:55155
-      - 🇨🇳_商店：8du.shop:48519
-      - 🇨🇳_商店：8du.shop:48517
-      - 🇳🇱_商店：8du.shop:8288
-      - 🇨🇳_商店：8du.shop:48521
-      - 🇨🇳_商店：8du.shop:55154_2
-      - 🇨🇳_商店：8du.shop:55155_2
-      - 🇨🇳_商店：8du.shop:48519_2
-      - 🇨🇳_商店：8du.shop:48517_2
-      - 🇳🇱_商店：8du.shop:8288_2
-      - 🇨🇳_商店：8du.shop:48521_2
+      - TW 2:15571
+      - TW 1:15529
+      - SG 006:14510
+      - SG 005:13057
+      - SG 002:14508
+      - SG 001:15574
+      - 🇨🇳_商店：8du.shop:3333
+      - KR 006:15561
+      - KR 005:15288
+      - KR 004:15545
+      - KR 003:15553
+      - KR 002:15569
+      - KR 001:15573
+      - JP 005:15566
+      - JP 003:15570
+      - JP 101:15394
+      - US B 001:15547
+      - IN B 001:11032
+      - JP B 001:11178
+      - JP 006:14433
+      - JP 002:15262
+      - US 008:12265
+      - US 007:15567
+      - US 005:15555
+      - US 002:11465
+      - HK 105:14492
+      - KR A 005:14163
+      - SG A 005:14164
+      - TW A 2:14017
+      - SG A 002:15437
+      - KR A 002:15558
+      - HK 102:14935
+      - IN A 002:11154
+      - HK 002:14499
+      - AU 001:13963
+      - 🇨🇳_商店：8du.shop:31204
+      - 🇨🇳_商店：8du.shop:31203
+      - 🇨🇳_商店：8du.shop:31225
+      - 🇨🇳_商店：8du.shop:31215
+      - 🇨🇳_商店：8du.shop:31201
+      - 🇨🇳_商店：8du.shop:31601
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🇨🇳_商店：8du.shop:55156
-      - 🇺🇸_商店：8du.shop:2086
-      - 🇨🇳_商店：8du.shop:55154
-      - 🇨🇳_商店：8du.shop:55155
-      - 🇨🇳_商店：8du.shop:48519
-      - 🇨🇳_商店：8du.shop:48517
-      - 🇳🇱_商店：8du.shop:8288
-      - 🇨🇳_商店：8du.shop:48521
-      - 🇨🇳_商店：8du.shop:55154_2
-      - 🇨🇳_商店：8du.shop:55155_2
-      - 🇨🇳_商店：8du.shop:48519_2
-      - 🇨🇳_商店：8du.shop:48517_2
-      - 🇳🇱_商店：8du.shop:8288_2
-      - 🇨🇳_商店：8du.shop:48521_2
+      - TW 2:15571
+      - TW 1:15529
+      - SG 006:14510
+      - SG 005:13057
+      - SG 002:14508
+      - SG 001:15574
+      - 🇨🇳_商店：8du.shop:3333
+      - KR 006:15561
+      - KR 005:15288
+      - KR 004:15545
+      - KR 003:15553
+      - KR 002:15569
+      - KR 001:15573
+      - JP 005:15566
+      - JP 003:15570
+      - JP 101:15394
+      - US B 001:15547
+      - IN B 001:11032
+      - JP B 001:11178
+      - JP 006:14433
+      - JP 002:15262
+      - US 008:12265
+      - US 007:15567
+      - US 005:15555
+      - US 002:11465
+      - HK 105:14492
+      - KR A 005:14163
+      - SG A 005:14164
+      - TW A 2:14017
+      - SG A 002:15437
+      - KR A 002:15558
+      - HK 102:14935
+      - IN A 002:11154
+      - HK 002:14499
+      - AU 001:13963
+      - 🇨🇳_商店：8du.shop:31204
+      - 🇨🇳_商店：8du.shop:31203
+      - 🇨🇳_商店：8du.shop:31225
+      - 🇨🇳_商店：8du.shop:31215
+      - 🇨🇳_商店：8du.shop:31201
+      - 🇨🇳_商店：8du.shop:31601
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 🇨🇳_商店：8du.shop:55156
-      - 🇺🇸_商店：8du.shop:2086
-      - 🇨🇳_商店：8du.shop:55154
-      - 🇨🇳_商店：8du.shop:55155
-      - 🇨🇳_商店：8du.shop:48519
-      - 🇨🇳_商店：8du.shop:48517
-      - 🇳🇱_商店：8du.shop:8288
-      - 🇨🇳_商店：8du.shop:48521
-      - 🇨🇳_商店：8du.shop:55154_2
-      - 🇨🇳_商店：8du.shop:55155_2
-      - 🇨🇳_商店：8du.shop:48519_2
-      - 🇨🇳_商店：8du.shop:48517_2
-      - 🇳🇱_商店：8du.shop:8288_2
-      - 🇨🇳_商店：8du.shop:48521_2
+      - TW 2:15571
+      - TW 1:15529
+      - SG 006:14510
+      - SG 005:13057
+      - SG 002:14508
+      - SG 001:15574
+      - 🇨🇳_商店：8du.shop:3333
+      - KR 006:15561
+      - KR 005:15288
+      - KR 004:15545
+      - KR 003:15553
+      - KR 002:15569
+      - KR 001:15573
+      - JP 005:15566
+      - JP 003:15570
+      - JP 101:15394
+      - US B 001:15547
+      - IN B 001:11032
+      - JP B 001:11178
+      - JP 006:14433
+      - JP 002:15262
+      - US 008:12265
+      - US 007:15567
+      - US 005:15555
+      - US 002:11465
+      - HK 105:14492
+      - KR A 005:14163
+      - SG A 005:14164
+      - TW A 2:14017
+      - SG A 002:15437
+      - KR A 002:15558
+      - HK 102:14935
+      - IN A 002:11154
+      - HK 002:14499
+      - AU 001:13963
+      - 🇨🇳_商店：8du.shop:31204
+      - 🇨🇳_商店：8du.shop:31203
+      - 🇨🇳_商店：8du.shop:31225
+      - 🇨🇳_商店：8du.shop:31215
+      - 🇨🇳_商店：8du.shop:31201
+      - 🇨🇳_商店：8du.shop:31601
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_商店：8du.shop:55156
-      - 🇺🇸_商店：8du.shop:2086
-      - 🇨🇳_商店：8du.shop:55154
-      - 🇨🇳_商店：8du.shop:55155
-      - 🇨🇳_商店：8du.shop:48519
-      - 🇨🇳_商店：8du.shop:48517
-      - 🇳🇱_商店：8du.shop:8288
-      - 🇨🇳_商店：8du.shop:48521
-      - 🇨🇳_商店：8du.shop:55154_2
-      - 🇨🇳_商店：8du.shop:55155_2
-      - 🇨🇳_商店：8du.shop:48519_2
-      - 🇨🇳_商店：8du.shop:48517_2
-      - 🇳🇱_商店：8du.shop:8288_2
-      - 🇨🇳_商店：8du.shop:48521_2
+      - TW 2:15571
+      - TW 1:15529
+      - SG 006:14510
+      - SG 005:13057
+      - SG 002:14508
+      - SG 001:15574
+      - 🇨🇳_商店：8du.shop:3333
+      - KR 006:15561
+      - KR 005:15288
+      - KR 004:15545
+      - KR 003:15553
+      - KR 002:15569
+      - KR 001:15573
+      - JP 005:15566
+      - JP 003:15570
+      - JP 101:15394
+      - US B 001:15547
+      - IN B 001:11032
+      - JP B 001:11178
+      - JP 006:14433
+      - JP 002:15262
+      - US 008:12265
+      - US 007:15567
+      - US 005:15555
+      - US 002:11465
+      - HK 105:14492
+      - KR A 005:14163
+      - SG A 005:14164
+      - TW A 2:14017
+      - SG A 002:15437
+      - KR A 002:15558
+      - HK 102:14935
+      - IN A 002:11154
+      - HK 002:14499
+      - AU 001:13963
+      - 🇨🇳_商店：8du.shop:31204
+      - 🇨🇳_商店：8du.shop:31203
+      - 🇨🇳_商店：8du.shop:31225
+      - 🇨🇳_商店：8du.shop:31215
+      - 🇨🇳_商店：8du.shop:31201
+      - 🇨🇳_商店：8du.shop:31601
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
