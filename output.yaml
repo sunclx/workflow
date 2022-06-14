@@ -5,402 +5,36 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - name: 🇺🇸_油管：全网最强白嫖:38286
+  - name: 🇨🇳_油管：全网最强白嫖:63071
     type: vmess
-    server: 20.239.196.162
-    port: 38286
-    uuid: 48ca3feb-03fd-454a-903c-eaa459772412
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇭🇰_油管：全网最强白嫖:18888
-    type: vmess
-    server: hk11.fanqiang.eu
-    port: 18888
-    uuid: 0d6dad80-1b20-4d2e-9939-a011f7860777
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: grpc
-    tls: true
-    ws-path: fanqiang.eu
-    ws-headers: null
-  - name: 油管：全网最强白嫖:80
-    type: vmess
-    server: vietnam.hn11.shopvpn.net
-    port: 80
-    uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /shopvpn.net
-    ws-headers:
-      Host: quangtien.akamaized.net
-  - name: 🇨🇳_油管：全网最强白嫖:63087
-    type: vmess
-    server: 116.129.254.78
-    port: 63087
+    server: 112.65.52.58
+    port: 63071
     uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /mugua
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63041
+    type: vmess
+    server: 112.64.98.133
+    port: 63041
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /mg
     ws-headers:
       Host: t.me.vpnhat
-  - name: 🇻🇳_油管：全网最强白嫖:80
-    type: vmess
-    server: vietnam.hn1.shopvpn.net
-    port: 80
-    uuid: bf10d6d5-c3f6-4b66-be29-62587aee40ef
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /shopvpn.net
-    ws-headers:
-      Host: quangtien.akamaized.net
-  - name: 🇨🇳_油管：全网最强白嫖:63086
-    type: vmess
-    server: 116.129.254.65
-    port: 63086
-    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers:
-      Host: t.me.vpnhat
-  - name: 🇨🇳_油管：全网最强白嫖:63086_2
-    type: vmess
-    server: 116.129.254.65
-    port: 63086
-    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /mugua
-    ws-headers: null
-  - name: 🇸🇬_油管：全网最强白嫖:51175
-    type: vmess
-    server: jisu75.yaya89.xyz
-    port: 51175
-    uuid: 0358c017-415c-35e4-a79d-7cd9e25afe82
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: jisu75.yaya89.xyz
-  - name: 油管：全网最强白嫖:80_2
-    type: vmess
-    server: vietnam.hn12.shopvpn.net
-    port: 80
-    uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /shopvpn.net
-    ws-headers:
-      Host: quangtien.akamaized.net
-  - name: 🇺🇸_油管：全网最强白嫖:443
-    type: vmess
-    server: 51.81.223.18
-    port: 443
-    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-    alterId: "32"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸_油管：全网最强白嫖:32169
-    type: vmess
-    server: 5.183.32.187
-    port: 32169
-    uuid: 46a2f46a-c56f-487b-b2c9-b4204bf8021e
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳_油管：全网最强白嫖:443
-    type: vmess
-    server: 43.154.93.14
-    port: 443
-    uuid: afe936ee-536e-4e94-8c46-71d222183729
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /vNz3qzS3ml
-    ws-headers: null
-  - name: 🇺🇸_油管：全网最强白嫖:443_2
-    type: vmess
-    server: 51.81.223.35
-    port: 443
-    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-    alterId: "32"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇸🇬_油管：全网最强白嫖:50121
-    type: vmess
-    server: jisu121.xixi98.xyz
-    port: 50121
-    uuid: 0358c017-415c-35e4-a79d-7cd9e25afe82
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: jisu121.xixi98.xyz
-  - name: 🇨🇳_油管：全网最强白嫖:2164
-    type: vmess
-    server: 117.28.242.156
-    port: 2164
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: sxqxj.cn
-  - name: 🇺🇸_油管：全网最强白嫖:443_2_2
-    type: vmess
-    server: 51.81.223.25
-    port: 443
-    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-    alterId: "32"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸_油管：全网最强白嫖:443_2_2_2
-    type: vmess
-    server: app.ssfree.ru
-    port: 443
-    uuid: b789866a-ea68-11ec-96f8-000017022008
-    alterId: "64"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /getweather
-    ws-headers:
-      Host: app.ssfree.ru
-  - name: 🇫🇷_油管：全网最强白嫖:443
-    type: vmess
-    server: 54.37.192.112
-    port: 443
-    uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
-    alterId: "64"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /path/120208301422
-    ws-headers:
-      Host: www.15738743.xyz
-  - name: 🇨🇳_油管：全网最强白嫖:2164_2
-    type: vmess
-    server: 117.28.242.156
-    port: 2164
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: 117.28.242.156
-  - name: 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-    type: vmess
-    server: werwer-beyqcnh.koyeb.app
-    port: 443
-    uuid: 29115fe9-3091-4f35-a54c-2374709d20a8
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /
-    ws-headers:
-      Host: werwer-beyqcnh.koyeb.app
-  - name: 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-    type: vmess
-    server: us03.gogogoo.cyou
-    port: 443
-    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /go
-    ws-headers:
-      Host: us03.gogogoo.cyou
-  - name: 🇨🇳_油管：全网最强白嫖:2164_2_2
-    type: vmess
-    server: 117.28.242.156
-    port: 2164
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers: null
-  - name: 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-    type: vmess
-    server: sxqxj.cn
-    port: 2164
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers:
-      Host: sxqxj.cn
-  - name: 🇨🇳_油管：全网最强白嫖:50110
-    type: vmess
-    server: jisu110.xixi98.xyz
-    port: 50110
-    uuid: 0358c017-415c-35e4-a79d-7cd9e25afe82
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: jisu110.xixi98.xyz
-  - name: 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-    type: vmess
-    server: 51.81.223.36
-    port: 443
-    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-    alterId: "32"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇻🇳_油管：全网最强白嫖:80_2
-    type: vmess
-    server: vnpaid.project4gyuna.pw
-    port: 80
-    uuid: d1d4ad51-ad11-4648-ab28-08bc20db295a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /project4gyuna.pw
-    ws-headers:
-      Host: viettel.akamaized.net
-  - name: 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-    type: vmess
-    server: sxqxj.cn
-    port: 2164
-    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-    alterId: "4"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ws
-    ws-headers: null
-  - name: 🇰🇷_油管：全网最强白嫖:28996
-    type: vmess
-    server: kr-07.freesocks5.tk
-    port: 28996
-    uuid: 97db7c58-0573-481a-c90c-bc8e41b6b89b
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-    type: vmess
-    server: vus2.0bad.com
-    port: 443
-    uuid: 927094d3-d678-4763-8591-e240d0bcae87
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /chat
-    ws-headers:
-      Host: vus2.0bad.com
-  - name: 🇨🇳_油管：全网最强白嫖:36736
-    type: vmess
-    server: 192.74.238.183
-    port: 36736
-    uuid: 31177ee2-6ac5-4e96-bf7a-e50e8ffff0fe
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /yCBfYHrj/
-    ws-headers:
-      Host: aweikeji-YouTube
-  - name: 🇨🇳_油管：全网最强白嫖:64087
-    type: vmess
-    server: in01.dns220607.com
-    port: 64087
-    uuid: 4a3fd26a-6e53-3eba-b9f3-13ec92173082
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /biteb
-    ws-headers:
-      Host: sg-balancer.tencent.best
   - name: 🇯🇵_油管：全网最强白嫖:80
     type: vmess
-    server: 13.73.30.139
+    server: bgj.azzhuangaping.tw
     port: 80
-    uuid: 95afdb4f-5a7f-4323-8fed-a89b05e9b66a
+    uuid: 992730fc-b237-43ed-a35a-1c5d3f4282b6
     alterId: "0"
     cipher: auto
     udp: true
@@ -409,19 +43,44 @@ proxies:
     ws-path: /
     ws-headers:
       Host: aweikeji-YouTube
-  - name: 🇭🇰_油管：全网最强白嫖:46541
+  - name: 🇨🇳_油管：全网最强白嫖:63051
     type: vmess
-    server: hk4.lolvps.xyz
-    port: 46541
-    uuid: 0cae403b-2082-44f0-af78-ba83aeb82ba8
+    server: 112.64.98.133
+    port: 63051
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /T1X1DKLN
+    ws-path: /hls
     ws-headers:
-      Host: hk4.lolvps.xyz
+      Host: t.me.vpnhat
+  - name: 🇨🇳_油管：全网最强白嫖:63051_2
+    type: vmess
+    server: 116.129.254.65
+    port: 63051
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /hls
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇨🇳_油管：全网最强白嫖:443
+    type: vmess
+    server: 175.178.163.153
+    port: 443
+    uuid: 9b4d4f9c-c5bf-4a3b-a6ea-f675989d9cbd
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers: null
   - name: 🇨🇳_油管：全网最强白嫖:52340
     type: vmess
     server: gycd1.csccdd.xyz
@@ -435,240 +94,68 @@ proxies:
     ws-path: /index
     ws-headers:
       Host: gycd1.csccdd.xyz
-  - name: 🇨🇳_油管：全网最强白嫖:50207
+  - name: 🇨🇳_油管：全网最强白嫖:2164
     type: vmess
-    server: data-hk-v1.shwjfkw.cn
-    port: 50207
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: tv.cctv.com
-  - name: 🇨🇳_油管：全网最强白嫖:50205
-    type: vmess
-    server: data-hk-v1.heisey.cn
-    port: 50205
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: tv.cctv.com
-  - name: 油管：全网最强白嫖:80_2_2
-    type: vmess
-    server: vietnam1.shopvpn.net
-    port: 80
-    uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /shopvpn.net
-    ws-headers:
-      Host: quangtien.akamaized.net
-  - name: 🇨🇳_油管：全网最强白嫖:50207_2
-    type: vmess
-    server: data-hk-v2.heisey.cn
-    port: 50207
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: tv.cctv.com
-  - name: 🇨🇳_油管：全网最强白嫖:50206
-    type: vmess
-    server: data-hk-v2.shwjfkw.cn
-    port: 50206
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: tv.cctv.com
-  - name: 🇨🇳_油管：全网最强白嫖:50205_2
-    type: vmess
-    server: data-hk-v2.shwjfkw.cn
-    port: 50205
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: tv.cctv.com
-  - name: 🇨🇳_油管：全网最强白嫖:50207_2_2
-    type: vmess
-    server: data-hk-v1.shwjfkw.cn
-    port: 50207
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: data-hk-v1.shwjfkw.cn
-  - name: 🇨🇳_油管：全网最强白嫖:50205_2_2
-    type: vmess
-    server: data-hk-v2.shwjfkw.cn
-    port: 50205
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: data-hk-v2.shwjfkw.cn
-  - name: 🇨🇳_油管：全网最强白嫖:50221
-    type: vmess
-    server: data-tw-v1.shwjfkw.cn
-    port: 50221
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: tv.cctv.com
-  - name: 🇨🇳_油管：全网最强白嫖:50206_2
-    type: vmess
-    server: data-hk-v2.shwjfkw.cn
-    port: 50206
-    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: data-hk-v2.shwjfkw.cn
-  - name: 🇹🇼_油管：全网最强白嫖:443
-    type: vmess
-    server: 330tw.fans8.xyz
-    port: 443
-    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-    alterId: "2"
+    server: sxqxj.cn
+    port: 2164
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: 330tw.fans8.xyz
-  - name: 🇹🇼_油管：全网最强白嫖:443_2
+    ws-path: /ws
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63004
     type: vmess
-    server: 330tw.fans8.xyz
-    port: 443
-    uuid: 7f4ff2e1c08f35bdafe74a6a386907aa
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: 330tw.fans8.xyz
-  - name: 🇰🇷_油管：全网最强白嫖:50065
-    type: vmess
-    server: jisu65.yaya89.xyz
-    port: 50065
-    uuid: 0358c017-415c-35e4-a79d-7cd9e25afe82
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: jisu65.yaya89.xyz
-  - name: 🇯🇵_油管：全网最强白嫖:443
-    type: vmess
-    server: www.fewa.cf
-    port: 443
-    uuid: 9fcf1e10-772c-ce80-d51f-62c708333c50
+    server: 159.27.122.207
+    port: 63004
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /paths/
-    ws-headers:
-      Host: www.fewa.cf
-  - name: 🇷🇺_油管：全网最强白嫖:80
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63078
     type: vmess
-    server: 331tw.fans8.xyz
-    port: 80
-    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-    alterId: "2"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /ray
-    ws-headers:
-      Host: 331tw.fans8.xyz
-  - name: 🇨🇳_油管：全网最强白嫖:8989
-    type: vmess
-    server: ziyeya.xyz
-    port: 8989
-    uuid: 256c4c89-f7f8-4a23-b2bf-552b008bf409
+    server: 112.64.98.133
+    port: 63078
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
-    tls: null
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇯🇵_油管：全网最强白嫖:4440
+    type: vmess
+    server: mixv4-26.194610.xyz
+    port: 4440
+    uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /a185d5dc-c726-466c-98f2-ba494e63695f
+    ws-headers:
+      Host: mixv4-26.194610.xyz
+  - name: 🇨🇳_油管：全网最强白嫖:63078_2
+    type: vmess
+    server: in04.gfw23333.com
+    port: 63078
+    uuid: d9cf0efd-11a3-34b1-9610-a251e13cf78d
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
     ws-path: /
     ws-headers:
-      Host: ziyeya.xyz
-  - name: 🇮🇷_油管：全网最强白嫖:80
-    type: vmess
-    server: irancell.android-club.ir
-    port: 80
-    uuid: 040edd14-f4d9-4910-0c6d-8cca9863cdff
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /apiws
-    ws-headers:
-      Host: irancell.android-club.ir
-  - name: 🇺🇸_油管：全网最强白嫖:80
-    type: vmess
-    server: 20.247.107.46
-    port: 80
-    uuid: 95afdb4f-5a7f-4323-8fed-a89b05e9b66a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /
-    ws-headers:
-      Host: aweikeji-YouTube
+      Host: in04.gfw23333.com
   - name: 🇨🇳_油管：全网最强白嫖:38201
     type: vmess
     server: ingress-i1.onebox6.org
@@ -682,32 +169,563 @@ proxies:
     ws-path: /hls/cctv5phd.m3u8
     ws-headers:
       Host: ingress-i1.onebox6.org
-  - name: 🇨🇳_油管：全网最强白嫖:8989_2
+  - name: 🇨🇳_油管：全网最强白嫖:63051_2_2
     type: vmess
-    server: ziyeya.xyz
-    port: 8989
-    uuid: f6a3fde1-45e2-414f-bb49-cf1eceb55d85
+    server: 116.129.254.78
+    port: 63051
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /hls
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇨🇳_油管：全网最强白嫖:63004_2
+    type: vmess
+    server: 116.129.254.65
+    port: 63004
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:2164_2
+    type: vmess
+    server: 117.28.242.156
+    port: 2164
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63069
+    type: vmess
+    server: 159.27.122.207
+    port: 63069
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63014
+    type: vmess
+    server: 116.129.254.65
+    port: 63014
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /mg
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 油管：全网最强白嫖:443
+    type: vmess
+    server: werwer-beyqcnh.koyeb.app
+    port: 443
+    uuid: 29115fe9-3091-4f35-a54c-2374709d20a8
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /
+    ws-headers:
+      Host: werwer-beyqcnh.koyeb.app
+  - name: 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+    type: vmess
+    server: 159.27.122.207
+    port: 63051
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /hls
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇨🇳_油管：全网最强白嫖:63088
+    type: vmess
+    server: 112.65.52.58
+    port: 63088
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /mugua
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇨🇳_油管：全网最强白嫖:63088_2
+    type: vmess
+    server: 159.27.122.207
+    port: 63088
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /mugua
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇭🇰_油管：全网最强白嫖:20943
+    type: vmess
+    server: dnsfreexianggang01.gleeze.com
+    port: 20943
+    uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: null
-    ws-path: /
+    ws-path: /images
     ws-headers:
-      Host: ziyeya.xyz
-  - name: 🇨🇳_油管：全网最强白嫖:41203
+      Host: v.qq.com
+  - name: 🇭🇰_油管：全网最强白嫖:20942
     type: vmess
-    server: 139.217.229.103
-    port: 41203
-    uuid: 039aeb43-a240-3208-a447-ca80be12a290
+    server: dnsfreexianggang01.gleeze.com
+    port: 20942
+    uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /images
+    ws-headers:
+      Host: v.qq.com
+  - name: 🇭🇰_油管：全网最强白嫖:80
+    type: vmess
+    server: 527hk1.fans8.xyz
+    port: 80
+    uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
     alterId: "2"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ray
+    ws-headers:
+      Host: 527hk1.fans8.xyz
+  - name: 🇨🇳_油管：全网最强白嫖:2164_2_2
+    type: vmess
+    server: sxqxj.cn
+    port: 2164
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: sxqxj.cn
+  - name: 🇨🇳_油管：全网最强白嫖:63078_2_2
+    type: vmess
+    server: 112.65.52.58
+    port: 63078
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63004_2_2
+    type: vmess
+    server: 112.65.52.58
+    port: 63004
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63041_2
+    type: vmess
+    server: 159.27.122.207
+    port: 63041
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /mg
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇯🇵_油管：全网最强白嫖:443
+    type: vmess
+    server: www.fewa.cf
+    port: 443
+    uuid: 9fcf1e10-772c-ce80-d51f-62c708333c50
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /paths/
+    ws-headers:
+      Host: www.fewa.cf
+  - name: 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+    type: vmess
+    server: 117.28.242.156
+    port: 2164
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: sxqxj.cn
+  - name: 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+    type: vmess
+    server: 112.65.52.58
+    port: 63051
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /hls
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇨🇳_油管：全网最强白嫖:63086
+    type: vmess
+    server: 159.27.122.207
+    port: 63086
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /mugua
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+    type: vmess
+    server: 117.28.242.156
+    port: 2164
+    uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+    alterId: "4"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /ws
+    ws-headers:
+      Host: 117.28.242.156
+  - name: 🇨🇳_油管：全网最强白嫖:63069_2
+    type: vmess
+    server: 112.65.52.58
+    port: 63069
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇮🇷_油管：全网最强白嫖:80
+    type: vmess
+    server: irancell.android-club.ir
+    port: 80
+    uuid: 040edd14-f4d9-4910-0c6d-8cca9863cdff
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /apiws
+    ws-headers:
+      Host: aweikeji-YouTube
+  - name: 🇸🇬_油管：全网最强白嫖:12356
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000036a.rui77.com
+    port: 12356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
     cipher: auto
     udp: true
     network: tcp
     tls: null
     ws-path: ""
     ws-headers: null
-  - name: 🇫🇷_油管：全网最强白嫖:443_2
+  - name: 🇯🇵_油管：全网最强白嫖:52356
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+    port: 52356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇸🇬_油管：全网最强白嫖:52356
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000026a.rui77.com
+    port: 52356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇸🇬_油管：全网最强白嫖:80
+    type: vmess
+    server: singapore2.shopvpn.net
+    port: 80
+    uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /shopvpn.net
+    ws-headers:
+      Host: quangtien.akamaized.net
+  - name: 🇯🇵_油管：全网最强白嫖:52356_2
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000023a.rui77.com
+    port: 52356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇯🇵_油管：全网最强白嫖:12356
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000034a.rui77.com
+    port: 12356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇻🇳_油管：全网最强白嫖:80
+    type: vmess
+    server: vietnam.hn10.shopvpn.net
+    port: 80
+    uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /shopvpn.net
+    ws-headers:
+      Host: quangtien.akamaized.net
+  - name: 🇺🇸_油管：全网最强白嫖:2096
+    type: vmess
+    server: v2ray.wefuckgfw.ga
+    port: 2096
+    uuid: 556b20c1-272e-44ec-881b-94f410ac75de
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /H8VswtUJ/
+    ws-headers:
+      Host: v2ray.wefuckgfw.ga
+  - name: 🇺🇸_油管：全网最强白嫖:2096_2
+    type: vmess
+    server: v2ray.wefuckgfw.ga
+    port: 2096
+    uuid: c0bc4a6f-74f9-49f3-b722-7ebb6aca17d7
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /H8VswtUJ/
+    ws-headers:
+      Host: v2ray.wefuckgfw.ga
+  - name: 🇨🇳_油管：全网最强白嫖:63086_2
+    type: vmess
+    server: 112.65.52.58
+    port: 63086
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /mugua
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇨🇳_油管：全网最强白嫖:63069_2_2
+    type: vmess
+    server: 116.129.254.65
+    port: 63069
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63014_2
+    type: vmess
+    server: 116.129.254.78
+    port: 63014
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /mg
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+    type: vmess
+    server: 116.129.254.78
+    port: 63069
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇺🇸_油管：全网最强白嫖:39812
+    type: vmess
+    server: dnsfreeriben01.gleeze.com
+    port: 39812
+    uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /images
+    ws-headers:
+      Host: v.qq.com
+  - name: 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+    type: vmess
+    server: 116.129.254.78
+    port: 63004
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇺🇸_油管：全网最强白嫖:39814
+    type: vmess
+    server: dnsfreeriben01.gleeze.com
+    port: 39814
+    uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /images
+    ws-headers:
+      Host: v.qq.com
+  - name: 🇨🇳_油管：全网最强白嫖:63087
+    type: vmess
+    server: 112.65.52.58
+    port: 63087
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /mugua
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+    type: vmess
+    server: 116.129.254.78
+    port: 63078
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63087_2
+    type: vmess
+    server: 159.27.122.207
+    port: 63087
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /mugua
+    ws-headers:
+      Host: t.me.vpnhat
+  - name: 🇺🇸_油管：全网最强白嫖:39813
+    type: vmess
+    server: dnsfreeriben01.gleeze.com
+    port: 39813
+    uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /images
+    ws-headers:
+      Host: v.qq.com
+  - name: 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+    type: vmess
+    server: 159.27.122.207
+    port: 63078
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇫🇷_油管：全网最强白嫖:443
     type: vmess
     server: 54.37.192.112
     port: 443
@@ -719,250 +737,9 @@ proxies:
     tls: true
     ws-path: /path/120208301422
     ws-headers: null
-  - name: 🇨🇳_油管：全网最强白嫖:38201_2
+  - name: 🇺🇸_油管：全网最强白嫖:80
     type: vmess
-    server: ingress-i1.onebox6.org
-    port: 38201
-    uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-    alterId: "1"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /hls/cctv5phd.m3u8
-    ws-headers:
-      Host: www.ivpnpro.net
-  - name: 🇸🇬_油管：全网最强白嫖:23235
-    type: vmess
-    server: hongkong.xn--h6q53lcvpz7l.club
-    port: 23235
-    uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /images
-    ws-headers:
-      Host: v.qq.com
-  - name: 🇸🇬_油管：全网最强白嫖:23233
-    type: vmess
-    server: hongkong.xn--h6q53lcvpz7l.club
-    port: 23233
-    uuid: 7b089406-807b-4751-903a-4e2a8c7174da
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /images
-    ws-headers:
-      Host: v.qq.com
-  - name: 🇸🇬_油管：全网最强白嫖:23234
-    type: vmess
-    server: hongkong.xn--h6q53lcvpz7l.club
-    port: 23234
-    uuid: 7b089406-807b-4751-903a-4e2a8c7174da
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /images
-    ws-headers:
-      Host: v.qq.com
-  - name: 🇻🇳_油管：全网最强白嫖:80_2_2
-    type: vmess
-    server: yuvn1.project4gyuna.pw
-    port: 80
-    uuid: d1d4ad51-ad11-4648-ab28-08bc20db295a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /project4gyuna.pw
-    ws-headers:
-      Host: viettel.akamaized.net
-  - name: 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-    type: vmess
-    server: 51.81.223.31
-    port: 443
-    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-    alterId: "32"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸_油管：全网最强白嫖:80_2
-    type: vmess
-    server: au.project4gyuna.pw
-    port: 80
-    uuid: d1d4ad51-ad11-4648-ab28-08bc20db295a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /project4gyuna.pw
-    ws-headers:
-      Host: au.project4gyuna.pw
-  - name: 🇮🇷_油管：全网最强白嫖:80_2
-    type: vmess
-    server: srvf.myandroidplus1.ir
-    port: 80
-    uuid: 040edd14-f4d9-4910-0c6d-8cca9863cdff
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /apiws
-    ws-headers:
-      Host: srvf.myandroidplus1.ir
-  - name: 🇨🇳_油管：全网最强白嫖:12222
-    type: vmess
-    server: bgpv2.ktyjsq.com
-    port: 12222
-    uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇨🇳_油管：全网最强白嫖:12224
-    type: vmess
-    server: bgpv2.ktyjsq.com
-    port: 12224
-    uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇸🇬_油管：全网最强白嫖:23233_2
-    type: vmess
-    server: hongkong.xn--h6q53lcvpz7l.club
-    port: 23233
-    uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /images
-    ws-headers:
-      Host: v.qq.com
-  - name: 🇸🇬_油管：全网最强白嫖:23235_2
-    type: vmess
-    server: hongkong.xn--h6q53lcvpz7l.club
-    port: 23235
-    uuid: 7b089406-807b-4751-903a-4e2a8c7174da
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /images
-    ws-headers:
-      Host: v.qq.com
-  - name: 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-    type: vmess
-    server: 51.81.223.23
-    port: 443
-    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-    alterId: "32"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇸🇬_油管：全网最强白嫖:23232
-    type: vmess
-    server: hongkong.xn--h6q53lcvpz7l.club
-    port: 23232
-    uuid: 7b089406-807b-4751-903a-4e2a8c7174da
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: null
-    ws-path: /images
-    ws-headers:
-      Host: v.qq.com
-  - name: 🇨🇳_油管：全网最强白嫖:12205
-    type: vmess
-    server: bgpv2.ktyjsq.com
-    port: 12205
-    uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇷🇺_油管：全网最强白嫖:18443
-    type: vmess
-    server: v2.ssrsub.com
-    port: 18443
-    uuid: f736834f-1fc8-4738-9884-9afe0eb0d818
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /api/v3/download.getFile
-    ws-headers:
-      Host: v2.ssrsub.com
-  - name: 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-    type: vmess
-    server: 51.81.223.20
-    port: 443
-    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
-    alterId: "32"
-    cipher: auto
-    udp: true
-    network: tcp
-    tls: null
-    ws-path: ""
-    ws-headers: null
-  - name: 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
-    type: vmess
-    server: blog.iyu.icu
-    port: 443
-    uuid: a3b704d1-a910-47ab-8dcc-226361341335
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: ray
-    ws-headers:
-      Host: blog.iyu.icu
-  - name: 油管：全网最强白嫖:443
-    type: vmess
-    server: 104.19.3.12
-    port: 443
-    uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
-    alterId: "0"
-    cipher: auto
-    udp: true
-    network: ws
-    tls: true
-    ws-path: /chcar
-    ws-headers:
-      Host: v2fly.samrt.website
-  - name: 油管：全网最强白嫖:80_2_2_2
-    type: vmess
-    server: vietnam.hn15.shopvpn.net
+    server: hongkong2.shopvpn.net
     port: 80
     uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
     alterId: "0"
@@ -973,842 +750,1211 @@ proxies:
     ws-path: /shopvpn.net
     ws-headers:
       Host: quangtien.akamaized.net
-  - name: 🇷🇺_油管：全网最强白嫖:18443_2
+  - name: 🇦🇪_油管：全网最强白嫖:80
     type: vmess
-    server: v2.ssrsub.com
-    port: 18443
-    uuid: 2256dea6-b952-43f7-b8a2-983f766d5836
+    server: hksv2.project4gyuna.pw
+    port: 80
+    uuid: d1d4ad51-ad11-4648-ab28-08bc20db295a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /project4gyuna.pw
+    ws-headers: null
+  - name: 🇰🇷_油管：全网最强白嫖:12356
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000038a.rui77.com
+    port: 12356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 油管：全网最强白嫖:2053
+    type: vmess
+    server: cf.fullcloud.tk
+    port: 2053
+    uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
     alterId: "0"
     cipher: auto
     udp: true
     network: ws
     tls: true
-    ws-path: /api/v3/download.getFile
+    ws-path: /eisasqa
     ws-headers:
-      Host: v2.ssrsub.com
+      Host: foxsg.fovi.tk
+  - name: 🇯🇵_油管：全网最强白嫖:668
+    type: vmess
+    server: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty
+    port: 668
+    uuid: a0fec1fb-e217-344b-84e1-45b412ccd670
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇭🇰_油管：全网最强白嫖:52356
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000022a.rui77.com
+    port: 52356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇰🇷_油管：全网最强白嫖:443
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000008a.rui77.com
+    port: 443
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 00000000000000000000000000000000000000000000000000000000000008a.rui77.com
+  - name: 🇺🇸_油管：全网最强白嫖:12356
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000039a.rui77.com
+    port: 12356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+    type: vmess
+    server: 116.129.254.65
+    port: 63078
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇺🇸_油管：全网最强白嫖:39815
+    type: vmess
+    server: dnsfreeriben01.gleeze.com
+    port: 39815
+    uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /images
+    ws-headers:
+      Host: v.qq.com
+  - name: 🇨🇳_油管：全网最强白嫖:443_2
+    type: vmess
+    server: 43.154.93.14
+    port: 443
+    uuid: afe936ee-536e-4e94-8c46-71d222183729
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /vNz3qzS3ml
+    ws-headers: null
+  - name: 🇰🇷_油管：全网最强白嫖:12356_2
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000037a.rui77.com
+    port: 12356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:8989
+    type: vmess
+    server: ziyeya.xyz
+    port: 8989
+    uuid: 256c4c89-f7f8-4a23-b2bf-552b008bf409
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: ziyeya.xyz
+  - name: 🇰🇷_油管：全网最强白嫖:80
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000007a.rui77.com
+    port: 80
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: 00000000000000000000000000000000000000000000000000000000000007a.rui77.com
+  - name: 🇺🇸_油管：全网最强白嫖:12356_2
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000040a.rui77.com
+    port: 12356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇯🇵_油管：全网最强白嫖:80_2
+    type: vmess
+    server: hentaizz.project4gyuna.pw
+    port: 80
+    uuid: d1d4ad51-ad11-4648-ab28-08bc20db295a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /project4gyuna.pw
+    ws-headers:
+      Host: viettel.akamaized.net
+  - name: 🇯🇵_油管：全网最强白嫖:668_2
+    type: vmess
+    server: jp06-vm5.entry.sdjighbiuodrfhgiuo.beauty
+    port: 668
+    uuid: a0fec1fb-e217-344b-84e1-45b412ccd670
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /
+    ws-headers:
+      Host: aweikeji-YouTube
+  - name: 🇺🇸_油管：全网最强白嫖:80_2
+    type: vmess
+    server: dnsfreeriben01.gleeze.com
+    port: 80
+    uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /images
+    ws-headers:
+      Host: v.qq.com
+  - name: 🇭🇰_油管：全网最强白嫖:20944
+    type: vmess
+    server: dnsfreexianggang01.gleeze.com
+    port: 20944
+    uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /images
+    ws-headers:
+      Host: v.qq.com
+  - name: 🇺🇸_油管：全网最强白嫖:52356
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000029a.rui77.com
+    port: 52356
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇬🇧_油管：全网最强白嫖:43566
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000013a.rui77.com
+    port: 43566
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇩🇪_油管：全网最强白嫖:26901
+    type: vmess
+    server: 00000000000000000000000000000000000000000000000000000000000011a.rui77.com
+    port: 26901
+    uuid: a46a616e-a52e-4b9d-a028-7b29083844a9
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: tcp
+    tls: null
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+    type: vmess
+    server: 112.64.98.133
+    port: 63069
+    uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: ""
+    ws-headers: null
+  - name: 🇨🇳_油管：全网最强白嫖:50206
+    type: vmess
+    server: data-hk-v2.shwjfkw.cn
+    port: 50206
+    uuid: b1478e24-4916-3abe-8f17-15931012ecbe
+    alterId: "1"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /hls/cctv5phd.m3u8
+    ws-headers:
+      Host: data-hk-v2.shwjfkw.cn
+  - name: 油管：全网最强白嫖:80
+    type: vmess
+    server: vietnam2.shopvpn.net
+    port: 80
+    uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: null
+    ws-path: /shopvpn.net
+    ws-headers:
+      Host: quangtien.akamaized.net
+  - name: 🇭🇰_油管：全网最强白嫖:46600
+    type: vmess
+    server: hk5.lolvps.xyz
+    port: 46600
+    uuid: 836fe834-4204-460d-b586-52d9bd407e8b
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    tls: true
+    ws-path: /N4POVB85
+    ws-headers:
+      Host: hk5.lolvps.xyz
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_油管：全网最强白嫖:38286
-      - 🇭🇰_油管：全网最强白嫖:18888
-      - 油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63087
-      - 🇻🇳_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63086
-      - 🇨🇳_油管：全网最强白嫖:63086_2
-      - 🇸🇬_油管：全网最强白嫖:51175
-      - 油管：全网最强白嫖:80_2
-      - 🇺🇸_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:32169
-      - 🇨🇳_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:443_2
-      - 🇸🇬_油管：全网最强白嫖:50121
-      - 🇨🇳_油管：全网最强白嫖:2164
-      - 🇺🇸_油管：全网最强白嫖:443_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2
-      - 🇫🇷_油管：全网最强白嫖:443
-      - 🇨🇳_油管：全网最强白嫖:2164_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:50110
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-      - 🇻🇳_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-      - 🇰🇷_油管：全网最强白嫖:28996
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:36736
-      - 🇨🇳_油管：全网最强白嫖:64087
+      - 🇨🇳_油管：全网最强白嫖:63071
+      - 🇨🇳_油管：全网最强白嫖:63041
       - 🇯🇵_油管：全网最强白嫖:80
-      - 🇭🇰_油管：全网最强白嫖:46541
+      - 🇨🇳_油管：全网最强白嫖:63051
+      - 🇨🇳_油管：全网最强白嫖:63051_2
+      - 🇨🇳_油管：全网最强白嫖:443
       - 🇨🇳_油管：全网最强白嫖:52340
-      - 🇨🇳_油管：全网最强白嫖:50207
-      - 🇨🇳_油管：全网最强白嫖:50205
-      - 油管：全网最强白嫖:80_2_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2
-      - 🇨🇳_油管：全网最强白嫖:50206
-      - 🇨🇳_油管：全网最强白嫖:50205_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2_2
-      - 🇨🇳_油管：全网最强白嫖:50205_2_2
-      - 🇨🇳_油管：全网最强白嫖:50221
-      - 🇨🇳_油管：全网最强白嫖:50206_2
-      - 🇹🇼_油管：全网最强白嫖:443
-      - 🇹🇼_油管：全网最强白嫖:443_2
-      - 🇰🇷_油管：全网最强白嫖:50065
-      - 🇯🇵_油管：全网最强白嫖:443
-      - 🇷🇺_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:8989
-      - 🇮🇷_油管：全网最强白嫖:80
-      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164
+      - 🇨🇳_油管：全网最强白嫖:63004
+      - 🇨🇳_油管：全网最强白嫖:63078
+      - 🇯🇵_油管：全网最强白嫖:4440
+      - 🇨🇳_油管：全网最强白嫖:63078_2
       - 🇨🇳_油管：全网最强白嫖:38201
-      - 🇨🇳_油管：全网最强白嫖:8989_2
-      - 🇨🇳_油管：全网最强白嫖:41203
-      - 🇫🇷_油管：全网最强白嫖:443_2
-      - 🇨🇳_油管：全网最强白嫖:38201_2
-      - 🇸🇬_油管：全网最强白嫖:23235
-      - 🇸🇬_油管：全网最强白嫖:23233
-      - 🇸🇬_油管：全网最强白嫖:23234
-      - 🇻🇳_油管：全网最强白嫖:80_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:80_2
-      - 🇮🇷_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:12222
-      - 🇨🇳_油管：全网最强白嫖:12224
-      - 🇸🇬_油管：全网最强白嫖:23233_2
-      - 🇸🇬_油管：全网最强白嫖:23235_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-      - 🇸🇬_油管：全网最强白嫖:23232
-      - 🇨🇳_油管：全网最强白嫖:12205
-      - 🇷🇺_油管：全网最强白嫖:18443
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2
+      - 🇨🇳_油管：全网最强白嫖:2164_2
+      - 🇨🇳_油管：全网最强白嫖:63069
+      - 🇨🇳_油管：全网最强白嫖:63014
       - 油管：全网最强白嫖:443
-      - 油管：全网最强白嫖:80_2_2_2
-      - 🇷🇺_油管：全网最强白嫖:18443_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63088
+      - 🇨🇳_油管：全网最强白嫖:63088_2
+      - 🇭🇰_油管：全网最强白嫖:20943
+      - 🇭🇰_油管：全网最强白嫖:20942
+      - 🇭🇰_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2
+      - 🇨🇳_油管：全网最强白嫖:63041_2
+      - 🇯🇵_油管：全网最强白嫖:443
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63086
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2
+      - 🇮🇷_油管：全网最强白嫖:80
+      - 🇸🇬_油管：全网最强白嫖:12356
+      - 🇯🇵_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:80
+      - 🇯🇵_油管：全网最强白嫖:52356_2
+      - 🇯🇵_油管：全网最强白嫖:12356
+      - 🇻🇳_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:2096
+      - 🇺🇸_油管：全网最强白嫖:2096_2
+      - 🇨🇳_油管：全网最强白嫖:63086_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2
+      - 🇨🇳_油管：全网最强白嫖:63014_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39812
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39814
+      - 🇨🇳_油管：全网最强白嫖:63087
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63087_2
+      - 🇺🇸_油管：全网最强白嫖:39813
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+      - 🇫🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇦🇪_油管：全网最强白嫖:80
+      - 🇰🇷_油管：全网最强白嫖:12356
+      - 油管：全网最强白嫖:2053
+      - 🇯🇵_油管：全网最强白嫖:668
+      - 🇭🇰_油管：全网最强白嫖:52356
+      - 🇰🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:12356
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39815
+      - 🇨🇳_油管：全网最强白嫖:443_2
+      - 🇰🇷_油管：全网最强白嫖:12356_2
+      - 🇨🇳_油管：全网最强白嫖:8989
+      - 🇰🇷_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:12356_2
+      - 🇯🇵_油管：全网最强白嫖:80_2
+      - 🇯🇵_油管：全网最强白嫖:668_2
+      - 🇺🇸_油管：全网最强白嫖:80_2
+      - 🇭🇰_油管：全网最强白嫖:20944
+      - 🇺🇸_油管：全网最强白嫖:52356
+      - 🇬🇧_油管：全网最强白嫖:43566
+      - 🇩🇪_油管：全网最强白嫖:26901
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:50206
+      - 油管：全网最强白嫖:80
+      - 🇭🇰_油管：全网最强白嫖:46600
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_油管：全网最强白嫖:38286
-      - 🇭🇰_油管：全网最强白嫖:18888
-      - 油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63087
-      - 🇻🇳_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63086
-      - 🇨🇳_油管：全网最强白嫖:63086_2
-      - 🇸🇬_油管：全网最强白嫖:51175
-      - 油管：全网最强白嫖:80_2
-      - 🇺🇸_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:32169
-      - 🇨🇳_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:443_2
-      - 🇸🇬_油管：全网最强白嫖:50121
-      - 🇨🇳_油管：全网最强白嫖:2164
-      - 🇺🇸_油管：全网最强白嫖:443_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2
-      - 🇫🇷_油管：全网最强白嫖:443
-      - 🇨🇳_油管：全网最强白嫖:2164_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:50110
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-      - 🇻🇳_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-      - 🇰🇷_油管：全网最强白嫖:28996
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:36736
-      - 🇨🇳_油管：全网最强白嫖:64087
+      - 🇨🇳_油管：全网最强白嫖:63071
+      - 🇨🇳_油管：全网最强白嫖:63041
       - 🇯🇵_油管：全网最强白嫖:80
-      - 🇭🇰_油管：全网最强白嫖:46541
+      - 🇨🇳_油管：全网最强白嫖:63051
+      - 🇨🇳_油管：全网最强白嫖:63051_2
+      - 🇨🇳_油管：全网最强白嫖:443
       - 🇨🇳_油管：全网最强白嫖:52340
-      - 🇨🇳_油管：全网最强白嫖:50207
-      - 🇨🇳_油管：全网最强白嫖:50205
-      - 油管：全网最强白嫖:80_2_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2
-      - 🇨🇳_油管：全网最强白嫖:50206
-      - 🇨🇳_油管：全网最强白嫖:50205_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2_2
-      - 🇨🇳_油管：全网最强白嫖:50205_2_2
-      - 🇨🇳_油管：全网最强白嫖:50221
-      - 🇨🇳_油管：全网最强白嫖:50206_2
-      - 🇹🇼_油管：全网最强白嫖:443
-      - 🇹🇼_油管：全网最强白嫖:443_2
-      - 🇰🇷_油管：全网最强白嫖:50065
-      - 🇯🇵_油管：全网最强白嫖:443
-      - 🇷🇺_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:8989
-      - 🇮🇷_油管：全网最强白嫖:80
-      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164
+      - 🇨🇳_油管：全网最强白嫖:63004
+      - 🇨🇳_油管：全网最强白嫖:63078
+      - 🇯🇵_油管：全网最强白嫖:4440
+      - 🇨🇳_油管：全网最强白嫖:63078_2
       - 🇨🇳_油管：全网最强白嫖:38201
-      - 🇨🇳_油管：全网最强白嫖:8989_2
-      - 🇨🇳_油管：全网最强白嫖:41203
-      - 🇫🇷_油管：全网最强白嫖:443_2
-      - 🇨🇳_油管：全网最强白嫖:38201_2
-      - 🇸🇬_油管：全网最强白嫖:23235
-      - 🇸🇬_油管：全网最强白嫖:23233
-      - 🇸🇬_油管：全网最强白嫖:23234
-      - 🇻🇳_油管：全网最强白嫖:80_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:80_2
-      - 🇮🇷_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:12222
-      - 🇨🇳_油管：全网最强白嫖:12224
-      - 🇸🇬_油管：全网最强白嫖:23233_2
-      - 🇸🇬_油管：全网最强白嫖:23235_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-      - 🇸🇬_油管：全网最强白嫖:23232
-      - 🇨🇳_油管：全网最强白嫖:12205
-      - 🇷🇺_油管：全网最强白嫖:18443
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2
+      - 🇨🇳_油管：全网最强白嫖:2164_2
+      - 🇨🇳_油管：全网最强白嫖:63069
+      - 🇨🇳_油管：全网最强白嫖:63014
       - 油管：全网最强白嫖:443
-      - 油管：全网最强白嫖:80_2_2_2
-      - 🇷🇺_油管：全网最强白嫖:18443_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63088
+      - 🇨🇳_油管：全网最强白嫖:63088_2
+      - 🇭🇰_油管：全网最强白嫖:20943
+      - 🇭🇰_油管：全网最强白嫖:20942
+      - 🇭🇰_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2
+      - 🇨🇳_油管：全网最强白嫖:63041_2
+      - 🇯🇵_油管：全网最强白嫖:443
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63086
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2
+      - 🇮🇷_油管：全网最强白嫖:80
+      - 🇸🇬_油管：全网最强白嫖:12356
+      - 🇯🇵_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:80
+      - 🇯🇵_油管：全网最强白嫖:52356_2
+      - 🇯🇵_油管：全网最强白嫖:12356
+      - 🇻🇳_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:2096
+      - 🇺🇸_油管：全网最强白嫖:2096_2
+      - 🇨🇳_油管：全网最强白嫖:63086_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2
+      - 🇨🇳_油管：全网最强白嫖:63014_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39812
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39814
+      - 🇨🇳_油管：全网最强白嫖:63087
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63087_2
+      - 🇺🇸_油管：全网最强白嫖:39813
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+      - 🇫🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇦🇪_油管：全网最强白嫖:80
+      - 🇰🇷_油管：全网最强白嫖:12356
+      - 油管：全网最强白嫖:2053
+      - 🇯🇵_油管：全网最强白嫖:668
+      - 🇭🇰_油管：全网最强白嫖:52356
+      - 🇰🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:12356
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39815
+      - 🇨🇳_油管：全网最强白嫖:443_2
+      - 🇰🇷_油管：全网最强白嫖:12356_2
+      - 🇨🇳_油管：全网最强白嫖:8989
+      - 🇰🇷_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:12356_2
+      - 🇯🇵_油管：全网最强白嫖:80_2
+      - 🇯🇵_油管：全网最强白嫖:668_2
+      - 🇺🇸_油管：全网最强白嫖:80_2
+      - 🇭🇰_油管：全网最强白嫖:20944
+      - 🇺🇸_油管：全网最强白嫖:52356
+      - 🇬🇧_油管：全网最强白嫖:43566
+      - 🇩🇪_油管：全网最强白嫖:26901
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:50206
+      - 油管：全网最强白嫖:80
+      - 🇭🇰_油管：全网最强白嫖:46600
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_油管：全网最强白嫖:38286
-      - 🇭🇰_油管：全网最强白嫖:18888
-      - 油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63087
-      - 🇻🇳_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63086
-      - 🇨🇳_油管：全网最强白嫖:63086_2
-      - 🇸🇬_油管：全网最强白嫖:51175
-      - 油管：全网最强白嫖:80_2
-      - 🇺🇸_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:32169
-      - 🇨🇳_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:443_2
-      - 🇸🇬_油管：全网最强白嫖:50121
-      - 🇨🇳_油管：全网最强白嫖:2164
-      - 🇺🇸_油管：全网最强白嫖:443_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2
-      - 🇫🇷_油管：全网最强白嫖:443
-      - 🇨🇳_油管：全网最强白嫖:2164_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:50110
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-      - 🇻🇳_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-      - 🇰🇷_油管：全网最强白嫖:28996
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:36736
-      - 🇨🇳_油管：全网最强白嫖:64087
+      - 🇨🇳_油管：全网最强白嫖:63071
+      - 🇨🇳_油管：全网最强白嫖:63041
       - 🇯🇵_油管：全网最强白嫖:80
-      - 🇭🇰_油管：全网最强白嫖:46541
+      - 🇨🇳_油管：全网最强白嫖:63051
+      - 🇨🇳_油管：全网最强白嫖:63051_2
+      - 🇨🇳_油管：全网最强白嫖:443
       - 🇨🇳_油管：全网最强白嫖:52340
-      - 🇨🇳_油管：全网最强白嫖:50207
-      - 🇨🇳_油管：全网最强白嫖:50205
-      - 油管：全网最强白嫖:80_2_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2
-      - 🇨🇳_油管：全网最强白嫖:50206
-      - 🇨🇳_油管：全网最强白嫖:50205_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2_2
-      - 🇨🇳_油管：全网最强白嫖:50205_2_2
-      - 🇨🇳_油管：全网最强白嫖:50221
-      - 🇨🇳_油管：全网最强白嫖:50206_2
-      - 🇹🇼_油管：全网最强白嫖:443
-      - 🇹🇼_油管：全网最强白嫖:443_2
-      - 🇰🇷_油管：全网最强白嫖:50065
-      - 🇯🇵_油管：全网最强白嫖:443
-      - 🇷🇺_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:8989
-      - 🇮🇷_油管：全网最强白嫖:80
-      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164
+      - 🇨🇳_油管：全网最强白嫖:63004
+      - 🇨🇳_油管：全网最强白嫖:63078
+      - 🇯🇵_油管：全网最强白嫖:4440
+      - 🇨🇳_油管：全网最强白嫖:63078_2
       - 🇨🇳_油管：全网最强白嫖:38201
-      - 🇨🇳_油管：全网最强白嫖:8989_2
-      - 🇨🇳_油管：全网最强白嫖:41203
-      - 🇫🇷_油管：全网最强白嫖:443_2
-      - 🇨🇳_油管：全网最强白嫖:38201_2
-      - 🇸🇬_油管：全网最强白嫖:23235
-      - 🇸🇬_油管：全网最强白嫖:23233
-      - 🇸🇬_油管：全网最强白嫖:23234
-      - 🇻🇳_油管：全网最强白嫖:80_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:80_2
-      - 🇮🇷_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:12222
-      - 🇨🇳_油管：全网最强白嫖:12224
-      - 🇸🇬_油管：全网最强白嫖:23233_2
-      - 🇸🇬_油管：全网最强白嫖:23235_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-      - 🇸🇬_油管：全网最强白嫖:23232
-      - 🇨🇳_油管：全网最强白嫖:12205
-      - 🇷🇺_油管：全网最强白嫖:18443
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2
+      - 🇨🇳_油管：全网最强白嫖:2164_2
+      - 🇨🇳_油管：全网最强白嫖:63069
+      - 🇨🇳_油管：全网最强白嫖:63014
       - 油管：全网最强白嫖:443
-      - 油管：全网最强白嫖:80_2_2_2
-      - 🇷🇺_油管：全网最强白嫖:18443_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63088
+      - 🇨🇳_油管：全网最强白嫖:63088_2
+      - 🇭🇰_油管：全网最强白嫖:20943
+      - 🇭🇰_油管：全网最强白嫖:20942
+      - 🇭🇰_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2
+      - 🇨🇳_油管：全网最强白嫖:63041_2
+      - 🇯🇵_油管：全网最强白嫖:443
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63086
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2
+      - 🇮🇷_油管：全网最强白嫖:80
+      - 🇸🇬_油管：全网最强白嫖:12356
+      - 🇯🇵_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:80
+      - 🇯🇵_油管：全网最强白嫖:52356_2
+      - 🇯🇵_油管：全网最强白嫖:12356
+      - 🇻🇳_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:2096
+      - 🇺🇸_油管：全网最强白嫖:2096_2
+      - 🇨🇳_油管：全网最强白嫖:63086_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2
+      - 🇨🇳_油管：全网最强白嫖:63014_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39812
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39814
+      - 🇨🇳_油管：全网最强白嫖:63087
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63087_2
+      - 🇺🇸_油管：全网最强白嫖:39813
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+      - 🇫🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇦🇪_油管：全网最强白嫖:80
+      - 🇰🇷_油管：全网最强白嫖:12356
+      - 油管：全网最强白嫖:2053
+      - 🇯🇵_油管：全网最强白嫖:668
+      - 🇭🇰_油管：全网最强白嫖:52356
+      - 🇰🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:12356
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39815
+      - 🇨🇳_油管：全网最强白嫖:443_2
+      - 🇰🇷_油管：全网最强白嫖:12356_2
+      - 🇨🇳_油管：全网最强白嫖:8989
+      - 🇰🇷_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:12356_2
+      - 🇯🇵_油管：全网最强白嫖:80_2
+      - 🇯🇵_油管：全网最强白嫖:668_2
+      - 🇺🇸_油管：全网最强白嫖:80_2
+      - 🇭🇰_油管：全网最强白嫖:20944
+      - 🇺🇸_油管：全网最强白嫖:52356
+      - 🇬🇧_油管：全网最强白嫖:43566
+      - 🇩🇪_油管：全网最强白嫖:26901
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:50206
+      - 油管：全网最强白嫖:80
+      - 🇭🇰_油管：全网最强白嫖:46600
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_油管：全网最强白嫖:38286
-      - 🇭🇰_油管：全网最强白嫖:18888
-      - 油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63087
-      - 🇻🇳_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63086
-      - 🇨🇳_油管：全网最强白嫖:63086_2
-      - 🇸🇬_油管：全网最强白嫖:51175
-      - 油管：全网最强白嫖:80_2
-      - 🇺🇸_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:32169
-      - 🇨🇳_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:443_2
-      - 🇸🇬_油管：全网最强白嫖:50121
-      - 🇨🇳_油管：全网最强白嫖:2164
-      - 🇺🇸_油管：全网最强白嫖:443_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2
-      - 🇫🇷_油管：全网最强白嫖:443
-      - 🇨🇳_油管：全网最强白嫖:2164_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:50110
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-      - 🇻🇳_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-      - 🇰🇷_油管：全网最强白嫖:28996
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:36736
-      - 🇨🇳_油管：全网最强白嫖:64087
+      - 🇨🇳_油管：全网最强白嫖:63071
+      - 🇨🇳_油管：全网最强白嫖:63041
       - 🇯🇵_油管：全网最强白嫖:80
-      - 🇭🇰_油管：全网最强白嫖:46541
+      - 🇨🇳_油管：全网最强白嫖:63051
+      - 🇨🇳_油管：全网最强白嫖:63051_2
+      - 🇨🇳_油管：全网最强白嫖:443
       - 🇨🇳_油管：全网最强白嫖:52340
-      - 🇨🇳_油管：全网最强白嫖:50207
-      - 🇨🇳_油管：全网最强白嫖:50205
-      - 油管：全网最强白嫖:80_2_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2
-      - 🇨🇳_油管：全网最强白嫖:50206
-      - 🇨🇳_油管：全网最强白嫖:50205_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2_2
-      - 🇨🇳_油管：全网最强白嫖:50205_2_2
-      - 🇨🇳_油管：全网最强白嫖:50221
-      - 🇨🇳_油管：全网最强白嫖:50206_2
-      - 🇹🇼_油管：全网最强白嫖:443
-      - 🇹🇼_油管：全网最强白嫖:443_2
-      - 🇰🇷_油管：全网最强白嫖:50065
-      - 🇯🇵_油管：全网最强白嫖:443
-      - 🇷🇺_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:8989
-      - 🇮🇷_油管：全网最强白嫖:80
-      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164
+      - 🇨🇳_油管：全网最强白嫖:63004
+      - 🇨🇳_油管：全网最强白嫖:63078
+      - 🇯🇵_油管：全网最强白嫖:4440
+      - 🇨🇳_油管：全网最强白嫖:63078_2
       - 🇨🇳_油管：全网最强白嫖:38201
-      - 🇨🇳_油管：全网最强白嫖:8989_2
-      - 🇨🇳_油管：全网最强白嫖:41203
-      - 🇫🇷_油管：全网最强白嫖:443_2
-      - 🇨🇳_油管：全网最强白嫖:38201_2
-      - 🇸🇬_油管：全网最强白嫖:23235
-      - 🇸🇬_油管：全网最强白嫖:23233
-      - 🇸🇬_油管：全网最强白嫖:23234
-      - 🇻🇳_油管：全网最强白嫖:80_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:80_2
-      - 🇮🇷_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:12222
-      - 🇨🇳_油管：全网最强白嫖:12224
-      - 🇸🇬_油管：全网最强白嫖:23233_2
-      - 🇸🇬_油管：全网最强白嫖:23235_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-      - 🇸🇬_油管：全网最强白嫖:23232
-      - 🇨🇳_油管：全网最强白嫖:12205
-      - 🇷🇺_油管：全网最强白嫖:18443
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2
+      - 🇨🇳_油管：全网最强白嫖:2164_2
+      - 🇨🇳_油管：全网最强白嫖:63069
+      - 🇨🇳_油管：全网最强白嫖:63014
       - 油管：全网最强白嫖:443
-      - 油管：全网最强白嫖:80_2_2_2
-      - 🇷🇺_油管：全网最强白嫖:18443_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63088
+      - 🇨🇳_油管：全网最强白嫖:63088_2
+      - 🇭🇰_油管：全网最强白嫖:20943
+      - 🇭🇰_油管：全网最强白嫖:20942
+      - 🇭🇰_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2
+      - 🇨🇳_油管：全网最强白嫖:63041_2
+      - 🇯🇵_油管：全网最强白嫖:443
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63086
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2
+      - 🇮🇷_油管：全网最强白嫖:80
+      - 🇸🇬_油管：全网最强白嫖:12356
+      - 🇯🇵_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:80
+      - 🇯🇵_油管：全网最强白嫖:52356_2
+      - 🇯🇵_油管：全网最强白嫖:12356
+      - 🇻🇳_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:2096
+      - 🇺🇸_油管：全网最强白嫖:2096_2
+      - 🇨🇳_油管：全网最强白嫖:63086_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2
+      - 🇨🇳_油管：全网最强白嫖:63014_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39812
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39814
+      - 🇨🇳_油管：全网最强白嫖:63087
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63087_2
+      - 🇺🇸_油管：全网最强白嫖:39813
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+      - 🇫🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇦🇪_油管：全网最强白嫖:80
+      - 🇰🇷_油管：全网最强白嫖:12356
+      - 油管：全网最强白嫖:2053
+      - 🇯🇵_油管：全网最强白嫖:668
+      - 🇭🇰_油管：全网最强白嫖:52356
+      - 🇰🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:12356
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39815
+      - 🇨🇳_油管：全网最强白嫖:443_2
+      - 🇰🇷_油管：全网最强白嫖:12356_2
+      - 🇨🇳_油管：全网最强白嫖:8989
+      - 🇰🇷_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:12356_2
+      - 🇯🇵_油管：全网最强白嫖:80_2
+      - 🇯🇵_油管：全网最强白嫖:668_2
+      - 🇺🇸_油管：全网最强白嫖:80_2
+      - 🇭🇰_油管：全网最强白嫖:20944
+      - 🇺🇸_油管：全网最强白嫖:52356
+      - 🇬🇧_油管：全网最强白嫖:43566
+      - 🇩🇪_油管：全网最强白嫖:26901
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:50206
+      - 油管：全网最强白嫖:80
+      - 🇭🇰_油管：全网最强白嫖:46600
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_油管：全网最强白嫖:38286
-      - 🇭🇰_油管：全网最强白嫖:18888
-      - 油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63087
-      - 🇻🇳_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63086
-      - 🇨🇳_油管：全网最强白嫖:63086_2
-      - 🇸🇬_油管：全网最强白嫖:51175
-      - 油管：全网最强白嫖:80_2
-      - 🇺🇸_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:32169
-      - 🇨🇳_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:443_2
-      - 🇸🇬_油管：全网最强白嫖:50121
-      - 🇨🇳_油管：全网最强白嫖:2164
-      - 🇺🇸_油管：全网最强白嫖:443_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2
-      - 🇫🇷_油管：全网最强白嫖:443
-      - 🇨🇳_油管：全网最强白嫖:2164_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:50110
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-      - 🇻🇳_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-      - 🇰🇷_油管：全网最强白嫖:28996
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:36736
-      - 🇨🇳_油管：全网最强白嫖:64087
+      - 🇨🇳_油管：全网最强白嫖:63071
+      - 🇨🇳_油管：全网最强白嫖:63041
       - 🇯🇵_油管：全网最强白嫖:80
-      - 🇭🇰_油管：全网最强白嫖:46541
+      - 🇨🇳_油管：全网最强白嫖:63051
+      - 🇨🇳_油管：全网最强白嫖:63051_2
+      - 🇨🇳_油管：全网最强白嫖:443
       - 🇨🇳_油管：全网最强白嫖:52340
-      - 🇨🇳_油管：全网最强白嫖:50207
-      - 🇨🇳_油管：全网最强白嫖:50205
-      - 油管：全网最强白嫖:80_2_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2
-      - 🇨🇳_油管：全网最强白嫖:50206
-      - 🇨🇳_油管：全网最强白嫖:50205_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2_2
-      - 🇨🇳_油管：全网最强白嫖:50205_2_2
-      - 🇨🇳_油管：全网最强白嫖:50221
-      - 🇨🇳_油管：全网最强白嫖:50206_2
-      - 🇹🇼_油管：全网最强白嫖:443
-      - 🇹🇼_油管：全网最强白嫖:443_2
-      - 🇰🇷_油管：全网最强白嫖:50065
-      - 🇯🇵_油管：全网最强白嫖:443
-      - 🇷🇺_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:8989
-      - 🇮🇷_油管：全网最强白嫖:80
-      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164
+      - 🇨🇳_油管：全网最强白嫖:63004
+      - 🇨🇳_油管：全网最强白嫖:63078
+      - 🇯🇵_油管：全网最强白嫖:4440
+      - 🇨🇳_油管：全网最强白嫖:63078_2
       - 🇨🇳_油管：全网最强白嫖:38201
-      - 🇨🇳_油管：全网最强白嫖:8989_2
-      - 🇨🇳_油管：全网最强白嫖:41203
-      - 🇫🇷_油管：全网最强白嫖:443_2
-      - 🇨🇳_油管：全网最强白嫖:38201_2
-      - 🇸🇬_油管：全网最强白嫖:23235
-      - 🇸🇬_油管：全网最强白嫖:23233
-      - 🇸🇬_油管：全网最强白嫖:23234
-      - 🇻🇳_油管：全网最强白嫖:80_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:80_2
-      - 🇮🇷_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:12222
-      - 🇨🇳_油管：全网最强白嫖:12224
-      - 🇸🇬_油管：全网最强白嫖:23233_2
-      - 🇸🇬_油管：全网最强白嫖:23235_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-      - 🇸🇬_油管：全网最强白嫖:23232
-      - 🇨🇳_油管：全网最强白嫖:12205
-      - 🇷🇺_油管：全网最强白嫖:18443
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2
+      - 🇨🇳_油管：全网最强白嫖:2164_2
+      - 🇨🇳_油管：全网最强白嫖:63069
+      - 🇨🇳_油管：全网最强白嫖:63014
       - 油管：全网最强白嫖:443
-      - 油管：全网最强白嫖:80_2_2_2
-      - 🇷🇺_油管：全网最强白嫖:18443_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63088
+      - 🇨🇳_油管：全网最强白嫖:63088_2
+      - 🇭🇰_油管：全网最强白嫖:20943
+      - 🇭🇰_油管：全网最强白嫖:20942
+      - 🇭🇰_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2
+      - 🇨🇳_油管：全网最强白嫖:63041_2
+      - 🇯🇵_油管：全网最强白嫖:443
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63086
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2
+      - 🇮🇷_油管：全网最强白嫖:80
+      - 🇸🇬_油管：全网最强白嫖:12356
+      - 🇯🇵_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:80
+      - 🇯🇵_油管：全网最强白嫖:52356_2
+      - 🇯🇵_油管：全网最强白嫖:12356
+      - 🇻🇳_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:2096
+      - 🇺🇸_油管：全网最强白嫖:2096_2
+      - 🇨🇳_油管：全网最强白嫖:63086_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2
+      - 🇨🇳_油管：全网最强白嫖:63014_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39812
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39814
+      - 🇨🇳_油管：全网最强白嫖:63087
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63087_2
+      - 🇺🇸_油管：全网最强白嫖:39813
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+      - 🇫🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇦🇪_油管：全网最强白嫖:80
+      - 🇰🇷_油管：全网最强白嫖:12356
+      - 油管：全网最强白嫖:2053
+      - 🇯🇵_油管：全网最强白嫖:668
+      - 🇭🇰_油管：全网最强白嫖:52356
+      - 🇰🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:12356
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39815
+      - 🇨🇳_油管：全网最强白嫖:443_2
+      - 🇰🇷_油管：全网最强白嫖:12356_2
+      - 🇨🇳_油管：全网最强白嫖:8989
+      - 🇰🇷_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:12356_2
+      - 🇯🇵_油管：全网最强白嫖:80_2
+      - 🇯🇵_油管：全网最强白嫖:668_2
+      - 🇺🇸_油管：全网最强白嫖:80_2
+      - 🇭🇰_油管：全网最强白嫖:20944
+      - 🇺🇸_油管：全网最强白嫖:52356
+      - 🇬🇧_油管：全网最强白嫖:43566
+      - 🇩🇪_油管：全网最强白嫖:26901
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:50206
+      - 油管：全网最强白嫖:80
+      - 🇭🇰_油管：全网最强白嫖:46600
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_油管：全网最强白嫖:38286
-      - 🇭🇰_油管：全网最强白嫖:18888
-      - 油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63087
-      - 🇻🇳_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63086
-      - 🇨🇳_油管：全网最强白嫖:63086_2
-      - 🇸🇬_油管：全网最强白嫖:51175
-      - 油管：全网最强白嫖:80_2
-      - 🇺🇸_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:32169
-      - 🇨🇳_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:443_2
-      - 🇸🇬_油管：全网最强白嫖:50121
-      - 🇨🇳_油管：全网最强白嫖:2164
-      - 🇺🇸_油管：全网最强白嫖:443_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2
-      - 🇫🇷_油管：全网最强白嫖:443
-      - 🇨🇳_油管：全网最强白嫖:2164_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:50110
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-      - 🇻🇳_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-      - 🇰🇷_油管：全网最强白嫖:28996
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:36736
-      - 🇨🇳_油管：全网最强白嫖:64087
+      - 🇨🇳_油管：全网最强白嫖:63071
+      - 🇨🇳_油管：全网最强白嫖:63041
       - 🇯🇵_油管：全网最强白嫖:80
-      - 🇭🇰_油管：全网最强白嫖:46541
+      - 🇨🇳_油管：全网最强白嫖:63051
+      - 🇨🇳_油管：全网最强白嫖:63051_2
+      - 🇨🇳_油管：全网最强白嫖:443
       - 🇨🇳_油管：全网最强白嫖:52340
-      - 🇨🇳_油管：全网最强白嫖:50207
-      - 🇨🇳_油管：全网最强白嫖:50205
-      - 油管：全网最强白嫖:80_2_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2
-      - 🇨🇳_油管：全网最强白嫖:50206
-      - 🇨🇳_油管：全网最强白嫖:50205_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2_2
-      - 🇨🇳_油管：全网最强白嫖:50205_2_2
-      - 🇨🇳_油管：全网最强白嫖:50221
-      - 🇨🇳_油管：全网最强白嫖:50206_2
-      - 🇹🇼_油管：全网最强白嫖:443
-      - 🇹🇼_油管：全网最强白嫖:443_2
-      - 🇰🇷_油管：全网最强白嫖:50065
-      - 🇯🇵_油管：全网最强白嫖:443
-      - 🇷🇺_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:8989
-      - 🇮🇷_油管：全网最强白嫖:80
-      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164
+      - 🇨🇳_油管：全网最强白嫖:63004
+      - 🇨🇳_油管：全网最强白嫖:63078
+      - 🇯🇵_油管：全网最强白嫖:4440
+      - 🇨🇳_油管：全网最强白嫖:63078_2
       - 🇨🇳_油管：全网最强白嫖:38201
-      - 🇨🇳_油管：全网最强白嫖:8989_2
-      - 🇨🇳_油管：全网最强白嫖:41203
-      - 🇫🇷_油管：全网最强白嫖:443_2
-      - 🇨🇳_油管：全网最强白嫖:38201_2
-      - 🇸🇬_油管：全网最强白嫖:23235
-      - 🇸🇬_油管：全网最强白嫖:23233
-      - 🇸🇬_油管：全网最强白嫖:23234
-      - 🇻🇳_油管：全网最强白嫖:80_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:80_2
-      - 🇮🇷_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:12222
-      - 🇨🇳_油管：全网最强白嫖:12224
-      - 🇸🇬_油管：全网最强白嫖:23233_2
-      - 🇸🇬_油管：全网最强白嫖:23235_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-      - 🇸🇬_油管：全网最强白嫖:23232
-      - 🇨🇳_油管：全网最强白嫖:12205
-      - 🇷🇺_油管：全网最强白嫖:18443
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2
+      - 🇨🇳_油管：全网最强白嫖:2164_2
+      - 🇨🇳_油管：全网最强白嫖:63069
+      - 🇨🇳_油管：全网最强白嫖:63014
       - 油管：全网最强白嫖:443
-      - 油管：全网最强白嫖:80_2_2_2
-      - 🇷🇺_油管：全网最强白嫖:18443_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63088
+      - 🇨🇳_油管：全网最强白嫖:63088_2
+      - 🇭🇰_油管：全网最强白嫖:20943
+      - 🇭🇰_油管：全网最强白嫖:20942
+      - 🇭🇰_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2
+      - 🇨🇳_油管：全网最强白嫖:63041_2
+      - 🇯🇵_油管：全网最强白嫖:443
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63086
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2
+      - 🇮🇷_油管：全网最强白嫖:80
+      - 🇸🇬_油管：全网最强白嫖:12356
+      - 🇯🇵_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:80
+      - 🇯🇵_油管：全网最强白嫖:52356_2
+      - 🇯🇵_油管：全网最强白嫖:12356
+      - 🇻🇳_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:2096
+      - 🇺🇸_油管：全网最强白嫖:2096_2
+      - 🇨🇳_油管：全网最强白嫖:63086_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2
+      - 🇨🇳_油管：全网最强白嫖:63014_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39812
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39814
+      - 🇨🇳_油管：全网最强白嫖:63087
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63087_2
+      - 🇺🇸_油管：全网最强白嫖:39813
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+      - 🇫🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇦🇪_油管：全网最强白嫖:80
+      - 🇰🇷_油管：全网最强白嫖:12356
+      - 油管：全网最强白嫖:2053
+      - 🇯🇵_油管：全网最强白嫖:668
+      - 🇭🇰_油管：全网最强白嫖:52356
+      - 🇰🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:12356
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39815
+      - 🇨🇳_油管：全网最强白嫖:443_2
+      - 🇰🇷_油管：全网最强白嫖:12356_2
+      - 🇨🇳_油管：全网最强白嫖:8989
+      - 🇰🇷_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:12356_2
+      - 🇯🇵_油管：全网最强白嫖:80_2
+      - 🇯🇵_油管：全网最强白嫖:668_2
+      - 🇺🇸_油管：全网最强白嫖:80_2
+      - 🇭🇰_油管：全网最强白嫖:20944
+      - 🇺🇸_油管：全网最强白嫖:52356
+      - 🇬🇧_油管：全网最强白嫖:43566
+      - 🇩🇪_油管：全网最强白嫖:26901
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:50206
+      - 油管：全网最强白嫖:80
+      - 🇭🇰_油管：全网最强白嫖:46600
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇺🇸_油管：全网最强白嫖:38286
-      - 🇭🇰_油管：全网最强白嫖:18888
-      - 油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63087
-      - 🇻🇳_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63086
-      - 🇨🇳_油管：全网最强白嫖:63086_2
-      - 🇸🇬_油管：全网最强白嫖:51175
-      - 油管：全网最强白嫖:80_2
-      - 🇺🇸_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:32169
-      - 🇨🇳_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:443_2
-      - 🇸🇬_油管：全网最强白嫖:50121
-      - 🇨🇳_油管：全网最强白嫖:2164
-      - 🇺🇸_油管：全网最强白嫖:443_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2
-      - 🇫🇷_油管：全网最强白嫖:443
-      - 🇨🇳_油管：全网最强白嫖:2164_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:50110
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-      - 🇻🇳_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-      - 🇰🇷_油管：全网最强白嫖:28996
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:36736
-      - 🇨🇳_油管：全网最强白嫖:64087
+      - 🇨🇳_油管：全网最强白嫖:63071
+      - 🇨🇳_油管：全网最强白嫖:63041
       - 🇯🇵_油管：全网最强白嫖:80
-      - 🇭🇰_油管：全网最强白嫖:46541
+      - 🇨🇳_油管：全网最强白嫖:63051
+      - 🇨🇳_油管：全网最强白嫖:63051_2
+      - 🇨🇳_油管：全网最强白嫖:443
       - 🇨🇳_油管：全网最强白嫖:52340
-      - 🇨🇳_油管：全网最强白嫖:50207
-      - 🇨🇳_油管：全网最强白嫖:50205
-      - 油管：全网最强白嫖:80_2_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2
-      - 🇨🇳_油管：全网最强白嫖:50206
-      - 🇨🇳_油管：全网最强白嫖:50205_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2_2
-      - 🇨🇳_油管：全网最强白嫖:50205_2_2
-      - 🇨🇳_油管：全网最强白嫖:50221
-      - 🇨🇳_油管：全网最强白嫖:50206_2
-      - 🇹🇼_油管：全网最强白嫖:443
-      - 🇹🇼_油管：全网最强白嫖:443_2
-      - 🇰🇷_油管：全网最强白嫖:50065
-      - 🇯🇵_油管：全网最强白嫖:443
-      - 🇷🇺_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:8989
-      - 🇮🇷_油管：全网最强白嫖:80
-      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164
+      - 🇨🇳_油管：全网最强白嫖:63004
+      - 🇨🇳_油管：全网最强白嫖:63078
+      - 🇯🇵_油管：全网最强白嫖:4440
+      - 🇨🇳_油管：全网最强白嫖:63078_2
       - 🇨🇳_油管：全网最强白嫖:38201
-      - 🇨🇳_油管：全网最强白嫖:8989_2
-      - 🇨🇳_油管：全网最强白嫖:41203
-      - 🇫🇷_油管：全网最强白嫖:443_2
-      - 🇨🇳_油管：全网最强白嫖:38201_2
-      - 🇸🇬_油管：全网最强白嫖:23235
-      - 🇸🇬_油管：全网最强白嫖:23233
-      - 🇸🇬_油管：全网最强白嫖:23234
-      - 🇻🇳_油管：全网最强白嫖:80_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:80_2
-      - 🇮🇷_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:12222
-      - 🇨🇳_油管：全网最强白嫖:12224
-      - 🇸🇬_油管：全网最强白嫖:23233_2
-      - 🇸🇬_油管：全网最强白嫖:23235_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-      - 🇸🇬_油管：全网最强白嫖:23232
-      - 🇨🇳_油管：全网最强白嫖:12205
-      - 🇷🇺_油管：全网最强白嫖:18443
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2
+      - 🇨🇳_油管：全网最强白嫖:2164_2
+      - 🇨🇳_油管：全网最强白嫖:63069
+      - 🇨🇳_油管：全网最强白嫖:63014
       - 油管：全网最强白嫖:443
-      - 油管：全网最强白嫖:80_2_2_2
-      - 🇷🇺_油管：全网最强白嫖:18443_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63088
+      - 🇨🇳_油管：全网最强白嫖:63088_2
+      - 🇭🇰_油管：全网最强白嫖:20943
+      - 🇭🇰_油管：全网最强白嫖:20942
+      - 🇭🇰_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2
+      - 🇨🇳_油管：全网最强白嫖:63041_2
+      - 🇯🇵_油管：全网最强白嫖:443
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63086
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2
+      - 🇮🇷_油管：全网最强白嫖:80
+      - 🇸🇬_油管：全网最强白嫖:12356
+      - 🇯🇵_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:80
+      - 🇯🇵_油管：全网最强白嫖:52356_2
+      - 🇯🇵_油管：全网最强白嫖:12356
+      - 🇻🇳_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:2096
+      - 🇺🇸_油管：全网最强白嫖:2096_2
+      - 🇨🇳_油管：全网最强白嫖:63086_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2
+      - 🇨🇳_油管：全网最强白嫖:63014_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39812
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39814
+      - 🇨🇳_油管：全网最强白嫖:63087
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63087_2
+      - 🇺🇸_油管：全网最强白嫖:39813
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+      - 🇫🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇦🇪_油管：全网最强白嫖:80
+      - 🇰🇷_油管：全网最强白嫖:12356
+      - 油管：全网最强白嫖:2053
+      - 🇯🇵_油管：全网最强白嫖:668
+      - 🇭🇰_油管：全网最强白嫖:52356
+      - 🇰🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:12356
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39815
+      - 🇨🇳_油管：全网最强白嫖:443_2
+      - 🇰🇷_油管：全网最强白嫖:12356_2
+      - 🇨🇳_油管：全网最强白嫖:8989
+      - 🇰🇷_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:12356_2
+      - 🇯🇵_油管：全网最强白嫖:80_2
+      - 🇯🇵_油管：全网最强白嫖:668_2
+      - 🇺🇸_油管：全网最强白嫖:80_2
+      - 🇭🇰_油管：全网最强白嫖:20944
+      - 🇺🇸_油管：全网最强白嫖:52356
+      - 🇬🇧_油管：全网最强白嫖:43566
+      - 🇩🇪_油管：全网最强白嫖:26901
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:50206
+      - 油管：全网最强白嫖:80
+      - 🇭🇰_油管：全网最强白嫖:46600
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - 🇺🇸_油管：全网最强白嫖:38286
-      - 🇭🇰_油管：全网最强白嫖:18888
-      - 油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63087
-      - 🇻🇳_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63086
-      - 🇨🇳_油管：全网最强白嫖:63086_2
-      - 🇸🇬_油管：全网最强白嫖:51175
-      - 油管：全网最强白嫖:80_2
-      - 🇺🇸_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:32169
-      - 🇨🇳_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:443_2
-      - 🇸🇬_油管：全网最强白嫖:50121
-      - 🇨🇳_油管：全网最强白嫖:2164
-      - 🇺🇸_油管：全网最强白嫖:443_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2
-      - 🇫🇷_油管：全网最强白嫖:443
-      - 🇨🇳_油管：全网最强白嫖:2164_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:50110
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-      - 🇻🇳_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-      - 🇰🇷_油管：全网最强白嫖:28996
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:36736
-      - 🇨🇳_油管：全网最强白嫖:64087
+      - 🇨🇳_油管：全网最强白嫖:63071
+      - 🇨🇳_油管：全网最强白嫖:63041
       - 🇯🇵_油管：全网最强白嫖:80
-      - 🇭🇰_油管：全网最强白嫖:46541
+      - 🇨🇳_油管：全网最强白嫖:63051
+      - 🇨🇳_油管：全网最强白嫖:63051_2
+      - 🇨🇳_油管：全网最强白嫖:443
       - 🇨🇳_油管：全网最强白嫖:52340
-      - 🇨🇳_油管：全网最强白嫖:50207
-      - 🇨🇳_油管：全网最强白嫖:50205
-      - 油管：全网最强白嫖:80_2_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2
-      - 🇨🇳_油管：全网最强白嫖:50206
-      - 🇨🇳_油管：全网最强白嫖:50205_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2_2
-      - 🇨🇳_油管：全网最强白嫖:50205_2_2
-      - 🇨🇳_油管：全网最强白嫖:50221
-      - 🇨🇳_油管：全网最强白嫖:50206_2
-      - 🇹🇼_油管：全网最强白嫖:443
-      - 🇹🇼_油管：全网最强白嫖:443_2
-      - 🇰🇷_油管：全网最强白嫖:50065
-      - 🇯🇵_油管：全网最强白嫖:443
-      - 🇷🇺_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:8989
-      - 🇮🇷_油管：全网最强白嫖:80
-      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164
+      - 🇨🇳_油管：全网最强白嫖:63004
+      - 🇨🇳_油管：全网最强白嫖:63078
+      - 🇯🇵_油管：全网最强白嫖:4440
+      - 🇨🇳_油管：全网最强白嫖:63078_2
       - 🇨🇳_油管：全网最强白嫖:38201
-      - 🇨🇳_油管：全网最强白嫖:8989_2
-      - 🇨🇳_油管：全网最强白嫖:41203
-      - 🇫🇷_油管：全网最强白嫖:443_2
-      - 🇨🇳_油管：全网最强白嫖:38201_2
-      - 🇸🇬_油管：全网最强白嫖:23235
-      - 🇸🇬_油管：全网最强白嫖:23233
-      - 🇸🇬_油管：全网最强白嫖:23234
-      - 🇻🇳_油管：全网最强白嫖:80_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:80_2
-      - 🇮🇷_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:12222
-      - 🇨🇳_油管：全网最强白嫖:12224
-      - 🇸🇬_油管：全网最强白嫖:23233_2
-      - 🇸🇬_油管：全网最强白嫖:23235_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-      - 🇸🇬_油管：全网最强白嫖:23232
-      - 🇨🇳_油管：全网最强白嫖:12205
-      - 🇷🇺_油管：全网最强白嫖:18443
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2
+      - 🇨🇳_油管：全网最强白嫖:2164_2
+      - 🇨🇳_油管：全网最强白嫖:63069
+      - 🇨🇳_油管：全网最强白嫖:63014
       - 油管：全网最强白嫖:443
-      - 油管：全网最强白嫖:80_2_2_2
-      - 🇷🇺_油管：全网最强白嫖:18443_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63088
+      - 🇨🇳_油管：全网最强白嫖:63088_2
+      - 🇭🇰_油管：全网最强白嫖:20943
+      - 🇭🇰_油管：全网最强白嫖:20942
+      - 🇭🇰_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2
+      - 🇨🇳_油管：全网最强白嫖:63041_2
+      - 🇯🇵_油管：全网最强白嫖:443
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63086
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2
+      - 🇮🇷_油管：全网最强白嫖:80
+      - 🇸🇬_油管：全网最强白嫖:12356
+      - 🇯🇵_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:80
+      - 🇯🇵_油管：全网最强白嫖:52356_2
+      - 🇯🇵_油管：全网最强白嫖:12356
+      - 🇻🇳_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:2096
+      - 🇺🇸_油管：全网最强白嫖:2096_2
+      - 🇨🇳_油管：全网最强白嫖:63086_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2
+      - 🇨🇳_油管：全网最强白嫖:63014_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39812
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39814
+      - 🇨🇳_油管：全网最强白嫖:63087
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63087_2
+      - 🇺🇸_油管：全网最强白嫖:39813
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+      - 🇫🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇦🇪_油管：全网最强白嫖:80
+      - 🇰🇷_油管：全网最强白嫖:12356
+      - 油管：全网最强白嫖:2053
+      - 🇯🇵_油管：全网最强白嫖:668
+      - 🇭🇰_油管：全网最强白嫖:52356
+      - 🇰🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:12356
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39815
+      - 🇨🇳_油管：全网最强白嫖:443_2
+      - 🇰🇷_油管：全网最强白嫖:12356_2
+      - 🇨🇳_油管：全网最强白嫖:8989
+      - 🇰🇷_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:12356_2
+      - 🇯🇵_油管：全网最强白嫖:80_2
+      - 🇯🇵_油管：全网最强白嫖:668_2
+      - 🇺🇸_油管：全网最强白嫖:80_2
+      - 🇭🇰_油管：全网最强白嫖:20944
+      - 🇺🇸_油管：全网最强白嫖:52356
+      - 🇬🇧_油管：全网最强白嫖:43566
+      - 🇩🇪_油管：全网最强白嫖:26901
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:50206
+      - 油管：全网最强白嫖:80
+      - 🇭🇰_油管：全网最强白嫖:46600
   - name: 🛑 全球拦截
     type: select
     proxies:
       - REJECT
       - DIRECT
-      - 🇺🇸_油管：全网最强白嫖:38286
-      - 🇭🇰_油管：全网最强白嫖:18888
-      - 油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63087
-      - 🇻🇳_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63086
-      - 🇨🇳_油管：全网最强白嫖:63086_2
-      - 🇸🇬_油管：全网最强白嫖:51175
-      - 油管：全网最强白嫖:80_2
-      - 🇺🇸_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:32169
-      - 🇨🇳_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:443_2
-      - 🇸🇬_油管：全网最强白嫖:50121
-      - 🇨🇳_油管：全网最强白嫖:2164
-      - 🇺🇸_油管：全网最强白嫖:443_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2
-      - 🇫🇷_油管：全网最强白嫖:443
-      - 🇨🇳_油管：全网最强白嫖:2164_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:50110
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-      - 🇻🇳_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-      - 🇰🇷_油管：全网最强白嫖:28996
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:36736
-      - 🇨🇳_油管：全网最强白嫖:64087
+      - 🇨🇳_油管：全网最强白嫖:63071
+      - 🇨🇳_油管：全网最强白嫖:63041
       - 🇯🇵_油管：全网最强白嫖:80
-      - 🇭🇰_油管：全网最强白嫖:46541
+      - 🇨🇳_油管：全网最强白嫖:63051
+      - 🇨🇳_油管：全网最强白嫖:63051_2
+      - 🇨🇳_油管：全网最强白嫖:443
       - 🇨🇳_油管：全网最强白嫖:52340
-      - 🇨🇳_油管：全网最强白嫖:50207
-      - 🇨🇳_油管：全网最强白嫖:50205
-      - 油管：全网最强白嫖:80_2_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2
-      - 🇨🇳_油管：全网最强白嫖:50206
-      - 🇨🇳_油管：全网最强白嫖:50205_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2_2
-      - 🇨🇳_油管：全网最强白嫖:50205_2_2
-      - 🇨🇳_油管：全网最强白嫖:50221
-      - 🇨🇳_油管：全网最强白嫖:50206_2
-      - 🇹🇼_油管：全网最强白嫖:443
-      - 🇹🇼_油管：全网最强白嫖:443_2
-      - 🇰🇷_油管：全网最强白嫖:50065
-      - 🇯🇵_油管：全网最强白嫖:443
-      - 🇷🇺_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:8989
-      - 🇮🇷_油管：全网最强白嫖:80
-      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164
+      - 🇨🇳_油管：全网最强白嫖:63004
+      - 🇨🇳_油管：全网最强白嫖:63078
+      - 🇯🇵_油管：全网最强白嫖:4440
+      - 🇨🇳_油管：全网最强白嫖:63078_2
       - 🇨🇳_油管：全网最强白嫖:38201
-      - 🇨🇳_油管：全网最强白嫖:8989_2
-      - 🇨🇳_油管：全网最强白嫖:41203
-      - 🇫🇷_油管：全网最强白嫖:443_2
-      - 🇨🇳_油管：全网最强白嫖:38201_2
-      - 🇸🇬_油管：全网最强白嫖:23235
-      - 🇸🇬_油管：全网最强白嫖:23233
-      - 🇸🇬_油管：全网最强白嫖:23234
-      - 🇻🇳_油管：全网最强白嫖:80_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:80_2
-      - 🇮🇷_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:12222
-      - 🇨🇳_油管：全网最强白嫖:12224
-      - 🇸🇬_油管：全网最强白嫖:23233_2
-      - 🇸🇬_油管：全网最强白嫖:23235_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-      - 🇸🇬_油管：全网最强白嫖:23232
-      - 🇨🇳_油管：全网最强白嫖:12205
-      - 🇷🇺_油管：全网最强白嫖:18443
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2
+      - 🇨🇳_油管：全网最强白嫖:2164_2
+      - 🇨🇳_油管：全网最强白嫖:63069
+      - 🇨🇳_油管：全网最强白嫖:63014
       - 油管：全网最强白嫖:443
-      - 油管：全网最强白嫖:80_2_2_2
-      - 🇷🇺_油管：全网最强白嫖:18443_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63088
+      - 🇨🇳_油管：全网最强白嫖:63088_2
+      - 🇭🇰_油管：全网最强白嫖:20943
+      - 🇭🇰_油管：全网最强白嫖:20942
+      - 🇭🇰_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2
+      - 🇨🇳_油管：全网最强白嫖:63041_2
+      - 🇯🇵_油管：全网最强白嫖:443
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63086
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2
+      - 🇮🇷_油管：全网最强白嫖:80
+      - 🇸🇬_油管：全网最强白嫖:12356
+      - 🇯🇵_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:80
+      - 🇯🇵_油管：全网最强白嫖:52356_2
+      - 🇯🇵_油管：全网最强白嫖:12356
+      - 🇻🇳_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:2096
+      - 🇺🇸_油管：全网最强白嫖:2096_2
+      - 🇨🇳_油管：全网最强白嫖:63086_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2
+      - 🇨🇳_油管：全网最强白嫖:63014_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39812
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39814
+      - 🇨🇳_油管：全网最强白嫖:63087
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63087_2
+      - 🇺🇸_油管：全网最强白嫖:39813
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+      - 🇫🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇦🇪_油管：全网最强白嫖:80
+      - 🇰🇷_油管：全网最强白嫖:12356
+      - 油管：全网最强白嫖:2053
+      - 🇯🇵_油管：全网最强白嫖:668
+      - 🇭🇰_油管：全网最强白嫖:52356
+      - 🇰🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:12356
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39815
+      - 🇨🇳_油管：全网最强白嫖:443_2
+      - 🇰🇷_油管：全网最强白嫖:12356_2
+      - 🇨🇳_油管：全网最强白嫖:8989
+      - 🇰🇷_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:12356_2
+      - 🇯🇵_油管：全网最强白嫖:80_2
+      - 🇯🇵_油管：全网最强白嫖:668_2
+      - 🇺🇸_油管：全网最强白嫖:80_2
+      - 🇭🇰_油管：全网最强白嫖:20944
+      - 🇺🇸_油管：全网最强白嫖:52356
+      - 🇬🇧_油管：全网最强白嫖:43566
+      - 🇩🇪_油管：全网最强白嫖:26901
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:50206
+      - 油管：全网最强白嫖:80
+      - 🇭🇰_油管：全网最强白嫖:46600
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_油管：全网最强白嫖:38286
-      - 🇭🇰_油管：全网最强白嫖:18888
-      - 油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63087
-      - 🇻🇳_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:63086
-      - 🇨🇳_油管：全网最强白嫖:63086_2
-      - 🇸🇬_油管：全网最强白嫖:51175
-      - 油管：全网最强白嫖:80_2
-      - 🇺🇸_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:32169
-      - 🇨🇳_油管：全网最强白嫖:443
-      - 🇺🇸_油管：全网最强白嫖:443_2
-      - 🇸🇬_油管：全网最强白嫖:50121
-      - 🇨🇳_油管：全网最强白嫖:2164
-      - 🇺🇸_油管：全网最强白嫖:443_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2
-      - 🇫🇷_油管：全网最强白嫖:443
-      - 🇨🇳_油管：全网最强白嫖:2164_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:50110
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2
-      - 🇻🇳_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
-      - 🇰🇷_油管：全网最强白嫖:28996
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2
-      - 🇨🇳_油管：全网最强白嫖:36736
-      - 🇨🇳_油管：全网最强白嫖:64087
+      - 🇨🇳_油管：全网最强白嫖:63071
+      - 🇨🇳_油管：全网最强白嫖:63041
       - 🇯🇵_油管：全网最强白嫖:80
-      - 🇭🇰_油管：全网最强白嫖:46541
+      - 🇨🇳_油管：全网最强白嫖:63051
+      - 🇨🇳_油管：全网最强白嫖:63051_2
+      - 🇨🇳_油管：全网最强白嫖:443
       - 🇨🇳_油管：全网最强白嫖:52340
-      - 🇨🇳_油管：全网最强白嫖:50207
-      - 🇨🇳_油管：全网最强白嫖:50205
-      - 油管：全网最强白嫖:80_2_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2
-      - 🇨🇳_油管：全网最强白嫖:50206
-      - 🇨🇳_油管：全网最强白嫖:50205_2
-      - 🇨🇳_油管：全网最强白嫖:50207_2_2
-      - 🇨🇳_油管：全网最强白嫖:50205_2_2
-      - 🇨🇳_油管：全网最强白嫖:50221
-      - 🇨🇳_油管：全网最强白嫖:50206_2
-      - 🇹🇼_油管：全网最强白嫖:443
-      - 🇹🇼_油管：全网最强白嫖:443_2
-      - 🇰🇷_油管：全网最强白嫖:50065
-      - 🇯🇵_油管：全网最强白嫖:443
-      - 🇷🇺_油管：全网最强白嫖:80
-      - 🇨🇳_油管：全网最强白嫖:8989
-      - 🇮🇷_油管：全网最强白嫖:80
-      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164
+      - 🇨🇳_油管：全网最强白嫖:63004
+      - 🇨🇳_油管：全网最强白嫖:63078
+      - 🇯🇵_油管：全网最强白嫖:4440
+      - 🇨🇳_油管：全网最强白嫖:63078_2
       - 🇨🇳_油管：全网最强白嫖:38201
-      - 🇨🇳_油管：全网最强白嫖:8989_2
-      - 🇨🇳_油管：全网最强白嫖:41203
-      - 🇫🇷_油管：全网最强白嫖:443_2
-      - 🇨🇳_油管：全网最强白嫖:38201_2
-      - 🇸🇬_油管：全网最强白嫖:23235
-      - 🇸🇬_油管：全网最强白嫖:23233
-      - 🇸🇬_油管：全网最强白嫖:23234
-      - 🇻🇳_油管：全网最强白嫖:80_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:80_2
-      - 🇮🇷_油管：全网最强白嫖:80_2
-      - 🇨🇳_油管：全网最强白嫖:12222
-      - 🇨🇳_油管：全网最强白嫖:12224
-      - 🇸🇬_油管：全网最强白嫖:23233_2
-      - 🇸🇬_油管：全网最强白嫖:23235_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2
-      - 🇸🇬_油管：全网最强白嫖:23232
-      - 🇨🇳_油管：全网最强白嫖:12205
-      - 🇷🇺_油管：全网最强白嫖:18443
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2
-      - 🇺🇸_油管：全网最强白嫖:443_2_2_2_2_2_2_2_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2
+      - 🇨🇳_油管：全网最强白嫖:2164_2
+      - 🇨🇳_油管：全网最强白嫖:63069
+      - 🇨🇳_油管：全网最强白嫖:63014
       - 油管：全网最强白嫖:443
-      - 油管：全网最强白嫖:80_2_2_2
-      - 🇷🇺_油管：全网最强白嫖:18443_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63088
+      - 🇨🇳_油管：全网最强白嫖:63088_2
+      - 🇭🇰_油管：全网最强白嫖:20943
+      - 🇭🇰_油管：全网最强白嫖:20942
+      - 🇭🇰_油管：全网最强白嫖:80
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2
+      - 🇨🇳_油管：全网最强白嫖:63041_2
+      - 🇯🇵_油管：全网最强白嫖:443
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63051_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63086
+      - 🇨🇳_油管：全网最强白嫖:2164_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2
+      - 🇮🇷_油管：全网最强白嫖:80
+      - 🇸🇬_油管：全网最强白嫖:12356
+      - 🇯🇵_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:52356
+      - 🇸🇬_油管：全网最强白嫖:80
+      - 🇯🇵_油管：全网最强白嫖:52356_2
+      - 🇯🇵_油管：全网最强白嫖:12356
+      - 🇻🇳_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:2096
+      - 🇺🇸_油管：全网最强白嫖:2096_2
+      - 🇨🇳_油管：全网最强白嫖:63086_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2
+      - 🇨🇳_油管：全网最强白嫖:63014_2
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39812
+      - 🇨🇳_油管：全网最强白嫖:63004_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39814
+      - 🇨🇳_油管：全网最强白嫖:63087
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:63087_2
+      - 🇺🇸_油管：全网最强白嫖:39813
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2
+      - 🇫🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:80
+      - 🇦🇪_油管：全网最强白嫖:80
+      - 🇰🇷_油管：全网最强白嫖:12356
+      - 油管：全网最强白嫖:2053
+      - 🇯🇵_油管：全网最强白嫖:668
+      - 🇭🇰_油管：全网最强白嫖:52356
+      - 🇰🇷_油管：全网最强白嫖:443
+      - 🇺🇸_油管：全网最强白嫖:12356
+      - 🇨🇳_油管：全网最强白嫖:63078_2_2_2_2_2
+      - 🇺🇸_油管：全网最强白嫖:39815
+      - 🇨🇳_油管：全网最强白嫖:443_2
+      - 🇰🇷_油管：全网最强白嫖:12356_2
+      - 🇨🇳_油管：全网最强白嫖:8989
+      - 🇰🇷_油管：全网最强白嫖:80
+      - 🇺🇸_油管：全网最强白嫖:12356_2
+      - 🇯🇵_油管：全网最强白嫖:80_2
+      - 🇯🇵_油管：全网最强白嫖:668_2
+      - 🇺🇸_油管：全网最强白嫖:80_2
+      - 🇭🇰_油管：全网最强白嫖:20944
+      - 🇺🇸_油管：全网最强白嫖:52356
+      - 🇬🇧_油管：全网最强白嫖:43566
+      - 🇩🇪_油管：全网最强白嫖:26901
+      - 🇨🇳_油管：全网最强白嫖:63069_2_2_2_2
+      - 🇨🇳_油管：全网最强白嫖:50206
+      - 油管：全网最强白嫖:80
+      - 🇭🇰_油管：全网最强白嫖:46600
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
