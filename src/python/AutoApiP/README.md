@@ -16,7 +16,8 @@ AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~
 ## 说明
 
 - E5自动续期程序，但是**不保证续期**
-- 设置了**周六日(UTC时间)不启动**自动调用，周1-5每6小时自动启动一次 （修改看教程）
+- 设置了**周六日(UTC时间)不启动**自动调用，周1-5每6小时自动启动一次
+  （修改看教程）
 
 ### 相关
 
@@ -50,7 +51,8 @@ AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApiP/creatapp.png)
 
-  - 2）填入名字，受支持账户类型前三任选，重定向填入 http://localhost:53682/ ，点击**注册**
+  - 2）填入名字，受支持账户类型前三任选，重定向填入 http://localhost:53682/
+    ，点击**注册**
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApiP/creatapp2.png)
 
@@ -60,8 +62,9 @@ AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApiP/creatapp4.png)
 
-  - 4）点击左边管理的**API权限**，点击+**添加权限**，点击常用Microsoft API里的**Microsoft
-    Graph**(就是那个蓝色水晶)， 点击**委托的权限**，然后在下面的条例选中下列需要的权限，最后点击底部**添加权限**
+  - 4）点击左边管理的**API权限**，点击+**添加权限**，点击常用Microsoft
+    API里的**Microsoft Graph**(就是那个蓝色水晶)，
+    点击**委托的权限**，然后在下面的条例选中下列需要的权限，最后点击底部**添加权限**
 
   **赋予api权限的时候，选择以下几个（全选Read也行）**
 
@@ -91,7 +94,8 @@ AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~
 
         ./rclone authorize "onedrive" "应用程序(客户端)ID" "应用程序密码"
 
-  - 2）在那一串东西里找到 "refresh_token"：" ，从双引号开始选中到 ","expiry":2021
+  - 2）在那一串东西里找到 "refresh_token"：" ，从双引号开始选中到
+    ","expiry":2021
     为止（就是refresh_token后面双引号里那一串，不要双引号），如下图，右键复制保存（**获得了微软密钥**）
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/token地方.png)
@@ -108,8 +112,8 @@ AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~
 
 - **第二步，新建github密钥**
 
-  - 1）进入你的个人设置页面 (右上角头像 Settings，不是仓库里的 Settings)，选择 Developer settings ->
-    Personal access tokens -> Generate new token
+  - 1）进入你的个人设置页面 (右上角头像 Settings，不是仓库里的 Settings)，选择
+    Developer settings -> Personal access tokens -> Generate new token
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApi/Settings.png)
 
@@ -122,8 +126,8 @@ AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~
 
 - **第三步，新建secret**
 
-  - 1）依次点击页面上栏右边的 Setting -> 左栏 Secrets -> 右上 New repository secret，新建4个secret：
-    **GH_TOKEN、MS_TOKEN、CLIENT_ID、CLIENT_SECRET**
+  - 1）依次点击页面上栏右边的 Setting -> 左栏 Secrets -> 右上 New repository
+    secret，新建4个secret： **GH_TOKEN、MS_TOKEN、CLIENT_ID、CLIENT_SECRET**
 
   ![image](https://github.com/wangziyingwen/ImageHosting/blob/master/AutoApiP/setting.png)
 
@@ -152,16 +156,19 @@ AutoApi系列：~~AutoApi(v1.0)~~、~~AutoApiSecret(v2.0)~~、~~AutoApiSR(v3.0)~
 
 #### 试运行
 
-- 1）点击上栏中间的Action进入运行日志页面，中间应该有个绿色按钮（I understand my workflow...），点击。
+- 1）点击上栏中间的Action进入运行日志页面，中间应该有个绿色按钮（I understand my
+  workflow...），点击。
 
-自动刷新后，会看到左边有两个流程，一个Auto Api Pro，一个Update Token （这两个流程名字前面应该是有两个黄色感叹号的）。
-分别点进去，然后会看到有个黄条（this schedule was disabled......），点击 enable workflow
-按钮，**两个流程都要按这个！**
+自动刷新后，会看到左边有两个流程，一个Auto Api Pro，一个Update Token
+（这两个流程名字前面应该是有两个黄色感叹号的）。
+分别点进去，然后会看到有个黄条（this schedule was disabled......），点击 enable
+workflow 按钮，**两个流程都要按这个！**
 
-（不确定是否都需要进行这一步，我自己做视频教程的时候发现有的。如果你没有，直接忽略并往下进行，能正常运行就可以了 ）
+（不确定是否都需要进行这一步，我自己做视频教程的时候发现有的。如果你没有，直接忽略并往下进行，能正常运行就可以了
+）
 
-- 2）点击两次右上角的星星（star，就是fork按钮的隔壁）启动action，再点击上面的Action选择Auto Api Pro流程 -> build
-  -> runapi 就能看到每次的运行日志，看看运行状况
+- 2）点击两次右上角的星星（star，就是fork按钮的隔壁）启动action，再点击上面的Action选择Auto
+  Api Pro流程 -> build -> runapi 就能看到每次的运行日志，看看运行状况
 
 （必需点进去build里面的run api看下，api有没有调用到位，有没有出错。外面的Auto
 Api打勾只能说明运行是正常的，我们还需要确认api调用成功了，就像图里的一样）
@@ -170,8 +177,8 @@ Api打勾只能说明运行是正常的，我们还需要确认api调用成功�
 
 - 3）再点两次星星，查看是否能再次成功运行
 
-  然后点击Action里的 update token 流程 -> build -> update token ，日志里显示“微软密钥上传成功”。
-  同时，依次点击页面上栏右边的 Setting -> 左栏
+  然后点击Action里的 update token 流程 -> build -> update token
+  ，日志里显示“微软密钥上传成功”。 同时，依次点击页面上栏右边的 Setting -> 左栏
   Secrets（也就是Github方面准备的第三步的secret页面），应该能看到MS_TOKEN显示刚刚update了
 
   （这一步是为了保证重新上传到secret的token是正确的）
